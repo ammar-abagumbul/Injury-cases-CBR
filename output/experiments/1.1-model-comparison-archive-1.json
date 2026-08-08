@@ -1,0 +1,85 @@
+{
+  "experiment_id": "1.1-model-comparison",
+  "summary": {
+    "experiment_id": "1.1-model-comparison",
+    "total_runs": 6,
+    "successful": 6,
+    "failed": 0,
+    "total_duration_ms": 108103.45316724852,
+    "total_tokens": 35201
+  },
+  "runs": [
+    {
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "strategy": "single-pass",
+      "prompt_style": "zero-shot",
+      "case_file": "HKCFI_2016_1008.html.txt",
+      "success": true,
+      "duration_ms": 14422.898000106215,
+      "token_count": 7010,
+      "error": null,
+      "case_json": null
+    },
+    {
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "strategy": "single-pass",
+      "prompt_style": "zero-shot",
+      "case_file": "HKCFI_2016_1322.html.txt",
+      "success": true,
+      "duration_ms": 23817.90279224515,
+      "token_count": 5608,
+      "error": null,
+      "case_json": null
+    },
+    {
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "strategy": "single-pass",
+      "prompt_style": "zero-shot",
+      "case_file": "HKCFI_2016_1444.html.txt",
+      "success": true,
+      "duration_ms": 8335.180249996483,
+      "token_count": 2459,
+      "error": null,
+      "case_json": null
+    },
+    {
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "strategy": "single-pass",
+      "prompt_style": "zero-shot",
+      "case_file": "HKDC_2019_546.html.txt",
+      "success": true,
+      "duration_ms": 13161.038666963577,
+      "token_count": 7460,
+      "error": null,
+      "case_json": null
+    },
+    {
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "strategy": "single-pass",
+      "prompt_style": "zero-shot",
+      "case_file": "HKDC_2019_592.html.txt",
+      "success": true,
+      "duration_ms": 26468.65608310327,
+      "token_count": 5244,
+      "error": null,
+      "case_json": null
+    },
+    {
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "strategy": "single-pass",
+      "prompt_style": "zero-shot",
+      "case_file": "HKDC_2019_657.html.txt",
+      "success": true,
+      "duration_ms": 21897.777374833822,
+      "token_count": 7420,
+      "error": null,
+      "case_json": null
+    }
+  ]
+}

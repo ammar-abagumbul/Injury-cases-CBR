@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "",
+    "action_number": "",
+    "case_name": "",
+    "judgment_date": null,
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "description": "left leg fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg"
+      },
+      {
+        "description": "contusion injury of both shoulders with soft tissue involvement",
+        "injury_type": "Temporary injury",
+        "body_part": "both shoulders"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "left leg numbness, stiffness and pain; unable to walk for a long period of time, difficulty in squatting and could only walk on stairs slowly; the pain extends to the left knee",
+        "present": true
+      },
+      {
+        "category": "Loss of social life",
+        "description": "such disabilities have affected the plaintiff’s temper and social life in a negative way",
+        "present": true
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "presence of the multiple surgical scars at the left leg which included 6 scars at the shin and anterior knee, including a 3 cm scar at anterior knee and a 7 cm scar at distal shin",
+        "present": true
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "left leg fracture and contusion injury of both shoulders",
+        "present": true
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "reduced efficiency and capacity on prolonged driving and heavy object lifting and carrying",
+        "present": true
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "endurance on prolonged walking, standing, squatting and heavy manual work etc could be adversely affected",
+        "present": true
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "injury_loss_relations": [
+    {
+      "injury": "left leg fracture",
+      "loss": "Loss of mobility",
+      "evidence": [
+        "paragraph 28(a)"
+      ]
+    },
+    {
+      "injury": "left leg fracture",
+      "loss": "Loss of congenial employment",
+      "evidence": [
+        "paragraph 29(g)"
+      ]
+    },
+    {
+      "injury": "left leg fracture",
+      "loss": "Loss of ability to engage in sports and hobbies",
+      "evidence": [
+        "paragraph 29(h)"
+      ]
+    },
+    {
+      "injury": "contusion injury of both shoulders with soft tissue involvement",
+      "loss": "Loss of mobility",
+      "evidence": [
+        "paragraph 28(a)"
+      ]
+    },
+    {
+      "injury": "contusion injury of both shoulders with soft tissue involvement",
+      "loss": "Loss of bodily integrity",
+      "evidence": [
+        "paragraph 29(a)"
+      ]
+    },
+    {
+      "injury": "left leg fracture",
+      "loss": "Loss from scarring or disfigurement",
+      "evidence": [
+        "paragraph 28(e)"
+      ]
+    },
+    {
+      "injury": "left leg fracture",
+      "loss": "Loss of social life",
+      "evidence": [
+        "paragraph 28(d)"
+      ]
+    }
+  ]
+}

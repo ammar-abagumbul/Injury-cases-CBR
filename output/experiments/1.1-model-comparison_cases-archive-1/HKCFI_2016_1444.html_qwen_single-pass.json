@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "neutral_citation": "",
+    "action_number": "",
+    "case_name": "",
+    "judgment_date": null,
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "description": "1 cm laceration on the top of the head",
+        "injury_type": "Other injury",
+        "body_part": "head"
+      },
+      {
+        "description": "mild head injury with no radiological evidence of any skull fracture or parenchymal brain damage",
+        "injury_type": "Other injury",
+        "body_part": "head"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "post-concussional syndrome",
+        "present": true
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Dysthymic Disorder",
+        "present": true
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "adjustment disorder",
+        "present": true
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "injury_loss_relations": [
+    {
+      "injury": "1 cm laceration on the top of the head",
+      "loss": "Loss of mental ability",
+      "evidence": [
+        "paragraph 11"
+      ]
+    },
+    {
+      "injury": "mild head injury with no radiological evidence of any skull fracture or parenchymal brain damage",
+      "loss": "Loss of mental ability",
+      "evidence": [
+        "paragraph 13"
+      ]
+    }
+  ]
+}
