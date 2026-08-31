@@ -1,0 +1,96 @@
+================================================================================
+EVALUATION REPORT: 0_2
+Timestamp: 2026-08-28T10:41:58.887474
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Overall Score:  0.674  (item-weighted)
+  Field Score:    0.887  (flat average)
+  Pass Rate: 85.3%
+  Evaluated: 34 fields (29 passed, 5 failed)
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 149
+  Required Keys: 8
+  Optional Keys: 58
+  By Type: anyof: 37, array: 8, boolean: 2, integer: 14, null: 37, number: 5, object: 13, string: 33
+
+COVERAGE
+----------------------------------------
+  Present in Both: 52
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 33.3% (2/6)
+  boolean_exact: 100.0% (1/1)
+  number_exact: 100.0% (12/12)
+  number_tolerance: 100.0% (1/1)
+  string_exact: 100.0% (5/5)
+  string_fuzzy: 100.0% (1/1)
+  string_semantic: 87.5% (7/8)
+
+LLM METRICS
+----------------------------------------
+  Calls: 14
+  Avg Score: 0.725
+  Median Score: 0.950
+
+  Top Lowest-Scoring Fields:
+    - treatment.treatments_future (array_llm): 0.000
+      Reason: The gold array contains one item describing a need for lifelong care and attention (including a clai...
+    - injuries.injuries (array_llm): 0.000
+      Reason: Arrays treated as unordered. For a predicted item to be a TRUE MATCH with a gold item every field mu...
+    - injuries.manifestations (array_llm): 0.308
+      Reason: I used a conservative exact-string matching policy for every field (description, manifestation_type,...
+    - psla.comparable_cases (array_llm): 0.500
+      Reason: I treated fields conservatively: textual fields (case_name, neutral_citation, action_number, etc.) r...
+    - losses.losses (string_semantic): 0.570
+      Reason: Predicted output covers 4 of 6 gold categories but omits a distinct "Loss of bodily integrity" entry...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 5
+  By Path Prefix:
+    injuries: 2
+    treatment: 1
+    losses: 1
+    psla: 1
+
+ARRAY BREAKDOWN
+----------------------------------------
+  treatment.treatments_future [FAIL] score=0.000
+    Items: 0 matched, 1 missed, 2 spurious
+    P=0.000  R=0.000  F1=0.000
+  treatment.treatments_received [PASS] score=0.875
+    Items: 7 matched, 1 missed, 0 spurious
+    P=1.000  R=0.875  F1=0.933
+  injuries.injuries [FAIL] score=0.000
+    Items: 0 matched, 7 missed, 2 spurious
+    P=0.000  R=0.000  F1=0.000
+  psla.comparable_cases [FAIL] score=0.500
+    Items: 1 matched, 1 missed, 4 spurious
+    P=0.200  R=0.500  F1=0.286
+  injuries.manifestations [FAIL] score=0.308
+    Items: 4 matched, 9 missed, 6 spurious
+    P=0.400  R=0.308  F1=0.348
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  treatment.treatments_future
+    Metric: array_llm, Score: 0.000
+  losses.losses
+    Metric: string_semantic, Score: 0.570
+  injuries.injuries
+    Metric: array_llm, Score: 0.000
+  psla.comparable_cases
+    Metric: array_llm, Score: 0.500
+  injuries.manifestations
+    Metric: array_llm, Score: 0.308
+
+================================================================================

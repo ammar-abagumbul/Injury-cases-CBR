@@ -1,0 +1,98 @@
+================================================================================
+EVALUATION REPORT: 1_2
+Timestamp: 2026-08-28T10:42:32.765157
+================================================================================
+
+OVERALL RESULTS
+----------------------------------------
+  Overall Score:  0.732  (item-weighted)
+  Field Score:    0.876  (flat average)
+  Pass Rate: 82.4%
+  Evaluated: 34 fields (28 passed, 6 failed)
+
+SCHEMA STATISTICS
+----------------------------------------
+  Total Nodes: 149
+  Required Keys: 8
+  Optional Keys: 58
+  By Type: anyof: 37, array: 8, boolean: 2, integer: 14, null: 37, number: 5, object: 13, string: 33
+
+COVERAGE
+----------------------------------------
+  Present in Both: 52
+  Missing in Extracted: 0
+  Spurious in Extracted: 0
+  Required Missing: 0
+
+PASS RATE BY METRIC
+----------------------------------------
+  array_llm: 33.3% (2/6)
+  boolean_exact: 100.0% (1/1)
+  number_exact: 100.0% (12/12)
+  number_tolerance: 100.0% (1/1)
+  string_exact: 80.0% (4/5)
+  string_fuzzy: 100.0% (1/1)
+  string_semantic: 87.5% (7/8)
+
+LLM METRICS
+----------------------------------------
+  Calls: 14
+  Avg Score: 0.771
+  Median Score: 1.000
+
+  Top Lowest-Scoring Fields:
+    - treatment.treatments_future (array_llm): 0.000
+    - injuries.injuries (array_llm): 0.000
+      Reason: No predicted item could be paired to any gold item such that EVERY field met the (conservative) per-...
+    - losses.losses (string_semantic): 0.580
+      Reason: Evaluation by gold items (6 total):
+- Loss of congenial employment: Predicted matches core meaning (...
+    - injuries.manifestations (array_llm): 0.600
+      Reason: I treated the array as unordered. For evaluation I applied conservative, per-field rules: descriptio...
+    - treatment.treatments_received (array_llm): 0.667
+      Reason: I treated the arrays as unordered and applied a conservative, semantic string match rule: a predicte...
+
+ERROR BREAKDOWN
+----------------------------------------
+  By Reason:
+    semantic_mismatch: 5
+    gold_absent: 1
+  By Path Prefix:
+    treatment: 2
+    injuries: 2
+    plaintiff: 1
+    losses: 1
+
+ARRAY BREAKDOWN
+----------------------------------------
+  psla.comparable_cases [PASS] score=1.000
+    Items: 2 matched, 0 missed, 3 spurious
+    P=0.400  R=1.000  F1=0.571
+  treatment.treatments_received [FAIL] score=0.667
+    Items: 4 matched, 2 missed, 3 spurious
+    P=0.571  R=0.667  F1=0.615
+  injuries.injuries [FAIL] score=0.000
+    Items: 0 matched, 6 missed, 2 spurious
+    P=0.000  R=0.000  F1=0.000
+  injuries.manifestations [FAIL] score=0.600
+    Items: 6 matched, 4 missed, 4 spurious
+    P=0.600  R=0.600  F1=0.600
+
+FAILED FIELDS (first 10)
+----------------------------------------
+  plaintiff.gender
+    Metric: string_exact, Score: 0.000
+    Reason: gold_null
+  treatment.treatments_future
+    Metric: array_llm, Score: 0.000
+    Reason: gold_empty_array
+  losses.losses
+    Metric: string_semantic, Score: 0.580
+  treatment.treatments_received
+    Metric: array_llm, Score: 0.667
+  injuries.injuries
+    Metric: array_llm, Score: 0.000
+  injuries.manifestations
+    Metric: array_llm, Score: 0.600
+
+================================================================================

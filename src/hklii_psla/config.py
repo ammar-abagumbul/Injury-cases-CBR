@@ -21,18 +21,23 @@ class Settings(BaseSettings):
     )
 
     # ------------------------------------------------------------------
-    # API Keys
+    # Keys and credentials
     # ------------------------------------------------------------------
     OPENROUTER_API_KEY: str = ""
+    AZURE_OPENAI_API_KEY: str = ""
+    AZURE_OPENAI_ENDPOINT: str = ""
+    AZURE_OPENAI_API_VERSION: str = "2024-05-01-preview"
 
     # ------------------------------------------------------------------
     # Model identifiers
     # ------------------------------------------------------------------
-    OPENROUTER_DEEPSEEK_MODEL: str = "deepseek/deepseek-v4-flash"
+    OPENROUTER_DEEPSEEK_MODEL: str = "deepseek/deepseek-v4-pro"
     OPENROUTER_QWEN_MODEL: str = "qwen/qwen3-32b"
     OPENROUTER_GLM_MODEL: str = "z-ai/glm-4.5"
     OPENROUTER_KIMI_MODEL: str = "moonshotai/kimi-k2"
     OPENROUTER_MINIMAX_MODEL: str = "minimax/minimax-m1"
+    AZURE_OPENAI_DEPLOYMENT_NAME: str = "gpt-5-mini"
+
 
     OLLAMA_MODEL: str = ""
 
@@ -40,9 +45,10 @@ class Settings(BaseSettings):
     # Paths
     # ------------------------------------------------------------------
     DATA_DIR: Path = Path("data")
-    SAMPLE_DIR: Path = Path("sample_cases")
+    SAMPLE_DIR: Path = Path("reprocess")
     BENCHMARK_DIR: Path = Path("benchmark")
-    OUTPUT_DIR: Path = Path("output")
+    # OUTPUT_DIR: Path = Path("output")
+    OUTPUT_DIR: Path = Path("judgement_extractions")
 
     # ------------------------------------------------------------------
     # Extraction defaults

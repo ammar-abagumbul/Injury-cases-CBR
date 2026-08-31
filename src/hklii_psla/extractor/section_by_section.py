@@ -15,8 +15,8 @@ from typing import Any, cast
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from hklii_psla.extractor.base import BaseExtractor, ExtractionResult
-from hklii_psla.extractor.single_pass import _estimate_tokens
+from hklii_psla.extractor.base import BaseExtractor, ExtractionResult, TokenCount
+from hklii_psla.extractor.single_pass import extract_token_counts
 from hklii_psla.schemas import (
     ALL_LOSS_CATEGORIES,
     CaseMetadata,
@@ -179,7 +179,7 @@ class SectionBySectionExtractor(BaseExtractor):
     ) -> ExtractionResult:
         model_name = self.model_name or getattr(self.model, "model_name", "unknown")
         t0 = time.perf_counter()
-        total_tokens = 0
+        total_tc = TokenCount()
 
         combined_text = judgment_text
 
@@ -198,13 +198,13 @@ class SectionBySectionExtractor(BaseExtractor):
             )
 
             try:
-                structured = self.model.with_structured_output(pydantic_model)
-                extracted = structured.invoke([
+                structured = self.model.with_structured_output(pydantic_model, include_raw=True)
+                result = structured.invoke([
                     SystemMessage(content=system_prompt),
                     HumanMessage(content=user_prompt),
                 ])
-                results[section_key] = extracted
-                total_tokens += _estimate_tokens(system_prompt) + _estimate_tokens(user_prompt)
+                results[section_key] = result["parsed"]
+                total_tc = total_tc + _extract_token_counts(result)
             except Exception as e:
                 errors.append(f"{section_key}: {e}")
 
@@ -222,7 +222,7 @@ class SectionBySectionExtractor(BaseExtractor):
                 model_name=model_name,
                 prompt_style=prompt_style,
                 duration_ms=duration_ms,
-                token_count=total_tokens,
+                token_count=total_tc,
                 error=f"Merge validation failed: {e}",
             )
 
@@ -232,7 +232,7 @@ class SectionBySectionExtractor(BaseExtractor):
             model_name=model_name,
             prompt_style=prompt_style,
             duration_ms=duration_ms,
-            token_count=total_tokens,
+            token_count=total_tc,
             error=error_str if not case else None,
         )
 

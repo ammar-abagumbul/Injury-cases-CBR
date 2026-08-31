@@ -1,0 +1,10 @@
+id: "reconciliation"
+model: "gpt"
+provider: "gpt"
+num_runs: 2
+sample_size: 3
+permutate: true
+case_files_path: "test_documents"
+eval_schema_path: "src/hklii_psla/test_schema.json"
+output_dir: "output/experiments/reconciliation"
+seed: 42

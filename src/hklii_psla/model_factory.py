@@ -22,7 +22,7 @@ def _get_openrouter_model(model: str) -> BaseChatModel:
         model=model,
         api_key=settings.OPENROUTER_API_KEY,  # type: ignore[arg-type]
         temperature=settings.DEFAULT_TEMPERATURE,
-        max_tokens=settings.DEFAULT_MAX_TOKENS,
+        # max_tokens=settings.DEFAULT_MAX_TOKENS,
     )
 
 
@@ -55,6 +55,17 @@ def get_ollama_model() -> BaseChatModel:
         temperature=settings.DEFAULT_TEMPERATURE,
     )
 
+def get_gpt_model() -> BaseChatModel:
+    from langchain_openai import AzureChatOpenAI
+
+    return AzureChatOpenAI(
+        azure_endpoint=settings.AZURE_OPENAI_ENDPOINT,
+        azure_deployment=settings.AZURE_OPENAI_DEPLOYMENT_NAME,
+        api_key=settings.AZURE_OPENAI_API_KEY,  # type: ignore
+        api_version=settings.AZURE_OPENAI_API_VERSION,
+        max_retries=1,
+    )
+
 
 # ---------------------------------------------------------------------------
 # Model registry
@@ -67,11 +78,13 @@ MODEL_FACTORIES = {
     "kimi": get_kimi_model,
     "minimax": get_minimax_model,
     "ollama": get_ollama_model,
+    "gpt": get_gpt_model,
 }
 
 MODEL_PROVIDER_NAMES = {
+    "gpt": settings.AZURE_OPENAI_DEPLOYMENT_NAME,
     # "deepseek": settings.OPENROUTER_DEEPSEEK_MODEL,
-    "qwen": settings.OPENROUTER_QWEN_MODEL,
+    # "qwen": settings.OPENROUTER_QWEN_MODEL,
     # "glm": settings.OPENROUTER_GLM_MODEL,
     # "kimi": settings.OPENROUTER_KIMI_MODEL,
     # "minimax": settings.OPENROUTER_MINIMAX_MODEL,
@@ -98,7 +111,7 @@ def create_model(model_family: str) -> BaseChatModel:
 
     if factory is None:
         raise ValueError(
-            f"Unknown model family: {model_family}. "
+            f"Unknown model family: {model_family}. " +
             f"Available: {list(MODEL_FACTORIES.keys())}"
         )
 

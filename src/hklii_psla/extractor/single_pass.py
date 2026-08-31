@@ -2,90 +2,173 @@
 Single-pass extraction strategy.
 
 The entire judgment is passed to the LLM in a single call.
-Uses ``with_structured_output(Case)`` so the model returns a Pydantic object directly.
+Uses `with_structured_output(Case, include_raw=True)` so that parsing
+failures can be inspected without losing the raw model response.
+
+After successful Stage 1 extraction, an optional Stage 2 classifies each
+extracted injury with an ICD-11 code by interactively navigating the
+ICD-11 taxonomy tree.
 """
 
 from __future__ import annotations
 
 import time
-
 from typing import Any
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
+from hklii_psla.config import settings
 from hklii_psla.extractor.base import (
     BaseExtractor,
     ExtractionResult,
     SYSTEM_PROMPT_BASE,
+    TokenCount,
 )
-from hklii_psla.schemas import Case
+from hklii_psla.extractor.icd_classifier import (
+    ICDClassificationError,
+    classify_injuries,
+    load_icd_tree,
+)
+from hklii_psla.extractor.utils import (
+    build_structured_output_error,
+    extract_token_counts,
+)
+from hklii_psla.schemas import Case, Injury
+
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class SinglePassExtractor(BaseExtractor):
-    """Extract all features from the judgment in a single LLM call."""
+    """
+    Extract all features from the judgment in a single LLM call,
+    then optionally classify injuries with ICD-11 codes.
+    """
 
     def extract(
         self,
         judgment_text: str,
         prompt_style: str = "zero-shot",
     ) -> ExtractionResult:
-        model_name = self.model_name or getattr(self.model, "model_name", "unknown")
+        # Stage 1: structured extraction
+        result = self._stage1_extract(judgment_text, prompt_style)
+
+        if not result.success or not result.case:
+            return result
+
+        injuries = result.case.injuries.injuries
+
+        if not injuries:
+            return result
+
+        # Stage 2: ICD-11 classification
+        try:
+            classified_injuries, stage2_tc = self._stage2_classify(injuries)
+            result.case.injuries.injuries = classified_injuries
+            result.token_count = result.token_count + stage2_tc
+        except ICDClassificationError as exc:
+            result.error = (
+                f"Stage 2 ICD-11 classification failed: {exc}"
+            )
+
+        return result
+
+    def _stage1_extract(
+        self,
+        judgment_text: str,
+        prompt_style: str = "zero-shot",
+    ) -> ExtractionResult:
+        model_name = self.model_name or getattr(
+            self.model,
+            "model_name",
+            "unknown",
+        )
+
         t0 = time.perf_counter()
 
         user_prompt = self._build_user_prompt(judgment_text)
 
-        # Truncate if needed (most models have context limits)
-        max_input = 120_000  # safe upper bound for most models
+        # Truncate if needed.
+        max_input = 120_000
+        result: Any = None
+
         if len(user_prompt) > max_input:
-            user_prompt = user_prompt[:max_input] + "\n\n[JUDGMENT TRUNCATED DUE TO LENGTH]"
+            user_prompt = (
+                user_prompt[:max_input]
+                + "\n\n[JUDGMENT TRUNCATED DUE TO LENGTH]"
+            )
 
         try:
-            structured_model = self._case_extractor()
-            result: Any = structured_model.invoke([
+            structured_model = self._case_extractor(include_raw=True)
+
+            result = structured_model.invoke([
                 SystemMessage(content=SYSTEM_PROMPT_BASE),
                 HumanMessage(content=user_prompt),
             ])
-            case: Case = result
-            token_count = _estimate_tokens(SYSTEM_PROMPT_BASE) + _estimate_tokens(user_prompt)
+
+        except Exception as exc:
+            # The model/API/invocation itself failed.
             duration_ms = (time.perf_counter() - t0) * 1000
-            return ExtractionResult(
-                case=case,
-                raw_response=None,  # structured output doesn't return raw text
-                model_name=model_name,
-                prompt_style=prompt_style,
-                duration_ms=duration_ms,
-                token_count=token_count,
-            )
-        except Exception as e:
-            duration_ms = (time.perf_counter() - t0) * 1000
-            print(e)
+            error = str(exc)
+            logger.error(f"API invocation failed: {exc}")
+
             return ExtractionResult(
                 case=None,
                 model_name=model_name,
                 prompt_style=prompt_style,
                 duration_ms=duration_ms,
-                error=str(e),
+                error=error,
+                debug=str(result)
             )
 
+        duration_ms = (time.perf_counter() - t0) * 1000
+        token_count = extract_token_counts(result)
 
-# ---------------------------------------------------------------------------
-# Shared utilities
-# ---------------------------------------------------------------------------
+        case = result.get("parsed")
 
-def _get_content(response) -> str:
-    """Extract string content from a LangChain message response."""
-    if hasattr(response, "content"):
-        content = response.content
-        if isinstance(content, list):
-            # Some models return a list of content blocks
-            return "".join(
-                block.get("text", "") if isinstance(block, dict) else str(block)
-                for block in content
+        if isinstance(case, Case):
+            return ExtractionResult(
+                case=case,
+                raw_response=None,
+                model_name=model_name,
+                prompt_style=prompt_style,
+                duration_ms=duration_ms,
+                token_count=token_count,
+                error=None,
+                debug=None,
             )
-        return str(content)
-    return str(response)
 
+        # Structured-output parsing failure
+        error = build_structured_output_error(result)
 
-def _estimate_tokens(text: str) -> int:
-    """Rough token estimate: ~4 chars per token."""
-    return max(1, len(text) // 4)
+        return ExtractionResult(
+            case=None,
+            raw_response=None,
+            model_name=model_name,
+            prompt_style=prompt_style,
+            duration_ms=duration_ms,
+            token_count=token_count,
+            error=error,
+            debug=result.get('raw'),
+        )
+
+    def _stage2_classify(
+        self,
+        injuries: list[Injury],
+    ) -> tuple[list[Injury], TokenCount]:
+        """
+        Run ICD-11 classification on extracted injuries.
+
+        Returns the classified injuries and aggregate token counts
+        for all classification LLM calls.
+        """
+        icd_tree = load_icd_tree(
+            settings.DATA_DIR / "ICD-11.json"
+        )
+
+        return classify_injuries(
+            self.model,
+            injuries,
+            icd_tree,
+        )

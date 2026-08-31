@@ -8,6 +8,8 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "deepagents>=0.7.7",
     "instructor>=1.15.4",
     "langchain>=1.3.14",
     "langchain-anthropic>=1.5.4",
@@ -30,7 +32,13 @@ dependencies = [
 
 [project.scripts]
 psla = "hklii_psla.cli:main"
+judgement_retriever = "hklii_psla.judgement_retriever.cli:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.pyright]
+reportAny = "none"
+reportExplicitAny = "none"
+reportUnannotatedClassAttribute = "none"

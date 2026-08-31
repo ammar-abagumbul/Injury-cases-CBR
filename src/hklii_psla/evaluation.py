@@ -18,6 +18,7 @@ from typing import Any, Optional
 import numpy as np
 
 from hklii_psla.schemas import Case
+from hklii_psla.extractor.base import TokenCount
 
 
 # ---------------------------------------------------------------------------
@@ -57,7 +58,7 @@ class ExtractionMetrics:
 
     # Runtime
     duration_ms: float
-    token_count: int
+    token_count: TokenCount
 
     # Validation
     validation_passed: bool
@@ -347,7 +348,7 @@ def evaluate(
     predicted: Optional[Case],
     gold: Case,
     duration_ms: float = 0,
-    token_count: int = 0,
+    token_count: Optional[TokenCount] = None,
     use_extract_bench: bool = True,
 ) -> ExtractionMetrics:
     """
@@ -361,12 +362,14 @@ def evaluate(
         predicted: The extracted Case (or None if extraction failed).
         gold: The gold-standard benchmark Case.
         duration_ms: Extraction duration in milliseconds.
-        token_count: Token count for the extraction.
+        token_count: Token counts for the extraction (or None).
         use_extract_bench: Whether to attempt using extract_bench framework.
 
     Returns:
         ExtractionMetrics with per-field and aggregate scores.
     """
+    if token_count is None:
+        token_count = TokenCount()
     # Handle null prediction
     if predicted is None:
         gold_dict = _case_to_dict(gold)
@@ -618,9 +621,11 @@ def _evaluate_legacy(
     predicted: Case,
     gold: Case,
     duration_ms: float = 0,
-    token_count: int = 0,
+    token_count: Optional[TokenCount] = None,
 ) -> ExtractionMetrics:
     """Legacy manual evaluation (used as fallback)."""
+    if token_count is None:
+        token_count = TokenCount()
     pred_dict = predicted.model_dump()
     gold_dict = gold.model_dump()
 

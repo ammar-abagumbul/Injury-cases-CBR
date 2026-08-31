@@ -1,0 +1,9 @@
+id: "model-consistency"
+model: "gpt"
+provider: "gpt"
+num_runs: 3
+permutate: true
+case_files_path: "test_documents"
+eval_schema_path: "src/hklii_psla/test_schema.json"
+output_dir: "output/experiments/consistency"
+seed: 42

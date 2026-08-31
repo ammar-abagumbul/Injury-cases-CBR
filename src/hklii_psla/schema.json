@@ -1,0 +1,973 @@
+{
+  "$defs": {
+    "CaseMetadata": {
+      "description": "Top-level case identification.",
+      "properties": {
+        "neutral_citation": {
+          "default": "",
+          "description": "Neutral citation, e.g. '[2020] HKDC 1745'",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Neutral Citation",
+          "type": "string"
+        },
+        "action_number": {
+          "default": "",
+          "description": "Action number, e.g. 'DCPI 2723/2018'",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Action Number",
+          "type": "string"
+        },
+        "case_name": {
+          "default": "",
+          "description": "Case name, e.g. 'LIU WEIGUANG v. LI KENG KO AND ANOTHER'",
+          "evaluation_config": {
+            "metrics": "string_fuzzy"
+          },
+          "title": "Case Name",
+          "type": "string"
+        },
+        "judgment_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date of judgment in the format YYYY-MM-DD",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Judgment Date"
+        },
+        "plaintiff_count": {
+          "default": 1,
+          "description": "Number of plaintiffs",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Plaintiff Count",
+          "type": "integer"
+        },
+        "has_pre_existing_injuries": {
+          "default": false,
+          "description": "Whether the case involves pre-existing injuries",
+          "evaluation_config": {
+            "metrics": "boolean_exact"
+          },
+          "title": "Has Pre Existing Injuries",
+          "type": "boolean"
+        }
+      },
+      "title": "CaseMetadata",
+      "type": "object"
+    },
+    "ClinicalManifestation": {
+      "description": "A clinical symptom, sign, complaint, functional consequence, or neurological\ndeficit resulting from an injury.\n\nExamples:\n- dysphasia (consequence of brain injury)\n- radiculopathy (consequence of disc herniation)\n- reduced range of motion (consequence of fracture)\n- severe headaches, dizziness, or tinnitus",
+      "properties": {
+        "description": {
+          "description": "The symptom, sign, or functional deficit (e.g., 'Dysphasia', 'Chronic lower back pain')",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Description",
+          "type": "string"
+        },
+        "manifestation_type": {
+          "description": "Categorization of the manifestation",
+          "enum": [
+            "symptom",
+            "sign",
+            "functional_deficit",
+            "neurological_deficit"
+          ],
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Manifestation Type",
+          "type": "string"
+        },
+        "caused_by_injury_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The unique ID of the specific Injury that caused this manifestation, if identifiable from the text.",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Caused By Injury Id"
+        }
+      },
+      "required": [
+        "description",
+        "manifestation_type"
+      ],
+      "title": "ClinicalManifestation",
+      "type": "object"
+    },
+    "DeathInfo": {
+      "description": "Information about victim's death (only if applicable).",
+      "properties": {
+        "conscious_before_death": {
+          "default": false,
+          "description": "Victim was alive/conscious for some time before death",
+          "title": "Conscious Before Death",
+          "type": "boolean"
+        },
+        "hours_between_accident_and_death": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Hours Between Accident And Death"
+        },
+        "days_between_accident_and_death": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Days Between Accident And Death"
+        }
+      },
+      "title": "DeathInfo",
+      "type": "object"
+    },
+    "Gender": {
+      "enum": [
+        "Male",
+        "Female"
+      ],
+      "title": "Gender",
+      "type": "string"
+    },
+    "Injury": {
+      "description": "A specific diagnosed or documented physical injury suffered by the plaintiff.\n\nExtract only the underlying structural injury or pathological condition itself.\nDo NOT extract symptoms, signs, complaints, or functional consequences here;\nthose belong in ClinicalManifestation.\n\nExamples of injuries:\n- fracture of the distal fibula\n- torn ACL\n- cervical disc herniation\n- concussion / traumatic brain injury\n- acute traumatic subdural hemorrhage\n\nDo NOT extract here:\n- pain, tenderness, swelling, bruising, stiffness, numbness, reduced ROM, dysphasia\n\nOrder the injuries by their occurrence in the body following the order:\n    1) head\n    2) neck\n    3) thorax\n    4) abdomen, lower back, lumbar spine or pelvis\n    5) the shoulder or upper arm\n    6) the elbow or forearm\n    7) the wrist or hand\n    8) the hip or thigh\n    9) the knee or lower leg\n    10) the ankle or foot",
+      "properties": {
+        "injury_id": {
+          "description": "Generate a unique short string identifier generated during extraction following the format: 'inj_001', 'inj_002', etc... to map relationships.",
+          "evaluation_config": {
+            "metrics": "skip"
+          },
+          "title": "Injury Id",
+          "type": "string"
+        },
+        "description": {
+          "description": "Description of the injury",
+          "title": "Description",
+          "type": "string"
+        },
+        "injury_type": {
+          "$ref": "#/$defs/InjuryType",
+          "description": "Type of the injury"
+        },
+        "body_part": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Body part affected, e.g. 'left ankle'",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Body Part"
+        },
+        "laterality": {
+          "anyOf": [
+            {
+              "enum": [
+                "left",
+                "right",
+                "bilateral"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Laterality of the injury",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Laterality"
+        },
+        "icd_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ICD-11 code assigned during Stage 2 classification",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Icd Code"
+        },
+        "icd_description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ICD-11 description assigned during Stage 2 classification",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Icd Description"
+        }
+      },
+      "required": [
+        "injury_id",
+        "description",
+        "injury_type"
+      ],
+      "title": "Injury",
+      "type": "object"
+    },
+    "InjuryCategory": {
+      "enum": [
+        "Non-serious injury",
+        "Serious injury",
+        "Substantial injury",
+        "Gross disability",
+        "Disaster"
+      ],
+      "title": "InjuryCategory",
+      "type": "string"
+    },
+    "InjuryLossRelation": {
+      "description": "Explicitly supported relation between an injury and a loss.",
+      "properties": {
+        "injury": {
+          "description": "Injury description",
+          "title": "Injury",
+          "type": "string"
+        },
+        "caused_by_injury_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The unique ID of the specific Injury that caused this loss, if identifiable from the text.",
+          "title": "Caused By Injury Id"
+        },
+        "loss": {
+          "$ref": "#/$defs/LossCategory",
+          "description": "Loss category"
+        },
+        "evidence": {
+          "description": "Verbatim quotes from judgment supporting the relationship",
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "injury",
+        "loss"
+      ],
+      "title": "InjuryLossRelation",
+      "type": "object"
+    },
+    "InjurySummary": {
+      "description": "Collected injury information and their related manifestations for the case.",
+      "properties": {
+        "injuries": {
+          "evaluation_config": {
+            "metrics": "array_llm"
+          },
+          "items": {
+            "$ref": "#/$defs/Injury"
+          },
+          "title": "Injuries",
+          "type": "array"
+        },
+        "manifestations": {
+          "description": "List of symptoms and clinical consequences.",
+          "evaluation_config": {
+            "metrics": "array_llm"
+          },
+          "items": {
+            "$ref": "#/$defs/ClinicalManifestation"
+          },
+          "title": "Manifestations",
+          "type": "array"
+        },
+        "overall_category": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/InjuryCategory"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Overall injury severity category",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          }
+        }
+      },
+      "title": "InjurySummary",
+      "type": "object"
+    },
+    "InjuryType": {
+      "enum": [
+        "Permanent injury",
+        "Temporary injury",
+        "Residual disability",
+        "Other injury"
+      ],
+      "title": "InjuryType",
+      "type": "string"
+    },
+    "Loss": {
+      "description": "A single loss of amenity identified in the judgment.\n\nA loss of amenity describes a way in which the plaintiff's ability to\nenjoy life, relationships, activities, independence, or personal\nfulfilment has been reduced because of the injury.\n\nCATEGORY DEFINITIONS\n--------------------\n\nLoss of bodily integrity:\n    Loss, impairment, mutilation, or reduced function of a body part,\n    organ, eye, limb, or bodily function as a whole.\n\nLoss of the senses:\n    Loss or reduction of sight, hearing, smell, taste, or touch.\n\nLoss from scarring or disfigurement:\n    Reduced enjoyment of life caused by visible scarring, burns,\n    deformity, or disfigurement, including embarrassment,\n    self-consciousness, reduced confidence, or avoidance of activities.\n\nLoss of mobility:\n    Reduced ability to move independently, including walking,\n    climbing stairs, cycling, travelling, or moving around freely.\n\nLoss of independence:\n    Reduced ability to live or care for oneself independently, including\n    needing assistance with washing, dressing, feeding, personal care,\n    or moving safely.\n\nLoss of ability to do domestic tasks:\n    Reduced ability to perform ordinary household activities such as\n    cooking, cleaning, shopping, childcare, gardening, or home\n    maintenance.\n\nLoss of mental ability:\n    Reduced ability to use memory, concentration, reasoning,\n    understanding, intellectual ability, or mental capacity.\n\nLoss of communication ability:\n    Reduced ability to communicate or express oneself through speaking,\n    writing, reading, understanding language, or interacting effectively\n    with others.\n\nPersonality change:\n    Changes in mood, behaviour, temperament, or character that reduce\n    enjoyment of life or the ability to maintain relationships.\n\nLoss of confidence in going out in the public:\n    Reduced ability or willingness to leave home or be in public because\n    of fear, anxiety, embarrassment, or loss of confidence.\n\nLoss of ability to enjoy food and drink:\n    Reduced ability to enjoy meals because of impaired taste, digestion,\n    or inability to consume certain foods.\n\nLoss of ability to enjoy quiet or solitude:\n    Reduced ability to enjoy peace or quiet because of increased\n    sensitivity to noise or psychological distress.\n\nLoss of family life:\n    Reduced ability to enjoy ordinary family life, including family\n    activities, outings, routines, conversation, affection, or interaction.\n\nLoss of ability to participate in parenthood or grandparenthood:\n    Reduced ability to enjoy or participate in parental or grandparental\n    activities, including caring for, playing with, supporting, or\n    sharing experiences with children or grandchildren.\n\nLoss of marriage prospects:\n    Reduced prospects of marrying or forming a long-term relationship\n    because of the injury, disability, disfigurement, or its consequences.\n\nBreakdown of the family:\n    Breakdown of a marriage, partnership, cohabiting relationship, or\n    family unit caused or materially contributed to by the injury.\n\nLoss of sexual function and sexual life:\n    Reduced ability to enjoy or participate in sexual relations or\n    activities, including effects such as pain, impotence, loss of\n    libido, or psychological inhibition.\n\nLoss of ability to give birth:\n    Loss of the ability to have children because of infertility, loss of\n    reproductive capacity, or another injury-related consequence.\n\nLoss of ability to give natural childbirth:\n    Loss of the opportunity or experience of vaginal/natural childbirth\n    because injury-related consequences require intervention such as\n    caesarean delivery or otherwise prevent natural childbirth.\n\nLoss of social life:\n    Reduced ability to enjoy ordinary social interaction and\n    participation, including visiting friends, attending events,\n    restaurants, clubs, community activities, or similar activities.\n\nLoss of ability to engage in sports and hobbies:\n    Reduced ability to participate in recreational activities previously\n    enjoyed, including sports, hobbies, dancing, crafts, music, gardening,\n    driving, reading, or playing an instrument.\n\nLoss of holidays or special occasions:\n    Loss, interruption, or reduced enjoyment of holidays, trips,\n    celebrations, social events, or other anticipated occasions.\n\nLoss of congenial employment:\n    Loss of the ability to continue or pursue work that was enjoyable,\n    meaningful, rewarding, or important to the plaintiff's sense of\n    fulfilment or professional identity.\n\nLoss of ability to pursue education:\n    Reduced ability to continue studies or acquire new skills.\n\nLoss of ability to volunteer or engage in community service:\n    Reduced ability to contribute to society through charitable,\n    volunteer, or community activities.\n\nLoss of expectation of life:\n    Shortening of the plaintiff's expected lifespan as a result of the\n    injury.\n\nOther:\n    A significant loss or curtailment of the plaintiff's enjoyment of\n    life that does not fit any of the defined categories.\n\nThe categories are based on the project's Categories of Loss of\nAmenities taxonomy.",
+      "properties": {
+        "category": {
+          "$ref": "#/$defs/LossCategory",
+          "description": "Loss category name",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          }
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Specific loss or limitation supported by the judgment",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Description"
+        }
+      },
+      "required": [
+        "category"
+      ],
+      "title": "Loss",
+      "type": "object"
+    },
+    "LossCategory": {
+      "enum": [
+        "Loss of bodily integrity",
+        "Loss of the senses",
+        "Loss from scarring or disfigurement",
+        "Loss of mobility",
+        "Loss of independence",
+        "Loss of ability to do domestic tasks",
+        "Loss of mental ability",
+        "Loss of communication ability",
+        "Personality change",
+        "Loss of confidence in going out in the public",
+        "Loss of ability to enjoy food and drink",
+        "Loss of ability to enjoy quiet or solitude",
+        "Loss of family life",
+        "Loss of ability to participate in parenthood or grandparenthood",
+        "Loss of marriage prospects",
+        "Breakdown of the family",
+        "Loss of sexual function and sexual life",
+        "Loss of ability to give birth",
+        "Loss of ability to give natural childbirth",
+        "Loss of social life",
+        "Loss of ability to engage in sports and hobbies",
+        "Loss of holidays or special occasions",
+        "Loss of congenial employment",
+        "Loss of ability to pursue education",
+        "Loss of ability to volunteer or engage in community service",
+        "Loss of expectation of life",
+        "Other"
+      ],
+      "title": "LossCategory",
+      "type": "string"
+    },
+    "LossSummary": {
+      "description": "All losses identified in the case.",
+      "properties": {
+        "losses": {
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "items": {
+            "$ref": "#/$defs/Loss"
+          },
+          "title": "Losses",
+          "type": "array"
+        }
+      },
+      "title": "LossSummary",
+      "type": "object"
+    },
+    "PSLAAward": {
+      "description": "PSLA award details.",
+      "properties": {
+        "amount": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "PSLA award amount (HKD)",
+          "title": "Amount"
+        },
+        "comparable_cases": {
+          "description": "There should be at least one comparable case. Only leave empty if you are sure no comparable cases are available.",
+          "evaluation_config": {
+            "metrics": "array_llm"
+          },
+          "items": {
+            "$ref": "#/$defs/PSLAComparableCase"
+          },
+          "title": "Comparable Cases",
+          "type": "array"
+        }
+      },
+      "title": "PSLAAward",
+      "type": "object"
+    },
+    "PSLAComparableCase": {
+      "description": "A comparable case cited for PSLA benchmarking. ",
+      "properties": {
+        "case_name": {
+          "default": "",
+          "description": "Case name",
+          "evaluation_config": {
+            "metrics": "string_fuzzy"
+          },
+          "title": "Case Name",
+          "type": "string"
+        },
+        "neutral_citation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Neutral citation",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Neutral Citation"
+        },
+        "action_number": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Action number",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          },
+          "title": "Action Number"
+        },
+        "injury_description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Description of injury",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Injury Description"
+        },
+        "hospitalisation_days": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Hospitalisation Days"
+        },
+        "operations_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Operations Count"
+        },
+        "sick_leave_days": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Sick Leave Days"
+        },
+        "comparison": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PSLAComparison"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Injury severity compared to present case"
+        },
+        "psla_amount": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "PSLA award amount (HKD)",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Psla Amount"
+        }
+      },
+      "title": "PSLAComparableCase",
+      "type": "object"
+    },
+    "PSLAComparison": {
+      "enum": [
+        "more serious",
+        "similar or same",
+        "less serious"
+      ],
+      "title": "PSLAComparison",
+      "type": "string"
+    },
+    "PlaintiffBackground": {
+      "description": "Demographic and occupational profile of the plaintiff.",
+      "properties": {
+        "gender": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Gender"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Gender of the plaintiff",
+          "evaluation_config": {
+            "metrics": "string_exact"
+          }
+        },
+        "age_at_accident": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Age at time of accident",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Age At Accident"
+        },
+        "age_at_trial": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Age at time of trial / assessment",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Age At Trial"
+        },
+        "occupation_before": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Occupation before accident",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Occupation Before"
+        },
+        "occupation_after": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Occupation after accident",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Occupation After"
+        },
+        "expected_occupation_after": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expected occupation after accident",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Expected Occupation After"
+        },
+        "salary_before": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Monthly salary before accident (HKD)",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Salary Before"
+        },
+        "salary_after": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Monthly salary after accident (HKD)",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Salary After"
+        },
+        "expected_salary_after": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expected monthly salary after accident (HKD)",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Expected Salary After"
+        },
+        "education_level": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Education level of plaintiff",
+          "evaluation_config": {
+            "metrics": "string_semantic"
+          },
+          "title": "Education Level"
+        }
+      },
+      "title": "PlaintiffBackground",
+      "type": "object"
+    },
+    "Treatment": {
+      "description": "Treatment received or planned.",
+      "properties": {
+        "treatments_received": {
+          "description": "Types of treatment received, e.g. 'physiotherapy'",
+          "evaluation_config": {
+            "metrics": "array_llm"
+          },
+          "items": {
+            "type": "string"
+          },
+          "title": "Treatments Received",
+          "type": "array"
+        },
+        "treatments_future": {
+          "description": "Types of treatment to receive in future",
+          "evaluation_config": {
+            "metrics": "array_llm"
+          },
+          "items": {
+            "type": "string"
+          },
+          "title": "Treatments Future",
+          "type": "array"
+        },
+        "hospitalisation_days": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Days of hospitalisation received",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Hospitalisation Days"
+        },
+        "expected_hospitalisation_days": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expected days of hospitalisation in future",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Expected Hospitalisation Days"
+        },
+        "operations_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Number of operations received",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Operations Count"
+        },
+        "future_operations_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Number of operations expected in future",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Future Operations Count"
+        },
+        "sick_leave_days_actual": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Actual days of sick leave",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Sick Leave Days Actual"
+        },
+        "sick_leave_days_expected": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expected days of sick leave",
+          "evaluation_config": {
+            "metrics": "number_exact"
+          },
+          "title": "Sick Leave Days Expected"
+        }
+      },
+      "title": "Treatment",
+      "type": "object"
+    }
+  },
+  "description": "Complete structured representation of a personal injury case.",
+  "properties": {
+    "metadata": {
+      "$ref": "#/$defs/CaseMetadata"
+    },
+    "plaintiff": {
+      "$ref": "#/$defs/PlaintiffBackground"
+    },
+    "injuries": {
+      "$ref": "#/$defs/InjurySummary"
+    },
+    "treatment": {
+      "$ref": "#/$defs/Treatment"
+    },
+    "losses": {
+      "$ref": "#/$defs/LossSummary"
+    },
+    "psla": {
+      "$ref": "#/$defs/PSLAAward"
+    },
+    "death": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DeathInfo"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "evaluation_config": {
+        "metrics": "skip"
+      }
+    },
+    "injury_loss_relations": {
+      "evaluation_config": {
+        "metrics": "skip"
+      },
+      "items": {
+        "$ref": "#/$defs/InjuryLossRelation"
+      },
+      "title": "Injury Loss Relations",
+      "type": "array"
+    }
+  },
+  "title": "Case",
+  "type": "object"
+}

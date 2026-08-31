@@ -1,0 +1,1354 @@
+{
+  "output_name": "0_2",
+  "timestamp": "2026-08-28T10:41:58.887474",
+  "schema_hash": "ecaa04c0",
+  "gold_hash": "3bdf9b33",
+  "extracted_hash": "91c3a05e",
+  "schema_stats": {
+    "total_nodes": 149,
+    "counts_by_type": {
+      "object": 13,
+      "string": 33,
+      "anyof": 37,
+      "null": 37,
+      "integer": 14,
+      "boolean": 2,
+      "number": 5,
+      "array": 8
+    },
+    "required_keys_count": 8,
+    "optional_keys_count": 58,
+    "required_by_type": {
+      "string": 8
+    },
+    "optional_by_type": {
+      "object": 6,
+      "string": 4,
+      "anyof": 37,
+      "integer": 1,
+      "boolean": 2,
+      "array": 8
+    }
+  },
+  "gold_stats": {
+    "label": "gold",
+    "total_keys": 187,
+    "counts_by_type": {
+      "object": 6,
+      "string": 129,
+      "integer": 4,
+      "boolean": 1,
+      "null": 30,
+      "number": 4,
+      "array": 13
+    },
+    "array_stats": {
+      "array_field_count": 13,
+      "total_items": 51,
+      "min_length": 1,
+      "median_length": 2,
+      "max_length": 13
+    },
+    "null_count": 30,
+    "missing_count": 0
+  },
+  "extracted_stats": {
+    "label": "extracted",
+    "total_keys": 153,
+    "counts_by_type": {
+      "object": 6,
+      "string": 82,
+      "integer": 4,
+      "boolean": 1,
+      "null": 42,
+      "number": 7,
+      "array": 11
+    },
+    "array_stats": {
+      "array_field_count": 11,
+      "total_items": 38,
+      "min_length": 1,
+      "median_length": 2,
+      "max_length": 10
+    },
+    "null_count": 42,
+    "missing_count": 0
+  },
+  "coverage": {
+    "present_in_both": 52,
+    "missing_in_extracted": 0,
+    "spurious_in_extracted": 0,
+    "required_missing": 0,
+    "missing_paths": [],
+    "spurious_paths": []
+  },
+  "outcomes": {
+    "total_evaluated": 34,
+    "total_passed": 29,
+    "total_failed": 5,
+    "pass_rate": 0.8529411764705882,
+    "pass_by_metric": {
+      "string_exact": {
+        "passed": 5,
+        "failed": 0
+      },
+      "string_fuzzy": {
+        "passed": 1,
+        "failed": 0
+      },
+      "number_exact": {
+        "passed": 12,
+        "failed": 0
+      },
+      "boolean_exact": {
+        "passed": 1,
+        "failed": 0
+      },
+      "string_semantic": {
+        "passed": 7,
+        "failed": 1
+      },
+      "number_tolerance": {
+        "passed": 1,
+        "failed": 0
+      },
+      "array_llm": {
+        "passed": 2,
+        "failed": 4
+      }
+    },
+    "pass_by_type": {
+      "string": {
+        "passed": 13,
+        "failed": 1
+      },
+      "number": {
+        "passed": 13,
+        "failed": 0
+      },
+      "boolean": {
+        "passed": 1,
+        "failed": 0
+      },
+      "array": {
+        "passed": 2,
+        "failed": 4
+      }
+    },
+    "pass_by_required": {
+      "optional": {
+        "passed": 29,
+        "failed": 5
+      }
+    },
+    "confusion": {
+      "true_positive": 15,
+      "false_positive": 0,
+      "false_negative": 5,
+      "true_negative": 14
+    },
+    "llm_stats": {
+      "call_count": 14,
+      "avg_score": 0.7251923076923077,
+      "median_score": 0.95,
+      "score_distribution": {
+        "0.8-1.0": 9,
+        "0.0-0.2": 2,
+        "0.4-0.6": 2,
+        "0.2-0.4": 1
+      },
+      "top_lowest_fields": [
+        {
+          "path": "treatment.treatments_future",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": "The gold array contains one item describing a need for lifelong care and attention (including a claimed cost for hiring a domestic helper). The predicted array contains two items about ongoing clinical follow-up and antiepileptic medication. Under the schema (array of treatment types) and the provided string_semantic metric guidance, items must semantically match to be considered a true match. Neither predicted string conveys the same meaning as the gold item (no mention of lifelong custodial care or domestic helper costs). Because a TRUE MATCH requires every field to pass and these do not semantically match the gold item, there are no matches. Therefore the single gold item is missed and both predicted items are spurious."
+        },
+        {
+          "path": "injuries.injuries",
+          "metric_id": "array_llm",
+          "score": 0.0,
+          "reasoning": "Arrays treated as unordered. For a predicted item to be a TRUE MATCH with a gold item every field must pass its per-field check. Only predicted IDs available were inj_001 and inj_002, so only gold items with those IDs could possibly match. Evaluations: \n\n- Gold inj_001 vs Pred inj_001: injury_id matches and injury_type matches. However several fields fail exact/strict checks: description (gold: \"Severe head injury\" vs pred: expanded text including fractures, multiple haemorrhages and contusion) does not exactly match; laterality (gold null vs pred \"left\") mismatches; body_part (gold \"brain / head\" vs pred \"head / brain (left side skull fracture noted)\") is not an exact/strict match; icd_code (gold \"NA07.Z\" vs pred \"NA07.Y\") differs; source text differs in phrasing/quoting. Because one or more fields fail, the entire pair is a MISMATCH.\n\n- Gold inj_002 vs Pred inj_002: injury_id matches but nearly every other field fails. Gold description refers to left skull fractures while pred description is post-traumatic epilepsy/status epilepticus (semantic mismatch); body_part mismatch (gold \"left skull\" vs pred \"brain / neurological system\"); laterality (gold \"left\" vs pred null) mismatch; icd_code (gold \"NA02.Z\" vs pred \"8A60.5\") mismatch. Entire pair is a MISMATCH.\n\n- Predicted inj_001 contains content that overlaps multiple gold items (skull fractures, subarachnoid and subdural bleeding, contusion) but cannot be matched to those gold items because either the injury_id differs or individual fields (description, icd_code, laterality, etc.) do not meet the strict per-field matching requirement. Predicted inj_002 semantically corresponds to gold inj_006 (post-traumatic epilepsy), but its injury_id is inj_002 (not inj_006) and multiple fields differ, so it cannot be treated as a true match.\n\nResult: No gold item has a predicted counterpart that passes all per-field checks. 7 gold items remain unmatched; both predicted items are spurious."
+        },
+        {
+          "path": "injuries.manifestations",
+          "metric_id": "array_llm",
+          "score": 0.3076923076923077,
+          "reasoning": "I used a conservative exact-string matching policy for every field (description, manifestation_type, caused_by_injury_id). Per the instructions a pair is a TRUE MATCH only if every field exactly matches. Using that rule: 4 gold items exactly match predicted items (Loss of consciousness; Dysphasia (problem with language); Cognitive dysfunction (MMSE 18/30; mild to moderate dementia); Incontinence). Several items that are semantically similar did NOT match because at least one field differed exactly — e.g. the predicted \"Prolonged post‑traumatic amnesia...\" uses a different hyphen character (U+2011) so it is not an exact string match to the gold \"Prolonged post-traumatic amnesia...\"; the seizure item in the gold references caused_by_injury_id \"inj_006\" while the predicted seizure item uses \"inj_002\"; multiple gold items were split in the gold but merged in the prediction (e.g. naming difficulty, impaired expression, and impaired understanding are combined into a single predicted description) which prevents exact matching; several sign/functional descriptions differ in word order or phrasing (e.g. \"Right leg mild spasticity with heightened reflexes\" vs \"Mild spasticity of the right leg with heightened reflexes\") and therefore fail exact-string equality. Following the required matching process, each gold item was checked for at most one predicted counterpart that matched on every field; if any single field failed, the pair is treated as a mismatch. Summary counts below reflect these exact-match decisions."
+        },
+        {
+          "path": "psla.comparable_cases",
+          "metric_id": "array_llm",
+          "score": 0.5,
+          "reasoning": "I treated fields conservatively: textual fields (case_name, neutral_citation, action_number, etc.) require exact string equality (string_exact) and numeric fields (psla_amount) require exact numeric equality (number_exact). Nulls must match null. A predicted item is a TRUE MATCH with a gold item only if every field passes. Using those rules: 1) The predicted item with case_name \"Cheung Wai Ping v Chan Yuen Yee\" matches the first gold item exactly — all fields (case_name, neutral_citation null, action_number \"HCPI 668/2005\", other null fields, and psla_amount 1000000.0) are identical, so this is a true match. 2) No predicted item matches the second gold item (\"Chan Sze Ki v Department of Justice & another\", neutral citation \"[2005] 3 HKLRD 520\", psla_amount 800000.0): although one prediction has the same psla_amount (800000.0), its case_name and citation differ, so it fails the per-field exact-match requirement and therefore is not a match. All predicted items other than the matched Cheung Wai Ping entry are treated as spurious. Counts: matched = 1, missed_gold = 1, spurious_pred = 4."
+        },
+        {
+          "path": "losses.losses",
+          "metric_id": "string_semantic",
+          "score": 0.57,
+          "reasoning": "Predicted output covers 4 of 6 gold categories but omits a distinct \"Loss of bodily integrity\" entry (details of skull fractures, subarachnoid/subdural bleeding and emergency neurosurgery) and a separate \"Loss of mobility\" entry (truncal ataxia, inability to walk heel-to-toe). Matches: Loss of congenial employment is fully captured (explicit 100% loss); Loss of communication is well reflected (dysphasia, impaired expression and understanding); Loss of independence is largely matched (unable to manage affairs, not fully independent) but omits the explicit lifelong need for care; Loss of mental ability is partially matched (cognitive dysfunction noted) but lacks specific findings (MMSE 18/30, mild-to-moderate dementia, slowed comprehension). Score computed by equal weighting of the six gold categories with partial credit for incomplete matches, yielding ~0.57."
+        }
+      ]
+    },
+    "error_breakdown": {
+      "by_path_prefix": {
+        "treatment": 1,
+        "losses": 1,
+        "injuries": 2,
+        "psla": 1
+      },
+      "by_metric_type": {
+        "array_llm": 4,
+        "string_semantic": 1
+      },
+      "by_reason": {
+        "semantic_mismatch": 5
+      },
+      "details": [
+        {
+          "category": "semantic_mismatch",
+          "count": 5,
+          "paths": []
+        }
+      ]
+    }
+  },
+  "field_outcomes": [
+    {
+      "path": "$.properties.metadata.properties.neutral_citation",
+      "normalized_path": "metadata.neutral_citation",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": "[2016] HKCFI 1008",
+      "extracted_value": "[2016] HKCFI 1008",
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.metadata.properties.action_number",
+      "normalized_path": "metadata.action_number",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": "HCPI 1129/2014",
+      "extracted_value": "HCPI 1129/2014",
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.metadata.properties.case_name",
+      "normalized_path": "metadata.case_name",
+      "metric_id": "string_fuzzy",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": "wong sun cheong, suing by his next friend lee yin sheung v. choi chi kong and another",
+      "extracted_value": "wong sun cheong, suing by his next friend lee yin sheung v. choi chi kong and another",
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.metadata.properties.judgment_date",
+      "normalized_path": "metadata.judgment_date",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": "2016-06-15",
+      "extracted_value": "2016-06-15",
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.metadata.properties.plaintiff_count",
+      "normalized_path": "metadata.plaintiff_count",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": 1.0,
+      "extracted_value": 1.0,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.metadata.properties.has_pre_existing_injuries",
+      "normalized_path": "metadata.has_pre_existing_injuries",
+      "metric_id": "boolean_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": false,
+      "extracted_value": false,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.gender",
+      "normalized_path": "plaintiff.gender",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": "Male",
+      "extracted_value": "Male",
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.age_at_accident",
+      "normalized_path": "plaintiff.age_at_accident",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": 64.0,
+      "extracted_value": 64.0,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.age_at_trial",
+      "normalized_path": "plaintiff.age_at_trial",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": 69.0,
+      "extracted_value": 69.0,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.occupation_after",
+      "normalized_path": "plaintiff.occupation_after",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.expected_occupation_after",
+      "normalized_path": "plaintiff.expected_occupation_after",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.salary_before",
+      "normalized_path": "plaintiff.salary_before",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": 3490.0,
+      "extracted_value": 3490.0,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.salary_after",
+      "normalized_path": "plaintiff.salary_after",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.expected_salary_after",
+      "normalized_path": "plaintiff.expected_salary_after",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.education_level",
+      "normalized_path": "plaintiff.education_level",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.injuries.properties.overall_category",
+      "normalized_path": "injuries.overall_category",
+      "metric_id": "string_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": "Gross disability",
+      "extracted_value": "Gross disability",
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.hospitalisation_days",
+      "normalized_path": "treatment.hospitalisation_days",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.expected_hospitalisation_days",
+      "normalized_path": "treatment.expected_hospitalisation_days",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.operations_count",
+      "normalized_path": "treatment.operations_count",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": 3.0,
+      "extracted_value": 3.0,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.future_operations_count",
+      "normalized_path": "treatment.future_operations_count",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.sick_leave_days_actual",
+      "normalized_path": "treatment.sick_leave_days_actual",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.sick_leave_days_expected",
+      "normalized_path": "treatment.sick_leave_days_expected",
+      "metric_id": "number_exact",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.psla.properties.amount",
+      "normalized_path": "psla.amount",
+      "metric_id": "number_tolerance",
+      "score": 1.0,
+      "passed": true,
+      "reason": null,
+      "gold_value": 900000.0,
+      "extracted_value": 900000.0,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.injury_loss_relations.items.properties.injury",
+      "normalized_path": "injury_loss_relations.items.injury",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.injury_loss_relations.items.properties.caused_by_injury_id",
+      "normalized_path": "injury_loss_relations.items.caused_by_injury_id",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.injury_loss_relations.items.properties.loss",
+      "normalized_path": "injury_loss_relations.items.loss",
+      "metric_id": "string_semantic",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.injury_loss_relations.items.properties.evidence",
+      "normalized_path": "injury_loss_relations.items.evidence",
+      "metric_id": "array_llm",
+      "score": 1.0,
+      "passed": true,
+      "reason": "both_null",
+      "gold_value": null,
+      "extracted_value": null,
+      "reasoning": null,
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.plaintiff.properties.occupation_before",
+      "normalized_path": "plaintiff.occupation_before",
+      "metric_id": "string_semantic",
+      "score": 0.9,
+      "passed": true,
+      "reason": null,
+      "gold_value": "delivery man at Kai Ming Food Shop",
+      "extracted_value": "Delivery man at Kai Ming Food Shop; also did part‑time delivery work (soya milk and noodles)",
+      "reasoning": "The predicted string contains the exact gold content: 'delivery man at Kai Ming Food Shop'. It adds extra, unverified detail about part-time delivery work (soya milk and noodles), which is additional rather than contradicting the gold. Because the core occupation and employer match exactly, but extra info goes beyond the gold, a small penalty is applied.",
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.treatments_future",
+      "normalized_path": "treatment.treatments_future",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": [
+        "Lifelong care and attention (cost of hiring a domestic helper was claimed)"
+      ],
+      "extracted_value": [
+        "Neurosurgical follow up every 3 months",
+        "Ongoing antiepileptic medication (phenytoin) as indicated"
+      ],
+      "reasoning": "The gold array contains one item describing a need for lifelong care and attention (including a claimed cost for hiring a domestic helper). The predicted array contains two items about ongoing clinical follow-up and antiepileptic medication. Under the schema (array of treatment types) and the provided string_semantic metric guidance, items must semantically match to be considered a true match. Neither predicted string conveys the same meaning as the gold item (no mention of lifelong custodial care or domestic helper costs). Because a TRUE MATCH requires every field to pass and these do not semantically match the gold item, there are no matches. Therefore the single gold item is missed and both predicted items are spurious.",
+      "array_breakdown": {
+        "matched": 0,
+        "missed_gold": 1,
+        "spurious_pred": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched_items": [],
+        "missed_gold_items": [
+          "Lifelong care and attention (cost of hiring a domestic helper was claimed)"
+        ],
+        "spurious_pred_items": [
+          "Neurosurgical follow up every 3 months",
+          "Ongoing antiepileptic medication (phenytoin) as indicated"
+        ]
+      }
+    },
+    {
+      "path": "$.properties.losses.properties.losses",
+      "normalized_path": "losses.losses",
+      "metric_id": "string_semantic",
+      "score": 0.57,
+      "passed": false,
+      "reason": null,
+      "gold_value": [
+        {
+          "category": "Loss of bodily integrity",
+          "description": "Severe head injury with skull fractures, subarachnoid bleeding, subdural bleeding and contusion of the brain substance requiring emergency neurosurgery."
+        },
+        {
+          "category": "Loss of mental ability",
+          "description": "Cognitive dysfunction; MMSE 18/30 giving mild to moderate dementia; slowed comprehension."
+        },
+        {
+          "category": "Loss of communication ability",
+          "description": "Dysphasia: naming difficulty, impaired ability to express himself and impaired understanding of verbal communications."
+        },
+        {
+          "category": "Loss of independence",
+          "description": "Not capable of managing his own legal and financial affairs and not fully independent even inside the home; needs care and attention for the rest of his life."
+        },
+        {
+          "category": "Loss of mobility",
+          "description": "Walked stably but could not walk heel to toe and showed truncal ataxia; impaired balance."
+        },
+        {
+          "category": "Loss of congenial employment",
+          "description": "Not employable in any capacity; permanent loss of earning capacity was 100%."
+        }
+      ],
+      "extracted_value": [
+        {
+          "category": "Loss of independence",
+          "description": "\"P is not capable of managing his own legal and financial affairs and is not fully independent even inside the home.\""
+        },
+        {
+          "category": "Loss of congenial employment",
+          "description": "\"with P’s cognitive dysfunction, dysphasia, incontinence and impaired balance, P was not employable in any capacity. His permanent loss of earning capacity was 100%.\""
+        },
+        {
+          "category": "Loss of mental ability",
+          "description": "\"as a result of the severe head injury P had ... cognitive dysfunction\""
+        },
+        {
+          "category": "Loss of communication ability",
+          "description": "\"as a result of the severe head injury P had dysphasia (problem with language) ... impaired ability to express himself (often using the wrong words) as well as understanding of verbal communications.\""
+        }
+      ],
+      "reasoning": "Predicted output covers 4 of 6 gold categories but omits a distinct \"Loss of bodily integrity\" entry (details of skull fractures, subarachnoid/subdural bleeding and emergency neurosurgery) and a separate \"Loss of mobility\" entry (truncal ataxia, inability to walk heel-to-toe). Matches: Loss of congenial employment is fully captured (explicit 100% loss); Loss of communication is well reflected (dysphasia, impaired expression and understanding); Loss of independence is largely matched (unable to manage affairs, not fully independent) but omits the explicit lifelong need for care; Loss of mental ability is partially matched (cognitive dysfunction noted) but lacks specific findings (MMSE 18/30, mild-to-moderate dementia, slowed comprehension). Score computed by equal weighting of the six gold categories with partial credit for incomplete matches, yielding ~0.57.",
+      "array_breakdown": null
+    },
+    {
+      "path": "$.properties.treatment.properties.treatments_received",
+      "normalized_path": "treatment.treatments_received",
+      "metric_id": "array_llm",
+      "score": 0.875,
+      "passed": true,
+      "reason": null,
+      "gold_value": [
+        "Emergency operation to evacuate blood clots",
+        "Insertion of a ventricular drain",
+        "Second emergency operation to evacuate more blood clots",
+        "Cranioplasty to repair skull defect with a metallic prosthesis",
+        "Intubation and care in the intensive care unit",
+        "Antiepileptic drug (phenytoin) ongoing",
+        "Rehabilitation (transfer to Kowloon Hospital for rehabilitation)",
+        "Follow-up by neurosurgeons every 3 months"
+      ],
+      "extracted_value": [
+        "Emergency operation to evacuate blood clots",
+        "Insertion of a ventricular drain",
+        "Second emergency operation to evacuate more blood clots",
+        "Cranioplasty (repair skull defect with metallic prosthesis) in May 2012",
+        "Admission to intensive care unit and intubation for status epilepticus",
+        "Rehabilitation at Kowloon Hospital",
+        "Antiepileptic medication (phenytoin)"
+      ],
+      "reasoning": "I treated the arrays as unordered and applied semantic string matching (conservative meaning-level equivalence). A predicted item was counted as a true match to a gold item only when the predicted string conveyed the same treatment meaning as the gold string. Paraphrases that added non-contradictory details (e.g., a date or a cause) were accepted as matches. The only gold item with no corresponding predicted item was the scheduled neurosurgeon follow-up every 3 months. No predicted items were extra because all 7 predictions could be paired to 7 gold items.",
+      "array_breakdown": {
+        "matched": 7,
+        "missed_gold": 1,
+        "spurious_pred": 0,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333,
+        "matched_items": [
+          {
+            "gold": "Emergency operation to evacuate blood clots",
+            "predicted": "Emergency operation to evacuate blood clots"
+          },
+          {
+            "gold": "Insertion of a ventricular drain",
+            "predicted": "Insertion of a ventricular drain"
+          },
+          {
+            "gold": "Second emergency operation to evacuate more blood clots",
+            "predicted": "Second emergency operation to evacuate more blood clots"
+          },
+          {
+            "gold": "Cranioplasty to repair skull defect with a metallic prosthesis",
+            "predicted": "Cranioplasty (repair skull defect with metallic prosthesis) in May 2012"
+          },
+          {
+            "gold": "Intubation and care in the intensive care unit",
+            "predicted": "Admission to intensive care unit and intubation for status epilepticus"
+          },
+          {
+            "gold": "Antiepileptic drug (phenytoin) ongoing",
+            "predicted": "Antiepileptic medication (phenytoin)"
+          },
+          {
+            "gold": "Rehabilitation (transfer to Kowloon Hospital for rehabilitation)",
+            "predicted": "Rehabilitation at Kowloon Hospital"
+          }
+        ],
+        "missed_gold_items": [
+          "Follow-up by neurosurgeons every 3 months"
+        ],
+        "spurious_pred_items": []
+      }
+    },
+    {
+      "path": "$.properties.injuries.properties.injuries",
+      "normalized_path": "injuries.injuries",
+      "metric_id": "array_llm",
+      "score": 0.0,
+      "passed": false,
+      "reason": null,
+      "gold_value": [
+        {
+          "injury_id": "inj_001",
+          "description": "Severe head injury",
+          "injury_type": "Permanent injury",
+          "body_part": "brain / head",
+          "laterality": null,
+          "source": "P sustained severe head injuries as is borne out by the agreed medical evidence.",
+          "icd_code": "NA07.Z",
+          "icd_description": "Intracranial injury, unspecified"
+        },
+        {
+          "injury_id": "inj_002",
+          "description": "Fractures on the left side of his skull",
+          "injury_type": "Permanent injury",
+          "body_part": "left skull",
+          "laterality": "left",
+          "source": "Radiological investigations showed fractures on the left side of his skull",
+          "icd_code": "NA02.Z",
+          "icd_description": "Fracture of skull or facial bones, part unspecified"
+        },
+        {
+          "injury_id": "inj_003",
+          "description": "Subarachnoid bleeding",
+          "injury_type": "Permanent injury",
+          "body_part": "brain / intracranial",
+          "laterality": null,
+          "source": "Radiological investigations showed ... subarachnoid bleeding",
+          "icd_code": "NA07.7",
+          "icd_description": "Traumatic subarachnoid haemorrhage"
+        },
+        {
+          "injury_id": "inj_004",
+          "description": "Subdural bleeding",
+          "injury_type": "Permanent injury",
+          "body_part": "brain / intracranial",
+          "laterality": null,
+          "source": "Radiological investigations showed ... subdural bleeding",
+          "icd_code": "NA07.6Z",
+          "icd_description": "Traumatic subdural haemorrhage, unspecified whether acute or chronic"
+        },
+        {
+          "injury_id": "inj_005",
+          "description": "Contusion of the brain substance",
+          "injury_type": "Permanent injury",
+          "body_part": "brain",
+          "laterality": null,
+          "source": "Radiological investigations showed ... contusion of the brain substance.",
+          "icd_code": "NA07.4C",
+          "icd_description": "Focal brain contusion"
+        },
+        {
+          "injury_id": "inj_006",
+          "description": "Post-traumatic epilepsy (status epilepticus in August 2012)",
+          "injury_type": "Permanent injury",
+          "body_part": "neurological / brain",
+          "laterality": null,
+          "source": "In August 2012, while having lunch at home, he developed status epilepticus with refractory generalized epileptic seizures. ... he was then started on the antiepileptic drug phenytoin which he continues to take.",
+          "icd_code": "8A60.5",
+          "icd_description": "Epilepsy due to injuries to the head"
+        },
+        {
+          "injury_id": "inj_007",
+          "description": "Skull defect following craniectomy (required cranioplasty with metallic prosthesis)",
+          "injury_type": "Permanent injury",
+          "body_part": "skull",
+          "laterality": null,
+          "source": "Emergency operation was done that day to evacuate blood clots and to insert a ventricular drain. ... In May 2012, he was re-admitted to QEH for his third operation, a cranioplasty to repair the skull defect with a metallic prosthesis.",
+          "icd_code": null,
+          "icd_description": "Injuries to the head"
+        }
+      ],
+      "extracted_value": [
+        {
+          "injury_id": "inj_001",
+          "description": "Severe head injury with skull fractures and multiple intracranial haemorrhages and contusion of the brain substance",
+          "injury_type": "Permanent injury",
+          "body_part": "head / brain (left side skull fracture noted)",
+          "laterality": "left",
+          "source": "\"Radiological investigations showed fractures on the left side of his skull, subarachnoid bleeding, subdural bleeding as well as contusion of the brain substance.\"",
+          "icd_code": "NA07.Y",
+          "icd_description": "Other specified intracranial injury"
+        },
+        {
+          "injury_id": "inj_002",
+          "description": "Post‑traumatic epilepsy (status epilepticus in August 2012; on antiepileptic drug phenytoin)",
+          "injury_type": "Permanent injury",
+          "body_part": "brain / neurological system",
+          "laterality": null,
+          "source": "\"In August 2012, while having lunch at home, he developed status epilepticus with refractory generalized epileptic seizures... He was then started on the antiepileptic drug phenytoin which he continues to take.\"",
+          "icd_code": "8A60.5",
+          "icd_description": "Epilepsy due to injuries to the head"
+        }
+      ],
+      "reasoning": "Arrays treated as unordered. For a predicted item to be a TRUE MATCH with a gold item every field must pass its per-field check. Only predicted IDs available were inj_001 and inj_002, so only gold items with those IDs could possibly match. Evaluations: \n\n- Gold inj_001 vs Pred inj_001: injury_id matches and injury_type matches. However several fields fail exact/strict checks: description (gold: \"Severe head injury\" vs pred: expanded text including fractures, multiple haemorrhages and contusion) does not exactly match; laterality (gold null vs pred \"left\") mismatches; body_part (gold \"brain / head\" vs pred \"head / brain (left side skull fracture noted)\") is not an exact/strict match; icd_code (gold \"NA07.Z\" vs pred \"NA07.Y\") differs; source text differs in phrasing/quoting. Because one or more fields fail, the entire pair is a MISMATCH.\n\n- Gold inj_002 vs Pred inj_002: injury_id matches but nearly every other field fails. Gold description refers to left skull fractures while pred description is post-traumatic epilepsy/status epilepticus (semantic mismatch); body_part mismatch (gold \"left skull\" vs pred \"brain / neurological system\"); laterality (gold \"left\" vs pred null) mismatch; icd_code (gold \"NA02.Z\" vs pred \"8A60.5\") mismatch. Entire pair is a MISMATCH.\n\n- Predicted inj_001 contains content that overlaps multiple gold items (skull fractures, subarachnoid and subdural bleeding, contusion) but cannot be matched to those gold items because either the injury_id differs or individual fields (description, icd_code, laterality, etc.) do not meet the strict per-field matching requirement. Predicted inj_002 semantically corresponds to gold inj_006 (post-traumatic epilepsy), but its injury_id is inj_002 (not inj_006) and multiple fields differ, so it cannot be treated as a true match.\n\nResult: No gold item has a predicted counterpart that passes all per-field checks. 7 gold items remain unmatched; both predicted items are spurious.",
+      "array_breakdown": {
+        "matched": 0,
+        "missed_gold": 7,
+        "spurious_pred": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched_items": [],
+        "missed_gold_items": [
+          "inj_001",
+          "inj_002",
+          "inj_003",
+          "inj_004",
+          "inj_005",
+          "inj_006",
+          "inj_007"
+        ],
+        "spurious_pred_items": [
+          "inj_001",
+          "inj_002"
+        ]
+      }
+    },
+    {
+      "path": "$.properties.psla.properties.comparable_cases",
+      "normalized_path": "psla.comparable_cases",
+      "metric_id": "array_llm",
+      "score": 0.5,
+      "passed": false,
+      "reason": null,
+      "gold_value": [
+        {
+          "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+          "neutral_citation": null,
+          "action_number": "HCPI 668/2005",
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 1000000.0
+        },
+        {
+          "case_name": "Chan Sze Ki v Department of Justice & another",
+          "neutral_citation": "[2005] 3 HKLRD 520",
+          "action_number": null,
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 800000.0
+        }
+      ],
+      "extracted_value": [
+        {
+          "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+          "neutral_citation": null,
+          "action_number": "HCPI 668/2005",
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 1000000.0
+        },
+        {
+          "case_name": "Lam Mo Bun v Hong Kong Aerosol Co. Ltd & others",
+          "neutral_citation": "[2001] 1 HKLRD 540",
+          "action_number": null,
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 800000.0
+        },
+        {
+          "case_name": "Siu Leung Sing v Wong Fook Wing & another",
+          "neutral_citation": null,
+          "action_number": "HCPI 1096/1999",
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 900000.0
+        },
+        {
+          "case_name": "Law Ping Leung v Ng Sze Pong",
+          "neutral_citation": "[2009] 5 HKLRD 426",
+          "action_number": null,
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 1100000.0
+        },
+        {
+          "case_name": "Chan Yuk v Dragages et Travaux Publics (HK) Ltd & others",
+          "neutral_citation": "[2000] 2 HKLRD 795",
+          "action_number": null,
+          "injury_description": null,
+          "hospitalisation_days": null,
+          "operations_count": null,
+          "sick_leave_days": null,
+          "comparison": null,
+          "psla_amount": 1250000.0
+        }
+      ],
+      "reasoning": "I treated fields conservatively: textual fields (case_name, neutral_citation, action_number, etc.) require exact string equality (string_exact) and numeric fields (psla_amount) require exact numeric equality (number_exact). Nulls must match null. A predicted item is a TRUE MATCH with a gold item only if every field passes. Using those rules: 1) The predicted item with case_name \"Cheung Wai Ping v Chan Yuen Yee\" matches the first gold item exactly — all fields (case_name, neutral_citation null, action_number \"HCPI 668/2005\", other null fields, and psla_amount 1000000.0) are identical, so this is a true match. 2) No predicted item matches the second gold item (\"Chan Sze Ki v Department of Justice & another\", neutral citation \"[2005] 3 HKLRD 520\", psla_amount 800000.0): although one prediction has the same psla_amount (800000.0), its case_name and citation differ, so it fails the per-field exact-match requirement and therefore is not a match. All predicted items other than the matched Cheung Wai Ping entry are treated as spurious. Counts: matched = 1, missed_gold = 1, spurious_pred = 4.",
+      "array_breakdown": {
+        "matched": 1,
+        "missed_gold": 1,
+        "spurious_pred": 4,
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.28571428571428575,
+        "matched_items": [
+          {
+            "gold": {
+              "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+              "neutral_citation": null,
+              "action_number": "HCPI 668/2005",
+              "injury_description": null,
+              "hospitalisation_days": null,
+              "operations_count": null,
+              "sick_leave_days": null,
+              "comparison": null,
+              "psla_amount": 1000000.0
+            },
+            "predicted": {
+              "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+              "neutral_citation": null,
+              "action_number": "HCPI 668/2005",
+              "injury_description": null,
+              "hospitalisation_days": null,
+              "operations_count": null,
+              "sick_leave_days": null,
+              "comparison": null,
+              "psla_amount": 1000000.0
+            }
+          }
+        ],
+        "missed_gold_items": [
+          {
+            "case_name": "Chan Sze Ki v Department of Justice & another",
+            "neutral_citation": "[2005] 3 HKLRD 520",
+            "action_number": null,
+            "injury_description": null,
+            "hospitalisation_days": null,
+            "operations_count": null,
+            "sick_leave_days": null,
+            "comparison": null,
+            "psla_amount": 800000.0
+          }
+        ],
+        "spurious_pred_items": [
+          {
+            "case_name": "Lam Mo Bun v Hong Kong Aerosol Co. Ltd & others",
+            "neutral_citation": "[2001] 1 HKLRD 540",
+            "action_number": null,
+            "injury_description": null,
+            "hospitalisation_days": null,
+            "operations_count": null,
+            "sick_leave_days": null,
+            "comparison": null,
+            "psla_amount": 800000.0
+          },
+          {
+            "case_name": "Siu Leung Sing v Wong Fook Wing & another",
+            "neutral_citation": null,
+            "action_number": "HCPI 1096/1999",
+            "injury_description": null,
+            "hospitalisation_days": null,
+            "operations_count": null,
+            "sick_leave_days": null,
+            "comparison": null,
+            "psla_amount": 900000.0
+          },
+          {
+            "case_name": "Law Ping Leung v Ng Sze Pong",
+            "neutral_citation": "[2009] 5 HKLRD 426",
+            "action_number": null,
+            "injury_description": null,
+            "hospitalisation_days": null,
+            "operations_count": null,
+            "sick_leave_days": null,
+            "comparison": null,
+            "psla_amount": 1100000.0
+          },
+          {
+            "case_name": "Chan Yuk v Dragages et Travaux Publics (HK) Ltd & others",
+            "neutral_citation": "[2000] 2 HKLRD 795",
+            "action_number": null,
+            "injury_description": null,
+            "hospitalisation_days": null,
+            "operations_count": null,
+            "sick_leave_days": null,
+            "comparison": null,
+            "psla_amount": 1250000.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "$.properties.injuries.properties.manifestations",
+      "normalized_path": "injuries.manifestations",
+      "metric_id": "array_llm",
+      "score": 0.3076923076923077,
+      "passed": false,
+      "reason": null,
+      "gold_value": [
+        {
+          "description": "Loss of consciousness",
+          "manifestation_type": "symptom",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Prolonged post-traumatic amnesia (estimated as over one month)",
+          "manifestation_type": "symptom",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Dysphasia (problem with language)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Cognitive dysfunction (MMSE 18/30; mild to moderate dementia)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Epilepsy / generalized epileptic seizures (controlled with phenytoin; seizure-free since August 2012 episode)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_006"
+        },
+        {
+          "description": "Naming difficulty",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Impaired ability to express himself (often using the wrong words)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Impaired understanding of verbal communications",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Incontinence",
+          "manifestation_type": "functional_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Impaired balance / truncal ataxia; walked stably but could not walk heel to toe",
+          "manifestation_type": "functional_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Right leg mild spasticity with heightened reflexes",
+          "manifestation_type": "sign",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Not employable in any capacity (permanent loss of earning capacity 100%)",
+          "manifestation_type": "functional_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Not capable of managing his own legal and financial affairs; not fully independent even inside the home",
+          "manifestation_type": "functional_deficit",
+          "caused_by_injury_id": "inj_001"
+        }
+      ],
+      "extracted_value": [
+        {
+          "description": "Loss of consciousness",
+          "manifestation_type": "symptom",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Prolonged post‑traumatic amnesia (estimated as over one month)",
+          "manifestation_type": "symptom",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Dysphasia (problem with language)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Cognitive dysfunction (MMSE 18/30; mild to moderate dementia)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Naming difficulty; impaired ability to express himself (often using the wrong words) and impaired understanding of verbal communications",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Mild spasticity of the right leg with heightened reflexes",
+          "manifestation_type": "sign",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Truncal ataxia; unable to walk heel to toe; impaired balance",
+          "manifestation_type": "sign",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Incontinence",
+          "manifestation_type": "functional_deficit",
+          "caused_by_injury_id": "inj_001"
+        },
+        {
+          "description": "Seizures / status epilepticus (controlled after August 2012; on phenytoin; seizure‑free since that one occasion)",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_002"
+        },
+        {
+          "description": "Permanent neurological deficits",
+          "manifestation_type": "neurological_deficit",
+          "caused_by_injury_id": "inj_001"
+        }
+      ],
+      "reasoning": "I used a conservative exact-string matching policy for every field (description, manifestation_type, caused_by_injury_id). Per the instructions a pair is a TRUE MATCH only if every field exactly matches. Using that rule: 4 gold items exactly match predicted items (Loss of consciousness; Dysphasia (problem with language); Cognitive dysfunction (MMSE 18/30; mild to moderate dementia); Incontinence). Several items that are semantically similar did NOT match because at least one field differed exactly — e.g. the predicted \"Prolonged post‑traumatic amnesia...\" uses a different hyphen character (U+2011) so it is not an exact string match to the gold \"Prolonged post-traumatic amnesia...\"; the seizure item in the gold references caused_by_injury_id \"inj_006\" while the predicted seizure item uses \"inj_002\"; multiple gold items were split in the gold but merged in the prediction (e.g. naming difficulty, impaired expression, and impaired understanding are combined into a single predicted description) which prevents exact matching; several sign/functional descriptions differ in word order or phrasing (e.g. \"Right leg mild spasticity with heightened reflexes\" vs \"Mild spasticity of the right leg with heightened reflexes\") and therefore fail exact-string equality. Following the required matching process, each gold item was checked for at most one predicted counterpart that matched on every field; if any single field failed, the pair is treated as a mismatch. Summary counts below reflect these exact-match decisions.",
+      "array_breakdown": {
+        "matched": 4,
+        "missed_gold": 9,
+        "spurious_pred": 6,
+        "precision": 0.4,
+        "recall": 0.3076923076923077,
+        "f1": 0.34782608695652173,
+        "matched_items": [
+          {
+            "gold_index": 1,
+            "pred_index": 1,
+            "gold": {
+              "description": "Loss of consciousness",
+              "manifestation_type": "symptom",
+              "caused_by_injury_id": "inj_001"
+            },
+            "predicted": {
+              "description": "Loss of consciousness",
+              "manifestation_type": "symptom",
+              "caused_by_injury_id": "inj_001"
+            }
+          },
+          {
+            "gold_index": 3,
+            "pred_index": 3,
+            "gold": {
+              "description": "Dysphasia (problem with language)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "predicted": {
+              "description": "Dysphasia (problem with language)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            }
+          },
+          {
+            "gold_index": 4,
+            "pred_index": 4,
+            "gold": {
+              "description": "Cognitive dysfunction (MMSE 18/30; mild to moderate dementia)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "predicted": {
+              "description": "Cognitive dysfunction (MMSE 18/30; mild to moderate dementia)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            }
+          },
+          {
+            "gold_index": 9,
+            "pred_index": 8,
+            "gold": {
+              "description": "Incontinence",
+              "manifestation_type": "functional_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "predicted": {
+              "description": "Incontinence",
+              "manifestation_type": "functional_deficit",
+              "caused_by_injury_id": "inj_001"
+            }
+          }
+        ],
+        "missed_gold_items": [
+          {
+            "gold_index": 2,
+            "item": {
+              "description": "Prolonged post-traumatic amnesia (estimated as over one month)",
+              "manifestation_type": "symptom",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "Predicted has a visually similar description using a different hyphen character (U+2011) so exact string differs."
+          },
+          {
+            "gold_index": 5,
+            "item": {
+              "description": "Epilepsy / generalized epileptic seizures (controlled with phenytoin; seizure-free since August 2012 episode)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_006"
+            },
+            "reason_not_matched": "Predicted seizure entry differs in wording and has caused_by_injury_id 'inj_002' (not 'inj_006'), so fails exact match."
+          },
+          {
+            "gold_index": 6,
+            "item": {
+              "description": "Naming difficulty",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "Predicted merges this into a combined description rather than an exact separate item."
+          },
+          {
+            "gold_index": 7,
+            "item": {
+              "description": "Impaired ability to express himself (often using the wrong words)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "Predicted merges this into a combined description rather than an exact separate item."
+          },
+          {
+            "gold_index": 8,
+            "item": {
+              "description": "Impaired understanding of verbal communications",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "Predicted merges this into a combined description rather than an exact separate item."
+          },
+          {
+            "gold_index": 10,
+            "item": {
+              "description": "Impaired balance / truncal ataxia; walked stably but could not walk heel to toe",
+              "manifestation_type": "functional_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "Predicted has related wording but different field manifestation_type ('sign' vs gold 'functional_deficit') and different phrasing, so fails exact match."
+          },
+          {
+            "gold_index": 11,
+            "item": {
+              "description": "Right leg mild spasticity with heightened reflexes",
+              "manifestation_type": "sign",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "Predicted wording 'Mild spasticity of the right leg with heightened reflexes' differs in exact string (word order), so not an exact match."
+          },
+          {
+            "gold_index": 12,
+            "item": {
+              "description": "Not employable in any capacity (permanent loss of earning capacity 100%)",
+              "manifestation_type": "functional_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "No predicted item exactly matches this description and fields."
+          },
+          {
+            "gold_index": 13,
+            "item": {
+              "description": "Not capable of managing his own legal and financial affairs; not fully independent even inside the home",
+              "manifestation_type": "functional_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_not_matched": "No predicted item exactly matches this description and fields."
+          }
+        ],
+        "spurious_pred_items": [
+          {
+            "pred_index": 2,
+            "item": {
+              "description": "Prolonged post‑traumatic amnesia (estimated as over one month)",
+              "manifestation_type": "symptom",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_spurious": "Visually similar to gold index 2 but different hyphen character prevents exact match."
+          },
+          {
+            "pred_index": 5,
+            "item": {
+              "description": "Naming difficulty; impaired ability to express himself (often using the wrong words) and impaired understanding of verbal communications",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_spurious": "This predicted entry combines multiple gold items into one combined description; no exact gold item matches this combined string."
+          },
+          {
+            "pred_index": 6,
+            "item": {
+              "description": "Mild spasticity of the right leg with heightened reflexes",
+              "manifestation_type": "sign",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_spurious": "Semantically matches gold index 11 but wording order differs so exact string check fails."
+          },
+          {
+            "pred_index": 7,
+            "item": {
+              "description": "Truncal ataxia; unable to walk heel to toe; impaired balance",
+              "manifestation_type": "sign",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_spurious": "Semantically similar to gold index 10 but manifestation_type differs (gold functional_deficit vs predicted sign) and description string differs."
+          },
+          {
+            "pred_index": 9,
+            "item": {
+              "description": "Seizures / status epilepticus (controlled after August 2012; on phenytoin; seizure‑free since that one occasion)",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_002"
+            },
+            "reason_spurious": "Semantically similar to gold seizure item but caused_by_injury_id differs (inj_002 vs gold inj_006) and description wording differs; thus treated as spurious."
+          },
+          {
+            "pred_index": 10,
+            "item": {
+              "description": "Permanent neurological deficits",
+              "manifestation_type": "neurological_deficit",
+              "caused_by_injury_id": "inj_001"
+            },
+            "reason_spurious": "No exact gold item with this phrasing; the gold contains specific deficits rather than this general phrasing."
+          }
+        ]
+      }
+    }
+  ],
+  "overall_score": 0.6745,
+  "field_score": 0.886843891402715,
+  "overall_pass_rate": 0.8529411764705882
+}
