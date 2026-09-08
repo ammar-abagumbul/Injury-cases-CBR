@@ -1,20 +1,20 @@
-from abc import ABC, abstractmethod
+from __future__ import annotations
 
-from typing import Any, override
+from abc import ABC, abstractmethod
+from typing import TYPE_CHECKING, override
 
 from hklii_psla.cbr.core.casebase.attribute import Attribute
 from hklii_psla.cbr.core.model.attribute_desc import AttributeDesc
-from hklii_psla.cbr.core.project import Project
 from hklii_psla.cbr.core.similarity.similarity import Similarity
+
+if TYPE_CHECKING:
+    from hklii_psla.cbr.core.project import Project
+
 
 class SimFctInterface(ABC):
 
     @abstractmethod
-    def calculate_similarity(
-        self,
-        a1: Attribute,
-        a2: Attribute
-    ) -> Similarity | None:
+    def calculate_similarity(self, a1: Attribute, a2: Attribute) -> Similarity:
         ...
 
     @property
@@ -37,41 +37,21 @@ class SimFctInterface(ABC):
     def name(self, value: str) -> None:
         ...
 
-    @property
-    @abstractmethod
-    def project(self) -> Project | None:
-        ...
-
-    @property
-    @abstractmethod
-    def desc(self) -> AttributeDesc | None:
-        ...
-
     @abstractmethod
     def clone(self, new_desc: AttributeDesc, is_active: bool):
         ...
 
-    @abstractmethod
-    def get_representation(self) -> dict[str, Any]:
-        ...
-
 
 class SimFct(SimFctInterface):
+    """Base for similarity functions. ``prj``/``desc`` are plain mutable
+    attributes (not properties) since concrete functions routinely rebind
+    them (e.g. when cloning onto a new description)."""
 
-    _name: str
-    _is_symetric: bool
-    _project: Project | None
-    _desc: AttributeDesc | None
-
-    def __init__(
-        self,
-        project: Project,
-        attr_desc: AttributeDesc,
-        name: str
-    ):
+    def __init__(self, project: Project, attr_desc: AttributeDesc, name: str):
         self._name = name
-        self._project = project
-        self._desc = attr_desc
+        self.prj: Project = project
+        self.desc: AttributeDesc = attr_desc
+        self._is_symmetric: bool = False
 
     @property
     @override
@@ -84,33 +64,23 @@ class SimFct(SimFctInterface):
         self._name = value
 
     @override
-    def calculate_similarity(
-        self,
-        a1: Attribute,
-        a2: Attribute
-    ) -> Similarity | None:
-        return None
+    def calculate_similarity(self, a1: Attribute, a2: Attribute) -> Similarity:
+        return Similarity.INVALID_SIM
 
     @property
     @override
     def is_symmetric(self) -> bool:
-        return False
+        return self._is_symmetric
 
     @is_symmetric.setter
     @override
     def is_symmetric(self, value: bool) -> None:
-        self._is_symetric = value
+        self._is_symmetric = value
 
     @property
-    @override
-    def project(self) -> Project | None:
-        return self._project
+    def project(self) -> Project:
+        return self.prj
 
     @override
     def clone(self, new_desc: AttributeDesc, is_active: bool) -> None:
-        return None
-
-    @property
-    @override
-    def desc(self) -> AttributeDesc | None:
         return None

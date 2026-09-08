@@ -1,10 +1,13 @@
-from abc import ABC, abstractmethod
+from __future__ import annotations
 
-from typing import Any, final, override
+from abc import ABC, abstractmethod
+from typing import TYPE_CHECKING, Any, final, override
 
 from hklii_psla.cbr.core.model.attribute_desc import AttributeDesc
-from hklii_psla.cbr.core.model.concept import Concept
-from hklii_psla.cbr.core.similarity.sim_fct import SimFctInterface
+
+if TYPE_CHECKING:
+    from hklii_psla.cbr.core.model.concept import Concept
+    from hklii_psla.cbr.core.similarity.sim_fct import SimFctInterface
 
 
 class SimpleAttDesc(AttributeDesc, ABC):
@@ -17,10 +20,36 @@ class SimpleAttDesc(AttributeDesc, ABC):
         super().__init__(owner, name)
         self._sim_fcts: dict[str, SimFctInterface] = {}
 
-
     @property
     def sim_fcts(self) -> list[SimFctInterface]:
         return list(self._sim_fcts.values())
+
+    def get_fct(self, name: str) -> SimFctInterface | None:
+        return self._sim_fcts.get(name)
+
+    def add_function(self, f: SimFctInterface, active: bool) -> None:
+        self._sim_fcts[f.name] = f
+        if active:
+            self._set_fct_active(f)
+
+    def _set_fct_active(self, f: SimFctInterface) -> None:
+        amalgam = self.owner.get_active_amalgam_fct()
+        if amalgam is not None:
+            amalgam.set_active_fct(self, f)
+
+    def delete_sim_fct(self, f: SimFctInterface | None) -> None:
+        if f is None:
+            return
+        self._sim_fcts.pop(f.name, None)
+        if not self._sim_fcts:
+            self.add_default_fct()
+
+    def add_fct(self, f: SimFctInterface) -> None:
+        self._sim_fcts[f.name] = f
+
+    @abstractmethod
+    def add_default_fct(self) -> None:
+        ...
 
     @final
     def delete_all_fcts(self) -> None:
@@ -31,8 +60,6 @@ class SimpleAttDesc(AttributeDesc, ABC):
         if fct:
             self._sim_fcts[new_name] = fct
             del self._sim_fcts[old_name]
-            # TODO: set_changed()
-            # TODO: notify_observers()
 
     @override
     def get_representation(self) -> dict[str, Any]:

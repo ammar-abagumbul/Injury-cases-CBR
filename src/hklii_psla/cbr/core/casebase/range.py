@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-
-from typing import final
+from typing import TYPE_CHECKING, final
 
 from hklii_psla.cbr.core.casebase.attribute import Attribute
-from hklii_psla.cbr.core.project import Project
+
+if TYPE_CHECKING:
+    from hklii_psla.cbr.core.project import Project
 
 
 class Range(ABC):
@@ -13,9 +14,8 @@ class Range(ABC):
     def __init__(self, project: Project | None):
         self._project = project
 
-    @property
     @abstractmethod
-    def attribute(self) -> Attribute:
+    def get_attribute(self, obj: object) -> Attribute | None:
         ...
 
     @abstractmethod
@@ -26,7 +26,7 @@ class Range(ABC):
     def project(self) -> Project | None:
         return self._project
 
-    @final
     @project.setter
-    def set_project(self, value: Project | None):
+    @final
+    def project(self, value: Project | None) -> None:
         self._project = value
