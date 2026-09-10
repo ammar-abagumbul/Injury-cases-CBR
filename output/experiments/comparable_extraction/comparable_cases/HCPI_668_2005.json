@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "neutral_citation": "HCPI 668/2005",
+    "action_number": "PERSONAL INJURIES ACTION NO. 668 OF 2005",
+    "case_name": "CHEUNG WAI PING v. CHAN YUEN YEE",
+    "judgment_date": "2007-02-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 55,
+    "occupation_before": "livestock keeper",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9100.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A CT brain scan showed a left parietal epidural haematoma",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal region (head)",
+        "laterality": "left",
+        "source": [
+          "A CT brain scan showed a left parietal epidural haematoma and traumatic sub-arachnoid haemorrhage."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "traumatic sub-arachnoid haemorrhage",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "A CT brain scan showed a left parietal epidural haematoma and traumatic sub-arachnoid haemorrhage."
+        ],
+        "icd_code": "NA07.7",
+        "icd_description": "Traumatic subarachnoid haemorrhage"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "There was a fracture of the left parietal bone.",
+        "injury_type": "Residual disability",
+        "body_part": "left parietal bone (skull)",
+        "laterality": "left",
+        "source": [
+          "There was a fracture of the left parietal bone."
+        ],
+        "icd_code": "NA02.01",
+        "icd_description": "Fracture of parietal bone of skull"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "right frontal and temporal lobe contusional haematoma",
+        "injury_type": "Temporary injury",
+        "body_part": "right frontal and temporal lobes (head)",
+        "laterality": "right",
+        "source": [
+          "On the following day, on a finding of right frontal and temporal lobe contusional haematoma, another craniotomy was performed."
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "dementia due to head trauma; neurocognitive and neurobehavioural impairments",
+        "injury_type": "Permanent injury",
+        "body_part": "brain (cognitive function)",
+        "laterality": null,
+        "source": [
+          "they found that he was free from psychiatric disorder before the accident but now suffers from dementia due to head trauma.",
+          "Dr Yu's opinion is that as a result of his severe head injury, the plaintiff experiences neurocognitive and neurobehavioural impairments..."
+        ],
+        "icd_code": "NA07.30",
+        "icd_description": "Diffuse injury of cerebrum"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "left hemiparesis",
+        "injury_type": "Permanent injury",
+        "body_part": "left side upper and lower limbs",
+        "laterality": "left",
+        "source": [
+          "he had right side 3 rd nerve palsy and left side lower and upper limb weakness.",
+          "He found that the plaintiff suffered from residual cognitive dysfunction and left hemiparesis."
+        ],
+        "icd_code": "NA07.4",
+        "icd_description": "Focal brain injury"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "right side 3rd nerve palsy",
+        "injury_type": "Residual disability",
+        "body_part": "right eye / cranial nerve III",
+        "laterality": "right",
+        "source": [
+          "he had right side 3 rd nerve palsy and left side lower and upper limb weakness."
+        ],
+        "icd_code": "NA04.2",
+        "icd_description": "Injury of oculomotor nerve"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "depression in his skull",
+        "injury_type": "Residual disability",
+        "body_part": "skull (left parietal)",
+        "laterality": "left",
+        "source": [
+          "He was left with a depression in his skull for which it was suggested that he undergo cranioplasty, but he has not done so."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "poor memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "dementia due to head trauma; moderate symptoms or moderate difficulty in social, occupational or school functioning",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "left hemiparesis / left side lower and upper limb weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "right side 3rd nerve palsy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "doubly incontinent (at time of transfer to Cheshire Home)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "needs accompaniment when he goes out and supervised when he takes medicine; cannot manage his family finances",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "loss of interest in sex",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "able to walk slowly unaided with steady gait (by 24 March 2004)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "needs standby assistance for climbing stairs and outdoor ambulation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "unable to resume pre-accident or any employment; not fit for manual or sedentary job",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency craniotomy (same day)",
+      "second craniotomy (following day)",
+      "tracheostomy (1 March 2003)",
+      "physiotherapy",
+      "occupational therapy",
+      "neurosurgery outpatient follow-up",
+      "psychiatric treatment and medication"
+    ],
+    "treatments_future": [
+      "cranioplasty operation",
+      "ongoing psychiatric treatment for three years",
+      "neurological follow-up visits (disputed; limited allowance made)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Irreparable brain damage causing inability to conduct his own affairs, very reduced cognitive function and gross disability (awarded under Pain, suffering and loss of amenity).",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of society to his wife (statutory claim under LARCO) assessed at middle of range given his dependent forgetful state.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Reduced ability to provide normal gratuitous services of a husband to his wife and family; requires care and supervision and cannot perform meaningful domestic tasks.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Suffers loss of interest in sex caused by the dementia.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He mainly keeps himself at home and does not have any interest in social activities; needs accompaniment when going out.",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1000000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Hin Pui v Mok Ying Kit",
+        "neutral_citation": "[2000] 1 HKLRD 858",
+        "action_number": null,
+        "injury_description": "persons who have suffered severe brain damage and lost the ability to manage their own affairs",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Yuk v Dragages et Travaux Publics (HK) Ltd & Ors",
+        "neutral_citation": "[2000] 2 HKLRD 795",
+        "action_number": null,
+        "injury_description": "severe brain injury cases cited in the range of awards",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Sin Lam v Kuen Fung Construction Ltd & Ors.",
+        "neutral_citation": "HCPI 1286 of 1999",
+        "action_number": null,
+        "injury_description": "severe brain damage case cited in the range of awards",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null
+}
