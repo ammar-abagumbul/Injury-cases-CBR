@@ -1,6 +1,6 @@
 """HKLII PSLA Experiments — Structured feature extraction for personal injury cases."""
 
-from hklii_psla.extractor.base import TokenCount
+from hklii_psla.extractor.base import ExtractionMetadata, TokenCount
 from hklii_psla.schemas import (
     Case,
     CaseMetadata,
@@ -21,6 +21,7 @@ __all__ = [
     "Case",
     "CaseMetadata",
     "DeathInfo",
+    "ExtractionMetadata",
     "Injury",
     "InjuryLossRelation",
     "InjuryLossRelationList",

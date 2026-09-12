@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "",
+    "action_number": "HCPI 202/2010",
+    "case_name": "SUKHDEEP-SINGH v. CHOW KIN HUNG",
+    "judgment_date": "2011-09-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "delivery worker for Dial-a-Dinner",
+    "occupation_after": "delivery driver with his employer (Dial-a-Dinner)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mr. Singh suffered fractured distal tibia and fibula of his right leg as a result of the accident.",
+        "injury_type": "Residual disability",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "Mr. Singh suffered fractured distal tibia and fibula of his right leg as a result of the accident."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "slightly reduced right ankle movement was due to a bony bridge joining the distal fibula to the tibia which impaired normal rotational movement of the fibula.",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "slightly reduced right ankle movement was due to a bony bridge joining the distal fibula to the tibia which impaired normal rotational movement of the fibula."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "there was no length discrepancy, but some girth discrepancy in the muscle bulk between Mr. Singh's two limbs.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "multiple scars on the right ankle and smaller scars on the left side of his knee.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly limited ankle motion with less than 10° difference in dorsiflexion and plantarflexion between the two ankles.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "slightly weaker power in the right ankle.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "would continue to suffer residual pain, reduced ankle joint movement and weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain would still develop in his right ankle and right knee after walking for 15 minutes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "after exertion such as walking or standing for a long time, his right ankle would swell.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He can no longer run for fitness, nor can he play Kabbadi, an Indian sport which involves running, tagging and wrestling.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation of the fibula and nailing of the tibia",
+      "bone was taken from Mr. Singh's right knee",
+      "removal of the surgical implant",
+      "follow-ups and physiotherapy",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "sports activities moderately affected; He can no longer run for fitness, nor can he play Kabbadi, an Indian sport which involves running, tagging and wrestling.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "daily activities would be mildly affected",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "multiple scars on the right ankle and smaller scars on the left side of his knee.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null
+}

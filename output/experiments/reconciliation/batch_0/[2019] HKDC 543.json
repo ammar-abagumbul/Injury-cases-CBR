@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 543",
+    "action_number": "DCPI 1985/2013",
+    "case_name": "CHAN KWOK KUEN v. ACTIONSPORTS INTERNATIONAL LIMITED",
+    "judgment_date": "2019-04-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Junior Sports sales/project trainee",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10833.33,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Higher Diploma; Bachelor of Arts Degree"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a complex tear involving the anterior horn, body and posterior horn of the medial meniscus",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The MRI revealed a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL close to the femoral insertion.",
+          "the plaintiff suffered from a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL of the left knee;"
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a complete tear of the ACL close to the femoral insertion",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The MRI revealed a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL close to the femoral insertion.",
+          "the plaintiff suffered from a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL of the left knee;"
+        ],
+        "icd_code": "NC93.62",
+        "icd_description": "Rupture of anterior cruciate ligament"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over medial side of left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "effusion was found on his left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "clicking sensation in left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Lachman’s test and pivot shift test were positive",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "intense pain at time of injury (left knee) and felt a click",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "hopped and limped to the side and sat down after injury",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual wasting of his left lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "a sense of uneasiness with jogging, difficulty in full squat, walking downstairs and playing football",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced enjoyment of sports / enjoyment of sports would be reduced",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "presently the left knee had good stability, full range of movement and good muscle power",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limping (observed on surveillance video on 23 July 2012)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to St Teresa's Hospital",
+      "ACL reconstruction",
+      "partial medial meniscectomy",
+      "left knee arthroscopy",
+      "physiotherapy (31 sessions)",
+      "follow-up consultations (25 visits)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 309,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Complex tear of medial meniscus and complete tear of ACL of the left knee with residual wasting of left lower limb.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Reduced enjoyment of sports; sense of uneasiness with jogging; difficulty in full squat, walking downstairs and playing football.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yip Leung Hoi v Ting Wo Engineering Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1026/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Rukhar Begum v Native English Center Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 2245/2015",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 3,
+    "extraction_token_count": {
+      "input_tokens": 50428,
+      "output_tokens": 15767,
+      "reasoning_tokens": 11840,
+      "total_tokens": 66195
+    },
+    "reconciliation_token_count": {
+      "input_tokens": 6020,
+      "output_tokens": 5535,
+      "reasoning_tokens": 4544,
+      "total_tokens": 11555
+    },
+    "extraction_duration_ms": 80516.46404212806,
+    "reconciliation_duration_ms": 39338.52641703561,
+    "total_token_count": {
+      "input_tokens": 56448,
+      "output_tokens": 21302,
+      "reasoning_tokens": 16384,
+      "total_tokens": 77750
+    },
+    "total_duration_ms": 119854.99045916367
+  }
+}

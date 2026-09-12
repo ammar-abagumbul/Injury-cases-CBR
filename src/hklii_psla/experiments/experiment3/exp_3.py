@@ -266,7 +266,7 @@ class ComparableCaseExtractionExperiment(
 
         case_json_path: Path | None = None
         if comp_result.success:
-            comp_filename = self._generate_filename(comp_result, fallback=stem)
+            comp_filename = stem
             case_json_path = comparable_cases_dir / comp_filename
             self._save_case(comp_result, case_json_path)
 

@@ -1,9 +1,9 @@
 id: "comparable-case-extraction"
 model: "gpt"
 provider: "gpt"
-case_files_path: "sample_cases"
-case_files_format: "raw"
+case_files_path: "output/experiments/reconciliation/batch_0"
+case_files_format: "extracted"
 output_dir: "output/experiments/comparable_extraction"
 max_comparable_cases: 3
-fetch_delay_seconds: 1.5
+fetch_delay_seconds: 0.5
 fetch_timeout: 30.0

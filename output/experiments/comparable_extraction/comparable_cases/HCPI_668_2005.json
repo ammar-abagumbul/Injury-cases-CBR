@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "neutral_citation": "HCPI 668/2005",
-    "action_number": "PERSONAL INJURIES ACTION NO. 668 OF 2005",
+    "neutral_citation": "",
+    "action_number": "HCPI 668/2005",
     "case_name": "CHEUNG WAI PING v. CHAN YUEN YEE",
     "judgment_date": "2007-02-08",
     "plaintiff_count": 1,
@@ -12,7 +12,7 @@
     "age_at_accident": 51,
     "age_at_trial": 55,
     "occupation_before": "livestock keeper",
-    "occupation_after": null,
+    "occupation_after": "unable to resume employment",
     "expected_occupation_after": null,
     "salary_before": 9100.0,
     "salary_after": null,
@@ -23,8 +23,8 @@
     "injuries": [
       {
         "injury_id": "inj_001",
-        "description": "A CT brain scan showed a left parietal epidural haematoma",
-        "injury_type": "Temporary injury",
+        "description": "left parietal epidural haematoma",
+        "injury_type": "Permanent injury",
         "body_part": "left parietal region (head)",
         "laterality": "left",
         "source": [
@@ -36,8 +36,8 @@
       {
         "injury_id": "inj_002",
         "description": "traumatic sub-arachnoid haemorrhage",
-        "injury_type": "Temporary injury",
-        "body_part": "head",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
         "laterality": null,
         "source": [
           "A CT brain scan showed a left parietal epidural haematoma and traumatic sub-arachnoid haemorrhage."
@@ -47,8 +47,8 @@
       },
       {
         "injury_id": "inj_003",
-        "description": "There was a fracture of the left parietal bone.",
-        "injury_type": "Residual disability",
+        "description": "fracture of the left parietal bone",
+        "injury_type": "Permanent injury",
         "body_part": "left parietal bone (skull)",
         "laterality": "left",
         "source": [
@@ -60,134 +60,128 @@
       {
         "injury_id": "inj_004",
         "description": "right frontal and temporal lobe contusional haematoma",
-        "injury_type": "Temporary injury",
-        "body_part": "right frontal and temporal lobes (head)",
+        "injury_type": "Permanent injury",
+        "body_part": "right frontal and temporal lobes (brain)",
         "laterality": "right",
         "source": [
           "On the following day, on a finding of right frontal and temporal lobe contusional haematoma, another craniotomy was performed."
         ],
-        "icd_code": "NA07.1",
-        "icd_description": "Traumatic intracerebral haemorrhage"
+        "icd_code": "NA07.8Y",
+        "icd_description": "Other specified traumatic haemorrhage in brain tissue"
       },
       {
         "injury_id": "inj_005",
-        "description": "dementia due to head trauma; neurocognitive and neurobehavioural impairments",
+        "description": "depression in his skull",
         "injury_type": "Permanent injury",
-        "body_part": "brain (cognitive function)",
+        "body_part": "skull",
         "laterality": null,
         "source": [
-          "they found that he was free from psychiatric disorder before the accident but now suffers from dementia due to head trauma.",
-          "Dr Yu's opinion is that as a result of his severe head injury, the plaintiff experiences neurocognitive and neurobehavioural impairments..."
+          "He was left with a depression in his skull for which it was suggested that he undergo cranioplasty, but he has not done so."
         ],
-        "icd_code": "NA07.30",
-        "icd_description": "Diffuse injury of cerebrum"
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
       },
       {
         "injury_id": "inj_006",
-        "description": "left hemiparesis",
+        "description": "left hemiparesis (left side lower and upper limb weakness)",
         "injury_type": "Permanent injury",
-        "body_part": "left side upper and lower limbs",
+        "body_part": "left upper and lower limb",
         "laterality": "left",
         "source": [
-          "he had right side 3 rd nerve palsy and left side lower and upper limb weakness.",
-          "He found that the plaintiff suffered from residual cognitive dysfunction and left hemiparesis."
+          "By this time he was able to obey commands with slow mentality, but the tracheostomy was still in place, he had a tube for enteric feeding and he was doubly incontinent. He had right side 3 rd nerve palsy and left side lower and upper limb weakness."
         ],
-        "icd_code": "NA07.4",
-        "icd_description": "Focal brain injury"
+        "icd_code": "NA07.4Z",
+        "icd_description": "Unspecified focal traumatic brain injury"
       },
       {
         "injury_id": "inj_007",
         "description": "right side 3rd nerve palsy",
-        "injury_type": "Residual disability",
-        "body_part": "right eye / cranial nerve III",
+        "injury_type": "Permanent injury",
+        "body_part": "cranial nerve III (right)",
         "laterality": "right",
         "source": [
-          "he had right side 3 rd nerve palsy and left side lower and upper limb weakness."
+          "By this time he was able to obey commands with slow mentality, but the tracheostomy was still in place, he had a tube for enteric feeding and he was doubly incontinent. He had right side 3 rd nerve palsy and left side lower and upper limb weakness."
         ],
         "icd_code": "NA04.2",
         "icd_description": "Injury of oculomotor nerve"
       },
       {
         "injury_id": "inj_008",
-        "description": "depression in his skull",
-        "injury_type": "Residual disability",
-        "body_part": "skull (left parietal)",
-        "laterality": "left",
+        "description": "severe head injuries / traumatic brain injury",
+        "injury_type": "Permanent injury",
+        "body_part": "head / brain",
+        "laterality": null,
         "source": [
-          "He was left with a depression in his skull for which it was suggested that he undergo cranioplasty, but he has not done so."
+          "The plaintiff suffered severe head injuries."
         ],
-        "icd_code": "NA02.0Z",
-        "icd_description": "Fracture of vault of skull, unspecified"
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
       }
     ],
     "manifestations": [
       {
         "description": "poor memory",
         "manifestation_type": "symptom",
-        "caused_by_injury_id": "inj_005"
+        "caused_by_injury_id": "inj_008"
       },
       {
-        "description": "dementia due to head trauma; moderate symptoms or moderate difficulty in social, occupational or school functioning",
+        "description": "dementia due to head trauma",
         "manifestation_type": "neurological_deficit",
-        "caused_by_injury_id": "inj_005"
+        "caused_by_injury_id": "inj_008"
       },
       {
-        "description": "left hemiparesis / left side lower and upper limb weakness",
-        "manifestation_type": "neurological_deficit",
-        "caused_by_injury_id": "inj_006"
-      },
-      {
-        "description": "right side 3rd nerve palsy",
-        "manifestation_type": "neurological_deficit",
-        "caused_by_injury_id": "inj_007"
-      },
-      {
-        "description": "doubly incontinent (at time of transfer to Cheshire Home)",
+        "description": "doubly incontinent",
         "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_005"
+        "caused_by_injury_id": "inj_008"
       },
       {
-        "description": "needs accompaniment when he goes out and supervised when he takes medicine; cannot manage his family finances",
+        "description": "unable to manage and administer his property and affairs",
         "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_005"
+        "caused_by_injury_id": "inj_008"
       },
       {
         "description": "loss of interest in sex",
         "manifestation_type": "symptom",
-        "caused_by_injury_id": "inj_005"
+        "caused_by_injury_id": "inj_008"
       },
       {
-        "description": "able to walk slowly unaided with steady gait (by 24 March 2004)",
-        "manifestation_type": "sign",
-        "caused_by_injury_id": "inj_006"
-      },
-      {
-        "description": "needs standby assistance for climbing stairs and outdoor ambulation",
+        "description": "needs to be accompanied when he goes out",
         "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_006"
+        "caused_by_injury_id": "inj_008"
       },
       {
-        "description": "unable to resume pre-accident or any employment; not fit for manual or sedentary job",
+        "description": "needs supervision when he takes medicine",
         "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_005"
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "able to walk unaided with steady gait but needs standby assistance for climbing stairs and outdoor ambulation; walks slowly and has reduced endurance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "risk of post-traumatic epilepsy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_008"
       }
     ],
     "overall_category": "Gross disability"
   },
   "treatment": {
     "treatments_received": [
-      "emergency craniotomy (same day)",
+      "emergency craniotomy",
       "second craniotomy (following day)",
-      "tracheostomy (1 March 2003)",
+      "tracheostomy",
+      "enteric feeding (tube)",
       "physiotherapy",
       "occupational therapy",
-      "neurosurgery outpatient follow-up",
+      "neurosurgery out-patient follow-up",
       "psychiatric treatment and medication"
     ],
     "treatments_future": [
-      "cranioplasty operation",
+      "cranioplasty",
       "ongoing psychiatric treatment for three years",
-      "neurological follow-up visits (disputed; limited allowance made)"
+      "neurological follow-up visits (up to March 2008 as suggested by plaintiff's expert)"
     ],
     "hospitalisation_days": null,
     "expected_hospitalisation_days": null,
@@ -199,69 +193,25 @@
   "losses": {
     "losses": [
       {
-        "category": "Loss of mental ability",
-        "description": "Irreparable brain damage causing inability to conduct his own affairs, very reduced cognitive function and gross disability (awarded under Pain, suffering and loss of amenity).",
-        "caused_by_injury_id": "inj_005"
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity arising from irreparable brain damage and inability to manage own affairs.",
+        "caused_by_injury_id": "inj_008"
       },
       {
         "category": "Loss of family life",
-        "description": "Loss of society to his wife (statutory claim under LARCO) assessed at middle of range given his dependent forgetful state.",
-        "caused_by_injury_id": "inj_005"
+        "description": "Loss of society (wife's claim under section 20C(1) LARCO).",
+        "caused_by_injury_id": "inj_008"
       },
       {
         "category": "Loss of ability to do domestic tasks",
-        "description": "Reduced ability to provide normal gratuitous services of a husband to his wife and family; requires care and supervision and cannot perform meaningful domestic tasks.",
-        "caused_by_injury_id": "inj_006"
-      },
-      {
-        "category": "Loss of sexual function and sexual life",
-        "description": "Suffers loss of interest in sex caused by the dementia.",
-        "caused_by_injury_id": "inj_005"
-      },
-      {
-        "category": "Loss of social life",
-        "description": "He mainly keeps himself at home and does not have any interest in social activities; needs accompaniment when going out.",
-        "caused_by_injury_id": "inj_005"
+        "description": "Loss of services provided to dependant (wife) due to plaintiff's inability to perform household tasks and handyman repairs.",
+        "caused_by_injury_id": "inj_008"
       }
     ]
   },
   "psla": {
-    "amount": 1000000.0,
-    "comparable_cases": [
-      {
-        "case_name": "Wong Hin Pui v Mok Ying Kit",
-        "neutral_citation": "[2000] 1 HKLRD 858",
-        "action_number": null,
-        "injury_description": "persons who have suffered severe brain damage and lost the ability to manage their own affairs",
-        "hospitalisation_days": null,
-        "operations_count": null,
-        "sick_leave_days": null,
-        "comparison": null,
-        "psla_amount": null
-      },
-      {
-        "case_name": "Chan Yuk v Dragages et Travaux Publics (HK) Ltd & Ors",
-        "neutral_citation": "[2000] 2 HKLRD 795",
-        "action_number": null,
-        "injury_description": "severe brain injury cases cited in the range of awards",
-        "hospitalisation_days": null,
-        "operations_count": null,
-        "sick_leave_days": null,
-        "comparison": null,
-        "psla_amount": null
-      },
-      {
-        "case_name": "Wong Sin Lam v Kuen Fung Construction Ltd & Ors.",
-        "neutral_citation": "HCPI 1286 of 1999",
-        "action_number": null,
-        "injury_description": "severe brain damage case cited in the range of awards",
-        "hospitalisation_days": null,
-        "operations_count": null,
-        "sick_leave_days": null,
-        "comparison": null,
-        "psla_amount": null
-      }
-    ]
+    "amount": null,
+    "comparable_cases": []
   },
   "death": null
 }
