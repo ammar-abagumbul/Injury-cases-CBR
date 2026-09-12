@@ -16,7 +16,7 @@ import re
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import ClassVar, Literal, override
+from typing import Any, ClassVar, Literal, override
 
 from pydantic import BaseModel, ValidationError
 from rich.console import Console
@@ -61,26 +61,25 @@ class Exp3Config(BaseModel):
 
 @dataclass
 class ComparableLink:
-    """Records what happened when chasing down one comparable case."""
+    """Records what happened when chasing down one comparable case.
 
-    primary_case_file: str
-    primary_citation: str | None
+    ``comparable_citation`` / ``comparable_action_number`` hold the best
+    known identifiers for the comparable: its own extracted metadata when
+    available, otherwise the identifiers cited in the primary judgment.
+    """
+
+    source_file_name: str
+    source_citation: str | None
+    source_action_number: str | None
     comparable_case_name: str
     comparable_citation: str | None
     comparable_action_number: str | None
     fetch_status: str  # "fetched" | "not_found" | "error" | "skipped_no_identifier"
     fetch_error: str | None
-    judgment_path: str | None
+    judgment_file_name: str | None
     extraction_status: str  # "success" | "failed" | "not_attempted"
     extraction_error: str | None
-    case_json_path: str | None
-    # Resolved identifiers for the CSV relationship table.
-    primary_file_name: str = ""
-    primary_action_number: str | None = None
-    judgment_file_name: str | None = None
-    comparable_case_neutral_citation: str | None = None
-    comparable_case_action_number: str | None = None
-    comparable_case_json_file: str | None = None
+    case_json_file_name: str | None
 
 
 class ComparableCaseExtractionExperiment(
@@ -223,29 +222,18 @@ class ComparableCaseExtractionExperiment(
         fetch_cache: dict[str, Judgment | None],
         extract_cache: dict[str, ExtractionResult],
     ) -> None:
-        base_link_kwargs = {
-            "primary_case_file": str(primary_file),
-            "primary_citation": primary_citation,
+        base = {
+            "source_file_name": primary_file.name,
+            "source_citation": primary_citation,
+            "source_action_number": primary_action_number,
             "comparable_case_name": cc.case_name,
             "comparable_citation": cc.neutral_citation,
             "comparable_action_number": cc.action_number,
-            "primary_file_name": primary_file.name,
-            "primary_action_number": primary_action_number,
-            "comparable_case_neutral_citation": cc.neutral_citation,
-            "comparable_case_action_number": cc.action_number,
         }
 
         key = self._comparable_key(cc)
         if key is None:
-            self._links.append(ComparableLink(
-                **base_link_kwargs,
-                fetch_status="skipped_no_identifier",
-                fetch_error=None,
-                judgment_path=None,
-                extraction_status="not_attempted",
-                extraction_error=None,
-                case_json_path=None,
-            ))
+            self._append_link(base, fetch_status="skipped_no_identifier")
             return
 
         if key in fetch_cache:
@@ -256,30 +244,18 @@ class ComparableCaseExtractionExperiment(
             time.sleep(self._config.fetch_delay_seconds)
 
         if judgment is None:
-            self._links.append(ComparableLink(
-                **base_link_kwargs,
+            self._append_link(
+                base,
                 fetch_status="not_found",
                 fetch_error="No judgment found for supplied identifiers",
-                judgment_path=None,
-                extraction_status="not_attempted",
-                extraction_error=None,
-                case_json_path=None,
-            ))
+            )
             return
 
         stem = self._safe_stem(key)
         try:
             judgment_path = save_judgment(judgment, output_dir=comparable_judgments_dir)
         except ValueError as e:
-            self._links.append(ComparableLink(
-                **base_link_kwargs,
-                fetch_status="error",
-                fetch_error=str(e),
-                judgment_path=None,
-                extraction_status="not_attempted",
-                extraction_error=None,
-                case_json_path=None,
-            ))
+            self._append_link(base, fetch_status="error", fetch_error=str(e))
             return
 
         if key in extract_cache:
@@ -294,26 +270,39 @@ class ComparableCaseExtractionExperiment(
             case_json_path = comparable_cases_dir / comp_filename
             self._save_case(comp_result, case_json_path)
 
-        if comp_result.success and comp_result.case is not None:
-            comp_nc = comp_result.case.metadata.neutral_citation or None
-            comp_an = comp_result.case.metadata.action_number or None
-        else:
-            comp_nc = None
-            comp_an = None
+        # Prefer the comparable's own extracted identifiers, falling back
+        # to how it was cited in the primary judgment.
+        comp_case = comp_result.case if comp_result.success else None
+        comp_citation = (comp_case.metadata.neutral_citation if comp_case else "") or cc.neutral_citation
+        comp_action_number = (comp_case.metadata.action_number if comp_case else "") or cc.action_number
 
-        self._links.append(ComparableLink(
-            **base_link_kwargs,
+        self._append_link(
+            base,
             fetch_status="fetched",
-            fetch_error=None,
-            judgment_path=str(judgment_path),
+            judgment_file_name=judgment_path.name,
             extraction_status="success" if comp_result.success else "failed",
             extraction_error=comp_result.error,
-            case_json_path=str(case_json_path) if case_json_path else None,
-            judgment_file_name=judgment_path.name,
-            comparable_case_neutral_citation=comp_nc or cc.neutral_citation,
-            comparable_case_action_number=comp_an or cc.action_number,
-            comparable_case_json_file=case_json_path.name if case_json_path else None,
-        ))
+            case_json_file_name=case_json_path.name if case_json_path else None,
+            comparable_citation=comp_citation,
+            comparable_action_number=comp_action_number,
+        )
+
+    def _append_link(self, base: dict[str, Any], **overrides: Any) -> None:
+        """Append a ``ComparableLink``, filling unset fields with neutral defaults.
+
+        ``overrides`` win over ``base`` via dict merging, so callers can
+        refine base values (e.g. replace cited identifiers with extracted
+        ones) without colliding on duplicate keyword arguments.
+        """
+        self._links.append(ComparableLink(**{
+            "fetch_error": None,
+            "judgment_file_name": None,
+            "extraction_status": "not_attempted",
+            "extraction_error": None,
+            "case_json_file_name": None,
+            **base,
+            **overrides,
+        }))
 
     def _fetch_comparable(self, client: JudiciaryClient, cc: PSLAComparableCase) -> Judgment | None:
         try:
@@ -409,14 +398,14 @@ class ComparableCaseExtractionExperiment(
             writer.writerow(_LINK_CSV_COLUMNS)
             for link in self._links:
                 writer.writerow([
-                    link.primary_file_name,
-                    link.primary_citation or "",
-                    link.primary_action_number or "",
+                    link.source_file_name,
+                    link.source_citation or "",
+                    link.source_action_number or "",
                     link.judgment_file_name or "",
-                    link.comparable_case_neutral_citation or "",
-                    link.comparable_case_action_number or "",
+                    link.comparable_citation or "",
+                    link.comparable_action_number or "",
                     link.fetch_status,
                     link.extraction_status,
-                    link.comparable_case_json_file or "",
+                    link.case_json_file_name or "",
                 ])
         return csv_path
