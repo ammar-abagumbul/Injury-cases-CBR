@@ -11,11 +11,11 @@
     "gender": null,
     "age_at_accident": 64,
     "age_at_trial": 69,
-    "occupation_before": "Delivery man at Kai Ming Food Shop",
-    "occupation_after": null,
+    "occupation_before": "delivery man at Kai Ming Food Shop (Shop B, Ground Floor, 4 Kai Ming Street, To Kwa Wan); also did part-time delivery work (soya milk and noodles)",
+    "occupation_after": "not employable in any capacity",
     "expected_occupation_after": null,
-    "salary_before": 3490.0,
-    "salary_after": null,
+    "salary_before": 4894.0,
+    "salary_after": 0.0,
     "expected_salary_after": null,
     "education_level": null
   },
@@ -23,26 +23,21 @@
     "injuries": [
       {
         "injury_id": "inj_001",
-        "description": "Severe head injury (including skull fractures, subarachnoid bleeding, subdural bleeding and contusion of the brain substance) requiring emergency operations and resulting in permanent neurological deficits",
+        "description": "severe head injuries / traumatic brain injury",
         "injury_type": "Permanent injury",
         "body_part": "head",
-        "laterality": "left",
+        "laterality": null,
         "source": [
-          "P sustained severe head injuries as is borne out by the agreed medical evidence.",
-          "On arrival his Glasgow Coma Scale (GCS) score was 10/15. Radiological investigations showed fractures on the left side of his skull, subarachnoid bleeding, subdural bleeding as well as contusion of the brain substance.",
-          "Emergency operation was done that day to evacuate blood clots and to insert a ventricular drain. He deteriorated overnight and a further emergency operation was done the following day to evacuate more blood clots.",
-          "In May 2012, he was re‑admitted to QEH for his third operation, a cranioplasty to repair the skull defect with a metallic prosthesis.",
-          "Dr Choa and Dr Yu agreed that P had sustained a severe head injury as a result of the collision.",
-          "They considered that P’s neurological deficits were permanent."
+          "P sustained severe head injuries as is borne out by the agreed medical evidence."
         ],
-        "icd_code": "NA07.60",
-        "icd_description": "Acute traumatic subdural haemorrhage"
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
       },
       {
         "injury_id": "inj_002",
-        "description": "Fractures on the left side of his skull",
+        "description": "fractures on the left side of his skull",
         "injury_type": "Permanent injury",
-        "body_part": "skull (left side)",
+        "body_part": "left side of skull",
         "laterality": "left",
         "source": [
           "Radiological investigations showed fractures on the left side of his skull, subarachnoid bleeding, subdural bleeding as well as contusion of the brain substance."
@@ -52,9 +47,9 @@
       },
       {
         "injury_id": "inj_003",
-        "description": "Subarachnoid bleeding",
+        "description": "subarachnoid bleeding",
         "injury_type": "Permanent injury",
-        "body_part": "intracranial",
+        "body_part": "brain / intracranial",
         "laterality": null,
         "source": [
           "Radiological investigations showed fractures on the left side of his skull, subarachnoid bleeding, subdural bleeding as well as contusion of the brain substance."
@@ -64,9 +59,9 @@
       },
       {
         "injury_id": "inj_004",
-        "description": "Subdural bleeding",
+        "description": "subdural bleeding",
         "injury_type": "Permanent injury",
-        "body_part": "intracranial",
+        "body_part": "brain / intracranial",
         "laterality": null,
         "source": [
           "Radiological investigations showed fractures on the left side of his skull, subarachnoid bleeding, subdural bleeding as well as contusion of the brain substance."
@@ -76,7 +71,7 @@
       },
       {
         "injury_id": "inj_005",
-        "description": "Contusion of the brain substance (brain contusion)",
+        "description": "contusion of the brain substance",
         "injury_type": "Permanent injury",
         "body_part": "brain",
         "laterality": null,
@@ -88,9 +83,9 @@
       },
       {
         "injury_id": "inj_006",
-        "description": "Post‑traumatic epilepsy / status epilepticus (refractory generalized epileptic seizures in August 2012)",
+        "description": "post-traumatic epilepsy / epileptic seizures (status epilepticus in August 2012)",
         "injury_type": "Permanent injury",
-        "body_part": "brain / neurological",
+        "body_part": "brain",
         "laterality": null,
         "source": [
           "In August 2012, while having lunch at home, he developed status epilepticus with refractory generalized epileptic seizures.",
@@ -98,63 +93,56 @@
         ],
         "icd_code": "8A60.5",
         "icd_description": "Epilepsy due to injuries to the head"
-      },
-      {
-        "injury_id": "inj_007",
-        "description": "Skull defect requiring cranioplasty with metallic prosthesis",
-        "injury_type": "Permanent injury",
-        "body_part": "skull",
-        "laterality": null,
-        "source": [
-          "In May 2012, he was re‑admitted to QEH for his third operation, a cranioplasty to repair the skull defect with a metallic prosthesis."
-        ],
-        "icd_code": "NA02",
-        "icd_description": "Fracture of skull or facial bones"
       }
     ],
     "manifestations": [
       {
-        "description": "Loss of consciousness",
+        "description": "P was knocked unconscious as a result of the collision.",
         "manifestation_type": "symptom",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "description": "Prolonged post‑traumatic amnesia (post‑traumatic amnesia estimated as over one month)",
-        "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "description": "Dysphasia (problem with language); naming difficulty; impaired ability to express himself (often using the wrong words) and impaired understanding of verbal communications",
+        "description": "prolonged post-traumatic amnesia (post‑traumatic amnesia is estimated as over one month)",
         "manifestation_type": "neurological_deficit",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "description": "Cognitive dysfunction; scored 18/30 on mini mental state examination (mild to moderate dementia); slowed comprehension",
+        "description": "dysphasia (problem with language); impaired ability to express himself (often using the wrong words) and impaired understanding of verbal communications",
         "manifestation_type": "neurological_deficit",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "description": "Epileptic seizures (status epilepticus in August 2012) currently controlled with phenytoin",
+        "description": "cognitive dysfunction; scored 18/30 on mini mental state examination (mild to moderate dementia); naming difficulty; slowed comprehension of terms and instructions",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "epileptic seizures (status epilepticus in August 2012); started on phenytoin and has been seizure-free since that one occasion",
         "manifestation_type": "neurological_deficit",
         "caused_by_injury_id": "inj_006"
       },
       {
-        "description": "Right leg mild spasticity with heightened reflexes",
+        "description": "mild spasticity of the right leg with heightened reflexes",
         "manifestation_type": "sign",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "description": "Truncal ataxia; unable to walk heel to toe; walked stably but showed truncal ataxia",
+        "description": "truncal ataxia; walked stably but could not walk heel to toe; able to stand with feet together and eyes closed",
         "manifestation_type": "functional_deficit",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "description": "Incontinence",
+        "description": "incontinence",
         "manifestation_type": "functional_deficit",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "description": "Not fully independent even inside the home; not capable of managing his own legal and financial affairs",
+        "description": "The craniectomy scar on the left side of his skull was noted.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "with P’s cognitive dysfunction, dysphasia, incontinence and impaired balance, P was not employable in any capacity.",
         "manifestation_type": "functional_deficit",
         "caused_by_injury_id": "inj_001"
       }
@@ -163,13 +151,13 @@
   },
   "treatment": {
     "treatments_received": [
-      "Emergency operation to evacuate blood clots and insert a ventricular drain",
-      "Further emergency operation to evacuate more blood clots",
-      "Cranioplasty to repair skull defect with a metallic prosthesis",
-      "Admission to intensive care unit and intubation",
-      "Antiepileptic drug phenytoin",
-      "Rehabilitation",
-      "Follow up by neurosurgeons every 3 months"
+      "Emergency operation to evacuate blood clots and to insert a ventricular drain",
+      "Further emergency operation the following day to evacuate more blood clots",
+      "Rehabilitation at Kowloon Hospital",
+      "Cranioplasty to repair the skull defect with a metallic prosthesis (May 2012)",
+      "Admission to intensive care unit and intubation during status epilepticus (August 2012)",
+      "Started on the antiepileptic drug phenytoin which he continues to take",
+      "Followed up every 3 months by neurosurgeons at QEH"
     ],
     "treatments_future": [],
     "hospitalisation_days": null,
@@ -182,38 +170,33 @@
   "losses": {
     "losses": [
       {
-        "category": "Loss of independence",
-        "description": "Not fully independent even inside the home; needs care and attention for the rest of his life; not capable of managing his own legal and financial affairs.",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "category": "Loss of communication ability",
-        "description": "Dysphasia with impaired ability to express himself and impaired understanding of verbal communications.",
+        "category": "Loss of bodily integrity",
+        "description": "P sustained severe head injuries as is borne out by the agreed medical evidence.",
         "caused_by_injury_id": "inj_001"
       },
       {
         "category": "Loss of mental ability",
-        "description": "Cognitive dysfunction with MMSE score 18/30 (mild to moderate dementia), slowed comprehension and naming difficulty.",
+        "description": "cognitive dysfunction; scored 18/30 on mini mental state examination (mild to moderate dementia); naming difficulty; slowed comprehension of terms and instructions",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "category": "Loss of bodily integrity",
-        "description": "Severe head injury with skull fractures, intracranial bleeding and brain contusion requiring multiple neurosurgical operations and cranioplasty.",
+        "category": "Loss of communication ability",
+        "description": "dysphasia (problem with language); impaired ability to express himself (often using the wrong words) and impaired understanding of verbal communications",
         "caused_by_injury_id": "inj_001"
       },
       {
-        "category": "Loss of mobility",
-        "description": "Truncal ataxia and inability to walk heel to toe; gait impairment.",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "category": "Loss of ability to do domestic tasks",
-        "description": "Requires assistance and domestic help for ongoing care; not fully independent for domestic activities.",
+        "category": "Loss of independence",
+        "description": "P is not capable of managing his own legal and financial affairs and is not fully independent even inside the home; needs care and attention for the rest of his life",
         "caused_by_injury_id": "inj_001"
       },
       {
         "category": "Loss of congenial employment",
-        "description": "Permanent loss of earning capacity of 100%; not employable in any capacity.",
+        "description": "with P’s cognitive dysfunction, dysphasia, incontinence and impaired balance, P was not employable in any capacity. His permanent loss of earning capacity was 100%.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "walked stably but could not walk heel to toe, showing truncal ataxia; mild spasticity of the right leg",
         "caused_by_injury_id": "inj_001"
       }
     ]
@@ -233,28 +216,6 @@
         "psla_amount": 1000000.0
       },
       {
-        "case_name": "Lam Mo Bun v Hong Kong Aerosol Co. Ltd & others",
-        "neutral_citation": "[2001] 1 HKLRD 540",
-        "action_number": null,
-        "injury_description": null,
-        "hospitalisation_days": null,
-        "operations_count": null,
-        "sick_leave_days": null,
-        "comparison": null,
-        "psla_amount": 800000.0
-      },
-      {
-        "case_name": "Law Ping Leung v Ng Sze Pong",
-        "neutral_citation": "[2009] 5 HKLRD 426",
-        "action_number": null,
-        "injury_description": null,
-        "hospitalisation_days": null,
-        "operations_count": null,
-        "sick_leave_days": null,
-        "comparison": null,
-        "psla_amount": 1100000.0
-      },
-      {
         "case_name": "Chan Yuk v Dragages et Travaux Publics (HK) Ltd & others",
         "neutral_citation": "[2000] 2 HKLRD 795",
         "action_number": null,
@@ -264,8 +225,44 @@
         "sick_leave_days": null,
         "comparison": null,
         "psla_amount": 1250000.0
+      },
+      {
+        "case_name": "Wong Hin Pui v Mok Ying Kit & another (No.2)",
+        "neutral_citation": "[2000] 1 HKLRD 856",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 1000000.0
       }
     ]
   },
-  "death": null
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 3,
+    "extraction_token_count": {
+      "input_tokens": 57905,
+      "output_tokens": 30516,
+      "reasoning_tokens": 21888,
+      "total_tokens": 88421
+    },
+    "reconciliation_token_count": {
+      "input_tokens": 8233,
+      "output_tokens": 7560,
+      "reasoning_tokens": 5824,
+      "total_tokens": 15793
+    },
+    "extraction_duration_ms": 128531.6710829502,
+    "reconciliation_duration_ms": 54062.72312498186,
+    "total_token_count": {
+      "input_tokens": 66138,
+      "output_tokens": 38076,
+      "reasoning_tokens": 27712,
+      "total_tokens": 104214
+    },
+    "total_duration_ms": 182594.39420793205
+  }
 }
