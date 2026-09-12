@@ -2,6 +2,7 @@ id: "comparable-case-extraction"
 model: "gpt"
 provider: "gpt"
 case_files_path: "sample_cases"
+case_files_format: "raw"
 output_dir: "output/experiments/comparable_extraction"
 max_comparable_cases: 3
 fetch_delay_seconds: 1.5

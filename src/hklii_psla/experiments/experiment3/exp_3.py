@@ -15,9 +15,9 @@ import re
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import ClassVar, override
+from typing import ClassVar, Literal, override
 
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 from rich.console import Console
 from rich.table import Table
 
@@ -28,7 +28,7 @@ from hklii_psla.judgement_retriever.models import CaseQuery, Judgment
 from hklii_psla.judgement_retriever.sources.judiciary import JudiciaryClient
 from hklii_psla.judgement_retriever.storage import save_judgment
 from hklii_psla.model_factory import create_model
-from hklii_psla.schemas import PSLAComparableCase
+from hklii_psla.schemas import Case, PSLAComparableCase
 
 logger = logging.getLogger(__name__)
 console = Console()
@@ -39,6 +39,7 @@ class Exp3Config(BaseModel):
     model: str
     provider: str
     case_files_path: str
+    case_files_format: Literal["raw", "extracted"] = "raw"
     output_dir: str
     max_comparable_cases: int | None = None
     fetch_delay_seconds: float = 1.5
@@ -86,32 +87,38 @@ class ComparableCaseExtractionExperiment(
         llm = create_model(self._config.model)
         extractor = SinglePassExtractor(llm, model_name=self._config.model)
 
-        case_files = sorted(Path(self._config.case_files_path).glob("*.txt"))
-        if not case_files:
-            raise RuntimeError(f"No .txt case files found under {self._config.case_files_path}")
+        case_files = self._collect_case_files()
 
         fetch_cache: dict[str, Judgment | None] = {}
         extract_cache: dict[str, ExtractionResult] = {}
 
         with JudiciaryClient(timeout=self._config.fetch_timeout) as judiciary:
             for file in case_files:
-                judgment_text = extractor.load_judgment(file)
-                result = extractor.extract(judgment_text, prompt_style="zero-shot")
-                primary_filename = self._generate_filename(result, fallback=file.stem)
-                self._save_case(result, primary_dir / primary_filename)
+                if self._config.case_files_format == "raw":
+                    result = self._extract_primary(file, extractor)
+                    primary_filename = self._generate_filename(result, fallback=file.stem)
+                    self._save_case(result, primary_dir / primary_filename)
+                    strategy, prompt_style = "single-pass", "zero-shot"
+                else:
+                    result = self._load_extracted_case(file)
+                    primary_filename = None
+                    strategy, prompt_style = "pre-extracted", "n/a"
 
                 self.batch.runs.append(ExperimentRun(
                     provider=self._config.provider,
                     model=self._config.model,
-                    strategy="single-pass",
-                    prompt_style="zero-shot",
+                    strategy=strategy,
+                    prompt_style=prompt_style,
                     case_file=str(file),
                     result=result,
                     filename=primary_filename,
                 ))
 
                 if result.success:
-                    logger.info(f"    OK — primary {file.name}: {result.duration_ms:.0f}ms")
+                    if self._config.case_files_format == "raw":
+                        logger.info(f"    OK — primary {file.name}: {result.duration_ms:.0f}ms")
+                    else:
+                        logger.info(f"    LOADED — pre-extracted primary {file.name}")
                 else:
                     logger.info(f"    FAIL — primary {file.name}: {result.error}")
                     continue
@@ -134,6 +141,51 @@ class ComparableCaseExtractionExperiment(
                         fetch_cache=fetch_cache,
                         extract_cache=extract_cache,
                     )
+
+    def _collect_case_files(self) -> list[Path]:
+        """Resolve input files according to ``case_files_format``.
+
+        "raw" expects a directory of judgment ``.txt`` files; "extracted"
+        expects a directory of pre-extracted ``Case`` ``.json`` files. A mix
+        of both extensions is rejected so half the directory is never
+        silently ignored.
+        """
+        directory = Path(self._config.case_files_path)
+        if not directory.is_dir():
+            raise RuntimeError(f"case_files_path is not a directory: {self._config.case_files_path}")
+
+        expected, other = (
+            ("*.txt", "*.json")
+            if self._config.case_files_format == "raw"
+            else ("*.json", "*.txt")
+        )
+        case_files = sorted(directory.glob(expected))
+        if not case_files:
+            raise RuntimeError(
+                f"No {expected} files found under {self._config.case_files_path} "
+                f"(case_files_format={self._config.case_files_format!r})"
+            )
+        if list(directory.glob(other)):
+            raise RuntimeError(
+                f"case_files_path contains a mix of .txt and .json files; "
+                f"case_files_format={self._config.case_files_format!r} requires only {expected} files"
+            )
+        return case_files
+
+    def _extract_primary(self, file: Path, extractor: SinglePassExtractor) -> ExtractionResult:
+        judgment_text = extractor.load_judgment(file)
+        return extractor.extract(judgment_text, prompt_style="zero-shot")
+
+    def _load_extracted_case(self, file: Path) -> ExtractionResult:
+        """Load a pre-extracted ``Case`` JSON without re-running extraction."""
+        try:
+            with file.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            case = Case.model_validate(data)
+        except (json.JSONDecodeError, ValidationError) as e:
+            logger.warning(f"Failed to load pre-extracted case {file.name}: {e}")
+            return ExtractionResult(case=None, model_name="pre-extracted", error=str(e))
+        return ExtractionResult(case=case, model_name="pre-extracted")
 
     def _process_comparable_case(
         self,
