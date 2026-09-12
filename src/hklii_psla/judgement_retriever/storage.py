@@ -35,11 +35,12 @@ def save_judgment(
 
     if judgment.action_number:
         filename = f"{prefix + "-" if prefix else ""}{judgment.action_number}.txt"
+    elif judgment.neutral_citation:
+        filename = f"{prefix + "-" if prefix else ""}{citation_to_filename(judgment.neutral_citation)}"
     else:
-        filename = "temporary_fix.txt"
-        # raise ValueError(
-        #     "Cannot save judgment without an action number."
-        # )
+        raise ValueError(
+            "Cannot save judgment without an action number or neutral citation."
+        )
 
     path = output_path / filename
 

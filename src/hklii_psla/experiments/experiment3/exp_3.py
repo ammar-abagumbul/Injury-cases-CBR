@@ -241,7 +241,19 @@ class ComparableCaseExtractionExperiment(
             return
 
         stem = self._safe_stem(key)
-        judgment_path = save_judgment(judgment, output_dir=comparable_judgments_dir, prefix=stem)
+        try:
+            judgment_path = save_judgment(judgment, output_dir=comparable_judgments_dir)
+        except ValueError as e:
+            self._links.append(ComparableLink(
+                **base_link_kwargs,
+                fetch_status="error",
+                fetch_error=str(e),
+                judgment_path=None,
+                extraction_status="not_attempted",
+                extraction_error=None,
+                case_json_path=None,
+            ))
+            return
 
         if key in extract_cache:
             comp_result = extract_cache[key]
@@ -320,6 +332,7 @@ class ComparableCaseExtractionExperiment(
         total_comparable = len(self._links)
         fetched = sum(1 for link in self._links if link.fetch_status == "fetched")
         not_found = sum(1 for link in self._links if link.fetch_status == "not_found")
+        fetch_errors = sum(1 for link in self._links if link.fetch_status == "error")
         skipped = sum(1 for link in self._links if link.fetch_status == "skipped_no_identifier")
         extracted_ok = sum(1 for link in self._links if link.extraction_status == "success")
 
@@ -332,6 +345,7 @@ class ComparableCaseExtractionExperiment(
             ("Comparable cases cited", total_comparable),
             ("Comparable judgments fetched", fetched),
             ("Comparable judgments not found", not_found),
+            ("Comparable judgments fetch errors", fetch_errors),
             ("Comparable cases skipped (no identifier)", skipped),
             ("Comparable cases extracted successfully", extracted_ok),
         ]:
