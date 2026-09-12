@@ -11,7 +11,7 @@ from hklii_psla.experiments.experiment import (
     ExperimentRun,
     ExtractionResult
 )
-from hklii_psla.experiments.experiment1.reconciler import (
+from hklii_psla.experiments.experiment2.reconciler import (
     Reconciler,
     ReconcilerConfig,
     ReconciliationField
@@ -26,6 +26,14 @@ from typing import ClassVar, override
 
 logger = logging.getLogger(__name__)
 console = Console()
+
+ADDITIONAL_INSTRUCTION = (
+    "You are performing data reconciliation for injuries and losses. "
+    "Adhere strictly to the following processing rules:\n\n"
+    "1. **Filter Out Incomplete Data**: Discard any injury record where either `icd_code` or `icd_description` is null or empty. Prioritize records that contain valid, non-null values for both fields.\n"
+    "2. **Deduplicate & Resolve Similar Codes**: If two injury records contain identical or highly similar `icd_code` values, evaluate the source text to determine which injury is most accurate. Retain only the single, most appropriate record. Note: If the source text explicitly verifies that both distinct injuries coexist, retain both.\n"
+    "3. **Enforce Loss-to-Injury Mapping**: Every loss record must map to a valid `injury_id`. Do not leave the `injury_id` field blank or null under any circumstances. A missing mapping constitutes a logical execution error."
+)
 
 class Exp2Config(BaseModel):
     id: str
@@ -68,7 +76,7 @@ class ReconcilationExperiment(BaseExperiment[Exp2Config], experiment_id="reconci
         reconciler_config = ReconcilerConfig(
             fields=reconciation_fields,
             schema=Case,
-            additional_instructions=""
+            additional_instructions=ADDITIONAL_INSTRUCTION
         )
         reconciler = Reconciler(
             model=llm,
@@ -88,11 +96,6 @@ class ReconcilationExperiment(BaseExperiment[Exp2Config], experiment_id="reconci
 
                 try:
                     reconciled_result = reconciler.reconcile(results)
-                    reconciled_result.duration_ms += sum([r.duration_ms for r in results])
-                    reconciled_result.token_count = sum(
-                        [r.token_count for r in results],
-                        reconciled_result.token_count
-                    )
                     filename = self._generate_filename(reconciled_result)
                 except Exception as e:
                     logger.error(f"    error — {e}")
@@ -130,6 +133,10 @@ class ReconcilationExperiment(BaseExperiment[Exp2Config], experiment_id="reconci
         for r in self.batch.runs:
             if r.result and r.result.case:
                 case_json = r.result.case.model_dump()
+                if r.result.extraction_metadata:
+                    case_json["extraction_metadata"] = (
+                        r.result.extraction_metadata.to_dict()
+                    )
                 filepath = batch_dir / (r.filename or f"{uuid.uuid4()}.json")
                 with open(filepath, "w", encoding="utf-8") as f:
                     json.dump(case_json, f, indent=2, ensure_ascii=False)

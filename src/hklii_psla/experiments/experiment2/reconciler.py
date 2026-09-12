@@ -7,7 +7,7 @@ from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel
 
-from hklii_psla.extractor.base import ExtractionResult, TokenCount
+from hklii_psla.extractor.base import ExtractionMetadata, ExtractionResult, TokenCount
 from hklii_psla.extractor.utils import extract_token_counts, get_sub_schema
 
 
@@ -61,6 +61,12 @@ class Reconciler:
         final_result: ExtractionResult = deepcopy(results[random_idx])
         reconcile_token_count = TokenCount()
 
+        # Aggregate extraction-stage cost across all input runs
+        extraction_token_count = sum(
+            (r.token_count for r in results), TokenCount()
+        )
+        extraction_duration_ms = sum(r.duration_ms for r in results)
+
         t0 = time.perf_counter()
 
         for field in self.config.fields:
@@ -79,6 +85,14 @@ class Reconciler:
                     f"{'\n'.join(dependencies_json)}"
                     f"## End of Dependencies\n\n"
                 )
+            if self.config.additional_instructions:
+                user_input += (
+                    "Furthermore, below is some additional instructions for you "
+                    "to follow.\n\n"
+                    "## ADDITIONAL INSTRUCTIONS\n"
+                    f"{self.config.additional_instructions}\n"
+                    "## END OF ADDITIONAL INSTRUCTIONS\n\n"
+                )
             for idx, result in enumerate(results):
                 section: BaseModel = getattr(result.case, field.name)
                 user_input += f"Result {idx + 1}:\n"
@@ -92,8 +106,18 @@ class Reconciler:
             reconciliation = call_result.get("parsed")
             self.update_field(final_result, field.name, reconciliation)
 
-        duration_ms = (time.perf_counter() - t0) * 1000
-        final_result.duration_ms = duration_ms
+        reconcile_duration_ms = (time.perf_counter() - t0) * 1000
+
+        final_result.token_count = extraction_token_count + reconcile_token_count
+        final_result.duration_ms = extraction_duration_ms + reconcile_duration_ms
+        final_result.extraction_metadata = ExtractionMetadata(
+            model_name=final_result.model_name,
+            num_extraction_runs=len(results),
+            extraction_token_count=extraction_token_count,
+            reconciliation_token_count=reconcile_token_count,
+            extraction_duration_ms=extraction_duration_ms,
+            reconciliation_duration_ms=reconcile_duration_ms,
+        )
         final_result.raw_response = None
         final_result.debug = None
         return final_result
