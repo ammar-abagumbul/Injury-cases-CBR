@@ -78,6 +78,53 @@ SECTION_PROMPT_TEMPLATE = (
 
 
 @dataclass
+class ExtractionMetadata:
+    """Runtime metadata about how an extraction was produced.
+
+    Tracks token usage and wall-clock time separately for the extraction
+    stage (possibly aggregated over multiple runs) and the reconciliation
+    stage, so the information survives beyond log output.
+    """
+
+    model_name: str = ""
+    num_extraction_runs: int = 1
+    extraction_token_count: TokenCount = field(default_factory=TokenCount)
+    reconciliation_token_count: TokenCount | None = None
+    extraction_duration_ms: float = 0.0
+    reconciliation_duration_ms: float | None = None
+
+    @property
+    def total_token_count(self) -> TokenCount:
+        total = self.extraction_token_count
+        if self.reconciliation_token_count is not None:
+            total = total + self.reconciliation_token_count
+        return total
+
+    @property
+    def total_duration_ms(self) -> float:
+        total = self.extraction_duration_ms
+        if self.reconciliation_duration_ms is not None:
+            total += self.reconciliation_duration_ms
+        return total
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "model_name": self.model_name,
+            "num_extraction_runs": self.num_extraction_runs,
+            "extraction_token_count": self.extraction_token_count.to_dict(),
+            "reconciliation_token_count": (
+                self.reconciliation_token_count.to_dict()
+                if self.reconciliation_token_count is not None
+                else None
+            ),
+            "extraction_duration_ms": self.extraction_duration_ms,
+            "reconciliation_duration_ms": self.reconciliation_duration_ms,
+            "total_token_count": self.total_token_count.to_dict(),
+            "total_duration_ms": self.total_duration_ms,
+        }
+
+
+@dataclass
 class ExtractionResult:
     """Result of running extraction on a single case."""
 
@@ -87,6 +134,7 @@ class ExtractionResult:
     prompt_style: str = ""
     duration_ms: float = 0.0
     token_count: TokenCount = field(default_factory=TokenCount)
+    extraction_metadata: ExtractionMetadata | None = None
     error: str | None = None
     debug: str | None = None
 

@@ -34,6 +34,11 @@ class ExperimentRun:
                 "success": self.result.success,
                 "duration_ms": self.result.duration_ms,
                 "token_count": self.result.token_count.to_dict(),
+                "extraction_metadata": (
+                    self.result.extraction_metadata.to_dict()
+                    if self.result.extraction_metadata
+                    else None
+                ),
                 "error": self.result.error,
                 "case_json": self.result.case.model_dump(mode="json") if self.result.case else None,
             })

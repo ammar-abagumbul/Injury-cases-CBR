@@ -20,6 +20,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from hklii_psla.config import settings
 from hklii_psla.extractor.base import (
     BaseExtractor,
+    ExtractionMetadata,
     ExtractionResult,
     SYSTEM_PROMPT_BASE,
     TokenCount,
@@ -55,11 +56,13 @@ class SinglePassExtractor(BaseExtractor):
         result = self._stage1_extract(judgment_text, prompt_style)
 
         if not result.success or not result.case:
+            self._attach_metadata(result)
             return result
 
         injuries = result.case.injuries.injuries
 
         if not injuries:
+            self._attach_metadata(result)
             return result
 
         # Stage 2: ICD-11 classification
@@ -72,7 +75,17 @@ class SinglePassExtractor(BaseExtractor):
                 f"Stage 2 ICD-11 classification failed: {exc}"
             )
 
+        self._attach_metadata(result)
         return result
+
+    @staticmethod
+    def _attach_metadata(result: ExtractionResult) -> None:
+        """Record extraction-stage runtime metadata on the result."""
+        result.extraction_metadata = ExtractionMetadata(
+            model_name=result.model_name,
+            extraction_token_count=result.token_count,
+            extraction_duration_ms=result.duration_ms,
+        )
 
     def _stage1_extract(
         self,
