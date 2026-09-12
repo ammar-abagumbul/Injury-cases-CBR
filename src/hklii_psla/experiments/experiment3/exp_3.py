@@ -9,6 +9,7 @@ just the few benchmarking fields quoted in the primary judgment.
 
 from __future__ import annotations
 
+import csv
 import json
 import logging
 import re
@@ -32,6 +33,18 @@ from hklii_psla.schemas import Case, PSLAComparableCase
 
 logger = logging.getLogger(__name__)
 console = Console()
+
+_LINK_CSV_COLUMNS = [
+    "source_file_name",
+    "source_neutral_citation",
+    "source_action_number",
+    "comparable_file_name",
+    "comparable_neutral_citation",
+    "comparable_action_number",
+    "fetch_status",
+    "extraction_status",
+    "comparable_case_json_file",
+]
 
 
 class Exp3Config(BaseModel):
@@ -61,6 +74,13 @@ class ComparableLink:
     extraction_status: str  # "success" | "failed" | "not_attempted"
     extraction_error: str | None
     case_json_path: str | None
+    # Resolved identifiers for the CSV relationship table.
+    primary_file_name: str = ""
+    primary_action_number: str | None = None
+    judgment_file_name: str | None = None
+    comparable_case_neutral_citation: str | None = None
+    comparable_case_action_number: str | None = None
+    comparable_case_json_file: str | None = None
 
 
 class ComparableCaseExtractionExperiment(
@@ -125,6 +145,7 @@ class ComparableCaseExtractionExperiment(
 
                 assert result.case is not None
                 primary_citation = result.case.metadata.neutral_citation
+                primary_action_number = result.case.metadata.action_number or None
                 comparable_cases = result.case.psla.comparable_cases
                 if self._config.max_comparable_cases is not None:
                     comparable_cases = comparable_cases[: self._config.max_comparable_cases]
@@ -136,6 +157,7 @@ class ComparableCaseExtractionExperiment(
                         cc=cc,
                         primary_file=file,
                         primary_citation=primary_citation,
+                        primary_action_number=primary_action_number,
                         comparable_judgments_dir=comparable_judgments_dir,
                         comparable_cases_dir=comparable_cases_dir,
                         fetch_cache=fetch_cache,
@@ -195,6 +217,7 @@ class ComparableCaseExtractionExperiment(
         cc: PSLAComparableCase,
         primary_file: Path,
         primary_citation: str | None,
+        primary_action_number: str | None,
         comparable_judgments_dir: Path,
         comparable_cases_dir: Path,
         fetch_cache: dict[str, Judgment | None],
@@ -206,6 +229,10 @@ class ComparableCaseExtractionExperiment(
             "comparable_case_name": cc.case_name,
             "comparable_citation": cc.neutral_citation,
             "comparable_action_number": cc.action_number,
+            "primary_file_name": primary_file.name,
+            "primary_action_number": primary_action_number,
+            "comparable_case_neutral_citation": cc.neutral_citation,
+            "comparable_case_action_number": cc.action_number,
         }
 
         key = self._comparable_key(cc)
@@ -267,6 +294,13 @@ class ComparableCaseExtractionExperiment(
             case_json_path = comparable_cases_dir / comp_filename
             self._save_case(comp_result, case_json_path)
 
+        if comp_result.success and comp_result.case is not None:
+            comp_nc = comp_result.case.metadata.neutral_citation or None
+            comp_an = comp_result.case.metadata.action_number or None
+        else:
+            comp_nc = None
+            comp_an = None
+
         self._links.append(ComparableLink(
             **base_link_kwargs,
             fetch_status="fetched",
@@ -275,6 +309,10 @@ class ComparableCaseExtractionExperiment(
             extraction_status="success" if comp_result.success else "failed",
             extraction_error=comp_result.error,
             case_json_path=str(case_json_path) if case_json_path else None,
+            judgment_file_name=judgment_path.name,
+            comparable_case_neutral_citation=comp_nc or cc.neutral_citation,
+            comparable_case_action_number=comp_an or cc.action_number,
+            comparable_case_json_file=case_json_path.name if case_json_path else None,
         ))
 
     def _fetch_comparable(self, client: JudiciaryClient, cc: PSLAComparableCase) -> Judgment | None:
@@ -327,6 +365,8 @@ class ComparableCaseExtractionExperiment(
         with open(manifest_path, "w", encoding="utf-8") as f:
             json.dump([asdict(link) for link in self._links], f, indent=2, ensure_ascii=False)
 
+        links_csv_path = self._write_links_csv(output_dir)
+
         total_primary = len(self.batch.runs)
         successful_primary = sum(1 for r in self.batch.runs if r.result and r.result.success)
         total_comparable = len(self._links)
@@ -354,3 +394,29 @@ class ComparableCaseExtractionExperiment(
 
         console.print(f"\n[bold green]Results saved to {output_dir}[/bold green]")
         console.print(f"[bold green]Manifest: {manifest_path}[/bold green]")
+        console.print(f"[bold green]Links CSV: {links_csv_path}[/bold green]")
+
+    def _write_links_csv(self, output_dir: Path) -> Path:
+        """Write the source-to-comparable relationship table.
+
+        One row per (source case, cited comparable) pair, including fetch
+        and extraction failures, so the table is a complete record. Missing
+        values are written as empty cells.
+        """
+        csv_path = output_dir / "comparable_links.csv"
+        with open(csv_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(_LINK_CSV_COLUMNS)
+            for link in self._links:
+                writer.writerow([
+                    link.primary_file_name,
+                    link.primary_citation or "",
+                    link.primary_action_number or "",
+                    link.judgment_file_name or "",
+                    link.comparable_case_neutral_citation or "",
+                    link.comparable_case_action_number or "",
+                    link.fetch_status,
+                    link.extraction_status,
+                    link.comparable_case_json_file or "",
+                ])
+        return csv_path
