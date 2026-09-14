@@ -1,8 +1,11 @@
-id: ""
-model: "gpt"
-provider: "gpt"
-case_file_path: "test_documents"
-output_dir: ""
-max_comparable_cases: 3
-fetch_delay_seconds: 1.5
-fetch_timeout: 30.0
+id: "cbr-ranking"
+query_case_path: "src/hklii_psla/experiments/experiment4/[2016] HKCFI 1008.json"
+candidate_cases_path: "src/hklii_psla/experiments/experiment4/test_list/"
+correct_order:
+  - "[2016] HKCFI 1008"
+  - "HCPI 668/2005"
+  - "HCPI 1066/1998"
+  - "[2019] HKDC 546"
+  - "[2019] HKDC 543"
+output_dir: "output/experiments/cbr"
+weights: null
