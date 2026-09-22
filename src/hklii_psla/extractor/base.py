@@ -14,7 +14,7 @@ from typing import Any
 
 from langchain_core.language_models import BaseChatModel
 
-from hklii_psla.schemas import Case, ALL_LOSS_CATEGORIES
+from hklii_psla.schemas import Case
 
 
 @dataclass

@@ -16,18 +16,17 @@ from typing import Any, cast
 from langchain_core.messages import HumanMessage, SystemMessage
 
 from hklii_psla.extractor.base import BaseExtractor, ExtractionResult, TokenCount
-from hklii_psla.extractor.single_pass import extract_token_counts
 from hklii_psla.schemas import (
     ALL_LOSS_CATEGORIES,
+    Case,
     CaseMetadata,
-    PlaintiffBackground,
-    InjurySummary,
-    Treatment,
-    LossSummary,
-    PSLAAward,
     DeathInfo,
     InjuryLossRelationList,
-    Case,
+    InjurySummary,
+    LossSummary,
+    PlaintiffBackground,
+    PSLAAward,
+    Treatment,
 )
 
 # ---------------------------------------------------------------------------

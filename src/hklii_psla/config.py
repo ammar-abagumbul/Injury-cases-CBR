@@ -55,6 +55,7 @@ class Settings(BaseSettings):
     # ------------------------------------------------------------------
     DEFAULT_TEMPERATURE: float = 0.0
     DEFAULT_MAX_TOKENS: int = 4096
+    MAX_CONCURRENT_REQUESTS: int = 5
 
     # ------------------------------------------------------------------
     # Ollama

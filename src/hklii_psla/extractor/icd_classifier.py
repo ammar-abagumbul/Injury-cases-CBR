@@ -15,34 +15,25 @@ Example flow for "fracture of the left tibia":
 
 from __future__ import annotations
 
+import asyncio
 import json
 from pathlib import Path
-from pydoc import source_synopsis
 from typing import Any
 
 from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel, Field
 
-from hklii_psla.schemas import Injury
-from hklii_psla.extractor.base import TokenCount
-from hklii_psla.extractor.utils import extract_token_counts
+from ..schemas import Injury
+from .base import TokenCount
+from .utils import extract_token_counts
 
-
-
-# ---------------------------------------------------------------------------
-# Error types
-# ---------------------------------------------------------------------------
 
 class ICDClassificationError(Exception):
     """Raised when ICD-11 classification fails for any injury."""
 
 
-# ---------------------------------------------------------------------------
-# Tree loading
-# ---------------------------------------------------------------------------
-
-def load_icd_tree(path: Path) -> list[dict]:
+def load_icd_tree(path: Path) -> list[dict[str, Any]]:
     """Load ICD-11 JSON taxonomy tree into memory.
 
     The file ``data/ICD-11.json`` contains 9 top-level section objects, each
@@ -58,9 +49,6 @@ def load_icd_tree(path: Path) -> list[dict]:
     return data
 
 
-# ---------------------------------------------------------------------------
-# Dynamic Pydantic choice model
-# ---------------------------------------------------------------------------
 
 def _make_choice_model(num_options: int) -> type[BaseModel]:
     """Create a Pydantic model with a single ``choice`` int field.
@@ -80,10 +68,6 @@ def _make_choice_model(num_options: int) -> type[BaseModel]:
     return ChoiceModel
 
 
-# ---------------------------------------------------------------------------
-# Classification logic
-# ---------------------------------------------------------------------------
-
 # System prompt for the ICD-11 classification agent
 ICD_SYSTEM_PROMPT = (
     "You are a medical coding assistant specialising in ICD-11 injury codes. "
@@ -97,6 +81,69 @@ ICD_SYSTEM_PROMPT = (
     "not needed, choose 'No further detail'.\n"
     "- Respond ONLY with a valid option index."
 )
+
+
+def _build_level_prompt(
+    injury_description: str,
+    source: str,
+    current_node: dict[str, Any],
+) -> tuple[str, int, int, int, str]:
+    """Build the option list and user prompt for one tree level.
+
+    Shared by the sync and async classification paths so both present the
+    exact same options to the model.
+
+    Returns
+    -------
+    tuple[str, int, int, int, str]
+        ``(user_prompt, num_children, other_index, no_detail_index, node_desc)``.
+    """
+    children: list[dict[str, Any]] = current_node.get("children", [])
+    node_desc = current_node.get("description") or current_node.get("section", "root")
+
+    # Build option list
+    options: list[str] = []
+    for child in children:
+        code = child.get("code", "?")
+        # Non-section nodes have "description"; top-level section nodes use "section"
+        desc = child.get("description") or child.get("section", "?")
+        options.append(f"{code}: {desc}")
+
+    other_index = len(options)
+    no_detail_index = len(options) + 1
+
+    options.append("Other — none of the above match")
+    options.append("No further detail — stop at current level")
+
+    # Build human prompt
+    option_lines = "\n".join(f"{i}. {opt}" for i, opt in enumerate(options))
+    user_prompt = (
+        f"Injury: {injury_description}\n\n"
+        f"Source from document: {source}\n\n"
+        f"Current level: {node_desc}\n\n"
+        f"Options:\n{option_lines}\n\n"
+        "Choose the SINGLE best match. Respond with only the option index."
+    )
+
+    return user_prompt, len(children), other_index, no_detail_index, node_desc
+
+
+def _resolve_choice(
+    choice: int,
+    num_children: int,
+    other_index: int,
+    no_detail_index: int,
+) -> int:
+    """Map a raw model choice to a child index, -1 (Other) or -2 (stop)."""
+    if choice == other_index:
+        return -1  # Other
+    if choice == no_detail_index:
+        return -2  # No further detail
+    if 0 <= choice < num_children:
+        return choice
+    raise ICDClassificationError(
+        f"Invalid choice index {choice} (expected 0-{no_detail_index})"
+    )
 
 
 def _classify_level(
@@ -127,38 +174,17 @@ def _classify_level(
     ICDClassificationError
         If the LLM call fails or returns an invalid choice.
     """
-    children: list[dict] = current_node.get("children", [])
-    node_desc = current_node.get("description") or current_node.get("section", "root")
+    children: list[dict[str, Any]] = current_node.get("children", [])
 
     if not children:
         return (-2, TokenCount(input_tokens=0, output_tokens=0))
 
-    # Build option list
-    options: list[str] = []
-    for child in children:
-        code = child.get("code", "?")
-        # Non-section nodes have "description"; top-level section nodes use "section"
-        desc = child.get("description") or child.get("section", "?")
-        options.append(f"{code}: {desc}")
-
-    other_index = len(options)
-    no_detail_index = len(options) + 1
-
-    options.append("Other — none of the above match")
-    options.append("No further detail — stop at current level")
-
-    # Build human prompt
-    option_lines = "\n".join(f"{i}. {opt}" for i, opt in enumerate(options))
-    user_prompt = (
-        f"Injury: {injury_description}\n\n"
-        f"Source from document: {source}\n\n"
-        f"Current level: {node_desc}\n\n"
-        f"Options:\n{option_lines}\n\n"
-        "Choose the SINGLE best match. Respond with only the option index."
+    user_prompt, num_children, other_index, no_detail_index, node_desc = (
+        _build_level_prompt(injury_description, source, current_node)
     )
 
     # Create structured model for this specific level
-    choice_model_cls = _make_choice_model(len(options))
+    choice_model_cls = _make_choice_model(num_children + 2)
     structured_model = model.with_structured_output(choice_model_cls, include_raw=True)
 
     try:
@@ -175,16 +201,47 @@ def _classify_level(
     choice: int = result["parsed"].choice  # type: ignore[arg-type]
     tc = extract_token_counts(result)
 
-    if choice == other_index:
-        return -1, tc  # Other
-    elif choice == no_detail_index:
-        return -2, tc  # No further detail
-    elif 0 <= choice < len(children):
-        return choice, tc
-    else:
+    return _resolve_choice(
+        choice, num_children, other_index, no_detail_index
+    ), tc
+
+
+async def _aclassify_level(
+    model: BaseChatModel,
+    injury_description: str,
+    source: str,
+    current_node: dict[str, Any],
+) -> tuple[int, TokenCount]:
+    """Async twin of :func:`_classify_level`."""
+    children: list[dict[str, Any]] = current_node.get("children", [])
+
+    if not children:
+        return (-2, TokenCount(input_tokens=0, output_tokens=0))
+
+    user_prompt, num_children, other_index, no_detail_index, node_desc = (
+        _build_level_prompt(injury_description, source, current_node)
+    )
+
+    choice_model_cls = _make_choice_model(num_children + 2)
+    structured_model = model.with_structured_output(choice_model_cls, include_raw=True)
+
+    try:
+        result = await structured_model.ainvoke([
+            SystemMessage(content=ICD_SYSTEM_PROMPT),
+            HumanMessage(content=user_prompt),
+        ])
+        assert(isinstance(result, dict))
+    except Exception as e:
         raise ICDClassificationError(
-            f"Invalid choice index {choice} (expected 0-{len(options) - 1})"
-        )
+            f"LLM call failed at node '{node_desc}': {e}"
+        ) from e
+
+    choice: int = result["parsed"].choice  # type: ignore[arg-type]
+    tc = extract_token_counts(result)
+
+    return _resolve_choice(
+        choice, num_children, other_index, no_detail_index
+    ), tc
 
 
 def _classify_single_injury(
@@ -206,15 +263,15 @@ def _classify_single_injury(
     """
     desc = injury.description
     source = injury.source
+    src_concat = "\n".join(source)
     if not desc.strip():
-        # Nothing to classify — keep existing (None) fields
         return injury, TokenCount()
 
     total_tc = TokenCount()
 
     # Phase 1: pick top-level section
     section_idx, tc = _classify_level(
-        model, desc, source, {"children": sections, "section": "root"}
+        model, desc, src_concat, {"children": sections, "section": "root"}
     )
     total_tc = total_tc + tc
 
@@ -232,7 +289,7 @@ def _classify_single_injury(
             # Leaf node — use it
             break
 
-        child_idx, tc = _classify_level(model, desc, source, current_node)
+        child_idx, tc = _classify_level(model, desc, src_concat, current_node)
         total_tc = total_tc + tc
 
         if child_idx == -1:
@@ -247,6 +304,62 @@ def _classify_single_injury(
     # Populate ICD fields on a copy.
     # Top-level sections use key "section" instead of "description", and
     # have no ICD code (they are anatomical groupings, not codes).
+    code: str | None = current_node.get("code")
+    desc_icd: str = current_node.get("description") or current_node.get("section", "")
+
+    classified = Injury(
+        injury_id=injury.injury_id,
+        description=injury.description,
+        injury_type=injury.injury_type,
+        body_part=injury.body_part,
+        laterality=injury.laterality,
+        source=injury.source,
+        icd_code=code,
+        icd_description=desc_icd,
+    )
+    return classified, total_tc
+
+
+async def _aclassify_single_injury(
+    model: BaseChatModel,
+    injury: Injury,
+    sections: list[dict[str, Any]],
+) -> tuple[Injury, TokenCount]:
+    """Async twin of :func:`_classify_single_injury`."""
+    desc = injury.description
+    source = injury.source
+    src_cat = "\n".join(source)
+    if not desc.strip():
+        # Nothing to classify — keep existing (None) fields
+        return injury, TokenCount()
+
+    total_tc = TokenCount()
+
+    # Phase 1: pick top-level section
+    section_idx, tc = await _aclassify_level(
+        model, desc, src_cat, {"children": sections, "section": "root"}
+    )
+    total_tc = total_tc + tc
+
+    if section_idx == -1 or section_idx == -2:
+        return injury, total_tc
+
+    current_node: dict[str, Any] = sections[section_idx]
+
+    # Phase 2: recurse down
+    while True:
+        children = current_node.get("children", [])
+        if not children:
+            break
+
+        child_idx, tc = await _aclassify_level(model, desc, src_cat, current_node)
+        total_tc = total_tc + tc
+
+        if child_idx == -1 or child_idx == -2:
+            break
+
+        current_node = children[child_idx]
+
     code: str | None = current_node.get("code")
     desc_icd: str = current_node.get("description") or current_node.get("section", "")
 
@@ -300,6 +413,39 @@ def classify_injuries(
     total_tc = TokenCount()
     for injury in injuries:
         result, tc = _classify_single_injury(model, injury, sections)
+        classified.append(result)
+        total_tc = total_tc + tc
+
+    return classified, total_tc
+
+
+async def aclassify_injuries(
+    model: BaseChatModel,
+    injuries: list[Injury],
+    icd_tree: list[dict[str, Any]],
+    max_concurrency: int = 5,
+) -> tuple[list[Injury], TokenCount]:
+    """Async twin of :func:`classify_injuries`.
+
+    Injuries are independent, so they are classified concurrently behind a
+    semaphore. Results are returned in the same order as ``injuries`` and
+    token counts are aggregated across all classification calls.
+    """
+    if not injuries:
+        return injuries, TokenCount()
+
+    sections = icd_tree
+    semaphore = asyncio.Semaphore(max_concurrency)
+
+    async def _classify_one(injury: Injury) -> tuple[Injury, TokenCount]:
+        async with semaphore:
+            return await _aclassify_single_injury(model, injury, sections)
+
+    results = await asyncio.gather(*(_classify_one(inj) for inj in injuries))
+
+    classified: list[Injury] = []
+    total_tc = TokenCount()
+    for result, tc in results:
         classified.append(result)
         total_tc = total_tc + tc
 

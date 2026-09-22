@@ -1,7 +1,9 @@
 from typing import Any
-from hklii_psla.extractor.base import TokenCount
 
 from pydantic import BaseModel
+
+from hklii_psla.extractor.base import TokenCount
+
 
 def _extract_raw_text(raw_msg: Any) -> str:
     """Extract textual content from a LangChain message."""
@@ -29,7 +31,7 @@ def _extract_raw_text(raw_msg: Any) -> str:
     return str(content) if content is not None else ""
 
 
-def extract_token_counts(result: dict) -> TokenCount:
+def extract_token_counts(result: dict[str, Any]) -> TokenCount:
     """Extract token counts from a ``with_structured_output(..., include_raw=True)`` result.
 
     Parameters
@@ -58,11 +60,6 @@ def extract_token_counts(result: dict) -> TokenCount:
         output_tokens=output_tokens,
         reasoning_tokens=reasoning_tokens,
     )
-
-
-# ---------------------------------------------------------------------------
-# Error handling helpers
-# ---------------------------------------------------------------------------
 
 
 def _truncate(value: str, limit: int = 4000) -> str:

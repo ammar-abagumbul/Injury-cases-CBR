@@ -1,0 +1,8 @@
+id: "corpus-extraction"
+model: "gpt"
+provider: "gpt"
+case_files_path: "test_documents"
+case_files_glob: "*.txt"
+output_dir: "output/experiments/corpus_extraction"
+prompt_style: "zero-shot"
+max_concurrency: 5
