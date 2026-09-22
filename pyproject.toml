@@ -44,3 +44,8 @@ reportExplicitAny = "none"
 reportUnannotatedClassAttribute = "none"
 reportImportCycles = "none"
 reportUnusedCallResult = "none"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]
