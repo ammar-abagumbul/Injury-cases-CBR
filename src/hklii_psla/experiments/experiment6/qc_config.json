@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "description": "Thresholds and keyword buckets used by the deterministic corpus audit (audit.py).",
+  "null_ratio": {
+    "threshold": 0.5,
+    "scalar_fields": [
+      "metadata.neutral_citation",
+      "metadata.action_number",
+      "metadata.case_name",
+      "metadata.judgment_date",
+      "metadata.plaintiff_count",
+      "metadata.has_pre_existing_injuries",
+      "plaintiff.gender",
+      "plaintiff.age_at_accident",
+      "plaintiff.age_at_trial",
+      "plaintiff.occupation_before",
+      "plaintiff.occupation_after",
+      "plaintiff.expected_occupation_after",
+      "plaintiff.salary_before",
+      "plaintiff.salary_after",
+      "plaintiff.expected_salary_after",
+      "plaintiff.education_level",
+      "injuries.overall_category",
+      "treatment.hospitalisation_days",
+      "treatment.expected_hospitalisation_days",
+      "treatment.operations_count",
+      "treatment.future_operations_count",
+      "treatment.sick_leave_days_actual",
+      "treatment.sick_leave_days_expected",
+      "psla.amount"
+    ]
+  },
+  "null_icd_buckets": {
+    "description": "Bucket a null-ICD injury by keywords. The injury entry is kept in place (no renumbering); the bucket only decides how it is flagged/reviewed.",
+    "psych": {
+      "use": "psychiatric_keywords.json",
+      "flag": "NULL_ICD_PSYCH"
+    },
+    "preexisting": {
+      "flag": "NULL_ICD_PREEXISTING",
+      "keywords": [
+        "pre-existing",
+        "preexisting",
+        "pre existing",
+        "previous injury",
+        "prior injury",
+        "old injury",
+        "long-standing",
+        "longstanding",
+        "long standing",
+        "degenerative",
+        "osteoarthritis",
+        "osteoarthritic",
+        "arthritis",
+        "spondylosis",
+        "spondylitis",
+        "ankylosing",
+        "degeneration of",
+        "congenital",
+        "constitutional",
+        "age-related",
+        "age related",
+        "wear and tear"
+      ]
+    },
+    "burn": {
+      "flag": "NULL_ICD_BURN",
+      "keywords": [
+        "burn",
+        "burns",
+        "scald",
+        "scalding",
+        "thermal",
+        "flame",
+        "fire",
+        "chemical burn",
+        "electrical burn",
+        "sunburn",
+        "smoke inhalation"
+      ]
+    },
+    "symptom": {
+      "flag": "NULL_ICD_SYMPTOM",
+      "keywords": [
+        "pain",
+        "ache",
+        "aching",
+        "soreness",
+        "sore",
+        "tenderness",
+        "tender",
+        "swelling",
+        "swollen",
+        "bruise",
+        "bruising",
+        "stiffness",
+        "stiff",
+        "numbness",
+        "numb",
+        "tingling",
+        "discomfort",
+        "headache",
+        "headaches",
+        "dizziness",
+        "giddiness",
+        "vertigo",
+        "tinnitus",
+        "nausea",
+        "fatigue",
+        "weakness",
+        "insomnia",
+        "restricted movement",
+        "reduced range of motion",
+        "loss of range of motion",
+        "loss of motion",
+        "loss of sensation",
+        "shortness of breath",
+        "anxiety",
+        "depression",
+        "sleeplessness",
+        "poor sleep",
+        "poor concentration",
+        "loss of concentration",
+        "memory problems",
+        "poor memory"
+      ]
+    }
+  },
+  "treatment_contamination": {
+    "description": "Cost/currency fragments wrongly appearing inside treatments_* lists.",
+    "flag": "TREATMENT_CONTAMINATED",
+    "patterns": [
+      "HK\\$",
+      "\\$\\s?\\d",
+      "\\bHKD\\b",
+      "\\bHK\\s?\\$",
+      "\\d{1,3}(,\\d{3})+",
+      "\\bcost\\b",
+      "\\bexpense",
+      "\\bdamages?\\b",
+      "\\bquantum\\b"
+    ]
+  },
+  "source_noise": {
+    "description": "Signs the source document itself is PDF/OCR noise or a non-personal-injury decision.",
+    "flag": "SOURCE_NOISE",
+    "patterns": [
+      "\uFFFD",
+      "\\bPDF\\b",
+      "\\bOCR\\b"
+    ],
+    "min_alpha_ratio": 0.6
+  },
+  "relation_links": {
+    "flag_unlinked": "UNLINKED_RELATION",
+    "tolerance": 0.0
+  },
+  "multi_body_part": {
+    "flag": "INJURY_MULTI_BODY_PART",
+    "patterns": [
+      ",",
+      " and ",
+      " & ",
+      " / ",
+      ";"
+    ]
+  },
+  "citation": {
+    "neutral_citation_pattern": "^\\[\\d{4}\\] [A-Z]+ \\d+$",
+    "court_allowlist": ["HKCFI", "HKDC", "HKCA", "UKPC"],
+    "flag_malformed": "CITATION_MALFORMED",
+    "flag_extra_text": "CITATION_EXTRA_TEXT",
+    "flag_mismatch": "CITATION_MISMATCH",
+    "flag_conflict": "CITATION_CONFLICT",
+    "flag_from_source": "CITATION_FROM_SOURCE",
+    "source_header_heading": "##"
+  }
+}

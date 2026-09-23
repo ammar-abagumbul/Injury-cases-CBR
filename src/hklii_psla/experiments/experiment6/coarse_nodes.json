@@ -1,0 +1,779 @@
+{
+  "version": 1,
+  "description": "ICD-11 nodes that are too coarse to accept for an injury extraction. If an injury is classified to one of these nodes the case is flagged and the partial-edit agent re-walks the tree (or the node's parent) forbidding the coarse option, forcing a more specific decision.",
+  "categories": {
+    "multiple": "Node describes several body parts/structures at once.",
+    "region_catchall": "Region-level \"Other specified\"/\"unspecified\" node that skips specificity.",
+    "broad_region": "Node covering a broad anatomical region or several organs."
+  },
+  "nodes": {
+    "NA00.5": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of head",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA01.7": {
+      "category": "multiple",
+      "description": "Multiple open wounds of head",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA02.8": {
+      "category": "multiple",
+      "description": "Multiple fractures involving skull or facial bones",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA07": {
+      "category": "broad_region",
+      "description": "Intracranial injury",
+      "reason": "Intracranial injury (broad parent)",
+      "has_children": true
+    },
+    "NA07.33": {
+      "category": "multiple",
+      "description": "Diffuse injury of multiple parts of brain",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA07.43": {
+      "category": "multiple",
+      "description": "Multiple focal injuries of cerebrum",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA07.47": {
+      "category": "multiple",
+      "description": "Multiple focal injuries of cerebellum",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA07.86": {
+      "category": "multiple",
+      "description": "Multiple traumatic haemorrhages",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA07.Z": {
+      "category": "broad_region",
+      "description": "Intracranial injury, unspecified",
+      "reason": "Intracranial injury, unspecified",
+      "has_children": false
+    },
+    "NA0A.3": {
+      "category": "multiple",
+      "description": "Multiple injuries of head",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA0Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the head, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NA20.3": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of neck",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA21.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of neck",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA22.3": {
+      "category": "multiple",
+      "description": "Multiple fractures of cervical spine",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA23.3": {
+      "category": "multiple",
+      "description": "Multiple dislocations of neck",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA3Z": {
+      "category": "region_catchall",
+      "description": "Injury of cervical spinal cord, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NA4Y": {
+      "category": "region_catchall",
+      "description": "Injury of other specified nerves at neck level",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NA4Z": {
+      "category": "region_catchall",
+      "description": "Injury of nerves at neck level, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NA60.4": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at neck level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA64": {
+      "category": "multiple",
+      "description": "Multiple injuries of neck",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA6Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the neck",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NA6Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the neck, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NA80.7": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of thorax",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA81.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of thoracic wall",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA82.1": {
+      "category": "multiple",
+      "description": "Multiple fractures of thoracic spine",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA82.4": {
+      "category": "multiple",
+      "description": "Multiple fractures of ribs",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NA9Z": {
+      "category": "region_catchall",
+      "description": "Injury of thoracic spinal cord, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB0Y": {
+      "category": "region_catchall",
+      "description": "Injury of other specified nerves at thorax level",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB2Y": {
+      "category": "region_catchall",
+      "description": "Other specified injury of nerves or spinal cord at thorax level",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB2Z": {
+      "category": "region_catchall",
+      "description": "Injury of nerves or spinal cord at thorax level, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB30.6": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels of thorax",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB32.7": {
+      "category": "multiple",
+      "description": "Multiple injuries of intrathoracic organs",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB35": {
+      "category": "multiple",
+      "description": "Multiple injuries of thorax",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB3Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the thorax",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB3Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the thorax, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB50.6": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of abdomen, lower back or pelvis",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB51.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of abdomen, lower back or pelvis",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB52.4": {
+      "category": "multiple",
+      "description": "Multiple fractures of lumbar spine or pelvis",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB6Z": {
+      "category": "region_catchall",
+      "description": "Injury of spinal cord at abdomen, lower back or pelvis level, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB7Y": {
+      "category": "region_catchall",
+      "description": "Other specified injury of nerves at abdomen, lower back or pelvis level",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB7Z": {
+      "category": "region_catchall",
+      "description": "Injury of nerves at abdomen, lower back or pelvis level, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB90.7": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at abdomen, lower back or pelvis level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB91": {
+      "category": "broad_region",
+      "description": "Injury of intra-abdominal organs",
+      "reason": "Injury of intra-abdominal organs (broad multi-organ parent)",
+      "has_children": true
+    },
+    "NB91.B": {
+      "category": "multiple",
+      "description": "Injury of multiple intra-abdominal organs",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB92.7": {
+      "category": "broad_region",
+      "description": "Injury of urinary tract",
+      "reason": "Injury of urinary tract (broad)",
+      "has_children": false
+    },
+    "NB92.8": {
+      "category": "multiple",
+      "description": "Injury of multiple pelvic organs",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB94": {
+      "category": "broad_region",
+      "description": "Injury of muscle, fascia or tendon of abdomen, lower back or pelvis",
+      "reason": "Injury of muscle, fascia or tendon of abdomen, lower back or pelvis (broad)",
+      "has_children": true
+    },
+    "NB95": {
+      "category": "broad_region",
+      "description": "Injury of intra-abdominal organ with pelvic organ",
+      "reason": "Injury of intra-abdominal organ with pelvic organ",
+      "has_children": false
+    },
+    "NB96": {
+      "category": "multiple",
+      "description": "Other multiple injuries of abdomen, lower back or pelvis",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NB97": {
+      "category": "broad_region",
+      "description": "Certain specified injuries of abdomen, lower back or pelvis",
+      "reason": "Certain specified injuries of abdomen, lower back or pelvis (broad parent)",
+      "has_children": true
+    },
+    "NB98": {
+      "category": "broad_region",
+      "description": "Injury to female genital organ without specification of injury type",
+      "reason": "Injury to female genital organ without specification of injury type",
+      "has_children": false
+    },
+    "NB99": {
+      "category": "broad_region",
+      "description": "Injury to male genital organ without specification of injury type",
+      "reason": "Injury to male genital organ without specification of injury type",
+      "has_children": false
+    },
+    "NB9Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NB9Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC10.2": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of shoulder or upper arm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC11.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of shoulder or upper arm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC12.03": {
+      "category": "multiple",
+      "description": "Multiple fractures of clavicle, alone",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC12.10": {
+      "category": "multiple",
+      "description": "Multiple fractures of scapula",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC12.5": {
+      "category": "multiple",
+      "description": "Multiple fractures of clavicle, scapula or humerus",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC14.6": {
+      "category": "multiple",
+      "description": "Injury of multiple nerves at shoulder or upper arm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC15.4": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at shoulder or upper arm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC16.4": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles or tendons at shoulder or upper arm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": true
+    },
+    "NC16.40": {
+      "category": "multiple",
+      "description": "Strain or sprain of multiple muscles or tendons at shoulder or upper arm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC16.41": {
+      "category": "multiple",
+      "description": "Laceration of multiple muscles or tendons at shoulder or upper arm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC16.4Y": {
+      "category": "multiple",
+      "description": "Other specified injury of multiple muscles or tendons at shoulder or upper arm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC16.4Z": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles or tendons at shoulder or upper arm level, unspecified",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC19": {
+      "category": "multiple",
+      "description": "Multiple injuries of shoulder or upper arm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC1Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the shoulder or upper arm",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC1Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the shoulder or upper arm, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC30.4": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of forearm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC31.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of forearm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC32.7": {
+      "category": "multiple",
+      "description": "Multiple fractures of forearm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC34.4": {
+      "category": "multiple",
+      "description": "Injury of multiple nerves at forearm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC35.3": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at forearm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC36.6": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles or tendons at forearm level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC39": {
+      "category": "multiple",
+      "description": "Multiple injuries of forearm",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC3Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the elbow or forearm",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC3Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the elbow or forearm, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC51.2": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of wrist or hand",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC52.2": {
+      "category": "multiple",
+      "description": "Multiple open wounds of wrist or hand",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC53.4": {
+      "category": "multiple",
+      "description": "Multiple fractures of metacarpal bones",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC53.7": {
+      "category": "multiple",
+      "description": "Multiple fractures of fingers",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC54.3": {
+      "category": "multiple",
+      "description": "Multiple dislocations of fingers",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC55.3": {
+      "category": "multiple",
+      "description": "Injury of multiple nerves at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC56.6": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": true
+    },
+    "NC56.60": {
+      "category": "multiple",
+      "description": "Laceration of multiple blood vessels at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC56.61": {
+      "category": "multiple",
+      "description": "Contusion of multiple blood vessels at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC56.6Y": {
+      "category": "multiple",
+      "description": "Other specified injury of multiple blood vessels at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC56.6Z": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at wrist or hand level, unspecified",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC57.6": {
+      "category": "multiple",
+      "description": "Injury of multiple flexor muscles or tendons at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC57.7": {
+      "category": "multiple",
+      "description": "Injury of multiple extensor muscles or tendons at wrist or hand level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC5A": {
+      "category": "multiple",
+      "description": "Multiple injuries of wrist or hand",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": true
+    },
+    "NC5A.0": {
+      "category": "multiple",
+      "description": "Injury of multiple sites of hand",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC5A.1": {
+      "category": "multiple",
+      "description": "Injury of multiple sites of wrist",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC5A.Y": {
+      "category": "multiple",
+      "description": "Other specified multiple injuries of wrist or hand",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC5A.Z": {
+      "category": "multiple",
+      "description": "Multiple injuries of wrist or hand, unspecified",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC5Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the wrist or hand",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC5Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the wrist or hand, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC70.4": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of hip or thigh",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC71.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of hip or thigh",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC72.7": {
+      "category": "multiple",
+      "description": "Multiple fractures of femur",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC74.3": {
+      "category": "multiple",
+      "description": "Injury of multiple nerves at hip or thigh level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC75.3": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at hip or thigh level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC76.4": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles or tendons at hip or thigh level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": true
+    },
+    "NC76.4Y": {
+      "category": "multiple",
+      "description": "Other specified injury of multiple muscles or tendons at hip or thigh level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC76.4Z": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles or tendons at hip or thigh level, unspecified",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC79": {
+      "category": "multiple",
+      "description": "Multiple injuries of hip or thigh",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC7Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the hip or thigh",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC7Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the hip or thigh, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC90.4": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of lower leg",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC91.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of lower leg",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC92.8": {
+      "category": "multiple",
+      "description": "Multiple fractures of lower leg",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC93.8": {
+      "category": "multiple",
+      "description": "Injury to multiple structures of knee",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC94.3": {
+      "category": "multiple",
+      "description": "Injury of multiple nerves at lower leg level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC95.7": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at lower leg level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC96.4": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles, fasciae or tendons at lower leg level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC99": {
+      "category": "multiple",
+      "description": "Multiple injuries of lower leg",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "NC9Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the knee or lower leg",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "NC9Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the knee or lower leg, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "ND11.C": {
+      "category": "multiple",
+      "description": "Multiple superficial injuries of ankle or foot",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND12.5": {
+      "category": "multiple",
+      "description": "Multiple open wounds of ankle or foot",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND13.6": {
+      "category": "multiple",
+      "description": "Multiple fractures of foot",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND15.4": {
+      "category": "multiple",
+      "description": "Injury of multiple nerves at ankle or foot level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND16.3": {
+      "category": "multiple",
+      "description": "Injury of multiple blood vessels at ankle or foot level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND17.3": {
+      "category": "multiple",
+      "description": "Injury of multiple muscles or tendons at ankle or foot level",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND1A": {
+      "category": "multiple",
+      "description": "Multiple injuries of ankle or foot",
+      "reason": "Node packs several body parts/structures (\"Multiple ...\")",
+      "has_children": false
+    },
+    "ND1Y": {
+      "category": "region_catchall",
+      "description": "Other specified injuries to the ankle or foot",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    },
+    "ND1Z": {
+      "category": "region_catchall",
+      "description": "Injuries to the ankle or foot, unspecified",
+      "reason": "Region-level catch-all that skips a more specific category",
+      "has_children": false
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "description": "Fields whose absence (null / empty) is treated as a defect rather than a true negative. A null value on a high-severity field strongly suggests the extraction should be revisited.",
+  "fields": [
+    {
+      "path": "plaintiff.gender",
+      "severity": "high",
+      "reason": "Gender is almost always inferable from pronouns in the judgment.",
+      "expected": "Male | Female"
+    },
+    {
+      "path": "metadata.neutral_citation",
+      "severity": "high",
+      "reason": "A neutral citation is always present in the source header; empty means extraction failed.",
+      "expected": "[YYYY] COURT NNN"
+    },
+    {
+      "path": "metadata.action_number",
+      "severity": "medium",
+      "reason": "Action number is present in the source header.",
+      "expected": "e.g. HCA 12597/1982"
+    },
+    {
+      "path": "metadata.judgment_date",
+      "severity": "medium",
+      "reason": "Judgment date is present in the source header.",
+      "expected": "YYYY-MM-DD"
+    },
+    {
+      "path": "injuries.overall_category",
+      "severity": "medium",
+      "reason": "Overall severity category is usually stated or inferable when injuries exist.",
+      "expected": "Non-serious injury | Serious injury | Substantial injury | Gross disability | Disaster"
+    },
+    {
+      "path": "injuries.injuries",
+      "severity": "medium",
+      "reason": "A personal-injury judgment should yield at least one injury.",
+      "expected": "non-empty list"
+    },
+    {
+      "path": "losses.losses",
+      "severity": "medium",
+      "reason": "A PSLA-bearing personal-injury judgment should yield at least one loss of amenity.",
+      "expected": "non-empty list"
+    },
+    {
+      "path": "plaintiff.age_at_accident",
+      "severity": "low",
+      "reason": "Age at accident is often stated or derivable from dates.",
+      "expected": "integer"
+    },
+    {
+      "path": "plaintiff.occupation_before",
+      "severity": "low",
+      "reason": "Occupation before the accident is usually stated.",
+      "expected": "string"
+    },
+    {
+      "path": "psla.amount",
+      "severity": "low",
+      "reason": "PSLA amount is expected unless the case is not a PSLA award.",
+      "expected": "number (HKD)"
+    }
+  ]
+}
