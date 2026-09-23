@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 246",
+    "action_number": "HCPI 263/2006",
+    "case_name": "LAM HING CHOI v. YIP KING ON AND OTHERS",
+    "judgment_date": "2008-03-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "material handler working in construction sites",
+    "occupation_after": "security guard",
+    "expected_occupation_after": "security guard",
+    "salary_before": 16900.0,
+    "salary_after": 7151.0,
+    "expected_salary_after": 7151.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post-traumatic frozen shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "However, Mr Lam developed a post-traumatic frozen shoulder.",
+          "Dr Au ... the shoulder joint painful condition was probably produced by scar adhesion.",
+          "I accept that lifting and transporting heavy building materials would be too much for him. He has persistent pain and restrictions of movement in the right shoulder and he being right-handed, could not handle material on his shoulder for the purpose of lifting up and carrying the same from one place to another."
+        ],
+        "icd_code": "NC16.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right index finger injury",
+        "injury_type": "Temporary injury",
+        "body_part": "right index finger",
+        "laterality": "right",
+        "source": [
+          "he was hit by an opening partition of a lorry against his right upper arm. His right index finger was also injured.",
+          "The injury to the plaintiff’s right arm and the index finger were all healed."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain and restrictions of movement in the right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "restrictions of movement in the right shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "certain degree of wasting of muscle around the right shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "MRI (2006)",
+      "clinical examinations by Dr Au and Dr Lau"
+    ],
+    "treatments_future": [
+      "future medical expenses $12,000"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "persistent pain and restrictions of movement in the right shoulder; certain degree of wasting of muscle around the right shoulder",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "could not go back to his previous job as a material handler involving heavy labour work in construction sites; suitable job would be a security guard (more sedentary)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Lap Pang v. Yuen Tat Wah trading as Chong Hing Motor Company",
+        "neutral_citation": null,
+        "action_number": "HCPI 1111/1997",
+        "injury_description": "the plaintiff fell from 10 feet and suffered right shoulder pain due to bicept and rotator cuff tendenitis, and right elbow pain due probably to ulnar neuritis. The same Dr Lau assessed him to have suffered 14% permanent disability.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10338,
+      "output_tokens": 5153,
+      "reasoning_tokens": 3968,
+      "total_tokens": 15491
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39054.12357673049,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10338,
+      "output_tokens": 5153,
+      "reasoning_tokens": 3968,
+      "total_tokens": 15491
+    },
+    "total_duration_ms": 39054.12357673049
+  }
+}

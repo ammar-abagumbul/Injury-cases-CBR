@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 113",
+    "action_number": "DCPI 60/2001",
+    "case_name": "LO HIN FONG v. CHAN CHI SHING",
+    "judgment_date": "2002-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 50,
+    "age_at_trial": 54,
+    "occupation_before": "Grade II worker (Water Supplies Department)",
+    "occupation_after": "Retired",
+    "expected_occupation_after": null,
+    "salary_before": 10175.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the nasal bone",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal bone",
+        "laterality": null,
+        "source": [
+          "He was found to have sustained fracture of the nasal bone with nose bleeding."
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "depression of the nasal bridge",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal bridge",
+        "laterality": "left",
+        "source": [
+          "He was found to have sustained a mild depression of nasal bridge and a deviation of the nasal septum to the right side.",
+          "there was a depression on the left side of the nasal bridge."
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "deviation of the nasal septum to the right side",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal septum",
+        "laterality": "right",
+        "source": [
+          "He was found to have sustained a mild depression of nasal bridge and a deviation of the nasal septum to the right side.",
+          "The nasal septum was slightly deviated to the right side dorsally."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "his nose was bleeding severely",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent right nasal obstruction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "discomfort and a delusive sense of obstruction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Analgesic medicine",
+      "Accident & Emergency treatment at Caritas Medical Centre",
+      "Treatment at Yan Chai Hospital",
+      "Bone setter treatment"
+    ],
+    "treatments_future": [
+      "Plastic surgery to correct depression of the nasal bridge"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 6,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "depression of the nasal bridge",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "persistent right nasal obstruction",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Lai Kuen v Nan Fung Textiles Ltd",
+        "neutral_citation": "[1998] 2 HKC 730",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10155,
+      "output_tokens": 5289,
+      "reasoning_tokens": 4096,
+      "total_tokens": 15444
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39559.21429768205,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10155,
+      "output_tokens": 5289,
+      "reasoning_tokens": 4096,
+      "total_tokens": 15444
+    },
+    "total_duration_ms": 39559.21429768205
+  }
+}

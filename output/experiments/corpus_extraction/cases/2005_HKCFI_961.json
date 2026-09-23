@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 961",
+    "action_number": "HCPI 1153/2004",
+    "case_name": "WONG KWOK WA v. HUNG TIN SUN AND OTHERS",
+    "judgment_date": "2005-10-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "elevator maintenance worker",
+    "occupation_after": "elevator technician; later minibus driver",
+    "expected_occupation_after": null,
+    "salary_before": 14195.0,
+    "salary_after": 8400.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures to his left acetabulum",
+        "injury_type": "Residual disability",
+        "body_part": "left acetabulum",
+        "laterality": "left",
+        "source": [
+          "He sustained fractures to his left acetabulum, nasal bone, teeth and left eye, and injuries to his left knee.",
+          "He has undergone operations for the fixation of a dislocated hip"
+        ],
+        "icd_code": "NB52.13",
+        "icd_description": "Fracture of acetabulum without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the nasal bone",
+        "injury_type": "Residual disability",
+        "body_part": "nasal bone",
+        "laterality": null,
+        "source": [
+          "He sustained fractures to his left acetabulum, nasal bone, teeth and left eye, and injuries to his left knee.",
+          "He has undergone operations for the ... repairs of the nasal bone"
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractured / broken incisor teeth",
+        "injury_type": "Residual disability",
+        "body_part": "teeth",
+        "laterality": null,
+        "source": [
+          "He sustained fractures to his left acetabulum, nasal bone, teeth and left eye, and injuries to his left knee.",
+          "He has undergone operations for the ... repairs of the ... broken incisor teeth."
+        ],
+        "icd_code": "NA0D.0Z",
+        "icd_description": "Injury of hard dental tissues and pulp, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fracture to left eye",
+        "injury_type": "Residual disability",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "He sustained fractures to his left acetabulum, nasal bone, teeth and left eye, and injuries to his left knee."
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "injuries to his left knee including posterior cruciate ligament laxity",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "He sustained fractures to his left acetabulum, nasal bone, teeth and left eye, and injuries to his left knee.",
+          "He is now unable to squat down, has difficulty in climbing, and has walking up and down stairs, due to posterior cruciate ligament laxity in his left knee.",
+          "There is a knocking sound in his kneecap, following damage to, and repair of, the posterior cruciate ligament."
+        ],
+        "icd_code": "NC93.61",
+        "icd_description": "Strain or sprain of posterior cruciate ligament of knee, excluding rupture"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost consciousness in the accident, which was only regained two days later.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He is now unable to squat down",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "has difficulty in climbing, and has walking up and down stairs, due to posterior cruciate ligament laxity in his left knee.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "The inability to squat means that he has great difficulty in using an Asian type toilet.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "He suffers pain in his pelvis, especially during weather changes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There is a knocking sound in his kneecap, following damage to, and repair of, the posterior cruciate ligament.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "leaving recurrent pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "operations for the fixation of a dislocated hip",
+      "repairs of the nasal bone",
+      "repairs of broken incisor teeth",
+      "physiotherapy",
+      "occupational therapy",
+      "dental treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "He is now unable to squat down, has difficulty in climbing, and has walking up and down stairs.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "The inability to squat means that he has great difficulty in using an Asian type toilet.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The inability to squat, difficulty in climbing, pain in the pelvis, and the knee, have all rendered Mr Wong unable to continue with his previous work as an elevator maintenance worker.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The restrictions in his work activities extend to limit his leisure time activities.",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 460000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v Leung Kam-ming",
+        "neutral_citation": "[1980]HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lawati Bhawani Bikram v Ting Kau Contractors Joint Venture",
+        "neutral_citation": null,
+        "action_number": "CA 3/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16796,
+      "output_tokens": 8351,
+      "reasoning_tokens": 6208,
+      "total_tokens": 25147
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40434.38130617142,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16796,
+      "output_tokens": 8351,
+      "reasoning_tokens": 6208,
+      "total_tokens": 25147
+    },
+    "total_duration_ms": 40434.38130617142
+  }
+}

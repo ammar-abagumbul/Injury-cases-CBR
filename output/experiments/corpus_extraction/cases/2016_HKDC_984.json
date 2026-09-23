@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 984",
+    "action_number": "DCPI 1665/2011",
+    "case_name": "LEE CHUI YING AND ANOTHER v. CHAN YEE LING ELAINE",
+    "judgment_date": "2016-08-17",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "principal partner of the Firm",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "an ulcer over the right side of the upper lip",
+        "injury_type": "Temporary injury",
+        "body_part": "upper lip",
+        "laterality": "right",
+        "source": [
+          "Examination showed an ulcer over the right side of the upper lip and a 1 cm abrasion over the left side of the nose."
+        ],
+        "icd_code": "NA00.5",
+        "icd_description": "Multiple superficial injuries of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a 1 cm abrasion over the left side of the nose",
+        "injury_type": "Temporary injury",
+        "body_part": "nose",
+        "laterality": "left",
+        "source": [
+          "Examination showed an ulcer over the right side of the upper lip and a 1 cm abrasion over the left side of the nose."
+        ],
+        "icd_code": "NA00.3",
+        "icd_description": "Superficial injury of nose"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post-traumatic stress disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The Defendant was diagnosed of post-traumatic stress disorder and prescribed a course of anti-depressant in late October 2011."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "mild to moderate depressive disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Subsequently, she was found to have mild to moderate depressive disorder."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "fractured tooth",
+        "injury_type": "Temporary injury",
+        "body_part": "tooth",
+        "laterality": null,
+        "source": [
+          "The Defendant received dental treatment for a fractured tooth some two months after the incident."
+        ],
+        "icd_code": "NA0D.0Z",
+        "icd_description": "Injury of hard dental tissues and pulp, unspecified"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "no physical or neurological deficit identified on attendance at Tang Shiu Kin Hospital",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "no physical or neurological deficit was identified when she attended Tang Shiu Kin Hospital on 1st August 2001."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "injuries in the nose and inside of the mouth",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in the neck and shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "post-traumatic stress disorder",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild to moderate depressive disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended Canossa Hospital; given a course of antibiotics and discharged",
+      "psychiatric treatments and counselling services from psychiatrist and psychologist in the private sector",
+      "prescribed a course of anti-depressant",
+      "dental treatment for fractured tooth"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from an ulcer over the right side of the upper lip and a 1 cm abrasion over the left side of the nose (2nd Plaintiff)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Pain, suffering and loss of amenities resulting from post-traumatic stress disorder and mild to moderate depressive disorder (Defendant)",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fong Wai Mui v Cheung Fung Lan",
+        "neutral_citation": null,
+        "action_number": "DCCJ 24639/1998",
+        "injury_description": "the defendant punched the plaintiff in the face and on the chest, causing the plaintiff to fall to the ground. The plaintiff suffered a cut lip which was stitched.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 13000.0
+      },
+      {
+        "case_name": "Wong Shing Kam v Leung Ming Kwong",
+        "neutral_citation": null,
+        "action_number": "DCPI 171/2005",
+        "injury_description": "1 cm laceration over the lower gum region, right elbow bruising, swelling in the right face and bleeding of the mouth following a traffic accident.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Yip Chun Nam v Chan Kang & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 183/2002",
+        "injury_description": "assaulted by the defendants and sustained mild swelling in the chest because of 3 punches.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 17500.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17939,
+      "output_tokens": 6643,
+      "reasoning_tokens": 4736,
+      "total_tokens": 24582
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27986.901152879,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17939,
+      "output_tokens": 6643,
+      "reasoning_tokens": 4736,
+      "total_tokens": 24582
+    },
+    "total_duration_ms": 27986.901152879
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCFI 353",
+    "action_number": "HCA 4462/1994",
+    "case_name": "CHIU TAK SANG v. KWAN HON LAM",
+    "judgment_date": "1996-11-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "lorry attendant",
+    "occupation_after": null,
+    "expected_occupation_after": "watchman or messenger",
+    "salary_before": 13200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the injury suffered by the Plaintiff was a compound dislocation of the right subtalar joint, which is located between the heel bone and the shin bone.",
+        "injury_type": "Residual disability",
+        "body_part": "right subtalar joint",
+        "laterality": "right",
+        "source": [
+          "the injury suffered by the Plaintiff was a compound dislocation of the right subtalar joint, which is located between the heel bone and the shin bone."
+        ],
+        "icd_code": "ND14.3",
+        "icd_description": "Dislocation of tarsal joint"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "X-ray examination in October this year showed that the Plaintiff has developed quite advanced post traumatic osteo-arthritis. The joint cartilage has been badly worn to the extent that it is now almost bone rubbing on bone.",
+        "injury_type": "Residual disability",
+        "body_part": "right subtalar joint",
+        "laterality": "right",
+        "source": [
+          "X-ray examination in October this year showed that the Plaintiff has developed quite advanced post traumatic osteo-arthritis. The joint cartilage has been badly worn to the extent that it is now almost bone rubbing on bone."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain when walking or lifting heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "now incapable of doing strenuous labouring work (cannot return to his work before the accident as a lorry attendant)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the condition will get continually worse",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "fusion operation will free him of pain but with the sacrifice of mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [
+      "fusion operation of the subtalar joint (expected within 5 years)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain when walking or lifting heavy objects resulting from advanced post traumatic osteo-arthritis of the right subtalar joint.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Sacrifice of mobility as a consequence of a future fusion operation that will be required to relieve pain.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Incapable of doing strenuous labouring work and cannot return to his work before the accident as a lorry attendant.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 470000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Man",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "defined 'serious' category as 'a disability which mars general activities and enjoyment of life but allows reasonable mobility to the victim for example ... bad fractures leaving recurrent pain'.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui Ki",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Cheung J. in Chan Pui Ki revised the Lee Ting Man awards and gave a range for the 'serious' category from $400,000 to $540,000.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8606,
+      "output_tokens": 5413,
+      "reasoning_tokens": 4096,
+      "total_tokens": 14019
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33422.42353037,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8606,
+      "output_tokens": 5413,
+      "reasoning_tokens": 4096,
+      "total_tokens": 14019
+    },
+    "total_duration_ms": 33422.42353037
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 274",
+    "action_number": "DCPI 2627/2008",
+    "case_name": "CHENG KAI KIT v. KWONG KAM TIM MARBLE CO LTD AND ANOTHER",
+    "judgment_date": "2009-11-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 49,
+    "age_at_trial": 52,
+    "occupation_before": "levelling worker (平水員)",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 11600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "degenerative lumbar spine",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "Dr Lau opined that degenerative lumbar spine was commonly found in middle-aged manual workers like Cheng.",
+          "Dr Cheng gave a similar explanation of the nature of the degeneration of the lumbar spine as that by Dr Lau. This was pre-existing."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "L3-4 and L4-5 disc herniation",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L3-4 and L4-5)",
+        "laterality": "left",
+        "source": [
+          "MRI done in January 2006 revealed L3-4 and L4-5 disc herniation on the left side with left L4-5 nerve root impingement.",
+          "The medical report of the hospital ... MRI which also showed prolapse of L3-4 and L4-5 discs."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left L4-5 nerve root impingement",
+        "injury_type": "Permanent injury",
+        "body_part": "left L4-5 nerve root",
+        "laterality": "left",
+        "source": [
+          "MRI done in January 2006 revealed L3-4 and L4-5 disc herniation on the left side with left L4-5 nerve root impingement."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "lower back tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "impaired light touch sensation over L5 and S1 dermatone on the right side",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "multiple positive Waddell's inorganic signs (suggesting an element of exaggeration)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "need to avoid heavy manual lifting (restriction on duties)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "bonesetter's treatment",
+      "Accident and Emergency treatment (analgesic)",
+      "follow-up outpatient treatment (attended on 6 occasions until April 2005)",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from the present accident (PSLA).",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mandeep Singh v Southwell Construction Co Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 575/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Kong v Golden Caterers Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 206/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Limbu Netra Kumar v Yau Lee Construction Co Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 234/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14656,
+      "output_tokens": 4603,
+      "reasoning_tokens": 3136,
+      "total_tokens": 19259
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31386.611733585596,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14656,
+      "output_tokens": 4603,
+      "reasoning_tokens": 3136,
+      "total_tokens": 19259
+    },
+    "total_duration_ms": 31386.611733585596
+  }
+}

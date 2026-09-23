@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 1118",
+    "action_number": "HCPI 162/2005",
+    "case_name": "YIP WAI CHUNG v. KWONG LEUNG ENGINEERING CO LTD AND ANOTHER",
+    "judgment_date": "2005-11-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 43,
+    "age_at_trial": 45,
+    "occupation_before": "senior master plasterer",
+    "occupation_after": "supervisor",
+    "expected_occupation_after": "plasterer at a lower level (not senior master plasterer)",
+    "salary_before": 16500.0,
+    "salary_after": 11000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right calcaneum",
+        "injury_type": "Residual disability",
+        "body_part": "right calcaneum",
+        "laterality": "right",
+        "source": [
+          "As a result Mr Yip landed on his right heel, which upon x-ray showed a fracture of the right calcaneum.",
+          "Both are agreed that the fracture has healed without trace, in anatomical position with no displacement, and that there is no osteoarthritic change. Mr Yip has suffered mild wasting of the calf muscle and has mildly reduced ankle movement consequent upon the injury."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Mr Wong suffered a painful injury to his right heel.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild wasting of the calf muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mildly reduced ankle movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he can now not squat completely, with squatting for a long time producing discomfort around the right ankle and heel origin",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the stride he takes with his right leg is slightly shorter than that with his left leg, thus producing a barely perceptible limp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Both are agreed that he can walk steadily without aid",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "short leg complete plaster cast",
+      "crutches",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 337,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "he will not be able to work in the capacity of a \"senior master plasterer\" and must accept work at a lower level",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10026,
+      "output_tokens": 4546,
+      "reasoning_tokens": 3584,
+      "total_tokens": 14572
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36207.696825265884,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10026,
+      "output_tokens": 4546,
+      "reasoning_tokens": 3584,
+      "total_tokens": 14572
+    },
+    "total_duration_ms": 36207.696825265884
+  }
+}

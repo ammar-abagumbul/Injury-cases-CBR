@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 463",
+    "action_number": "HCPI 1088 of 1996",
+    "case_name": "LEUNG WAI HUNG v. KO WING NANG T/A LAP MAN SCAFOLDING",
+    "judgment_date": "1998-05-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 39,
+    "occupation_before": "scaffolding worker",
+    "occupation_after": "delivery worker for Evergreen Oils & Fats Ltd.",
+    "expected_occupation_after": null,
+    "salary_before": 13780.0,
+    "salary_after": 9000.0,
+    "expected_salary_after": null,
+    "education_level": "completed lower secondary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Medical examination revealed a right elbow dislocation with a radial head fracture. Closed reduction of right elbow joint was performed on the day of admission. The radial head fracture was reduced and fixed by metal screw on 31st May 1994. The Plaintiff was hospitalized until 6th June 1994.",
+        "injury_type": "Permanent injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "Medical examination revealed a right elbow dislocation with a radial head fracture. Closed reduction of right elbow joint was performed on the day of admission. The radial head fracture was reduced and fixed by metal screw on 31st May 1994. The Plaintiff was hospitalized until 6th June 1994."
+        ],
+        "icd_code": "NC39",
+        "icd_description": "Multiple injuries of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "limited right elbow movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in the right upper limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the right little finger",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot fully flex or extend the right elbow and he has pain in doing so",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "surgical scar of 7 cm long at lateral side of right elbow, several abrasion scars around elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "flaccid right arm muscal and tenderness at radial region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased pronation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Closed reduction of right elbow joint was performed on the day of admission.",
+      "The radial head fracture was reduced and fixed by metal screw on 31st May 1994.",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 343,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "limited right elbow movement; cannot fully flex or extend the right elbow",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "surgical scar of 7 cm long at lateral side of right elbow",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "cannot swim as before the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "could no longer work as a scaffolding worker",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8677,
+      "output_tokens": 3920,
+      "reasoning_tokens": 2752,
+      "total_tokens": 12597
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22934.779457747936,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8677,
+      "output_tokens": 3920,
+      "reasoning_tokens": 2752,
+      "total_tokens": 12597
+    },
+    "total_duration_ms": 22934.779457747936
+  }
+}

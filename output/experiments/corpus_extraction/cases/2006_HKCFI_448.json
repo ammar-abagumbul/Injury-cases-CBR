@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 448",
+    "action_number": "HCPI 192/2005",
+    "case_name": "LIMBU RAMESH v. CHU FUNG MAN",
+    "judgment_date": "2006-04-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 36,
+    "occupation_before": "Concreter and construction site worker; employed as labour by Chun Wo Construction & Engineering Co., Ltd.",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": "labour",
+    "salary_before": 12200.0,
+    "salary_after": null,
+    "expected_salary_after": 9100.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mild post concussional syndrome / head injury with concussion",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "I found that the Plaintiff only has a mild post concussional syndrome, with mild headache and dizziness.",
+          "Dr. Poon is of the opinion that the Plaintiff suffered from head injury with concussion, and has accelerated type of soft tissue injury to the cervical spine."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Soft tissue injury of the cervical spine with loss of lordotic curvature; mild foraminal narrowing on C3 and C4 with osteophytes; persistent mild neck pain and limitation of head elevation",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine / neck",
+        "laterality": null,
+        "source": [
+          "I found that the Plaintiff has suffered soft tissue injuries. As a result, there is loss of lordotic curvature of his cervical spine. There is also mild foraminal narrowing on C3 and C4 with osteophytes. There is mild pain in his neck, which is persisting, and there is limit to elevation of his head through neck pain."
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "MRI: diffused disc degenerative changes involving C2-C7 and a central prolapse at C3C4 and C4C5 (as per Princess Margaret Hospital MRI report dated 31 January 2005)",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine / neck",
+        "laterality": null,
+        "source": [
+          "on 31st January 2005, MRI cervical spine was done on 31st January 2005 and it showed diffused disc degenerative changes involving C2-C7 and a central prolapse at C3C4 and C4C5."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness for about 2 hours after being struck on head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent mild neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Limit to elevation of the head (restricted neck extension/elevation)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Hospital admission to Princess Margaret Hospital (admitted 27 May 2002, hospitalized for one day)",
+      "Physiotherapy (10 sessions in October and November 2002)",
+      "Medication"
+    ],
+    "treatments_future": [
+      "Physiotherapy (intensive course 6 to 8 weeks; judge awarded access to Hospital Authority services at about $100 per visit, 3 sessions a week)"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 95,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, knocked unconscious for 2 hours, persisting neck pain and limitation on head elevation resulting in diminution of physical enjoyment and amenity",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Man Fong v. Sime Darby Motor Services Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI1096/2003",
+        "injury_description": "Injuries very similar to the Plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17011,
+      "output_tokens": 6440,
+      "reasoning_tokens": 4928,
+      "total_tokens": 23451
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32506.639879196882,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17011,
+      "output_tokens": 6440,
+      "reasoning_tokens": 4928,
+      "total_tokens": 23451
+    },
+    "total_duration_ms": 32506.639879196882
+  }
+}

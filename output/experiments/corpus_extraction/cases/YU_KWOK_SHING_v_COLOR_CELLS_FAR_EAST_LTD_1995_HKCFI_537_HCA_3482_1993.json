@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "YU KWOK SHING v. COLOR CELLS FAR EAST LTD [1995] HKCFI 537; HCA 3482/1993",
+    "action_number": "HCA 3482/1993",
+    "case_name": "YU KWOK SHING v. COLOR CELLS FAR EAST LTD",
+    "judgment_date": "1995-10-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "chaffier",
+    "occupation_after": "chaffier",
+    "expected_occupation_after": null,
+    "salary_before": 6300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Prolapsed intervertebrae disc lesions at L3/4 and L4/5 levels of his vertebrae.",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "he was diagnosed to have prolapsed intervertebrae disc lesions at L3/4 and L4/5 levels of his vertebrae."
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "an operation was carried out on his back to fuse three discs in his lower spine. This operation is described in the medical reports as a posterior discectom of L3, L4 discs together with posterior and posterolateral of L3 - 4 - 5 discs of the vertebrae.",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "an operation was carried out on his back to fuse three discs in his lower spine. This operation is described in the medical reports as a posterior discectom of L3, L4 discs together with posterior and posterolateral of L3 - 4 - 5 discs of the vertebrae."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Residual symptoms of sciatica",
+        "injury_type": "Residual disability",
+        "body_part": "left leg / lower back (radicular symptoms)",
+        "laterality": "left",
+        "source": [
+          "He has residual symptoms of sciatica and cannot tolerate prolonged standing or sitting in the same position.",
+          "takes medication for his constant back pain and stiffness with some discomfort in his left leg."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "constant back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some discomfort in his left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual symptoms of sciatica",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot tolerate prolonged standing or sitting in the same position",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "first treated at Queen Mary Hospital on 11th November 1990 and was admitted for 3 days to receive traction treatment",
+      "referred to out-patient physiotherapy and orthopaedic departments for follow up treatment",
+      "on 28th January 1991 the Plaintiff was re-admitted to Queen Mary Hospital for a C.T. seam",
+      "referred to Maclehose Rehabilitation Centre for physiotherapy treatment on 3 days of each week",
+      "operation carried out on his back to fuse three discs in his lower spine (posterior discectom of L3, L4 discs together with posterior and posterolateral of L3 - 4 - 5 discs)"
+    ],
+    "treatments_future": [
+      "quarterly check-ups at Queen Mary Hospital"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "would not be able to take up other driving positions, such as, taxi driver or lorry driver, because of the prolonged nature of sitting in the same position to do such work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10543,
+      "output_tokens": 6008,
+      "reasoning_tokens": 4608,
+      "total_tokens": 16551
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37742.201555520296,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10543,
+      "output_tokens": 6008,
+      "reasoning_tokens": 4608,
+      "total_tokens": 16551
+    },
+    "total_duration_ms": 37742.201555520296
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 1406",
+    "action_number": "HCPI 1192/1995",
+    "case_name": "FAN HUNG SHING v. HANG FUNG SHIPPING COMPANY LIMITED",
+    "judgment_date": "2000-01-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 38,
+    "age_at_trial": 49,
+    "occupation_before": "crane operator on board a barge",
+    "occupation_after": "intermittently as a shop assistant, checker/ticker collector, watchman, and steersman; from April 1999 checker/watchman on a construction site (not full-time, 13-22 days/month, 8-hour day)",
+    "expected_occupation_after": "crane driver on a construction site (would probably have worked as a crane driver until age 60)",
+    "salary_before": 30000.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": null,
+    "education_level": "limited education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A compression fracture of the 2nd lumbar vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "2nd lumbar vertebra",
+        "laterality": null,
+        "source": [
+          "A compression fracture of the 2nd lumbar vertebra"
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fracture of the left medial malleolus",
+        "injury_type": "Permanent injury",
+        "body_part": "left medial malleolus",
+        "laterality": "left",
+        "source": [
+          "a fracture of the left medial malleolus"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a fracture of the right os calcis",
+        "injury_type": "Permanent injury",
+        "body_part": "right os calcis",
+        "laterality": "right",
+        "source": [
+          "a fracture of the right os calcis"
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "frequent attacks of back pain radiating to the left buttock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness and weakness of the back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and stiffness in the right back aggravated by long standing and walking on uneven ground",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "big right toe is deformed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "has to wear special shoes by reason of the right foot condition",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "some minimal discomfort over the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "surgical scarring of his back and both feet",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to do any work involving heavy lifting, walking on uneven surfaces, standing for long periods, or use of ladders; walks with a mild limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "disturbance of sleep and discomfort in daily life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgery",
+      "open reduction",
+      "bone graft",
+      "fixation and fusion",
+      "internal fixation (feet)",
+      "repeated debridement (os calcis infection)",
+      "follow up and physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 365,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity including frequent back pain, stiffness, weakness, inability to do heavy lifting, walking on uneven surfaces, standing for long periods, use of ladders, mild limp and disturbance of sleep",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Unable to walk on uneven surfaces, stand for long periods or use ladders; walks with a mild limp",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Surgical scarring of his back and both feet",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to work as a crane driver; restricted to essentially sedentary jobs and intermittent work",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12857,
+      "output_tokens": 5530,
+      "reasoning_tokens": 3968,
+      "total_tokens": 18387
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32987.01376840472,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12857,
+      "output_tokens": 5530,
+      "reasoning_tokens": 3968,
+      "total_tokens": 18387
+    },
+    "total_duration_ms": 32987.01376840472
+  }
+}

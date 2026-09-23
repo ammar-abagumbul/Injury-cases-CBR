@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 621",
+    "action_number": "HCPI 198/2008",
+    "case_name": "LAU TIM SHUN v. CITY ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2009-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 44,
+    "occupation_before": "steel formworker",
+    "occupation_after": null,
+    "expected_occupation_after": "watchman",
+    "salary_before": 20000.0,
+    "salary_after": null,
+    "expected_salary_after": 7000.0,
+    "education_level": "Primary 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back (lumbar spine / thoraco-lumbar junction)",
+        "laterality": null,
+        "source": [
+          "The joint experts opined that the plaintiff sustained soft tissue injury to his back during work."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Degenerative and developmental changes in the lower thoracic and lumbar spine including slight posterior disc bulging at multiple levels, disc degeneration and dehydration at T11/T12, slight spondylosis and multiple small chronic Schmorl's nodes",
+        "injury_type": "Permanent injury",
+        "body_part": "lower thoracic and lumbar spine",
+        "laterality": null,
+        "source": [
+          "(i) Slight posterior bulging of the T10/11, T11/12, T12/L1, L1/2, L2/3, L3/4 and L4/5 discs, causing slight indentation on the anterior part of the thecal sac.",
+          "(ii) Disc Degeneration and dehydration at T11/T12 level.",
+          "(iii) No central canal, lateral recesses or neural foramina stenosis in the lumbar spine.",
+          "(iv) No lumbar nerve root compression.",
+          "(v) Slight spondylosis in the lumbar spine.",
+          "(vi) Multiple small chronic Schmorl’s nodes in the lower thoracic and lumbar vertebral bodies.",
+          "(vii) No spondylolisthesis or spondylolysis."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "sprained back (provisional diagnosis)",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar-sacral region",
+        "laterality": null,
+        "source": [
+          "He was diagnosed to have sprained back provisionally."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain / lumbago",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the lumbar-sacral area",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "constant pain over the thoraco-lumbar junction (worse on movement and prolonged sitting)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bilateral trapezius pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent and disturbing pain preventing enjoyment of activities (walking, playing table tennis, going to the movies) and disrupting daily and sexual activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to resume work since April 2003 / not working since then",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "injection",
+      "medication",
+      "admission to hospital (1 day)",
+      "physiotherapy (6 weeks)",
+      "occupational training"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to do activities such as walking, playing table tennis and going to the movies",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Daily activities and his sexual activities are totally disrupted",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume work since April 2003 and has not been working since then",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chung Keung v Greenroll Limited t/a Conrad Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 275/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16465,
+      "output_tokens": 6304,
+      "reasoning_tokens": 4672,
+      "total_tokens": 22769
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34434.6988722682,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16465,
+      "output_tokens": 6304,
+      "reasoning_tokens": 4672,
+      "total_tokens": 22769
+    },
+    "total_duration_ms": 34434.6988722682
+  }
+}

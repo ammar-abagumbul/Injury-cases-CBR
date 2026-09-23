@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "TANG PUI WAH v. YIU YAT FAN T/A DAO PONG UNITED GOODS MANUFACTORY [1985] HKCFI 68; HCA 4500/1984 (28 March 1985)",
+    "action_number": "HCA004500/1984",
+    "case_name": "TANG PUI WAH v. YIU YAT FAN T/A DAO PONG UNITED GOODS MANUFACTORY",
+    "judgment_date": "1985-03-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "operating a plastic injection moulding machine",
+    "occupation_after": "messenger at the Mariners' Club",
+    "expected_occupation_after": "messenger at the Mariners' Club",
+    "salary_before": null,
+    "salary_after": 1950.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Removal/amputation of middle and index fingers and thumb; loss of some carpal and metercarpal bones; right hand substantially destroyed with only ring and fifth fingers present and only fourth and fifth metercarpals remaining.",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "An emergency operation was performed and the Plaintiff's middle and index fingers, his thumb and some badly damaged carpal and metercarpal bones were removed.",
+          "Dr Wedderburn described the Plaintiff's right hand as just a remnant with only the ring and fifth fingers being present. The only bones in the hand left were the fourth and fifth metercarpals.",
+          "Observation of the Plaintiff's right forearm confirms Dr Wedderburn's report. ... the hand itself was almost totally gone."
+        ],
+        "icd_code": "NC59.3",
+        "icd_description": "Combined traumatic amputation of finger with other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Severe crushing injury to right forearm with a dark coloured scar stretching from elbow to wrist, between 2½ and 3 inches wide, with marked muscle loss (wastage) on the back of the forearm and a deep groove along the scar.",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "As a result of the accident the Plaintiff suffered severe crushing injuries of his right hand and forearm.",
+          "Examination by Dr. Wedderburn in June of 1984 revealed a dark coloured scar stretching from the Plaintiff's elbow to his wrist on the outer aspect of the right forearm. This scar was between 2½ and 3 inches wide and there was marked muscle loss on the back of the forearm with a deep groove running down the length of the scar.",
+          "There is a deep and ugly scar from the elbow to the hand. There is clear muscle wastage ..."
+        ],
+        "icd_code": "NC37.Y",
+        "icd_description": "Crushing injury of other specified part of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Extreme pain immediately following the accident and during hospital stay; continued pain after leaving hospital; pain returns during wet and damp conditions.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Can exercise a 110 lb grip with left hand but can only exercise a 5 lb grip with the right hand using ring and fifth finger (with counter-fixation).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dark coloured scar from elbow to wrist between 2½ and 3 inches wide with marked muscle loss on back of forearm and a deep groove along the scar (plainly evident on observation).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Condition almost equivalent to an amputation at mid-hand; assessed as 54% impairment of the whole man.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation",
+      "Debridement on 27th October",
+      "A total of 5 operations over the next two months (including 3 skin graphs)",
+      "Physiotherapy and follow-up outpatient treatment visits",
+      "In-patient care at Princess Margaret Hospital and Caritas Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 61,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of part of the right hand with removal of thumb, index and middle fingers and loss of some carpal and metacarpal bones leaving only fourth and fifth metacarpals; right hand substantially a remnant.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Deep and ugly scar from the elbow to the hand (dark coloured scar between 2½ and 3 inches wide) with marked muscle wastage and a deep groove.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Plaintiff's work options are restricted; 'this is the only type of work that is possible for him now and in the future' (he obtained work as a messenger).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 132000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Kwong v. Luen Fat Chemical Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 6789/82",
+        "injury_description": "complete loss of a right hand",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 96000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11226,
+      "output_tokens": 7411,
+      "reasoning_tokens": 5760,
+      "total_tokens": 18637
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46822.62336462736,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11226,
+      "output_tokens": 7411,
+      "reasoning_tokens": 5760,
+      "total_tokens": 18637
+    },
+    "total_duration_ms": 46822.62336462736
+  }
+}

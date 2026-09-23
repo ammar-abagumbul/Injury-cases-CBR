@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 448",
+    "action_number": "HCPI 3/2003",
+    "case_name": "ALI SHOUKAT v. HANG SENG BANK LTD",
+    "judgment_date": "2004-06-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 40,
+    "occupation_before": "security guard",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10016.8,
+    "salary_after": null,
+    "expected_salary_after": 6730.0,
+    "education_level": "low education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back injury",
+        "injury_type": "Residual disability",
+        "body_part": "low back / lumbosacral area",
+        "laterality": null,
+        "source": [
+          "This is a claim by the plaintiff for damages based on negligence of the defendant being his employers, in respect of a sprained back injury sustained by the plaintiff in the course of his employment with the defendant on 10 April 2000.",
+          "the back injury of the plaintiff sustained when he was on duty on 10 April 2000 has resulted in chronic back pain and poor endurance despite prolong training."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe pain to his lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Low back pain almost daily at the lumbrosacral area",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Leg pain sometimes radiating along the lateral aspect of the left thigh to the knee level",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Back pain that wakes him up from his sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of lordosis of the lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Muscle spasm in the lumbosacral area",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Can sit for 30 minutes and stand for 15 minutes; climb up to the second floor and walk on level ground for 20 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Needs a walking stick to aid walking especially when climbing stairs (reported at times)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot carry or lift heavy weight over 10 kg (about 20 lbs)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to stand more than 25 minutes even with some support (as recorded by Dr Patrick Wong)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medication",
+      "physiotherapy",
+      "corset",
+      "X-ray",
+      "MRI scan",
+      "referral to Orthopaedics and Traumatology Department, Queen Elizabeth Hospital",
+      "occupational therapy",
+      "work hardening programme",
+      "local ointment",
+      "hot pad"
+    ],
+    "treatments_future": [
+      "oral analgesic",
+      "ointment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 365
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain in the low back which may still bother him from time to time; cannot carry or lift heavy weight over 10 kg (20 lbs) and has reduced endurance for standing and walking",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11464,
+      "output_tokens": 4243,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15707
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43354.17529195547,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11464,
+      "output_tokens": 4243,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15707
+    },
+    "total_duration_ms": 43354.17529195547
+  }
+}

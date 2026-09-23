@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "CHENG SAM PAK v. THE ATTORNEY GENERAL FOR HONG KONG AND ANOTHER [1998] HKCA 485; [1998] 2 HKC 551; CACV 247/1997 (1 May 1998)",
+    "action_number": "CACV000247/1997",
+    "case_name": "CHENG SAM PAK v. THE ATTORNEY GENERAL FOR HONG KONG AND ANOTHER",
+    "judgment_date": "1998-05-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 13,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": "police officer",
+    "salary_before": 9000.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": "fresh school graduate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injuries to his right hand.",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "Injuries were caused to his right hand.",
+          "(a) numbness of the tips of the 4 injured fingers;",
+          "(b) reduced strength in the grip of the right hand;",
+          "(c) reduced length of the right thumb and right index, middle and ring\nfingers;",
+          "(d) scars at the sites of the injuries (which are at the tips of the said\nfingers);",
+          "(e) no abnormality in the movements of the injured fingers but the right\nhand would feel cold if temperature is low;",
+          "(f) when the weather changes, the stump of the thumb and the fingers would\nbe painful and swollen."
+        ],
+        "icd_code": "NC59.2",
+        "icd_description": "Traumatic amputation of two or more fingers alone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness of the tips of the 4 injured fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced strength in the grip of the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced length of the right thumb and right index, middle and ring fingers",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scars at the sites of the injuries (which are at the tips of the said fingers)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the right hand would feel cold if temperature is low",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "when the weather changes, the stump of the thumb and the fingers would be painful and swollen",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a mild degree of depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a mild degree of social withdrawal",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "an awareness of his injured hand and a low self-esteem",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "reduced length of the right thumb and right index, middle and ring fingers; reduced strength in the grip of the right hand; numbness of the tips of the injured fingers",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "cosmetic disfigurement; scars at the tips of the fingers",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "mild degree of social withdrawal",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "diminished marriage prospects",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "CHAN Pui-ki v LEUNG On and another",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12130,
+      "output_tokens": 5249,
+      "reasoning_tokens": 3840,
+      "total_tokens": 17379
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28370.102114975452,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12130,
+      "output_tokens": 5249,
+      "reasoning_tokens": 3840,
+      "total_tokens": 17379
+    },
+    "total_duration_ms": 28370.102114975452
+  }
+}

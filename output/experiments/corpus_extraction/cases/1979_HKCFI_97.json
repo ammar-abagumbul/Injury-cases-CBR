@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 97",
+    "action_number": "HCA003299/1977",
+    "case_name": "MADAM RA SOON KYOO v. YEUNG WAI KIN",
+    "judgment_date": "1979-12-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 47,
+    "occupation_before": "accountant clerk",
+    "occupation_after": "accountant clerk",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered a fractured pelvis and fractured transverse processes of the vertebrae - lumbar 2, 3 and 4."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured transverse processes of the vertebrae - lumbar 2, 3 and 4",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar vertebrae (transverse processes L2, L3 and L4)",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered a fractured pelvis and fractured transverse processes of the vertebrae - lumbar 2, 3 and 4.",
+          "\"The injury which fractures the transverse processes tears muscles and ligaments and causes considerable pain and discomfort which may last for many weeks so that the injury is more serious than might appear from an X-ray\""
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Feels pain every day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Has to take sedatives each night and analgesics once or twice a day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Feels pain when she bends too far forward or tries to lift anything heavy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Unable to drive a car for eighteen months after the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Recommended to remain in bed (advised to remain in bed) / doctor recommended a special bed (orthopaedic bed)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Has had to continue to do the household chores but she 'cannot do like before'",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Gave up tennis, golf, ice-skating and swimming since the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to Queen Elizabeth Hospital",
+      "hospital bed rest (six weeks)",
+      "orthopaedic bed (recommended)",
+      "sedatives (nightly)",
+      "analgesics (once or twice a day)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 42,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Had to give up tennis and golf and also ice-skating and swimming since the accident.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Has had to continue to do the household chores but she 'cannot do like before'.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Has had to alter her social life style; now spends most of her leisure time watching television, reading and seeing friends.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Daily pain and ongoing need for sedatives and analgesics.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 26250.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9827,
+      "output_tokens": 5603,
+      "reasoning_tokens": 4288,
+      "total_tokens": 15430
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38737.33873665333,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9827,
+      "output_tokens": 5603,
+      "reasoning_tokens": 4288,
+      "total_tokens": 15430
+    },
+    "total_duration_ms": 38737.33873665333
+  }
+}

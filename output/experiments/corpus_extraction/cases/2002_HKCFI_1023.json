@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 1023",
+    "action_number": "HCPI 434/2001",
+    "case_name": "SHEK KAM CHING v. PO KEE CONSTRUCTION ENGINEERING LTD. AND OTHERS",
+    "judgment_date": "2002-11-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 33,
+    "age_at_trial": 37,
+    "occupation_before": "steel bender; essentially a factory worker",
+    "occupation_after": null,
+    "expected_occupation_after": "waiter or watchman",
+    "salary_before": 15200.0,
+    "salary_after": null,
+    "expected_salary_after": 8000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "small prolapsed intervertebral disc at L5/S1 level",
+        "injury_type": "Residual disability",
+        "body_part": "lower back (L5/S1)",
+        "laterality": null,
+        "source": [
+          "He suffered a small prolapsed intervertebral disc at L5/S1 level."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent pain at his lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decreased job-related strength and tolerance in maintaining a particular work posture",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited range of movement of the spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over the lower end of the right paraspinal muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to return to his pre-injury work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulties in maintaining a particular work posture for a long duration or to exert force with working",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment",
+      "26 months sick leave",
+      "treatment at Alice Ho Miu Ling Nethersole Hospital on 11 January 2002"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Unable to return to his pre-injury work; decreased job-related strength and tolerance in maintaining a particular work posture.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Law King Sang v Law Yin Sang",
+        "neutral_citation": "[1997] HKLY 437",
+        "action_number": null,
+        "injury_description": "the plaintiff sustained a disc prolapse at L4 and L5-S1 and was unable to sit or stand for long periods or swim or lift heavy objects",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 375000.0
+      },
+      {
+        "case_name": "Tang Shau Tsan v Wealthy Construction Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 1092 of 1998",
+        "injury_description": "bulging disc at L4/5 level with nerve root impingement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lai Ching v Wong Chiu Kwai",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 1192 of 1996",
+        "injury_description": "prolapsed disc at L4/5 level with compression of nerve root; low back pain after prolonged sitting, pain in the right leg aggravated by walking and weakness of the right foot",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10144,
+      "output_tokens": 4850,
+      "reasoning_tokens": 3584,
+      "total_tokens": 14994
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42136.312775313854,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10144,
+      "output_tokens": 4850,
+      "reasoning_tokens": 3584,
+      "total_tokens": 14994
+    },
+    "total_duration_ms": 42136.312775313854
+  }
+}

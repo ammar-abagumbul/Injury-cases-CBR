@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 6",
+    "action_number": "DCPI 248/2006",
+    "case_name": "SZE KA CHOY v. CHAN ON CHEUNG",
+    "judgment_date": "2007-01-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 59,
+    "age_at_trial": 62,
+    "occupation_before": "transportation worker",
+    "occupation_after": "had not been able to find work after he recovered from his injury",
+    "expected_occupation_after": null,
+    "salary_before": 8040.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right eye was totally blinded",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff ‘s right eye was totally blinded by the impact of a punch that was delivered by the Defendant on the Plaintiff’s face in the assault."
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the Plaintiff’s right eye had suffered a 100% functional limitation in its vision",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "medical treatment at the Hong Kong Eye Hospital",
+      "medical receipts produced"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "total loss of one eye (right eye)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Ka Wai v Lo Tak Cheung & others",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 1227/1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7380,
+      "output_tokens": 3940,
+      "reasoning_tokens": 3200,
+      "total_tokens": 11320
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32355.77069967985,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7380,
+      "output_tokens": 3940,
+      "reasoning_tokens": 3200,
+      "total_tokens": 11320
+    },
+    "total_duration_ms": 32355.77069967985
+  }
+}

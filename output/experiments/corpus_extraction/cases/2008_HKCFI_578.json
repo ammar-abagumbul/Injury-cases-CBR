@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 578",
+    "action_number": "HCPI 914/2006",
+    "case_name": "LIU WAI SHAN v. TRIPLE LUCK LTD T/A GOLDEN JADE SEAFOOD CITY",
+    "judgment_date": "2008-07-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 55,
+    "age_at_trial": null,
+    "occupation_before": "waiter",
+    "occupation_after": "Unable to undertake any gainful employment",
+    "expected_occupation_after": "waiter",
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Severe head injury with intracranial haemorrhage",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "he fell to the floor, hitting his head so badly that his skull was lacerated and he was knocked unconscious.",
+          "A CT scan undertaken revealed bilateral subdural haematoma and subarachnoid haemorrhage.",
+          "an extremely severe head injury complicated by cerebral contusion and intracranial haematoma, with serious neurological consequences."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Right 6th nerve palsy",
+        "injury_type": "Permanent injury",
+        "body_part": "right sixth cranial nerve / eye movement",
+        "laterality": "right",
+        "source": [
+          "Post-operatively he was noted to have a right 6th nerve palsy."
+        ],
+        "icd_code": "NA04.5",
+        "icd_description": "Injury of abducent nerve"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Hearing loss",
+        "injury_type": "Permanent injury",
+        "body_part": "hearing",
+        "laterality": null,
+        "source": [
+          "Other problems have arisen, including hearing loss."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Epileptic seizures",
+        "injury_type": "Permanent injury",
+        "body_part": "neurological",
+        "laterality": null,
+        "source": [
+          "he has suffered epileptic seizures."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Skull laceration (scalp/head laceration)",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "he fell to the floor, hitting his head so badly that his skull was lacerated and he was knocked unconscious."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Marked neurocognitive and neurobehavioral impairments (cognitive impairment, short term memory loss, slowed mental processing)",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "marked neurocognitive and neurobehavioral impairments.",
+          "He has become fully mobile but with cognitive impairment",
+          "they find he is quite deaf, is slow-witted with short term memory loss. His personality has changed for the worse. He becomes easily irritated."
+        ],
+        "icd_code": "NA07.30",
+        "icd_description": "Diffuse injury of cerebrum"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Knocked unconscious",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bilateral subdural haematoma and subarachnoid haemorrhage (as revealed on CT)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe weakness in both legs and one arm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "GCS was 10/15",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Motor power was restored to all four limbs (after rehabilitation)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Fully mobile but with cognitive impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Epileptic seizures",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Hearing loss / quite deaf",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Impaired sense of direction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Short term memory loss",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Personality change: becomes easily irritated",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Difficulty in verbally expressing himself",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Slow-witted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency neurological care",
+      "craniotomy for evacuation of haematoma",
+      "extubation (on the 6th day following admission)",
+      "physiotherapy",
+      "occupational therapy",
+      "cognitive training",
+      "rehabilitation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Lost his job as a waiter and is no longer able to perform such work or indeed any other.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Marked neurocognitive and neurobehavioral impairments; cognitive impairment; short term memory loss; slow-witted.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Personality change",
+        "description": "His personality has changed for the worse. He becomes easily irritated.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "He has some difficulty in verbally expressing himself.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Hearing loss; he is quite deaf.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 850000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+        "neutral_citation": null,
+        "action_number": "HCPI 668/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Shui Ying v HYFCO Travel Agency",
+        "neutral_citation": null,
+        "action_number": "HCPI 1060/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chin Shun v Yau Sin Cheung",
+        "neutral_citation": null,
+        "action_number": "HCPI 90/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tse Wing Sum v Kowloon Motor Bus Co.",
+        "neutral_citation": null,
+        "action_number": "HKLJ 265 (1981)",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsung Wo Ha v Mak Sai Choi",
+        "neutral_citation": null,
+        "action_number": "HKCL J36 (1985)",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20927,
+      "output_tokens": 9466,
+      "reasoning_tokens": 6784,
+      "total_tokens": 30393
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 59863.83646726608,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20927,
+      "output_tokens": 9466,
+      "reasoning_tokens": 6784,
+      "total_tokens": 30393
+    },
+    "total_duration_ms": 59863.83646726608
+  }
+}

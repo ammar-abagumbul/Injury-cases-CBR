@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 190",
+    "action_number": "DCPI 412/2004",
+    "case_name": "CHAN KWOK WAH v. TSOI LEUNG MING TRADING AS TSOI MING GEI ENGINEERING CO.",
+    "judgment_date": "2005-06-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 42,
+    "age_at_trial": 47,
+    "occupation_before": "plumber",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of left inferior pubic ramus",
+        "injury_type": "Residual disability",
+        "body_part": "left pelvis (left inferior pubic ramus)",
+        "laterality": "left",
+        "source": [
+          "x-rays of pelvis and left hip showed irregularity at cortical outline of inferior rami of left pelvis",
+          "x-rays showed a fracture of left inferior pubic ramus",
+          "the x-ray showed the fracture healed well with some residual deformity"
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasions over the left elbow and forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow and forearm",
+        "laterality": "left",
+        "source": [
+          "abrasions over the left elbow and forearm"
+        ],
+        "icd_code": "NC30.4",
+        "icd_description": "Multiple superficial injuries of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left hand bruise, swelling and tenderness with snapping sound on making fist and pain on exertion; complaint of pain at proximal joint of left ring finger",
+        "injury_type": "Residual disability",
+        "body_part": "left hand / wrist",
+        "laterality": "left",
+        "source": [
+          "left hand bruise and tenderness",
+          "the plaintiff complained at the time of swelling in the left hand but no fracture was shown",
+          "left hand swelling at dorsum; snapping sound on making fist and pain at exertion",
+          "pain at proximal joint of left ring finger"
+        ],
+        "icd_code": "NC57.10",
+        "icd_description": "Strain or sprain of flexor muscle, fascia or tendon of other finger at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left hand bruise and tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left hand swelling at dorsum",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "snapping sound on making fist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain on exertion in left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain at proximal joint of left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "abrasions over the left elbow and forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over left trochanteric and pelvic regions; left buttocks and hip pain worse at prolonged sitting or standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced working efficiency and tolerance slightly affected by residual pain to his hand and pelvis",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment",
+      "admission to Queen Elizabeth Hospital",
+      "physiotherapy",
+      "occupational therapy",
+      "orthopaedic follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 351,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "loss of enjoyment of playing football and riding bicycle",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "discomfort and residual pain in left hand and hip; residual deformity of pelvis",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Pik Kuen v Lee Fai Ming",
+        "neutral_citation": null,
+        "action_number": "HCPI7/1998",
+        "injury_description": "fracture of her left and superior and inferior rami. She suffered from groin pain due to irregular pelvis symphysis. She was not able to stand longer than 3 to 4 hours and was unfit for heavy work.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Woo Wai Kuen v Li Siu Keung trading as Alex Kitchen",
+        "neutral_citation": null,
+        "action_number": "DCPI309/2001",
+        "injury_description": "fractured her sacrum and was assessed to have suffered from 5 per cent impairment due to cracked fracture with no displacement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11887,
+      "output_tokens": 7663,
+      "reasoning_tokens": 5952,
+      "total_tokens": 19550
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40900.49512311816,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11887,
+      "output_tokens": 7663,
+      "reasoning_tokens": 5952,
+      "total_tokens": 19550
+    },
+    "total_duration_ms": 40900.49512311816
+  }
+}

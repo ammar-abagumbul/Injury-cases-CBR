@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1558",
+    "action_number": "DCPI 676/2016",
+    "case_name": "LIU YUK LIN v. JOHNSON CLEANING SERVICES CO LTD",
+    "judgment_date": "2018-12-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "patroller in Wo Hop Shek public cemetery",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7696.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "abrasions to her neck and lower face",
+        "injury_type": "Temporary injury",
+        "body_part": "neck and lower face",
+        "laterality": null,
+        "source": [
+          "On examination, some abrasions at the neck and lower face regions but no neurological deficit were found.",
+          "I find that the plaintiff only suffered from abrasions to her neck and lower face with mild soft tissue injuries to her head (amongst perhaps some other areas)."
+        ],
+        "icd_code": "NA00",
+        "icd_description": "Superficial injury of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild soft tissue injuries to her head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "I find that the plaintiff only suffered from abrasions to her neck and lower face with mild soft tissue injuries to her head (amongst perhaps some other areas)."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "abrasions at the neck and lower face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizziness / vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "insomnia / inability to sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no focal neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Panadol (paracetamol) administered at AED",
+      "injections for dizziness",
+      "oral painkillers",
+      "A&E observation ward admission and observation",
+      "physiotherapy",
+      "clinical psychology",
+      "follow-up in neurology and orthopaedics (neurosurgeons and orthopaedics referrals)",
+      "attendances at Fanling Family Centre with Panadols or Diclofenac and Stemetil on occasions",
+      "Orthopaedics & Traumatology Department sick leave (11 January 2018 to 10 January 2019) - as stated in judgment",
+      "Employee's Compensation received: HK$133,872.20"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 1432,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Fu Yip Fip v Sincere Engineering & Trading Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "CACV208/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13657,
+      "output_tokens": 5722,
+      "reasoning_tokens": 4480,
+      "total_tokens": 19379
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30096.79612144828,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13657,
+      "output_tokens": 5722,
+      "reasoning_tokens": 4480,
+      "total_tokens": 19379
+    },
+    "total_duration_ms": 30096.79612144828
+  }
+}

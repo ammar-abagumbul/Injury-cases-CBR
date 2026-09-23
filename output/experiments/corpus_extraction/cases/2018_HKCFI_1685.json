@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1685",
+    "action_number": "HCPI 697/2012",
+    "case_name": "TANG CHI KEUNG v. MUNG KA WAI",
+    "judgment_date": "2018-07-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": 62,
+    "occupation_before": "businessman engaged in plastic trading",
+    "occupation_after": "part-time driver (from December 2015)",
+    "expected_occupation_after": "part-time driver until retirement at age 65 (as stated in Supplemental Statement)",
+    "salary_before": 23484.33,
+    "salary_after": 6864.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "I find that the plaintiff had sustained injuries of soft tissue of his right shoulder, neck and low back in the Incident.",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "I find that the plaintiff had sustained injuries of soft tissue of his right shoulder, neck and low back in the Incident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "I find that the plaintiff had sustained injuries of soft tissue of his right shoulder, neck and low back in the Incident.",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "I find that the plaintiff had sustained injuries of soft tissue of his right shoulder, neck and low back in the Incident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "I find that the plaintiff had sustained injuries of soft tissue of his right shoulder, neck and low back in the Incident.",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "I find that the plaintiff had sustained injuries of soft tissue of his right shoulder, neck and low back in the Incident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "The injury to his neck had accelerated the degeneration of his cervical spine which necessitated the performance of the C6/7 Operation in October 2012.",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C6/7)",
+        "laterality": null,
+        "source": [
+          "The injury to his neck had accelerated the degeneration of his cervical spine which necessitated the performance of the C6/7 Operation in October 2012."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild residual neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual numbness of left hand (ulnar two fingers / ulnar half of left hand)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild occasional right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild occasional low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "follow-ups at United Christian Hospital (O&T)",
+      "physiotherapy treatment at Tseung Kwan O Hospital (TKOH)",
+      "anterior spinal fusion at C6/7 (12 October 2012)",
+      "right hip arthroscopy (17 January 2014)",
+      "anterior spinal fusion at L5/S1 (8 September 2015)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 1857,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "ceased all these activities after the Incident (swimming, playing football and basketball, cycling and horse riding)",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "As long-time walking would aggravate his neck pain and back pain, he stayed at home most of the time which had greatly affected his social life.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "The neck pain and low back pain also affected his daily activities such as teeth-bushing and hair-washing which would involve movement of neck or low back.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Luk Yee Lam v Orasa Livasiri",
+        "neutral_citation": null,
+        "action_number": "HCPI 394/2012",
+        "injury_description": "the taxi driver claimant suffered the whiplash-type injury to his neck which caused damage to the disc at the C5/6 level with residual pain in the neck and back, numbness in the right arm and left wrist, weakness in his hands, some numbness and pain in his right leg and his feet and reduced sexual desire",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 27964,
+      "output_tokens": 6299,
+      "reasoning_tokens": 5056,
+      "total_tokens": 34263
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38909.80416163802,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 27964,
+      "output_tokens": 6299,
+      "reasoning_tokens": 5056,
+      "total_tokens": 34263
+    },
+    "total_duration_ms": 38909.80416163802
+  }
+}

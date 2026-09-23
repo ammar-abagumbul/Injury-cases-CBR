@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 245",
+    "action_number": "DCPI 1234/2012",
+    "case_name": "ASIF MUHAMMAD v. MTR CORPORATION LIMITED",
+    "judgment_date": "2014-03-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "supervisor in a textile factory doing heavy manual work and as a farmer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The head injury has also recovered without any residual complaint."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to his neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the objective findings at the examination suggested the injury to his neck and left big toe has recovered without any significant residual symptom."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "T12 wedge fracture",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / thoracolumbar spine",
+        "laterality": null,
+        "source": [
+          "The plaintiff's main injury consisted of a T12 wedge fracture."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "spondyloysis shown in the X-ray",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "the spondyloysis shown in the X-ray is likely to be pre-existing."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "injury to left big toe",
+        "injury_type": "Temporary injury",
+        "body_part": "left big toe",
+        "laterality": "left",
+        "source": [
+          "the objective findings at the examination suggested the injury to his neck and left big toe has recovered without any significant residual symptom."
+        ],
+        "icd_code": "ND1Z",
+        "icd_description": "Injuries to the ankle or foot, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost consciousness for a short period of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "constant pain of 5/10 degree of severity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "inability to lift more than 5 kg of weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual back pain in his work which requires lifting weight of over 20-25 kg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "expressed pain in his head and foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "an ambulance was summoned",
+      "sent to the hospital",
+      "attended at the accident and emergency department of the hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ansar Mohammad v Global Legend Transportation Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 1057 of 2007",
+        "injury_description": "similar but slightly more serious injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18582,
+      "output_tokens": 6335,
+      "reasoning_tokens": 4928,
+      "total_tokens": 24917
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39937.67023831606,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18582,
+      "output_tokens": 6335,
+      "reasoning_tokens": 4928,
+      "total_tokens": 24917
+    },
+    "total_duration_ms": 39937.67023831606
+  }
+}

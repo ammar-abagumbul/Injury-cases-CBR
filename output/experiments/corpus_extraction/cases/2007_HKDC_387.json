@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 387",
+    "action_number": "DCPI 1415/2006",
+    "case_name": "CHOW KAI KIT v. INTERNATIONAL PAPER MANUFACTURING & DISTRIBUTION LTD AND OTHERS",
+    "judgment_date": "2007-12-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 28,
+    "age_at_trial": 32,
+    "occupation_before": "delivery worker (employed by the 3rd Defendant)",
+    "occupation_after": "night job cleaning for Waihong and a day job (details not specified)",
+    "expected_occupation_after": null,
+    "salary_before": 11500.0,
+    "salary_after": 9390.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "About ½ inch of his fingertip was removed.",
+        "injury_type": "Permanent injury",
+        "body_part": "right index fingertip",
+        "laterality": "right",
+        "source": [
+          "the 2nd Defendant lost control of the fork-lift truck, which hit the Plaintiff’s finger.",
+          "About ½ inch of his fingertip was removed."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual weakness and pain of the finger.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Could not participate in snooker and badminton.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He lost some friends and a close girlfriend.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sent to the hospital",
+      "surgical removal of about ½ inch of fingertip",
+      "medical treatments until 12 October 2004"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual weakness and pain of the finger.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Stopped favourite sport of badminton and snooker.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He lost some friends and a close girlfriend.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yiu Pau Pau v Co-ray Design & Construction Limited",
+        "neutral_citation": "DCPI 864/2006",
+        "action_number": "DCPI 864/2006",
+        "injury_description": "the plaintiff worked as a carpenter. His left index finger was cut by the blade of an electric trimmer machine. He was left with residual weakness and stiffness of his left index finger.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Leung Lai Yin v Yeung Kei Chi",
+        "neutral_citation": "HCPI 317/1999",
+        "action_number": "HCPI 317/1999",
+        "injury_description": "the plaintiff worked as a carpenter. His left index and ring fingers were partly amputated. His left middle finger was amputated.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 400000.0
+      },
+      {
+        "case_name": "Ho Shu Yau v Lo Siu Ling",
+        "neutral_citation": "HCPI 1336/2000",
+        "action_number": "HCPI 1336/2000",
+        "injury_description": "the plaintiff's right fingertip, 0.7 cm, was cut off. He suffered residual pain and stiffness of his finger joint.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11247,
+      "output_tokens": 4189,
+      "reasoning_tokens": 2944,
+      "total_tokens": 15436
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27745.935916900635,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11247,
+      "output_tokens": 4189,
+      "reasoning_tokens": 2944,
+      "total_tokens": 15436
+    },
+    "total_duration_ms": 27745.935916900635
+  }
+}

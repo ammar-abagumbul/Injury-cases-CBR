@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 146",
+    "action_number": "HCA002403/1981",
+    "case_name": "FUNG SING YIN AND ANOTHER v. WONG HON SHING AND OTHERS",
+    "judgment_date": "1982-02-25",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 29,
+    "age_at_trial": null,
+    "occupation_before": "newspaper delivery van driver",
+    "occupation_after": "worked for his father",
+    "expected_occupation_after": "truck driver",
+    "salary_before": 1550.0,
+    "salary_after": 1700.0,
+    "expected_salary_after": 2800.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "two superficial abrasions to the right side of the face",
+        "injury_type": "Temporary injury",
+        "body_part": "right side of the face",
+        "laterality": "right",
+        "source": [
+          "two superficial abrasions to the right side of the face"
+        ],
+        "icd_code": "NA00.6",
+        "icd_description": "Abrasion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bruising of the right shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "bruising of the right shoulder"
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a fracture of the left femur",
+        "injury_type": "Temporary injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "a fracture of the left femur"
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the 1st plaintiff had a theoretical 2% impairment of the leg from a loss of internal rotation which is a 1% impairment of the whole man",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "no permanent disability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the 1st plaintiff is unable to work as a truck driver",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "can no longer participate in gymnastics, football or basket ball which activities he pursued before the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment to his shoulder from a bonesetter",
+      "physiotherapy treatment at Sai Ying Pun Clinic",
+      "treatment at Sai Ying Pun Clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "can no longer participate in gymnastics, football or basket ball which activities he pursued before the accident",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "the 1st plaintiff is unable to work as a truck driver",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 14000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11682,
+      "output_tokens": 6068,
+      "reasoning_tokens": 4928,
+      "total_tokens": 17750
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42557.77870491147,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11682,
+      "output_tokens": 6068,
+      "reasoning_tokens": 4928,
+      "total_tokens": 17750
+    },
+    "total_duration_ms": 42557.77870491147
+  }
+}

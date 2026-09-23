@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 190",
+    "action_number": "HCPI 69/2003",
+    "case_name": "YAN SHUN SIM v. KAI MUK YIM AND ANOTHER",
+    "judgment_date": "2004-05-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 75,
+    "age_at_trial": 79,
+    "occupation_before": "domestic helper (retired about 1958)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "no formal education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Crushing injury to left leg with open wounds",
+        "injury_type": "Residual disability",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "she was found to have sustained a crushing injury to her left leg with open wounds.",
+          "The plaintiff was taken to United Christian Hospital after the accident on 26 December 2000 where she was admitted. She was found to have left leg crushing injury with open wounds."
+        ],
+        "icd_code": "NC97",
+        "icd_description": "Crushing injury of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the left tibial plateau",
+        "injury_type": "Residual disability",
+        "body_part": "left tibial plateau",
+        "laterality": "left",
+        "source": [
+          "An X-ray showed that there was a fracture of the left tibial plateau."
+        ],
+        "icd_code": "NC92.1Z",
+        "icd_description": "Fracture of upper end of tibia, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent left knee and leg pain, worse on prolonged sitting or standing; pain on weight bearing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left knee flexion only 70 degrees (right knee 130 degrees)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Marked/gross wasting of the left thigh muscle (girth difference recorded as 6 cm and later 4 cm)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Extensive scars and tenderness around the left knee and lower leg; skin graft scar present",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor weight bearing capacity of the left lower limb; unable to walk independently without aid; uses a walking frame at home and a wheelchair for outdoor ambulation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Shoulder tenderness and stiffness (noted earlier but later disappeared)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical debridgement and external fixation on 26 December 2000",
+      "screw fixation on 28 December 2000",
+      "skin graft on 12 January 2001",
+      "external fixator removed (readmitted to Kowloon Hospital on 2 April 2001)",
+      "transfer to Kowloon Hospital for rehabilitation on 3 February 2001",
+      "out-patient physiotherapy at Kowloon Hospital twice weekly",
+      "follow-up in the Rehab Specialist Out Patient Clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "She will not be able to enjoy the early morning walks that she used to go on frequently.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "After the accident she cannot take care of herself; her daughter had to resign her job to look after her; she requires assistance and a part-time or full-time helper for daily activities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "She was unable to perform household work such as preparing food, cleaning and tidying room and would not be able to perform household cleaning work and washing clothes.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui-ki v. Leung On and another",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": "Range for substantial injury was $540,000 to $660,000; range for serious injury was $400,000 to $540,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15689,
+      "output_tokens": 5566,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21255
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28145.22012323141,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15689,
+      "output_tokens": 5566,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21255
+    },
+    "total_duration_ms": 28145.22012323141
+  }
+}

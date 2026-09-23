@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 44; HCPI 522/2001 (12 April 2002)",
+    "action_number": "HCPI 522/2001",
+    "case_name": "EDWARD MARTIN WILLIAMS v. THE HONG KONG LAND PROPERTY CO. LTD. AND ANOTHER",
+    "judgment_date": "2002-04-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 55,
+    "age_at_trial": null,
+    "occupation_before": "a senior officer with the Standard Chartered Bank, on secondment to Hong Kong",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 711284.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "massively extruded L3 disc of the lumbar spine with compression of L3-L4 nerve roots on the right",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": "right",
+        "source": [
+          "he suffered a massively extruded L3 disc of the lumbar spine with compression of L3-L4 nerve roots on the right."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain, suffering and loss of amenity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "compression of L3-L4 nerve roots on the right",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "considerable continuing disability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "kept him off work for some time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "He underwent a laminectomy operation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 650000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9757,
+      "output_tokens": 2439,
+      "reasoning_tokens": 1664,
+      "total_tokens": 12196
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 19119.122367352247,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9757,
+      "output_tokens": 2439,
+      "reasoning_tokens": 1664,
+      "total_tokens": 12196
+    },
+    "total_duration_ms": 19119.122367352247
+  }
+}

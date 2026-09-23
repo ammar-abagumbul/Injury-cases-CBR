@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 400",
+    "action_number": "DCPI 1617/2006",
+    "case_name": "LO WING KWONG v. WONG KA WAI RUBY",
+    "judgment_date": "2007-12-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": null,
+    "occupation_before": "Technical officer, Hong Kong Standards & Testing Centre Limited",
+    "occupation_after": "Senior technical officer",
+    "expected_occupation_after": null,
+    "salary_before": 12500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Tertiary education; diploma graduate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "simple soft tissue injury to the back",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "simple soft tissue injury to the back"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasion injury to the right elbow resulting in a residual 3.5cm x 1.5cm scar and some soft tissue residual pain",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "the abrasion injury to the right elbow resulted in a residual 3.5cm x 1.5cm scar that was non-pigmented, non-tender and non-hypertrophic.",
+          "right elbow & low back injury"
+        ],
+        "icd_code": "NC30.0",
+        "icd_description": "Abrasion of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right elbow pain caused by exertion like carrying objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "low back pain lasting 3-4 weeks after the Accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "there were 2 episodes of back pain in September 2004 and March 2006",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual 3.5cm x 1.5cm scar that was non-pigmented, non-tender and non-hypertrophic",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild reduction in work capacity and efficiency since elbow pain and back discomfort might be aggravated by exertion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain occurred about once a week each time lasting 5 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "wound dressing",
+      "analgesic",
+      "bonesetter treatment",
+      "self-applied ointment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (general pain and discomfort, occasional residual discomfort and limitation on exertion) awarded at HK$80,000.00",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Residual scar from right elbow abrasion (3.5cm x 1.5cm) resulting in reduced enjoyment due to scarring",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity awarded at HK$30,000.00 for mild adverse effect on earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21895,
+      "output_tokens": 4758,
+      "reasoning_tokens": 3520,
+      "total_tokens": 26653
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32730.66219314933,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21895,
+      "output_tokens": 4758,
+      "reasoning_tokens": 3520,
+      "total_tokens": 26653
+    },
+    "total_duration_ms": 32730.66219314933
+  }
+}

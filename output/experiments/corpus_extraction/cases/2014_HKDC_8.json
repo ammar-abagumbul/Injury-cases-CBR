@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 8",
+    "action_number": "DCPI 1069/2011",
+    "case_name": "LEUNG SIU SUM v. SWIRE BEVERAGES LTD T/A SWIRE COCA COLA HK",
+    "judgment_date": "2014-01-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 49,
+    "age_at_trial": 55,
+    "occupation_before": "driver (lorry driver for advertisement signboard installation works)",
+    "occupation_after": "deployed to maintain drinking machines and refrigerators (sitting position)",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": 11332.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "was diagnosed to suffer sprain injury of left thigh.",
+        "injury_type": "Permanent injury",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "was diagnosed to suffer sprain injury of left thigh."
+        ],
+        "icd_code": "NC73",
+        "icd_description": "Dislocation or strain or sprain of joint or ligaments of hip"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "probably the plaintiff had suffered rectus tendon injury or tear in the accident. The tendon injury or tear had healed.",
+        "injury_type": "Permanent injury",
+        "body_part": "left distal thigh",
+        "laterality": "left",
+        "source": [
+          "probably the plaintiff had suffered rectus tendon injury or tear in the accident. The tendon injury or tear had healed."
+        ],
+        "icd_code": "NC76.10",
+        "icd_description": "Strain or sprain of quadriceps muscle or tendon"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "an area of subcortical bone marrow oedema (2.7 cm) was identified at posterior aspect of right lateral femoral condyle which could represent an area of bone contusion or is degenerative in nature. The posterior horn of the right lateral meniscus is deficient, which is suggestive of post-operative change.",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "an area of subcortical bone marrow oedema (2.7 cm) was identified at posterior aspect of right lateral femoral condyle which could represent an area of bone contusion or is degenerative in nature.",
+          "the posterior horn of the right lateral meniscus is deficient, which is suggestive of post-operative change."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over left upper arm and left thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of his left knee movement was limited by pain on movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to squat fully due to bilateral knee pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left hip pain after operative treatment for the swell in his left buttock.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain over the ligament on the posterior aspect of his right knee.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "an area of subcortical bone marrow oedema (2.7 cm) was identified at posterior aspect of right lateral femoral condyle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "the posterior horn of the right lateral meniscus is deficient, which is suggestive of post-operative change.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Accident & Emergency Department of Princess Margaret Hospital",
+      "treatment in Orthopaedics and Traumatology Department",
+      "rehabilitation at Caritas Medical Centre",
+      "physiotherapy (35 sessions then additional 20 sessions)",
+      "Specialist Outpatient Clinic follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 422,
+    "sick_leave_days_expected": 270
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Stopped practising bodybuilding exercises and jogging in gymnasium and he also participated in bodybuilding competitions. After his injury, he stopped practising those exercises that he used to do and he does stretching exercises instead.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "He cannot walk for a long period of time. He can climb stairs but slowly. He cannot fully squat.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Choi Pak Sum v Lam Lung Ki & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 529/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23131,
+      "output_tokens": 7548,
+      "reasoning_tokens": 5952,
+      "total_tokens": 30679
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49241.52698367834,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23131,
+      "output_tokens": 7548,
+      "reasoning_tokens": 5952,
+      "total_tokens": 30679
+    },
+    "total_duration_ms": 49241.52698367834
+  }
+}

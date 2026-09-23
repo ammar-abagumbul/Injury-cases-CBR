@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 291",
+    "action_number": "DCPI 2530/2007",
+    "case_name": "LAM SHUI NGAN v. GLOBAL CHEER LTD AND ANOTHER",
+    "judgment_date": "2009-12-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general cleaning worker",
+    "occupation_after": "resumed light duties with the 1st Defendant; briefly employed as a security guard",
+    "expected_occupation_after": null,
+    "salary_before": 4700.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue sprain injury",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "The Plaintiff complains that she is still suffering from persistent low back pain.",
+          "(a) \"tenderness of the spinous process at L5 and Sl levels in the midline\";",
+          "(b) \"paraspirnal muscle guarding\";",
+          "(c) \"tenderness over the left iliac crest and left gluteal region\";",
+          "(d) \"decrease in straight leg-raising on the left lower limb\";",
+          "(e) \"decrease in sensation over the posterior left thigh, posterior left calf and sole, and milder degree of sensory impairment over the left aspect of left calf\";",
+          "(f) \"muscle wasting noted in the left calf\"."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness of the spinous process at L5 and S1 levels in the midline",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "paraspinal muscle guarding",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the left iliac crest and left gluteal region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in straight leg-raising on the left lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in sensation over the posterior left thigh, posterior left calf and sole",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle wasting noted in the left calf",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (18 months of treatment noted in physiotherapy report dated 22.2.2007)",
+      "medical consultations",
+      "admissions to Prince of Wales Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 793,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) arising from persistent low back pain and related physical impairments",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 230000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chung Keung v. Guerwall Limited trading as Conrad Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 275/2005",
+        "injury_description": "soft tissue injury of the lower back with persistent back pain, left wrist pain and numbness in his left leg/thigh",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Khan Shafiq v. Cheng Hip Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 1378/2007",
+        "injury_description": "back sprain with mild residual back pain possibly with exacerbation from time to time upon heavy exertion or prolonged walking",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15352,
+      "output_tokens": 5338,
+      "reasoning_tokens": 4032,
+      "total_tokens": 20690
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44750.797759741545,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15352,
+      "output_tokens": 5338,
+      "reasoning_tokens": 4032,
+      "total_tokens": 20690
+    },
+    "total_duration_ms": 44750.797759741545
+  }
+}

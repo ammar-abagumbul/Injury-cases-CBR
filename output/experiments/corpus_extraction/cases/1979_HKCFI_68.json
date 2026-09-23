@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 68",
+    "action_number": "HCA004718/1978",
+    "case_name": "WONG HEI (OR HAY) WAN v. LI CHOR AND ANOTHER",
+    "judgment_date": "1979-08-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Film producer employed by the Lo Mar Film Co.; film actor",
+    "occupation_after": "Film producer (freelance)",
+    "expected_occupation_after": "Film producer (freelance)",
+    "salary_before": 2000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "An X-ray of left leg disclosed a fracture of the upper part of the left tibia.",
+        "injury_type": "Permanent injury",
+        "body_part": "left tibia",
+        "laterality": "left",
+        "source": [
+          "An X-ray of left leg disclosed a fracture of the upper part of the left tibia."
+        ],
+        "icd_code": "NC92.1Z",
+        "icd_description": "Fracture of upper end of tibia, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "One 5\" laceration over forehead;",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "One 5\" laceration over forehead;"
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Scarring of the forehead.",
+        "injury_type": "Permanent injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "scarring of the forehead."
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Sprained neck / whiplash neck injury.",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Pain and limitation of movement of neck;",
+          "a neck collar was given for the sprained neck",
+          "the plaintiff has completely recovered from his whip lash neck injury"
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Abrasion over right knee.",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "Abrasion over right knee;"
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Very mild brain injury / post consussional syndrome (loss of recent/ immediate memory).",
+        "injury_type": "Residual disability",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "he considered that the plaintiff did have a very mild brain injury or post consussional syndrome.",
+          "Dr. Wedderburn is of the opinion that there has been a genuine immediate memory loss here, although the plaintiff's remote memory is normal."
+        ],
+        "icd_code": "NA07.00",
+        "icd_description": "Concussion with incomplete loss of consciousness with amnesia"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "½\" shortening of the left lower leg.",
+        "injury_type": "Permanent injury",
+        "body_part": "left lower leg",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered severe injuries in the accident including a ½\" shortening of the left lower leg"
+        ],
+        "icd_code": "NC92.Z",
+        "icd_description": "Fracture of lower leg, including ankle, unspecified"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "Mild stiffness of left knee joint (5o less flexion compared to right knee).",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "mild stiffness of left knee joing (5o less flexion compared to right knee)"
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Poor memory / loss of recent (immediate) memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Scarring of the forehead",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Pain and limitation of movement of neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Abrasion over right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Swelling and tenderness upper part of left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "½\" shortening of the left lower leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Mild stiffness of left knee (5o less flexion compared to right knee)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_008"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to the Orthopaedic Unit at Queen Elizabeth Hospital on the day of the accident",
+      "surgical toilet and the laceration was sutured",
+      "a neck collar was given for the sprained neck",
+      "fractured left tibia was treated by closed reduction and long leg plaster",
+      "attended the orthopaedic follow-up clinic several times",
+      "referred to the Neurosurgical Clinic",
+      "attendance on the Bone Setter"
+    ],
+    "treatments_future": [
+      "Dr. Wedderburn anticipated osteo arthritis developing as a result of the knee injury"
+    ],
+    "hospitalisation_days": 65,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 247,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "His career as a film actor is over.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Facial disfigurement caused by the accident; scarring of the forehead.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Loss of recent memory (immediate memory loss) affecting earning capacity.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "½\" shortening of the left lower leg and mild stiffness of left knee; ongoing impairment and anticipated osteoarthritic change.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Kam-tui",
+        "neutral_citation": "H.K.L.J. (1977) 395",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ko Sun-wah",
+        "neutral_citation": "1978 H.K.L.J. 256",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Pang Yau v. Cheung Kwok Hing and Anor.",
+        "neutral_citation": "1977 H.K.L.R. 396",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Wah-ho v. Chow Win-lai",
+        "neutral_citation": "1977 H.K.L.J. 394",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "F.P.A. Goodwin",
+        "neutral_citation": "1977 H.K.L.J. 395",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Cheung-wai",
+        "neutral_citation": "1977 H.K.L.J. 149",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17367,
+      "output_tokens": 10774,
+      "reasoning_tokens": 7936,
+      "total_tokens": 28141
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43461.99693530798,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17367,
+      "output_tokens": 10774,
+      "reasoning_tokens": 7936,
+      "total_tokens": 28141
+    },
+    "total_duration_ms": 43461.99693530798
+  }
+}

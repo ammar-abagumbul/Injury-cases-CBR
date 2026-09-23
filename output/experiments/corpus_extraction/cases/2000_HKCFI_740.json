@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 740",
+    "action_number": "HCPI 7/1998",
+    "case_name": "LAM PIK KUEN v. LEE FAI MING AND ANOTHER",
+    "judgment_date": "2000-05-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 45,
+    "age_at_trial": null,
+    "occupation_before": "pantry maid at a restaurant",
+    "occupation_after": "pantry maid",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured left superior and inferior pubic rami",
+        "injury_type": "Temporary injury",
+        "body_part": "left pubic rami / pelvis",
+        "laterality": "left",
+        "source": [
+          "the plaintiff alleges that both pubic rami bones on the left side of her pelvis were broken as the result of the accident",
+          "Following the accident, the plaintiff was taken to Tang Shiu Kin Hospital where she was examined and found, following X-ray, to have suffered a fractured left superior and inferior pubic rami."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "irregularity / displacement of the pubic symphasis (cartilaginous or fibrous union of the frontal pelvic girdle)",
+        "injury_type": "Permanent injury",
+        "body_part": "pubic symphasis / pelvis",
+        "laterality": null,
+        "source": [
+          "He did find, however, that her pubic symphasis, a cartilaginous or fibrous union of the frontal pelvic girdle was irregular."
+        ],
+        "icd_code": "NB53.4",
+        "icd_description": "Traumatic rupture of symphysis pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to pelvic area resulting in residual/permanent pain",
+        "injury_type": "Permanent injury",
+        "body_part": "pelvic soft tissues",
+        "laterality": null,
+        "source": [
+          "the plaintiff alleges ... together with soft tissue injury and that she has suffered permanent impairment.",
+          "In his view, the residual pain felt by the plaintiff emanated from soft tissue injury and that injury was permanent."
+        ],
+        "icd_code": "NB94.2",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left groin pain and tenderness on palpation of the left pubic rami area",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "tenderness when the sacroiliac joint of her pelvis was palpated (no sacroiliac joint injury on X-ray)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual pain which will continue in future",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to stand continuously for more than three to four hours at a time without 10-15 minutes rest",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unfit for heavy work; fit for light to moderate work; less able to carry heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "ability to squat down fully and walk with a normal gait (as found on examination)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "plaintiff's complaint of difficulty in squatting and changing posture (disputed by examining doctors)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "plaintiff's complaint of pain when menstruating and when having sex (reported by plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Tang Shiu Kin Hospital (examination and X-ray)",
+      "follow-up orthopaedic treatment at Tang Chi Ngong Clinic",
+      "acupuncture",
+      "bone setting",
+      "herbal medicines / Chinese medicinal treatment",
+      "tonic and Chinese food",
+      "use of quadripod walking aid"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (award of $150,000 for pain suffering and loss of amenities).",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Less able to walk and stand; requires rest periods during the working day; unfit for heavy work; less able to carry heavy objects.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Real risk of losing her job and being at a disadvantage in finding other employment because of need for rest periods and inability to lift heavy loads (award of $40,000 for loss of earning capacity).",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ip Yiu Fai v. Chan Che Kwong",
+        "neutral_citation": null,
+        "action_number": "HCPI 445/98",
+        "injury_description": "stable hand who fractured the rim of his pelvis",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Fan Shuit Lui v. Shing Wah Chai",
+        "neutral_citation": null,
+        "action_number": "HCPI 6239/1984",
+        "injury_description": "injuries sustained as the result of being run over while changing a flat tyre",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ip Lam Yuk Lin v. Yeung Fat",
+        "neutral_citation": "[1991] 2 HKC 480",
+        "action_number": null,
+        "injury_description": "fractured femur and fractured radius",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Yiu Tsang v. Yeung Ching Kit",
+        "neutral_citation": null,
+        "action_number": "HCPI 4281/83",
+        "injury_description": "fractured superior and inferior pubic rami of the right side of the pelvis (no permanent impairment after six months' sick leave)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 180,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheuk Wai Chi & Law Siu Ping v. Kwong Cheuk Kai",
+        "neutral_citation": null,
+        "action_number": "HCPI 92/1982",
+        "injury_description": "one plaintiff suffered a fracture to the left superior pubic ramis and continuing pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16151,
+      "output_tokens": 6974,
+      "reasoning_tokens": 4800,
+      "total_tokens": 23125
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41578.41968536377,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16151,
+      "output_tokens": 6974,
+      "reasoning_tokens": 4800,
+      "total_tokens": 23125
+    },
+    "total_duration_ms": 41578.41968536377
+  }
+}

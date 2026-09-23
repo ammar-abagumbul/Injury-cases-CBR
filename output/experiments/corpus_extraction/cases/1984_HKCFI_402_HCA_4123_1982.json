@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 402; HCA 4123/1982",
+    "action_number": "HCA004123/1982",
+    "case_name": "TO KIN SHAN AND OTHERS v. CHAN HOK LEUNG T/A YAU BONG METAL MANUFACTORY AND ANOTHER",
+    "judgment_date": "1984-03-23",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 19,
+    "age_at_trial": 22,
+    "occupation_before": "operating a power press machine",
+    "occupation_after": "garment factory worker (sewing buttons)",
+    "expected_occupation_after": null,
+    "salary_before": 1040.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "removal of part of the left thumb",
+        "injury_type": "Permanent injury",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "He was admitted to the Queen Elizabeth Hospital and underwent an operation for the removal of part of the left thumb and part of the left forefinger."
+        ],
+        "icd_code": "NC59.21",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, left hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "removal of part of the left forefinger",
+        "injury_type": "Permanent injury",
+        "body_part": "left forefinger",
+        "laterality": "left",
+        "source": [
+          "He was admitted to the Queen Elizabeth Hospital and underwent an operation for the removal of part of the left thumb and part of the left forefinger."
+        ],
+        "icd_code": "NC59.21",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, left hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the injury was painful for about 4 weeks after the accident and the pain was most severe at nights.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "now he has no pain or feeling except when he knocks the stumps on something but then he experiences a very sharp acute pain followed by an ache for quite a long time.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "good grip strength between the stump of the thumb and the 3rd finger and he exercises a 68 lbs grip with the right hand and a 40 1b grip with the left which is a good grip considering the amputations",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "there are two jobs that he finds he cannot do with his injuries, welding buttons and sewing padding in shoulders",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The Plaintiff was granted a figure of 20% disability by the Medical assessment Board on the 27th July 1979.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Dr Wedderburn assesses the Plaintiff as having a 25% impairment of the whole man and the same permanent disability.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Queen Elizabeth Hospital",
+      "operation for the removal of part of the left thumb and part of the left forefinger",
+      "operation carried out under local anaesthetic",
+      "sutures removed in two weeks",
+      "attended daily for dressings for a further two weeks",
+      "wounds healed about six weeks after the accident"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain Suffering and Loss of Amenities",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Wing Wah v Chung Hing Metal & Plastic",
+        "neutral_citation": null,
+        "action_number": "HCA 1983 No. 5389",
+        "injury_description": "34% impairment of the whole man",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Chan Po Keung v Law Ping",
+        "neutral_citation": null,
+        "action_number": "1982 No. 3393",
+        "injury_description": "impairment of 14% (ambidextrous plaintiff)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 36000.0
+      },
+      {
+        "case_name": "Chan Suet Keung v Yiu Shui For",
+        "neutral_citation": null,
+        "action_number": "H.C.A. 1982 No. 9188",
+        "injury_description": "impairment of 12%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 36000.0
+      },
+      {
+        "case_name": "Mak Kwok Ping v Lui Nam",
+        "neutral_citation": null,
+        "action_number": "H.C.A. 198 No. 7084",
+        "injury_description": "serious injuries to the preferred hand",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 75000.0
+      },
+      {
+        "case_name": "Law Kwok Hung v Chow Chi Chung",
+        "neutral_citation": null,
+        "action_number": "H.C.A. 1982 No. 8814",
+        "injury_description": "amputation of part of the right index finger",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 28000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9824,
+      "output_tokens": 8016,
+      "reasoning_tokens": 6272,
+      "total_tokens": 17840
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43727.5723926723,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9824,
+      "output_tokens": 8016,
+      "reasoning_tokens": 6272,
+      "total_tokens": 17840
+    },
+    "total_duration_ms": 43727.5723926723
+  }
+}

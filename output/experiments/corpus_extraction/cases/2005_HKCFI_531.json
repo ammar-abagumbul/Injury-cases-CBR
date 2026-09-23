@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 531",
+    "action_number": "HCPI 1028/2002",
+    "case_name": "CHENG CHI MING v. LI CHAU WAN AND ANOTHER",
+    "judgment_date": "2005-07-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "butcher",
+    "occupation_after": null,
+    "expected_occupation_after": "may take up lighter and more sedentary jobs",
+    "salary_before": 19600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "limited education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right lateral plateau of the tibia",
+        "injury_type": "Residual disability",
+        "body_part": "right knee (right lateral tibial plateau)",
+        "laterality": "right",
+        "source": [
+          "The plaintiff brings this claim against both defendants claiming damages for personal injuries sustained by him when he was assaulted by the two defendants on 2 September 2000 at the Glorious Garden Market in Tuen Mun which left the plaintiff with a fractured tibia in his right leg and knee.",
+          "X-ray of the right knee revealed fracture of the right lateral plateau of the tibia. The injury was compatible with blunt trauma.",
+          "There was however collapse of the lateral tibial plateau fracture resulting in angulation of the lateral compartment of the knee joint."
+        ],
+        "icd_code": "NC92.13",
+        "icd_description": "Fracture of upper end of tibia, lateral condyle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "injury to the right knee and that the right knee was painful and swollen.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There was effusion of the right knee which was found to be tender on examination, especially on the lateral side.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of movement of the right knee was greatly diminished.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "When seen on 13 June 2001, the right knee motion was noted to be limited.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Physical examination did not reveal any serious abnormality with the right knee joint. There was no evidence of arthritis or ligamentous instability of the joint. The range of movement was well preserved other than a slight limitation in the full flexion of the knee.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There was however collapse of the lateral tibial plateau fracture resulting in angulation of the lateral compartment of the knee joint.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Osteoporotic change of the bones around the right knee shows disuse of his right lower limb since the injury.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Significant muscle wasting of the right lower limb further confirms the complaint of residual right knee pain to be genuine.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dr Lau was of the opinion that there is a high chance of accelerated degenerative arthritis of the right knee as a result of the damage to the tibial side of the knee joint. This will lead to increasing pain and stiffness in the right knee.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Arthroscopy, open reduction, internal fixation and casting were done on 7 September 2000.",
+      "The plaintiff was admitted to the Orthopaedic Ward of Tuen Mun Hospital."
+    ],
+    "treatments_future": [
+      "Total joint replacement will have to be considered",
+      "rehabilitation after joint replacement"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 11,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "A 4% impairment of the whole person is assessed for the injury.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Will have to avoid heavy manual lifting. Frequent climbing stairs and squatting is to be discouraged.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He cannot return to his work as a butcher but may take up lighter and more sedentary jobs.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14521,
+      "output_tokens": 4982,
+      "reasoning_tokens": 3584,
+      "total_tokens": 19503
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36997.48134985566,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14521,
+      "output_tokens": 4982,
+      "reasoning_tokens": 3584,
+      "total_tokens": 19503
+    },
+    "total_duration_ms": 36997.48134985566
+  }
+}

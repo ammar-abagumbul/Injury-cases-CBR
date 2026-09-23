@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 795",
+    "action_number": "HCPI 681/2001",
+    "case_name": "TSUI KIM MING v. CHARTER FORM CO. LTD.",
+    "judgment_date": "2002-10-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 43,
+    "occupation_before": "involved in waterproofing work as a construction site worker; employed as a foreman in 1997",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14275.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to left index finger: 4 cm laceration over the dorsal side exposing the proximal interphalangeal joint; deep cut of the extensor tendon; fractures of the proximal and middle phalanges; fusion of the PIP joint.",
+        "injury_type": "Permanent injury",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff suffered a 4 cm laceration over the dorsal side of his left index finger, exposing the proximal interphalangeal joint.",
+          "There was a cut, a deep cut, of the extensor tendon.",
+          "There were fractures of the proximal and middle phalanges of the left index finger.",
+          "I find that the plaintiff has suffered 6 per cent of impairment of the whole person by reason of an injury to his finger, left index finger."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Decrease in grip power which would be permanent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild to moderate reduction in his working capacity and efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty in buttoning his shirt (slowness), stiffness or pain when the weather is cold",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Handicap in the labour market: more difficult to get a job and more liable to be laid off or sacked",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation to repair cut extensor tendon (performed on date of accident)",
+      "fusion (treatment of fractures close to the PIP joint) with immobilisation in a splint for about eight months until May 1999",
+      "removal of implanted K-wire in December 1998",
+      "24 sessions of physiotherapy from 8 October 1998 to 16 March 1999",
+      "4 sessions of occupational therapy from 16 March 1999 to 23 July 1999"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities of life (award under this head $350,000).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty in buttoning his shirt; slowness and stiffness/pain in cold weather affecting daily activities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Handicap in the labour market resulting in more difficulty getting a job and greater risk of being laid off; loss of earning capacity (award $100,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tang Shau Tan v Well Construction Company Limited",
+        "neutral_citation": "[1999] HCPI 1092/98",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ma Kam Yeung v Fo Hei Kin",
+        "neutral_citation": "[1998] 2 HKLRD 615",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tung Chong Wen v Li Ming",
+        "neutral_citation": "[1998] 2 HKLRD 354",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Lai Yin v Yeung Kei Chi",
+        "neutral_citation": null,
+        "action_number": "HCPI Action No. 317/99",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9620,
+      "output_tokens": 4638,
+      "reasoning_tokens": 3136,
+      "total_tokens": 14258
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31563.276324421167,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9620,
+      "output_tokens": 4638,
+      "reasoning_tokens": 3136,
+      "total_tokens": 14258
+    },
+    "total_duration_ms": 31563.276324421167
+  }
+}

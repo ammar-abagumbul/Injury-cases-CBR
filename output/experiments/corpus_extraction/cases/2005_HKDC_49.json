@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 49",
+    "action_number": "DCPI 339/2004",
+    "case_name": "KHAN SUJAD v. HO HO KWONG",
+    "judgment_date": "2005-02-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 28,
+    "age_at_trial": 31,
+    "occupation_before": "construction worker doing odd jobs",
+    "occupation_after": "working in packaging and other lighter duties",
+    "expected_occupation_after": null,
+    "salary_before": 11700.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The cut had severed 90 per cent of the extensor pollicis longus tendon and caused the cortical bone loss over the dorsal radial aspect of the left thumb.",
+        "injury_type": "Residual disability",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "cut his left thumb while working at the premises with an electric saw. The machine had jumped and cut his left thumb, leaving a 1.5-cm laceration wound.",
+          "The cut had severed 90 per cent of the extensor pollicis longus tendon and caused the cortical bone loss over the dorsal radial aspect of the left thumb."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "weaker grip on his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of his left thumb which he found difficult to bend",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "not able to hold heavy objects for a long period of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the IP joint which accounted for 4 per cent of the impairment of the thumb which is a 2 per cent impairment of the hand and it amounts to 1 per cent impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced IP joint motion of the left thumb accounts for 2 per cent loss of earning capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to the Princess Margaret Hospital on the same afternoon",
+      "an operation on his left thumb was performed on the next day",
+      "physiotherapy",
+      "occupational treatments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 116,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Weaker grip on left hand, stiffness of left thumb, difficulty bending the thumb and inability to hold heavy objects for long periods affecting handling tools and tasks.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced earning capacity due to reduced IP joint motion and weakened left thumb; plaintiff changed from construction site work to packaging and lighter duties.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Tsz Kan v Climax Paper Convertors Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 504 of 2003",
+        "injury_description": "The most relevant and recent case of Lee Tsz Kan where Tang J awarded $50,000 under PSLA and $100,000 for loss of earning capacity was based on the agreement by the parties at the hearing.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8122,
+      "output_tokens": 4881,
+      "reasoning_tokens": 3712,
+      "total_tokens": 13003
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35494.972079992294,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8122,
+      "output_tokens": 4881,
+      "reasoning_tokens": 3712,
+      "total_tokens": 13003
+    },
+    "total_duration_ms": 35494.972079992294
+  }
+}

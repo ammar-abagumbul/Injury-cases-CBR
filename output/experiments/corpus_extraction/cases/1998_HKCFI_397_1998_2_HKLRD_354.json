@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 397; [1998] 2 HKLRD 354",
+    "action_number": "HCPI001063/1996",
+    "case_name": "TSANG CHUNG WAN v. LI MING AND OTHERS",
+    "judgment_date": "1998-02-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "formwork carpenter",
+    "occupation_after": "casual construction worker at Chek Lap Kok",
+    "expected_occupation_after": null,
+    "salary_before": 17000.0,
+    "salary_after": 13052.0,
+    "expected_salary_after": 30573.4,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "comminuted fracture of the proximal phalanx of his right ring finger",
+        "injury_type": "Temporary injury",
+        "body_part": "right ring finger",
+        "laterality": "right",
+        "source": [
+          "As a result of the accident, The Plaintiff, who is right handed, suffered a comminuted fracture of the proximal phalanx of his right ring finger. It was operated on the same day and K-wire fixation performed."
+        ],
+        "icd_code": "NC53.62",
+        "icd_description": "Fracture of ring finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "skin grafting to right middle finger",
+        "injury_type": "Temporary injury",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "Skin grafting was performed on his right middle finger on 19th October 1993."
+        ],
+        "icd_code": "NC52.0Y",
+        "icd_description": "Other specified open wound of finger or thumb"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "proximal interphalangeal joint of the right ring finger ankylosed (total loss of range of motion)",
+        "injury_type": "Permanent injury",
+        "body_part": "proximal interphalangeal joint, right ring finger",
+        "laterality": "right",
+        "source": [
+          "Dr. Chiang found that the Plaintiff's proximal interphalangeal joint of the right ring finger to be ankylosed i.e. total loss of range of motion."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "significant stiffness in the distal interphalangeal joints of the right middle and ring fingers and the proximal interphalangeal joint of the right middle finger",
+        "injury_type": "Residual disability",
+        "body_part": "right middle and ring fingers",
+        "laterality": "right",
+        "source": [
+          "He further found that there was significant stiffness in the distal interphalangeal joints of the right middle and ring fingers and the proximal interphalangeal joint of the right middle finger."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "total loss of range of motion of the proximal interphalangeal joint of the right ring finger (ankylosed)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "significant stiffness in the distal interphalangeal joints of the right middle and ring fingers and the proximal interphalangeal joint of the right middle finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "pain and stiffness in the ring and middle fingers of his right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "weakened right hand grip, unable to grasp heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to make a fist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "the loss in motion of the joints of the right middle and ring fingers will cause impairment in performing a full grip as well as the fine and repetitive use of the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "permanent impairment assessed at 12% of the whole person by Dr. Arthur Chiang (October 1995); re-assessed at 9% (September 1997); assessed at 8% by Dr. Danny Tsoi (March 1997)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "K-wire fixation",
+      "Skin grafting",
+      "Removal of exposed bony fragment",
+      "Physiotherapy",
+      "Occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 730,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "the loss in motion of the joints of the right middle and ring fingers will cause impairment in performing a full grip as well as the fine and repetitive use of the right hand",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Dr. Chiang concluded that the loss of function of the Plaintiff's right hand was such that it would not be suitable for the Plaintiff to return to his pre-accident work in formwork",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki v Leung On",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18744,
+      "output_tokens": 6651,
+      "reasoning_tokens": 4864,
+      "total_tokens": 25395
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34781.488835811615,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18744,
+      "output_tokens": 6651,
+      "reasoning_tokens": 4864,
+      "total_tokens": 25395
+    },
+    "total_duration_ms": 34781.488835811615
+  }
+}

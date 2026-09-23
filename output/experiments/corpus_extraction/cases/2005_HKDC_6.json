@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 6",
+    "action_number": "DCPI 625/2003",
+    "case_name": "LEUNG SEE NING CLARA v. SHUN TAK PROPERTY MANAGEMENT LTD",
+    "judgment_date": "2005-01-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Law student",
+    "occupation_after": "Working in the Department of Justice",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 27308.0,
+    "expected_salary_after": null,
+    "education_level": "Law student / graduate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of left distal fibula",
+        "injury_type": "Residual disability",
+        "body_part": "left distal fibula / left ankle",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff was admitted to Queen Mary Hospital where she was found to have fracture of left distal fibula. Open reduction and internal fixation was performed on 21 December 2001 and she was discharged on 29 December 2001. Follow up X-ray showed good alignment of the fracture site. On 26 February 2002 during follow-up examination there was no pain except occasional mild pain at the fracture site. In June 2003 she had another operation to remove the screw and metal plate. She has a scar at the ankle measuring 8½ cm long."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "occasional mild pain at the fracture site",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She has a scar at the ankle measuring 8½ cm long.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "she could only hop with her right leg as her left ankle was injured",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "when walking on slope and when there was a change of weather she easily lost her balance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation",
+      "removal of the screw and metal plate",
+      "trainer service to train the ankle"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar at the ankle measuring 8½ cm long.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty when walking on slopes and easily losing balance when there was a change of weather.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 230000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Wah Chung v Cheng Wing Chung & ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 164 of 2001",
+        "injury_description": "fracture of right os calcis",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Cheng Hei Kwong v Kwong Key Construction and Engineering Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 7260 of 1999",
+        "injury_description": "fracture of the distal fibula",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Wong Wing Chow v Lee Wing Hang Patrick t/a Wing Shun Construction co. and anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 244 of 2002",
+        "injury_description": "displaced fracture of the calcaneum of the right foot",
+        "hospitalisation_days": 18,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7532,
+      "output_tokens": 4002,
+      "reasoning_tokens": 2752,
+      "total_tokens": 11534
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31824.515610933304,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7532,
+      "output_tokens": 4002,
+      "reasoning_tokens": 2752,
+      "total_tokens": 11534
+    },
+    "total_duration_ms": 31824.515610933304
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 1562",
+    "action_number": "DCPI 1603/2010",
+    "case_name": "LEUNG CHI YAN v. CHAN TAI MAN AND ANOTHER",
+    "judgment_date": "2011-11-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "funeral parlour assistant / mourning hall attendant",
+    "occupation_after": "stage prop worker",
+    "expected_occupation_after": null,
+    "salary_before": 4000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured distal shaft of the right femur",
+        "injury_type": "Permanent injury",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "X-ray showed fracture shaft of right femur.",
+          "as a result of the Accident, the Plaintiff suffered a fractured distal shaft of the right femur."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasion over his head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "there was abrasion over his head"
+        ],
+        "icd_code": "NA00.6",
+        "icd_description": "Abrasion of other or unspecified sites of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "abrasion over his head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right thigh was swollen and tender on palpation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "1.5 cm shortening of femur",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on and off pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some difficulty in long period of walking and manual exertion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressed mood, poor sleep, fearfulness, pessimistic thinking; diagnosed of mixed anxiety and depressive disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "managed to walk with a frame when he discharged on 24 December 2007",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Closed reduction and fixation with intra-medullary nail (performed on day of Accident)",
+      "Revision of the fixation with intra-medullary nail performed on 2007-12-13 to re-fix the position",
+      "Physiotherapy (2 sessions) including Hot Pad Therapy, ambulatory training, lower limbs mobilizing and strengthening exercised",
+      "Psychiatric treatment at West Kowloon Psychiatric Centre; diagnosed of mixed anxiety and depressive disorder; last followed up session was at 4 June 2010"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 13,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 230,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "1.5 cm shortening of femur; he will have some difficulty in long period of walking and manual exertion; on and off pain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "minimal permanent adverse effect on his activities of daily living; residual lower limb symptoms upon prolonged weight bearing; difficulty in long period of walking",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Tsz Wah v Caltex Oil HK Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 140/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ho Man Wah v. Wong Shui Fun trading as Yau Lee Co.",
+        "neutral_citation": null,
+        "action_number": "DCPI 730/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15304,
+      "output_tokens": 5567,
+      "reasoning_tokens": 4160,
+      "total_tokens": 20871
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49138.40169087052,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15304,
+      "output_tokens": 5567,
+      "reasoning_tokens": 4160,
+      "total_tokens": 20871
+    },
+    "total_duration_ms": 49138.40169087052
+  }
+}

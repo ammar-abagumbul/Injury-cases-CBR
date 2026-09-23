@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 423",
+    "action_number": "DCPI 1197/2009",
+    "case_name": "POON CHUN LAM v. YIP FUNG TEXTILES CO LTD (IN LIQUIDATION)",
+    "judgment_date": "2013-04-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 60,
+    "occupation_before": "Supervisor at the Defendant’s textile factory",
+    "occupation_after": "Part-time cleansing worker at a public hospital (Mar-May 2009); employed by a decoration company from June 2009, initially as a cleansing worker up to end 2011 and thereafter as a tiling worker",
+    "expected_occupation_after": null,
+    "salary_before": 8083.83,
+    "salary_after": 20000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the first metatarsal of the Plaintiff’s left foot",
+        "injury_type": "Residual disability",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "X-ray revealed a fracture of the first metatarsal of the Plaintiff’s left foot, which Dr. Lam found to be consistent with the mechanism of injury described by the Plaintiff."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Left foot pain during rainy days and with prolonged standing and walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Local tenderness in the big toe MTP joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild stiffness in the right big toe at the MTP joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild reduction in work capacity so that he would probably need to take more short breaks during work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Slab for immobilizing the left foot",
+      "Two crutches for walking",
+      "Attended orthopaedic clinic three times",
+      "Analgesics occasionally taken",
+      "No physiotherapy (patient elected to do self exercise at home)",
+      "Special damages claimed and allowed: Medical expenses $340; Travelling by taxi $290; Tonic Food $5,000; Total special damages $5,630 (receipts produced)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 102,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Mild residual pain and disability in left foot; pain during rainy days and with prolonged standing and walking; mild reduction in work capacity requiring more short breaks.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 110000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Singh Chamkaur v. Richard Ethan Latker t/a Sino-Indian Trade Enterprises",
+        "neutral_citation": null,
+        "action_number": "DCPI 323/2009",
+        "injury_description": "fracture at the head of proximal phalanx of the left second toe",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Yip Yuen Neung Shirley v. Lee Sze Wai t/a 蝦碌美食",
+        "neutral_citation": null,
+        "action_number": "DCPI 2012/2008",
+        "injury_description": "fracture of the 4th metatarsal bone in the right foot; short leg plaster for 3 weeks; course of physiotherapy prescribed; occasional residual right ankle pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Sin Fu Yan v. Cheung Kwok Leung & Ors.",
+        "neutral_citation": null,
+        "action_number": "DCPI 1081/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 160000.0
+      },
+      {
+        "case_name": "Lee Sze Wai v. Law Chi Kin",
+        "neutral_citation": null,
+        "action_number": "DCPI 44/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Wong Sam Mui, the administratrix of the estate of Tam Wan Loong, deceased v. Fan Yiu Sum trading as Fan’s Stevedores",
+        "neutral_citation": null,
+        "action_number": "HCA 1817/1994",
+        "injury_description": "fracture to the 2nd and 3rd right metatarsal bones",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10135,
+      "output_tokens": 4993,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15128
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36011.39659807086,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10135,
+      "output_tokens": 4993,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15128
+    },
+    "total_duration_ms": 36011.39659807086
+  }
+}

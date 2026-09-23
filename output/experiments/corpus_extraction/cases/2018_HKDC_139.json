@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 139",
+    "action_number": "DCPI 1649/2015",
+    "case_name": "CHAN WAI HING, THE ADMINISTRATRIX OF THE ESTATE OF LEE GUN, DECEASED v. MTR CORPORATION LTD",
+    "judgment_date": "2018-02-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 83,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "trochanteric fracture of his left hip",
+        "injury_type": "Permanent injury",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "it is undisputed that he suffered a trochanteric fracture of his left hip following the Accident, and received surgical operation with internal fixation of the fracture with gamma nail on 27 March 2013."
+        ],
+        "icd_code": "NC72.3",
+        "icd_description": "Fracture of trochanteric section of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "urinary tract infection (early postoperative complication)",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "His early postoperative recovery was complicated by urinary tract infection and pneumonia."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "pneumonia (early postoperative complication)",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "His early postoperative recovery was complicated by urinary tract infection and pneumonia."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual lower limb symptoms upon prolonged weight bearing or exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual left hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness and loss of hip motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to walk after the fall",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walking endurance might be mildly reduced",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "urinary incontinence asserted by plaintiff (no medical evidence causation)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical operation with internal fixation of the fracture with gamma nail (27 March 2013)",
+      "physiotherapy",
+      "occupational therapy",
+      "day care rehabilitation in geriatric day hospital",
+      "follow up at Department of Orthopaedics and Traumatology with serial X-ray"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General damages for pain, suffering and loss of amenity (PSLA)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Care and services rendered by wife (gratuitous care)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Medical expenses",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "Tonic food expenses",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Walking stick and wheelchair",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Travelling expenses",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Diapers for adults",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Hin Chuen v Wang On Majorluck Ltd and Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 58 of 2015",
+        "injury_description": "fracture of the left neck of femur which necessitated an Austin Moore hemiarthroplasty of the hip; residual left hip pain; mobility slightly adversely affected; might have to undergo another surgery after 10 years",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lam Pik Kuen v Lee Fai Ming and Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 7 of 1998",
+        "injury_description": "fractured left superior and inferior pubic rami; whole person disability about 7%; plaintiff able to walk slowly with the aid of a quadripod",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19940,
+      "output_tokens": 7606,
+      "reasoning_tokens": 5888,
+      "total_tokens": 27546
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45376.3516061008,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19940,
+      "output_tokens": 7606,
+      "reasoning_tokens": 5888,
+      "total_tokens": 27546
+    },
+    "total_duration_ms": 45376.3516061008
+  }
+}

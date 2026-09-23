@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 574; [2008] 4 HKLRD 604",
+    "action_number": "HCPI 809/2006",
+    "case_name": "CHEUNG MUN YI v. TAM SIU WING AND ANOTHER",
+    "judgment_date": "2008-07-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "Legal Counsel at the Office of the Privacy Commissioner for Personal Data (PCO)",
+    "occupation_after": "Head of the Legal Department, in-house lawyer at Evergo Holdings Ltd.",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 90000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue sprain injury of neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "His preliminary diagnosis was soft tissue sprain injury of neck and back and contusion left knee."
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "musculotendinous strain of left side paraspinal muscle of her lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": "left",
+        "source": [
+          "Based on his physical findings and the MRI report, Dr Tsoi made the clinical diagnosis of musculotendinous strain of left side paraspinal muscle.",
+          "Dr Lam in his joint report confirmed that the diagnosis of soft tissue sprain injury of neck and back and contusion left knee was an appropriate diagnosis and compatible with the mode of the accident.",
+          "Dr Lam agreed with Dr Tsoi\u0019s view that the clinical diagnosis should be musculo-tendinous strain of left side paraspinal muscle, that the symptoms were magnified by the psychological problem and that her orthopaedic condition had reached a stage of maximal medical improvement."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusion left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "His preliminary diagnosis was soft tissue sprain injury of neck and back and contusion left knee."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Adjustment Disorder, with Anxiety and Depression (dysthymic disorder)",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "1) Diagnosis: Adjustment Disorder, with Anxiety and Depression",
+          "Owing to the change for the worse of her life circumstances over the past two years, her condition fulfils the criteria of a Dysthymic Disorder.",
+          "Starting from November 2003 she started to suffer from adjustment disorder with depressed mood.",
+          "Dr Wong said that the adjustment disorder with depressed mood deteriorated to become dysthymic disorder sometime in mid 2004."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain and stiffness; limitation in neck motion in all planes by the pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at the midline of the cervical spine; tenderness over both trapezius muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low back pain; tenderness at the right upper and left lower lumbar areas; back motion limited by pain, particularly in extension",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left knee pain/contusion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "sleeping problem / insomnia (poor sleep; difficulty in falling asleep; light sleep; waking repeatedly; bad dreams)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "pressure of worrying thoughts throughout the day; difficulty concentrating; impaired attention and possibly impaired memory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "persistent low mood, irritability, increased anger, tension and nervousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "tremor of hands at times",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of interest in and inability to derive pleasure from activities previously enjoyed (shopping; dressing up; traveling; karaoke)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "weight gain from indulgence in sweet food",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "reduced interest in sex; no sex for almost six months immediately after the accident and infrequent sex thereafter",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "thoughts about jumping from height as a suicidal act (December 2004)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "reduced work performance / reduced efficiency in performing job duties",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "pain magnified by psychological problems",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "orthopaedic consultations",
+      "MRI scan of the lumbar spine",
+      "psychological counselling",
+      "psychiatric treatment with anxiolytics and anti-depressants"
+    ],
+    "treatments_future": [
+      "continue with psychiatric treatment by Dr Chen for two more years (supportive psychotherapy and medication) as recommended"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 14,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty in walking (she had difficulty in walking and was wearing a neck collar after the accident)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Reduced interest in sex; no sex for almost six months immediately after the accident and infrequent sex thereafter",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Lost interest in shopping, dressing up, traveling and reduced social contacts with family and friends",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Psychological, behavioural and occupational changes affected the harmony of the plaintiff's marital relationship",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of her job at the PCO which she enjoyed and which gave her satisfaction when her contract was not renewed",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Sau Lai v Cathay Pacific Airways Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 111/2002",
+        "injury_description": "cabin attendant aged 30 awarded for loss of congenial employment / PSLA",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23171,
+      "output_tokens": 7081,
+      "reasoning_tokens": 4736,
+      "total_tokens": 30252
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39237.03446984291,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23171,
+      "output_tokens": 7081,
+      "reasoning_tokens": 4736,
+      "total_tokens": 30252
+    },
+    "total_duration_ms": 39237.03446984291
+  }
+}

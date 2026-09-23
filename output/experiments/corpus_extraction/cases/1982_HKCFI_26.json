@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 26",
+    "action_number": "HCA001462/1979",
+    "case_name": "CHEUNG LAP YAN AND ANOTHER v. SIU CHING KEE AND ANOTHER",
+    "judgment_date": "1982-06-14",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Facial lacerations and scarring as described in the judgment.",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "She was admitted to hospital where it was noted she had:-\n\n(a) Laceration 5 cm long over forehead.\n\n(b) deep laceration 7 cm long across right cheek involving part of the nose.\n\n(c) ragged laceration 2 cm over chin.\n\n(d) multiple small superficial lacerations involving face and nose.",
+          "There is no doubt her face was badly marred; the most significant scar running deeply from the corner of her right nostril most of the way to the middle of her right ear."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Oro-dental injuries including fractured and cracked crowns and loss/reconstruction of upper left lateral and cuspid.",
+        "injury_type": "Permanent injury",
+        "body_part": "teeth / mouth",
+        "laterality": null,
+        "source": [
+          "Oro-dental examination made on 27 December 1978 revealed that four teeth had fractured crowns and two had cracked crowns. Because her facial injuries limited her ability to open her mouth treatment was postponed. On 2 January 1979 two buried fractured teeth were excised under local anaethetic. Between that date and July 1979 further treatment was given and two teeth reconstructed with porcelain crowns. She now also to wear a porcelain bridge with replacement teeth for the upper left lateral and cuspid."
+        ],
+        "icd_code": "NA0D.02",
+        "icd_description": "Enamel-dentin fracture"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Facial scarring; the most significant scar running deeply from the corner of her right nostril most of the way to the middle of her right ear.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and traumatic experience over a period of some three years.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Total loss of social self-confidence.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Psychological overlay which affects her daily and family life.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and dental trauma related to fractured and cracked teeth and subsequent dental procedures.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgical toilet and suturing was performed under general anaesthesia.",
+      "She remained in various hospitals for 16 days.",
+      "On 2 January 1979 two buried fractured teeth were excised under local anaethetic.",
+      "Between that date and July 1979 further treatment was given and two teeth reconstructed with porcelain crowns.",
+      "She now also to wear a porcelain bridge with replacement teeth for the upper left lateral and cuspid."
+    ],
+    "treatments_future": [
+      "She plans yet further surgery and has an estimate that the minimum expected cost will be $10,000."
+    ],
+    "hospitalisation_days": 16,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "There is no doubt her face was badly marred; the most significant scar running deeply from the corner of her right nostril most of the way to the middle of her right ear.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "She felt unable to travel on public transport after, as she thought, passengers on a P.L.B. considered her a \"monster\".",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Having a deleterious effect on her home and social life.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Oro-dental examination revealed that four teeth had fractured crowns and two had cracked crowns; two buried fractured teeth were excised and later reconstructed with porcelain crowns and a porcelain bridge.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 45000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Suk Ha v Cheung King & another",
+        "neutral_citation": null,
+        "action_number": "No. 418 of 1979",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheung Yuk Lin v Sun Tak Ming & others",
+        "neutral_citation": null,
+        "action_number": "No. 3007 of 1979",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9989,
+      "output_tokens": 5577,
+      "reasoning_tokens": 3904,
+      "total_tokens": 15566
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38151.10396966338,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9989,
+      "output_tokens": 5577,
+      "reasoning_tokens": 3904,
+      "total_tokens": 15566
+    },
+    "total_duration_ms": 38151.10396966338
+  }
+}

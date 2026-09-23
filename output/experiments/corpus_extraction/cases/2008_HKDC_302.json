@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 302",
+    "action_number": "DCPI 78/2006",
+    "case_name": "LAI WING SUN v. HIGH LINK TECHNOLOGY LTD AND OTHERS",
+    "judgment_date": "2008-11-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction site worker",
+    "occupation_after": "casual worker with light duties at a construction site",
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the mid-shaft of the right humerus with angulation",
+        "injury_type": "Temporary injury",
+        "body_part": "right humerus",
+        "laterality": "right",
+        "source": [
+          "fractured his right upper arm",
+          "\"fractured mid right humerus with angulation\"",
+          "fracture of the mid-shaft of the right humerus with angulation"
+        ],
+        "icd_code": "NC12.3",
+        "icd_description": "Fracture of shaft of humerus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Deformity and reduced range of motion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bulging, tenderness, bruise and swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tender swelling over the right shoulder region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulties in carrying heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the right shoulder was minimal",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurovascular deficit over the right upper limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right elbow enjoyed full range of motion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "humeral brace (bracing)",
+      "outpatient follow up",
+      "physiotherapy",
+      "hospital admission"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 123,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering (PSLA) awarded $110,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Could not resume his job as a construction site worker",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 110000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sin Sau Mui v. Yuen Sai Kwong",
+        "neutral_citation": "[1996] HKCU 2",
+        "action_number": "HCA 11319/1993",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Chiu v. Poon Tat Hing and Another",
+        "neutral_citation": null,
+        "action_number": "DCPI 203/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13550,
+      "output_tokens": 3877,
+      "reasoning_tokens": 3008,
+      "total_tokens": 17427
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28798.552315682173,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13550,
+      "output_tokens": 3877,
+      "reasoning_tokens": 3008,
+      "total_tokens": 17427
+    },
+    "total_duration_ms": 28798.552315682173
+  }
+}

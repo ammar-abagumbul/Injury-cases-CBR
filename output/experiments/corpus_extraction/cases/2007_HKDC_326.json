@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 326",
+    "action_number": "DCPI 1469/2006",
+    "case_name": "LAI WAI TAN PETER v. SECRETARY FOR JUSTICE ACTING FOR HONG KONG POLICE FORCE",
+    "judgment_date": "2007-10-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "senior police constable (police officer attached to Tai Po Police Station)",
+    "occupation_after": "police officer (resumed duties)",
+    "expected_occupation_after": "security guard or a taxi driver",
+    "salary_before": 22318.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury at the neck region",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The Plaintiff had soft tissue injury at the neck and back region. There was no significant injury such as fracture, dislocation or spinal instability (or radioculopathy)."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury at the back region",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "The Plaintiff had soft tissue injury at the neck and back region. There was no significant injury such as fracture, dislocation or spinal instability (or radioculopathy)."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain at the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain at the back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "de-conditioning of the neck muscles",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "de-conditioning of the back muscles",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced ability to cope with high demand of physical strength (compromised ability for outdoor police duties)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment",
+      "follow-up treatment",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 237,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "become unable to carry out numerous household ... activities after the accident",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "become unable to carry out ... sports activities after the accident",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "his sex life has become unsatisfactory",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Personality change",
+        "description": "he felt depressed about it",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kwei Duen v East Country Co Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 665/2005",
+        "injury_description": "mere back pain (cited for PSLA benchmarking)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15207,
+      "output_tokens": 5347,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20554
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40870.88791653514,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15207,
+      "output_tokens": 5347,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20554
+    },
+    "total_duration_ms": 40870.88791653514
+  }
+}

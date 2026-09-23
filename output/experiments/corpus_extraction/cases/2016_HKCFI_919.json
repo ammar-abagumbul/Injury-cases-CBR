@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 919",
+    "action_number": "HCPI 497/2014",
+    "case_name": "CHEUNG KA LOK v. MAU WA CONSTRUCTION LTD AND ANOTHER",
+    "judgment_date": "2016-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 48,
+    "age_at_trial": 53,
+    "occupation_before": "general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard or petrol station attendant",
+    "salary_before": 13225.09,
+    "salary_after": 21284.25,
+    "expected_salary_after": 10582.8947368421,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "partial tear of the right medial collateral ligament of the right knee",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "The MRI scan of his right knee showed a partial tear of the right medial collateral ligament and probably a partial tear of the anterior cruciate ligament."
+        ],
+        "icd_code": "NC93.50",
+        "icd_description": "Strain or sprain of medial collateral ligament of knee, excluding rupture"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "probable partial tear of the anterior cruciate ligament of the right knee",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "The MRI scan of his right knee showed a partial tear of the right medial collateral ligament and probably a partial tear of the anterior cruciate ligament."
+        ],
+        "icd_code": "NC93.60",
+        "icd_description": "Strain or sprain of anterior cruciate ligament of knee, excluding rupture"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "degenerative disc disease at L4/5 and L5/S1 with the right L5/S1 right side disc touching the nerve root",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "The scan of his back showed degenerative disc disease at L4/5 and L5/S1 with the right L5/S1 right side disc touching the nerve root."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "soft tissue / contusion injury to his back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Both experts agreed that the plaintiff had suffered some soft tissue injury to his back.",
+          "He suffered a contusion injury to his back and has had psychiatric symptoms."
+        ],
+        "icd_code": "NB94.Y",
+        "icd_description": "Other specified injury of muscle, fascia or tendon of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "adjustment disorder with depressed mood",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He was diagnosed with adjustment disorder and was given an anti-depressant.",
+          "Dr Law's opinion was that the plaintiff suffered adjustment disorder with depressed mood wholly caused by the accident and consistent with the injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "psychotic depression (diagnosis revised from adjustment disorder to psychotic depression)",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "His diagnosis was revised from adjustment disorder to psychotic depression with anti-psychotics offered."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Intermittent right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited movement of the right knee; inability to squat; difficulty climbing stairs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Swelling over the right knee with tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wasting and marked atrophy in his right quadriceps; thigh girth at 10cm above the patella of his right leg was 1.5 to 2cm less than his left thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intermittent low back pain, localized to the midline and right side of his low back; mechanical in nature; pain aggravated by walking, stairs, slopes and toilet use",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Left foot numbness and both lower limb pain",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Lower limb power of grade 4 out of 5 bilaterally on L2 and L3 myotomes (reduced lower limb power)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Difficulty lifting objects (capacity reported up to 5kg); reduced right knee extension strength (about half of left); difficulty deep squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Depressed mood, irritability, sense of uselessness, pain fear, negative thoughts, sense of helplessness and loss of control, intense anger, fleeting suicidal ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Occasional auditory hallucinations / vague pseudo-hallucinations (imaginary noises and voices calling his name)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Problems with sleep and appetite; difficulty accepting life changes and chronic pain; social withdrawal with few social contacts",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department assessment and treatment",
+      "X-ray examinations (chest, left ribs, right knee)",
+      "Hinge brace for right knee",
+      "Elbow crutches",
+      "Physiotherapy (first course: 20 July 2011 to 3 April 2012; 41 sessions; second course: 6 December 2012 to 10 January 2013; 5 sessions)",
+      "Occupational therapy and work rehabilitation (including lifting and functional capacity training)",
+      "Analgesics",
+      "Supportive psychotherapy and coaching of emotional regulation skills",
+      "8-day intensive Multidisciplinary Approach to Chronic Pain Rehabilitation Program (20 August 2012 to 28 September 2012)",
+      "Psychiatric outpatient treatment (anti-depressant)",
+      "Psychiatric day hospital attendance",
+      "Admission to psychiatric ward (4 October 2013 to 10 October 2013)"
+    ],
+    "treatments_future": [
+      "private psychiatric treatment (10 sessions) - as provided for in award"
+    ],
+    "hospitalisation_days": 13,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function of right knee due to partial tears of medial collateral ligament and probable anterior cruciate ligament and residual lower back soft tissue injury resulting in intermittent pain and reduced physical capacity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Unable to manage certain tasks such as changing a light bulb due to pain and reduced mobility",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Deterioration of relationship with his wife leading to divorce attributed to psychological and psychosocial consequences of the accident",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Inability to continue work as a construction site labourer and reduced earning capacity; required to seek light duties such as security guard or petrol station attendant",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24231,
+      "output_tokens": 9091,
+      "reasoning_tokens": 6656,
+      "total_tokens": 33322
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54248.7850561738,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24231,
+      "output_tokens": 9091,
+      "reasoning_tokens": 6656,
+      "total_tokens": 33322
+    },
+    "total_duration_ms": 54248.7850561738
+  }
+}

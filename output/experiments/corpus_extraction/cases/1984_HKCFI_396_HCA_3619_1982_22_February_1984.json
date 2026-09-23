@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 396; HCA 3619/1982 (22 February 1984)",
+    "action_number": "HCA003619/1982",
+    "case_name": "WONG SHUI MING v. YEUNG CHUN FAI AND ANOTHER",
+    "judgment_date": "1984-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 48,
+    "age_at_trial": 52,
+    "occupation_before": "caisson worker",
+    "occupation_after": null,
+    "expected_occupation_after": "carpenter",
+    "salary_before": 3120.0,
+    "salary_after": 1600.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a sub-trochanteric fracture near the upper end of the bone",
+        "injury_type": "Residual disability",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "He was found to have sustained two fractures of the right femur, a sub-trochanteric fracture near the upper end of the bone and a second fracture of the lower end of the femur involving the knee joint."
+        ],
+        "icd_code": "NC72.4",
+        "icd_description": "Subtrochanteric fracture of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fracture of the lower end of the femur involving the knee joint",
+        "injury_type": "Residual disability",
+        "body_part": "lower end of femur / knee",
+        "laterality": "right",
+        "source": [
+          "He was found to have sustained two fractures of the right femur, a sub-trochanteric fracture near the upper end of the bone and a second fracture of the lower end of the femur involving the knee joint."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "an abscess on the upper wound (drainage operation carried out)",
+        "injury_type": "Temporary injury",
+        "body_part": "upper femur wound",
+        "laterality": "right",
+        "source": [
+          "On the 2nd April 1980 a drainage operation was carried out an abscess on the upper wound and on 19th May 1981 the plate and nail were removed."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "marked osteo-arthritis of the knee",
+        "injury_type": "Permanent injury",
+        "body_part": "knee",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff has a marked osteo-arthritis of the knee."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Plaintiff has a marked restriction of the hip joint and cannot straighten his knee.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "There is mild restriction of the ankle joint movement because of disuse of the leg.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "will always need to walk with a stick and will feel pain if he has to walk a significant distance.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "severe shock, several periods of severe pain, considerable worry and loss of livelihood and enjoyment of life as a result of the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "On 14 December 1979 the sub-trochanteric fracture was treated by the insertion of a nail attached to a bone plate secured to the shaft of the femur with bone screws.",
+      "On 30th October 1979 the lower fracture was operated on and two bone screws secured it in position.",
+      "On the 2nd April 1980 a drainage operation was carried out an abscess on the upper wound.",
+      "On 19th May 1981 the plate and nail were removed.",
+      "On the 12th June 1982 the screws were removed from the lower fracture site."
+    ],
+    "treatments_future": [
+      "There was a chance that a further operation to fix the knee joint would be needed in the future."
+    ],
+    "hospitalisation_days": 75,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "will always need to walk with a stick and will feel pain if he has to walk a significant distance.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "loss of livelihood and enjoyment of life as a result of the accident; Plaintiff unable to continue caisson work and limited in ability to perform carpenter work",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Choi Tai v Kwok Man Cheung",
+        "neutral_citation": null,
+        "action_number": "HCA 1983 No. 5114",
+        "injury_description": "fracture of the neck of the femur and a hip replacement operation; assessed 5% impairment of the whole man",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Yu Shee Pui v Urban Council",
+        "neutral_citation": "HKLJ 1981 415",
+        "action_number": null,
+        "injury_description": "fracture of the neck of the femur; assessed disability of 8%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11595,
+      "output_tokens": 6657,
+      "reasoning_tokens": 4928,
+      "total_tokens": 18252
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42371.08854949474,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11595,
+      "output_tokens": 6657,
+      "reasoning_tokens": 4928,
+      "total_tokens": 18252
+    },
+    "total_duration_ms": 42371.08854949474
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 571",
+    "action_number": "DCPI 1597/2007",
+    "case_name": "WONG WAI KIT v. SHEK TING FUNG",
+    "judgment_date": "2008-04-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": null,
+    "occupation_before": "storekeeper",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6700.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "horizontal crown fracture at the level of gingival margin",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "horizontal crown fracture at the level of gingival margin"
+        ],
+        "icd_code": "NA0D.04",
+        "icd_description": "Uncomplicated crown-root fracture"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "avulsion at upper right central incisor",
+        "injury_type": "Permanent injury",
+        "body_part": "upper right central incisor",
+        "laterality": "right",
+        "source": [
+          "avulsion at upper right central incisor"
+        ],
+        "icd_code": "NA0D.15",
+        "icd_description": "Avulsion of tooth"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "crown fracture involving enamel and dentine of the upper right and left lateral incisors",
+        "injury_type": "Permanent injury",
+        "body_part": "upper right and left lateral incisors",
+        "laterality": "bilateral",
+        "source": [
+          "crown fracture involving enamel and dentine of the upper right and left lateral incisors"
+        ],
+        "icd_code": "NA0D.02",
+        "icd_description": "Enamel-dentin fracture"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "slight loosening of the upper left lateral incisor",
+        "injury_type": "Temporary injury",
+        "body_part": "upper left lateral incisor",
+        "laterality": "left",
+        "source": [
+          "slight loosening of the upper left lateral incisor"
+        ],
+        "icd_code": "NA0D.11",
+        "icd_description": "Subluxation of tooth"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he still has flashbacks of the attack by having nightmares about the incident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the Plaintiff has constant pain in his teeth",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "he has been advised by his dentist not to bite hard objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "he has not been able to talk coherently in the sense that he cannot pronounce certain words clearly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "upper right central incisor was extracted and the wound was closed with sutures at the Department of Oral Surgery at the Pamela Youde Nethersole Eastern Hospital",
+      "treatment by dentist Dr Edith Tsang",
+      "a total of 5 surgeries to repair the damaged and lost teeth",
+      "implants to replace the 2 central incisors",
+      "24 follow-up clinic attendances"
+    ],
+    "treatments_future": [
+      "repair his 2 damaged lateral incisors (future medical expenses of $7,000)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 7,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "constant pain in his teeth",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "not able to talk coherently in the sense that he cannot pronounce certain words clearly",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "the same will affect his social life and lower his self esteem",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "So Sau Man v Leung Ming Kwong & Another",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 376 of 2005",
+        "injury_description": "right lip laceration and loss of 3 teeth",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Orla Gilroy v Easy Up Investments Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 1252 of 2004",
+        "injury_description": "multiple injuries, including one broken tooth and loss of sensation over right side of her teeth and gum. She also suffered from constant headaches and some symptoms of post-concussional syndrome",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 170000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12016,
+      "output_tokens": 7147,
+      "reasoning_tokens": 5824,
+      "total_tokens": 19163
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27352.951172739267,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12016,
+      "output_tokens": 7147,
+      "reasoning_tokens": 5824,
+      "total_tokens": 19163
+    },
+    "total_duration_ms": 27352.951172739267
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 4",
+    "action_number": "HCA005463/1981",
+    "case_name": "WONG PAK v. NG PO CHUI",
+    "judgment_date": "1982-05-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 67,
+    "age_at_trial": 69,
+    "occupation_before": "Casual worker in a garment factory; his job was to take material to the workers who were making the garments.",
+    "occupation_after": "Unfit for any form of work",
+    "expected_occupation_after": null,
+    "salary_before": 950.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "subarachnoid haemorrhage",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "The Plaintiff suffered subarachnoid haemorrhage and brain contusion requiring hospitalisation until 24th October 1980."
+        ],
+        "icd_code": "NA07.7",
+        "icd_description": "Traumatic subarachnoid haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "brain contusion",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "The Plaintiff suffered subarachnoid haemorrhage and brain contusion requiring hospitalisation until 24th October 1980."
+        ],
+        "icd_code": "NA07.4C",
+        "icd_description": "Focal brain contusion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "pneumonia",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "He later developed pneumonia and had a tracheotomy."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Coma on admission",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Post-traumatic amnesia; did not recognise his family for two weeks",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Dizzy spells of a few minutes duration once or twice a week",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Slight deafness, especially for low tone",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Some blurring of vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Weakness of right arm and inability to raise it to shoulder level; right hand grip 10 lbs (left 40 lbs)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reflexes of the right arm grossly exaggerated indicating tendency to spastic paresis or partial paralysis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Weakness of left leg necessitating the use of a stick for walking in the house",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Poor recent memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Not able to look after himself at home and required fairly constant attention for some six months after discharge",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Could dress himself but required help to get in and out of the bath (initially)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Did not go out except for essential visits and never unaccompanied",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Operated on by making three burr holes in the skull",
+      "Tracheotomy",
+      "Hospitalisation until 24th October 1980"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Weakness of right arm and reduced right hand grip; inability to raise right arm to shoulder level; general brain injury-related impairment.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Weakness of left leg necessitating the use of a stick for walking in the house.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Not able to look after himself at home and required fairly constant attention for some six months after discharge; requires some degree of supervision.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Required help to get in and out of the bath; initial need for assistance with bathing.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor recent memory and post-traumatic amnesia.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Did not go out except for essential visits and never unaccompanied.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He was unfit for any form of work.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 96000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v Leung Kam-ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Bing-yiu v Cheung Wing-hing & KMB",
+        "neutral_citation": "[1981] HKLJ 121",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 32000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11185,
+      "output_tokens": 7387,
+      "reasoning_tokens": 5376,
+      "total_tokens": 18572
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37202.74369418621,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11185,
+      "output_tokens": 7387,
+      "reasoning_tokens": 5376,
+      "total_tokens": 18572
+    },
+    "total_duration_ms": 37202.74369418621
+  }
+}

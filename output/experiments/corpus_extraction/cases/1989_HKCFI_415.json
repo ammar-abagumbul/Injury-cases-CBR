@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[1989] HKCFI 415",
+    "action_number": "HCA002118/1987",
+    "case_name": "TSE YIM KWONG v. MAK YUK KOI AND OTHERS",
+    "judgment_date": "1989-02-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 45,
+    "occupation_before": "waiter",
+    "occupation_after": "casual odd-job worker (plastics factory); later unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 2950.0,
+    "salary_after": 1200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe burn injuries following an explosion and fire in the restaurant ... The Plaintiff was admitted to Princess Margaret Hospital on 20th June, 1984 with burns over 12% of his body on both hands and forearm and his face.",
+        "injury_type": "Permanent injury",
+        "body_part": "face; both hands and forearms",
+        "laterality": "bilateral",
+        "source": [
+          "The Plaintiff sustained severe burn injuries following an explosion and fire in the restaurant where he was employed as a waiter on 20th June, 1984.",
+          "Dr. Yip in his report confirmed that the Plaintiff was admitted to Princess Margaret Hospital on 20th June, 1984 with burns over 12% of his body on both hands and forearm and his face."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "hypertrophic scar and scar contracture of little fingers requiring reconstructive surgery; reconstructive surgery for scar contracture was carried out over both little fingers on 21st July, 1986.",
+        "injury_type": "Residual disability",
+        "body_part": "little fingers of both hands",
+        "laterality": "bilateral",
+        "source": [
+          "Dr. Yip ... that he was fitted with a pressure garment for the hypertrophic scar which developed and that he received physiotherapy for stiffness of his left wrist and fingers.",
+          "Dr. Ho ... reconstructive surgery for scar contracture was carried out over both little fingers on 21st July, 1986."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "permanent cosmetic disability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild limitation of function in both little fingers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness, weakness and discomfort in his hands",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of his left wrist and fingers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "hypertrophic scar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "debridement and skin grafting operations of both forearms and hands on 26th and 30th June, 1984 and 4th July, 1984",
+      "fitted with a pressure garment for the hypertrophic scar",
+      "physiotherapy for stiffness of left wrist and fingers",
+      "injection for keloid (pressure garment and injection given for more than a year)",
+      "reconstructive surgery for scar contracture on 21st July, 1986"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "permanent and serious cosmetic disability causing embarrassment, people stare at his ugly scars, avoids attending banquets, wears long sleeves to cover scars, affects dining situations",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "does not go swimming in summer because of scars",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "scars diminish prospects for successful employment as a waiter; can only do low class jobs such as casual worker; potential employers doubt his ability when they see his scars",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "after discharge he was barely able to look after himself and needed others to assist him cooking meals, cleaning and washing his clothes",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LI Chim Ying v. LAM Siu Nam and HO Chi Cheng",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "cosmetic injury to her left shoulder",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 80000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13695,
+      "output_tokens": 5504,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19199
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37695.82089036703,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13695,
+      "output_tokens": 5504,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19199
+    },
+    "total_duration_ms": 37695.82089036703
+  }
+}

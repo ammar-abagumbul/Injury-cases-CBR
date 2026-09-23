@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 66",
+    "action_number": "DCPI 1165/2005",
+    "case_name": "CHEUNG MAN FU v. GREAT VANTAGE DEVELOPMENT LTD",
+    "judgment_date": "2007-03-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Engineer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained left ankle with swelling, bruising and localized tenderness. There was no fracture and the diagnosis was soft tissue injury at his left ankle.",
+        "injury_type": "Temporary injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "He suffered a sprained left ankle with swelling, bruising and localized tenderness. There was no fracture and the diagnosis was soft tissue injury at his left ankle."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "swelling",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruising",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "localized tenderness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle pain especially during quick walk",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sense of disengagement in the lower leg region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tiredness and numbness noted in the lower leg region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had to walk assisted by a stick after the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "11 days sick leave",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "walked assisted by a stick after the accident",
+      "medical expenses of HK$16,443.50 supported by receipts"
+    ],
+    "treatments_future": [
+      "physiotherapy",
+      "steroid injection",
+      "muscle strengthening exercise"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 11,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Had to walk assisted by a stick after the accident; left ankle pain especially during quick walk; tiredness and numbness in lower leg region.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of Earning Capacity - judge stated he would have awarded HK$50,000.00 under this head.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Liu Zhihui v Hsin Chong Construction (Asia) Ltd",
+        "neutral_citation": null,
+        "action_number": "No. A3340 of 1994",
+        "injury_description": "sprained left ankle with soft tissue injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 58564.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9244,
+      "output_tokens": 4352,
+      "reasoning_tokens": 3200,
+      "total_tokens": 13596
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33030.35033121705,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9244,
+      "output_tokens": 4352,
+      "reasoning_tokens": 3200,
+      "total_tokens": 13596
+    },
+    "total_duration_ms": 33030.35033121705
+  }
+}

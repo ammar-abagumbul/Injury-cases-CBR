@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 123",
+    "action_number": "DCPI 501/2005",
+    "case_name": "LAU CHI MAN v. KOWLOON CANTON RAILWAY CORPORATION",
+    "judgment_date": "2006-05-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 41,
+    "occupation_before": "goldsmith (unemployed)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture shaft of right radius",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "he was diagnosed as having a fracture shaft of right radius."
+        ],
+        "icd_code": "NC32.3",
+        "icd_description": "Fracture of shaft of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasions over left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "There were abrasions over his left knee as well."
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right forearm was swollen, tender, deformed with marked decrease in the range of movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "long scar left on his right forearm after the surgery",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "soreness and ache discomfort over volar side right forearm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakened right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling of right hand after doing physical exercise for about an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain while having physiotherapy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual stiffness of the right wrist and mildly weakened right hand grip accounts for 5% permanent impairment of the right upper limb, which translates to 3% permanent impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abrasions over his left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation of fracture right radius",
+      "physiotherapy",
+      "occupational therapy",
+      "out-patient treatments",
+      "implant removal surgery on 29th August 2003",
+      "rehabilitation programme"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "residual stiffness of the right wrist and mildly weakened right hand grip accounts for 5% permanent impairment of the right upper limb, which translates to 3% permanent impairment of the whole person",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "long scar left on his right forearm after the surgery",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tang Shu Shek v. Leung Chi Kit t/a Leung Pui Form Mould Works & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 219/2002",
+        "injury_description": "Fractured wrist (fractured left scaphoid bone) on non-preferred hand; mild reduction of power and good prognosis",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Chan Wai Lun Robin v. Kai Shing Management Services and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 153/2003",
+        "injury_description": "Injuries to right wrist; 100% cut of the ulnar artery nerve (as stated)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Ho Kwai Kong v. Cheung Kok",
+        "neutral_citation": null,
+        "action_number": "HCPI 93/2002",
+        "injury_description": "Broken left radius with multiple tendon and nerve injury; tendon and nerve repaired",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 380000.0
+      },
+      {
+        "case_name": "Wong Lai Kai v. Wu Chan Choi & others",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "fracture of the head of the left fibula and avulsed posterior cruciate ligament of the left knee; deep vein thrombosis; 3% permanent disability",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 264250.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18097,
+      "output_tokens": 5312,
+      "reasoning_tokens": 4032,
+      "total_tokens": 23409
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39346.87940403819,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18097,
+      "output_tokens": 5312,
+      "reasoning_tokens": 4032,
+      "total_tokens": 23409
+    },
+    "total_duration_ms": 39346.87940403819
+  }
+}

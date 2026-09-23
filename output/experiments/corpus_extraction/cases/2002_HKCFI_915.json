@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 915",
+    "action_number": "HCPI 1336/2000",
+    "case_name": "HO SHU YAU v. LO SIU LING FORMERLY T/A CHI WO CIVIL ENGINEERING CO. AND ANOTHER",
+    "judgment_date": "2002-01-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 42,
+    "occupation_before": "drill rigger",
+    "occupation_after": "casual worker in the construction industry",
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A portion of the distal phalanx of the plaintiff's left ring finger was amputated.",
+        "injury_type": "Permanent injury",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "A portion of the distal phalanx of the plaintiff's left ring finger was amputated."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "0.7cm shorter than his right ring finger distal phalanx",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "10 degrees drop of the flexion power of his distal interphalangeal joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of his left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness of his left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hypersensitivity in the fingertip of his left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "revisional amputation of the finger",
+      "desensitization exercises",
+      "mobilization exercises",
+      "physiotherapy (6 sessions)",
+      "occupational therapy (7 sessions)",
+      "hospitalization (1 day)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of one-third of the distal phalanx of the left ring finger with resulting stiffness, tenderness, hypersensitivity and 10 degrees loss of flexion of the distal interphalangeal joint.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Wai Man",
+        "neutral_citation": null,
+        "action_number": "HCA-5088/79",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheung Luk",
+        "neutral_citation": null,
+        "action_number": "HCA-4770/80",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "to Kin Shan",
+        "neutral_citation": null,
+        "action_number": "HCA-4123/82",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Wong Sin",
+        "neutral_citation": null,
+        "action_number": "HCPI-768/95",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Shau Tsan",
+        "neutral_citation": null,
+        "action_number": "CA 58/2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Lai Yin",
+        "neutral_citation": null,
+        "action_number": "HCPI-317/99",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7981,
+      "output_tokens": 4467,
+      "reasoning_tokens": 3072,
+      "total_tokens": 12448
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30127.9980763793,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7981,
+      "output_tokens": 4467,
+      "reasoning_tokens": 3072,
+      "total_tokens": 12448
+    },
+    "total_duration_ms": 30127.9980763793
+  }
+}

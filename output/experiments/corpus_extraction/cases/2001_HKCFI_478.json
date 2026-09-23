@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 478",
+    "action_number": "HCPI 677/2000",
+    "case_name": "MARLENE SUSANNE COURBET v. MANDARIN DIVERS MARINE SERVICES LTD. AND OTHERS",
+    "judgment_date": "2001-10-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 50,
+    "age_at_trial": null,
+    "occupation_before": "Solicitor",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 58000.0,
+    "salary_after": null,
+    "expected_salary_after": 65000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post-concussional syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "Dr Choa diagnosed her as suffering from post-concussional syndrome and treated her accordingly."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "damage to the greater occipital nerve (GON)",
+        "injury_type": "Residual disability",
+        "body_part": "back of head / occipital nerve",
+        "laterality": null,
+        "source": [
+          "Both agree that some of the headaches are the result of damage to the greater occipital nerve (GON) occasioned by the accident"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "trauma to an already degenerated spine (cervical spine) occasioning persistent headaches",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C3 to C7)",
+        "laterality": null,
+        "source": [
+          "another type of more persistent headache occasioned by trauma to an already degenerated spine.",
+          "X-rays taken of her spine on the date of the accident showed in particular wide-spread degenerative change in the cervical spine especially from C 3 to C 7 level."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headaches (starting at the back of her head and tending to spread over the left side)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent headaches occasioned by trauma to an already degenerated spine",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neuralgia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain over neck, shoulders and upper back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "temporary loss of consciousness (probable)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness and nausea / vomiting immediately after the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depression and anxiety attacks (mental symptoms over two years, now subsided)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in concentrating and absorbing material; affects attention and concentration at work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sensitivity to noise and crowds (could not stand noise or crowds)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "chronic tiredness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Treated and discharged from the Accident Emergency Department at Tang Shiu Kin Hospital",
+      "Consultation and treatment by Dr Brian Choa for post-concussional syndrome"
+    ],
+    "treatments_future": [
+      "Future medical expenses agreed at $42,000.00"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Sporting activities considerably curtailed as a result of the accident: tennis shortened and played less frequently, only plays low-grade hockey less often, unable to swim, vigorous gym work triggers headaches.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Being single her social life centred around her sporting activities which have been considerably curtailed as a result of the accident.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "Could not stand noise or crowds; sensitivity to noise affects her ability to cope and concentration.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14845,
+      "output_tokens": 6241,
+      "reasoning_tokens": 4672,
+      "total_tokens": 21086
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37536.462008953094,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14845,
+      "output_tokens": 6241,
+      "reasoning_tokens": 4672,
+      "total_tokens": 21086
+    },
+    "total_duration_ms": 37536.462008953094
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 982",
+    "action_number": "HCPI 374/2002",
+    "case_name": "YUEN SIU v. LAU CHOI HAR AND ANOTHER",
+    "judgment_date": "2003-06-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 54,
+    "age_at_trial": 57,
+    "occupation_before": "Workman II at the Buddhist Sum Ma Shui Ying Care and Attention Home for the Elderly",
+    "occupation_after": "Security guard (Guard City Limited; later Calibre Services Development Limited)",
+    "expected_occupation_after": null,
+    "salary_before": 10175.0,
+    "salary_after": 4800.0,
+    "expected_salary_after": null,
+    "education_level": "Primary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury without loss of consciousness",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "head injury without loss of consciousness"
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion of right chest",
+        "injury_type": "Temporary injury",
+        "body_part": "right chest",
+        "laterality": "right",
+        "source": [
+          "contusion of right chest"
+        ],
+        "icd_code": "NA80.6",
+        "icd_description": "Contusion of thorax"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "collapse of lumbar spine L1",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine L1",
+        "laterality": null,
+        "source": [
+          "collapse of lumbar spine L1",
+          "Fracture L1 healed uneventfully."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "multiple abrasion wounds over the left side of his body",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of body",
+        "laterality": "left",
+        "source": [
+          "multiple abrasion wounds over the left side of his body"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Stiffness of back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Radiation of numbness to left lower limb, from thigh to calf",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Weakness of the left leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Right chest pain on lying on right side",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Local tenderness compatible with the fracture site at L1",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Slight limitation of the range of the spine motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Bed bound in hospital for 4 days",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Walk only with the support of a walking stick for about a month",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Sleep affected",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Can only remain in a sitting or standing position for under one hour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance to Accident and Emergency Department",
+      "conservative treatment",
+      "hard corset",
+      "physiotherapy",
+      "outpatient follow-up at United Christian Hospital"
+    ],
+    "treatments_future": [
+      "ongoing physiotherapy"
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to continue regular jogging (previously jogged at least 4 times a week)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot walk for over 45 minutes without a rest; can only remain in a sitting or standing position for under one hour",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual back pain, loss of strength and numbness in left limb",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Choi Siau Bon v. Chevalier Construction (Hong Kong) Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 913/2000",
+        "injury_description": "award for pain suffering and loss of amenities was $150,000 for more severe back injuries (and $100,000 for hip fractures)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14359,
+      "output_tokens": 7429,
+      "reasoning_tokens": 5696,
+      "total_tokens": 21788
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48267.43983477354,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14359,
+      "output_tokens": 7429,
+      "reasoning_tokens": 5696,
+      "total_tokens": 21788
+    },
+    "total_duration_ms": 48267.43983477354
+  }
+}

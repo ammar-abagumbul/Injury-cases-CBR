@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 2173",
+    "action_number": "HCPI 401/2012",
+    "case_name": "SIT YAU SHING v. YAN YAN MOTORS LTD AND ANOTHER",
+    "judgment_date": "2013-12-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 58,
+    "age_at_trial": 63,
+    "occupation_before": "self-employed construction project manager, working from project to project for different construction or decoration companies.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the symptoms complained of by Mr Sit were consistent with soft tissue injury to his lower back, left elbow and right knee"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to his left elbow; laceration on his left elbow and forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow and forearm",
+        "laterality": "left",
+        "source": [
+          "the symptoms complained of by Mr Sit were consistent with soft tissue injury to his lower back, left elbow and right knee",
+          "He felt pain in his back, right knee, left elbow and his chest. He noticed that there was laceration on his left elbow and forearm."
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to his right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "the symptoms complained of by Mr Sit were consistent with soft tissue injury to his lower back, left elbow and right knee",
+          "the injuries to his elbow and knee were mild"
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in his right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain in his left elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in his chest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "laceration on his left elbow and forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "lost his balance and fell from his seat onto the aisle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual pain and impairment in the low back (described by expert as mild)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken by ambulance to Pok Oi Hospital Accident & Emergency",
+      "treatment at Pok Oi Hospital A&E",
+      "transferred to Tuen Mun Hospital and admitted"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15619,
+      "output_tokens": 5201,
+      "reasoning_tokens": 3968,
+      "total_tokens": 20820
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31156.70795366168,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15619,
+      "output_tokens": 5201,
+      "reasoning_tokens": 3968,
+      "total_tokens": 20820
+    },
+    "total_duration_ms": 31156.70795366168
+  }
+}

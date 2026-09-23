@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 149",
+    "action_number": "DCPI 54/2005",
+    "case_name": "TENG WEI YAN v. KWOK KAI WING AND OTHERS",
+    "judgment_date": "2006-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 24,
+    "age_at_trial": null,
+    "occupation_before": "assistant accounting manager",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Multiple fractured ribs (5th-8th) on the left side with hemo-pneumothorax / left pneumothorax",
+        "injury_type": "Permanent injury",
+        "body_part": "left ribs / left chest",
+        "laterality": "left",
+        "source": [
+          "X-rays of her chest and pelvis showed multiple fractured ribs on the left posterior side, with left pneumothorax.",
+          "abrasion over the forehead and chin, fractured ribs (5th-8th) on the left side with hemo-pneumothorax, and a fracture of the right clavicle."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the right clavicle",
+        "injury_type": "Permanent injury",
+        "body_part": "right clavicle / right shoulder",
+        "laterality": "right",
+        "source": [
+          "abrasion over the forehead and chin, fractured ribs (5th-8th) on the left side with hemo-pneumothorax, and a fracture of the right clavicle."
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Ruptured spleen resulting in hemoperitoneum and splenectomy (emergency laparotomy performed)",
+        "injury_type": "Permanent injury",
+        "body_part": "spleen / abdomen",
+        "laterality": null,
+        "source": [
+          "An emergency laparotomy was also performed, which revealed hemoperitoneum due to a ruptured spleen. A splenectomy was performed."
+        ],
+        "icd_code": "NB91.04",
+        "icd_description": "Laceration of spleen, major"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Post-operative pneumonia (complication after operation)",
+        "injury_type": "Temporary injury",
+        "body_part": "lungs / chest",
+        "laterality": null,
+        "source": [
+          "After the operation, the Plaintiff’s condition was complicated with pneumonia. Bronchoscopy was done on 18 June 2002 and she was prescribed with antibiotics treatment."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Abrasion over the forehead and chin; bruise and swelling on the left leg",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead; chin; left leg",
+        "laterality": "left",
+        "source": [
+          "physical examinations at the Accident & Emergency Department of CMC revealed that the Plaintiff had pain and tenderness on the right shoulder and left posterior chest, and bruise and swelling on the left leg.",
+          "she was found to have abrasion over the forehead and chin"
+        ],
+        "icd_code": "NA00.5",
+        "icd_description": "Multiple superficial injuries of head"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Midline vertical abdominal scar (255mm) and two smaller scars (24mm each) including an oblique scar near the left 7th rib (scarring / disfigurement)",
+        "injury_type": "Permanent injury",
+        "body_part": "abdomen / lower abdomen / left 7th rib area",
+        "laterality": "left",
+        "source": [
+          "there is a midline vertical scar from the Plaintiff’s xiphisternum to her lower abdomen measuring 255mm long and 8mm at its widest part. The scar is partly raised and partly flat, thin, soft and irregularly pigmented. There are 2 smaller scars: one on the lower left side of the abdomen measuring 24mm, and one oblique scar 24mm long and 1mm wide near the left 7th rib which is flat, thin, soft and pale."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and tenderness on the right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain and tenderness on the left posterior chest / residual pain in the left chest wall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruise and swelling on the left leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "pain around the scar over the abdomen / residual abdominal pain around the scar",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "irregular and infrequent menstruation after the injury / irregular menstrual pains",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "frequent influenza after the injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right shoulder pain triggered by carrying heavy objects with the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "scar caused self-consciousness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Chest drainage",
+      "Emergency laparotomy",
+      "Splenectomy",
+      "Bronchoscopy",
+      "Antibiotics",
+      "Pneumovax vaccine"
+    ],
+    "treatments_future": [
+      "Cosmetic/plastic treatment for abdominal and other scars (as recommended by Dr. Chow Sik Kuen; cost HK$20,100 agreed)"
+    ],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 180,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "The scar on her abdomen which apparently made her very self-conscious; youthful and single plaintiff has suffered and will suffer some impairment as a result of the scars.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain over the left lower chest and right shoulder with small permanent impairments awarded (rib fractures and clavicle fracture).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 330000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Wai-yee v. Yip Chuen and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 291 of 1996",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Yuen Ngai, Amy Lawrence v. Lau Wing Hop",
+        "neutral_citation": null,
+        "action_number": "HCPI 223 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chung Chun Man v. Chow Wai Kin and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 713 of 2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kin Fu v. Lee Kam Hung and others",
+        "neutral_citation": null,
+        "action_number": "DCCJ 6844 of 1984",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19538,
+      "output_tokens": 9783,
+      "reasoning_tokens": 7296,
+      "total_tokens": 29321
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 63930.095076560974,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19538,
+      "output_tokens": 9783,
+      "reasoning_tokens": 7296,
+      "total_tokens": 29321
+    },
+    "total_duration_ms": 63930.095076560974
+  }
+}

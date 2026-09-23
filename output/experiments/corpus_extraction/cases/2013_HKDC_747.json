@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 747",
+    "action_number": "DCPI 529/2011",
+    "case_name": "LAM KWOK LING v. LAM KWOK WING AND OTHERS",
+    "judgment_date": "2013-06-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 49,
+    "occupation_before": "Formwork supervisor and interior decorator (carpentry/tiling)",
+    "occupation_after": "Hairdresser",
+    "expected_occupation_after": null,
+    "salary_before": 18340.0,
+    "salary_after": 8500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right distal radius",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The plaintiff consulted the Accident and Emergency Department of Yan Chai Hospital on 2 August 2008 with swelling and tenderness over the right wrist, and was diagnosed with a fracture of the right distal radius."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "De Quervain tenosynovitis, or the De Quervain syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist / thumb tendon sheath",
+        "laterality": "right",
+        "source": [
+          "On 12 October 2009, he attended the Department of Orthopaedics and Traumatology at North District Hospital. He was diagnosed with De Quervain tenosynovitis, or the De Quervain syndrome."
+        ],
+        "icd_code": "NC57.2Y",
+        "icd_description": "Other specified injury of extensor muscle, fascia or tendon of thumb at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain in his wrist limiting his ability to use heavy implements and to play badminton",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limited movement and stiffness of the wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "spasm in his right thumb and index finger when he tries to hold his fist together or grip something",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced ranges of motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive Finkelstein's test suggestive of De Quervain's syndrome",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "passed out for about 10 seconds after the fall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "plaster cast (right wrist)",
+      "physiotherapy",
+      "occupational therapy",
+      "analgesics",
+      "working splint (worn in the daytime)",
+      "psychiatric consultation (referred to Dr Lam Tat Chung; consulted on 8 occasions)"
+    ],
+    "treatments_future": [
+      "one or two steroid injections (should be considered; plaintiff previously refused)",
+      "surgical decompression (release of thickened fibrous sheath) as treatment of choice in occasional persistent cases"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Lost all confidence in doing construction site work and will not be able to return to his pre-accident carpentry work whether on construction sites or in interior decoration projects.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Residual pain limits ability to play badminton which used to be his favourite sport.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function of right wrist with weakness of grip and reduced range of motion following fracture and subsequent De Quervain syndrome.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mehmood Khalid v Million Harvest Wharves & Logistics Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 401/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Shu Shek v Leung Chi Kit",
+        "neutral_citation": null,
+        "action_number": "HCPI 219/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Bo Ling v Chan Po",
+        "neutral_citation": null,
+        "action_number": "DCPI 79/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18048,
+      "output_tokens": 5727,
+      "reasoning_tokens": 4096,
+      "total_tokens": 23775
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37561.372589319944,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18048,
+      "output_tokens": 5727,
+      "reasoning_tokens": 4096,
+      "total_tokens": 23775
+    },
+    "total_duration_ms": 37561.372589319944
+  }
+}

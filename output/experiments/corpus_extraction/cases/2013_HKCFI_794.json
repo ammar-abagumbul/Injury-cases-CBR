@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 794",
+    "action_number": "HCPI 23/2012",
+    "case_name": "TSANG CHOI PING v. LI YIN LUN",
+    "judgment_date": "2013-05-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 58,
+    "age_at_trial": 61,
+    "occupation_before": "General worker (Yau Hing Food Processing) and general worker (restaurant operated by Defendant)",
+    "occupation_after": "Part-time dish washing worker",
+    "expected_occupation_after": null,
+    "salary_before": 12400.0,
+    "salary_after": 4300.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A second degree burn of approximately 9% total body surface area was found over bilateral legs from knee down to foot dorsum mainly anteriorly.",
+        "injury_type": "Permanent injury",
+        "body_part": "lower legs and feet",
+        "laterality": "bilateral",
+        "source": [
+          "A second degree burn of approximately 9% total body surface area was found over bilateral legs from knee down to foot dorsum mainly anteriorly.",
+          "The diagnosis given was “scald both feet” (sic)."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Dr Nicolson opines that the Plaintiff has permanent cosmetic disability as a result of her burn injury. The scars of her right foot became hypertrophic subsequent to their healing. \"in the distal 1/3 the scar measures 9.5 x 7 cm and is raised, thickened and darkly pigmented with mild active pinkish hypertrophic scar in parts;\" \"flexion of the toes lacks 30°. When flexed the scar pulls on the skin of the proximal foot;\"",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot (dorsum and toes)",
+        "laterality": "right",
+        "source": [
+          "Dr Nicolson opines that the Plaintiff has permanent cosmetic disability as a result of her burn injury. The scars of her right foot became hypertrophic subsequent to their healing.",
+          "\"in the distal 1/3 the scar measures 9.5 x 7 cm and is raised, thickened and darkly pigmented with mild active pinkish hypertrophic scar in parts;\"",
+          "\"flexion of the toes lacks 30°. When flexed the scar pulls on the skin of the proximal foot;\""
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "very tender",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "blister formation and pus discharge",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and discomfort in the scars in her right foot and occasionally in the left foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "occasional cramps in her feet at night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "itch and discomfort in the scars in her right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "scar tightness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "cannot walk or stand for any prolonged periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "when sitting, she periodically must elevate her feet",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "flexion of the toes lacks 30°",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic injection",
+      "her wounds were dressed",
+      "dressing in the out-patient clinic",
+      "follow-up treatment and dressing in out-patient clinic"
+    ],
+    "treatments_future": [
+      "Intralesion cortisone injections into the active scar",
+      "Silicone gel to apply to the hypertrophic scar",
+      "Moisturizing creams for residual scars"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 5
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly and conspicuous scars over her legs and feet; ugly scars on her feet and she always have to wear socks in order to conceal her scars.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot walk or stand for any prolonged periods; must elevate her feet when sitting; prevented from standing or walking for long hours and from lifting heavy weight; affected ability to discharge heavy work.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Yuk Kwan v Maple Professional Beauty Centre Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 274 of 2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13098,
+      "output_tokens": 6248,
+      "reasoning_tokens": 4672,
+      "total_tokens": 19346
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42921.69174924493,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13098,
+      "output_tokens": 6248,
+      "reasoning_tokens": 4672,
+      "total_tokens": 19346
+    },
+    "total_duration_ms": 42921.69174924493
+  }
+}

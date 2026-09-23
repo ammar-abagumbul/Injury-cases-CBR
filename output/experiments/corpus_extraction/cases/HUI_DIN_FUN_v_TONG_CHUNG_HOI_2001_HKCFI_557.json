@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "neutral_citation": "HUI DIN FUN v. TONG CHUNG HOI [2001] HKCFI 557",
+    "action_number": "HCPI 1284/1999",
+    "case_name": "HUI DIN FUN v. TONG CHUNG HOI",
+    "judgment_date": "2001-03-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": 45,
+    "occupation_before": "Manual labourer in the refurbishing/decoration industry; previously worked as a security guard and manual labourer in factories",
+    "occupation_after": "No employment since the day of the accident",
+    "expected_occupation_after": "Sedentary or simple work (e.g. cashier, lift operator, janitor, office assistant, messenger)",
+    "salary_before": 9000.0,
+    "salary_after": 0.0,
+    "expected_salary_after": 5000.0,
+    "education_level": "Secondary school education in the mainland"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left acute subdural haematoma.",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": "left",
+        "source": [
+          "(a) left acute subdural haematoma."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Right eyebrow laceration.",
+        "injury_type": "Temporary injury",
+        "body_part": "right eyebrow",
+        "laterality": "right",
+        "source": [
+          "(b) Right eyebrow laceration."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fractured right radius and ulna.",
+        "injury_type": "Residual disability",
+        "body_part": "right radius and ulna",
+        "laterality": "right",
+        "source": [
+          "(c) Fractured right radius and ulna."
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Fractured left radius",
+        "injury_type": "Residual disability",
+        "body_part": "left radius",
+        "laterality": "left",
+        "source": [
+          "(d) Fractured left radius"
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Left 3rd cranial nerve palsy.",
+        "injury_type": "Residual disability",
+        "body_part": "left eye / cranial nerve III",
+        "laterality": "left",
+        "source": [
+          "(e) Left 3rd cranial nerve palsy."
+        ],
+        "icd_code": "NA04.2",
+        "icd_description": "Injury of oculomotor nerve"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "complication of wound infection and cross-union of radius and ulna.",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "During the course of his treatment the Plaintiff had complication of wound infection and cross-union of radius and ulna."
+        ],
+        "icd_code": "NC32.4",
+        "icd_description": "Fracture of shafts of both ulna and radius"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "cross-union of radius and ulna.",
+        "injury_type": "Residual disability",
+        "body_part": "radius and ulna",
+        "laterality": null,
+        "source": [
+          "During the course of his treatment the Plaintiff had complication of wound infection and cross-union of radius and ulna."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lost consciousness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Post-traumatic amnesia (regained continuous memory some 10 days later)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild cognitive impairment in memory and intelligence",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild mood impairment showing signs of frustration, despair, irritability and insomnia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Visual impairment of the left eye: visual acuity in the left eye remains poor and diplopia when the Plaintiff looked to the left",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Decreased motor power in the left handgrip and pinch power of left thumb; decrease in sensation on the radial side of the left hand; loss of sensation in all of the appendages of the left hand; limitation of movement of the left thumb; loss in left elbow extension, pronation and left wrist flexion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Loss in flexion, extension, supination in the right elbow; limitation in right wrist movements",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "A feeling of giddiness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Handwriting slow but legible",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Elizabeth Hospital",
+      "Transferred to Kowloon Hospital for rehabilitation",
+      "Multiple operations including treatment of fractures, operation to relieve nerve compression and tendon transfer",
+      "Physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Decreased motor power and loss of sensation of the left and right upper limbs, limitation of movement of the left thumb, loss in left elbow extension, pronation and left wrist flexion, and limitation in right wrist and elbow movements.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Visual impairment of the left eye with poor visual acuity and diplopia.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Mild cognitive impairment affecting memory and intelligence and some power to concentrate.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Mild mood impairment showing signs of frustration, despair, irritability and insomnia.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 576972.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16191,
+      "output_tokens": 9076,
+      "reasoning_tokens": 6848,
+      "total_tokens": 25267
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50490.70597067475,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16191,
+      "output_tokens": 9076,
+      "reasoning_tokens": 6848,
+      "total_tokens": 25267
+    },
+    "total_duration_ms": 50490.70597067475
+  }
+}

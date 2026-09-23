@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 229",
+    "action_number": "HCA008451/1984",
+    "case_name": "LEUNG NAI WING v. HSING KIENG SHING",
+    "judgment_date": "1985-10-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "merchandiser by a large and long established import and export company",
+    "occupation_after": "clerk (transportation company) from 1st January 1984",
+    "expected_occupation_after": null,
+    "salary_before": 3500.0,
+    "salary_after": 3000.0,
+    "expected_salary_after": null,
+    "education_level": "Technician's Diploma in Fabric Manufacture from the Hong Kong Polytechnic"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The injuries to his right eye resulted in 100% functional impairment and subsequently the eye was removed and an artificial eye fitted.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "The injuries to his right eye resulted in 100% functional impairment and subsequently the eye was removed and an artificial eye fitted."
+        ],
+        "icd_code": "NA06.8Y",
+        "icd_description": "Other specified traumatic injury to eyeball"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple facial lacerations",
+        "injury_type": "Temporary injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "multiple facial lacerations"
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "bruising to his body",
+        "injury_type": "Temporary injury",
+        "body_part": "body",
+        "laterality": null,
+        "source": [
+          "bruising to his body"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "100% functional impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right eye lacerated",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "facial cuts",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "bruising to his body",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "the eye was removed and an artificial eye fitted",
+      "medical treatment / consultations by Dr. E. M. So (ophthalmic surgeon), Dr. R. S. Wang (plastic surgeon) and Dr. C.C. Moy",
+      "hospital treatment at Queen Elizabeth Hospital and St. Teresa's Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The injuries to his right eye resulted in 100% functional impairment and subsequently the eye was removed and an artificial eye fitted.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The accident has caused the plaintiff to be disadvantaged in the labour market as a result of having only one eye; award of $60,000 for loss of future earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13403,
+      "output_tokens": 6039,
+      "reasoning_tokens": 4864,
+      "total_tokens": 19442
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34459.35636758804,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13403,
+      "output_tokens": 6039,
+      "reasoning_tokens": 4864,
+      "total_tokens": 19442
+    },
+    "total_duration_ms": 34459.35636758804
+  }
+}

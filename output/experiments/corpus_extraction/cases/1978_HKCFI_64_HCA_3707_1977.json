@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 64; HCA 3707/1977",
+    "action_number": "HCA003707/1977",
+    "case_name": "KWOK MEI TAI v. TANG YU HAND AND ANOTHER",
+    "judgment_date": "1978-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 39,
+    "occupation_before": "Domestic duties and part-time work taking shells off shellfish (earned $5 to $6 a day); living and working on a boat (fishing junk) permanently moored at Castle Peak",
+    "occupation_after": "Now able to resume part-time shellfish work on a slightly reduced scale",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a fracture of the right tibia; being the bone of the lower right leg. This fracture involved the knee joint.",
+        "injury_type": "Residual disability",
+        "body_part": "right tibia / right knee",
+        "laterality": "right",
+        "source": [
+          "a fracture of the right tibia; being the bone of the lower right leg. This fracture involved the knee joint."
+        ],
+        "icd_code": "NC92.1Z",
+        "icd_description": "Fracture of upper end of tibia, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasions to the left hand",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "abrasions to the left hand and right forehead. The abrasions have healed and left no scars."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "abrasions to the right forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "right forehead",
+        "laterality": "right",
+        "source": [
+          "abrasions to the left hand and right forehead. The abrasions have healed and left no scars."
+        ],
+        "icd_code": "NA00.6",
+        "icd_description": "Abrasion of other or unspecified sites of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain felt when she recovered consciousness after the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "walking with a marked lurching limp; still walking with a limp (less noticeable)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "considerable muscular wasting (earlier), measurements of calf and thigh of right leg later same as left (earlier wasting disappeared)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "laxity of the lateral ligaments of the knee (reduced to one-half of an inch), instability of the knee joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "marked abnormality of the joint bearing surfaces of the knee; bony abnormality of the knee joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bound to develop osteo - arthritis (probable future osteo-arthritis)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Elizabeth Hospital",
+      "Long leg plaster cast applied to the thigh to include the whole of the right leg",
+      "Bonesetter visits"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 180,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (award $15,000)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of future earning capacity: reduced by about $15 per month; annual loss fixed at $200; total sum for loss of future earnings $2,400",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Inconvenience in discharge of normal domestic duties due to permanent limp, aggravated by living on a junk and having to reach shore by sampan or plank",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12901,
+      "output_tokens": 6968,
+      "reasoning_tokens": 5504,
+      "total_tokens": 19869
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35622.7294318378,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12901,
+      "output_tokens": 6968,
+      "reasoning_tokens": 5504,
+      "total_tokens": 19869
+    },
+    "total_duration_ms": 35622.7294318378
+  }
+}

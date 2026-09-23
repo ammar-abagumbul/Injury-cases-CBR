@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 776",
+    "action_number": "HCPI 48/2007",
+    "case_name": "LI MOON CHAI v. LEUNG SHU MAN AND ANOTHER",
+    "judgment_date": "2008-09-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general construction labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14647.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left elbow dislocation",
+        "injury_type": "Residual disability",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "X-ray showed a dislocated elbow.",
+          "left elbow dislocation resulting in pain and stiffness."
+        ],
+        "icd_code": "NC33.1",
+        "icd_description": "Dislocation of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over lateral epicondylar region of his left elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the left elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "soreness and weakness of the left elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduction of extension of the left elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduction of griping (grip) power of the left limb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to lift heavy object",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot raise the left limb to work for long period",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation in extension of left elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction under sedation",
+      "immobilisation slab for immobilization",
+      "elbow-hinged brace",
+      "physiotherapy (18 sessions)",
+      "occupational therapy (26 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 408,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain, stiffness, reduced extension and reduced grip strength of the left elbow leading to reduced ability to lift heavy objects and limited endurance of the left limb.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Kuen v Lee Oi Wah",
+        "neutral_citation": "[2001] 3 HKLRD 113",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Siu Cho v Incorporated Owners of Jardine Court",
+        "neutral_citation": "[2006] HKEC 1231",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Khan Amar v Cheung Ying Construction Engineering Ltd",
+        "neutral_citation": "[2007] HKEC 1009",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Shui Hing v Lee Hing On Ricky",
+        "neutral_citation": null,
+        "action_number": "DCPI 1313/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lin Chiu Lung v ILE Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1056/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17328,
+      "output_tokens": 3856,
+      "reasoning_tokens": 2432,
+      "total_tokens": 21184
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29255.08714839816,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17328,
+      "output_tokens": 3856,
+      "reasoning_tokens": 2432,
+      "total_tokens": 21184
+    },
+    "total_duration_ms": 29255.08714839816
+  }
+}

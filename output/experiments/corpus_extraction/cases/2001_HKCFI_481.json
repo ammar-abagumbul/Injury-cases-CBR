@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 481",
+    "action_number": "HCPI000863/1999",
+    "case_name": "CHOW KAM HO v. GAMMON CONSTRUCTION LTD.",
+    "judgment_date": "2001-11-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "struck and suffocated by 2.5 tons of liquid concrete that were accidentally discharged from a height as he worked at a building site, of which the defendant was the principal contractor.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "struck and suffocated by 2.5 tons of liquid concrete that were accidentally discharged from a height as he worked at a building site, of which the defendant was the principal contractor.",
+          "He was semi-comatose on admission, having been diagnosed with Glasgow Coma Scale 3/15."
+        ],
+        "icd_code": "NA07.3Z",
+        "icd_description": "Unspecified diffuse traumatic brain injury"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Semi-comatose on admission",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Glasgow Coma Scale 3/15",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Distressed and spoken of experiencing great pain en route to hospital",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Died later on the same day (death following incident)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admission to Tang Siu Kin Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA: Pain and suffering endured by the deceased; award $50,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial dependency of the plaintiff $283,910.90 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial dependency of Tsz Ho $141,955.45 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial dependency of Tsz Fung $141,955.45 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial dependency of Lai Mui Tai $33,030 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial dependency of Lo Ying Mui $33,030 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial dependency of the plaintiff $1,066,288.05 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial dependency of Tsz Ho $533,142.66 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial dependency of Tsz Fung $533,142.66 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial dependency of Lai Mui Tai $20,970 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial dependency of Lo Ying Mui $74,970 (assessment as set out in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement: agreed damages $70,000 (as stated in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Funeral expenses: agreed $90,000 (as stated in judgment).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of accumulation of wealth: award $100,000 (as stated in judgment).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 0
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11566,
+      "output_tokens": 4708,
+      "reasoning_tokens": 3520,
+      "total_tokens": 16274
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31016.036737710238,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11566,
+      "output_tokens": 4708,
+      "reasoning_tokens": 3520,
+      "total_tokens": 16274
+    },
+    "total_duration_ms": 31016.036737710238
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 445",
+    "action_number": "DCPI 1218/2016 & DCPI 2598/2016",
+    "case_name": "LAU WAI LAM v. WONG LOK PIU",
+    "judgment_date": "2019-04-17",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 33,
+    "age_at_trial": null,
+    "occupation_before": "Employed by Apex Wealth Limited (11 January 2013 to 31 May 2013)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Abrasion and/or contusion on all 4 limbs",
+        "injury_type": "Temporary injury",
+        "body_part": "four limbs",
+        "laterality": null,
+        "source": [
+          "Abrasion and/or contusion on all 4 limbs"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Increase neck pain",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Increase neck pain"
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Continuous mild low back pain",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Continuous mild low back pain"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Continuous pain and stiffness over both wrists (left side more than the right side)",
+        "injury_type": "Residual disability",
+        "body_part": "both wrists",
+        "laterality": "bilateral",
+        "source": [
+          "Continuous pain and stiffness over both wrists (left side more than the right side)"
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Continuous pain over left hip/buttock, which radiated to the left lateral thigh",
+        "injury_type": "Residual disability",
+        "body_part": "left hip / left lateral thigh",
+        "laterality": "left",
+        "source": [
+          "Continuous pain over left hip/buttock, which radiated to the left lateral thigh"
+        ],
+        "icd_code": "NC74.2",
+        "icd_description": "Injury of cutaneous sensory nerve at hip or thigh level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "short term memory loss",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain at four limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abrasions over all four limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "became unconscious",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild tenderness at the dorsal ulnar and volar ulnar at the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "mild tenderness on the left knee scar and left knee lateral joint-line",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hip pain on external rotation and abduction of the thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "limited extension and right/left lateral flexion of the back due to lower back pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance transport to Accident and Emergency Department of Pamela Youde Nethersole Eastern Hospital",
+      "Resuscitated by the Trauma Team",
+      "Admitted to the Surgical Ward",
+      "Plain CT scans of the brain, cervical spine and contrast CT scans of thorax, abdomen and pelvis",
+      "Assessed by Ear, Nose and Throat surgeon",
+      "Referred to the Government Outpatient Clinic for wound dressing"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 89,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual neck pain, mild back and hand pain and abrasion/contusion injuries affecting bodily function and comfort",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scars indicating healed injuries on limbs",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23236,
+      "output_tokens": 6646,
+      "reasoning_tokens": 4992,
+      "total_tokens": 29882
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31793.91660913825,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23236,
+      "output_tokens": 6646,
+      "reasoning_tokens": 4992,
+      "total_tokens": 29882
+    },
+    "total_duration_ms": 31793.91660913825
+  }
+}

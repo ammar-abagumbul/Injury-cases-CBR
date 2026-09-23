@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 458",
+    "action_number": "HCPI 1111/1996",
+    "case_name": "CHOW WAI MING v. CHAN YUK CHARM",
+    "judgment_date": "1999-10-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 36,
+    "age_at_trial": null,
+    "occupation_before": "employee of the Transport Department",
+    "occupation_after": "driver of an ice cream van",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "comminuted fracture of the proximal humerus of the right shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff suffered a comminuted fracture of the proximal humerus of the right shoulder.",
+          "The Plaintiff was left with a deformity of the humeral head causing bony impingement on a tendon in the shoulder.",
+          "He has been left with a disability to his right shoulder which is evidenced mainly by pain on abduction, that is lifting the arm away from the body sideways, and some loss of strength in that arm, which both doctors assess to be an 8% impairment of the whole person."
+        ],
+        "icd_code": "NC12.20",
+        "icd_description": "Fracture of upper end of humerus, head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain on abduction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some loss of strength in that arm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "deformity of the humeral head causing bony impingement on a tendon in the shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "8% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "collar and cuff sling",
+      "physiotherapy",
+      "shoulder arthroscopy (offered but declined)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9754,
+      "output_tokens": 4386,
+      "reasoning_tokens": 3520,
+      "total_tokens": 14140
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34654.07755970955,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9754,
+      "output_tokens": 4386,
+      "reasoning_tokens": 3520,
+      "total_tokens": 14140
+    },
+    "total_duration_ms": 34654.07755970955
+  }
+}

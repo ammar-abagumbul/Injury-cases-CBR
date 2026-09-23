@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 899",
+    "action_number": "HCPI 211/2005",
+    "case_name": "NGAI LUNG HING v. GOWIN ENGINEERING CO LTD AND ANOTHER",
+    "judgment_date": "2006-08-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": null,
+    "occupation_before": "Casual worker (general labouring; operating concrete breaking equipment such as pneumatic drills, jack hammers and electrical hand held machines; drove light goods vans; sometimes supervised other workmen as a foreman)",
+    "occupation_after": "General labourer with Sendon Electrical Service (restricted to light duties)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 6353.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "70% cut of the brachioradialis muscle bulk; similarly of the extensor carpi radialis longus and extensor carpi radialis brevis",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "The injury comprised a 70% cut of the brachioradialis muscle bulk; similarly of the extensor carpi radialis longus and extensor carpi radialis brevis. There was no fracture or other injury to any bone. Suturing was undertaken of the muscle bulk, and he was discharged three days later."
+        ],
+        "icd_code": "NC36.6",
+        "icd_description": "Injury of multiple muscles or tendons at forearm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and numbness of the right forearm; sometimes this occurred when he was at rest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited range of flexibility of his right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right handgrip was significantly weaker than his left",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness and pain of the right arm on exertion, which prevented use of power tools and resumption of his pre-accident job",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the wrist assessed at 4% and weakness due to muscle injury assessed at 6% impairment of the whole person (total 10%)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation",
+      "Suturing of muscle bulk",
+      "9 sessions of outpatient physiotherapy",
+      "26 sessions of occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Limited range of flexibility of his right wrist, significantly weaker right handgrip, and persistent pain and numbness of the right forearm",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Prevented use of power tools and resumption of pre-accident heavy duty job; obliged to change to lighter duties and restricted employment (could not safely undertake prolonged driving)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Injury to muscles, tendons and nerves from an attack with a chopper",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 380000.0
+      },
+      {
+        "case_name": "",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Fracture of the wrist or arm",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9737,
+      "output_tokens": 4439,
+      "reasoning_tokens": 3200,
+      "total_tokens": 14176
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30303.315963596106,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9737,
+      "output_tokens": 4439,
+      "reasoning_tokens": 3200,
+      "total_tokens": 14176
+    },
+    "total_duration_ms": 30303.315963596106
+  }
+}

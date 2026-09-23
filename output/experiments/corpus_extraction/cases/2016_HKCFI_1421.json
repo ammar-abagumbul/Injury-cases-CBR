@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1421",
+    "action_number": "HCPI 842/2014",
+    "case_name": "SHEHZAD MOHAMMAD v. TIM FUNG STEAM LAUNDRY (SHATIN) CO LTD",
+    "judgment_date": "2016-08-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "laundry worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to right arm",
+        "injury_type": "Temporary injury",
+        "body_part": "right arm",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff pulled the machine door open and put his right hand into the\nmachine to grab the wet clothes whilst his left hand was on the edge of the\nopening of the machine to give him support as he tried to remove the wet\nclothes that were all tangled and very heavy. The Plaintiff tried to remove\nthe wet clothes but it was too difficult. The Plaintiff pressed one of the two\nbuttons situate at the left hand side of the machine as the wet clothes were\ntangled and too heavy to lift with his left hand to slowly rotate the drum of\nthe machine to help to untangle the wet clothes. His right hand and arm was\ninside the machine and suddenly the drum inside the machine rotated quickly\nand he could not remove his right hand in time and the wet clothes became\nentangled around his right hand and arm. He could not remove his right arm and\nhis wrist and forearm became strapped and he felt severe pain."
+        ],
+        "icd_code": "NC37.Z",
+        "icd_description": "Crushing injury of forearm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe pain in right hand, wrist and forearm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced active right shoulder motion (recorded flexion 90° by Dr Chun; flexion 80° in joint report; left 180°)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited active right elbow flexion/extension (records: 0–120 noted by Dr Chun; later 5°–30° recorded in joint report)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced right wrist active motions (examples of recorded measurements in reports)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced right handgrip power (Jamar measurements recorded in reports showing low values on the right)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department examination at United Christian Hospital",
+      "X-ray investigations",
+      "Sick leave certificates",
+      "Medical examination and report by Dr Chun",
+      "Joint medical examination and report by Dr Chun and Dr Lee"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities assessed at $80,000.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9975,
+      "output_tokens": 4582,
+      "reasoning_tokens": 3520,
+      "total_tokens": 14557
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34054.4197820127,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9975,
+      "output_tokens": 4582,
+      "reasoning_tokens": 3520,
+      "total_tokens": 14557
+    },
+    "total_duration_ms": 34054.4197820127
+  }
+}

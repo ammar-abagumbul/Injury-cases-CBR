@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 92",
+    "action_number": "DCPI 223/2005",
+    "case_name": "POON YAT CHIU v. AES SCAFFOLD ENGINEERING LTD",
+    "judgment_date": "2007-03-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 42,
+    "occupation_before": "Driver as well as the operator of a crane truck",
+    "occupation_after": "Part-time/full-time messenger (driving a private car with automatic transmission)",
+    "expected_occupation_after": null,
+    "salary_before": 10525.0,
+    "salary_after": 5250.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "he was found to have a disc bulging at the L4/L5 level of his lower spine.",
+        "injury_type": "Residual disability",
+        "body_part": "L4/L5 level of lower spine",
+        "laterality": null,
+        "source": [
+          "On 14 September 2003, the Plaintiff had an MRI examination, and he was found to have a disc bulging at the L4/L5 level of his lower spine."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "lower back injury sustained in an alleged fall-from-height accident during work on 20th January 2003, resulting in lower back pain.",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "8.1 Mr. Poon sustained lower back injury in an alleged fall-from-height accident during work on 20th January 2003. As a result he developed lower back pain."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "tenderness and superficial abrasion over right buttock, right shin and left hand.",
+        "injury_type": "Temporary injury",
+        "body_part": "right buttock; right shin; left hand",
+        "laterality": null,
+        "source": [
+          "Medical examination conducted on him showed that there were tenderness and superficial abrasion over right buttock, right shin and left hand."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "adjustment disorder (psychiatric condition) secondary to chronic back pain.",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric / mental",
+        "laterality": null,
+        "source": [
+          "The Plaintiff was diagnosed to be suffering from adjustment disorder by Dr. K.M. Cheng of Castle Peak Hospital.",
+          "2. Mr. Poon did not have past or family history of mental illness. He was referred by Department of Orthropaedics and Traumatology, Tuen Mun Hospital, for poor sleep since his injury in January 2003 ……",
+          "3. He presented with poor sleep secondary to his chronic back pain, depressed and anxious mood, as well as easy irritability. He was treated as adjustment disorder. Pharmacological and psychological treatments were offered. He showed partial improvement of mood and sleep symptoms after treatment, despite his chronic pain."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Chronic pain and associated impairment acting as a perpetuating factor for psychiatric problem",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Tenderness and superficial abrasion over right buttock, right shin and left hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Cannot sit or stand for too long; after about 15–20 minutes lower back, waist and bottom feel pins and needles pain and stiffness requiring him to stand up and move around",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Poor sleep, depressed and anxious mood, easy irritability, partial improvement after treatment (adjustment disorder)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Pain on pressing the clutch of heavy vehicles preventing him from driving crane truck (difficulty performing clutch operation)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Avoids social interactions; reduced pleasure/enjoyment from usual activities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Sent to the Tuen Mun Hospital for treatment",
+      "MRI examination on 14 September 2003",
+      "Assessment and treatment at Castle Peak Hospital (psychiatric assessment by Dr. K.M. Cheng)",
+      "Pharmacological and psychological treatments (as offered by Castle Peak Hospital)"
+    ],
+    "treatments_future": [
+      "Professor Peter Lee recommended 5 sessions of psychotherapy (average cost stated as $1,500 per session in private sector)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 962,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot sit or stand for too long; after about 15–20 minutes lower back and bottom feel pins and needles pain and stiffness requiring him to stand up and move around.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Before the accident he led a very active social life; subsequently he avoids social interactions and has reduced pleasure/enjoyment from usual activities.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He was highly sportive before the accident but has diminished ability to engage in sporting activities due to chronic back pain.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Sze Hoi v. New Trade Good Food Centre Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 568/2004",
+        "injury_description": "Back injuries with a prolapsed disc at L3/L4; persistent pain leading to depression and suicidal tendency (award $250,000 for PSLA).",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Li Fat Tsang v. Aquality Engineering Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 558/2000",
+        "injury_description": "Fall from height causing persistent back pain and weakness/numbness of right leg with MRI bulging at L5/S1 (award $300,000 for PSLA).",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v. The Kowloon Motor Bus Company (1933) Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 755/2001",
+        "injury_description": "Back injury leading to major depressive disorder (award $150,000 for PSLA).",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Ashok G.C. v. Kam Kee Construction Works Limited and Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 491/2004",
+        "injury_description": "Lower back injuries with hospitalisation on 2 occasions; 5–7% whole person impairment (award $180,000 for PSLA).",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17010,
+      "output_tokens": 7412,
+      "reasoning_tokens": 5120,
+      "total_tokens": 24422
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 58411.26872599125,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17010,
+      "output_tokens": 7412,
+      "reasoning_tokens": 5120,
+      "total_tokens": 24422
+    },
+    "total_duration_ms": 58411.26872599125
+  }
+}

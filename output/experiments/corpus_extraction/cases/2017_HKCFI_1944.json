@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1944",
+    "action_number": "HCPI 1058/2015",
+    "case_name": "CHUNG SUI CHEONG THE ADMINISTRATOR OF THE ESTATE OF CHUNG WAI MAN JOSEPH DECEASED v. TSANG WAI HUNG",
+    "judgment_date": "2017-11-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 62,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Chung Wai Man Joseph (“the Deceased”) died tragically in a car accident on 4 March 2013 at the age of 43.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Chung Wai Man Joseph (“the Deceased”) died tragically in a car accident on 4 March 2013 at the age of 43."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial loss of dependency awarded: $172,800 (being $3,600 per month for 4 years).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial loss of dependency awarded: $648,864 (being $3,600 per month shared equally, calculated using multipliers for plaintiffs' ages).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement award: $150,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Funeral expenses awarded: $361,188.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Loss of accumulation of wealth awarded under LARCO: $530,000.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 0
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18479,
+      "output_tokens": 2661,
+      "reasoning_tokens": 2048,
+      "total_tokens": 21140
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 21619.51818317175,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18479,
+      "output_tokens": 2661,
+      "reasoning_tokens": 2048,
+      "total_tokens": 21140
+    },
+    "total_duration_ms": 21619.51818317175
+  }
+}

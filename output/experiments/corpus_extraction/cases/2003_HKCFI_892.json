@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 892",
+    "action_number": "HCPI 826/2001",
+    "case_name": "YEUNG TUNG SANG v. JAMSART CLEANING SERVICE CO LTD",
+    "judgment_date": "2003-10-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": 33,
+    "occupation_before": "high demand cleaning worker",
+    "occupation_after": "sweeping and polishing floor without climbing (cleaner)",
+    "expected_occupation_after": null,
+    "salary_before": 12593.0,
+    "salary_after": 4800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right epidural haematoma, right subdural and right subarachnoid haematoma and swelling of the brain.",
+        "injury_type": "Permanent injury",
+        "body_part": "brain/head",
+        "laterality": null,
+        "source": [
+          "He had a right epidural haematoma, right subdural and right subarachnoid haematoma and swelling of the brain."
+        ],
+        "icd_code": "NA07.Y",
+        "icd_description": "Other specified intracranial injury"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "depressed right skull and surgical scar",
+        "injury_type": "Permanent injury",
+        "body_part": "right skull",
+        "laterality": "right",
+        "source": [
+          "(e) depressed right skull and surgical scar and self-consciousness."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "numbness and weakness in right arm",
+        "injury_type": "Residual disability",
+        "body_part": "right arm",
+        "laterality": "right",
+        "source": [
+          "(d) numbness and weakness in right arm;"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "loss of consciousness and coma for 4 days after the accident",
+        "injury_type": "Temporary injury",
+        "body_part": "brain/head",
+        "laterality": null,
+        "source": [
+          "The plaintiff lost consciousness and was in coma for 4 days after the accident."
+        ],
+        "icd_code": "NA07.3Z",
+        "icd_description": "Unspecified diffuse traumatic brain injury"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "frequent headaches and mild dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor recent memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "easily agitated and frequent bad mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and weakness in right arm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressed right skull and surgical scar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "self-consciousness about surgical scar",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "fear of height (psychological)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild cognitive impairment (weakness in constructional ability, mental calculation and language repetition)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly impaired walking balance and mild degree of weakness in lower limbs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation to remove the blood clots",
+      "Second operation to remove the left subdural haematoma",
+      "Mechanical ventilation until 25 January 2001",
+      "Transfer to rehabilitation centre on 9 February 2001",
+      "Elective cranioplasty (restoration of skull bone) on 6 March 2001"
+    ],
+    "treatments_future": [
+      "neurological follow up for 5 years"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "mild cognitive impairment including poor recent memory, weakness in constructional ability, mental calculation and language repetition",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "depressed right skull and surgical scar causing self-consciousness",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "slightly impaired walking balance and mild degree of weakness in lower limbs",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "psychological fear of height and inability to climb to 1/F leading to loss of previous high-demand cleaning job and reduced earnings",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17551,
+      "output_tokens": 7497,
+      "reasoning_tokens": 6208,
+      "total_tokens": 25048
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38649.88608658314,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17551,
+      "output_tokens": 7497,
+      "reasoning_tokens": 6208,
+      "total_tokens": 25048
+    },
+    "total_duration_ms": 38649.88608658314
+  }
+}

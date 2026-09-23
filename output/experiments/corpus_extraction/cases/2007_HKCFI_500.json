@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 500",
+    "action_number": "HCPI 149/2006",
+    "case_name": "MAHMOOD TARIQ v. KINWAY ENGINEERING LTD AND OTHERS",
+    "judgment_date": "2007-05-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 41,
+    "occupation_before": "plasterer (casual construction site worker)",
+    "occupation_after": "security guard (Nam Tai Security Company Limited)",
+    "expected_occupation_after": null,
+    "salary_before": 7600.0,
+    "salary_after": 6600.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "The diagnosis was back sprain and right knee contusion.",
+          "There was tenderness at the left paraspinal area around the 5th lumbar vertebra."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right knee contusion",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was back sprain and right knee contusion.",
+          "He complained of back, left hip and right knee pain."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "complained of back, left hip and right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There was tenderness at the left paraspinal area around the 5th lumbar vertebra.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "very limited extension and lateral flexion left and right",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "After 15 sessions there was impaired mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He cannot sit or walk for more than a short time without taking a break.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There was no neurological deficit.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance transport to Queen Mary Hospital",
+      "analgesics",
+      "physiotherapy",
+      "home exercise programme"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "He cannot sit or walk for more than a short time without taking a break; very limited extension and lateral flexion and impaired mobility.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to former employment as a plasterer/spray machine operator; returning to former employment was not an option.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Tai Hung v Hong Kong Baptist Hospital",
+        "neutral_citation": "HCPI 684/2004",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lung Kwong Ying v So Sai Lo",
+        "neutral_citation": "HCPI 206/2001",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Cheung Yuk Lin v Unipar Limited",
+        "neutral_citation": "HCPI 1189/1997",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12011,
+      "output_tokens": 5020,
+      "reasoning_tokens": 3584,
+      "total_tokens": 17031
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32397.441010922194,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12011,
+      "output_tokens": 5020,
+      "reasoning_tokens": 3584,
+      "total_tokens": 17031
+    },
+    "total_duration_ms": 32397.441010922194
+  }
+}

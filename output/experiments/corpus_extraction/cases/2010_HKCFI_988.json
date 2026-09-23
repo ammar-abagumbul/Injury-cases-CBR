@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 988",
+    "action_number": "HCPI 529/2008",
+    "case_name": "CHOI PAK SUM v. LAM LUNG KI AND ANOTHER",
+    "judgment_date": "2010-12-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 34,
+    "age_at_trial": null,
+    "occupation_before": "Masseuse (previously); unemployed at time of accident; receiving public assistance since October 2005",
+    "occupation_after": null,
+    "expected_occupation_after": "Masseuse and tutor at Telbo Sauna",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 20000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the sixth and seventh ribs in her right chest",
+        "injury_type": "Temporary injury",
+        "body_part": "right chest",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff sustained fracture of her right patella, the sixth and seventh ribs in her right chest."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of her right patella",
+        "injury_type": "Residual disability",
+        "body_part": "right patella",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff sustained fracture of her right patella, the sixth and seventh ribs in her right chest."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain in the right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "genuine swelling in the Plaintiff's right knee with increase in temperature suggesting some residual inflammation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild muscle wasting in the right thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "marginal restriction on the right knee movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "4% whole person impairment in respect of the patella fracture",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the rib fractures had united satisfactorily and there was no residual pain, impairment or disability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "long cylinder leg cast",
+      "physiotherapy",
+      "occupational therapy",
+      "walking aid"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to participate in activities such as hiking as a result of injury to the knee and 4% impairment",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity / disadvantage in employment market (nominal award of $50,000)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Kwok Sang and Maxim’s Caterers Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 237/2001",
+        "injury_description": "fell from a ladder and sustained injuries to his head, leg and arm; fractures of the right patella and left radial head; temporary blurred vision",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Lee Chun Fat and Chan Kin Wo and Chan Kin Sing",
+        "neutral_citation": null,
+        "action_number": "HCPI 1306/2000",
+        "injury_description": "assaulted and suffered a fractured patella; hospitalized for five and half months and underwent four operations; high risk of osteoarthritis",
+        "hospitalisation_days": 165,
+        "operations_count": 4,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Kwok Wing Ming And Wong Lin Lung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1341/1996",
+        "injury_description": "fracture of the right patella reduced and fixed with wires; residual stiffness of the knee, pain and muscle wasting of the thigh; small lacerations of the arm and chest wall with mild scarring",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 360000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18557,
+      "output_tokens": 5627,
+      "reasoning_tokens": 4160,
+      "total_tokens": 24184
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39983.120027929544,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18557,
+      "output_tokens": 5627,
+      "reasoning_tokens": 4160,
+      "total_tokens": 24184
+    },
+    "total_duration_ms": 39983.120027929544
+  }
+}

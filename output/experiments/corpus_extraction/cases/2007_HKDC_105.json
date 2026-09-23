@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 105",
+    "action_number": "DCPI 643/2006",
+    "case_name": "WONG WAI HUNG v. LOO KIN AND ANOTHER",
+    "judgment_date": "2007-03-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 28,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": "bus driver for Kowloon Motor Bus",
+    "expected_occupation_after": null,
+    "salary_before": 9500.0,
+    "salary_after": 9660.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right ankle injury",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff was the front seat passenger at the time of the accident and he suffered right ankle injury. X-ray showed no fracture of the bones and there were no tendon or ligament damage. His right ankle was swollen with no external injury.",
+          "The medical report prepared by Dr. William Ngai Yiu Hing of the Department of Orthopaedic and Traumatology of Tseung Kwan O Hospital showed that the Plaintiff had minimum tenderness over right medial ankle."
+        ],
+        "icd_code": "ND11.1",
+        "icd_description": "Contusion of ankle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right ankle swollen with no external injury",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Minimum tenderness over right medial ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to perform full squatting, heel walking and tiptoe walking because of the right ankle pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "follow-up treatments at Tseung Kwan O Hospital",
+      "physiotherapy",
+      "consultation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 14,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of right ankle assessed at 1.5%.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Kwai Yip v Yuen Yun Kui",
+        "neutral_citation": null,
+        "action_number": "HCA 12617 of 1994",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Kin Wai Danny v Chan Wai Sang and Li Ah Man trading as Kin Sang Engineering Company (a firm)",
+        "neutral_citation": null,
+        "action_number": "HCPI 1007 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lobo v Kripalani",
+        "neutral_citation": null,
+        "action_number": "HCPI 1286 of 1986",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Liu Zhihui v Hsin Chong Construction (Asia) Limited",
+        "neutral_citation": null,
+        "action_number": "No. A3340 of 1994",
+        "injury_description": "sprained left ankle with soft tissue injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 58564.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8107,
+      "output_tokens": 4235,
+      "reasoning_tokens": 3008,
+      "total_tokens": 12342
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38806.34015053511,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8107,
+      "output_tokens": 4235,
+      "reasoning_tokens": 3008,
+      "total_tokens": 12342
+    },
+    "total_duration_ms": 38806.34015053511
+  }
+}

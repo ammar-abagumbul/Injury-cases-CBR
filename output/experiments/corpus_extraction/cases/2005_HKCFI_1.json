@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 1",
+    "action_number": "HCPI 956/2003",
+    "case_name": "TSANG HIN CHEUNG v. NG KIT YEUNG AND ANOTHER",
+    "judgment_date": "2005-01-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 38,
+    "occupation_before": "driver-cum-messenger",
+    "occupation_after": "parking and cleaning vehicles at a car sales yard (Chun Lee Motor Company)",
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": 4000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Comminuted fracture of the right distal radius and ulna",
+        "injury_type": "Residual disability",
+        "body_part": "right distal radius and ulna",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff suffered a comminuted fracture of the right distal radius and ulna. An open reduction and internal fixation was performed."
+        ],
+        "icd_code": "NC32.6",
+        "icd_description": "Fracture of lower end of both ulna and radius"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Impaired range of motion at the time of examination (5% reported by Dr Chan; 3% assessed by Dr Tsoi)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual pain of the right forearm and wrist, especially on supination",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weak right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot carry objects exceeding 15 kg for more than 15 minutes due to weakness and tiredness in forearm/hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty in returning to pre-accident duty as a lorry driver-cum-manual worker (as noted by Dr Chan)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and internal fixation (operation performed on 2002-02-15)",
+      "Placement in a long arm hinged brace",
+      "Physiotherapy (6 months)",
+      "Occupational therapy"
+    ],
+    "treatments_future": [
+      "Removal of the implant (recommended)"
+    ],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 42
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Impaired function of right forearm and wrist (reduced ROM, weak grip, residual pain) caused by fracture of right distal radius and ulna",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to play badminton and squash after the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Claim that he could no longer work as a hair-stylist because his hand was too weak to use scissors smoothly",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chung Hok Sung v. Li Kam Ming",
+        "neutral_citation": "HCPI 393/1995",
+        "action_number": "HCPI 393/1995",
+        "injury_description": "Fracture resulting from a fall. An open reduction and internal fixations were performed. He was given 4½ months sick leave. For a year after the accident, he could not hold or carry any objects, but later he should have been able to return to his former work as a labour worker.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11659,
+      "output_tokens": 4415,
+      "reasoning_tokens": 3200,
+      "total_tokens": 16074
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35756.412010639906,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11659,
+      "output_tokens": 4415,
+      "reasoning_tokens": 3200,
+      "total_tokens": 16074
+    },
+    "total_duration_ms": 35756.412010639906
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKDC 6; DCCJ 3117/1978",
+    "action_number": "DCCJ003117/1978",
+    "case_name": "LEE PAK LEUNG v. CHAN KOON KAU AND ANOTHER",
+    "judgment_date": "1979-04-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "In Form 1 (school student); later in Form 3",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "In Form 1 at time of accident; later in Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture shaft of left humerus",
+        "injury_type": "Permanent injury",
+        "body_part": "left humerus",
+        "laterality": "left",
+        "source": [
+          "(i) Fracture shaft of left humerus",
+          "The above patient was admitted to our unit on the 6th of December 1976 with fracture shaft of left humerus and fracture proximal phalanges of right foot toes.",
+          "X-Ray of the left Humerus shows that the fracture is perfectly united in perfect position."
+        ],
+        "icd_code": "NC12.3",
+        "icd_description": "Fracture of shaft of humerus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture proximal phalanges of right foot toes (at least three toes injured)",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot (proximal phalanges of toes)",
+        "laterality": "right",
+        "source": [
+          "(ii) Fracture proximal phalanges of right foot toes.",
+          "The medical board report of 26th of January 1978, says that he fractured the proximal phalanges of the right foot toes.",
+          "All the toes are normal except the 3rd toe right. The fracture of the proximal phalanx has united but two fragments are united side to side and not end to end. The distal half of the phalanx has moved sideways and upwards so that the end of the proximal fragment can be felt under the skin as a bony protruberance on the inside of the toe and the toe is shortened by ½ inch."
+        ],
+        "icd_code": "ND13.6",
+        "icd_description": "Multiple fractures of foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Partial damage to the radial nerve resulting in an incomplete wrist drop with some residual weakness of wrist extension",
+        "injury_type": "Permanent injury",
+        "body_part": "radial nerve at level of left humerus / left wrist",
+        "laterality": "left",
+        "source": [
+          "The Radial nerve winds round the Humerus (bone of the upper arm) at the level of the fracture and I consider that the Radial nerve was partially damaged resulting in an incomplete wrist drop but that it recovered after six months, but a very few fibres of the nerve did not recover so that he has a weakness of the movement of extension or backward bending of the hand at the wrist, especially against pressure,"
+        ],
+        "icd_code": "NC14.2",
+        "icd_description": "Injury of radial nerve at upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Incomplete wrist drop (partial radial nerve damage)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Weakness of the movement of extension or backward bending of the hand at the wrist, especially against pressure",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Left hand grip 25 lbs (expected 30-35 or 40); slight weakness in the left arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Toe shortened by ½ inch with a bony protuberance on the inside of the 3rd right toe",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Discomfort in the foot with considerable activity or if he hits his foot against a hard cornered object; does not play ball games because of discomfort in the foot; cannot run as fast as other boys",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Used a walking stick for four weeks during recovery",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Both the arm and leg were immobilised in a plaster cast",
+      "Physiotherapy (three times a week at Kowloon Hospital)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 42,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Fractures of the shaft of the left humerus and fractures of the proximal phalanges of right foot toes with slight permanent disability (court found a ½% permanent disability).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Does P.E. class but does not play ball games because of discomfort in the foot; cannot run as fast as other boys.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14180,
+      "output_tokens": 7246,
+      "reasoning_tokens": 5632,
+      "total_tokens": 21426
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43731.40996322036,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14180,
+      "output_tokens": 7246,
+      "reasoning_tokens": 5632,
+      "total_tokens": 21426
+    },
+    "total_duration_ms": 43731.40996322036
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 1209",
+    "action_number": "HCPI 172/2006",
+    "case_name": "TSEUNG TSAN FAI v. TANG SHUI CHING T/A LEUN HOP",
+    "judgment_date": "2007-11-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 50,
+    "age_at_trial": 55,
+    "occupation_before": "construction site worker (welder)",
+    "occupation_after": "receiving comprehensive social security allowance (CSSA)",
+    "expected_occupation_after": "sedentary job",
+    "salary_before": 12600.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": "education in Mainland China up to primary school level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Head injury: loss of consciousness for about 10 minutes; bruises and swelling in the left peri-orbital region.",
+        "injury_type": "Residual disability",
+        "body_part": "head (left peri-orbital region)",
+        "laterality": "left",
+        "source": [
+          "As a result of the fall, the defendant lost consciousness for about 10 minutes. He regained consciousness after being transported to the ambulance.",
+          "There were bruises and swelling in the left peri-orbital region."
+        ],
+        "icd_code": "NA07.02",
+        "icd_description": "Concussion with loss of consciousness, short duration of less than 30 minutes"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Compound fracture left ulna bone and fracture dislocation left radial head.",
+        "injury_type": "Residual disability",
+        "body_part": "left ulna / left radial head (left elbow)",
+        "laterality": "left",
+        "source": [
+          "X-ray showed compound fracture left ulna bone and fracture dislocation left radial head. There was no bony lesion."
+        ],
+        "icd_code": "NC32.7",
+        "icd_description": "Multiple fractures of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Ulnar nerve neuritis (diagnosed following complaints of numbness).",
+        "injury_type": "Residual disability",
+        "body_part": "left ulnar nerve / left forearm and hand",
+        "laterality": "left",
+        "source": [
+          "He was later diagnosed of ulnar nerve neuritis."
+        ],
+        "icd_code": "NC34.0",
+        "icd_description": "Injury of ulnar nerve at forearm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Post-traumatic degeneration of the left elbow and deformity of the radial head.",
+        "injury_type": "Residual disability",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "There is, however, post-traumatic degeneration of the left elbow and deformity of the radial head."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lost consciousness for about 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bruises and swelling in the left peri-orbital region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bleeding from the left elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Scars and tenderness over the left elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Wasting of left forearm and hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Decrease in the range of movement and power of the left upper limb joints",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Decrease in sensation of left forearm and hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Constant pain in the left elbow and arm, especially when there is a change in the weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Weakness, numbness and stiffness in the left upper limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Epilepsy and memory problems",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to orthopaedic unit; open reduction and plating of left elbow on 10 March 2003",
+      "Second operation on 3 April 2003 to remove a bony fragment in the left elbow joint",
+      "Arthroscopic release of the left elbow on 29 August 2003",
+      "Anterior nerve transposition on 30 September 2003",
+      "Removal of implants on 16 July 2004",
+      "Outpatient follow-up and physiotherapy treatments"
+    ],
+    "treatments_future": [
+      "Surgery to have fusion of the elbow joint (in about five years' time), followed by three months of physiotherapy",
+      "Manipulation of the shoulder under general anaesthesia to improve the range of movement"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scars and tenderness over the left elbow.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Decrease in the range of movement and power of the left upper limb joints; constant pain, weakness, numbness and stiffness in the left upper limb.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Has not been able to return to his pre-accident employment as he has difficulties doing manual lifting.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13907,
+      "output_tokens": 8313,
+      "reasoning_tokens": 6464,
+      "total_tokens": 22220
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45965.70746973157,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13907,
+      "output_tokens": 8313,
+      "reasoning_tokens": 6464,
+      "total_tokens": 22220
+    },
+    "total_duration_ms": 45965.70746973157
+  }
+}

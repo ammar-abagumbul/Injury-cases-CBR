@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1808",
+    "action_number": "HCPI 173/2015",
+    "case_name": "NG NING FU v. LEADER ENGINEERING &AMP; CONSTRUCTION LTD AND AANOTHER",
+    "judgment_date": "2017-10-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general worker in a construction site",
+    "occupation_after": "aluminium outfit installation worker",
+    "expected_occupation_after": "aluminium outfit installation worker",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe back sprain injury",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (low back)",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered from severe back sprain injury by reason of the accident on 29 March 2012;"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degeneration and disc pathology at L4/5 and L5/S1 including disc protrusion and annular tear",
+        "injury_type": "Residual disability",
+        "body_part": "L4/5 and L5/S1 discs (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "the plaintiff\u0002s L4/5 and L5/S1 discs showed mild degeneration with mild desiccation and slight decrease in disc heights. At L4/5, there was moderate right posterior paracentric disc protrusion, associated with effacement of right lateral recess and displacement of descending nerve root of right L5. At L5/S1, there was small posterior annular tear over left posterior aspect of disc. There was also loss of normal lumbar lordosis which might indicate underlying paraspinal muscle spasm."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Back stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe back pain (occurring a few times per month)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain on lifting heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain worse on rainy days",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced range of motion of low back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The back (and left lower limb) pain awoke him every night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Had to get up after sitting for 45 minutes (but could do so without support)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to stand up immediately after the accident because of pain in his waist area",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Constant left lower limb pain with varying intensity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Left lower limb numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Heel walking was unstable",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Occasional left lower limb weakness when walking downstairs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E examination and treatment (medication)",
+      "physiotherapy",
+      "conservative management by Orthopaedics & Traumatology (back physiotherapy)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced range of motion of his low back",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "It was inconvenient for him to move around because of his back pain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unsuitable to return to his pre-accident job as a heavy duty general construction site worker",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12316,
+      "output_tokens": 5591,
+      "reasoning_tokens": 4096,
+      "total_tokens": 17907
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38807.376217097044,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12316,
+      "output_tokens": 5591,
+      "reasoning_tokens": 4096,
+      "total_tokens": 17907
+    },
+    "total_duration_ms": 38807.376217097044
+  }
+}

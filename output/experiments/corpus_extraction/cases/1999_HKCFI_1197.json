@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1197",
+    "action_number": "HCPI 445/1998",
+    "case_name": "IP YIU FAI v. CHAN CHE KWONG T/A HONG KONG RIDING UNION",
+    "judgment_date": "1999-01-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 31,
+    "age_at_trial": 35,
+    "occupation_before": "stable assistant at the Defendant's horse riding school",
+    "occupation_after": "driver of a light goods vehicle at a floral shop",
+    "expected_occupation_after": null,
+    "salary_before": 6800.0,
+    "salary_after": 9500.0,
+    "expected_salary_after": null,
+    "education_level": "secondary school level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "he was admitted into Pok Oi Hopsital and was diagnosed to be suffering from a fractured right pelvis rim.",
+        "injury_type": "Residual disability",
+        "body_part": "right pelvis rim",
+        "laterality": "right",
+        "source": [
+          "he was admitted into Pok Oi Hopsital and was diagnosed to be suffering from a fractured right pelvis rim."
+        ],
+        "icd_code": "NB52.13",
+        "icd_description": "Fracture of acetabulum without disruption of pelvic ring"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "occasional dull pain over the injured part",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not lift heavy objects and would experience pain after doing so for a long time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in passing urine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "was able to walk unaided while indoor and had to use one stick while outdoor; could walk unaided in November 1996",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "7.2% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation",
+      "catheterization of the bladder",
+      "physiotherapy",
+      "walking exercise",
+      "one operation",
+      "follow up treatment",
+      "medical expenses: 11480 HKD",
+      "travelling expenses: 1954.80 HKD"
+    ],
+    "treatments_future": [
+      "follow up treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 326,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He will therefore have to give up horse riding, which he had in past enjoyed.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Cannot now handle heavy manual labour; will experience pain if the pelvis and hip are under stress; doctor advises against prolonged standing, squatting and climbing as well as horse riding.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Was unable to walk unaided outdoors initially (used one stick outdoors) although could walk unaided indoors; later could walk unaided in November 1996.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ip Lam Yuk Lin v. Yeung fat & anor.",
+        "neutral_citation": "[1991] 2 HKC 480",
+        "action_number": null,
+        "injury_description": "fracture of femur as well as fracture of radius (more serious than the present Plaintiff)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Ching Por v. Ban Wu",
+        "neutral_citation": "1990 HKLD J.56",
+        "action_number": null,
+        "injury_description": "fractured femur (placed at the lower end of the serious injury category)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung On v. Chan Pui Ki",
+        "neutral_citation": null,
+        "action_number": "Civ. App. 263 of 1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Ting Lam v. Leung Kam Ming",
+        "neutral_citation": "[1990] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9833,
+      "output_tokens": 4609,
+      "reasoning_tokens": 3136,
+      "total_tokens": 14442
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30418.303575366735,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9833,
+      "output_tokens": 4609,
+      "reasoning_tokens": 3136,
+      "total_tokens": 14442
+    },
+    "total_duration_ms": 30418.303575366735
+  }
+}

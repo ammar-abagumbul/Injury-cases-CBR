@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1788",
+    "action_number": "HCPI 1070/2014",
+    "case_name": "LO YUEN CHONG v. IWS ENVIRONMENTAL TECHNOLOGIES LTD (FORMERLY KNOWN AS FOOK WOO ENVIRONMENTAL TECHNOLOGIES)",
+    "judgment_date": "2016-10-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 31,
+    "age_at_trial": null,
+    "occupation_before": "Workshop clerk",
+    "occupation_after": "Cashier (snack shop) (May to July 2014)",
+    "expected_occupation_after": null,
+    "salary_before": 7954.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "secondary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Xray of the left wrist showed fracture of the left distal radius, with dislocation of the distal ulnar radial joint.",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Xray of the left wrist showed fracture of the left distal radius, with dislocation of the distal ulnar radial joint."
+        ],
+        "icd_code": "NC5A.1",
+        "icd_description": "Injury of multiple sites of wrist"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The Plaintiff was suffering from a mild dorm of carpal tunnel syndrome;",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist / hand",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff was suffering from a mild dorm of carpal tunnel syndrome;"
+        ],
+        "icd_code": "NC55.1",
+        "icd_description": "Injury of median nerve at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "2 scars (35 mm and 20 mm respectively) are left causing much discomfort.",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "2 scars (35 mm and 20 mm respectively) are left causing much discomfort."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual on and off pain in her left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left wrist extension and flexion mobility, supination and pronation mobility were all increased to full range of movement (after physiotherapy) but there remained a slight lag in radial and ulnar deviation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left hand grip is weaker than the right side (grip strength recorded as 15kg after physiotherapy; later assessment right/left hand = 34/25 kgf)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left wrist was deformed with tenderness and swelling (on initial examination)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Discomfort caused by scars on the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Close reduction and dynacast application",
+      "Open reduction and internal fixation performed on 10 January 2013",
+      "Median nerve released",
+      "Physiotherapy (24 sessions)",
+      "Occupational therapy (functional training, mobilization, edema control, scar management and strengthening programs)"
+    ],
+    "treatments_future": [
+      "No further treatment or surgery is necessary"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Loss of enjoyment and reduced ability to engage in hobbies of fishing and embroidery",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty carrying boxes of A4 paper and inability to carry heavy items for long periods affecting work/domestic tasks",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Discomfort and consequences of two scars on the left wrist (35 mm and 20 mm)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Weaker left hand grip and mild limitation in radial and ulnar deviation affecting wrist function",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Nga Yin formerly known as Chan Mei Yi, Sicely v. MTR Corporation Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 1675 of 2012",
+        "injury_description": "Fracture of her left distal radius; underwent open reduction and internal fixation; mild limitation of range of movement of her left wrist",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12146,
+      "output_tokens": 7247,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19393
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48250.97803771496,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12146,
+      "output_tokens": 7247,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19393
+    },
+    "total_duration_ms": 48250.97803771496
+  }
+}

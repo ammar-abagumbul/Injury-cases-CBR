@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 238",
+    "action_number": "HCPI 755/2001",
+    "case_name": "TAM KWOK MAN v. THE KOWLOON MOTOR BUS CO (1933) LTD",
+    "judgment_date": "2003-07-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 50,
+    "occupation_before": "bus station regulator",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 12700.0,
+    "salary_after": null,
+    "expected_salary_after": 14000.0,
+    "education_level": "Form 4"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor contusion of the back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "the injury suffered by the Plaintiff was a minor contusion of the back",
+          "a back injury which caused back pain radiating to his legs"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain radiating to his legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced movement of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at the lumbar and sacral regions of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no lower limb neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to walk with long strides",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "disturbed sleep because he needed to change position",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain when lying down",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent click at the back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain during sexual activities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the low back and left para spinal-region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain on flexion of the hips",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight list of about five degrees to the right on the AP-film",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to pursue his former leisure activities: swimming, soccer, snooker, and cycling",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "analgesics/medication",
+      "outpatient follow-up at Department of Orthopaedics and Traumatology, Prince of Wales Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "inability to pursue his former leisure activities: swimming, soccer, snooker, and cycling",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13525,
+      "output_tokens": 4787,
+      "reasoning_tokens": 3520,
+      "total_tokens": 18312
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31431.749284267426,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13525,
+      "output_tokens": 4787,
+      "reasoning_tokens": 3520,
+      "total_tokens": 18312
+    },
+    "total_duration_ms": 31431.749284267426
+  }
+}

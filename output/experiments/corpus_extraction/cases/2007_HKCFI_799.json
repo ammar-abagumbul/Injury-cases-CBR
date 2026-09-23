@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 799",
+    "action_number": "HCPI 1415/2000",
+    "case_name": "WU CHUI SHAN STELLA v. HOSPITAL AUTHORITY ON BEHALF OF QUEEN ELIZABETH HOSPITAL",
+    "judgment_date": "2007-08-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 36,
+    "occupation_before": "Registered nurse employed by the Hospital Authority at the Queen Elizabeth Hospital (QEH)",
+    "occupation_after": "Registered nurse employed by the Hospital Authority at the Queen Elizabeth Hospital (QEH)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Three years of nursing training at the Princess Margaret Hospital (starting 1990)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "They took the view that she had sprained her back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative disc disease with bulging at L4-5 and L5-S1",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4-5 and L5-S1)",
+        "laterality": null,
+        "source": [
+          "Disc prolapses are demonstrated at the L4-5 and the L5-S1 level. At the L4-5 level this is left lateral in location indenting the thecal sac and at the lateral recess. At the L5-S1 level, the disc prolapse is mainly midline obliterating the epidural fat with no significant indentation onto the thecal sac.",
+          "We consider that the disc pathology should be regarded as degenerative disc disease with bulging, with no significant impingement onto the spinal thecal sac or nerve roots."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "leg pain (probable consequence of nerve root irritation at L4-L5)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "restriction of work as a nurse by avoidance of bending and lifting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "MRI scan",
+      "admission to the Department of Orthopaedics and Traumatology at QEH",
+      "conservative treatment",
+      "physiotherapy",
+      "out-patient follow up",
+      "light duties at work"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 42,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "She used to run, play badminton, roller-skating, and squash and do aerobics and go hiking, but she can no longer do any of these things.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "She still cannot lift heavy objects. She cannot squat, for instance to work the handle to lift a patient’s bedhead; she cannot wear high heels for longer than a few minutes without suffering from left leg and low back pain; sometimes she cannot bend.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Her work as a nurse is severely restricted by the avoidance of bending and lifting and she alleges risk of dismissal and loss of earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 25672,
+      "output_tokens": 4675,
+      "reasoning_tokens": 3392,
+      "total_tokens": 30347
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39819.63915750384,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 25672,
+      "output_tokens": 4675,
+      "reasoning_tokens": 3392,
+      "total_tokens": 30347
+    },
+    "total_duration_ms": 39819.63915750384
+  }
+}

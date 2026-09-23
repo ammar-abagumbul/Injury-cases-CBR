@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 241",
+    "action_number": "HCPI 219/2002",
+    "case_name": "TANG SHU SHEK v. LEUNG CHI KIT AND ANOTHER",
+    "judgment_date": "2004-05-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": 46,
+    "occupation_before": "formwork carpenter",
+    "occupation_after": "formwork carpenter",
+    "expected_occupation_after": null,
+    "salary_before": 30000.0,
+    "salary_after": 13035.0,
+    "expected_salary_after": 23680.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "I find that the Plaintiff fractured his left scaphoid as a result of the accident.",
+        "injury_type": "Residual disability",
+        "body_part": "left scaphoid (left wrist)",
+        "laterality": "left",
+        "source": [
+          "I find that the Plaintiff fractured his left scaphoid as a result of the accident."
+        ],
+        "icd_code": "NC53.0",
+        "icd_description": "Fracture of scaphoid bone of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "diagnostic arthroscopy of his left wrist, the result of which revealed degenerative changes of the Plaintiff's scaphoid and mild synovities of his radio carpal joint.",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "diagnostic arthroscopy of his left wrist, the result of which revealed degenerative changes of the Plaintiff's scaphoid and mild synovities of his radio carpal joint."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Plaintiff is only left with a mild reduction of strength and residual pain.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the Plaintiff's injured wrist had a mild reduction in extension and ulnar radiation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over the scaphoid and lunate",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he still felt pain when he moved his left hand in an upward direction (radial flexion)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "local tenderness at the dorsum of the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "X-rayed at Queen Elizabeth Hospital",
+      "discharged on the same day with analgesics",
+      "hospitalized for 2 days",
+      "plaster cast for 2 months",
+      "about 5 sessions of physiotherapy",
+      "diagnostic arthroscopy of his left wrist in April 2000",
+      "physiotherapy treatment on about 40 occasions including heat therapy and active wrist mobilization, until March 2001",
+      "occupational therapy treatments about 23 times",
+      "sick leave granted until 21 August 2001"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The Plaintiff is only left with a mild reduction of strength and residual pain.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Chung Ngar Christopher v Yeung Man Wai & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 63/1999",
+        "injury_description": "fractures of the metartarsal neck of his 3rd and 4th toes and dislocation of the 5th metatarsophalangeal joint of the left foot, with residual pain and prolonged weight-bearing but no post-traumatic arthritic change.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15563,
+      "output_tokens": 5441,
+      "reasoning_tokens": 4160,
+      "total_tokens": 21004
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45067.22288578749,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15563,
+      "output_tokens": 5441,
+      "reasoning_tokens": 4160,
+      "total_tokens": 21004
+    },
+    "total_duration_ms": 45067.22288578749
+  }
+}

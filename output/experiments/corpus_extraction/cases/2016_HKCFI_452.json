@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 452",
+    "action_number": "HCPI 196/2014",
+    "case_name": "LEE YAM KAN v. NG PUI KUEN T/A WING SING SCAFFOLDING ENGINEERING AND ANOTHER",
+    "judgment_date": "2016-03-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 50,
+    "age_at_trial": 55,
+    "occupation_before": "scaffolder",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": 8060.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "bilateral fractured calcaneum",
+        "injury_type": "Residual disability",
+        "body_part": "calcaneum",
+        "laterality": "bilateral",
+        "source": [
+          "Examinations showed that he suffered an acute partial collapse L1 and bilateral fractured calcaneum."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "acute partial collapse L1",
+        "injury_type": "Residual disability",
+        "body_part": "first lumbar spine (L1)",
+        "laterality": null,
+        "source": [
+          "Examinations showed that he suffered an acute partial collapse L1 and bilateral fractured calcaneum."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "heels pain (right more painful than left); pain more severe in early morning, start of walking, around sleep time and weather change; pain aggravated by walking for 45 minutes; wakes up at night due to pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower limb weakness (right worse than left)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in walking down stairs; cannot walk fast; avoids walking stairs and slopes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low back pain aggravated by sitting for 10 minutes and more severe during weather change; tenderness over mid-line L1 level and bilateral paraspinal muscles",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor balance when standing on right foot; can stand on left foot alone",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot perform tip-toe/heel walking on both sides; can squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "power of left ankle full; power of right ankle slightly reduced; range of movement of right ankle poorer than left",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "X-ray of both ankles showed that the fracture united well with normal ankle alignment but there were degenerative changes in the subtalar joint of the right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "X-ray of the lumbar spine showed 20% collapse upper end plate of L1, mild kyphosis and mild degenerative changes",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "self-care and hygiene largely independent; avoids walking stairs and slopes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation of bilateral fractured calcaneum (operation on 2011-03-25)",
+      "implant removal operation (2015-09-18)",
+      "physiotherapy (46 sessions from 2011-06-15 to 2012-02-14)",
+      "occupational therapy (33 sessions from 2011-09-23 to 2012-02-16)",
+      "thoraco-lumbar-sacral orthosis for collapse L1",
+      "follow-up consultations at Orthopaedic clinic of UCH",
+      "consultation at Common Mental Disorder Clinic at EKPC (from about late May 2012)"
+    ],
+    "treatments_future": [
+      "medical treatment on a need-to basis"
+    ],
+    "hospitalisation_days": 18,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 477,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Residual pain and stiffness in ankles and back with difficulty walking, difficulty walking down stairs, cannot walk fast, poor balance (especially right foot), cannot perform tip-toe/heel walking, difficulty in climbing, squatting and weight lifting; avoids stairs and slopes",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Chan Hung v Hang Yue Engineering Ltd & others",
+        "neutral_citation": "[2013] 3 HKLRD 420",
+        "action_number": null,
+        "injury_description": "serious and continuing permanent disabilities from back and leg problems which were aggravated by his adjustment disorder, urinary symptoms and sexual dysfunction",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 620000.0
+      },
+      {
+        "case_name": "Lam Cheuk Leung v Erawin Co Ltd",
+        "neutral_citation": "[2004] 1 HKLRD 778",
+        "action_number": null,
+        "injury_description": "fracture of L1 lumbar vertebrae, fracture of the calcaneum bones of both feet, and fracture of the distal phalanx of right toe (plaintiff did not need to undergo any operation)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 29753,
+      "output_tokens": 5650,
+      "reasoning_tokens": 3904,
+      "total_tokens": 35403
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37762.748669832945,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 29753,
+      "output_tokens": 5650,
+      "reasoning_tokens": 3904,
+      "total_tokens": 35403
+    },
+    "total_duration_ms": 37762.748669832945
+  }
+}

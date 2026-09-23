@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 32",
+    "action_number": "HCPI 746/2005",
+    "case_name": "GURUNG BHIM BAHADUR v. CHEUNG YING CONSTRUCTION ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2010-01-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 45,
+    "occupation_before": "Experienced formwork installer; employed by 1st Defendant as foreman",
+    "occupation_after": "Security guard (held several security guard posts); later unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 14300.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": "Completed education to intermediate level in Nepal"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "work-related sprained back injury.",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis was work-related sprained back injury."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "posterior protrusion of L4/L5 lumbar disc with annular tear and mild thecal sac compression",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/L5)",
+        "laterality": null,
+        "source": [
+          "posterior protrusion of L4/L5 lumbar disc with annular tear and mild thecal sac compression"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "narrowing of the foramina (opening) at L3/L4 and L4/L5 levels owing to mild bulging of intervertebral discs.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L3/L4 and L4/L5)",
+        "laterality": null,
+        "source": [
+          "narrowing of the foramina (opening) at L3/L4 and L4/L5 levels owing to mild bulging of intervertebral discs."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "gross muscle spasms",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited range of spinal motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "standing tolerance of about 25 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "sitting tolerance of about 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "radiating down to the left thigh with associated pins and needles sensation",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medication",
+      "physiotherapy",
+      "occupational therapy",
+      "manual therapy",
+      "mobilization exercises",
+      "ultrasound therapy",
+      "thermotherapy",
+      "inpatient orthopaedic ward admission"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume former employment or to continue his working career in the construction field where heavy manual work is the order.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Heavy domestic work, lifting heavy objects or swift movements would trigger episodes of back pain.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12665,
+      "output_tokens": 5976,
+      "reasoning_tokens": 4608,
+      "total_tokens": 18641
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46348.132874816656,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12665,
+      "output_tokens": 5976,
+      "reasoning_tokens": 4608,
+      "total_tokens": 18641
+    },
+    "total_duration_ms": 46348.132874816656
+  }
+}

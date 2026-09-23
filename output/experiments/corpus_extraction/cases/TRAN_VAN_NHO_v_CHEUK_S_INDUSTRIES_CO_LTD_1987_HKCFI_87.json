@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "neutral_citation": "TRAN VAN NHO v. CHEUK'S INDUSTRIES CO. LTD. [1987] HKCFI 87",
+    "action_number": "HCA000719/1986",
+    "case_name": "TRAN VAN NHO v. CHEUK'S INDUSTRIES CO. LTD.",
+    "judgment_date": "1987-09-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 31,
+    "age_at_trial": null,
+    "occupation_before": "operating a power press to make watchcases",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1680.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "amputation injury to the right thumb",
+        "injury_type": "Permanent injury",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "the Plaintiff sustained an amputation injury to the right thumb on 21 September, 1983.",
+          "From the small photographs enclosed with the letter, it appears that only the tip of the right thumb above the first joint of the right thumb has been amputated."
+        ],
+        "icd_code": "NC59.0Y",
+        "icd_description": "Other specified traumatic amputation of thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty when writing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty washing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty cooking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "making it difficult for him to find employment in the Netherlands",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "an operation was done to the right thumb",
+      "out-patient treatment after being discharged from Hospital on 22 September, 1983"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 51,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of the tip of the right thumb above the first joint resulting in impairment and loss of amenities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Amputation affects washing and cooking.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7796,
+      "output_tokens": 4041,
+      "reasoning_tokens": 3136,
+      "total_tokens": 11837
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26937.33897060156,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7796,
+      "output_tokens": 4041,
+      "reasoning_tokens": 3136,
+      "total_tokens": 11837
+    },
+    "total_duration_ms": 26937.33897060156
+  }
+}

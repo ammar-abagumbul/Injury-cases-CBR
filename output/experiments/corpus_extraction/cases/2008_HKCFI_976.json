@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 976",
+    "action_number": "HCPI 451/2006",
+    "case_name": "LI YUET YEE AND OTHERS v. NG CHI HANG",
+    "judgment_date": "2008-10-31",
+    "plaintiff_count": 4,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 5,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Kindergarten (pre-accident); Primary school (post-accident)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Traumatic brain injury / brain damage with neurocognitive dysfunction",
+        "injury_type": "Residual disability",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "Thus the diagnosis was head injury with multiple skull fractures and epidural haematoma.",
+          "In the joint neurology report dated 15 August 2005, the expert for the Defendant Dr. Yu opined that: “1. Tsz Ho sustained a severe head injury on 6 July 2003, but has made a remarkably good recovery. His mother, however, has observed deterioration in his memory. His performance in the primary school appears to have dropped when compared to that in the kindergarten... I conclude that Tsz Ho probably has a mild degree of neurocognitive dysfunction as a result of the head injury.”",
+          "Dr. Chao: “...I estimate the permanent impairment to his person secondary to brain damage at 7% of his person.”",
+          "Objectively therefore, the Younger Son lost 14 points in IQ after the accident."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractures of the right parietal and temporal bones (multiple skull fractures)",
+        "injury_type": "Temporary injury",
+        "body_part": "right parietal and temporal bones (skull)",
+        "laterality": "right",
+        "source": [
+          "CT scans of the head revealed fractures of the right parietal and temporal bones."
+        ],
+        "icd_code": "NA02.0",
+        "icd_description": "Fracture of vault of skull"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Small epidural haematoma (right side)",
+        "injury_type": "Temporary injury",
+        "body_part": "head / intracranial",
+        "laterality": "right",
+        "source": [
+          "There was a small epidural haematoma over the right side.",
+          "Emergency operation, namely right side craniotomy & evacuation of the epidural haematoma and left side craniotomy for ICP monitoring, was performed by me on the day of admission."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Two lacerations over the head resulting in a permanent scar and area of hair loss",
+        "injury_type": "Permanent injury",
+        "body_part": "scalp / head",
+        "laterality": null,
+        "source": [
+          "There were two lacerations over the head.",
+          "The scar was more or less the same as shown on the pictures attached to the doctor’s report before me. Probably, as time went on, the scar has become less noticeable and is covered better by the growing of hair.",
+          "Dr. Chao: “The scar with its attendant area of hair loss is indeed noticeable and a significant cosmetic disadvantage. However, it could be remedied with a hair transplant...”"
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Semi-comatose on arrival; Glasgow Coma Scale (GCS) was 11",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Able to move all of his limbs on arrival",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No neurological deficit after the operation (made an uneventful recovery after the operation)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Deterioration in memory (observed by mother)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Drop in school performance (from high in kindergarten to bottom 20-25% in primary school)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Neurocognitive dysfunction (assessed as mild; permanent impairment estimated at 7% of whole person by experts, with additional 3% for scar-related cosmetic impairment)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of 14 IQ points compared to pre-accident testing",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Noticeable scar with attendant area of hair loss; significant cosmetic disadvantage and adverse effect on self-image",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Head discomfort (relating to scar / head injury)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Right side craniotomy & evacuation of the epidural haematoma",
+      "Left side craniotomy for ICP monitoring",
+      "Care in Paediatric Intensive Care Unit (PICU)",
+      "Inpatient ward care",
+      "Clinical psychology assessment/opinions"
+    ],
+    "treatments_future": [
+      "Psychological support / assistance from counselors",
+      "Opinion of a cosmetic surgeon and possible hair transplant"
+    ],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent scar and area of hair loss on the right side of the head causing a significant cosmetic disadvantage and adverse effect on self-image; may require cosmetic surgery/hair transplant",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Mild neurocognitive dysfunction with deterioration in memory and reduction in intellectual/test performance (loss of 14 IQ points); estimated permanent impairment of 7% (plus further 3% for cosmetic impairment) affecting cognitive function",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "Drop in academic performance from kindergarten to primary school (now in bottom 20-25% of class) attributable to the head injury",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Damage affecting future earning capacity resulting in an award for loss of future earning capacity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Pui Yuk (by her father and next friend Leung Tai Fuk) v The Incorporated Owners of Albert House",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14446,
+      "output_tokens": 8188,
+      "reasoning_tokens": 5952,
+      "total_tokens": 22634
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43746.675193309784,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14446,
+      "output_tokens": 8188,
+      "reasoning_tokens": 5952,
+      "total_tokens": 22634
+    },
+    "total_duration_ms": 43746.675193309784
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 99",
+    "action_number": "DCPI 423/2006",
+    "case_name": "YAN SUNG BIK YU v. LIU CHING MAN T/A WA FAI MARBLE CO",
+    "judgment_date": "2008-03-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": 47,
+    "occupation_before": "marble installation worker (employee of the defendant)",
+    "occupation_after": "casual worker in construction sites",
+    "expected_occupation_after": null,
+    "salary_before": 11932.29,
+    "salary_after": 10400.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the second metatarsal bone (left foot)",
+        "injury_type": "Residual disability",
+        "body_part": "left second metatarsal (left foot)",
+        "laterality": "left",
+        "source": [
+          "X-rays showed fracture of the second metatarsal bone.",
+          "X-rays showed the fracture in the left second metatarsal bone had healed with good alignment."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "bruises, swelling and tenderness over the plaintiff’s left foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain and stiffness in the left foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the left foot, especially after walking for a while or during bad weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "required adapted walking gait",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "complained of moderate level of pain when lifting objects / during activity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment by Dr Cheung Wai-kuen (initial attendance and six follow-up treatments)",
+      "referral to Department of Orthopaedics and Traumatology at Tuen Mun Hospital",
+      "referral to Department of Physiotherapy and Occupational Therapy",
+      "three occupational therapy sessions at Tuen Mun Hospital commencing on 23 June 2003",
+      "two sessions of physiotherapy between 14 July and 28 July 2003",
+      "treatments from bonesetters"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 220,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Fracture of the second metatarsal bone with residual pain and stiffness affecting the left foot.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Complaint of foot pain on walking and required adapted walking gait.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Sam Mui",
+        "neutral_citation": null,
+        "action_number": "HCA 1817/1994",
+        "injury_description": "right foot was struck by iron tubes, foot became swollen and there were two lacerations on the dorsal of his foot. X-rays showed undisplayed fractures of the second and third metatarsal bones.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "To Ying Wa",
+        "neutral_citation": null,
+        "action_number": "HCPI 441/2000",
+        "injury_description": "the plaintiff sustained fractures of his fourth and fifth metacarpals of the right foot as a result of traffic accident. Close reduction and K-wire fixation was carried out.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Lee Sze Wai",
+        "neutral_citation": null,
+        "action_number": "DCPI 44/2001",
+        "injury_description": "fractured second metatarsal in the left foot as well as left ankle pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Wong Yuk Foon",
+        "neutral_citation": null,
+        "action_number": "DCPI 1025/2006",
+        "injury_description": "fractured fifth metatarsal bone in the left foot resulting from a slip-and-fall accident with permanent residual pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8417,
+      "output_tokens": 3835,
+      "reasoning_tokens": 2368,
+      "total_tokens": 12252
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28112.66328021884,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8417,
+      "output_tokens": 3835,
+      "reasoning_tokens": 2368,
+      "total_tokens": 12252
+    },
+    "total_duration_ms": 28112.66328021884
+  }
+}

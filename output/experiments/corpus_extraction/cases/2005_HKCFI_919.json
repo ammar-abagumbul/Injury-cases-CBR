@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 919",
+    "action_number": "HCPI 793/2004",
+    "case_name": "CHEUNG HUNG CHAK v. TSANG LAI HONG AND ANOTHER",
+    "judgment_date": "2005-10-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "surveyor",
+    "occupation_after": null,
+    "expected_occupation_after": "air-conditioning maintenance technician",
+    "salary_before": 12541.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": 9500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the ethmoid bone",
+        "injury_type": "Temporary injury",
+        "body_part": "ethmoid bone (part of skull)",
+        "laterality": null,
+        "source": [
+          "the Plaintiff\u00009s medical expert Dr Brian Choa describes as a significant head injury with a fracture of the ethmoid bone, which is a light spongy bone located between the eye sockets forming part of the wall and septum of the upper nasal cavity."
+        ],
+        "icd_code": "NA02.Y",
+        "icd_description": "Fracture of other specified skull or facial bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Concussion (significant head injury)",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The Plaintiff was concussed and had post traumatic amnesia of not more than an hour."
+        ],
+        "icd_code": "NA07.00",
+        "icd_description": "Concussion with incomplete loss of consciousness with amnesia"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Multiple abrasions to limbs (soft tissue injuries)",
+        "injury_type": "Temporary injury",
+        "body_part": "limbs",
+        "laterality": null,
+        "source": [
+          "He also sustained multiple abrasions to his limbs but with no bony injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "post traumatic amnesia of not more than an hour",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "frontal headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "double vision; mild horizontal separation of images when he uses both eyes together, worse when looking to his left; looking up and down makes no difference; visual acuity better in his left eye",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "multiple abrasions to his limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment (no surgical intervention)",
+      "hospital admission for three days"
+    ],
+    "treatments_future": [
+      "stronger painkillers (e.g. diclofenac) and a muscle relaxant (tolperisone) supervised by a private doctor for six months",
+      "prismatic lenses"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity: headaches and double vision",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Feels unable to return to his pre-accident job as a surveyor due to his headaches and double vision",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11991,
+      "output_tokens": 5752,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17743
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31409.46701541543,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11991,
+      "output_tokens": 5752,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17743
+    },
+    "total_duration_ms": 31409.46701541543
+  }
+}

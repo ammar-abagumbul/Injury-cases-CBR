@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 498",
+    "action_number": "HCPI 296/2007",
+    "case_name": "LEUNG CHUN PONG v. CHENG MAN TUNG T/A CHUN YEUNG MACHINE MAINTENANCE WORKS",
+    "judgment_date": "2008-06-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 32,
+    "age_at_trial": 36,
+    "occupation_before": "mechanic",
+    "occupation_after": "casual transportation worker",
+    "expected_occupation_after": null,
+    "salary_before": 13405.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": "Form 3 and one-year apprenticeship training scheme of the Vocational Training Council"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The metal coupling attached to the hose ruptured the Plaintiff’s right eye, resulting in permanent blindness.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "The metal coupling attached to the hose ruptured the Plaintiff’s right eye, resulting in permanent blindness."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "He had injuries to some of his teeth and has difficulties in swallowing large pieces of food.",
+        "injury_type": "Residual disability",
+        "body_part": "teeth",
+        "laterality": null,
+        "source": [
+          "He had injuries to some of his teeth and has difficulties in swallowing large pieces of food."
+        ],
+        "icd_code": "NA0D.0",
+        "icd_description": "Injury of hard dental tissues and pulp"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Permanent blindness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulties in swallowing large pieces of food",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of the use of his right eye",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Permanent blindness of the right eye",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "Difficulties in swallowing large pieces of food",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Shui Ying v HYFCO Travel Agency Ltd",
+        "neutral_citation": "[2008] HKLJ 288",
+        "action_number": null,
+        "injury_description": "She suffered injuries to her head and left eye. She sustained severe lacerations of occipital scalp, left eye orbit fracture, nasal bone fracture and subarachnoid haemorrhage. She suffered aches and pains in multiple parts of her body and numbness and hyperesthesia of the left cheek.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 800000.0
+      },
+      {
+        "case_name": "Hang Huu Duc v Hanbo Engineering Limited",
+        "neutral_citation": "[2005] HKLJ 762",
+        "action_number": null,
+        "injury_description": "The plaintiff lost his left eye which was hit by a rebounding nail. He suffered from photophobia, tearing, pain and the usual loss of depth perception and fine visual discrimination.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 550000.0
+      },
+      {
+        "case_name": "陳自豪 與 關文偉 (傷亡訴訟案件2001年第356號)",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "The plaintiff lost his left eye and was assessed to have suffered permanent incapacity of 25.5% and loss of earning capacity of 51%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 450000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17918,
+      "output_tokens": 5911,
+      "reasoning_tokens": 4480,
+      "total_tokens": 23829
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30728.501174598932,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17918,
+      "output_tokens": 5911,
+      "reasoning_tokens": 4480,
+      "total_tokens": 23829
+    },
+    "total_duration_ms": 30728.501174598932
+  }
+}

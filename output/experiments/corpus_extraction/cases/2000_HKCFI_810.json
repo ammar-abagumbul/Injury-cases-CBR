@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 810",
+    "action_number": "HCPI 76/1999",
+    "case_name": "CHAU FUNG YEE v. LEE CHI MING",
+    "judgment_date": "2000-07-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "part-time caddie at the Hong Kong Golf Club, Shek Wu Hui",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration of the inside of the upper lip with two superficial lacerations on the outer aspect; inner laceration sutured; persisting lumpiness and very faint scars on the cut lip extending above the lip line",
+        "injury_type": "Temporary injury",
+        "body_part": "upper lip",
+        "laterality": null,
+        "source": [
+          "The blow lacerated the inside of her upper lip with two superficial lacerations on the outer aspect.",
+          "The inner laceration was sutured.",
+          "She is left with some lumpiness of which she is aware. There are very faint scars on her cut lip extending above the lip line which are of minimal cosmetic significance as far as I could tell on my examination."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lumpiness of inner lip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "very faint scars on her cut lip extending above the lip line",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain from being struck in the mouth",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "her confidence was greatly affected",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of inner lip laceration"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "persisting lumpiness and very faint scars on her cut lip extending above the lip line",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "she has lost a pleasant outdoor occupation which gave her a good deal of freedom and enjoyment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Her confidence was greatly affected",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 85000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9652,
+      "output_tokens": 3635,
+      "reasoning_tokens": 2688,
+      "total_tokens": 13287
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26728.486631065607,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9652,
+      "output_tokens": 3635,
+      "reasoning_tokens": 2688,
+      "total_tokens": 13287
+    },
+    "total_duration_ms": 26728.486631065607
+  }
+}

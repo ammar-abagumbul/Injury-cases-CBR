@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 1131",
+    "action_number": "HCPI 547/2003",
+    "case_name": "CHU CHUNG WAH v. NG TUNG PAK AND ANOTHER",
+    "judgment_date": "2004-12-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 45,
+    "age_at_trial": 47,
+    "occupation_before": "hawker selling crabs",
+    "occupation_after": "hawker selling crabs (reduced capacity)",
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "posterior disc extrusion at L5/S1 level causing compression of the left S1 nerve root",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L5/S1)",
+        "laterality": "left",
+        "source": [
+          "a scan of the Plaintiff's spine was carried out on 12th March, 2002 at Baptist Hospital, a month after the accident, which revealed a posterior disc extrusion at L5/S1 level, which caused compression of the left S1 nerve root."
+        ],
+        "icd_code": "NB72",
+        "icd_description": "Injury of cauda equina"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "general bulging to the disc at L4/5 level",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "There was also a general bulging to the disc at L4/5 level."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "pre-existing disc degeneration at L5/S1",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L5/S1)",
+        "laterality": null,
+        "source": [
+          "Dr. Tsoi noted degenerative changes at the L5/S1 level. He found pre-existing disc degeneration, which was probably asymptomatic prior to the accident."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left leg pain (subsided by July 2002)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "symptoms compatible with a prolapsed inter-vertebral disc at the L5/S1 level",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced capacity to work; unable to work as efficiently as before; cannot stand for long periods or lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanent impairment assessed at 5% of the whole person (Dr. Tsoi)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "accident related impairment assessed at 1% (Dr. Chan)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment by Dr. Lam",
+      "approximately 20 sessions of physiotherapy",
+      "physiotherapy at United Christian Hospital",
+      "MRI scan on 12th March, 2002"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 270,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent lower back pain and reduced function due to L5/S1 disc extrusion and nerve root compression",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to work as efficiently as before; must employ an agent to buy and deliver crabs; reduced working hours and income",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 160000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chair Sai Sui v International Country Club Ltd & Anr",
+        "neutral_citation": null,
+        "action_number": "HCPI 522/1998",
+        "injury_description": "Plaintiff was injured in a riding accident affecting his lumbar vertebrae. He was hospitalised for five days, put in a lumbar brace and on crutches. Though left with some residual pain he was able to return to normal activities.",
+        "hospitalisation_days": 5,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "So Chung Kwong v Ho Kuen (t/a Brilliant Design and Decoration Co) & Anr",
+        "neutral_citation": null,
+        "action_number": "HCPI 550/1995",
+        "injury_description": "A carpenter was injured whilst carrying out heavy lifting at work, and was hospitalized for 10 days. Back pain persisted and he was no longer able to carry heavy loads or return to his full employment. This level of incapacity was assessed permanent.",
+        "hospitalisation_days": 10,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 320000.0
+      },
+      {
+        "case_name": "Yeung Sze v Win Art Design & Decoration Company Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 6/2000",
+        "injury_description": "The Plaintiff fell during the course of his plastering work, felt pain and sought medical treatment the next day. He received physiotherapy and was discharged after three days. When examined later he was found to have no medical problems apart from mild limitation in spinal movement. His condition deteriorated, and he was given sick leave for 15 months on account of lower back pain.",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": 450,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14322,
+      "output_tokens": 6210,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20532
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47159.837160259485,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14322,
+      "output_tokens": 6210,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20532
+    },
+    "total_duration_ms": 47159.837160259485
+  }
+}

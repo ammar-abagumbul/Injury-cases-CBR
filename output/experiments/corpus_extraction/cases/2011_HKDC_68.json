@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 68",
+    "action_number": "DCPI 1341/2009",
+    "case_name": "LI CHUEN v. MAN WAI CHEUNG",
+    "judgment_date": "2011-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "decoration work contractor; painter",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mr. Li sustained soft tissue injury to his neck as a result of the accident.",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Mr. Li sustained soft tissue injury to his neck as a result of the accident."
+        ],
+        "icd_code": "NA61.Z",
+        "icd_description": "Injury of muscle, fascia or tendon at neck level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "According to Dr. Lau, Mr. Li was still suffering from a sprained back as a result of the accident in August 2008, with 60% limitation in the range of movement in his lower back on 24 September 2008.",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "According to Dr. Lau, Mr. Li was still suffering from a sprained back as a result of the accident in August 2008, with 60% limitation in the range of movement in his lower back on 24 September 2008."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain, suffering and loss of amenities arising from the neck injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "60% limitation in the range of movement in his lower back on 24 September 2008",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Medical treatment until February 2009"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from the neck injury.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10832,
+      "output_tokens": 4417,
+      "reasoning_tokens": 3520,
+      "total_tokens": 15249
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27383.54365155101,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10832,
+      "output_tokens": 4417,
+      "reasoning_tokens": 3520,
+      "total_tokens": 15249
+    },
+    "total_duration_ms": 27383.54365155101
+  }
+}

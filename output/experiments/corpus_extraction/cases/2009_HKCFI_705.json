@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 705",
+    "action_number": "HCPI 721/2007",
+    "case_name": "LAMA KALPANA v. NEPALESE FRIEND INT’L MANPOWER SERVICES LTD AND ANOTHER",
+    "judgment_date": "2009-08-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 25,
+    "age_at_trial": 30,
+    "occupation_before": "cleaner (construction site)",
+    "occupation_after": "unemployed (receiving CSSA)",
+    "expected_occupation_after": "construction site cleaner",
+    "salary_before": 8000.0,
+    "salary_after": 7400.0,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of L1",
+        "injury_type": "Residual disability",
+        "body_part": "L1 vertebra / lumbo-sacral spine",
+        "laterality": null,
+        "source": [
+          "X-ray of pelvis and lumbo-sacral spine showed anterior wedging of L1. The clinical diagnosis was fracture of L1.",
+          "X-ray revealed healed fracture of L1 vertebra with about 27% loss of anterior height."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent upper and lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain, tenderness, guarding and mild stiffness of middle back at the fracture site",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced walking tolerance for not more than 30 minutes (on painkillers)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited extent of movement of the back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot run or jump",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Some difficulty in climbing up and down stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain also interfere her sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sitting and standing tolerance limited to 20 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Positive findings in Waddell's signs (inconsistent physical findings)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "occupational therapy",
+      "home exercise",
+      "back conditioning training",
+      "hot pad",
+      "pulsed magnetic field therapy",
+      "transcutaneous electrical nerve stimulation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA for injury (fracture of L1) including pain and suffering and mild residual pain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity due to residual pain",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Yiu Wing v. Wong Lan Fun & others",
+        "neutral_citation": "HCPI806/2006",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Gurung Durga Bahardur v. Kam Tai Construction Co. Ltd. & Ano.",
+        "neutral_citation": "HCPI 304/2004",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Ka Yin v. Chan Yiu Kei",
+        "neutral_citation": "DCPI 452/2008",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11327,
+      "output_tokens": 4630,
+      "reasoning_tokens": 3200,
+      "total_tokens": 15957
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33277.59447693825,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11327,
+      "output_tokens": 4630,
+      "reasoning_tokens": 3200,
+      "total_tokens": 15957
+    },
+    "total_duration_ms": 33277.59447693825
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 394",
+    "action_number": "HCPI 916/2006",
+    "case_name": "RAI PREM RAJ v. HYUNDAI-CCECC JOINT VENTURE",
+    "judgment_date": "2008-04-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": null,
+    "occupation_before": "storeman",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13028.33,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the heavy object fell on to, and fractured the medial malleous of his left ankle.",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "the heavy object fell on to, and fractured the medial malleous of his left ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The plaintiff still had “residual problem over his left ankle”",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The range of motion of the ankle was slightly restricted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain on exertion was reported",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The x-ray showed satisfactory healing of the fracture, although a minor step was detected over the articular surface",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He only had difficulty performing single leg standing and squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild tenderness detected over the fracture site associated with mildly decreased range of movement of left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He is only expected to have mild pain over the fracture site occasionally when he performs heavy manual work for a long time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He was orthopaedically fit to resume his pre-injury job, but some reduction in capacity is expected",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "removal of the implant was optional",
+      "removal of screws (optional)",
+      "sick leave up to 2005-04-28"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA claimed and assessed at $300,000 (pain, suffering and loss of amenities)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-Trial Loss of Earnings $153,648.54",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Post Trial Loss of Earnings $312,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of Earning Capacity $40,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Special Damages $9,120",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "HCPI 103 of 2007",
+        "neutral_citation": "HCPI 103 of 2007",
+        "action_number": "HCPI 103 of 2007",
+        "injury_description": "fractured os calcis, and minor compression fracture of T12 and L2. The os calcis healed in a displaced position, causing him permanent and unrelenting pain.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8068,
+      "output_tokens": 4695,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12763
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 858964.1943201423,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8068,
+      "output_tokens": 4695,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12763
+    },
+    "total_duration_ms": 858964.1943201423
+  }
+}

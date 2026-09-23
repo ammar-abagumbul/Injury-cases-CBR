@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 794",
+    "action_number": "HCPI 292/2005",
+    "case_name": "KO KAM WAI v. SZE HAK FUNG T/A CHUNG FUNG CO AND ANOTHER",
+    "judgment_date": "2006-07-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 42,
+    "age_at_trial": 45,
+    "occupation_before": "master interior decoration worker (specialised in internal partition and false ceiling work)",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": 6800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion injury to his back",
+        "injury_type": "Permanent injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "He suffered contusion injuries to his back and left knee in the accident."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left knee medial meniscal injury",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "A MRI done in April 2003 showed left knee medial meniscal injury as well as a haemangioma over the lumbar region of his back which was not related to his injury.",
+          "He suffered contusion injuries to his back and left knee in the accident."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his left knee, which affected his sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could only walk or stand for about 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty in climbing stairs and in squatting down",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "had to take painkillers and he had consequential stomach-ache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "could not lift heavy objects; his left leg was weak",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "there was pain at his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his sexual life had been affected",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "he could not enjoy sports that he used to enjoy prior to the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limping gait and some residual pain and disability in his knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no neurological deficit at the back",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment with a brace",
+      "analgesic for his pain"
+    ],
+    "treatments_future": [
+      "arthroscopic partial meniscectomy of the medial meniscus"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could not enjoy sports that he used to enjoy prior to the accident.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His sexual life had been affected.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Could only walk or stand for about 30 minutes; difficulty in climbing stairs and in squatting down; could not lift heavy objects; left leg weak.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20078,
+      "output_tokens": 4648,
+      "reasoning_tokens": 3328,
+      "total_tokens": 24726
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36290.51028564572,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20078,
+      "output_tokens": 4648,
+      "reasoning_tokens": 3328,
+      "total_tokens": 24726
+    },
+    "total_duration_ms": 36290.51028564572
+  }
+}

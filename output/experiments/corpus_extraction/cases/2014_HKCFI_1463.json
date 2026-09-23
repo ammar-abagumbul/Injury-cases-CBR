@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1463",
+    "action_number": "HCPI 254/2011",
+    "case_name": "WONG CHIM HING v. DISCOVERY BAY TRANSIT SERVICES LTD",
+    "judgment_date": "2014-08-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "bus driver",
+    "occupation_after": "not employed (employment ended in June 2013)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "hurting her back and/or buttocks",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / buttocks",
+        "laterality": null,
+        "source": [
+          "When she had to get off the bus in order to drive another bus from Discovery Bay Pier to Tung Chung, she slipped and fell onto the ground from the bus, hurting her back and/or buttocks and her left shoulder hit the kerb of the bus terminus."
+        ],
+        "icd_code": "NB50.Z",
+        "icd_description": "Superficial injury of abdomen, lower back or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left shoulder injury",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "When she had to get off the bus in order to drive another bus from Discovery Bay Pier to Tung Chung, she slipped and fell onto the ground from the bus, hurting her back and/or buttocks and her left shoulder hit the kerb of the bus terminus.",
+          "She sustained back and left shoulder injury."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "diagnosed as suffering from adjustment disorder with prolonged depression reaction",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "the plaintiff attended the West Kowloon Psychiatric Centre (“WKPC”) in December 2009 and was diagnosed as suffering from adjustment disorder with prolonged depression reaction."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bilateral buttock pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "posterior thighs pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness of buttocks",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and some unusual feeling in her legs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased sitting tolerance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "diagnosed as suffering from adjustment disorder with prolonged depression reaction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot return to work as a bus driver (plaintiff's claim)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Prince Margaret Hospital",
+      "referred to pain clinic for treatment (January 2010)",
+      "treatment at West Kowloon Psychiatric Centre"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "PSLA HK$300,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earning and MPF HK$600,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of future earning and MPF HK$0",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity HK$200,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Special damages HK$50,000.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12072,
+      "output_tokens": 6235,
+      "reasoning_tokens": 4736,
+      "total_tokens": 18307
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34438.691325485706,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12072,
+      "output_tokens": 6235,
+      "reasoning_tokens": 4736,
+      "total_tokens": 18307
+    },
+    "total_duration_ms": 34438.691325485706
+  }
+}

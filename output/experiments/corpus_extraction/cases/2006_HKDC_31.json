@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 31",
+    "action_number": "DCPI 665/2005",
+    "case_name": "CHAN KWEI DUEN v. EAST COUNTRY CO LTD T/A GOLD RIVER VIETNAMESE FOOD SHOP",
+    "judgment_date": "2006-02-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 55,
+    "age_at_trial": null,
+    "occupation_before": "housewife",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture / injury to coccyx (coccygeal region)",
+        "injury_type": "Residual disability",
+        "body_part": "coccyx / lower back",
+        "laterality": null,
+        "source": [
+          "X-ray examination showed mildly displaced facture of coccygeal spur.",
+          "X-ray taken of her lower spine revealed partial posterior dislocation of the coccyx without sign of bony facture and mild spondylosis at C5 and C6.",
+          "fracture of the coccyx is known to produce lasting pain and discomfort."
+        ],
+        "icd_code": "NB52.Y",
+        "icd_description": "Other specified fracture of lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Localised tenderness over the Plaintiff’s lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe back pain whilst sitting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent discomfort at the injured area",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness in lower limbs and around the waist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Had to remain supine most of the time and could not sit up straight; could only sit for brief spells",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stomach discomfort caused by analgesic medication",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Analgesics",
+      "Accident & Emergency treatment (Prince of Wales Hospital AED consultations)",
+      "Orthopaedic follow-up consultations",
+      "Physiotherapy (8 sessions at Evangel Hospital)",
+      "Bonesetter and herbalist treatments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 0,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and lasting discomfort in the coccyx / lower back region with associated functional limitation",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Had to remain supine most of the time, limited ability to sit upright and only able to walk short distances at home",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "For the first 3 months after the accident the Plaintiff stayed at home and had reduced capacity to perform household activities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Kwok Man v The Kowloon Motor Bus Company (1993) Limited",
+        "neutral_citation": "HCPI775/2001",
+        "action_number": null,
+        "injury_description": "mild contusion of the back with residual pain for some months",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Lau Li Wing v Secretary for Justice sued on behalf of The Director of Scoial Welfare",
+        "neutral_citation": "HCPI481/1996",
+        "action_number": null,
+        "injury_description": "fractured her lower coccyx bone and suffered from chronic depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "Lauw Ka Fong v Best City Limited",
+        "neutral_citation": "HCPI436/2004",
+        "action_number": null,
+        "injury_description": "sprained lower back, sublaxation of the coccyx, linear fracture at S1 and fine cortical fracture at S3 of her sacrum with persistent residual pain at the sacral and coccyx region",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9595,
+      "output_tokens": 5529,
+      "reasoning_tokens": 4096,
+      "total_tokens": 15124
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35173.91677200794,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9595,
+      "output_tokens": 5529,
+      "reasoning_tokens": 4096,
+      "total_tokens": 15124
+    },
+    "total_duration_ms": 35173.91677200794
+  }
+}

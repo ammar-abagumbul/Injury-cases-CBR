@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 133",
+    "action_number": "HCA002172/1985",
+    "case_name": "HONG YAU KAI v. CHAN CHOI SHUN AND ANOTHER",
+    "judgment_date": "1987-12-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 54,
+    "occupation_before": "daily paid motor vehicle mechanic (employed by Gammon Ltd)",
+    "occupation_after": null,
+    "expected_occupation_after": "caretaker or watchman",
+    "salary_before": 2240.0,
+    "salary_after": null,
+    "expected_salary_after": 2000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration to the scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "As a result of the accident the Plaintiff was injured and suffered a laceration to the scalp and a bruised left knee."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bruised left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "As a result of the accident the Plaintiff was injured and suffered a laceration to the scalp and a bruised left knee."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "anosmia (total loss of smell) due to injury to the olfactory nerve",
+        "injury_type": "Permanent injury",
+        "body_part": "olfactory nerve / sense of smell",
+        "laterality": null,
+        "source": [
+          "Dr. Wu diagnosed anosmia or total loss of smell which he found to be due to an injury to the olfactory nerve .He further diagnosed vascular hypertension and cervical spondylosis.",
+          "I find the Plaintiff's condition of anosmia too I find on balance to have resulted from the trauma sustained in the accident."
+        ],
+        "icd_code": "NA04.0",
+        "icd_description": "Injury of olfactory nerve"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "cervical spondylosis (pre-existing, aggravated by the accident) with signs of pressure on the cervical spinal cord and resultant spasticity",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "Dr. Wu diagnosed anosmia or total loss of smell which he found to be due to an injury to the olfactory nerve .He further diagnosed vascular hypertension and cervical spondylosis.",
+          "Fifteen months later in February of 1986 Dr. Wu again examined the Plaintiff. His examination revealed stiffness of the neck with a limitation of lateral movement.",
+          "He found post-traumatic anosmia to be still present and noticed a deterioration in the condition of cervical spondylosis. He also discovered signs which indicated pressure on the cervical spinal cord and further noted some spasticity in the Plaintiff's arm which resulted in his being less dexterous.",
+          "It was his view that unless Homg's cervical spondylosis were properly cured it would be very unlikely that he could ever again work as a motor mechanic."
+        ],
+        "icd_code": "NA31.5",
+        "icd_description": "Other incomplete cord syndrome of cervical spinal cord"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "vascular hypertension",
+        "injury_type": "Residual disability",
+        "body_part": "circulatory system",
+        "laterality": null,
+        "source": [
+          "Dr. Wu diagnosed anosmia or total loss of smell which he found to be due to an injury to the olfactory nerve .He further diagnosed vascular hypertension and cervical spondylosis."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headache and dizzyness whenever he bent his head or worked under a vehicle (described as a sensation of a swelling or ballooning effect in his head)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "total loss of smell (anosmia)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "diminished sense of taste (unable to detect sour taste of duck soup)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of memory (forgetfulness, e.g. forgot to replace brake linings)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "stiffness of the neck with a limitation of lateral movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "spasticity in the Plaintiff's arm resulting in being less dexterous",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "pain/tenderness associated with bruised left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken by ambulance to Princess Margaret hospital and detained",
+      "laceration sutured",
+      "medical examinations by Dr. MA, Dr. Wedderburn, Dr. Peter Wu and Dr. Fung"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Total loss of smell (anosmia) with diminished enjoyment of food and reduced sense of taste",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Permanent loss of earnings and diminished earning capacity; inability to perform the quality or amount of work as a motor mechanic",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Loss of memory and forgetfulness affecting competence to work",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Patel v. Merton & Bailey",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "loss of smell and taste",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 8200.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13873,
+      "output_tokens": 7506,
+      "reasoning_tokens": 5504,
+      "total_tokens": 21379
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43541.630286723375,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13873,
+      "output_tokens": 7506,
+      "reasoning_tokens": 5504,
+      "total_tokens": 21379
+    },
+    "total_duration_ms": 43541.630286723375
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 3",
+    "action_number": "HCA002204/1982",
+    "case_name": "YUM SING v. KWONG WAI LEUNG AND ANOTHER",
+    "judgment_date": "1983-08-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 62,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injury to left leg",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "\"which was said to have run over her left leg.\"",
+          "\"found the plaintiff injured lying next to the middle of the bus.\""
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "she was dizzy and jerked several times thus causing herself to step backwards three or four steps stumbling out of the front gate of the bus.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stepped backwards three or four steps stumbling out of the front gate of the bus",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "found the plaintiff injured lying next to the middle of the bus",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance summoned",
+      "hospital confinement"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 20000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7864,
+      "output_tokens": 5122,
+      "reasoning_tokens": 2688,
+      "total_tokens": 12986
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34955.90814948082,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7864,
+      "output_tokens": 5122,
+      "reasoning_tokens": 2688,
+      "total_tokens": 12986
+    },
+    "total_duration_ms": 34955.90814948082
+  }
+}

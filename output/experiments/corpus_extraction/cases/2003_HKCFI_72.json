@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 72",
+    "action_number": "HCPI 293/2002",
+    "case_name": "YU PUN YUEN v. NG KWOK MAN T/A EAST MOUNTAIN ENGINEERING CO AND OTHERS",
+    "judgment_date": "2003-05-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 52,
+    "age_at_trial": 56,
+    "occupation_before": "air-conditioning and ventilation technician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 18500.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the distal right radius and ulna",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "X-ray revealed a fracture of the distal right radius and ulna (i.e. the wrist). He was admitted to the orthopaedic unit and the fracture was managed with plaster of paris cast after closed reduction."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "rotator cuff tear of the right shoulder involving complete disruption of the subscapularis tendon, partial tear of supraspinatus tendon and complete rupture of the long head biceps with interval tear between the subscapularis and supraspinatus tendon",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Further clinical diagnosis was made and which showed a rotator cuff tear of the right shoulder. On 4 October 1999, an MRI of the right shoulder was taken and showed complete disruption of the subscapularis tendon and partial tear of supraspinatus tendon.",
+          "On 8 December 1999, arthroscopy of the right shoulder showed complete rupture of long head biceps and interval tear between the subscapularis and supraspinatus tendon. Open repair of the right shoulder rotator cuff was performed on 25 January 2000."
+        ],
+        "icd_code": "NC16.4Y",
+        "icd_description": "Other specified injury of multiple muscles or tendons at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain, stiffness and weakness in the right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of the right hand in gripping",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to abduct or flex the right shoulder past the horizontal without flexing the elbow, or to hold the flexed position above the horizontal for more than a few seconds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild radial deviation and dorsal tilt of the right wrist with some loss of wrist flexion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "closed reduction and plaster of paris cast for fracture of the distal right radius and ulna",
+      "occupational therapy (4 sessions at the David Trench Rehabilitation Centre in October 1999)",
+      "occupational therapy (6 sessions at the Yung Fung Shee Memorial Centre)",
+      "MRI of the right shoulder (4 October 1999)",
+      "arthroscopy of the right shoulder (8 December 1999)",
+      "open repair of right shoulder rotator cuff (25 January 2000)",
+      "physiotherapy (68 sessions between January and November 2000)"
+    ],
+    "treatments_future": [
+      "further operation to repair the supraspinatus tendon (offered but declined)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 686,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities due to the right shoulder rotator cuff tear and right wrist fracture resulting from the accident",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16919,
+      "output_tokens": 4986,
+      "reasoning_tokens": 3712,
+      "total_tokens": 21905
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43560.49405410886,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16919,
+      "output_tokens": 4986,
+      "reasoning_tokens": 3712,
+      "total_tokens": 21905
+    },
+    "total_duration_ms": 43560.49405410886
+  }
+}

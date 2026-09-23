@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1513",
+    "action_number": "HCPI 3/2012",
+    "case_name": "CHAN LEUNG SING v. NG KEUNG AND ANOTHER",
+    "judgment_date": "2015-08-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 55,
+    "age_at_trial": 60,
+    "occupation_before": "Worked primarily as a welder and occasionally as a vault‑ceiling worker",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard or gas station worker",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple soft tissue injuries to the right knee",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "(1) The plaintiff suffered multiple soft tissue injuries to the right knee, right ankle and low back.",
+          "(13) “Apportionment: Dr Lam opines that from the evidences available, it is likely that Mr. Chan suffered from considerable and rather severe soft tissue injury to his right knee, triggering symptoms in the otherwise asymptomatic right knee degenerative arthritis, causing persistent pain and disability in the right knee. ... For the sake of apportionment, based on the evidences available, my estimation is that the subject accident and the pre-existing degeneration should each contribute about 50% to the present impairment and disability in the right knee.”",
+          "(8) At the time of the examination, the plaintiff’s right knee and right ankle injuries have reached maximal medical improvement.",
+          "(12) For the purpose of Employees Compensation, the plaintiff’s right knee condition should carry 10% loss of earning capacity"
+        ],
+        "icd_code": "NC99",
+        "icd_description": "Multiple injuries of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to the right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "(1) The plaintiff suffered multiple soft tissue injuries to the right knee, right ankle and low back.",
+          "(11) Residual pain in right ankle should be mild and estimated to carry 0.5% whole person impairment.",
+          "(8) At the time of the examination, the plaintiff’s right knee and right ankle injuries have reached maximal medical improvement.",
+          "(12) For the purpose of Employees Compensation, the plaintiff’s right knee condition should carry 10% loss of earning capacity and right ankle injury should carry 1% loss of earning capacity."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to the low back",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "(1) The plaintiff suffered multiple soft tissue injuries to the right knee, right ankle and low back.",
+          "(2) It was likely that injury to the low back was mild and he had achieved satisfactory recovery from the injury.",
+          "(7) Medical treatment received by the plaintiff was appropriate. Surgery was not required."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "degenerative changes in both knees (pre-existing)",
+        "injury_type": "Permanent injury",
+        "body_part": "both knees",
+        "laterality": "bilateral",
+        "source": [
+          "(5) It was likely that the plaintiff would have some degenerative changes in both knees before the subject accident though such degenerative changes were rather asymptomatic before the subject accident. Such degenerative changes were more severe in the right knee.",
+          "(13) Apportionment: ... considering the degree of degenerative changes in both knees, and considering Mr. Chan’s subsequent development of evidence of left knee (the uninjured knee) symptomatic arthritis as well, I would expect Mr. Chan should be able to enjoy rather painless function in his right knee for about 3-5 years. ... my estimation is that the subject accident and the pre-existing degeneration should each contribute about 50% to the present impairment and disability in the right knee."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "right shoulder injury (if present, likely mild)",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "(4) Though the plaintiff complained of discomfort in the right shoulder, any right shoulder injury (if indeed present) was likely to be mild and the plaintiff had achieved satisfactory recovery. Significant residual impairment or disability of the right shoulder was unlikely."
+        ],
+        "icd_code": "NC13.5",
+        "icd_description": "Strain or sprain of shoulder joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent pain and disability in the right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual mild pain in right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Crepitus in both knees",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Unable to resume previous work that required rather heavy physical demand on the knees",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medical treatment (conservative); surgery was not required"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 528,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent pain and disability in the right knee",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Would not be able to resume previous work that required rather heavy physical demand on the knees",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsui Hau Kwong v Chau Fung Wan Cheryl & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI1319/2008",
+        "injury_description": "Back pain; Laceration on left knee; No fractures suffered; Hospitalised for two days.",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Cheng Chi Ming v Li Chau Wan & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 1028/2002",
+        "injury_description": "Effusion on right knee; Tenderness on right knee; Range of movement greatly diminished; Fracture at right lateral plateau of the tibia of right knee; Arthroscopy, open reduction, internal fixation and casting were carried out.",
+        "hospitalisation_days": 10,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Chung Wai Hung v Chung Wai Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 2675/2007",
+        "injury_description": "Deep 7 cm cut wound over the left anterior knee, deep to the proximal tibia with minor crack over the lateral cortex; Tear of the patella tendon over the left anterior knee; Operative exploration of the left knee laceration and repair of the patella tendon; Protective knee brace worn.",
+        "hospitalisation_days": 9,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Leung Po Chun v Yat Lee Booth - Construction Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1099/2006",
+        "injury_description": "Osteochondral fracture of right knee; Residual pain; Numbness radiating down to left upper limb; Very mild limping.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 220000.0
+      },
+      {
+        "case_name": "Mahmood Tariq v Kinway Engineering Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 149/2006",
+        "injury_description": "Back sprain and right knee contusion; Hospitalised for three days.",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22232,
+      "output_tokens": 8452,
+      "reasoning_tokens": 6400,
+      "total_tokens": 30684
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31898.244105279446,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22232,
+      "output_tokens": 8452,
+      "reasoning_tokens": 6400,
+      "total_tokens": 30684
+    },
+    "total_duration_ms": 31898.244105279446
+  }
+}

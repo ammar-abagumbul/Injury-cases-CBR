@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 224",
+    "action_number": "HCPI 725/1997",
+    "case_name": "WONG KWOK TUNG v. TSANG HIN PING, PARTICK T/A KAM PANG CONSTRUCTION CO. (A FIRM) AND OTHERS",
+    "judgment_date": "2000-02-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 30,
+    "age_at_trial": null,
+    "occupation_before": "scaffold worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injuries to his abdominal region",
+        "injury_type": "Permanent injury",
+        "body_part": "abdominal region",
+        "laterality": null,
+        "source": [
+          "the plaintiff fell from height and suffered injuries to his abdominal region. He was treated at Queen Mary Hospital where emergency operations were performed.",
+          "the plaintiff's abdominal injury had shown satisfactory recovery and any mild residual symptoms experienced previously had improved. The permanent impairment of the whole person was assessed at 1%."
+        ],
+        "icd_code": "NB91.Z",
+        "icd_description": "Injury of intra-abdominal organs, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild residual symptoms experienced previously had improved",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the permanent impairment of the whole person was assessed at 1%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency operations at Queen Mary Hospital",
+      "follow-up out-patient treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of the whole person assessed at 1% and mild residual symptoms following abdominal injury.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki",
+        "neutral_citation": "[1996] 2 HKC 657",
+        "action_number": null,
+        "injury_description": "serious injury category",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8033,
+      "output_tokens": 3137,
+      "reasoning_tokens": 2304,
+      "total_tokens": 11170
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28334.99101549387,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8033,
+      "output_tokens": 3137,
+      "reasoning_tokens": 2304,
+      "total_tokens": 11170
+    },
+    "total_duration_ms": 28334.99101549387
+  }
+}

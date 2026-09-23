@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 87; DCEC 363/2001 (2 April 2002)",
+    "action_number": "DCEC363/2001",
+    "case_name": "CHIU YUK-MING v. SUN PLAZA LTD. T/A EMPIRE BARBECUE RESTAURANT",
+    "judgment_date": "2002-04-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "Waitress",
+    "occupation_after": "Waitress (at another restaurant)",
+    "expected_occupation_after": null,
+    "salary_before": 7500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Cut of the right thumb severing the tendon",
+        "injury_type": "Permanent injury",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "there is no doubt that this was a very nasty cut of the thumb and it severed the tendon.",
+          "the thumb was left in a position where the applicant could not extend it into an upright position"
+        ],
+        "icd_code": "NC57.21",
+        "icd_description": "Laceration of extensor muscle, fascia or tendon of thumb at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in right thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness of right thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Scarring of right hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness of right thumb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness of grip of the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to extend right thumb into an upright position",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgery: re-attaching the severed tendon by means of sutures",
+      "Physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 45,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual weakness, stiffness and numbness of the right thumb with weakness of grip and inability to fully extend the thumb following severance of the tendon",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9391,
+      "output_tokens": 3408,
+      "reasoning_tokens": 2496,
+      "total_tokens": 12799
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 20543.71002689004,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9391,
+      "output_tokens": 3408,
+      "reasoning_tokens": 2496,
+      "total_tokens": 12799
+    },
+    "total_duration_ms": 20543.71002689004
+  }
+}

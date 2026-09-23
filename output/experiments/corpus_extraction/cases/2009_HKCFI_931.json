@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 931",
+    "action_number": "HCPI 295/2006",
+    "case_name": "CHAN SHEK v. MILKWAY IMAGE (HONG KONG) LTD",
+    "judgment_date": "2009-10-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "stuntman",
+    "occupation_after": "martial arts performer; assistant martial arts director; wireman",
+    "expected_occupation_after": null,
+    "salary_before": 35000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "dislocation of his left elbow",
+        "injury_type": "Permanent injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "dislocation of his left elbow",
+          "X-ray showed well-aligned left elbow and wrist joints. There was non-union of the left medial epicondylar and ulnar styloid process fracture. There was also calcification of inter carpal soft tissue."
+        ],
+        "icd_code": "NC33.1",
+        "icd_description": "Dislocation of elbow"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture dislocation of his left mid carpal bone (wrist bone)",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "fracture dislocation of his left mid carpal bone (wrist bone)",
+          "X-ray showed well-aligned left elbow and wrist joints. There was non-union of the left medial epicondylar and ulnar styloid process fracture. There was also calcification of inter carpal soft tissue."
+        ],
+        "icd_code": "NC53.1",
+        "icd_description": "Fracture of other carpal bone"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "non-union of the left medial epicondylar and ulnar styloid process fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "left medial epicondyle and ulnar styloid process",
+        "laterality": "left",
+        "source": [
+          "X-ray showed well-aligned left elbow and wrist joints. There was non-union of the left medial epicondylar and ulnar styloid process fracture. There was also calcification of inter carpal soft tissue."
+        ],
+        "icd_code": "NC32.Y",
+        "icd_description": "Fracture of other specified parts of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "slightly restricted flexion and pronation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "for the left wrist joint, there were still some pain, tenderness, stiffness, weakness, and scar formation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left arm and forearm muscle wasting by about 1 cm each with weakness of the left upper limb muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "wrist flexion and extension were both 60º and the plaintiff was able to perform supination and pronation in full",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "range of motion on his left wrist was 10º motion on radial deviation as opposed to a normal range of 15º; motion was 20º on ulnar deviation as opposed to a normal range of 35º",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain intensity of the plaintiff’s left wrist was measured at 7-8 out of 10 on the Visual Analogue Scale",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "power grip of the plaintiff’s left hand was registered at only 25 kgf whereas it was 52 kgf for his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual stiffness and mild pain; both the left elbow and left wrist retained a satisfactory functional range of movements",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "will have reduced capacity and efficiency as well as difficulty with duties that demand left upper limb power and mobility, such as pulling, pushing, lifting or moving heavy objects or supporting his body with the left upper limb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction of left elbow (A&E)",
+      "close reduction of fractured left wrist (admitted to Orthopaedics & Traumatology Department)",
+      "open reduction for the fractured left wrist with K-wire fixation and cast immobilization (25 June 2003)",
+      "removal of stitches and change of cast (9 July 2003)",
+      "removal of cast and K-wires and provision of resting splint (19 August 2003)",
+      "physiotherapy (multiple sessions)",
+      "occupational therapy (multiple sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain, stiffness, weakness and reduced function of left wrist and left elbow affecting left upper limb power and mobility; reduced grip strength and reduced range of motion",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21669,
+      "output_tokens": 7769,
+      "reasoning_tokens": 6080,
+      "total_tokens": 29438
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37429.92473393679,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21669,
+      "output_tokens": 7769,
+      "reasoning_tokens": 6080,
+      "total_tokens": 29438
+    },
+    "total_duration_ms": 37429.92473393679
+  }
+}

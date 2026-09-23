@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 1591",
+    "action_number": "HCPI 381/2011",
+    "case_name": "POON CATHERINE v. HOSPITAL AUTHORITY",
+    "judgment_date": "2011-11-07",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 0,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "hypoxic ischaemic encephalopathy",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "by reason of the negligence of PMH (liability admitted) the 1st plaintiff was asphyxiated on delivery on 10 December 2008 and suffered hypoxic ischaemic encephalopathy."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "spastic quadriplegia",
+        "injury_type": "Permanent injury",
+        "body_part": "all four limbs",
+        "laterality": null,
+        "source": [
+          "She is now in a vegetative state with minimal cognitive and expressive function, severely compromised hearing and vision and spastic quadriplegia."
+        ],
+        "icd_code": "NA07.30",
+        "icd_description": "Diffuse injury of cerebrum"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "respiratory insufficiency requiring constant oxygen through nasal cannula",
+        "injury_type": "Permanent injury",
+        "body_part": "respiratory system",
+        "laterality": null,
+        "source": [
+          "She suffered from respiratory insufficiency requiring constant oxygen through nasal cannula, and copious nasal secretion, which, together with the inability to swallow, had led to the need of constant suction and therefore the need of continuous nursing care in hospital."
+        ],
+        "icd_code": "NB32.Z",
+        "icd_description": "Injury of unspecified intrathoracic organs"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "hiatus hernia",
+        "injury_type": "Permanent injury",
+        "body_part": "abdomen",
+        "laterality": null,
+        "source": [
+          "In late June 2011, it was disclosed that the 1st plaintiff suffered from hiatus hernia."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "in a vegetative state with minimal cognitive and expressive function",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severely compromised hearing",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severely compromised vision",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to swallow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "copious nasal secretion requiring constant suction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "requiring constant oxygen through nasal cannula",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgery of gastrostomy and fundoplication was performed on 24 July 2009 but unsuccessful.",
+      "In late August 2011, the redo-fundoplication was successfully performed under the care of Prof. Paul Tam of QMH.",
+      "regular limb physiotherapy, developmental stimulation to gross motor function, occupational therapy, sensory stimulation and play therapy",
+      "private nurse, which is now being done in two 12-hour shifts at $4,000 per day",
+      "domestic helper"
+    ],
+    "treatments_future": [
+      "awaiting rehabilitation specialist to advice on adaptations of the new flat"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14460,
+      "output_tokens": 8160,
+      "reasoning_tokens": 6784,
+      "total_tokens": 22620
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34050.64145848155,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14460,
+      "output_tokens": 8160,
+      "reasoning_tokens": 6784,
+      "total_tokens": 22620
+    },
+    "total_duration_ms": 34050.64145848155
+  }
+}

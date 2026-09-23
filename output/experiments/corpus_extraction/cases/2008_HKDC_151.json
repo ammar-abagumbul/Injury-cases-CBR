@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 151",
+    "action_number": "DCPI 1378/2007",
+    "case_name": "KHAN SHAFIQ v. CHENG HIP MING",
+    "judgment_date": "2008-05-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": "operations assistant",
+    "expected_occupation_after": null,
+    "salary_before": 7000.0,
+    "salary_after": 13000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "lower back sprain injury",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Mr. Khan sustained lower back sprain injury during the work accident.",
+          "Therefore, Mr Khan essentially sustained sprain injury of soft tissues with aggravation of his pre-existing early degenerative L5/S1 disc."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "early degenerative L5/S1 disc with mild bulging (aggravation of pre-existing condition)",
+        "injury_type": "Residual disability",
+        "body_part": "L5/S1 disc (lower back)",
+        "laterality": null,
+        "source": [
+          "Subsequent MRI scan showed essentially early degenerative changes of the L5/S1 disc with mild bulging without nerve root compression.",
+          "Disc bulging was recognised to be degenerative in origin, not caused by trauma.",
+          "Therefore, Mr Khan essentially sustained sprain injury of soft tissues with aggravation of his pre-existing early degenerative L5/S1 disc."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No strength in his lower back when he tried to walk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced lifting capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild residual back pain possibly with exacerbation from time to time upon heavy exertion or prolonged walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "He was admitted to the Tuen Mun Hospital from 26th to 30th August 2005.",
+      "Medical treatment (sought after the accident).",
+      "Subsequent MRI scan (date not specified) and medical report dated 22nd March 2007."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 311,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He is expected to have mild residual back pain and \"must be losing some comfort in the rest of his life with the injury he suffered in his back.\"",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lung Yui Man v Yee Hing Kee Plumbing Works Co. Ltd. & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI923/1996",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9619,
+      "output_tokens": 5832,
+      "reasoning_tokens": 4672,
+      "total_tokens": 15451
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44156.11235424876,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9619,
+      "output_tokens": 5832,
+      "reasoning_tokens": 4672,
+      "total_tokens": 15451
+    },
+    "total_duration_ms": 44156.11235424876
+  }
+}

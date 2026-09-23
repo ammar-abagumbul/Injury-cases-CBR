@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCA 297",
+    "action_number": "CACV000053/1983",
+    "case_name": "LI PING SUM v. CHAN WAI TONG AND OTHERS",
+    "judgment_date": "1983-10-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 25,
+    "age_at_trial": null,
+    "occupation_before": "accountant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 3000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compression fractures of thoracic vertebrae 11 and 12 and lumbar vertebra No. 1",
+        "injury_type": "Permanent injury",
+        "body_part": "thoracic vertebrae T11-T12 and lumbar vertebra L1",
+        "laterality": null,
+        "source": [
+          "She suffered from compression fractures of thoracic vertebrae 11 and 12 and lumbar vertebra No. 1."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Unable to sit for long periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Can only manage to work half days",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Walking distance limited to half an hour because of back pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to carry heavy shopping",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent disability as regards ability to lift, sit and walk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Possible difficulty over sexual intercourse",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot henceforth engage in her pre-accident vigorous hobbies",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "visit to bonesetter (25 visits)",
+      "consultations with multiple doctors (including 5 doctors besides Q.E.H. doctors)",
+      "hospital treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent disability as regards ability to lift, sit and walk",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Unable to carry heavy shopping",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Cannot henceforth engage in her pre-accident vigorous hobbies",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "Prospects of marriage will be reduced",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "There may be difficulty over sexual intercourse",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to participate in parenthood or grandparenthood",
+        "description": "Inability to lift weights will make it difficult if she should have children",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-Lam v. Leung Kam-ming",
+        "neutral_citation": "(1980) H.K.L.R. 657",
+        "action_number": null,
+        "injury_description": "Serious Injury; general range of awards from $60,000 to $80,000 (May 1980)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9765,
+      "output_tokens": 4673,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14438
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29046.322964131832,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9765,
+      "output_tokens": 4673,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14438
+    },
+    "total_duration_ms": 29046.322964131832
+  }
+}

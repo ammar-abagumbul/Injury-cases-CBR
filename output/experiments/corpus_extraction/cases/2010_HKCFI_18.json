@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 18",
+    "action_number": "HCPI 489/2008",
+    "case_name": "CHONG SIU LUNG v. AU-YONG SHONG SAMUEL AND ANOTHER",
+    "judgment_date": "2010-01-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "police constable",
+    "occupation_after": "police constable",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right femur shaft",
+        "injury_type": "Residual disability",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "The patient complained of severe pain, swelling and a deformity over left thigh, Xray confirmed a fracture of the right femur shaft."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left eye maculopathy resulting in permanent visual impairment of the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "Mr. Chong is suffering from 3% permanent impairment in visual acuity and 5% permanent impairment in visual field of his left eye. Thus, he is suffering from 8% permanent visual impairment in his left eye as the result of the maculopathy.",
+          "The left eye condition has stabilized and permanent. There is no effective treatment that can assist further improvement. No deterioration is expected and no further treatment is required."
+        ],
+        "icd_code": "NA06.6Y",
+        "icd_description": "Other specified traumatic injuries of the retina"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "skin abrasions over his left forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "left forearm",
+        "laterality": "left",
+        "source": [
+          "There were also skin abrasions over his left forearm, and both knees."
+        ],
+        "icd_code": "NC30.2",
+        "icd_description": "Abrasion of other or unspecified parts of forearm"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "skin abrasions over both knees",
+        "injury_type": "Temporary injury",
+        "body_part": "both knees",
+        "laterality": "bilateral",
+        "source": [
+          "There were also skin abrasions over his left forearm, and both knees."
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He was able to walk unaided but with persistent pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He still experienced mild discomfort over his right hip and back of knee.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "8% permanent visual impairment in his left eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operative reduction and fracture fixation by intra-medullary nailing was performed on 18/7/2005",
+      "Operative removal of distal locking screw was performed on 15/3/2006",
+      "Operative removal of all implanted devices was performed on 16/10/2006",
+      "transferred to The Madam McLehose Rehabilitation Center on 22/7/2005 for rehabilitation as in patient from 22/7/2005 to 10/7/2005 and 29/8/2005 to 6/9/2005",
+      "prophylactic laser barrier was performed in November 2006"
+    ],
+    "treatments_future": [
+      "step-by-step training and treatments program",
+      "planned treatments to the Plaintiff, including pain relieving modalities and muscle strengthening exercises for about 7 months"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "he certainly will be deprived to a certain extent, and have indeed been deprived of chances of performing some posts requiring more physical strength.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 360000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Kwok Fai v Ngan Cheung Wah",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "victum who suffered a bit more serious injury than the Plaintiff herein",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13945,
+      "output_tokens": 8399,
+      "reasoning_tokens": 6784,
+      "total_tokens": 22344
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45629.81849163771,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13945,
+      "output_tokens": 8399,
+      "reasoning_tokens": 6784,
+      "total_tokens": 22344
+    },
+    "total_duration_ms": 45629.81849163771
+  }
+}

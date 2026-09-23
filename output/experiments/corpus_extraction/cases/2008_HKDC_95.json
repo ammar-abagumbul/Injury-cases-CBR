@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 95",
+    "action_number": "DCPI 2080/2006",
+    "case_name": "WONG YIU SUM v. MA KWOK FEI T/A CHEUNG FUNG DECORATION ENGINEERING",
+    "judgment_date": "2008-04-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "mason",
+    "occupation_after": null,
+    "expected_occupation_after": "should be able to resume his pre-accident occupation",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right eye subconjunctival haemorrhage",
+        "injury_type": "Temporary injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "Mr. Wong had sustained right eye subconjunctival haemorrhage as a result of the accident."
+        ],
+        "icd_code": "NA06.4",
+        "icd_description": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intense pain in his right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tearing in his right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort and deterioration in the vision of his right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "vision remained within normal limits",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "apprehensive when working with an electric saw",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lost confidence whenever dangerous equipment or apparatus has to be used in the course of his work",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "general practitioner consultation",
+      "attendance at the Accident and Emergency Department of the United Christian Hospital",
+      "referral to the Department of Ophthalmology of United Christian Hospital",
+      "eyedrops prescribed",
+      "conservative management with eyedrops",
+      "ophthalmic examination by Dr. Chua on 15 September 2005"
+    ],
+    "treatments_future": [
+      "assessment by a clinical psychologist or a specialist in psychiatry (private consultation estimated cost HKD 600-2,000)"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 13,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "apprehensive when working with an electric saw; lost confidence whenever dangerous equipment or apparatus has to be used in the course of his work",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Moon Sing v. Yu Hon Kuen",
+        "neutral_citation": null,
+        "action_number": "DCPI 129/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7448,
+      "output_tokens": 4701,
+      "reasoning_tokens": 3648,
+      "total_tokens": 12149
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29437.86097317934,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7448,
+      "output_tokens": 4701,
+      "reasoning_tokens": 3648,
+      "total_tokens": 12149
+    },
+    "total_duration_ms": 29437.86097317934
+  }
+}

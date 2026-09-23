@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 354",
+    "action_number": "HCPI 164/2001",
+    "case_name": "NG WAH CHUN v. CHENG WING CHUNG AND OTHERS",
+    "judgment_date": "2002-09-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "skilled formwork worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 18900.0,
+    "salary_after": null,
+    "expected_salary_after": 12500.0,
+    "education_level": "attended school for 2 years"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "suspected compression fracture of the fourth lumbar vertebra",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "suspected compression fracture of the fourth lumbar vertebra.",
+          "X-rays on the day of examination showed degenerative changes in the lumbar spine. The alignment was normal but there was slight wedging of the L4 vertebral body."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of right os calcis / comminuted fracture of the right calcaneum; collapse os calcis and subtalar arthritis",
+        "injury_type": "Residual disability",
+        "body_part": "right calcaneum",
+        "laterality": "right",
+        "source": [
+          "fracture of right os calcis",
+          "comminuted fracture of the right calcaneum",
+          "collapse os calcis and subtalar arthritis"
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual right heel pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "needed to walk with an elbow crutch and had a limping gait",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limited range of movement of right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent pain and tenderness over his right heel",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulties in walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to the Orthopaedics and Traumatology Department of the Tuen Mun Hospital (admitted 1998-05-14)",
+      "conservative treatment (patient declined open reduction, internal fixation and bone grafting)",
+      "physiotherapy (Prince of Wales Hospital from 30 November, 1999)"
+    ],
+    "treatments_future": [
+      "fusion of his subtalar joint (suggested on 20 December, 1999)"
+    ],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "difficulties in walking; needed to walk with an elbow crutch and had a limping gait; persistent pain and tenderness over his right heel",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "difficulty returning to his pre-injury job as a formworker",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tse Hing Wan v. Choy Yuen Keung",
+        "neutral_citation": null,
+        "action_number": "PI No. 889/1998",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Kin Wah v. Lam Shu Kan",
+        "neutral_citation": null,
+        "action_number": "PI No. 1028/1998",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Siu Wai Man Ada v. Lee Chi Chong",
+        "neutral_citation": null,
+        "action_number": "PI No. 174/1994",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16056,
+      "output_tokens": 5234,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21290
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34445.298198610544,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16056,
+      "output_tokens": 5234,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21290
+    },
+    "total_duration_ms": 34445.298198610544
+  }
+}

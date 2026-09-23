@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 1003",
+    "action_number": "DCPI 852/2011",
+    "case_name": "LAW MUK YAU v. SO CHEUK PO T/A PO KEE LOGISTICS",
+    "judgment_date": "2012-08-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 41,
+    "age_at_trial": 43,
+    "occupation_before": "master baker",
+    "occupation_after": "baking assistant",
+    "expected_occupation_after": null,
+    "salary_before": 14000.0,
+    "salary_after": 12000.0,
+    "expected_salary_after": null,
+    "education_level": "received education up to Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "avulsion fracture of the triquetrum",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Further X-ray of left wrist showed avulsion fracture of the triquetrum.",
+          "His diagnosis was avulsion fracture of the triquetrum."
+        ],
+        "icd_code": "NC53.1",
+        "icd_description": "Fracture of other carpal bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "occasional pain of left hand and wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness and swelling over the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease of the range of movement of left wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of left hand and wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cramp in left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department attendances at Queen Elizabeth Hospital",
+      "Follow-up clinic at QEH",
+      "Wrist resting splint",
+      "Physiotherapy (14 sessions)",
+      "Occupational therapy (2 attendances)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 82,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and weakness of left wrist with occasional pain, decreased range of movement, weakness and cramp.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced work efficiency and competitiveness; now working as a baking assistant rather than returning to work as a master baker, with a reduction in monthly earnings.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 140000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Yuk Man v Hillbery Limited trading as Tsui King Lau Restaurant (FWS) (in liquidation)",
+        "neutral_citation": null,
+        "action_number": "DCPI 1988/2006",
+        "injury_description": "right chest contusion and fracture triquetrum of the right wrist; residual pain at right wrist and right chest; splint for about 2 weeks.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 19,
+        "comparison": "more serious",
+        "psla_amount": 160000.0
+      },
+      {
+        "case_name": "Tang Shu Shek v Leung Chi Kit & Anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 219/2002",
+        "injury_description": "fractured left scaphoid; hospitalised for 2 days; plaster cast for 2 months; diagnostic arthroscopy revealing degenerative changes; physiotherapy on about 40 occasions.",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Ho Bing Cheung v Lam Yin Tuk trading as Ocean Fast Food and Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 66/2004",
+        "injury_description": "fracture of distal radius and ulna with plaster immobilization; hospitalised for 2 days; healed with collapse, impaction and deformity; complicated with Complex Regional Pain Syndrome and shoulder hand syndrome; residual mild back tenderness.",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 220000.0
+      },
+      {
+        "case_name": "Yu Yixin v Leung Chi Tin Andy",
+        "neutral_citation": null,
+        "action_number": "DCPI 1306/2007",
+        "injury_description": "fracture of right distal radius and ulnar styloid; treated with closed reduction and short arm plaster cast; cast removed in 6 weeks; residual ulnar region pain; 14 sessions of physiotherapy; possible early osteoarthritis.",
+        "hospitalisation_days": 1,
+        "operations_count": null,
+        "sick_leave_days": 177,
+        "comparison": null,
+        "psla_amount": 170000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10393,
+      "output_tokens": 4105,
+      "reasoning_tokens": 2624,
+      "total_tokens": 14498
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33600.15610605478,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10393,
+      "output_tokens": 4105,
+      "reasoning_tokens": 2624,
+      "total_tokens": 14498
+    },
+    "total_duration_ms": 33600.15610605478
+  }
+}

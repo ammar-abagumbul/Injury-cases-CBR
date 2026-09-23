@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCFI 505",
+    "action_number": "HCPI000117/1995",
+    "case_name": "CHUNG MAN YAU AND ANOTHER v. SIHON COMPANY LIMITED",
+    "judgment_date": "1996-08-09",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 39,
+    "age_at_trial": 42,
+    "occupation_before": "hawker of children's garments",
+    "occupation_after": null,
+    "expected_occupation_after": "intended to continue to run that business full time (illegal hawking)",
+    "salary_before": 72100.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "depressed skull fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "right occipital area (skull)",
+        "laterality": "right",
+        "source": [
+          "There was an 8cm long deep laceration at the right occipital area with a depressed skull fracture underneath."
+        ],
+        "icd_code": "NA02.03",
+        "icd_description": "Fracture of squama of occipital bone of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of left fourth and fifth ribs",
+        "injury_type": "Temporary injury",
+        "body_part": "left fourth and fifth ribs",
+        "laterality": "left",
+        "source": [
+          "His left fourth and fifth ribs were also fractured."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "irreparable brain damage / post-concussional syndrome",
+        "injury_type": "Permanent injury",
+        "body_part": "head (brain)",
+        "laterality": null,
+        "source": [
+          "I am satisfied that he did suffer some irreparable brain damage which has had an effect on the strength of his left arm and leg and that he did suffer post-concussional syndrome,",
+          "the several medical reports which are in evidence indicate that as a result of the operation P1 has weakness in his left arm and leg and he suffers from post-concussional syndrome as evidenced by headaches, dizziness and tinnitus."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post-traumatic cranial defect",
+        "injury_type": "Temporary injury",
+        "body_part": "skull / cranial",
+        "laterality": null,
+        "source": [
+          "On the 11th March 1994 P1 was admitted to the same hospital for \"post-traumatic cranial defect\".",
+          "On the 18th March he underwent surgery when an acrylic cover was placed over the hole in his skull."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "multiple superficial injuries/abrasions (occiput, right ring finger, right knee, right chin, left knees, left ankle)",
+        "injury_type": "Temporary injury",
+        "body_part": "occiput; right ring finger; right knee; right chin; left knees; left ankle",
+        "laterality": "bilateral",
+        "source": [
+          "\"tender swelling over occiput",
+          "1cm abrasion over right ring figure",
+          "2cm abrasion over right knee",
+          "2cm abrasion over right chin",
+          "1cm abrasion x 2 over left knee",
+          "2cm abrasion over left ankle.\""
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "weakness in his left arm and leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "post-concussional syndrome (headaches, dizziness and tinnitus)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "numbness of the left fingers",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depression and irritability causing difficulties in his personal relationships",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "gave up driving because of dizziness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "adverse effect on libido",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "tender swelling and multiple abrasions (P2)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Elizabeth Hospital and managed conservatively",
+      "surgery to remove depressed skull fracture (5 November 1993)",
+      "surgery to place acrylic cover over cranial defect (18 March 1994)",
+      "follow-up outpatient treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Weakness in left arm and leg and permanent impairment of the whole person (20% whole person impairment assessed by Judge)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Given up driving because of dizziness",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Family life is affected; depression and irritability causing difficulties in personal relationships",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "Suffers from depression and irritability",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Accident has had an adverse effect on his libido",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Minor abrasions and swelling suffered by P2",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 470000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki v. Leung On",
+        "neutral_citation": null,
+        "action_number": "CA 263 of 1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17754,
+      "output_tokens": 8271,
+      "reasoning_tokens": 6208,
+      "total_tokens": 26025
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45446.42290845513,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17754,
+      "output_tokens": 8271,
+      "reasoning_tokens": 6208,
+      "total_tokens": 26025
+    },
+    "total_duration_ms": 45446.42290845513
+  }
+}

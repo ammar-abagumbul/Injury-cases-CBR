@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 52",
+    "action_number": "HCPI 541/1997",
+    "case_name": "LEE PING FOON v. LI HOI T/A HOI TAT CONSTRUCTION & DECORATION ENGINEERING",
+    "judgment_date": "1998-01-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 55,
+    "age_at_trial": 57,
+    "occupation_before": "carpenter",
+    "occupation_after": "not working",
+    "expected_occupation_after": null,
+    "salary_before": 21700.0,
+    "salary_after": 0.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the right eye had no light perception and it was totally blind.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "the right eye had no light perception and it was totally blind."
+        ],
+        "icd_code": "NA06.8Z",
+        "icd_description": "Traumatic injury to eyeball, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the nail head struck his left eye, resulting in a large corneal laceration.",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "the nail head struck his left eye, resulting in a large corneal laceration."
+        ],
+        "icd_code": "NA06.8D",
+        "icd_description": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "he was then found to have a traumatic cataract so that a third operation for left cataract extraction was performed on 27.2.1995.",
+        "injury_type": "Residual disability",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "he was then found to have a traumatic cataract so that a third operation for left cataract extraction was performed on 27.2.1995."
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "He is now virtually unable to see.",
+        "injury_type": "Residual disability",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "He is now virtually unable to see."
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain watering and photophobia in the left eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "sensitive to wind",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "can barely see and can at best make out a blurred outline of the objects in front of him",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Doctor Paul Cheung considered him to have suffered a 95% disability in his left eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation to repair the lacerated wound and to reposition and suture back the corneal tissue",
+      "second operation on 6.2.1995 for a conjunctival flap",
+      "third operation for left cataract extraction on 27.2.1995",
+      "follow up treatment at the Eye Hospital"
+    ],
+    "treatments_future": [
+      "possible future surgery (doctor observed disability of left eye may be reduced to 70% to 80% by a future surgery at the cost of about $65,000)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Loss of vision in the left eye leaving him virtually blind (the right eye was already totally blind).",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fong Pak Lam v. Chan Tai t/a Tai Yuen",
+        "neutral_citation": "[1987] HKCL E33",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13921,
+      "output_tokens": 6681,
+      "reasoning_tokens": 5184,
+      "total_tokens": 20602
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32566.1246702075,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13921,
+      "output_tokens": 6681,
+      "reasoning_tokens": 5184,
+      "total_tokens": 20602
+    },
+    "total_duration_ms": 32566.1246702075
+  }
+}

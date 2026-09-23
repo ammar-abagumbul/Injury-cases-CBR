@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 262",
+    "action_number": "DCPI 428/2009",
+    "case_name": "THAPA CHHETRI SHANKAR v. HENG MING METAL TRADING LTD",
+    "judgment_date": "2009-10-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "labourer or a causal construction site worker",
+    "occupation_after": "cook",
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "amputation over the tip of the left middle finger; degloving injury of the left middle finger at one-third level of the distal phalanx with bare bone exposed; re-amputation performed.",
+        "injury_type": "Residual disability",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "As a result of the accident, the Plaintiff suffered an injury to his left middle finger, the tip was nearly severed.",
+          "He first attended Pok Oi Hospital where he was diagnosed an amputation over the tip of the left middle finger.",
+          "He was transferred to Tuen Mun Hospital for further examination where it was revealed that a degloving injury of the left middle finger at one-third level of the distal phalanx with bare bone exposed.",
+          "Consequently, re-amputation was performed."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual stiffness in the left middle finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain at the stump",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in cutting and preparing food",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "First attended Pok Oi Hospital",
+      "Transferred to Tuen Mun Hospital for further examination",
+      "Re-amputation was performed",
+      "Sick leaves granted from the date of the accident until 26th March 2007"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation over the tip of the left middle finger; degloving injury and re-amputation leading to impairment of the finger.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty in cutting and preparing food.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Shu Yau v Lo Siu Ling formerly t/a Chi Wo Civil Enginerring Company & another",
+        "neutral_citation": "2002 unrep. HCPI 1336 of 2000",
+        "action_number": null,
+        "injury_description": "the injured person whose left ring finger was 0.7cm shorter than his right ring finger distal phalanx after amputation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Li Wai Ming v Tang Siu Fat t/a Hing Fat Engineering Company and Another",
+        "neutral_citation": "2008 unrep. HCPI 512 of 2006",
+        "action_number": null,
+        "injury_description": "the injured person whose right index finger, the distal phalanx part was amputated",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8128,
+      "output_tokens": 4559,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12687
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36202.46299356222,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8128,
+      "output_tokens": 4559,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12687
+    },
+    "total_duration_ms": 36202.46299356222
+  }
+}

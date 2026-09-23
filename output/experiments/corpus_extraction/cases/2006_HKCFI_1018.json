@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1018",
+    "action_number": "HCPI 142/2002",
+    "case_name": "KWONG WAN KAU v. YUEN WING HONG",
+    "judgment_date": "2006-09-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 41,
+    "age_at_trial": 49,
+    "occupation_before": "Workman II of the Food and Environmental Hygiene Department (FEHD)",
+    "occupation_after": "Retired (with effect from 18 July 2002)",
+    "expected_occupation_after": null,
+    "salary_before": 10175.0,
+    "salary_after": 5200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound fracture of the right distal fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "right distal fibula / right ankle",
+        "laterality": "right",
+        "source": [
+          "X ray films revealed compound fracture of the right distal fibula. Emergency operation was performed and the fracture was fixed with metal implants."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "persistent infection of the wound at the right ankle which took about 10 months to heal",
+        "injury_type": "Temporary injury",
+        "body_part": "right ankle wound",
+        "laterality": "right",
+        "source": [
+          "By reason of persistent infection, the wound at the Plaintiff’s right ankle took about 10 months to heal up."
+        ],
+        "icd_code": "ND12.Z",
+        "icd_description": "Open wound of ankle or foot, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "extensive scarring of the right ankle with resulting gross stiffness",
+        "injury_type": "Permanent injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "He persistently experienced gross stiffness over his right ankle due to extensive scar resulted from the accident."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Cannot stand or walk for long hours",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot climb, squat or lift heavy things",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness on the right lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty in climbing staircases or walking along slopes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Gross stiffness over right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Muscle wasting",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation to fix fracture with metal implants",
+      "Second operation to remove metal implants (7 October 1999)",
+      "Physiotherapy for more than one year",
+      "Occupational therapy until May 2000",
+      "Regular outpatient follow up at the Orthopaedic Department of Queen Elizabeth Hospital"
+    ],
+    "treatments_future": [
+      "Regular follow up (ongoing)"
+    ],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot stand or walk for long hours; difficulty in climbing staircases or walking along slopes",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Weakness on the right lower limb; muscle wasting",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Gross stiffness over right ankle due to extensive scarring",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14630,
+      "output_tokens": 5336,
+      "reasoning_tokens": 4352,
+      "total_tokens": 19966
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29750.120505690575,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14630,
+      "output_tokens": 5336,
+      "reasoning_tokens": 4352,
+      "total_tokens": 19966
+    },
+    "total_duration_ms": 29750.120505690575
+  }
+}

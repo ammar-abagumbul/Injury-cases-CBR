@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 859",
+    "action_number": "HCPI 705/2006",
+    "case_name": "LI YUK CHU v. NG CHUN MING T/A CHUN MING ENGINEERING CO AND ANOTHER",
+    "judgment_date": "2008-10-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 54,
+    "age_at_trial": null,
+    "occupation_before": "Initially worked in a garment factory; since 1995 has undertaken manual work on construction sites",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "quite limited"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration at the back of her scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "it was noted that she had a laceration at the back of her scalp, abrasion wounds on the upper left part of her back and an injury to her right knee and calf such that even now she suffers pain if any weight is placed upon her right leg."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasion wounds on the upper left part of her back",
+        "injury_type": "Temporary injury",
+        "body_part": "upper left part of her back",
+        "laterality": "left",
+        "source": [
+          "it was noted that she had a laceration at the back of her scalp, abrasion wounds on the upper left part of her back and an injury to her right knee and calf such that even now she suffers pain if any weight is placed upon her right leg."
+        ],
+        "icd_code": "NA80.5",
+        "icd_description": "Abrasion of thorax"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "an injury to her right knee and calf such that even now she suffers pain if any weight is placed upon her right leg.",
+        "injury_type": "Residual disability",
+        "body_part": "right knee and calf",
+        "laterality": "right",
+        "source": [
+          "it was noted that she had a laceration at the back of her scalp, abrasion wounds on the upper left part of her back and an injury to her right knee and calf such that even now she suffers pain if any weight is placed upon her right leg."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "suffers pain if any weight is placed upon her right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "restrictions and inconvenience she suffers consequential upon her injuries",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no reasonable prospect that the plaintiff would be able to resume undertaking manual work of the type she had been performing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to the Accident and Emergency Department of the Queen Mary Hospital",
+      "hospitalisation",
+      "outpatient treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10702,
+      "output_tokens": 5188,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15890
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28091.445077210665,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10702,
+      "output_tokens": 5188,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15890
+    },
+    "total_duration_ms": 28091.445077210665
+  }
+}

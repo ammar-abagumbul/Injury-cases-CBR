@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 296",
+    "action_number": "HCPI 1108/1997",
+    "case_name": "SZE SING SIN v. HIP HING CONSTRUCTION CO. LTD.",
+    "judgment_date": "1998-12-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 53,
+    "occupation_before": "labourer / construction site worker",
+    "occupation_after": "odd job worker (sanitary/cleaning duties); subsequently unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 8420.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a fracture of L3 with severe posterior displacement and a marked compression onto the nerve roots in his spinal canal.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L3)",
+        "laterality": null,
+        "source": [
+          "a magnetic resonance imaging study was performed on him on 16th June 1992 which revealed a fracture of L3 with severe posterior displacement and a marked compression onto the nerve roots in his spinal canal."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "marked compression onto the nerve roots in his spinal canal",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar nerve roots",
+        "laterality": null,
+        "source": [
+          "a magnetic resonance imaging study was performed on him on 16th June 1992 which revealed a fracture of L3 with severe posterior displacement and a marked compression onto the nerve roots in his spinal canal.",
+          "Dr Tsoi found ... a marked compression onto the nerve roots in his spinal canal."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post-traumatic degeneration of L2-L3 level",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L2-L3)",
+        "laterality": null,
+        "source": [
+          "there was a definite local tender spot over L3 level of the lumbar spine, which should be caused by the post-traumatic degeneration of L2-L3 level."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe back pain even at rest, worse upon back bending, coughing, and sneezing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Numbness over medial aspect of left thigh",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Weakness over left leg / weakness of muscles over his left ankle",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Stress urinary incontinence when coughing or lifting heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Impaired sexual function with difficulty in having a normal erection",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Inability to lift heavy objects and pain on bending",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Poor tolerance of prolonged sitting and walking; able to sit for half hour with back support then experience numbness at both lower limbs and tightness at the back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to United Christian Hospital",
+      "physiotherapy",
+      "traction treatment",
+      "conservative treatment",
+      "treatment at Haven of Hope Hospital"
+    ],
+    "treatments_future": [
+      "decompression plus anterior spinal fusion from L2-L4",
+      "work reconditioning programme"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 599,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent back pain and lower limb neurological impairment",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Inability to squat, carry heavy objects and stand or sit for more than one hour; poor tolerance of prolonged walking and stairs",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Easily sprain his back during housework; unable to manage heavy loads during housework",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Impaired sexual function with difficulty in having a normal erection; reduced endurance during sexual intercourse",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 485000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20491,
+      "output_tokens": 6964,
+      "reasoning_tokens": 5440,
+      "total_tokens": 27455
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39163.102723658085,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20491,
+      "output_tokens": 6964,
+      "reasoning_tokens": 5440,
+      "total_tokens": 27455
+    },
+    "total_duration_ms": 39163.102723658085
+  }
+}

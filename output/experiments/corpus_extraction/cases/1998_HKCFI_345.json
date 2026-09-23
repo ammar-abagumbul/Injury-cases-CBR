@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 345",
+    "action_number": "HCPI000765/1995",
+    "case_name": "CHING KAM v. AU WING KEUNG AND ANOTHER",
+    "judgment_date": "1998-12-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 46,
+    "age_at_trial": 52,
+    "occupation_before": "decoration Sifu",
+    "occupation_after": "hawker",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": 5000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the plaintiff's right forearm suffered a deep transverse cut.",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "the plaintiff's right forearm suffered a deep transverse cut."
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Some of the muscles and tendons to the plaintiff's right hand were cut through.",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "Some of the muscles and tendons to the plaintiff's right hand were cut through."
+        ],
+        "icd_code": "NC57",
+        "icd_description": "Injury of muscle, fascia or tendon at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the flexor pollicis longus ... had also been cut through in the accident",
+        "injury_type": "Permanent injury",
+        "body_part": "thumb tendons / flexor pollicis longus",
+        "laterality": "right",
+        "source": [
+          "the flexor pollicis longus and the radial nerve of the plaintiff's right hand had also been cut through in the accident"
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "the radial nerve of the plaintiff's right hand had also been cut through in the accident",
+        "injury_type": "Permanent injury",
+        "body_part": "radial nerve of right forearm / right hand",
+        "laterality": "right",
+        "source": [
+          "the flexor pollicis longus and the radial nerve of the plaintiff's right hand had also been cut through in the accident"
+        ],
+        "icd_code": "NC55.2",
+        "icd_description": "Injury of radial nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness and weakness of the thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "an inability to grip objects properly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness of the right thumb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "wasting of the muscles of the right thumb had become more obvious",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "no longer able to have sufficient manipulation of his right hand to perform a decoration Sifu's work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "he is not able to hold a decorator's tools in his right hand with any control or dexterity.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "An operation at Caritas Medical Centre was performed to \"repair the divided structures\", that is, the severed nerves and tendons were sewn back together again.",
+      "medical treatments (costs claimed and awarded $3532)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function of right hand and thumb (stiffness, weakness, numbness and muscle wasting) affecting grip and manipulation.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to continue work as a decoration Sifu and forced to take up work as a hawker.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": "serious injury category (lower end)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui Ki v Leung On & KMB",
+        "neutral_citation": null,
+        "action_number": "Civ App No 263 of 1995",
+        "injury_description": "Court of Appeal guidelines for the \"serious injury\" category",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsang Chin Keung v Lo Tat Kong t/a Hung Kwong Glass Works & Anor",
+        "neutral_citation": null,
+        "action_number": "PI 806 of 1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Sin Sau Mui v Yuen Sai Kwong & Ors",
+        "neutral_citation": null,
+        "action_number": "HCA No A11319 of 1993",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Wan Kwong v Kwan Siu Keung & Anor",
+        "neutral_citation": "[1989] 1HKC 460",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11572,
+      "output_tokens": 6767,
+      "reasoning_tokens": 4800,
+      "total_tokens": 18339
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33272.208504378796,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11572,
+      "output_tokens": 6767,
+      "reasoning_tokens": 4800,
+      "total_tokens": 18339
+    },
+    "total_duration_ms": 33272.208504378796
+  }
+}

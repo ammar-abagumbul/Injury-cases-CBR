@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 1110",
+    "action_number": "DCPI 2479/2016",
+    "case_name": "YIU YUEN YEE v. JOHNSON CLEANING SERVICES CO LTD",
+    "judgment_date": "2019-08-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 61,
+    "occupation_before": "cleaner (or, according to the defendant, the foreman of cleaners)",
+    "occupation_after": "cleaner (two jobs since 23 May 2017)",
+    "expected_occupation_after": null,
+    "salary_before": 11500.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": "not well educated"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "small full thickness tear involving the mid and posterior fibres of the supraspinatus tendon; tendinosis of the anterior part of the tendon",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "A MRI performed on 30 October 2014 showed “small full thickness tear involving the mid and posterior fibres of the supraspinatus tendon” and “tendinosis of the anterior part of the tendon”."
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "full thickness tear of the supraspinatus tendon with moderate muscle atrophy and suspected superior labral tear",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "A further MRI was performed on 21 August 2015 which showed, amongst others, full thickness tear of the supraspinatus tendon with moderate muscle atrophy and suspected superior labral tear."
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "sprain of left shoulder (initial A&E diagnosis)",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "She was diagnosed as having a sprain and was given an injection and was discharged."
+        ],
+        "icd_code": "NC13.5",
+        "icd_description": "Strain or sprain of shoulder joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion of left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent pain in left shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in left shoulder and left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness (complaint)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness (complaint)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "injection (A&E)",
+      "physiotherapy",
+      "occupational therapy",
+      "left shoulder arthroscopic cuff repair",
+      "superior labral repair",
+      "arthroscopic acromioplasty"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual symptoms of intermittent pain, weakness and stiffness in left shoulder with numbness in left shoulder and left hand.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Hing Choi v Yip King On and others",
+        "neutral_citation": null,
+        "action_number": "HCPI263/2006",
+        "injury_description": "traumatic soft tissue injuries to shoulder and back; did not involve any remedial surgery; finding of muscle wasting so residual symptoms were more severe",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14137,
+      "output_tokens": 5727,
+      "reasoning_tokens": 4288,
+      "total_tokens": 19864
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28381.126571446657,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14137,
+      "output_tokens": 5727,
+      "reasoning_tokens": 4288,
+      "total_tokens": 19864
+    },
+    "total_duration_ms": 28381.126571446657
+  }
+}

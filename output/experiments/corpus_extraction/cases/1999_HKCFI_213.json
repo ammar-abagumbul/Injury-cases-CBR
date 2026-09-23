@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 213",
+    "action_number": "HCPI 709/1998",
+    "case_name": "CHONG LEUNG SUNG v. CHAU KAI KEUNG AND OTHERS",
+    "judgment_date": "1999-12-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 55,
+    "age_at_trial": 59,
+    "occupation_before": "Construction worker (regularly called upon to operate pneumatic drills)",
+    "occupation_after": "unable to work",
+    "expected_occupation_after": null,
+    "salary_before": 17778.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Soft tissue damage to the cervical spine / back of the neck",
+        "injury_type": "Permanent injury",
+        "body_part": "neck / cervical spine",
+        "laterality": null,
+        "source": [
+          "all the damage must have been to the soft tissues at the back of the neck and perhaps to some extent there was some compression of the nerve plexus in that part of the body."
+        ],
+        "icd_code": "NA61.Z",
+        "icd_description": "Injury of muscle, fascia or tendon at neck level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Lower cervical disc prolapse (with mild residues) — reported as having resolved",
+        "injury_type": "Residual disability",
+        "body_part": "lower cervical spine",
+        "laterality": null,
+        "source": [
+          "the Plaintiff may have suffered a prolapsed cervical disc but that that had resolved.",
+          "The whole person impairment for the lower cervical disc prolapse with mild residues = 7%."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent neck pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Limited range of movement of the neck (limited flexion, extension and rotation)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over cervical spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness / loss of grip strength in both hands",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Spasm of the neck muscles posteriorly",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual neck pain limiting working tolerance",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and stiffness in the lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "pain-killer / analgesics",
+      "physiotherapy",
+      "NSAID",
+      "occupational therapy",
+      "work hardening programme",
+      "follow-up outpatient clinic visits"
+    ],
+    "treatments_future": [
+      "further physiotherapy (possible)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function and strength of both hands and reduced neck movement (persistent neck pain, limited ROM and weakness of grip)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Using hands around the house is very painful",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to hold down any job, including messenger or caretaker; inability to work due to neck pain and weakness",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14978,
+      "output_tokens": 6108,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21086
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35755.09560108185,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14978,
+      "output_tokens": 6108,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21086
+    },
+    "total_duration_ms": 35755.09560108185
+  }
+}

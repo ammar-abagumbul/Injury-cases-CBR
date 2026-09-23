@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 762",
+    "action_number": "HCPI000570/1998",
+    "case_name": "CHAN KIN KA v. SIU TUNG HUNG AND OTHERS",
+    "judgment_date": "1999-07-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "Painter",
+    "occupation_after": "Caretaker",
+    "expected_occupation_after": "construction worker",
+    "salary_before": 10140.0,
+    "salary_after": 6250.0,
+    "expected_salary_after": 13384.0,
+    "education_level": "Primary 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Removal of traumatic cataract; intra-ocular lens implantation; corneal scarring and resultant permanent impairment of visual function of the left eye.",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "he underwent removal of his traumatic cataract on 28th July 1995 at Queen Elizabeth Hospital and stayed there for about a week.",
+          "An intra-ocular lens was implanted on his left eye on 16th August 1996 at the Hong Kong Eye Hospital.",
+          "A scar was seen at the time of Dr. Cheung's examination on 24th February 1999 measuring about 1mm x 2.5mm at the para-axial area of the cornea at around 1 to 2 o'clock position.",
+          "The left eye was pseudophakic i.e. the crystalline lens had been removed by surgery and replaced by an intra-ocular lens.",
+          "There was persistent blurring of vision in the left eye."
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "There was persistent blurring of vision in the left eye.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The corrected visual acuity in the Plaintiff's left eye could be corrected to 6/9-; since the eye was pseudophakic, the visual acuity of the left eye was considered to be 44% i.e. half of 88% of normal and the permanent disability is thus 56%.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the Plaintiff was suffering from a 56% disability in the left eye which was equivalent to 30% loss of earning capacity and 28% loss of the whole person.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "This meant that the patient could only see things far away but required reading glasses for close objects.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "it would be dangerous for the Plaintiff to work at heights because of his impairment of judgment of distance due to the defective left eye; it was also dangerous for him to work outdoors in sunny conditions as the sun may cause glare causing transient blurring of vision; dangerous to work from heights or operating any potentially dangerous machinery.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency repair of left eye (26th July 1995)",
+      "Removal of traumatic cataract (28th July 1995)",
+      "Intra-ocular lens implantation (16th August 1996)",
+      "Corrective lenses / spectacles"
+    ],
+    "treatments_future": [
+      "YAG laser capsulotomy"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "the Plaintiff was suffering from a 56% disability in the left eye which was equivalent to 30% loss of earning capacity and 28% loss of the whole person.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "I find that the Plaintiff could not have gone back to his pre-accident occupation as a construction worker doing painting work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13266,
+      "output_tokens": 5204,
+      "reasoning_tokens": 3968,
+      "total_tokens": 18470
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45821.39077037573,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13266,
+      "output_tokens": 5204,
+      "reasoning_tokens": 3968,
+      "total_tokens": 18470
+    },
+    "total_duration_ms": 45821.39077037573
+  }
+}

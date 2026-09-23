@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 227; HCA 3642/1983",
+    "action_number": "HCA003642/1983",
+    "case_name": "WONG KAM MAN AND OTHERS v. WONG KAM CHUEN",
+    "judgment_date": "1985-07-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "casual labourer",
+    "occupation_after": "driver of bulldozer",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 3100.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "concussion",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Agreed medical evidence discloses that Plaintiff had a concussion, a period of post-traumatic amnesia, dizziness, a compound fracture of the right humerus (bone of upper arm) and a fracture of right tibia and fibula (bones of the lower leg)."
+        ],
+        "icd_code": "NA07.00",
+        "icd_description": "Concussion with incomplete loss of consciousness with amnesia"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a compound fracture of the right humerus (bone of upper arm)",
+        "injury_type": "Temporary injury",
+        "body_part": "right humerus",
+        "laterality": "right",
+        "source": [
+          "a compound fracture of the right humerus (bone of upper arm)"
+        ],
+        "icd_code": "NC12.Z",
+        "icd_description": "Fracture of shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a fracture of right tibia and fibula (bones of the lower leg)",
+        "injury_type": "Temporary injury",
+        "body_part": "right tibia and fibula",
+        "laterality": "right",
+        "source": [
+          "a fracture of right tibia and fibula (bones of the lower leg)",
+          "The broken limbs were in plaster and the fractured tibia was also secured with a bone plate and screw which were later removed."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "a period of post-traumatic amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "suffered a blackout and only regained conciousness some 5 days later in a hospital bed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sporadic spells of dizziness, particularly after long working hours",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Plaintiff at first walked with crutches, then with a stick and could finally do without them",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "broken limbs were in plaster",
+      "fractured tibia was secured with a bone plate and screw",
+      "removal of bone plate and screw a few months later",
+      "use of crutches and walking stick",
+      "hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 55,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 214,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Plaintiff at first walked with crutches, then with a stick and could finally do without them.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Plaintiff still complains of having sporadic spells of dizziness, particularly after long working hours.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 24000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Wing-In & anr. v. Fonnie Co. Ltd. & anr.",
+        "neutral_citation": null,
+        "action_number": "HCA No. 7175 of 1982",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11560,
+      "output_tokens": 7459,
+      "reasoning_tokens": 6080,
+      "total_tokens": 19019
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41656.03402629495,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11560,
+      "output_tokens": 7459,
+      "reasoning_tokens": 6080,
+      "total_tokens": 19019
+    },
+    "total_duration_ms": 41656.03402629495
+  }
+}

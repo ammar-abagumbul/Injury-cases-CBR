@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 868",
+    "action_number": "HCPI000436/1997",
+    "case_name": "CHUNG CHI WING v. SECRETARY FOR JUSTICE",
+    "judgment_date": "1998-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 32,
+    "age_at_trial": 37,
+    "occupation_before": "Fireman employed by the Fire Services Department",
+    "occupation_after": "Unemployed (at time of trial depended on public assistance)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Impingement of the tendon in his right shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "sustain a very painful sprain to his right shoulder which was later discovered to be an impinged tendon.",
+          "shoulder arthroscopy which revealed an impinged tendon.",
+          "He confirms that the Plaintiff is suffering from impingement of the tendon in his right shoulder."
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Very painful sprain / severe pain in right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness of the right shoulder / severe joint stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Could not raise his arm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "shoulder arthroscopy (3rd January 1994)",
+      "decompression surgery",
+      "manipulation of the shoulder joint under general anaesthesia (June 1994)",
+      "physiotherapy (some 85 sessions)",
+      "initial hospital attendance and drugs"
+    ],
+    "treatments_future": [
+      "repeat shoulder arthroscopy (as suggested by Dr. Lau)",
+      "decompression / tendon repair if impingement / tendon rupture identified"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (agreed as HK$350,000.00).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Past and future loss of earnings including loss of chance of promotion (agreed amounts: HK$14,505.00 for loss of chance of promotion; HK$228,120.00 loss of earnings Apr 1997-Mar 1998; HK$38,020.00 loss of earnings Apr-May 1998; loss of future earnings agreed at HK$1,452,600.00).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of subsidised housing (agreed at HK$140,460.00).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Special damages (agreed at HK$9,250.00).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15438,
+      "output_tokens": 5043,
+      "reasoning_tokens": 3968,
+      "total_tokens": 20481
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29253.430273383856,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15438,
+      "output_tokens": 5043,
+      "reasoning_tokens": 3968,
+      "total_tokens": 20481
+    },
+    "total_duration_ms": 29253.430273383856
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 416",
+    "action_number": "HCPI 318/2010",
+    "case_name": "TANG HO YUEN v. SO HING KWONG AND ANOTHER",
+    "judgment_date": "2011-06-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "technician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "suffered an accident on 21 June 2008 (\"Accident\"). She passed away 2 days later.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Tang Yuk Fun Nancy (“Deceased”) was 24 years old when she suffered an accident on 21 June 2008 (“Accident”). She passed away 2 days later."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "bereavement",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "damages for pain, suffering and loss of amenities (claimed in RSOD in the sum of HK$100,000.00)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "loss of accumulation of wealth (claimed)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "funeral expenses (claimed)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Mother's medical expenses (claimed)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 2
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15417,
+      "output_tokens": 3186,
+      "reasoning_tokens": 2432,
+      "total_tokens": 18603
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26766.26731455326,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15417,
+      "output_tokens": 3186,
+      "reasoning_tokens": 2432,
+      "total_tokens": 18603
+    },
+    "total_duration_ms": 26766.26731455326
+  }
+}

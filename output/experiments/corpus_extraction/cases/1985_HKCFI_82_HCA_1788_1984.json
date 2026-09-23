@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 82; HCA 1788/1984",
+    "action_number": "HCA001788/1984",
+    "case_name": "YANG YI CHAI v. CHENG KAM SHING AND ANOTHER",
+    "judgment_date": "1985-03-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 70,
+    "age_at_trial": null,
+    "occupation_before": "Director of a company whose business was concerned with Chinese antiques and works of art; solely responsible for the purchase of goods for the company and was consulted by customers for his expert opinion; travelled to Mainland China and to the U.S.A. to attend auctions.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5000.0,
+    "salary_after": 5000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff suffered a fracture of the neck of the right femur.",
+        "injury_type": "Permanent injury",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "the Plaintiff suffered a fracture of the neck of the right femur.",
+          "an operation known as an 'Austin Moore' Replacement Arthroplasty was carried out, in lay terms this was the replacement of the human bone at the head of femur by a stainless steel device."
+        ],
+        "icd_code": "NC72.2Z",
+        "icd_description": "Fracture of neck of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "slight limp in walking",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight discomfort and pain over the right hip after walking for 20 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to squat properly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a ½ inch shortening of his right leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight limitation in internal and external rotation of the right hip joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He can walk for little more than 10 minutes and after standing for 10 minutes he has to sit down and rest.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "20% permanent disability resulting from the injury (opinion of Dr Chien)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Elizabeth Hospital on 19th November, 1982",
+      "Transferred to St. Teresa's Hospital",
+      "an operation known as an 'Austin Moore' Replacement Arthroplasty was carried out, in lay terms this was the replacement of the human bone at the head of femur by a stainless steel device.",
+      "nursing care provided by International Nursing Service Ltd."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 42,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain Suffering and Loss of Amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "FLING Siu-fun v. LI Fung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "In that case, the injuries were more extensive than in the present case, although medical opinion assessed the Plaintiff's disability at 20%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "MAN Fok-yung v. MA Shing-man",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Disability of 20% (details unclear from the report); Judge appeared to have awarded about $55,000.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 55000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9071,
+      "output_tokens": 4594,
+      "reasoning_tokens": 3584,
+      "total_tokens": 13665
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27381.57742843032,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9071,
+      "output_tokens": 4594,
+      "reasoning_tokens": 3584,
+      "total_tokens": 13665
+    },
+    "total_duration_ms": 27381.57742843032
+  }
+}

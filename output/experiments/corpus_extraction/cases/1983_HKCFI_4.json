@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 4",
+    "action_number": "HCA003993/1983",
+    "case_name": "CHAU PO KEUNG v. LAW PING AND ANOTHER",
+    "judgment_date": "1983-12-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 17,
+    "age_at_trial": 20,
+    "occupation_before": "operating a vertical power press",
+    "occupation_after": "welder",
+    "expected_occupation_after": null,
+    "salary_before": 910.0,
+    "salary_after": 3120.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "amputation of the right thumb at the interphalangeal joint level with the fracture of the proximal phalanx.",
+        "injury_type": "Permanent injury",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "the accident had amputated the right thumb at the interphalangeal joint level with the fracture of the proximal phalanx.",
+          "The terminal phalanx had been amputated but the proximal phalanx was still present."
+        ],
+        "icd_code": "NC59.0Y",
+        "icd_description": "Other specified traumatic amputation of thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the injury was very painful at the time and that he experienced pain in the stump for about 1 year after the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The plaintiff exercised a 601b grip with his left hand and a 501b grip with his right hand.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "revision amputation under local anaesthesia",
+      "followed up in the outpatients clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 36000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fung Lai-yin v Lai Kam-chiu",
+        "neutral_citation": "HCA 2916/77",
+        "action_number": null,
+        "injury_description": "amputation of two joints of the forefinger.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 22500.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8973,
+      "output_tokens": 4960,
+      "reasoning_tokens": 4096,
+      "total_tokens": 13933
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30979.026962071657,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8973,
+      "output_tokens": 4960,
+      "reasoning_tokens": 4096,
+      "total_tokens": 13933
+    },
+    "total_duration_ms": 30979.026962071657
+  }
+}

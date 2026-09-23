@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 115",
+    "action_number": "HCA001546/1974",
+    "case_name": "LAW KUN MEE v. LAI BUN AND ANOTHER",
+    "judgment_date": "1979-01-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 43,
+    "occupation_before": "Prior to the accident he had worked at the Tsuen Wan Wharf for 6 years.",
+    "occupation_after": "has not worked since the accident",
+    "expected_occupation_after": null,
+    "salary_before": 1000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "1½ inch laceration over the left parietal region",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal region",
+        "laterality": "left",
+        "source": [
+          "1½ inch laceration over the left parietal region"
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "epidural haematoma",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "epidural haematoma"
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusion",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "contusion"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "total blindness of the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "total blindness of the left eye"
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "impairment of vision of the right eye",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "impairment of vision of the right eye"
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "brain injuries",
+        "injury_type": "Residual disability",
+        "body_part": "head/brain",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered head injuries.",
+          "The brain injuries have also caused him to be unsteady on his feet."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "bled from the left ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "impairment of vision of the right eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "total blindness of the left eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impaired mentally",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "unsteady on his feet",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "There is the likelihood that he will suffer from epilepsy in the future",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "total blindness of the left eye",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "impairment of vision of the right eye",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "sexual relations between the plaintiff and his wife have ceased.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "impaired mentally",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "has been unsteady on his feet",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "has not worked since the accident and is only capable of a minimal income",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Law Ngan v. Ng Kai-hau & Anor",
+        "neutral_citation": null,
+        "action_number": "O.J.A. No. 2789 of 1975",
+        "injury_description": "loss of one eye and reduced vision in the other",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Lee Woon-sun v. Wong Kin-keung & Ors",
+        "neutral_citation": null,
+        "action_number": "Civil Appeal No. 26 of 1976",
+        "injury_description": "brain damage",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12726,
+      "output_tokens": 8498,
+      "reasoning_tokens": 7040,
+      "total_tokens": 21224
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44490.01669511199,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12726,
+      "output_tokens": 8498,
+      "reasoning_tokens": 7040,
+      "total_tokens": 21224
+    },
+    "total_duration_ms": 44490.01669511199
+  }
+}

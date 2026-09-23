@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "neutral_citation": "[1976] HKCFI 33",
+    "action_number": "HCA 2957/1975",
+    "case_name": "YEUNG YUK KEE v. KONG TSING BOR",
+    "judgment_date": "1976-07-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "night-club hostess (previously a sewing worker)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The proximal phalanx (i.e. the bone of the finger nearest the hand) of each finger of the plaintiff's right hand was fractured.",
+        "injury_type": "Residual disability",
+        "body_part": "right hand (proximal phalanx of each finger)",
+        "laterality": "right",
+        "source": [
+          "The proximal phalanx (i.e. the bone of the finger nearest the hand) of each finger of the plaintiff's right hand was fractured. An operation was carried out and the fractures fixed by K-wire. A 1\" wound on the index finger was also repaired."
+        ],
+        "icd_code": "NC53.7",
+        "icd_description": "Multiple fractures of fingers"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A 1\" wound on the index finger.",
+        "injury_type": "Temporary injury",
+        "body_part": "right index finger (wound)",
+        "laterality": "right",
+        "source": [
+          "The proximal phalanx (i.e. the bone of the finger nearest the hand) of each finger of the plaintiff's right hand was fractured. An operation was carried out and the fractures fixed by K-wire. A 1\" wound on the index finger was also repaired."
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness of all 3 joints of all 4 fingers.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Her fingers cannot be straightened or clenched into a full grip.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Even after the K-wires were removed, her hand remained painful and swollen for a month or two.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "she still had pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "A medical board assessed a 10% disability in accordance with the Workmen's Compensation Ordinance.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "An operation was carried out and the fractures fixed by K-wire.",
+      "She was discharged from hospital on 7th April. She returned to hospital for the wires to be removed on 26th April. Her hand was bandaged until this time.",
+      "The plaintiff attended hospital for follow-up treatment on 3 occasions, the last occasion, being 28th April, 1975.",
+      "she began consulting a bone-setter on 2nd May. She attended him on an almost daily basis until 2nd December, 1975."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "stiffness of all 3 joints of all 4 fingers. Her fingers cannot be straightened or clenched into a full grip.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9424,
+      "output_tokens": 4746,
+      "reasoning_tokens": 3776,
+      "total_tokens": 14170
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33607.59799182415,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9424,
+      "output_tokens": 4746,
+      "reasoning_tokens": 3776,
+      "total_tokens": 14170
+    },
+    "total_duration_ms": 33607.59799182415
+  }
+}

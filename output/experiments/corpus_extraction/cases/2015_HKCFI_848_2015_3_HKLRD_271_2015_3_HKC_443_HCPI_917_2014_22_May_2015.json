@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 848; [2015] 3 HKLRD 271; [2015] 3 HKC 443; HCPI 917/2014 (22 May 2015)",
+    "action_number": "HCPI 917/2014",
+    "case_name": "CHI YUK PUI v. GRACE MIND CORPORATION LTD T/A TSUNO JAPANESE RESTAURANT",
+    "judgment_date": "2015-05-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 20,
+    "age_at_trial": 24,
+    "occupation_before": "cook",
+    "occupation_after": "driver",
+    "expected_occupation_after": null,
+    "salary_before": 10300.0,
+    "salary_after": 16500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right wrist contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The report from the Accident & Emergency Department of Kwong Wah Hospital, which he attended that night after the accident, stated that he fell with resulting right wrist contusion and that, on examination, his right wrist was swollen and tender."
+        ],
+        "icd_code": "NC51.10",
+        "icd_description": "Contusion of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "residual subluxation / suspected DRUJ instability of right distal radio-ulnar joint (DRUJ)",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "X-ray of the right wrist found widened distal radio-ulnar joint (\"DRUJ\").",
+          "Clinical examination revealed pain on wrist supination and X-ray revealed no definite fracture but suspected DRUJ instability.",
+          "Dr Tio found, on his examination, that the plaintiff suffered from residual subluxation and tenderness over right DRUJ, with minimal reduction in the range of movement."
+        ],
+        "icd_code": "NC54.00",
+        "icd_description": "Dislocation of distal radioulnar joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right wrist was swollen and tender",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain on wrist supination",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual intermittent pain over his right wrist upon paper cutting for over 5 to 10 minutes and upon maintaining a stationary position for over 5 to 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The pain occurred once or twice a week, and lasted a few minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "occasional clicks over his right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "minimal reduction in the range of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "feeling of tiredness of his right wrist after working for about 5 to 10 minutes (later improved to 15 to 20 minutes)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "He was admitted to the Orthopaedics Unit for further management.",
+      "He was provided with a dynacast",
+      "attended the outpatient department for treatment until March 2012",
+      "received physiotherapy treatment from November 2011 to January 2012",
+      "Pre-trial Loss of Earnings & MPF awarded $71,703.45",
+      "Special damages awarded $4,640.00",
+      "Employees' compensation awarded $72,328.00 (credit granted)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chung Hok Sung v Li Kam Ming and Or.",
+        "neutral_citation": null,
+        "action_number": "HCPI 393 of 1995",
+        "injury_description": "more serious injuries involving fractures",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Bo Ling v Chan Po",
+        "neutral_citation": null,
+        "action_number": "DCPI 179 of 2007",
+        "injury_description": "more serious injuries involving fractures",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14078,
+      "output_tokens": 5963,
+      "reasoning_tokens": 4480,
+      "total_tokens": 20041
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39704.706218093634,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14078,
+      "output_tokens": 5963,
+      "reasoning_tokens": 4480,
+      "total_tokens": 20041
+    },
+    "total_duration_ms": 39704.706218093634
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1421",
+    "action_number": "HCPI 135/2012",
+    "case_name": "WONG MAN LUNG JOEY v. LIU TSZ MING",
+    "judgment_date": "2015-08-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": 39,
+    "occupation_before": "Tourist bus driver for Union Tourist Rental Car Limited (from 9 January 2009 up to the time of the accident)",
+    "occupation_after": "Security guard",
+    "expected_occupation_after": null,
+    "salary_before": 13220.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Educated up to Form 4 level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "chest injury",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "The provisional diagnosis was chest injury and analgesic drugs were prescribed."
+        ],
+        "icd_code": "NB3Z",
+        "icd_description": "Injuries to the thorax, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "neck sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the plaintiff was diagnosed as suffering from (i) chest injury, (ii) neck sprain, and (iii) back pain;"
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "back pain",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "He was suffering from the symptoms of chest and back injuries."
+        ],
+        "icd_code": "NB94.Z",
+        "icd_description": "Injury of muscle, fascia or tendon of abdomen, lower back or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "joint pain in right shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "On 10 April 2009, he attended the A&E Department of Alice Ho Miu Ling Nethersole Hospital (“NH”) complaining of right shoulder and low back pain. On physical examination, he was diagnosed as suffering from joint pain in right shoulder and was treated and discharged on the same day."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "desiccation of C5/6, C6/7 discs with right posterolateral protrusion probably causing impingement on the right C6 nerve root",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C5/6, C6/7)",
+        "laterality": "right",
+        "source": [
+          "MRI of the cervical spine was performed showing desiccation of C5/6, C6/7 discs with right posterolateral protrusion probably causing impingement on the right C6 nerve root, no significant cervical cord compression."
+        ],
+        "icd_code": "NA40",
+        "icd_description": "Injury of nerve root of cervical spine"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "adjustment disorder with depressed mood",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "The plaintiff had suffered from an adjustment disorder with depressed mood according to the DSM-IV diagnostic criteria. It was compatible that the adjustment disorder was caused by the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "chest pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neck stiffness and pain on rotation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased neck rotation to the left",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right upper limb pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "right arm numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "right upper limb weakness with muscle power grade 4+/5 in all myotomes",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "right C5 dermatome decreased light touch sensation",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "tenderness at paraspinal muscles and trapezius",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limited neck movements",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "reduced concentration and motivation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "low mood / depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "social withdrawal",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "occasional vague auditory hallucinations and seeing shadows (described as 'non-existing voices and shadows')",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance and analgesic medication (5 April 2009)",
+      "Physiotherapy (1st course: 17 April 2009 to 28 October 2009) - 33 sessions",
+      "Physiotherapy (2nd course: 22 January 2010 to 26 May 2010) - 18 sessions",
+      "Work hardening program / Occupational Therapy (16 October 2009 to 4 December 2009)",
+      "Out-patient follow-up at Orthopaedics & Traumatology",
+      "Pain clinic attendance and trigger point injection (29 April 2010)",
+      "Psychiatric outpatient treatment with medications (mirtazapine, quetiapine, diazepam, clonazepam, alprazolam) and regular psychiatric follow-up",
+      "MRI of cervical spine (5 December 2009)"
+    ],
+    "treatments_future": [
+      "Continuous psychiatric treatment required to optimize control of mood disorder",
+      "Drs opined psychiatric follow-up seemingly for a period of 1 to 2 years at an average interval of once in four weeks (public clinic)"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Kwok Sui Shum Dorathy v Hui Lam Ho and Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI No 375 of 2001",
+        "injury_description": "Whiplash injury; developed mild psychiatric condition (anxiety and depressive problems)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 240000.0
+      },
+      {
+        "case_name": "Chan So Kwan v Mak Siu Kwan Victor & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI No 1487 of 2000",
+        "injury_description": "Whiplash injury, chest pain, headache, dizziness, neck pain with occasional spasm, limitation of neck movement and generalized anxiety disorder; plaintiff unable to resume pre-accident job as bus captain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Wong Yan Lam v Lam Wing Kei",
+        "neutral_citation": null,
+        "action_number": "HCPI Nos 438 and 439 of 2009",
+        "injury_description": "Multiple contusions to neck, right shoulder and low back; later sprained neck and right shoulder pain; psychiatrists agreed she had post-traumatic stress disorder",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20822,
+      "output_tokens": 9231,
+      "reasoning_tokens": 6656,
+      "total_tokens": 30053
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47965.742871165276,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20822,
+      "output_tokens": 9231,
+      "reasoning_tokens": 6656,
+      "total_tokens": 30053
+    },
+    "total_duration_ms": 47965.742871165276
+  }
+}

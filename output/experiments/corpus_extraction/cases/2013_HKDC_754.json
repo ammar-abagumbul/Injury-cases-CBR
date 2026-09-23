@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 754",
+    "action_number": "DCPI 353/2012",
+    "case_name": "OU JIANPING v. HONG KONG HOUSING AUTHORITY",
+    "judgment_date": "2013-06-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "housewife; previously worked as a security guard (temporary), home helper and a kitchen worker",
+    "occupation_after": "housewife",
+    "expected_occupation_after": null,
+    "salary_before": 5000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe injury to her left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "As a result of the accident, the plaintiff sustained severe injury to her left knee."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing poliomyelitis of the left lower limb resulting in pre-existing weakness, limb discrepancy and ankle deformity",
+        "injury_type": "Permanent injury",
+        "body_part": "left lower limb",
+        "laterality": "left",
+        "source": [
+          "In the present case, there is no dispute between Dr Wong and Dr Lee that theplaintiff had pre-existing poliomyelitis.",
+          "Dr Lee opines that the pre-existing weakness and shortening of the plaintiff's left limb was due to poliomyelitis. The muscle weakness, limb discrepancy and ankle deformity are the result of the pre-existing poliomyelitis.",
+          "Dr Wong opines that the poliomyelitis of the left lower limb largely accounts for the chronic muscle disuse and leg discrepancy of her left lower limb."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "could not stand up",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "knee bumped against the metal cover of the ditch",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "5 scars from surgery in China in 1990 while she had 2 scars from the surgery after the accident",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The CT scan taken on 8 April 2010 show osteopenia and muscle atrophy indicating chronic disuse.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "muscle weakness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limb discrepancy",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "ankle deformity",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "would walk less stable than an ordinary person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "14-days stay at the Tuen Mun Hospital",
+      "surgery after the accident (resulting in 2 scars)",
+      "periodic consultations at the Tuen Mun Hospital"
+    ],
+    "treatments_future": [
+      "operation to remove the metal implant in her left leg (Dr Wong suggests; cost around HK$30,000 to HK$40,000 if performed in the private sector)",
+      "the best institute to carry out the operation will be the Tuen Mun Hospital (as stated in judgment)"
+    ],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 210000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10694,
+      "output_tokens": 5606,
+      "reasoning_tokens": 4416,
+      "total_tokens": 16300
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34316.03217869997,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10694,
+      "output_tokens": 5606,
+      "reasoning_tokens": 4416,
+      "total_tokens": 16300
+    },
+    "total_duration_ms": 34316.03217869997
+  }
+}

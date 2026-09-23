@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "neutral_citation": "[1993] HKCFI 204; HCA 6551/1986 (12 May 1993)",
+    "action_number": "HCA006551/1986",
+    "case_name": "TIN WAI SHING AND OTHERS v. TAM FOON LING TRADING AS THE WORLD REFRIGERATION (HONG KONG) CO.",
+    "judgment_date": "1993-05-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 15,
+    "age_at_trial": 24,
+    "occupation_before": "air-conditioning apprentice",
+    "occupation_after": "employee at Tai Fat Hong (decoration company) doing cleaning and tidying worksites, moving furniture, transporting materials",
+    "expected_occupation_after": "technician",
+    "salary_before": 1300.0,
+    "salary_after": 4680.0,
+    "expected_salary_after": null,
+    "education_level": "Form 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to left eye resulting in total visual impairment of the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "A piece of small metal object had hit his left eye.",
+          "On 17 August 1984, a Medical Board had assessed his loss of earning capacity at 30% and he also suffered a total visual impairment of the left eye.",
+          "His left eye can now only see with blurred vision."
+        ],
+        "icd_code": "NA06.82",
+        "icd_description": "Closed eyeball trauma, unilateral"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "His left eye can now only see with blurred vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has to avoid bright light because that would cause water or tears in the eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "watering or tears in the eye on exposure to bright light",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "total visual impairment of the left eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dares not to run across the road because only one eye could see the traffic",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot play table tennis and snooker which he played before the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalization",
+      "operation to remove the cataract (11 April)",
+      "follow-up treatment",
+      "spectacles as an aid to right eye"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "cannot play table tennis and snooker which he played before the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "dares not to run across the road because only one eye could see the traffic",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10510,
+      "output_tokens": 4906,
+      "reasoning_tokens": 3840,
+      "total_tokens": 15416
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23907.72007033229,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10510,
+      "output_tokens": 4906,
+      "reasoning_tokens": 3840,
+      "total_tokens": 15416
+    },
+    "total_duration_ms": 23907.72007033229
+  }
+}

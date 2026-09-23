@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 342",
+    "action_number": "DCPI 1288/2007",
+    "case_name": "LI CHI LAP v. TAM MAN KUEN AND ANOTHER",
+    "judgment_date": "2008-12-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "hairstylist",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The plaintiff sustained two lacerations on his right forehead and abrasions with bruise on his face. He received sutures for the two lacerations. He was discharged from the hospital 17 hours after admission. On page 5 of the joint medical report prepared by Drs Lau and Lam in February 2008, they found two mature, well-healed scars of 1 cm and 1.5 cm on the plaintiff’s right forehead and less obvious mature scars over his right face.",
+        "injury_type": "Permanent injury",
+        "body_part": "right forehead and right face",
+        "laterality": "right",
+        "source": [
+          "The plaintiff sustained two lacerations on his right forehead and abrasions with bruise on his face. He received sutures for the two lacerations. He was discharged from the hospital 17 hours after admission. On page 5 of the joint medical report prepared by Drs Lau and Lam in February 2008, they found two mature, well-healed scars of 1 cm and 1.5 cm on the plaintiff’s right forehead and less obvious mature scars over his right face.",
+          "Dr Lau further assessed the plaintiff to have suffered from 2 per cent permanent impairment of the whole person (1 per cent for the head injury, and 1 per cent for the neck), while Dr Lam considered Mr Li had fully recovered and suffered no permanent impairment."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Pain over the right side of his neck two or four weeks after the accident consistent with injury to the neck muscle (whiplash).",
+        "injury_type": "Residual disability",
+        "body_part": "right side of neck",
+        "laterality": "right",
+        "source": [
+          "He also told the two doctors that he suffered from pain over the right side of his neck two or four weeks after the accident. The pain would occur once a month for a duration of half a day. He would need a rest during these attacks.",
+          "Dr Lau considered that the neck muscle must have been hurt at the time of the accident. It is generally known as a whiplash injury.",
+          "Dr Lau further assessed the plaintiff to have suffered from 2 per cent permanent impairment of the whole person (1 per cent for the head injury, and 1 per cent for the neck), while Dr Lam considered Mr Li had fully recovered and suffered no permanent impairment."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "two mature, well-healed scars of 1 cm and 1.5 cm on the plaintiff’s right forehead and less obvious mature scars over his right face.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Occasional pain over the right forehead at a frequency of once or twice a month, each lasting a few hours. He would need a rest during these attacks.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain over the right side of his neck two or four weeks after the accident. The pain would occur once a month for a duration of half a day. He would need a rest during these attacks.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He had been an occasional sufferer of headaches even before the accident, but they have become more frequent after the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the plaintiff has suffered some degree of decreased efficiency at work due to the residual pain or intermittent pain in his head and neck.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sutures for the two lacerations",
+      "discharged from the hospital 17 hours after admission",
+      "sought Chinese herbalist cures"
+    ],
+    "treatments_future": [
+      "physiotherapy (recommended)",
+      "painkillers",
+      "occasional herbalist visits"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 14,
+    "sick_leave_days_expected": 42
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Two scars on the right forehead (1 cm and 1.5 cm) and less obvious scars over the right face causing cosmetic impairment and requiring concealment by hair.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual headaches and neck pain causing reduced enjoyment of life and decreased efficiency at work.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Tsz Sing",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "The victim in that case suffered from multiple abrasion scars on the forehead which were irregular in contour. In addition, there was an obvious scar measuring 5 x 25 millimetres immediately below the right eyebrow with irregular surface and margin, elevated and more pigmented than the adjacent skin. The cosmetic impairment was assessed by the defendant’s doctor at 5 per cent (see paragraphs 5 and 8 on pages 2 and 3 of the judgment of Stone J of 31 January 2005).",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11701,
+      "output_tokens": 7022,
+      "reasoning_tokens": 5312,
+      "total_tokens": 18723
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53747.74854257703,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11701,
+      "output_tokens": 7022,
+      "reasoning_tokens": 5312,
+      "total_tokens": 18723
+    },
+    "total_duration_ms": 53747.74854257703
+  }
+}

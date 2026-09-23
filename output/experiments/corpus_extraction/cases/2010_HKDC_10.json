@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 10",
+    "action_number": "DCPI 1031/2008",
+    "case_name": "HUNG CHI WAH v. YAU KA LUN ALAN AND OTHERS",
+    "judgment_date": "2010-01-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "running his own business of driving a van to deliver goods for others",
+    "occupation_after": "administrative officer in his own transportation business",
+    "expected_occupation_after": null,
+    "salary_before": 13500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "rupture of the left brachial artery",
+        "injury_type": "Residual disability",
+        "body_part": "left brachial artery",
+        "laterality": "left",
+        "source": [
+          "At the time of the accident he sustained a rupture of the left brachial artery."
+        ],
+        "icd_code": "NC15.Y",
+        "icd_description": "Injury of other specified blood vessels at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "laceration of his left arm",
+        "injury_type": "Temporary injury",
+        "body_part": "left arm",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff suffered multiple injuries: a laceration of his left arm and a laceration of his left ear."
+        ],
+        "icd_code": "NC11.0",
+        "icd_description": "Laceration without foreign body of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "laceration of his left ear",
+        "injury_type": "Temporary injury",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff suffered multiple injuries: a laceration of his left arm and a laceration of his left ear."
+        ],
+        "icd_code": "NA0B",
+        "icd_description": "Injury of the auricle"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "surgical scar in the left forearm",
+        "injury_type": "Residual disability",
+        "body_part": "left forearm",
+        "laterality": "left",
+        "source": [
+          "It left a surgical scar in the left forearm."
+        ],
+        "icd_code": "NC30.Y",
+        "icd_description": "Other specified superficial injury of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over the scar on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "range of motion of his left elbow was almost fully recovered",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "muscle power was satisfactory",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "3% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "slight decrease in efficiency in his work productivity when he has to carry heavy load with his arms",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation",
+      "Repair operation on torn left brachial artery by resection of the damaged part of the artery",
+      "suturing of left ear laceration",
+      "long arm back slab",
+      "follow-up and physiotherapy treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 142,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "surgical scar in the left forearm; pain over the scar on exertion",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "rupture of the left brachial artery and resulting slight decrease in efficiency when carrying heavy loads",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ngai Lung Hing v. Gowin Engineering Co. Ltd. & anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 211 of 2005",
+        "injury_description": "the grinder bounced from the plank and the blade cut deeply into his right forearm. The injury comprised a 70% cut of the brachioradialis muscle bulk, similarly of the extensor crapi radials longus and extensor crapi radials brevis. Suturing was undertaken of the muscle bulk",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12866,
+      "output_tokens": 5746,
+      "reasoning_tokens": 4224,
+      "total_tokens": 18612
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41878.21797281504,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12866,
+      "output_tokens": 5746,
+      "reasoning_tokens": 4224,
+      "total_tokens": 18612
+    },
+    "total_duration_ms": 41878.21797281504
+  }
+}

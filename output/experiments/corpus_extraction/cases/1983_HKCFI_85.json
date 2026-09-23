@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 85",
+    "action_number": "HCA003703/1982",
+    "case_name": "NG CHUNG WING ALEXANDER, JR v. SIU PIK PU AND OTHERS",
+    "judgment_date": "1983-02-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "driver both of his employer's car and of a truck",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the facial injuries had resulted in a continuous circular scar some two inches in diameter by the left corner of the Plaintiff's mouth.",
+        "injury_type": "Permanent injury",
+        "body_part": "left corner of the Plaintiff's mouth",
+        "laterality": "left",
+        "source": [
+          "After nine months the Plaintiff was examined by Dr Wedderburn who, apart from an infection of the gum and certain teeth, found that the facial injuries had resulted in a continuous circular scar some two inches in diameter by the left corner of the Plaintiff's mouth."
+        ],
+        "icd_code": "NA00.4",
+        "icd_description": "Superficial injury of lip or oral cavity"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "division of the end nerve fibres running to the orbicularis oris which is semi-paralysed on the left side",
+        "injury_type": "Permanent injury",
+        "body_part": "orbicularis oris (circular muscle around the mouth) on the left side",
+        "laterality": "left",
+        "source": [
+          "\"This is due to a division of the end nerve fibres running to the orbicularis oris which is semi-paralysed on the left side."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "It is an obvious disfigurement.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "On opening his mouth the left side is pulled upwards in a marked manner as compared to the right and the left corner of the mouth also moves upwards in a very distinct difference from the right side of the mouth when he smiles or grimaces.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "This is due to a paralysis of the circular muscle around the mouth, the orbicularis oris, on the left side.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He tends to dribble food from the left corner of the mouth when eating and at night his pillow tends to be soaked with saliva.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He is embarrassed at social gatherings and feels people stare at him.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to hospital",
+      "wounds sutured"
+    ],
+    "treatments_future": [
+      "cosmetic surgery to improve scar (advised by Dr Raymond Wang)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 30,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "the Plaintiff's face carries a disfiguring scar of a distinctive shape",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "paralysis of the circular muscle around the mouth, the orbicularis oris, on the left side causing dribbling of food from the left corner of the mouth when eating",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He is embarrassed at social gatherings and feels people stare at him.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chen Shueh Chen v Tam Wai Chon",
+        "neutral_citation": null,
+        "action_number": "No. 3256 of 1978",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8898,
+      "output_tokens": 6090,
+      "reasoning_tokens": 4736,
+      "total_tokens": 14988
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44223.74552115798,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8898,
+      "output_tokens": 6090,
+      "reasoning_tokens": 4736,
+      "total_tokens": 14988
+    },
+    "total_duration_ms": 44223.74552115798
+  }
+}

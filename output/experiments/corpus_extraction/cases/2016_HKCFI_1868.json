@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1868",
+    "action_number": "HCPI 110/2015",
+    "case_name": "CHEN BIJUN v. SO YEE CHUN",
+    "judgment_date": "2016-11-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "painter doing renovation works",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 21400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Chest wall contusion",
+        "injury_type": "Residual disability",
+        "body_part": "chest",
+        "laterality": "bilateral",
+        "source": [
+          "P was sent to the Accident & Emergency Department of Pamela Youde Nethersole Eastern Hospital (“the hospital”) for chest wall contusion. P had landed on his chest when he fell. Physical examination showed tenderness over bilateral anterior chest wall. X‑ray revealed fractured left 3rd rib and mild cortical buckling over right 6th rib. He was referred to the Surgical ward for further management. He was discharged from the hospital on 19 July 2013."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractured left 3rd rib",
+        "injury_type": "Residual disability",
+        "body_part": "left 3rd rib",
+        "laterality": "left",
+        "source": [
+          "X‑ray revealed fractured left 3rd rib",
+          "Their diagnosis was non‑displaced fracture over right 5th to 7th ribs and left 3rd rib."
+        ],
+        "icd_code": "NA82.3Y",
+        "icd_description": "Other specified fracture of rib"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Non‑displaced fracture over right 5th to 7th ribs / mild cortical buckling over right 6th rib",
+        "injury_type": "Residual disability",
+        "body_part": "right ribs",
+        "laterality": "right",
+        "source": [
+          "X‑ray revealed ... mild cortical buckling over right 6th rib.",
+          "Their diagnosis was non‑displaced fracture over right 5th to 7th ribs and left 3rd rib."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "brief loss of consciousness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over bilateral anterior chest wall",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent right chest pain with dull ache, particularly during change of weather, after work, and on exertion from lifting heavy objects of up to 20 to 30 catties, as well as from painting for 1 – 2 hours",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "requires rest when he experience chest pain; limited ability to work; decreased efficiency and capacity in heavy lifting and carrying, frequent climbing up and down and prolonged elevation of upper limbs when painting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department attendance at Pamela Youde Nethersole Eastern Hospital",
+      "Referral to Surgical ward",
+      "Specialist Out‑Patient clinic follow‑up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 406,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Intermittent chest pain and tenderness affecting ability to lift heavy objects, causing need for rest and discomfort on exertion",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced competitiveness in the labour market and decreased efficiency and capacity for painting work due to discomfort and need for rest",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Wai Chun v Tam Chi Wai",
+        "neutral_citation": null,
+        "action_number": "HCPI 1352/2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chung Chun Man v Chow Wai Kin",
+        "neutral_citation": null,
+        "action_number": "HCPI 713/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chi Ming v Sze Hing Sang",
+        "neutral_citation": null,
+        "action_number": "HCPI 531/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20725,
+      "output_tokens": 6427,
+      "reasoning_tokens": 4800,
+      "total_tokens": 27152
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47754.48150187731,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20725,
+      "output_tokens": 6427,
+      "reasoning_tokens": 4800,
+      "total_tokens": 27152
+    },
+    "total_duration_ms": 47754.48150187731
+  }
+}

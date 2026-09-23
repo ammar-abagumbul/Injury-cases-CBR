@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 59",
+    "action_number": "DCPI 131/2010",
+    "case_name": "SEN HEM PRATAP v. HANG YUE ENGINEERING LTD",
+    "judgment_date": "2012-02-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 33,
+    "age_at_trial": 37,
+    "occupation_before": "steelworker",
+    "occupation_after": "general labourer",
+    "expected_occupation_after": null,
+    "salary_before": 10740.0,
+    "salary_after": 12081.89,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A small metallic foreign body was found over his right cornea with removal done.",
+        "injury_type": "Temporary injury",
+        "body_part": "right cornea",
+        "laterality": "right",
+        "source": [
+          "A small metallic foreign body was found over his right cornea with removal done."
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "he sustained right eye injury and a permanent scar was left at his right eye pupil.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "he sustained right eye injury and a permanent scar was left at his right eye pupil.",
+          "they conducted an examination on Pratap on 9 November 2010 and found that there were 3 non-axial corneal scars at the cornea of the right eye and thus Pratap must have suffered from more than one episodes of foreign body lodging onto the cornea in the past."
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and burning sensation at his right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Insomnia (he could not sleep well at night because of the pain and burning sensation)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Visual power is very poor; he has to wear spectacles now or he is unable to read the number of the bus route even the bus is right in front of him",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left eye anterior uveitis causing epiphora, photophobia and blurred vision (unrelated to the Accident)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "removal of foreign body from right cornea",
+      "oral analgesics",
+      "referral to Tuen Mun Eye Centre",
+      "medical and follow-up sessions (15 sessions between 13 November 2008 and 7 September 2009)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 30,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent scar left at his right eye pupil",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Wai Hung v King Rise Engineering Ltd & Another",
+        "neutral_citation": "[2005] HKEC 935",
+        "action_number": null,
+        "injury_description": "right corneal abrasion (a fragment of the nail hit and injured his right eye)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Nam Cheuk Yin v Ng Yim Hing trading as Best Choice Beauty Centre",
+        "neutral_citation": "[2003] 2 HKLRD 195",
+        "action_number": null,
+        "injury_description": "eye injured in a facial treatment; no visual function impairment, only discomfort in dry and windy condition",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 8000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16470,
+      "output_tokens": 4951,
+      "reasoning_tokens": 3648,
+      "total_tokens": 21421
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36142.71976798773,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16470,
+      "output_tokens": 4951,
+      "reasoning_tokens": 3648,
+      "total_tokens": 21421
+    },
+    "total_duration_ms": 36142.71976798773
+  }
+}

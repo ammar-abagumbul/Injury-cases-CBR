@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 990",
+    "action_number": "HCPI 872/2000",
+    "case_name": "KWAN SHEK SANG v. CHAN KAM WAH T/A WING WAH AIR-CONDITIONING ENGINEERING (A FIRM)",
+    "judgment_date": "2003-06-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 45,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right corneal paraxial scar and penetrating metallic foreign body to the right eye/right cornea.",
+        "injury_type": "Permanent injury",
+        "body_part": "right cornea",
+        "laterality": "right",
+        "source": [
+          "when a piece of metal fragment flew into the plaintiff's right eye while the plaintiff was using a portable hand held metal grinder to cut off iron bars.",
+          "On examination, the plaintiff was found to have a metallic foreign body embedded on the left half of his right cornea.",
+          "removal of that foreign body was done.",
+          "when the plaintiff was last seen on 30 April 1999, examination revealed a right corneal paraxial scar and the vision of the right eye was 6/12. The permanent visual impairment of the right eye was 15%.",
+          "Dr Ho also expressed his opinion that the corneal scar is permanent in nature."
+        ],
+        "icd_code": "NA06.8D",
+        "icd_description": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "His examination indicated that the plaintiff's impaired right eye central vision to be 20/80 best corrected.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The impaired peripheral vision of the right eye suggests that half of the left visual field was missing in the right eye.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There was also impaired colour vision in the right eye.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he will have difficulty in perception of depth and judging distances",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Examination at Accident and Emergency Unit of Eastern Hospital",
+      "Urgent referral to a specialist eye clinic",
+      "Removal of corneal foreign body",
+      "Ophthalmological follow-up examinations (including by Dr C.C. Wong, Dr Patrick C.P. Ho and Dr Paul M.K. Cheung)",
+      "MRI and fundus angiographic study"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent visual impairment of the right eye with corneal paraxial scar, impaired central vision, impaired colour vision and a visual field defect; difficulty in perception of depth and judging distances.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Limitation in ability to carry out pre-accident work requiring depth perception and distance judgment; restricted to jobs requiring good vision in one eye.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13391,
+      "output_tokens": 4736,
+      "reasoning_tokens": 3648,
+      "total_tokens": 18127
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29204.576835036278,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13391,
+      "output_tokens": 4736,
+      "reasoning_tokens": 3648,
+      "total_tokens": 18127
+    },
+    "total_duration_ms": 29204.576835036278
+  }
+}

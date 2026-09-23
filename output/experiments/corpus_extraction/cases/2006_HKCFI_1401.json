@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1401",
+    "action_number": "HCPI 384/2005",
+    "case_name": "OR CHUN KWONG v. FU SAU LUN, JASON AND OTHERS",
+    "judgment_date": "2006-12-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 28,
+    "age_at_trial": null,
+    "occupation_before": "self-employed night shift driver of public light bus",
+    "occupation_after": "cross-border driver",
+    "expected_occupation_after": null,
+    "salary_before": 22100.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right shoulder acromio-clavicular joint subluxation",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was right shoulder acromio-clavicular joint subluxation.",
+          "he underwent 3 operations to re-align his dislocated right shoulder acromio-clavicular joint.",
+          "3 to 4% permanent impairment of the whole person estimated by both doctors."
+        ],
+        "icd_code": "NC13.1",
+        "icd_description": "Dislocation of acromioclavicular joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "There might be a mild reduction in his capacity with possibly the presence of mild discomfort in the right shoulder after unduly prolonged driving activities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild reduction in his capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he would suffer from shoulder pain if his right shoulder was strapped by the seatbelt for prolonged period and he had to lean forward to reach for the coin box so as to give change to the passengers from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he was under psychological pressure when driving PLB again after the accident; he was \"adverse to driving along Tsuen Wan to Tuen Mun of Castle Peak Road or two-way road with single way on each carriageway\"",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "3 to 4% permanent impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "surgery (3 operations to re-align dislocated right shoulder acromio-clavicular joint)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 31,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 180,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Liu Jianhui v Mayho Graham",
+        "neutral_citation": "HCPI 350/1999",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tse Kwok Keung v Swedish Motors Limited and another",
+        "neutral_citation": "HCPI 759/1999",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10137,
+      "output_tokens": 4795,
+      "reasoning_tokens": 3712,
+      "total_tokens": 14932
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32170.07928714156,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10137,
+      "output_tokens": 4795,
+      "reasoning_tokens": 3712,
+      "total_tokens": 14932
+    },
+    "total_duration_ms": 32170.07928714156
+  }
+}

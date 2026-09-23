@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 292",
+    "action_number": "HCPI 1018/2006",
+    "case_name": "MUHAMMAD SADDIQ v. CHEUNG CHI KEUNG",
+    "judgment_date": "2008-04-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": 34,
+    "occupation_before": "Self-employed transportation business owner / LGV driver",
+    "occupation_after": "Office assistant",
+    "expected_occupation_after": "Self-employed transportation business (LGV driver) with a full-time labourer",
+    "salary_before": 18500.0,
+    "salary_after": 5500.0,
+    "expected_salary_after": 11500.0,
+    "education_level": "Secondary education (in Pakistan)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Whiplash injury to his neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "He suffers a whiplash injury to his neck as well as a sprained back."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Sprained back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar region",
+        "laterality": null,
+        "source": [
+          "He suffers a whiplash injury to his neck as well as a sprained back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Minimal spondylosis in his upper lumbar region (degenerative change)",
+        "injury_type": "Permanent injury",
+        "body_part": "upper lumbar spine",
+        "laterality": null,
+        "source": [
+          "The October 2007 MRI scan reveals that Mr. Saddiq has minimal spondylosis in his upper lumbar region."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He felt dizzy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain at his back and neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He now feels pain when he bends his neck.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his lower back pain has prevented him from sitting down for longer than one hour.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "range of movement (ROM) of his neck was still limited",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "minimal spondylosis in his upper lumbar region (MRI finding)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Hospitalisation at United Christian Hospital (admitted after accident, discharged 2005-04-08)",
+      "Physiotherapy (17 sessions: application of hot pack and exercises, April to July 2005)",
+      "Analgesics (Tuen Mun Hospital visits in early 2006)",
+      "MRI scans (June 2006; October 2007)"
+    ],
+    "treatments_future": [
+      "Outpatient medical treatment and painkillers (judge assessed future reasonable treatment limited to outpatient care and painkillers)"
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 361,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Not fit to lift heavy objects as a result of the back injury; has residual back pain limiting heavy lifting",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduction in ability to operate his one-man transportation business without hiring a labourer, resulting in reduced profit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Joan Carol Boivin v Wong King Yin",
+        "neutral_citation": null,
+        "action_number": "HCPI 195 of 2000 (unrep.)",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Liu Chun Kow Joe v Lee San Wing",
+        "neutral_citation": null,
+        "action_number": "HCPI 399 of 2001 (unrep.)",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ali Shoukat v Hang Seng Bank Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 3/2003 (unrep.)",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15625,
+      "output_tokens": 6941,
+      "reasoning_tokens": 5312,
+      "total_tokens": 22566
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49429.004818201065,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15625,
+      "output_tokens": 6941,
+      "reasoning_tokens": 5312,
+      "total_tokens": 22566
+    },
+    "total_duration_ms": 49429.004818201065
+  }
+}

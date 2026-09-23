@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 690",
+    "action_number": "HCPI 375/2001",
+    "case_name": "KWOK SUI SHUM DOROTHY v. HUI LAM HO AND ANOTHER",
+    "judgment_date": "2002-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 37,
+    "age_at_trial": null,
+    "occupation_before": "Accounting work for Tupperware Asia Pacific (a division of Premiere Products Incorporated)",
+    "occupation_after": "Insurance agent; assisting at Bishi Mizuiki with accounts and other work",
+    "expected_occupation_after": null,
+    "salary_before": 47000.0,
+    "salary_after": 29605.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Madam Kwok sustained a soft tissue injury (often termed \"whiplash\") to her neck at the time of her traffic accident in May 1998",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "\"Madam Kwok sustained a soft tissue injury (often termed \"whiplash\") to her neck at the time of her traffic accident in May 1998\""
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Cervical spondylosis / degenerative disease of the cervical spine",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "\"COMMENT: Cervical spondylosis.\"",
+          "\"MRI ... revealed degenerative disease of the cervical spine and prolapse of disc at C3/4 and C5/6 levels.\""
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Prolapse of disc at C3/4 and C5/6 levels (MRI)",
+        "injury_type": "Permanent injury",
+        "body_part": "C3/4 and C5/6 intervertebral discs",
+        "laterality": "left",
+        "source": [
+          "\"revealed degenerative disease of the cervical spine and prolapse of disc at C3/4 and C5/6 levels.\"",
+          "\"The prolapse of disc at C5/6 level caused narrowing the left lateral recess and left neuroforamen, which was compatible with the clinical finding of left upper limb neurological disturbance caused by the traffic accident.\""
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Mild residual neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Periodical neck pain with each episode lasting for 3 to 5 days",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Fleeting paraesthesiae in the left upper extremity; occasional left forearm and left thumb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Radiculopathy/left C6 root neurological disturbance",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Insomnia / difficulty sleeping",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Panic attack / hyperventilation / panic disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Anxiety and depressive problems (mild)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Attended Accident and Emergency (Queen Mary Hospital) and left without consultation",
+      "Consulted bonesetter on the day after the accident (and on several subsequent occasions)",
+      "Seen by Dr Michael Lee (Canossa Hospital)",
+      "Psychiatric treatment (Dr Leo Chiu, Dr Chan Chung Man and Dr Chung See Yuen; outpatient psychiatric clinic of Pamela Youde Nethersole Eastern Hospital)",
+      "Analgesic medications"
+    ],
+    "treatments_future": [
+      "Psychiatric counselling (assessment: needs treatment for two more years; frequency around once a month)",
+      "Physiotherapy",
+      "Possible anterior spinal fusion of the cervical spine (surgery)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from neck injury (whiplash) and associated psychiatric impairment",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 240000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17698,
+      "output_tokens": 6241,
+      "reasoning_tokens": 5056,
+      "total_tokens": 23939
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34650.869976729155,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17698,
+      "output_tokens": 6241,
+      "reasoning_tokens": 5056,
+      "total_tokens": 23939
+    },
+    "total_duration_ms": 34650.869976729155
+  }
+}

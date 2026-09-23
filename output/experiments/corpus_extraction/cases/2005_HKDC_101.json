@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 101",
+    "action_number": "DCPI 916/2004",
+    "case_name": "YEUNG HUNG LING v. LI KUNG SHUI T/A YING YEM ENGINEERING CO",
+    "judgment_date": "2005-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "summer worker (temporary worker) for defendant (small general contracting company)",
+    "occupation_after": "salesman for a retail jewellery company",
+    "expected_occupation_after": null,
+    "salary_before": 3937.5,
+    "salary_after": 6500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post-concussion syndrome",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "it was discovered that he was suffering from post-concussion syndrome which resulted in dizziness, headaches and short-term memory loss."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "short-term memory loss",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "visit to Accident & Emergency Department at Queen Mary Hospital",
+      "review by Neurological Department (Queen Mary Hospital and Princess Margaret Hospital)",
+      "general reassurance by doctors",
+      "analgesics"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 44,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "short-term memory loss",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 130000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Lai-kwan v Nam Fung Textile Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI175/1996",
+        "injury_description": "loss of consciousness",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7978,
+      "output_tokens": 3509,
+      "reasoning_tokens": 2880,
+      "total_tokens": 11487
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23816.180415451527,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7978,
+      "output_tokens": 3509,
+      "reasoning_tokens": 2880,
+      "total_tokens": 11487
+    },
+    "total_duration_ms": 23816.180415451527
+  }
+}

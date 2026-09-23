@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 20; HCA 957/1984 (13 February 1987)",
+    "action_number": "HCA 957/1984",
+    "case_name": "MR TSANG YUNG SANG v. SANFTELD BUILDING CONTRACTORS LTD. AND ANOTHER",
+    "judgment_date": "1987-02-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 50,
+    "occupation_before": "casual worker on construction sites",
+    "occupation_after": "casual worker on construction sites",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "very limited background and education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "comminuted fractures of the right tibia and fibula",
+        "injury_type": "Permanent injury",
+        "body_part": "right tibia and fibula",
+        "laterality": "right",
+        "source": [
+          "The first was comminuted fractures of the right tibia and fibula and the second a dislocation laceration of the right big toe."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "dislocation laceration of the right big toe",
+        "injury_type": "Permanent injury",
+        "body_part": "right big toe",
+        "laterality": "right",
+        "source": [
+          "The first was comminuted fractures of the right tibia and fibula and the second a dislocation laceration of the right big toe."
+        ],
+        "icd_code": "ND1A",
+        "icd_description": "Multiple injuries of ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "an inch shortening of the right leg",
+        "injury_type": "Permanent injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "there is an inch shortening of the right leg."
+        ],
+        "icd_code": "NC72",
+        "icd_description": "Fracture of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "almost total loss of dorsiflexion in the right ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of strength in the calf muscle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "toe fixed at an angle of 10 degrees dorsiflexion and about one half its original width",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain from time to time on the construction site causing periodic periods of rest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "walking with the aid of two sticks (period after discharge)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reduced carrying capacity (can only manage a barrow half full rather than full)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "The dislocation of the toe was reduced",
+      "a skin graft applied to compensate for the skin that had been traumatically removed, the donor area being the right thigh",
+      "leg treated with plaster; plaster remained in position until 15th May",
+      "discharged from hospital on 18th June"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty negotiating rough and uneven surfaces due to pelvic slant from an inch shortening of the right leg; walking with the aid of two sticks after discharge",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Almost total loss of dorsiflexion in the right ankle and loss of strength in the calf muscle leading to reduced carrying capacity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Right big toe fixed at an angle of 10 degrees dorsiflexion and about one half its original width",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Now only capable of lighter work, commands a lower rate and is less employable on construction sites",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 95000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Ying Pan",
+        "neutral_citation": "(1986) 16 H.K.L.J. p. 448",
+        "action_number": null,
+        "injury_description": "award of $135,000 for pain and suffering (referred to in judgment)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 135000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12839,
+      "output_tokens": 6255,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19094
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36477.37777978182,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12839,
+      "output_tokens": 6255,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19094
+    },
+    "total_duration_ms": 36477.37777978182
+  }
+}

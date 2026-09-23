@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 212",
+    "action_number": "DCPI 2343/2006",
+    "case_name": "LAI CHEUNG KONG v. LO KING SUM AND ANOTHER",
+    "judgment_date": "2008-08-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general worker (casual)",
+    "occupation_after": "not able to resume any gainful employment since the accident",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": 2400.0,
+    "education_level": "Primary 6"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "dislocation of the left second carpo-metacarpal bone",
+        "injury_type": "Residual disability",
+        "body_part": "left second carpo-metacarpal joint",
+        "laterality": "left",
+        "source": [
+          "A deep laceration of his left second web space was found and X-ray showed dislocation of the left second carpo-metacarpal bone.",
+          "(2) The Plaintiff’s clinical picture was compatible with intrinsic muscle injury, neropraxia of digital nerves and dislocation of second metacarpo-phalangeal joint of the left hand."
+        ],
+        "icd_code": "NC54.2",
+        "icd_description": "Dislocation of finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The intrinsic muscles were cut longitudinally",
+        "injury_type": "Residual disability",
+        "body_part": "left hand (intrinsic muscles)",
+        "laterality": "left",
+        "source": [
+          "The intrinsic muscles were cut longitudinally.",
+          "(2) The Plaintiff’s clinical picture was compatible with intrinsic muscle injury, neropraxia of digital nerves and dislocation of second metacarpo-phalangeal joint of the left hand."
+        ],
+        "icd_code": "NC57.51",
+        "icd_description": "Laceration of intrinsic muscle, fascia or tendon of other finger at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "neropraxia of digital nerves (digital nerve exposed and remained intact)",
+        "injury_type": "Residual disability",
+        "body_part": "digital nerves of left hand",
+        "laterality": "left",
+        "source": [
+          "The digital nerve was exposed and remained intact.",
+          "(2) The Plaintiff’s clinical picture was compatible with intrinsic muscle injury, neropraxia of digital nerves and dislocation of second metacarpo-phalangeal joint of the left hand."
+        ],
+        "icd_code": "NC55.Y",
+        "icd_description": "Injury of other specified nerves at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "A deep laceration of his left second web space",
+        "injury_type": "Residual disability",
+        "body_part": "left second web space",
+        "laterality": "left",
+        "source": [
+          "A deep laceration of his left second web space was found and X-ray showed dislocation of the left second carpo-metacarpal bone."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain of his left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "numbness of his left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "weakness of his left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness of scar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "decreased sensation of left index and middle finger distal to the scar",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "decreased range of movement and power of left index and middle finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased hand grip power",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency operation (wound sutured and dislocated joint fixed)",
+      "physiotherapy",
+      "occupational therapy",
+      "follow-up treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "reduced function of left hand: decreased sensation, decreased range of movement and power and decreased hand grip power",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "reduced work efficiency; should avoid lifting heavy objects",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "some inconvenience in climbing scaffold",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yiu Pau Yau v Co-ray Design & Construction Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 864/2006",
+        "injury_description": "similar injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Tse Lai Yin v Incorporated Owners of Albert House (No. 5)",
+        "neutral_citation": null,
+        "action_number": "HCPI 828/1997",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 430000.0
+      },
+      {
+        "case_name": "Ng Ching v Link Machinery Works Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 112/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14103,
+      "output_tokens": 8972,
+      "reasoning_tokens": 7040,
+      "total_tokens": 23075
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49772.474609315395,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14103,
+      "output_tokens": 8972,
+      "reasoning_tokens": 7040,
+      "total_tokens": 23075
+    },
+    "total_duration_ms": 49772.474609315395
+  }
+}

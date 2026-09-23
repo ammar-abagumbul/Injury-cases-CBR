@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 104",
+    "action_number": "DCPI 134/2001",
+    "case_name": "ANIL JHUREMALANI v. RODELIO O. FAJADA AND ANOTHER",
+    "judgment_date": "2002-05-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "estate agent in Hong Kong and in that city",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whiplash-type injury; soft tissue damage",
+        "injury_type": "Permanent injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the plaintiff has sustained a whiplash-type injury.",
+          "there was soft tissue damage in the way that one so often finds in these type of cases.",
+          "this is now a permanent condition."
+        ],
+        "icd_code": "NA23.4Y",
+        "icd_description": "Other specified strain or sprain of cervical spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in the neck on rotation to the right",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "feeling of tiredness towards the end of the day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dull, aching pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sleep at night is disturbed; \"he has not had one night's undisturbed sleep since this all took place\"",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness when he rises in the morning which tends to resolve after exercises",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced ability to play tennis: \"He used to play tennis three times a week... He is now restricted to playing tennis once a week, or sometimes once a fortnight, and he plays in the more modest C team.\"",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced participation in Thai boxing (used to participate in the sport of Thai boxing)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weight gain: \"As a result, he has put on weight and the pleasure of life has been affected by that.\"",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "alleviates that pain by taking painkillers as and when needed.",
+      "report by Dr Lee Po-chin dated 4 December 2001",
+      "report from Dr Morell at the Portuguese Clinic in Montreal dated 30 July 2001",
+      "fee note from the Canadian hospital (medical expenses)",
+      "no surgical procedure was required."
+    ],
+    "treatments_future": [
+      "no need for further medical or surgical treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He used to play tennis three times a week... He is now restricted to playing tennis once a week, or sometimes once a fortnight, and he plays in the more modest C team. He used to also participate in the sport of Thai boxing.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "The plaintiff's social life has been affected... the pleasure of life has been affected by that.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8423,
+      "output_tokens": 5048,
+      "reasoning_tokens": 3840,
+      "total_tokens": 13471
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31009.21555235982,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8423,
+      "output_tokens": 5048,
+      "reasoning_tokens": 3840,
+      "total_tokens": 13471
+    },
+    "total_duration_ms": 31009.21555235982
+  }
+}

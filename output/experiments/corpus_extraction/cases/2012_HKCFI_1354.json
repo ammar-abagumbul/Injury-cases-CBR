@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKCFI 1354",
+    "action_number": "HCPI 637/2009",
+    "case_name": "SIT LOI SANG v. C & H ENGINEERING CO LTD AND ANOTHER",
+    "judgment_date": "2012-08-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "odd jobber working in construction sites",
+    "occupation_after": "employed (since October 2011)",
+    "expected_occupation_after": null,
+    "salary_before": 14300.0,
+    "salary_after": 8800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the plaintiff sustained serious burns to his head, both arms and hands, as well as large parts of his body.",
+        "injury_type": "Residual disability",
+        "body_part": "head; both arms and hands; large parts of his body",
+        "laterality": "bilateral",
+        "source": [
+          "the plaintiff sustained serious burns to his head, both arms and hands, as well as large parts of his body."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "suffered different degrees of burns to about 55% of his whole body.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He was comatised for more than 10 days",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "was hospitalised for some 3 months",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "received numerous treatments including skin grafting and physiotherapy during and after his hospitalisation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "skin grafting",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 90,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "General award for loss of earning capacity (award made by the court).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 700000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12228,
+      "output_tokens": 6918,
+      "reasoning_tokens": 3008,
+      "total_tokens": 19146
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43412.930473685265,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12228,
+      "output_tokens": 6918,
+      "reasoning_tokens": 3008,
+      "total_tokens": 19146
+    },
+    "total_duration_ms": 43412.930473685265
+  }
+}

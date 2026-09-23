@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 36",
+    "action_number": "DCPI 1876/2009",
+    "case_name": "CHEUNG KWONG HON v. NIXON CLEANING CO LTD AND OTHERS",
+    "judgment_date": "2011-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cleaning worker",
+    "occupation_after": "resumed his pre-injury occupation",
+    "expected_occupation_after": null,
+    "salary_before": 5414.5,
+    "salary_after": 5700.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of his right distal tibia",
+        "injury_type": "Residual disability",
+        "body_part": "right distal tibia",
+        "laterality": "right",
+        "source": [
+          "X-ray revealed a fracture of his right distal tibia."
+        ],
+        "icd_code": "NC92.3",
+        "icd_description": "Fracture of lower end of tibia"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "on and off attacks of pain, especially after prolonged walking, stair climbing and heavy lifting, etc.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "4-5% impairment for the whole person for residual pain after fracture of right distal tibia (Dr. Wong); 1% (Dr. Yip).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Kwong Wah Hospital",
+      "X-ray",
+      "Open reduction and internal fixation of the right distal tibia performed on 15.3.2007"
+    ],
+    "treatments_future": [
+      "operation to remove the nail in his right foot"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain after fracture of right distal tibia causing on and off attacks of pain, especially after prolonged walking, stair climbing and heavy lifting; assessed as 4-5% whole person impairment by Dr. Wong and 1% by Dr. Yip.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kiu v. Lee Fai (t/a Fai Kee Timber)",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "compound fracture of the left tibia and right fifth metatarsal bone base; 2 operations at the left knee region; hospitalized for about 1\u00012 months",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10899,
+      "output_tokens": 3791,
+      "reasoning_tokens": 2880,
+      "total_tokens": 14690
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25858.533389866352,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10899,
+      "output_tokens": 3791,
+      "reasoning_tokens": 2880,
+      "total_tokens": 14690
+    },
+    "total_duration_ms": 25858.533389866352
+  }
+}

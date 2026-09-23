@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1284",
+    "action_number": "HCPI 491/2015",
+    "case_name": "CHAN CHO TAK v. NG SHING LEUNG AND ANOTHER",
+    "judgment_date": "2018-06-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "self-employed logistic worker",
+    "occupation_after": "internal office worker",
+    "expected_occupation_after": null,
+    "salary_before": 19600.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Crush injury of right foot",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "It was a crush injury of Mr Chan’s right foot.",
+          "the Truck first clashed into Mr Chan and caused him to fall forward onto the freight in front of him. It continued to move backward and its left rear tire rolled over Mr Chan’s right foot."
+        ],
+        "icd_code": "ND18.Z",
+        "icd_description": "Crushing injury of foot, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right foot swollen",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abrasion on right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "contusion on right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness of right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain over right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness over lateral dorsal aspect of right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty with prolonged standing and walking for more than an hour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department visit at Princess Margaret Hospital",
+      "Admission to Department of Orthopaedics & Traumatology, Princess Margaret Hospital (hospitalised for 7 days)",
+      "11 follow-up sessions at Department of Orthopaedics & Traumatology",
+      "19 physiotherapy sessions at Department of Physiotherapy, Prince of Wales Hospital",
+      "Occupational therapy at Occupational Therapy Department of Prince of Wales Hospital up to 31 May 2013",
+      "Treatment from Chinese Medicine practitioners"
+    ],
+    "treatments_future": [
+      "symptomatic treatment only"
+    ],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Suffers pain due to prolonged walking and standing for more than an hour",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident job; can only undertake less physically demanding jobs and could no longer undertake jobs which require heavy manual lifting",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Man Kin v Golden Wheel (C& HK) Transportation Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 913/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Hung Sau Fung v Lai Ping Wai",
+        "neutral_citation": null,
+        "action_number": "HCPI 204/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Tuen Ming v Perfect Logistics (HK) Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 200/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10356,
+      "output_tokens": 4532,
+      "reasoning_tokens": 3200,
+      "total_tokens": 14888
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32500.35997480154,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10356,
+      "output_tokens": 4532,
+      "reasoning_tokens": 3200,
+      "total_tokens": 14888
+    },
+    "total_duration_ms": 32500.35997480154
+  }
+}

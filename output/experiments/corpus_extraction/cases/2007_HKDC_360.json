@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 360",
+    "action_number": "DCPI 1839/2006",
+    "case_name": "WONG CHOK WAI v. SUN CHUNG LUEN CHINESE PRODUCTS COMPANY LIMITED",
+    "judgment_date": "2007-11-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 51,
+    "age_at_trial": 55,
+    "occupation_before": "dried-food salesman",
+    "occupation_after": "watchman",
+    "expected_occupation_after": "watchman",
+    "salary_before": 8483.0,
+    "salary_after": 5000.0,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "impingement syndrome of right shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "I am satisfied that the Plaintiff was suffering from impingement syndrome at the time of his employment with the Defendant."
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "neck pain",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "there is medical evidence showing that the Plaintiff suffers from impingement syndrome at the right shoulder and triggered the neck pain due to his chopping work for the Defendant. I find that the chopping work contributed to the neck pain."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in right shoulder and neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"pain on the whole right-sided back from shoulder down to the right buttock …… all those symptoms appeared intermittently\"",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "recurring pain with activity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent right shoulder and neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "orthopaedic treatment",
+      "physiotherapy"
+    ],
+    "treatments_future": [
+      "further orthopaedic treatment",
+      "physiotherapy"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Wai Ming v. Chan Yuk Charm",
+        "neutral_citation": "HCPI 1111/96",
+        "action_number": null,
+        "injury_description": "comminuted fracture of the proximal humerus of the right shoulder ... left with a deformity of the humeral head causing bony impingement on a tendon in the shoulder. Doctors assessed 8% impairment of the whole person.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Siu Leung Sheng Peter v. Chung Wai Ming",
+        "neutral_citation": "HCPI 43/2006",
+        "action_number": null,
+        "injury_description": "plaintiff suffered mild neck stiffness",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 30000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14241,
+      "output_tokens": 4727,
+      "reasoning_tokens": 3520,
+      "total_tokens": 18968
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28736.601300537586,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14241,
+      "output_tokens": 4727,
+      "reasoning_tokens": 3520,
+      "total_tokens": 18968
+    },
+    "total_duration_ms": 28736.601300537586
+  }
+}

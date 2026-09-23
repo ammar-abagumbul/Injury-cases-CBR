@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 498",
+    "action_number": "HCPI 416/2005",
+    "case_name": "DARCY GRANT DMETRICHUK v. TUNG WAH GROUP OF HOSPITALS WONG FUT NAM COLLEGE",
+    "judgment_date": "2006-05-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 50,
+    "occupation_before": "teacher of English at its school",
+    "occupation_after": "teacher at another school",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusions",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The only physical injuries resulting from the fall appears to be contusions."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "aggravation of pre-existing degenerative disease of the spine (cervical and lumbar spondylosis; marked degeneration of the thoracic, lumbar and lumbo-sacral spine with decreased disk spaces and significant osteophyte formation; possible right sided disc bulge at L3/4)",
+        "injury_type": "Residual disability",
+        "body_part": "thoracic, lumbar and lumbo-sacral spine; cervical spine; L3/4 disc",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered from marked degeneration of the thoracic, lumbar and lumbo-sacral spine with decreased disk spaces and significant osteophyte formation prior to the fall.",
+          "[The plaintiff] has significant cervical and lumbar spondylosis, which was present prior to his injury.",
+          "An injury as described could certainly have led to significant spinal pathology. This could have caused significant aggravation to his pre-existing degenerative disease, and might well have been responsible for the more obvious right sided disc bulge at the L3/4 level.",
+          "the fall aggravated the plaintiff's pre-existing degenerative condition"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "frequent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness and discomfort in his neck and neck/shoulder muscles",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "sciatic pain on the right side radiating down the right leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to pursue previous pastimes of watersports as well as winter sports",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "has difficulty in travelling long distances by air",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "an overall general reduction in the quality of his life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to hospital",
+      "chiropractic care",
+      "analgesics",
+      "physiotherapy (recommended)",
+      "regular exercise and rehabilitation program (recommended)"
+    ],
+    "treatments_future": [
+      "ongoing chiropractic visits (assessed at two visits per month by the court)",
+      "ongoing general practitioner visits (assessed at four visits per year by the court)",
+      "ongoing medication"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 17,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "unable to pursue previous pastimes of watersports as well as winter sports",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of holidays or special occasions",
+        "description": "has difficulty in travelling long distances by air",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "CHAN Kam Hoi v Dragages et Travaux Publics",
+        "neutral_citation": "[1998] 2 HKLRD 958",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11236,
+      "output_tokens": 5470,
+      "reasoning_tokens": 4096,
+      "total_tokens": 16706
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28754.823215305805,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11236,
+      "output_tokens": 5470,
+      "reasoning_tokens": 4096,
+      "total_tokens": 16706
+    },
+    "total_duration_ms": 28754.823215305805
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 194",
+    "action_number": "DCPI171/2005",
+    "case_name": "WONG SHING KAM AND ANOTHER v. LEUNG MING KWONG",
+    "judgment_date": "2006-01-24",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "1 cm laceration over the lower gum region",
+        "injury_type": "Temporary injury",
+        "body_part": "lower gum region",
+        "laterality": null,
+        "source": [
+          "a 1 cm laceration over the lower gum region"
+        ],
+        "icd_code": "NA0D.1Y",
+        "icd_description": "Other specified injury of periodontal tissues"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right elbow bruising",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "right elbow bruising"
+        ],
+        "icd_code": "NC30.1",
+        "icd_description": "Contusion of elbow"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right face was swollen",
+        "injury_type": "Temporary injury",
+        "body_part": "right face",
+        "laterality": "right",
+        "source": [
+          "right face was swollen"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "bleeding of the mouth",
+        "injury_type": "Temporary injury",
+        "body_part": "mouth",
+        "laterality": null,
+        "source": [
+          "bleeding of the mouth"
+        ],
+        "icd_code": "NA01.Y",
+        "icd_description": "Other specified open wound of head"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "neck sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "neck sprain"
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "bruises on the legs",
+        "injury_type": "Temporary injury",
+        "body_part": "legs",
+        "laterality": "bilateral",
+        "source": [
+          "bruises on the legs"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a 1 cm laceration over the lower gum region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right elbow bruising",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right face was swollen",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "bleeding of the mouth",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "neck sprain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "bruises on the legs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "sick leave"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 5,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "DCPI853/2004",
+        "neutral_citation": null,
+        "action_number": "DCPI853/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "DCPI391/2005",
+        "neutral_citation": null,
+        "action_number": "DCPI391/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12287,
+      "output_tokens": 8059,
+      "reasoning_tokens": 6400,
+      "total_tokens": 20346
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30365.202099084854,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12287,
+      "output_tokens": 8059,
+      "reasoning_tokens": 6400,
+      "total_tokens": 20346
+    },
+    "total_duration_ms": 30365.202099084854
+  }
+}

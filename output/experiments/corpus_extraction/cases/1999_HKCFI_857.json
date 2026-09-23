@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 857",
+    "action_number": "HCPI000088/1997",
+    "case_name": "WONG TUNG MING v. HO CHUI YING",
+    "judgment_date": "1999-09-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "ran a business which specialised in sanding and varnishing wooden floors",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14800.0,
+    "salary_after": 10800.0,
+    "expected_salary_after": 20135.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The Plaintiff suffered severe burns over 15% of his body, including his face, hands and arms, and feet.",
+        "injury_type": "Temporary injury",
+        "body_part": "face, hands, arms and feet",
+        "laterality": null,
+        "source": [
+          "The Plaintiff suffered severe burns over 15% of his body, including his face, hands and arms, and feet."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Permanent and unsightly scars on his arms, hands and feet which cause discomfort and limitation of movement.",
+        "injury_type": "Permanent injury",
+        "body_part": "arms, hands and feet",
+        "laterality": null,
+        "source": [
+          "permanent and unsightly scars on his arms, hands and feet which cause discomfort and limitation of movement"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe wound pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wound infection requiring antibiotics and daily wound dressing",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanent and unsightly scars causing discomfort",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limitation of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "antibiotics",
+      "daily wound dressing",
+      "several operations"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent and unsightly scars on his arms, hands and feet which cause discomfort.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Severe burns over 15% of his body including face, hands, arms and feet.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Limitation of movement caused by scars on arms, hands and feet.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12459,
+      "output_tokens": 4309,
+      "reasoning_tokens": 3328,
+      "total_tokens": 16768
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38307.396713644266,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12459,
+      "output_tokens": 4309,
+      "reasoning_tokens": 3328,
+      "total_tokens": 16768
+    },
+    "total_duration_ms": 38307.396713644266
+  }
+}

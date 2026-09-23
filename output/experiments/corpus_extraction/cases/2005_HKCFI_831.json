@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 831",
+    "action_number": "HCPI 1168/2002",
+    "case_name": "CHONG HA KUI TAI v. MULTICON ENGINEERING CO LTD (IN LIQUIDATION) AND OTHERS",
+    "judgment_date": "2005-09-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "wall plank installation technician",
+    "occupation_after": "casual construction worker",
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head injury in the accident in December 1999",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "(1) The plaintiff had suffered a mild head injury in the accident in December 1999 and that CT scan had shown no abnormality."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to the plaintiff's neck with some loss of lordosis secondary to muscle spasm",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "(3) It was likely that an injury to the plaintiff’s neck was overlooked at the time. An X-ray of the plaintiff’s neck (arranged for by Dr Choa at the time of this examination) showed no bony abnormality but some loss of lordosis secondary to muscle spasm."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post concussional syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The diagnosis made was post concussional syndrome and no permanent neurological disability was expected."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over his left forehead",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "impaired memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "loss of lordosis secondary to muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "nausea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "vomiting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Accident and Emergency Department (United Christian Hospital, Yan Chai Hospital, Princess Margaret Hospital)",
+      "observation in A&E and same-day discharge",
+      "CT brain scan",
+      "oral analgesics",
+      "referral to neurosurgery outpatient clinic (Queen Elizabeth Hospital)",
+      "medical specialist clinic follow-up",
+      "medical consultations with private doctors",
+      "sick leave (intermittent up to about 3 April 2001 accepted by court)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16003,
+      "output_tokens": 7004,
+      "reasoning_tokens": 5632,
+      "total_tokens": 23007
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38706.57857879996,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16003,
+      "output_tokens": 7004,
+      "reasoning_tokens": 5632,
+      "total_tokens": 23007
+    },
+    "total_duration_ms": 38706.57857879996
+  }
+}

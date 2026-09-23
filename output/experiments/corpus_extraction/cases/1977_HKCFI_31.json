@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[1977] HKCFI 31",
+    "action_number": "HCA000689/1977",
+    "case_name": "HUI KAU-CHUEN v. CHINA MOTOR BUS CO LTD AND ANOTHER",
+    "judgment_date": "1977-11-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 63,
+    "age_at_trial": null,
+    "occupation_before": "delivery man at a rice shop",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures of the right fibula and tibia",
+        "injury_type": "Temporary injury",
+        "body_part": "right fibula and tibia",
+        "laterality": "right",
+        "source": [
+          "His right leg had been badly crushed with fractures of the right fibula and tibia."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "amputated at thigh level",
+        "injury_type": "Permanent injury",
+        "body_part": "right thigh / right leg amputated at thigh level",
+        "laterality": "right",
+        "source": [
+          "Six days later due to the blood supply to the leg ceasing, the leg was amputated at thigh level."
+        ],
+        "icd_code": "NC78.Z",
+        "icd_description": "Traumatic amputation of hip or thigh, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rendered unconscious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "considerable pain which however has almost completely ceased though he still has discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in using the artificial leg and still requires the use of two sticks when walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "can only walk the distance of 10 - 20 shop spaces before feeling discomfort",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "completely unfit for work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital treatment",
+      "amputation at thigh level (operation)",
+      "supplied with an artificial leg (April 1976)",
+      "transferred to the Kun Tong Rehabilitation Centre"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "leg was amputated at thigh level",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "requires the use of two sticks when walking; can only walk the distance of 10 - 20 shop spaces before feeling discomfort",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "his whole life having been centred on his workplace and working companions; he enjoyed his work and obviously feels lost without it; he is now completely unfit for work",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LEE Koon-keung v. NG Chi-yat",
+        "neutral_citation": "(1975) H.K.L.R. 153",
+        "action_number": null,
+        "injury_description": "loss of one leg (18 year old youth)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 55000.0
+      },
+      {
+        "case_name": "CHIU Fai v. CHAN Yue-hung",
+        "neutral_citation": "(1976) H.K.L.R. 981",
+        "action_number": null,
+        "injury_description": "loss of both legs (49 year old man)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8867,
+      "output_tokens": 5228,
+      "reasoning_tokens": 3904,
+      "total_tokens": 14095
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36731.26721009612,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8867,
+      "output_tokens": 5228,
+      "reasoning_tokens": 3904,
+      "total_tokens": 14095
+    },
+    "total_duration_ms": 36731.26721009612
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 71",
+    "action_number": "DCPI 994/2004",
+    "case_name": "HO TZE HO v. CHUI CHUNG WAH AND ANOTHER",
+    "judgment_date": "2005-06-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 8,
+    "age_at_trial": 10,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He was detected to have a closed fracture of left tibia and fibula at metaphysical-diaphyseal region",
+        "injury_type": "Temporary injury",
+        "body_part": "left tibia and fibula",
+        "laterality": "left",
+        "source": [
+          "He was detected to have a closed fracture of left tibia and fibula at metaphysical-diaphyseal region with multiple adhesions on both knees, left leg, left forefoot, lip and chin."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Debridement of the leg and foot wounds were performed on 16th and 21st August 2003.",
+        "injury_type": "Temporary injury",
+        "body_part": "leg and foot",
+        "laterality": "left",
+        "source": [
+          "Debridement of the leg and foot wounds were performed on 16th and 21st August 2003."
+        ],
+        "icd_code": "ND12.Z",
+        "icd_description": "Open wound of ankle or foot, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "multiple adhesions on both knees, left leg, left forefoot, lip and chin",
+        "injury_type": "Residual disability",
+        "body_part": "both knees, left leg, left forefoot, lip and chin",
+        "laterality": null,
+        "source": [
+          "He was detected to have a closed fracture of left tibia and fibula at metaphysical-diaphyseal region with multiple adhesions on both knees, left leg, left forefoot, lip and chin."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "The injuries left him with a number of conspicuous, thickened, hyperpigmented and hypertropic scans on his left foot.",
+        "injury_type": "Residual disability",
+        "body_part": "left foot (scars)",
+        "laterality": "left",
+        "source": [
+          "The injuries left him with a number of conspicuous, thickened, hyperpigmented and hypertropic scans on his left foot."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Plaintiff had transient loss of consciousness after the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The only complaint is itchiness and numbness over the left foot scar.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Overall length of the lower limb is longer than the right by 1 cm.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left ankle planer flexion is slightly less than the right side by 5 to 10 degrees.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Debridement of the leg and foot wounds (16th and 21st August 2003)",
+      "Close reduction of fracture and long leg dynacast (21 August 2003)",
+      "Physiotherapy (11 sessions)",
+      "Occupational therapy (4 sessions)",
+      "Follow-up treatments (8 follow-up treatments)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "The injuries left him with a number of conspicuous, thickened, hyperpigmented and hypertropic scans on his left foot.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Dr. Wong assessed the loss of earning capacity for general labour jobs to be 3%.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12521,
+      "output_tokens": 5876,
+      "reasoning_tokens": 4416,
+      "total_tokens": 18397
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31708.24185013771,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12521,
+      "output_tokens": 5876,
+      "reasoning_tokens": 4416,
+      "total_tokens": 18397
+    },
+    "total_duration_ms": 31708.24185013771
+  }
+}

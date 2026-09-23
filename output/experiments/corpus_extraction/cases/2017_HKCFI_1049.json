@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1049",
+    "action_number": "HCPI 914/2011",
+    "case_name": "MOHAMMAD SALEEM v. LAU WAI LEUNG T/A LEUNG KEE CO AND OTHERS",
+    "judgment_date": "2017-06-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 39,
+    "age_at_trial": 48,
+    "occupation_before": "general labourer",
+    "occupation_after": "cashier",
+    "expected_occupation_after": "cashier",
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": 10503.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The plaintiff was diagnosed as suffering from complex regional pain syndrome (\"CRPS\").",
+        "injury_type": "Residual disability",
+        "body_part": "left upper limb",
+        "laterality": "left",
+        "source": [
+          "The plaintiff was diagnosed as suffering from complex regional pain syndrome (“CRPS”)."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "(i) superficial abrasion on right side neck, non-tender at midline cervical spine;",
+        "injury_type": "Temporary injury",
+        "body_part": "right side neck",
+        "laterality": "right",
+        "source": [
+          "(i) superficial abrasion on right side neck, non-tender at midline cervical spine;"
+        ],
+        "icd_code": "NA20.Y",
+        "icd_description": "Other specified superficial injury of neck"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "(v) abrasion wound at right low back/waist with no midline tenderness.",
+        "injury_type": "Temporary injury",
+        "body_part": "right low back/waist",
+        "laterality": "right",
+        "source": [
+          "(v) abrasion wound at right low back/waist with no midline tenderness."
+        ],
+        "icd_code": "NB50.0",
+        "icd_description": "Abrasion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "(i) superficial abrasion on right side neck, non-tender at midline cervical spine;",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tender at anterior left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left forearm swelling & tender / diffused tenderness and swelling & refused to move left elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild tenderness at anterior upper right thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "(v) abrasion wound at right low back/waist with no midline tenderness.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Diffused lower thoracic and lumbar spine tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no lower limb weakness or numbness, SLR 70 degrees bilaterally, intact lower limb sensation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "severe whole left upper limb pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on 9 February 2009 he was on a wheel chair",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scrotal pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left upper limb stiffness, burning pain, discolouration and increased temperature",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent neuropathic pain in his upper left arm, with features suggestive of CRPS",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he was unable to move his left hand (attributable to the local anaesthetic causing motor block)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "occupational therapy",
+      "left intra-clavicular brachial plexus catheter insertion",
+      "analgesics",
+      "Pain Clinic follow-up",
+      "inpatient admission at United Christian Hospital from 2008-12-26 to 2009-01-07",
+      "inpatient admission at Caritas Medical Centre from 2009-02-01 to 2009-02-02",
+      "elective inpatient admission from 2011-03-09 to 2011-03-14"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 730
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "persistent neuropathic pain in his upper left arm, with features suggestive of CRPS.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "on 9 February 2009 he was on a wheel chair",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "would not be able to resume his original work as a general labourer",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13491,
+      "output_tokens": 6800,
+      "reasoning_tokens": 5120,
+      "total_tokens": 20291
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50596.87367081642,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13491,
+      "output_tokens": 6800,
+      "reasoning_tokens": 5120,
+      "total_tokens": 20291
+    },
+    "total_duration_ms": 50596.87367081642
+  }
+}

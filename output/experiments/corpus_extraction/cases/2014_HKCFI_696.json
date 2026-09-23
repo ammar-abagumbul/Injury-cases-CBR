@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 696",
+    "action_number": "HCPI 764/2012",
+    "case_name": "WONG CHOI LAM JO, THE ADMINISTRATRIX OF THE ESTATE OF WONG WAI LEUNG, THE DECEASED v. YIU FUNG ENGINEERING COMPANY LTD AND ANOTHER",
+    "judgment_date": "2014-04-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "he was struck by a falling cement tile which fell from a height, struck and broke his safety helmet, and caused head injuries from which he died on that day."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "head injuries",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 0
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21108,
+      "output_tokens": 3353,
+      "reasoning_tokens": 2752,
+      "total_tokens": 24461
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26725.40809586644,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21108,
+      "output_tokens": 3353,
+      "reasoning_tokens": 2752,
+      "total_tokens": 24461
+    },
+    "total_duration_ms": 26725.40809586644
+  }
+}

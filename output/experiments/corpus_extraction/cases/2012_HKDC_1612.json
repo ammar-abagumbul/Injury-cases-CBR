@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 1612",
+    "action_number": "DCPI 1568/2011",
+    "case_name": "LIMBU DHARAMARAJ v. ISS ADAMS SECUFORCE LTD AND ANOTHER",
+    "judgment_date": "2012-12-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 42,
+    "occupation_before": "security guard",
+    "occupation_after": null,
+    "expected_occupation_after": "car-park attendant",
+    "salary_before": 10362.58,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right side of his back",
+        "injury_type": "Residual disability",
+        "body_part": "right side of lower back",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff therefore sustained injuries to his right ankle, right shoulder and right side of his back.",
+          "Spine: They did not find any neurological deficit and no lumbosacral nerve root impingement in the MRI scan．The back pain should be of a minor degree. They found exaggeration or functional overlay on the part of the Plaintiff in his complaint. There was no muscle wasting, sensory loss or diminished reflexes in his lower limbs.",
+          "the impairment caused by the back condition is 1 to 2% of whole person"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right shoulder sprain with soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff therefore sustained injuries to his right ankle, right shoulder and right side of his back.",
+          "Right shoulder: the injury in 2008 should be a shoulder sprain with soft tissue injury and had recovered well (page 218).",
+          "No permanent disability caused by the right shoulder sprain;"
+        ],
+        "icd_code": "NC13.5",
+        "icd_description": "Strain or sprain of shoulder joint"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right ankle soft tissue injury",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff therefore sustained injuries to his right ankle, right shoulder and right side of his back.",
+          "Right ankle: no external deformity or swelling was found on the right ankle; there was no detectable collateral laxity and the ankle movement was satisfactory; no significant structural damage was found.",
+          "0.5-1% impairment caused by the condition in the right ankle"
+        ],
+        "icd_code": "ND11.1",
+        "icd_description": "Contusion of ankle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "walking in a limping gait",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness in his right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "could not walk without a stick for over 15 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty to walk on stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to sleep well due to persistent pain over his right ankle and lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sent to Pok Oi Hospital by an ambulance and treated in AED",
+      "oral analgesic",
+      "painkiller injection",
+      "physiotherapy",
+      "follow-up treatments in hospital and later clinics"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 396,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could no longer play volley ball or to enjoy other sports",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "could not walk without a stick for over 15 minutes; found it difficult to walk on stairs",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Chu Wing and Law Wing Shing & Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 1839/2007",
+        "injury_description": "residual pain in the neck and back which occasionally affects his daily activities such as washing activity and prolonged sitting; and intermittent dizziness",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14985,
+      "output_tokens": 7503,
+      "reasoning_tokens": 5888,
+      "total_tokens": 22488
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53644.431199878454,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14985,
+      "output_tokens": 7503,
+      "reasoning_tokens": 5888,
+      "total_tokens": 22488
+    },
+    "total_duration_ms": 53644.431199878454
+  }
+}

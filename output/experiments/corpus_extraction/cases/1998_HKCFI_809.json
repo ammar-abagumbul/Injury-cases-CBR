@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 809",
+    "action_number": "HCPI 374/1998",
+    "case_name": "TSUI NUEM v. CHEUNG WAI KUEN",
+    "judgment_date": "1998-12-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 61,
+    "occupation_before": "delivery worker and sales and marketing executive at Fan Shing Plastic Factory",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "bruises and abrasions to his forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "bruises and abrasions to his forehead"
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fractured left arm with nerve injury",
+        "injury_type": "Residual disability",
+        "body_part": "left arm",
+        "laterality": "left",
+        "source": [
+          "a fractured left arm with nerve injury"
+        ],
+        "icd_code": "NC19",
+        "icd_description": "Multiple injuries of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a comminuted fracture over the right elbow",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "a comminuted fracture over the right elbow"
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "should not lift heavy weights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to resume his previous job as a delivery worker",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unfit since the accident to do manual work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the implant is now protruding and causing a skin irritation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "inpatient treatment (11 days)",
+      "outpatient treatment"
+    ],
+    "treatments_future": [
+      "removal of metal implant (right elbow)"
+    ],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 730
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12121,
+      "output_tokens": 6294,
+      "reasoning_tokens": 5568,
+      "total_tokens": 18415
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35838.59174698591,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12121,
+      "output_tokens": 6294,
+      "reasoning_tokens": 5568,
+      "total_tokens": 18415
+    },
+    "total_duration_ms": 35838.59174698591
+  }
+}

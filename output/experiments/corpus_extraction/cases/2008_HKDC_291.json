@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 291",
+    "action_number": "DCPI 2222/2007",
+    "case_name": "NG WAI YIP v. BORICH CONTRACTING LTD",
+    "judgment_date": "2008-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "electrical technician",
+    "occupation_after": "lifeguard",
+    "expected_occupation_after": null,
+    "salary_before": 12500.0,
+    "salary_after": 10875.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Scaphoid fracture in his left wrist",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "As a result the Plaintiff sprained his left wrist.",
+          "X-ray showed that there was scaphoid fracture in his left wrist."
+        ],
+        "icd_code": "NC53.0",
+        "icd_description": "Fracture of scaphoid bone of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "local tender around his left wrist with scaphoid tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wrist pain in the end range of motion and heavy exertion of left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not work as efficiently as before; his income decreased",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "reduction and screw fixation surgery to the left scaphoid",
+      "removal of the implant",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 332,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) awarded $200,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tang Shu Shek v. Leung Chi Kit & Anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 219 of 2002",
+        "injury_description": "fractured left scaphoid",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Lau Chi Man v. Kowloon Canton Railway Corporation",
+        "neutral_citation": null,
+        "action_number": "DCPI 501/2005",
+        "injury_description": "fractured shaft of his right radius; open reduction and internal fixation performed, leaving a long scar",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 220000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8216,
+      "output_tokens": 4032,
+      "reasoning_tokens": 3072,
+      "total_tokens": 12248
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29221.782349050045,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8216,
+      "output_tokens": 4032,
+      "reasoning_tokens": 3072,
+      "total_tokens": 12248
+    },
+    "total_duration_ms": 29221.782349050045
+  }
+}

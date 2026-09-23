@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 52",
+    "action_number": "DCPI 624/2003",
+    "case_name": "LAM WA LAI v. STARTLONG DEVELOPMENT LTD",
+    "judgment_date": "2005-04-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 31,
+    "age_at_trial": 35,
+    "occupation_before": "Hairstylist",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 13514.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary 6"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2cm haematoma on the occiput and mild abrasions over the head",
+        "injury_type": "Temporary injury",
+        "body_part": "occiput / head",
+        "laterality": null,
+        "source": [
+          "After Accident, P had mild abrasions over the head, neck, waist and left leg and severe pain over her waist. She was sent to Caritas Medical Centre’s (“CMC’s”) accident and emergency department (“AED”). There was a 2cm haematoma on the occiput and abrasion/tenderness at the lumbar spine area."
+        ],
+        "icd_code": "NA00.5",
+        "icd_description": "Multiple superficial injuries of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Mild abrasions and tenderness of the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "After Accident, P had mild abrasions over the head, neck, waist and left leg and severe pain over her waist."
+        ],
+        "icd_code": "NA20.0",
+        "icd_description": "Abrasion of throat"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Contusion/sprain of the back with diffuse soft tissue injury; minimal posterior bulge at L3/4 and L4/5 with minimal compression of the anterior thecal sac; residual persistent lumbar back pain (permanent impairment)",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine / lower back",
+        "laterality": null,
+        "source": [
+          "MRI in June 2001 revealed minimal posterior bulge at L3/4 and L4/5 with minimal compression of the anterior thecal sac.",
+          "P’s persistent lumbar back pain was a result of contusion/sprain of the back with diffuse soft tissue injury but no significant structural damage.",
+          "The undisputed medical evidence shows that P suffered from persistent residual back pain.",
+          "P’s residual pain is clearly a permanent impairment"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Mild abrasion of the left leg",
+        "injury_type": "Temporary injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "After Accident, P had mild abrasions over the head, neck, waist and left leg and severe pain over her waist.",
+          "There was tenderness over the right lumbar area but no neurological deficit.",
+          "P complained of lumbar back pain which was more prominent on the left side. ... weakness/numbness with a vague feeling of paraesthesia in her left leg."
+        ],
+        "icd_code": "NC90.2",
+        "icd_description": "Abrasion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent lumbar back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Soreness/paraesthesia radiating down her leg; weakness/numbness in left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Reduced standing/walking/sitting tolerance (pain after sitting for 30 minutes or standing/walking for 15-25 minutes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Limited trunk movement / reduced range of movement of lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Sleep disturbance (insomnia) attributed to waist pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Need to seek sister's help in caring for her daughter; inability to do heavy housework",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Inability to enjoy pre-accident activities such as karaoke and dancing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Analgesics",
+      "Accident & Emergency treatment",
+      "Outpatient orthopaedic follow up",
+      "Physiotherapy (outpatient physiotherapy, strengthening and endurance training)",
+      "Occupational therapy (work assessment and training)",
+      "Clinical psychologist / psychological treatment",
+      "Home exercises"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "P cannot do heavy housework and needs her sister's help in caring for her daughter",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "P is prevented from enjoying pre-accident activities such as going out with friends for karaoke and dancing",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "P's ability to work full-time as a hairstylist (11-hour day with prolonged standing/twisting) is affected; reduced efficiency and inability to return to full pre-accident work",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to participate in parenthood or grandparenthood",
+        "description": "P now has to seek her sister's help in caring for her daughter due to her back condition",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 170000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Sze v Win Art Design & Decoration Co Ltd",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26088,
+      "output_tokens": 7074,
+      "reasoning_tokens": 5120,
+      "total_tokens": 33162
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52193.02536174655,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26088,
+      "output_tokens": 7074,
+      "reasoning_tokens": 5120,
+      "total_tokens": 33162
+    },
+    "total_duration_ms": 52193.02536174655
+  }
+}

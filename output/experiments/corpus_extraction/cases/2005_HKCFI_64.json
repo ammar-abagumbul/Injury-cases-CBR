@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 64",
+    "action_number": "HCPI 292/2004",
+    "case_name": "KOT YIK KAM v. KWOK KAM HUNG AND ANOTHER",
+    "judgment_date": "2005-02-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 31,
+    "occupation_before": "clerk with miscellaneous duties",
+    "occupation_after": "clerk (New Territories)",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": "post-secondary (equivalent to Form 7)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "skull fracture at the right temporal region with haematoma in the right temporal lobe and right subarachnoid haemorrhage",
+        "injury_type": "Temporary injury",
+        "body_part": "right temporal region",
+        "laterality": "right",
+        "source": [
+          "5) skull fracture at the right temporal region with haematoma in the right temporal lobe and right subarachnoid haemorrhage"
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "closed fracture shaft of right ulna bone",
+        "injury_type": "Residual disability",
+        "body_part": "right ulna",
+        "laterality": "right",
+        "source": [
+          "1) closed fracture shaft of right ulna bone"
+        ],
+        "icd_code": "NC32.2",
+        "icd_description": "Fracture of shaft of ulna"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "closed fracture left distal radius",
+        "injury_type": "Residual disability",
+        "body_part": "left distal radius",
+        "laterality": "left",
+        "source": [
+          "2) closed fracture left distal radius"
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "open fracture at the shaft of right tibia and fibula",
+        "injury_type": "Residual disability",
+        "body_part": "right tibia and fibula (shaft)",
+        "laterality": "right",
+        "source": [
+          "3) open fracture at the shaft of right tibia and fibula"
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "closed fracture right medial malleolus",
+        "injury_type": "Residual disability",
+        "body_part": "right medial malleolus",
+        "laterality": "right",
+        "source": [
+          "4) closed fracture right medial malleolus"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in her knee and leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot run or jump",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot stand for a prolonged period of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot carry heavy objects (or her own daughter who is 4 years old)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "memory is not as good as before",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of self-confidence",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness at the right infrapatellar tendon and the fracture site",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "slight limitation in ankle dorsiflexion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "unilateral muscular atrophy of the right thigh and calf",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "decreased left wrist strength; power grip of 20 kg over left hand and 26 kg over right side respectively",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "could not fully weight bear over right lower limb because of pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "mild residual stiffness at the ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "mild residual tenderness at the distal end of the plate (right forearm)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission and acute hospital care",
+      "open reduction and internal fixation for right ulna fracture (3/3/03)",
+      "open reduction and internal fixation for right malleolus fracture (3/3/03)",
+      "closed reduction and plaster for left distal radius fracture (3/3/03)",
+      "closed reduction and intramedullary nailing for right tibial fracture (3/3/03)",
+      "physiotherapy (out-patient, 19 sessions before readmission)",
+      "exploration and bone grafting for right tibial fracture (19/8/03)"
+    ],
+    "treatments_future": [
+      "removal of the intramedullary nail in right tibia",
+      "removal of plates in the right forearm",
+      "further course of physiotherapy treatment aiming at strengthening of the muscles of the right thigh and right calf (two months)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot run or jump; cannot stand for a prolonged period; will not be able to walk long distance especially when carrying heavy weight",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Cannot carry heavy objects (or her own daughter who is 4 years old)",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "May not be able to perform certain strenuous sports such as hiking or basketball",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Memory is not as good as before",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scarring and stiffness of the ankle; surgical scar over the infra-patella tendon",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Loss of self-confidence (affecting finding and keeping jobs and general confidence)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "The Kang Oh v. Wong Yik Fai",
+        "neutral_citation": "[1997] HKLRD L38",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20667,
+      "output_tokens": 9793,
+      "reasoning_tokens": 7488,
+      "total_tokens": 30460
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 60052.427515387535,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20667,
+      "output_tokens": 9793,
+      "reasoning_tokens": 7488,
+      "total_tokens": 30460
+    },
+    "total_duration_ms": 60052.427515387535
+  }
+}

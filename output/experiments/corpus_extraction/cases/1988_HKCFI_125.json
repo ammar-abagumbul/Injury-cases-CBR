@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "neutral_citation": "[1988] HKCFI 125",
+    "action_number": "HCA 5191/1987",
+    "case_name": "HO YUN KAN v. SAM SING TRANSPORTATION CO. (A FIRM)",
+    "judgment_date": "1988-03-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "Stevedore (also worked as delivery worker from time to time)",
+    "occupation_after": "Unemployed (receiving public assistance)",
+    "expected_occupation_after": null,
+    "salary_before": 3480.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "not well-educated"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracturing both the tibia and fibula about mid-way between the knee and the ankle",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "two of these bundles fell and struck the Plaintiff on his left leg fracturing both the tibia and fibula about mid-way between the knee and the ankle."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in the leg especially when there is a change in weather or after he has walked upstairs or for long periods",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Required crutches for about eight months",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to return to stevedoring or any other heavy work; restricted to sedentary or lighter jobs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Fractures were reduced and a plaster cast applied",
+      "Operation carried out whereby a metal plate was inserted with screws into the bones",
+      "Bone taken from the upper tibia to enhance bone healing at the fracture site (bone graft)",
+      "Transferred for convalescence to the Kowloon Hospital",
+      "Removal of the plate and screws from his leg (admitted 6 August 1987)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from the fracture and residual discomfort in the left leg",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity and restriction from heavy manual labour (unable to return to stevedoring)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 65000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8868,
+      "output_tokens": 3403,
+      "reasoning_tokens": 2496,
+      "total_tokens": 12271
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34276.741959154606,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8868,
+      "output_tokens": 3403,
+      "reasoning_tokens": 2496,
+      "total_tokens": 12271
+    },
+    "total_duration_ms": 34276.741959154606
+  }
+}

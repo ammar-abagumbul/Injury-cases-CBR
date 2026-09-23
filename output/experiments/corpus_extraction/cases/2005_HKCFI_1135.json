@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 1135",
+    "action_number": "HCPI 1025/2004",
+    "case_name": "HO CHONG PENG v. YUE HIN ENGINEERING CO",
+    "judgment_date": "2005-12-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 37,
+    "age_at_trial": 41,
+    "occupation_before": "Technician (CCTV installer) on a casual basis; various other jobs including waiter, hair stylist, supervisor in a metal factory, costume jewellery assembly, painting and maintenance",
+    "occupation_after": "Security guard (employed with Urban Property Management Ltd; employment lasted until 7 November 2003)",
+    "expected_occupation_after": "waiter",
+    "salary_before": 8950.0,
+    "salary_after": 5500.0,
+    "expected_salary_after": null,
+    "education_level": "Form I education in Macau"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left distal radius.",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Physical and radiological examination revealed fracture of the left distal radius."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "signs suggestive of reflex sympathetic dystrophy of the left distal forearm",
+        "injury_type": "Permanent injury",
+        "body_part": "left forearm",
+        "laterality": "left",
+        "source": [
+          "signs suggestive of reflex sympathetic dystrophy of the left distal forearm"
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left frozen shoulder / post-traumatic adhesive pericapsulitis of the left shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "left frozen shoulder",
+          "post-traumatic adhesive pericapsulitis of the left shoulder"
+        ],
+        "icd_code": "NC16.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "considerable pain in the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "movement of his left wrist was restricted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain extended to his left arm and shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left shoulder pain and stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "upper limb weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild wasting of the girdle and deltoid muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "significant decrease in handgrip power",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at the triangular fibro-cartilage area of the wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease of radio-density of the left wrist and hand compatible with history of reflex sympathetic dystrophy or disuse",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to lift heavy objects with left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to work at heights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Pamela Youde Nethersole Eastern Hospital on 8 March 2002",
+      "operation on 9 March 2002 with close reduction, external fixation and K-wire fixation",
+      "pins removed on 24 April 2002",
+      "physiotherapy (follow-up outpatient physiotherapy; twice weekly from 26 May to 8 November 2002; further physiotherapy in early 2004)",
+      "occupational therapy (December 2002 until July 2003)",
+      "rehabilitation in Kwong Wah Hospital including physiotherapy and occupational therapy for about 6 months",
+      "about 10 sessions of acupuncture treatment in Kwong Wah Hospital"
+    ],
+    "treatments_future": [
+      "further operation recommended by Dr Lam (cost $71,000)",
+      "MRI scan to rule out major tears in the triangular fibrocartilage or other soft tissue structures (recommended by Dr Lam)",
+      "further course of physiotherapy including strengthening exercises (recommended by Dr Lam)"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "considerable pain and loss of amenities; restricted use of left hand; unable to lift heavy weights and unable to work at heights",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 408000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16374,
+      "output_tokens": 6222,
+      "reasoning_tokens": 4608,
+      "total_tokens": 22596
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32057.62568488717,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16374,
+      "output_tokens": 6222,
+      "reasoning_tokens": 4608,
+      "total_tokens": 22596
+    },
+    "total_duration_ms": 32057.62568488717
+  }
+}

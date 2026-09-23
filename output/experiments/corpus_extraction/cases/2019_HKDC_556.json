@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 556",
+    "action_number": "DCPI 1454/2017",
+    "case_name": "WONG CHUN KIN v. CARITAS HONG KONG",
+    "judgment_date": "2019-04-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 35,
+    "age_at_trial": 39,
+    "occupation_before": "welfare worker and trainer",
+    "occupation_after": "welfare worker/trainer at Po Leung Kuk",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "sprain back"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "slight posterior prolapse of the T11/12 disc and early dehydration of the lumbar and lower thoracic discs",
+        "injury_type": "Residual disability",
+        "body_part": "T11/12 disc; lumbar and lower thoracic discs",
+        "laterality": null,
+        "source": [
+          "there was a slight posterior prolapse of the T11/12 disc and early dehydration of the lumbar and lower thoracic discs detected but no significant nerve impingement."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild disc desiccation at T11/12 & T12/L1; mild left lateral disc protrusion at L5/S1; lower thoracic spine mild left paracentral disc protrusion",
+        "injury_type": "Residual disability",
+        "body_part": "lower thoracic and lumbar spine (T11/12, T12/L1, L5/S1)",
+        "laterality": "left",
+        "source": [
+          "normal lumbar alignment; mild disc desiccation at T11/12 & T12/L1; L5/S1. There is mild left lateral disc protrusion with no significant compression; and lower thoracic spine showed mild left paracentral disc protrusion."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left lower limb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left calf and left foot weakness and tremor",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to sleep in the supine position or sleep on his left side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "condition deteriorates when he stands or walks for a long period of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to carry weight of 5 kg for 10 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "refrain from participating in sports and activities such as playing basketball, cycling, jogging and hiking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance and outpatient follow-up at Tseung Kwan O Hospital (TKOH) and general outpatient clinics",
+      "physiotherapy (private clinic: 4 sessions between 8 December 2014 to 23 January 2015; PD: 28 sessions from 6 July 2015 to 9 March 2016; 18 sessions in 30 weeks noted on 18 May 2017)",
+      "MRI (27 December 2014; 11 June 2016)",
+      "referral to orthopaedic and traumatology department and physiotherapy department of TKOH"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "has to refrain from participating in such sports and activities like before.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Yun Chiu v Union Printing Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 282/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Sulakhan Singh v Federal Securities Limited and Another",
+        "neutral_citation": null,
+        "action_number": "DCPI 231/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20452,
+      "output_tokens": 6165,
+      "reasoning_tokens": 4544,
+      "total_tokens": 26617
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40235.20444333553,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20452,
+      "output_tokens": 6165,
+      "reasoning_tokens": 4544,
+      "total_tokens": 26617
+    },
+    "total_duration_ms": 40235.20444333553
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 1436",
+    "action_number": "DCPI 1422/2013",
+    "case_name": "TSANG HO SANG v. SUNBASE ENVIRONMENTAL HYGIENE LTD",
+    "judgment_date": "2015-12-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 63,
+    "age_at_trial": null,
+    "occupation_before": "cleaning worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Soft tissue injuries to neck, left shoulder and left buttock with persistent symptoms",
+        "injury_type": "Permanent injury",
+        "body_part": "left neck, left shoulder, left buttock; cervical and lumbar region",
+        "laterality": "left",
+        "source": [
+          "Examination revealed tenderness over left neck, left shoulder and left buttock. He had no fracture. He was hospitalized for 1 day.",
+          "41. Left-sided low back pain, dull ache, continuous and nonstop and fluctuating when walking for more than 20 minutes he needs to rest.",
+          "42 Mid neck pain + stiffness on rotation to the left and right (sometimes) intermittently.",
+          "43. Arm + left forearm numbness continuously, ant-bit, fluctuating and increases when working at home, with increased numbness.",
+          "44. Unable to squat with increased low back pain that increases with movement.",
+          "Both experts agreed that his injuries were consistent with the mode of trauma described and the treatment with rehabilitation was appropriate. His impairments will persist and he will have on and off pain that requires treatment on a need-to basis in the future."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Pre-existing degenerative changes at the cervical spine and at the L-S spine",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine; lumbosacral (L-S) spine",
+        "laterality": null,
+        "source": [
+          "Both experts agreed that x-ray of Tsang’s cervical spine showed pre-existing degenerative changes not caused by the incident.",
+          "Both experts agreed that there were pre-existing degenerative changes. Taking all the circumstance into account, there is no evidence to suggest that Tsang pretended to be painful during medical examination."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over left neck, left shoulder and left buttock",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left-sided low back pain, dull ache, continuous and nonstop and fluctuating when walking for more than 20 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mid neck pain and stiffness on rotation intermittently",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Arm and left forearm numbness, continuous, fluctuating and increased by activity",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to squat with increased low back pain that increases with movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Headache over occipital region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance",
+      "Accident & Emergency (A&E) examination",
+      "Referral to Orthopaedics & Traumatology (O&T)",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Hospitalisation for 1 day",
+      "Home exercise and advice"
+    ],
+    "treatments_future": [
+      "Treatment on a need-to basis"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 234,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Kwok Man v The Kowloon Motor Bus Company (1933) Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 755/2001",
+        "injury_description": "minor contusion of the back due to a fall from a wheeled chair; reduced movement of the back; no permanent or structural damage and no operation required",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13410,
+      "output_tokens": 5236,
+      "reasoning_tokens": 3840,
+      "total_tokens": 18646
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35974.0670658648,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13410,
+      "output_tokens": 5236,
+      "reasoning_tokens": 3840,
+      "total_tokens": 18646
+    },
+    "total_duration_ms": 35974.0670658648
+  }
+}

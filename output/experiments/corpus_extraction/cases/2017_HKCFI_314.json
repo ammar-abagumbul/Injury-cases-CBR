@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 314",
+    "action_number": "HCPI 1402/2015",
+    "case_name": "LI JUNQUAN v. YIP KWOK WAH T/A WAH KEE ENGINEERING CO",
+    "judgment_date": "2017-02-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 46,
+    "age_at_trial": 50,
+    "occupation_before": "renovation worker",
+    "occupation_after": "general worker in renovation work",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 12250.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "burst fracture of his spine at T12 with cord oedema",
+        "injury_type": "Permanent injury",
+        "body_part": "spine at T12",
+        "laterality": null,
+        "source": [
+          "X‑rays and examination revealed a burst facture of his spine at T12 with cord oedema."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent and recurring residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Required spinal brace and crutches and re‑learnt walking through in‑patient physiotherapy and occupational therapy treatment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent impairment assessed at 16%–18% by Dr Wong and at 11% by Dr Yen",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "X‑rays and examination",
+      "surgery to stabilize his spine",
+      "in‑patient physiotherapy",
+      "occupational therapy",
+      "spinal brace and crutches"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Serious back injury (burst fracture at T12) resulting in persistent residual back pain and permanent impairment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Ability to work has been adversely affected on a permanent basis",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Man Kin v Golden Wheel (C&HK) Transportation Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 913/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Kwan Yuk Lin v Ying Wah Civil Engineering Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 869/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Kwan Tung v Yetai",
+        "neutral_citation": null,
+        "action_number": "HCPI 103/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10018,
+      "output_tokens": 5585,
+      "reasoning_tokens": 4480,
+      "total_tokens": 15603
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42654.09365296364,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10018,
+      "output_tokens": 5585,
+      "reasoning_tokens": 4480,
+      "total_tokens": 15603
+    },
+    "total_duration_ms": 42654.09365296364
+  }
+}

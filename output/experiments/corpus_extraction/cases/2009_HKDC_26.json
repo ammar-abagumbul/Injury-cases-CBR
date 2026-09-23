@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 26",
+    "action_number": "DCPI 412/2008",
+    "case_name": "TAM HON WING EDDY v. HOPEWILL ENGINEERING LIMITED",
+    "judgment_date": "2009-02-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 47,
+    "occupation_before": "Plumber employed by Hopewill",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard, shopkeeper, cleaner, messenger; (Dr Tsoi also recommended indoor decoration worker, courier, office assistant, driver, warehouse attendant and restaurant receptionist)",
+    "salary_before": 9800.0,
+    "salary_after": null,
+    "expected_salary_after": 7595.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "anterior cord syndrome (ACS) of the cervical spinal cord",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spinal cord",
+        "laterality": null,
+        "source": [
+          "This according to the diagnosis was caused by anterior cord syndrome (ACS) of the cervical spinal cord."
+        ],
+        "icd_code": "NA31.2",
+        "icd_description": "Anterior cord syndrome of cervical spinal cord"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "weakness in all limbs with the left side being more severe",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the left upper limb and left foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walks with a cane",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "remained semi-conscious on the way to the hospital",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "His limbs could not move",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he had difficulty breathing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There could be some decrease in the capacity for unduly prolonged walking and standing or handling of weight.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Physiotherapy",
+      "Acupuncture (80 sessions in the Mainland; court allowed amount covering 20 sessions)",
+      "Outpatient follow-up therapy",
+      "Hospitalisation (11 days)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "There could be some decrease in the capacity for unduly prolonged walking and standing or handling of weight.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "might not be able to return to his pre-accident job which required heavy labour.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chui Kam Sang v Tao Kee Engineering Co Ltd",
+        "neutral_citation": "HCPI 986/2006",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 460000.0
+      },
+      {
+        "case_name": "Joan Carol Boivin v Wong King Yin",
+        "neutral_citation": "HCPI 195/2001",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 475000.0
+      },
+      {
+        "case_name": "Cheung Lee Man v Chan Wai Wing",
+        "neutral_citation": "HCPI 760/2004",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 325000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9714,
+      "output_tokens": 4689,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14403
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32495.55606395006,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9714,
+      "output_tokens": 4689,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14403
+    },
+    "total_duration_ms": 32495.55606395006
+  }
+}

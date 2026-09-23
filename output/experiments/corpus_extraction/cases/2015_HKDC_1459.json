@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 1459",
+    "action_number": "DCPI 1121/2014",
+    "case_name": "TONG YUK TAI v. CHEW SOOI KUEN",
+    "judgment_date": "2015-12-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 38,
+    "age_at_trial": 42,
+    "occupation_before": "majority owner of a shop selling, inter alia, second-hand prestigious watches; watch technician receiving a monthly salary",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 34500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to the neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": "right",
+        "source": [
+          "soft tissue injury to the neck",
+          "right neck muscle swelling with tenderness",
+          "tenderness of right neck muscle and reduced range of motion of the neck"
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "on-and-off neck pain, particularly during change of weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain being aggravated by bending the neck or the neck staying immobile for 15 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion of the neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right little finger numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on-and-off pin prick sensation over right little finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "increased neck pain when lifting heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "waking up 4 to 5 times a week due to neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance at Pok Oi Hospital",
+      "analgesic medication",
+      "anti-inflammatory medication",
+      "hypnotic",
+      "physiotherapy (about 10 sessions by an acquaintance)",
+      "sick leave"
+    ],
+    "treatments_future": [
+      "symptomatic treatment only"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 186,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Neck pain and stiffness, reduced neck movement, right little finger numbness and reduced endurance for prolonged neck postures and heavy lifting caused by the soft tissue injury to the neck",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Ting Fai v Woo Chi Keung",
+        "neutral_citation": null,
+        "action_number": "DCPI 807/2007",
+        "injury_description": "whiplash injury to the neck resulting in neck pain and stiffness; received about 48 sessions of physiotherapy; intermittent sick leave; neck X-ray revealed degenerative changes; persistent numbness and neck pain; depression and insomnia",
+        "hospitalisation_days": 0,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Wong Kin Hung v Chan Wai Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 1223/2006",
+        "injury_description": "sprained neck injury with intermittent residual neck pain after physiotherapy",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10867,
+      "output_tokens": 3412,
+      "reasoning_tokens": 2176,
+      "total_tokens": 14279
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24048.782266676426,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10867,
+      "output_tokens": 3412,
+      "reasoning_tokens": 2176,
+      "total_tokens": 14279
+    },
+    "total_duration_ms": 24048.782266676426
+  }
+}

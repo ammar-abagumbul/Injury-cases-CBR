@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 546",
+    "action_number": "HCA9055/2000",
+    "case_name": "HONG YIT KIU AND ANOTHER v. PAUL C.W. TSE & CO. (a firm)",
+    "judgment_date": "2004-04-13",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "pneumonia",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "pneumonia"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "arthritis of the right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "arthritis of the right knee"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "depressive disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "was diagnosed in June 2003 to be suffering from depressive disorder."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain, suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of amenities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "physical inconvenience",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mental stress",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "impairment of concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering, loss of amenities, physical inconvenience, mental stress",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "impairment of concentration",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8289,
+      "output_tokens": 4606,
+      "reasoning_tokens": 3648,
+      "total_tokens": 12895
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35837.75917440653,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8289,
+      "output_tokens": 4606,
+      "reasoning_tokens": 3648,
+      "total_tokens": 12895
+    },
+    "total_duration_ms": 35837.75917440653
+  }
+}

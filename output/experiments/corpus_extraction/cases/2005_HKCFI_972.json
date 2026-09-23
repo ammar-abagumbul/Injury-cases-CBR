@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 972",
+    "action_number": "HCPI 9/2005",
+    "case_name": "WONG TAK SHUN v. LUK CHUECK WAH STELLA",
+    "judgment_date": "2005-11-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 39,
+    "occupation_before": "taxi driver",
+    "occupation_after": "taxi driver",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": 4000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor whiplash injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Both sides’ medical experts describe the injury as a “minor whiplash”.",
+          "The medical evidence confirms it was a “minor whiplash injury”."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing degeneration of the spine",
+        "injury_type": "Residual disability",
+        "body_part": "spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered pre-existing degeneration of the spine."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced working endurance and hours of working",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "X-rays",
+      "follow-up treatment (commenced 14 January 2002)",
+      "physiotherapy from April to July 2002"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 42,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "PSLA: In the original statement of damages this was put at $400,000. Mr Lam orally revised it downwards to $300,000. The authority he cited in support of $300,000 was plainly more serious than the present case. $300,000 is untenable. It is significantly more than the plaintiff can expect. The medical evidence confirms it was a “minor whiplash injury”.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Past loss of earnings: The plaintiff has received sick notes for 42 months. He puts his pre-accident earnings at $13,000 a month. No evidence in support of this figure was advanced. Both medical experts considered the plaintiff fit for work after two years. The plaintiff’s claim in the original statement for 42 x $13,000 for past loss of earnings is untenable, both as the duration and amount. The starting point would be 24 months multiplied by provable monthly earnings.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of earnings: The plaintiff's claim is that he can only earn $4,000 a month instead of $12,000. He asks that he be compensated for this shortfall for another 15 years. The plaintiff is now 39 years old. Future loss of earnings is therefore put at approximately $1.4 million. The experts agree that the plaintiff suffered pre-existing degeneration of the spine. Both Dr Lam for the plaintiff and Dr Tsoi for the defendant were of the opinion that the plaintiff was fit to resume work as a taxi driver. Their opinions only differed as to when and for how long each day. In short the Master no doubt took the view, and I agree, that the plaintiff’s future loss was, at worst, nil or, at best, a small percentage of his monthly wages as a taxi driver for a short period of time after he became fit to resume driving.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9369,
+      "output_tokens": 5094,
+      "reasoning_tokens": 3840,
+      "total_tokens": 14463
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36189.35542181134,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9369,
+      "output_tokens": 5094,
+      "reasoning_tokens": 3840,
+      "total_tokens": 14463
+    },
+    "total_duration_ms": 36189.35542181134
+  }
+}

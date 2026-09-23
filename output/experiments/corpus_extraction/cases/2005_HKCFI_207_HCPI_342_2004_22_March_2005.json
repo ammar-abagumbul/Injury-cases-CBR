@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 207; HCPI 342/2004 (22 March 2005)",
+    "action_number": "HCPI 342/2004",
+    "case_name": "YU LAM v. MA CHAK YIN T/A WAI KEI ENGINEERING CO AND ANOTHER",
+    "judgment_date": "2005-03-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 46,
+    "age_at_trial": 50,
+    "occupation_before": "general labourer (construction site worker)",
+    "occupation_after": null,
+    "expected_occupation_after": "light work such as a caretaker, watchman or filling station attendant",
+    "salary_before": 13800.0,
+    "salary_after": 5500.0,
+    "expected_salary_after": 5500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left lumbar transverse process",
+        "injury_type": "Residual disability",
+        "body_part": "left lumbar transverse process (L3)",
+        "laterality": "left",
+        "source": [
+          "He suffered a fracture of the left lumbar transverse process and the right tibia, fibula and medial malleolus."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right tibia, fibula and medial malleolus",
+        "injury_type": "Residual disability",
+        "body_part": "right tibia, right fibula and right medial malleolus",
+        "laterality": "right",
+        "source": [
+          "He suffered a fracture of the left lumbar transverse process and the right tibia, fibula and medial malleolus."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "old fractures of the right tibia and fibula with the plate and screws used as fixation devices still in situ (pre-existing)",
+        "injury_type": "Residual disability",
+        "body_part": "right tibia and right fibula",
+        "laterality": "right",
+        "source": [
+          "X-rays showed new fractures of the right tibia and fibula and old fractures of the same bones at a more distal location with the plate and screws that were used as fixation devices for that injury still in situ."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "advanced degenerative changes in the lumbar spine",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "X-rays showed advanced degenerative changes in the lumbar spine but an anatomic union of the fracture of the L3."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuing pain and swelling in the right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "paraesthesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wasting of muscles (right leg)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness of the ankles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "slight valgus deformity of the ankle joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to do heavy manual work; cannot return to pre-accident occupation as a construction site worker",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "cannot endure periods of standing, heavy lifting, carrying and squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgery (operation on 12 July 2001)",
+      "physiotherapy (November 2001 to December 2002)",
+      "operation for removal of locking screws of the right tibia fracture (6 September 2002)"
+    ],
+    "treatments_future": [
+      "removal of metal implants / future surgery"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to work as a construction site worker any more; only fit for light work such as a caretaker, watchman or filling station attendant",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot endure periods of standing, heavy lifting, carrying and squatting",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17223,
+      "output_tokens": 7157,
+      "reasoning_tokens": 5568,
+      "total_tokens": 24380
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32417.323917150497,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17223,
+      "output_tokens": 7157,
+      "reasoning_tokens": 5568,
+      "total_tokens": 24380
+    },
+    "total_duration_ms": 32417.323917150497
+  }
+}

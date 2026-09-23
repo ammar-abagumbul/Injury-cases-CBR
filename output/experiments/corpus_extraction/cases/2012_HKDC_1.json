@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 1",
+    "action_number": "DCPI 2738/2009",
+    "case_name": "CHEUNG KWOK KEUNG v. YIP MAN HING BUILDING MATERIALS CO LTD AND OTHERS",
+    "judgment_date": "2012-01-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": null,
+    "occupation_before": "self-employed as a delivery worker with his van",
+    "occupation_after": "self-employed van driver and delivery worker (part-time)",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 3200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Garden type IV, comminuted fracture of the right neck of femur",
+        "injury_type": "Permanent injury",
+        "body_part": "right hip (neck of femur)",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was traumatic fracture of right hip (neck of femur) after X-ray of pelvis. It was a Garden type IV comminuted fracture."
+        ],
+        "icd_code": "NC72.23",
+        "icd_description": "Intracapsular fracture of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Avascular Necrosis (AVN) of right hip, Ficat type III with articular collapse and early ostoarthropathy",
+        "injury_type": "Permanent injury",
+        "body_part": "right hip / right femoral head",
+        "laterality": "right",
+        "source": [
+          "On 9 November 2009, Cheung complained about increased hip pain. An X-ray examination disclosed features of Avascular Necrosis (“AVN”) of right hip and no cut-out of screws was noted.",
+          "A MRI examination was performed in July 2010 and it showed right femoral head AVN with articular collapse and early ostoarthropathy."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right hip pain and soreness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited walking pace",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in lifting weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty going upstairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left paraspinal lower lumbar discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "closed reduction and screw fixation on 6 February 2007",
+      "second closed reduction and internal fixation on 9 February 2007",
+      "operation for removal of screws and hip arthroscopy on 3 December 2010",
+      "physiotherapy (24 treatment sessions at the Physiotherapy Department of UCH between 13 March 2007 and 25 October 2007)",
+      "Chinese medical treatments with acupuncture (about 24 times)",
+      "private orthopaedic consultations (Dr. Yeung Kong Fan once and Dr. Chan Sai Keung once)"
+    ],
+    "treatments_future": [
+      "hip replacement (initial hip replacement operation)",
+      "post-operative rehabilitation"
+    ],
+    "hospitalisation_days": 23,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 334,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "limited walking pace; difficulty going upstairs",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "difficulty in lifting weight",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tai Mei Lin v. Fung King Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 425/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19293,
+      "output_tokens": 4829,
+      "reasoning_tokens": 3520,
+      "total_tokens": 24122
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36625.305853784084,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19293,
+      "output_tokens": 4829,
+      "reasoning_tokens": 3520,
+      "total_tokens": 24122
+    },
+    "total_duration_ms": 36625.305853784084
+  }
+}

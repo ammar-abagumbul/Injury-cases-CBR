@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 951",
+    "action_number": "HCPI 917/2005",
+    "case_name": "LEUNG WAI KEUNG v. CHOI YEE MAY",
+    "judgment_date": "2008-10-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 53,
+    "age_at_trial": 59,
+    "occupation_before": "Optometrist/Optician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 24000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff sustained a minor head injury because of the Accident.",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "the Plaintiff sustained a minor head injury because of the Accident."
+        ],
+        "icd_code": "NA00.Z",
+        "icd_description": "Superficial injury of unspecified part of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "MRI performed on 16 April 2005 revealed probable foraminal compression of right C6 root and left C7 roots.",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine / nerve roots (C6 right, C7 left)",
+        "laterality": "bilateral",
+        "source": [
+          "MRI performed on 16 April 2005 revealed probable foraminal compression of right C6 root and left C7 roots."
+        ],
+        "icd_code": "NA40",
+        "icd_description": "Injury of nerve root of cervical spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "there was some degeneration or a condition called cervical spondylosis.",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "there was some degeneration or a condition called cervical spondylosis."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "contusion injury of sacrum",
+        "injury_type": "Temporary injury",
+        "body_part": "sacrum",
+        "laterality": null,
+        "source": [
+          "(i) contusion injury of sacrum;"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "contusion injury of left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "(ii) contusion injury of left knee;"
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "contusion injury of right middle finger (MF) over the proximal inter-phalangeal joint (PIPJ); contusion of right hand which resulted in rupture of extensor tendon to the right middle finger; diagnosis of extensor tendon central slip injury with flexible 'buttonhole' deformity of his right middle finger.",
+        "injury_type": "Residual disability",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "(iii) contusion injury of right middle finger (MF) over the proximal inter-phalangeal joint (PIPJ).",
+          "contusion of right hand which resulted in rupture of extensor tendon to the right middle finger.",
+          "there was flexible ‘buttonhole’ deformity of his right middle finger with supple joints. The diagnosis of his right middle finger problem was extensor tendon central slip injury."
+        ],
+        "icd_code": "NC57.3Y",
+        "icd_description": "Other specified injury of extensor muscle, fascia or tendon of other finger at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "The Plaintiff was subsequently diagnosed with recurrent laryngeal nerve palsy, likely related to intra-operative nerve fraction injury.",
+        "injury_type": "Residual disability",
+        "body_part": "recurrent laryngeal nerve / voice",
+        "laterality": null,
+        "source": [
+          "The Plaintiff was subsequently diagnosed with recurrent laryngeal nerve palsy, likely related to intra-operative nerve fraction injury."
+        ],
+        "icd_code": "NA42.Y",
+        "icd_description": "Injury of other specified peripheral nerves of neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness, nausea and vomiting on 22 May 2003",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "moderate degree of global cognitive dysfunction",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness (MRC grade 3 to 4) over right upper limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "local tenderness over right shoulder; weakness over right upper limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "minimal active right MF PIPJ extension; good passive range of motion; pain and tenderness of right middle finger and palm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "proximal interphalangeal joint held in a flexion contracture of 70°. There was no active extension. Active flexion is about 20°.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "mild hoarseness of voice and sore throat",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "pain over his sacral area, left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "walked with a stick; unsteady gait; cannot support himself on one leg; stated he cannot squat down",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual numbness of right hand and right middle finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Orthopaedics consultation",
+      "Neurosurgery consultation",
+      "Neurologist follow-up",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Psychiatry (PWH Department of Psychiatry)",
+      "Clinical psychology (PWH Department of Psychology)",
+      "Ear, Nose and Throat (PWH Department of Ear, Nose and Throat)",
+      "Anterior decompression and disc replacement at C5/6 and C6/7 (operation)"
+    ],
+    "treatments_future": [
+      "psychiatric treatment",
+      "psychologist/psychology treatment",
+      "treatment on need-to basis (orthopaedic)"
+    ],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Right middle finger: extensor tendon injury/central slip injury leading to buttonhole deformity and inability to actively extend the PIPJ.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Residual headache, giddiness, impaired memory and a moderate degree of global cognitive dysfunction (post concussional features).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mak Hung Yin v Tsang Koon Chung and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 1038/1997",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Siu Shan v Tsang Hin Sum",
+        "neutral_citation": "[2003] HKLRD B14",
+        "action_number": "DCPI 181/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Ming Yat v Youh Eng Lai Michael trading as Prime Industrial Co (Hong Kong)",
+        "neutral_citation": null,
+        "action_number": "DCPI 201/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wu Kin Leung v Incorporated Owners of Fu Tor Loy Sun Chuen Stage I",
+        "neutral_citation": null,
+        "action_number": "HCPI 684/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20650,
+      "output_tokens": 12018,
+      "reasoning_tokens": 9280,
+      "total_tokens": 32668
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49611.13519221544,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20650,
+      "output_tokens": 12018,
+      "reasoning_tokens": 9280,
+      "total_tokens": 32668
+    },
+    "total_duration_ms": 49611.13519221544
+  }
+}

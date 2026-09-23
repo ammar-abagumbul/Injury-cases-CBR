@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 945",
+    "action_number": "HCPI 1080/2006",
+    "case_name": "WONG TAI YAU v. TRANSWARD STEVEDORE LTD",
+    "judgment_date": "2009-10-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "casual worker",
+    "occupation_after": "stevedore for Everbest Port Services Ltd at the container port",
+    "expected_occupation_after": null,
+    "salary_before": 12930.0,
+    "salary_after": 11000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "comminuted intra-articular fracture of the proximal phalanx of the right thumb, namely, multiple fractures which extended into the articular area of the joints of the proximal phalanx.",
+        "injury_type": "Residual disability",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "X-ray examination showed comminuted intra-articular fracture of the proximal phalanx of the right thumb, namely, multiple fractures which extended into the articular area of the joints of the proximal phalanx."
+        ],
+        "icd_code": "NC53.5",
+        "icd_description": "Fracture of thumb bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain of the right thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain, tenderness, shortening, deformity, stiffness and weakness (assessed to be permanent)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "metacarpophalangeal joint fused and could not move after surgery",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced grip strength; difficulty lifting heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and discomfort during exertion and weather change—with difficulty in daily activities which require thumb action",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Accident and Emergency Department of Queen Elizabeth Hospital",
+      "admission to Orthopaedic and Traumatology Department, Queen Elizabeth Hospital",
+      "initial conservative treatment by thumb splint",
+      "CT scan (December 2004)",
+      "surgical operation in April 2005 for fusion of the metacarpophalangeal joint and debridement of the interphalangeal joint",
+      "physiotherapy (first session Feb to June 2004: ice therapy and magnetopulse therapy; later wax therapy and ultrasound; hand function training)",
+      "physiotherapy (second session after operation: ice with magnetopulse therapy; passive mobilization to the interphalangeal joint)",
+      "advice on home exercise (physiotherapy ceased August 2005)"
+    ],
+    "treatments_future": [
+      "intermittent symptomatic treatment for residual pain (assessed at $2,000 per year by court)"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 424,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent pain, tenderness, shortening, deformity, stiffness and weakness of the right thumb; metacarpophalangeal joint fused and immobile; reduced grip strength and difficulty lifting heavy objects.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty in daily activities which require thumb action.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14506,
+      "output_tokens": 4332,
+      "reasoning_tokens": 3200,
+      "total_tokens": 18838
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30410.713844001293,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14506,
+      "output_tokens": 4332,
+      "reasoning_tokens": 3200,
+      "total_tokens": 18838
+    },
+    "total_duration_ms": 30410.713844001293
+  }
+}

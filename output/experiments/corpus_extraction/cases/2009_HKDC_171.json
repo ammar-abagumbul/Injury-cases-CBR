@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 171",
+    "action_number": "DCPI 2165/2007",
+    "case_name": "LAM KIT HONG v. PARAMATTA ESTATE MANAGEMENT LTD",
+    "judgment_date": "2009-07-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 34,
+    "age_at_trial": null,
+    "occupation_before": "investment consultant",
+    "occupation_after": "investment consultant",
+    "expected_occupation_after": null,
+    "salary_before": 32810.25,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Shaft fracture of right humerus; right arm deformity.",
+        "injury_type": "Temporary injury",
+        "body_part": "right humerus / right upper arm",
+        "laterality": "right",
+        "source": [
+          "As a result of the accident, he fractured his right upper arm.",
+          "As a result of the fall, the shaft of Mr. Lam's right humerus was fractured and his right arm was deformed."
+        ],
+        "icd_code": "NC12.3",
+        "icd_description": "Fracture of shaft of humerus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "occasional pain and discomfort in his right arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain occurs about 2 to 3 times a week, lasting several minutes each occasion. No medication is required.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "10 cm surgical scar on his right front arm causing him embarrassment",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right arm is weaker than before, and is painful when exerted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "arm tires easily when lifting heavy things; weight lifting capacity is limited to below 25 to 30 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "gets tired during activities in writing and using the computer, and requires 5 minutes rest after 30 minutes of continuous work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "was not able to get up from the floor because of the pain and the dizziness from the fall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "plaster and analgesics",
+      "open reduction and internal fixation (operation on 20 June 2006)",
+      "physiotherapy (July 2006 to January 2007)"
+    ],
+    "treatments_future": [
+      "removal of the implant",
+      "rehabilitation treatment"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 68,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced strength and function of right arm; painful on exertion; limited weight lifting capacity below 25 to 30 pounds; tires during writing/computer requiring rests.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "10 cm surgical scar on his right front arm causing embarrassment.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 230000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12800,
+      "output_tokens": 4023,
+      "reasoning_tokens": 2944,
+      "total_tokens": 16823
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30177.58021876216,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12800,
+      "output_tokens": 4023,
+      "reasoning_tokens": 2944,
+      "total_tokens": 16823
+    },
+    "total_duration_ms": 30177.58021876216
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 279",
+    "action_number": "DCPI 1313/2004",
+    "case_name": "NG SHUI HING v. LEE HING ON RICKY",
+    "judgment_date": "2005-12-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 49,
+    "occupation_before": "Taxi-driver; electrician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Studied up to F.3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He injured his left radius and left distal radio-ulnar joint.",
+        "injury_type": "Permanent injury",
+        "body_part": "left radius and left distal radio-ulnar joint",
+        "laterality": "left",
+        "source": [
+          "He injured his left radius and left distal radio-ulnar joint."
+        ],
+        "icd_code": "NC32.5Y",
+        "icd_description": "Other specified fracture of lower end of radius"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "on-and-off pain in the left elbow aggravated by lifting heavy objects, repetitive turning and flexion movement of the left elbow.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased range of movement of his left elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mildly decreased power of his left hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness and weakness of his left elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain over his left elbow particular on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation on 29 August 2002 with open reduction and internal fixation",
+      "regular physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 188,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from on-and-off pain, decreased range of movement, mild decreased hand-grip power, stiffness and weakness of the left elbow; prognosis that stiffness and weakness are likely to be permanent.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chung Hok Sung v Li Kam Ming",
+        "neutral_citation": null,
+        "action_number": "HCPI 393/1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Ho Bing Cheung v The Incorporated Owners of Mei Foo Sun Chuen – Stage V & Anor.",
+        "neutral_citation": null,
+        "action_number": "DCPI 66/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 220000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8557,
+      "output_tokens": 4660,
+      "reasoning_tokens": 3584,
+      "total_tokens": 13217
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38592.45966747403,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8557,
+      "output_tokens": 4660,
+      "reasoning_tokens": 3584,
+      "total_tokens": 13217
+    },
+    "total_duration_ms": 38592.45966747403
+  }
+}

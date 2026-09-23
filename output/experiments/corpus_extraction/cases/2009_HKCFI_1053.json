@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 1053",
+    "action_number": "HCPI 251/2009",
+    "case_name": "HUNG CHOR HUNG JOHN v. LI KWOK KIN AND ANOTHER",
+    "judgment_date": "2009-11-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": "He resigned from his job to look after both families",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "On 16 July 2007, Madam Chow So Hing (“Deceased”) was fatally injured in a traffic accident.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "On 16 July 2007, Madam Chow So Hing (“Deceased”) was fatally injured in a traffic accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "the Deceased devoted her time to look after her family, her younger sister and the Niece. After her sons got married and had children, she looked after her grandchildren and the Niece by doing housework and preparing meals for them for about 16 hours per day.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "living together with the 1st Son’s family brought disputes and disharmony.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "the Niece whose father had died returned to live with her mother who was a working parent, so she was not so well looked after as before, and her school grades slipped.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14821,
+      "output_tokens": 3100,
+      "reasoning_tokens": 2560,
+      "total_tokens": 17921
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28518.718902021646,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14821,
+      "output_tokens": 3100,
+      "reasoning_tokens": 2560,
+      "total_tokens": 17921
+    },
+    "total_duration_ms": 28518.718902021646
+  }
+}

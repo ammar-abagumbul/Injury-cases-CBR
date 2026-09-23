@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 615",
+    "action_number": "HCPI001334/1996",
+    "case_name": "CHAN TO WAI v. RIGID PLUMBING LTD. AND ANOTHER",
+    "judgment_date": "1998-01-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "plumber and pipe-fitter",
+    "occupation_after": "cleaning worker",
+    "expected_occupation_after": null,
+    "salary_before": 10500.0,
+    "salary_after": 2500.0,
+    "expected_salary_after": null,
+    "education_level": "Certificate in Plumbing and Pipefitting (Apprentices) in 1985"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Rupture of right eyeball leading to total blindness and removal of right eye",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "At about 2:10 p.m. on 14 September 1990, the Plaintiff ... the grinding plate or disc of the cutting machine suddenly broke, causing fragments to enter the Plaintiff's right eye.",
+          "He was admitted to the United Christian Hospital and was found to suffer a rupture of his right eyeball which was repaired surgically under general anaesthesia.",
+          "His right eye later became totally blind and had to be removed.",
+          "He underwent a number of surgical operations and had his right eyeball removed seven months after the accident."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Schizophrenia (psychiatric disorder) developing after the accident",
+        "injury_type": "Permanent injury",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "Within a few months of the accident, the Plaintiff showed mental symptoms which developed into schizophrenia.",
+          "I find, on balance of probabilities, that it is more probable than not that the mental illness of the Plaintiff was caused by and the result of the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Total blindness of right eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe pain in right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bleeding of right eye immediately after injury",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Schizophrenia (psychiatric disorder)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "repaired surgically under general anaesthesia",
+      "a number of surgical operations",
+      "right eyeball removed seven months after the accident",
+      "given medicine to reduce pain",
+      "attended follow-up treatment until 1995",
+      "treatment at public hospitals or clinics",
+      "psychiatric treatment (public)"
+    ],
+    "treatments_future": [
+      "new prosthesis fitted once every 6 to 8 years",
+      "visits to an Ophthalmologist 2 to 3 times a year"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of right eye and total blindness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Serious mental disability (schizophrenia) resulting in gross disability",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 800000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v Leung Kam Ming",
+        "neutral_citation": "1980 HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui Ki v Leung On & Another",
+        "neutral_citation": null,
+        "action_number": "Civil Appeal No.263 of 1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11584,
+      "output_tokens": 5006,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16590
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30180.1429502666,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11584,
+      "output_tokens": 5006,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16590
+    },
+    "total_duration_ms": 30180.1429502666
+  }
+}

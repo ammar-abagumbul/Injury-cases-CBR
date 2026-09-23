@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "neutral_citation": "[1981] HKCA 155",
+    "action_number": "CACV 189/1980",
+    "case_name": "YIP KAM-WAN v. LI LEUNG",
+    "judgment_date": "1981-02-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1750.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "two serious fractures of the pelvis",
+        "injury_type": "Permanent injury",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "two serious fractures of the pelvis"
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "rather more serious injuries on his left",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "rather more serious injuries on his left"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "comparatively minor injuries on his right hand",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "comparatively minor injuries on his right hand"
+        ],
+        "icd_code": "NC51",
+        "icd_description": "Superficial injury of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neurosis as a result",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "permanent loss of function",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "considerable discomfort in hospital",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain and suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Awarded $30,000 for pain, suffering and loss of amenities.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10413,
+      "output_tokens": 4329,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14742
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26882.734209299088,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10413,
+      "output_tokens": 4329,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14742
+    },
+    "total_duration_ms": 26882.734209299088
+  }
+}

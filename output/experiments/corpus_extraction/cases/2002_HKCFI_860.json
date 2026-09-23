@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 860",
+    "action_number": "HCPI 602/2001",
+    "case_name": "TSANG YUEN NAM v. HUNG YUN METALWARE CO. LTD.",
+    "judgment_date": "2002-11-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": 27,
+    "occupation_before": "metalwork technician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14658.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crushing injury to his right knee rupturing both front and back cruciate ligaments",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "As a result of the accident the plaintiff, then 23 and now 27 years old, sustained a crushing injury to his right knee rupturing both front and back cruciate ligaments."
+        ],
+        "icd_code": "NC93.6",
+        "icd_description": "Strain or sprain involving anterior or posterior cruciate ligament of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "trouble with the donor site in his left knee and was an inpatient for over three weeks",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "He had trouble with the donor site in his left knee and was an inpatient for over three weeks."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He suffers residual laxity in the anterior cruciate ligament.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "This leaves him with a permanent instability in his right knee.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Muscle wasting in the right thigh was good evidence that his complaints were genuine.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Those complaints included weakness, instability and stiffness in the knee and pain on walking more than modest distances and after prolonged standing and getting up after long sitting and on squatting.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He was in a plaster cast for three weeks.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He was on walking sticks for a month and a half thereafter.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He had trouble with the donor site in his left knee and was an inpatient for over three weeks.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The result of the instability is that he is faced with difficulty in working in the squatting position and he needs to avoid heavy work.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "He was in a plaster cast for three weeks.",
+      "Arthroscopy in August 1998 revealed the ligamental damage.",
+      "Forty sessions of physiotherapy followed",
+      "Further arthroscopy in April 1999",
+      "Operation to reconstruct the ligaments in June 1999",
+      "He was on walking sticks for a month and a half thereafter.",
+      "He had trouble with the donor site in his left knee and was an inpatient for over three weeks.",
+      "Thirty-eight more sessions of physiotherapy followed."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent instability in his right knee with residual laxity in the anterior cruciate ligament, weakness, instability and stiffness, and pain on walking more than modest distances and after prolonged standing and getting up after long sitting and on squatting.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Prior to the accident the plaintiff was a fit young man who played sport. The loss to the recreational side of his life is significant.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The plaintiff is unable to follow his previous skilled employment which involved heavy lifting.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11564,
+      "output_tokens": 5842,
+      "reasoning_tokens": 4416,
+      "total_tokens": 17406
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34954.00892943144,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11564,
+      "output_tokens": 5842,
+      "reasoning_tokens": 4416,
+      "total_tokens": 17406
+    },
+    "total_duration_ms": 34954.00892943144
+  }
+}

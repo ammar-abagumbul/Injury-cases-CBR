@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 123",
+    "action_number": "HCPI 850/2008",
+    "case_name": "FARMAN KHAN v. LAU KAI HONG AND LAU SIU YUK T/A SHUN SUM ENGINEERING CO (A FIRM)",
+    "judgment_date": "2010-02-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction worker",
+    "occupation_after": null,
+    "expected_occupation_after": "cleaning worker, warehouse attendant and indoor decoration worker (also security guard, car park attendant suggested)",
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "primary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "musculotendinous strain of neck muscle",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Based on the information from the medical documents, the X Ray and MRI findings, it is very likely that Mr. Khan suffers from musculotendinous strain of neck muscle and traumatic protruded L5-S1 disc of lumbar spine. The protruded L5-S1 disc caused compression of left side of nerve root."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue contusion injury over the back and pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "back and pelvis",
+        "laterality": null,
+        "source": [
+          "The diagnosis was soft tissue contusion injury over the back and pelvis."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "prolapsed / protruded intervertebral disc L5/S1 on left side with compression on nerve root",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine L5/S1",
+        "laterality": "left",
+        "source": [
+          "MRI spine on 18 January 2008 showed prolapsed intervertebral disc L5/S1 on left side with compression on nerve root.",
+          "Based on the information from the medical documents, the X Ray and MRI findings, it is very likely that Mr. Khan suffers from musculotendinous strain of neck muscle and traumatic protruded L5-S1 disc of lumbar spine. The protruded L5-S1 disc caused compression of left side of nerve root."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "degenerative cervical and lumbar spine (pre-existing)",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical and lumbar spine",
+        "laterality": null,
+        "source": [
+          "X Ray and MRI also revealed degenerative cervical and lumbar spine. They were pre-existing as a result of natural degeneration."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "psychiatric disorder: Adjustment Disorder, unspecified subtype and Major Depressive Episode, moderate",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "The psychiatric diagnoses are Adjustment Disorder, unspecified subtype and Major Depressive Episode, moderate.",
+          "The psychiatric disorders are the direct result of the injury on 10th October 2006.",
+          "Certain degree of permanent psychiatric impairment is expected and is in the region of 5 to 10%."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "multiple body abrasions plus contusions",
+        "injury_type": "Temporary injury",
+        "body_part": "multiple body sites",
+        "laterality": "bilateral",
+        "source": [
+          "He sustained multiple body abrasions plus contusions and visited A&E TKOH and was discharged after primary treatment."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "diffused tenderness over back with muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "range of back movement limited by pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain over both hips and knees and limited their range of motion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "wheelchair use at first outpatient clinic follow up on 5 December 2006",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "diffused severe pain over multiple parts of body",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "low back pain and left leg pain, weakness and numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild toe weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "needed a stick and friend's support in walking; could manage only less than 5 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "psychological fear of construction site environment limiting return to pre-injury occupation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medication",
+      "physiotherapy",
+      "conservative treatment"
+    ],
+    "treatments_future": [
+      "surgical discectomy (removal of protruded disc)",
+      "psychiatric treatment",
+      "rehabilitation up to three months after operation",
+      "Future medical expenses awarded HKD 107,250",
+      "Special damages awarded HKD 18,750"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume his pre-injury job (construction site work); cannot resume pre-injury job even after surgical treatment according to experts",
+        "caused_by_injury_id": "inj_003, inj_005"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Needed a stick and friend's support in walking and could manage only less than 5 minutes",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Gurung Durga Bahablur v Kam Tai Construction Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 304/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Li Yik Wing v Secretary for Justice for the Director of Marine",
+        "neutral_citation": null,
+        "action_number": "HCPI 565/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14271,
+      "output_tokens": 7843,
+      "reasoning_tokens": 5632,
+      "total_tokens": 22114
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44042.73569956422,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14271,
+      "output_tokens": 7843,
+      "reasoning_tokens": 5632,
+      "total_tokens": 22114
+    },
+    "total_duration_ms": 44042.73569956422
+  }
+}

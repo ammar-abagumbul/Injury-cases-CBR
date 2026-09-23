@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 570",
+    "action_number": "DCPI 1115/2007",
+    "case_name": "WONG NGAI SHING PRESTON v. YIU KWONG YUNG",
+    "judgment_date": "2008-03-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 46,
+    "age_at_trial": 48,
+    "occupation_before": "officer of the Customs and Excise Department",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "neck sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The medical officer diagnosed the Plaintiff to have suffered from neck sprain.",
+          "Fortunately, the Plaintiff has no permanent injury as a result of the accident, but he had been suffering from neck pain for more than 3 weeks after the accident, during which his neck motion was restricted."
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck motion was restricted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment at the Caritas Medical Centre",
+      "painkiller prescribed",
+      "follow-up request to return to Caritas Medical Centre on 2006-01-15"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities (PSLA)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Shing Kam & Another v Leung Ming Kwong",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 171 of 2005",
+        "injury_description": "similar to those of the 2nd Plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 30000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8011,
+      "output_tokens": 3846,
+      "reasoning_tokens": 3008,
+      "total_tokens": 11857
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26074.019752442837,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8011,
+      "output_tokens": 3846,
+      "reasoning_tokens": 3008,
+      "total_tokens": 11857
+    },
+    "total_duration_ms": 26074.019752442837
+  }
+}

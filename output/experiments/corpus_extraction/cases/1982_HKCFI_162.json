@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 162",
+    "action_number": "HCA005173/1980",
+    "case_name": "CHEUNG TZE MING v. CHAN KWOK KEUNG AND OTHERS",
+    "judgment_date": "1982-05-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 42,
+    "occupation_before": "Employed for some 20 years in a metalwork factory making small moulds for plastic flowers and the like.",
+    "occupation_after": "He returned to work on 17th April 1979. Although his work is done sitting down the Plaintiff suffers discomfort after a time and his output has fallen.",
+    "expected_occupation_after": "He should be capable at working at most jobs in a factory till the age of 55 and 60 but would then have to reduce his work load in comparison with a healthy individual of the same age.",
+    "salary_before": 1800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple lacerations over the face",
+        "injury_type": "Temporary injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "He was admitted to hospital with multiple lacerations over the face and a posterior dislocation of his left hip."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "deviated nasal septum to the left diminishing the air passage by about 60%",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal septum",
+        "laterality": "left",
+        "source": [
+          "The nasal septum is deviated to the left diminishing the air passage by about 60% but leaving a patent air passage."
+        ],
+        "icd_code": "NA0A.Y",
+        "icd_description": "Other specified injuries of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "posterior dislocation of his left hip",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "He was admitted to hospital with multiple lacerations over the face and a posterior dislocation of his left hip."
+        ],
+        "icd_code": "NC73.00",
+        "icd_description": "Posterior dislocation of hip"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain after sitting for any length of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Cannot comfortably walk for more than half an hour and then only slowly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Restriction of hip joint movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Upper end of the femur was slightly rotated clockwise",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Clinical signs of early asteo-arthritis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Diminished air passage in the left nostril by about 60% but leaving a patent air passage",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Potential to lead to a blocking of the duct to the air sinuses; if this later leads to any real problem an operation could become necessary (Dr Wedderburn: chances not more than 1%)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced work output",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "The dislocation was reduced under general anaesthetic",
+      "Put in a plaster spica",
+      "Transferred to another hospital after three weeks",
+      "Cast removed after two months",
+      "Discharged two weeks after cast removal"
+    ],
+    "treatments_future": [
+      "Possibility of future surgery to his nasal passage (Dr Wedderburn does not place the chances of such operation becoming necessary at more than 1%)",
+      "Possibility of hip replacement in the future"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Restriction of hip joint movement, pain after sitting, inability to walk comfortably for more than half an hour (and then only slowly); first signs of osteoarthritis are present and he will suffer increasing discomfort in the future.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10087,
+      "output_tokens": 7522,
+      "reasoning_tokens": 6016,
+      "total_tokens": 17609
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50840.06056562066,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10087,
+      "output_tokens": 7522,
+      "reasoning_tokens": 6016,
+      "total_tokens": 17609
+    },
+    "total_duration_ms": 50840.06056562066
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 15",
+    "action_number": "HCA 4242/1978",
+    "case_name": "LEUNG MUI v. SUM CHIO-NAM",
+    "judgment_date": "1980-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "newspaper hawker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "badly crushed right forearm",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "the deceased suffered a badly crushed right forearm."
+        ],
+        "icd_code": "NC37",
+        "icd_description": "Crushing injury of forearm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right arm amputated on the night of admission to Queen Elizabeth Hospital",
+        "injury_type": "Permanent injury",
+        "body_part": "right arm",
+        "laterality": "right",
+        "source": [
+          "she had her right arm amputated on the night of her admission to the Queen Elizabeth Hospital."
+        ],
+        "icd_code": "NC18.Z",
+        "icd_description": "Traumatic amputation of shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a fractured neck of the left humerous",
+        "injury_type": "Temporary injury",
+        "body_part": "left humerus (neck)",
+        "laterality": "left",
+        "source": [
+          "a fractured neck of the left humerous"
+        ],
+        "icd_code": "NC12.21",
+        "icd_description": "Fracture of surgical neck of humerus"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a fractured left olecranon process",
+        "injury_type": "Temporary injury",
+        "body_part": "left olecranon process",
+        "laterality": "left",
+        "source": [
+          "a fractured left olecranon process."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "cerebral-vascular haemorrhage causing hemiparesis on the right side",
+        "injury_type": "Residual disability",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "she developed shock and suffered a cerebral-vascular haemorrhage causing hemiparesis on the right side."
+        ],
+        "icd_code": "NA05.0",
+        "icd_description": "Injury of intracranial vessels of head"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "further cerebral haemorrhage which gave her a total paralysis on both sides of her body",
+        "injury_type": "Residual disability",
+        "body_part": "brain",
+        "laterality": "bilateral",
+        "source": [
+          "she had a further cerebal haemorrhage which gave her a total paralysis on both sides of her body."
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "hemiparesis on the right side",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "total paralysis on both sides of her body",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "could not talk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "could not swallow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "being fed by a tube passed through the nose down to the stomach",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "suffered shock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "little sensation in her right arm (probably)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "left arm treated in a plaster cast and causing discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to Queen Elizabeth Hospital (26 March 1977)",
+      "right arm amputation",
+      "conservative treatment for left arm fractures",
+      "admission to Maryknoll Hospital (9 September 1977)",
+      "nasogastric tube feeding",
+      "constant nursing care"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of right arm",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "required constant care and attention; could not talk or swallow and was fed by a tube; total paralysis",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Loss of expectation of life awarded by the Court ($8,000)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 25000.0,
+    "comparable_cases": [
+      {
+        "case_name": "YEUNG Ping-kuen and Anr. v TSUI Kam-pui and Anr.",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "woman of 54 confined to a hospital bed for approximately 21 months and suffered considerable physical pain and mental suffering",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16467,
+      "output_tokens": 8895,
+      "reasoning_tokens": 7360,
+      "total_tokens": 25362
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41174.41713064909,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16467,
+      "output_tokens": 8895,
+      "reasoning_tokens": 7360,
+      "total_tokens": 25362
+    },
+    "total_duration_ms": 41174.41713064909
+  }
+}

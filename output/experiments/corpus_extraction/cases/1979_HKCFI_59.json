@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 59",
+    "action_number": "HCA004241/1978",
+    "case_name": "SZETO YUK v. CHU MING KEUNG AND ANOTHER",
+    "judgment_date": "1979-04-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 55,
+    "occupation_before": "sewing and garment worker",
+    "occupation_after": null,
+    "expected_occupation_after": "storekeeper or cashier",
+    "salary_before": 900.0,
+    "salary_after": 400.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures of the right collar bone",
+        "injury_type": "Temporary injury",
+        "body_part": "right collar bone",
+        "laterality": "right",
+        "source": [
+          "She was treated for fractures of the right collar bone, lower end of the right humerus and of the right pelvis.",
+          "the collar bone and pelvis have healed completely."
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the lower end of the right humerus",
+        "injury_type": "Permanent injury",
+        "body_part": "lower end of right humerus",
+        "laterality": "right",
+        "source": [
+          "She was treated for fractures of the right collar bone, lower end of the right humerus and of the right pelvis.",
+          "the injury to the humerus has severely affected the movement of the elbow joint so that the plaintiff cannot fully straighten her arm and can only bend her elbow to a right angle.",
+          "The fractured humerus was treated by way of traction which involved a pin being driven through the forearm."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the right pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "right pelvis",
+        "laterality": "right",
+        "source": [
+          "She was treated for fractures of the right collar bone, lower end of the right humerus and of the right pelvis.",
+          "the collar bone and pelvis have healed completely.",
+          "The pelvic injury was treated by bed rest."
+        ],
+        "icd_code": "NB52.1Z",
+        "icd_description": "Fracture of unspecified pelvic bone without disruption of posterior arch of pelvic ring"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fractured the second and third fingers of her right hand",
+        "injury_type": "Permanent injury",
+        "body_part": "second and third fingers of right hand",
+        "laterality": "right",
+        "source": [
+          "The plaintiff also fractured the second and third fingers of her right hand.",
+          "these fingers now cannot be fully straightened or bent into a full grip.",
+          "The plaintiff now only has a grip of 10 lbs. with her right hand whereas before the accident, as she is right-handed, she probably had a grip of at least 30 lbs."
+        ],
+        "icd_code": "NC53.7",
+        "icd_description": "Multiple fractures of fingers"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "cannot fully straighten her arm and can only bend her elbow to a right angle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "these fingers now cannot be fully straightened or bent into a full grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "The plaintiff now only has a grip of 10 lbs. with her right hand whereas before the accident ... probably had a grip of at least 30 lbs.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "The plaintiff can no longer use chopsticks as she cannot move her hand closer than 18 inches to her mouth and eats by using a spoon with her left hand.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "She cannot use scissors or make other fine movements with her hand so that she is precluded from returning to her previous employment as a sewing and garment worker.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "She does her own house work but has some difficulty in washing dishes, clothes and the floor.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "The combined effect of the arm and hand injuries is that the plaintiff is left with a 40% permanent disability and a 25% impairment of the whole person.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "collar bone was placed in a brace",
+      "fractured humerus was treated by way of traction which involved a pin being driven through the forearm",
+      "pelvic injury was treated by bed rest",
+      "physiotherapy treatment (about 11 occasions) after discharge",
+      "bonesetter treatment (massage) after discharge"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 49,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The combined effect of the arm and hand injuries is that the plaintiff is left with a 40% permanent disability and a 25% impairment of the whole person.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "She does her own house work but has some difficulty in washing dishes, clothes and the floor.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "She cannot use scissors or make other fine movements with her hand so that she is precluded from returning to her previous employment as a sewing and garment worker.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 23000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LO Chun v. NG Kwok-ming & Anor.",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 2076/76",
+        "injury_description": "fractured left arm and ruptured tendons of the fingers and thumb; left with a permanent and deforming injury to his left arm and hand giving a 32% impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 23500.0
+      },
+      {
+        "case_name": "YEUNG Yuk-kee v. KONG Tsing-bor",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 2957/75",
+        "injury_description": "fractures of all 4 fingers of her right hand; left with a permanent loss of grip and a medical board assessed a 10% disability",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 15000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12697,
+      "output_tokens": 7425,
+      "reasoning_tokens": 5312,
+      "total_tokens": 20122
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39393.49275827408,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12697,
+      "output_tokens": 7425,
+      "reasoning_tokens": 5312,
+      "total_tokens": 20122
+    },
+    "total_duration_ms": 39393.49275827408
+  }
+}

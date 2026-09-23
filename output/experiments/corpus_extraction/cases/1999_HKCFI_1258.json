@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1258",
+    "action_number": "HCPI 1084/1997",
+    "case_name": "LAI SING PING v. KWONG WAN KAI TRANSPORTATION CO. LTD.",
+    "judgment_date": "1999-02-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "truck driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 19140.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple lacerations over his left hand, ring finger, middle finger and index finger; a fracture of the middle finger and the ring finger.",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff suffered multiple lacerations over his left hand, ring finger, middle finger and index finger; a fracture of the middle finger and the ring finger."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance",
+      "hospital treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9783,
+      "output_tokens": 2905,
+      "reasoning_tokens": 2432,
+      "total_tokens": 12688
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 20369.949363172054,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9783,
+      "output_tokens": 2905,
+      "reasoning_tokens": 2432,
+      "total_tokens": 12688
+    },
+    "total_duration_ms": 20369.949363172054
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 752",
+    "action_number": "HCPI 73/2007",
+    "case_name": "WONG TSAN MING v. TSE CHI MAN AND ANOTHER",
+    "judgment_date": "2008-08-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": 45,
+    "occupation_before": "Sole-proprietor of a decoration and construction company specializing in painting work (W.M. Company)",
+    "occupation_after": "Assistant in a friend's Classical Curtain Company; unemployed before conclusion of hearing",
+    "expected_occupation_after": null,
+    "salary_before": 19804.17,
+    "salary_after": 4500.0,
+    "expected_salary_after": 8000.0,
+    "education_level": "Secondary schooling in Mainland China"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He also had abrasions at the elbows.",
+        "injury_type": "Temporary injury",
+        "body_part": "elbows",
+        "laterality": null,
+        "source": [
+          "He also had abrasions at the elbows."
+        ],
+        "icd_code": "NC30.0",
+        "icd_description": "Abrasion of elbow"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "His right tibia plateau (as shown on the x-ray) was fractured.",
+        "injury_type": "Residual disability",
+        "body_part": "right tibia plateau / right knee",
+        "laterality": "right",
+        "source": [
+          "His right tibia plateau (as shown on the x-ray) was fractured."
+        ],
+        "icd_code": "NC92.1Y",
+        "icd_description": "Other specified fracture of upper end of tibia"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "treated with a course of antibiotics for the severe soft tissue crush injury and persistent fever after the operation.",
+        "injury_type": "Temporary injury",
+        "body_part": "right lower limb / local soft tissue",
+        "laterality": "right",
+        "source": [
+          "treated with a course of antibiotics for the severe soft tissue crush injury and persistent fever after the operation."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "felt severe pain at his limbs, particularly at his right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "discomfort of stiffness, pain, and weakness at the right knee especially when negotiating stairs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "walked with a very noticeable limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could not climb stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "felt tired very easily",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "articular congruity of the knee joint was not perfectly reconstituted",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "premature knee joint osteoarthritis of his right knee (anticipated)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "knee joint was grossly deformed and the knee joint was not normal (post-implant removal comment by Dr. Shen)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "general sense of discomfort over his right lower limb after walking for about half an hour on level ground; stiffness on the first few steps after sitting for some time; no pain at rest",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and internal fixation",
+      "antibiotics",
+      "physiotherapy",
+      "walking exercises",
+      "use of Exogen machine at home",
+      "bone graft operation",
+      "operation to remove metal implants"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 27,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Fracture of the right tibia plateau with residual knee dysfunction and possibility of future total knee replacement",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Walks with a noticeable limp, cannot climb stairs easily, tires easily and has reduced walking endurance",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to continue pre-accident decoration painting business; worked as assistant in a curtain company",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Chi Ming v Ng Pak Chuen & Ano.",
+        "neutral_citation": null,
+        "action_number": "HCPI 1085 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Yiu Ping v Mok Yuk Kwong & Ors.",
+        "neutral_citation": null,
+        "action_number": "HCPI 92 of 1998",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yu Kok Wing v Lee Tim Loi",
+        "neutral_citation": "[2001] 2 HKLRD 306",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19879,
+      "output_tokens": 7232,
+      "reasoning_tokens": 5440,
+      "total_tokens": 27111
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44081.906381994486,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19879,
+      "output_tokens": 7232,
+      "reasoning_tokens": 5440,
+      "total_tokens": 27111
+    },
+    "total_duration_ms": 44081.906381994486
+  }
+}

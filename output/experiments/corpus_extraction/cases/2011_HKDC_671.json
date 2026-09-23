@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 671",
+    "action_number": "DCPI 1427/2009",
+    "case_name": "RIVERA, SALLY DE GUZMAN v. CHAN HOI SING T/A SING KEE VEGETABLE WHOLESALE",
+    "judgment_date": "2011-01-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 48,
+    "occupation_before": "domestic helper",
+    "occupation_after": null,
+    "expected_occupation_after": "set up a small shop in Philippines",
+    "salary_before": 3500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a fracture of the bone in her left wrist.",
+        "injury_type": "Temporary injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff suffered a fracture of the bone in her left wrist."
+        ],
+        "icd_code": "NC53.Z",
+        "icd_description": "Fracture at wrist or hand level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Her left wrist joint will undergo degeneration earlier than the usual expectation. The overall wrist functions will deteriorate gradually and insidiously. This will affect her ability to work.",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Her left wrist joint will undergo degeneration earlier than the usual expectation. The overall wrist functions will deteriorate gradually and insidiously. This will affect her ability to work."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The overall wrist functions will deteriorate gradually and insidiously.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "physiotherapy"
+    ],
+    "treatments_future": [
+      "further treatment",
+      "medication"
+    ],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The overall wrist functions will deteriorate gradually and insidiously, which will affect her ability to work.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tang Bo Ling v. Chan Po trading as Corrytron Cateries",
+        "neutral_citation": null,
+        "action_number": "DCPI 79/2007",
+        "injury_description": "She suffered a fracture of the left wrist, her left distal radius and ulnar styloid. She was treated with close reduction and long arm plaster. After 1 day of hospitalization she was discharged. She was given 6 months of sick leaves but she only took 3 months. She suffered a persistent on-and-off pain on the left wrist, numbness, lack of strength and reduced range of movement of her left wrist.",
+        "hospitalisation_days": 1,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8708,
+      "output_tokens": 5302,
+      "reasoning_tokens": 4288,
+      "total_tokens": 14010
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34999.83426183462,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8708,
+      "output_tokens": 5302,
+      "reasoning_tokens": 4288,
+      "total_tokens": 14010
+    },
+    "total_duration_ms": 34999.83426183462
+  }
+}

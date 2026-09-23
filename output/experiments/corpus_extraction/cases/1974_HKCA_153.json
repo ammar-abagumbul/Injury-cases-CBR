@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "neutral_citation": "[1974] HKCA 153",
+    "action_number": "CACV 36/1974",
+    "case_name": "CHINA MOTOR BUS COMPANY LIMITED v. WILLIAM J. ORAM",
+    "judgment_date": "1974-12-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "doctor of medicine practising general surgery, obstetrics and gynaecology",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured dislocation of his right hip",
+        "injury_type": "Residual disability",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "fractured dislocation of his right hip"
+        ],
+        "icd_code": "NC79",
+        "icd_description": "Multiple injuries of hip or thigh"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "progressive osteoarthritis occasioned by the collision",
+        "injury_type": "Residual disability",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "progressive osteoarthritis occasioned by the collision"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "two fractured ribs",
+        "injury_type": "Temporary injury",
+        "body_part": "ribs",
+        "laterality": null,
+        "source": [
+          "two fractured ribs"
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "extensive damage to his teeth",
+        "injury_type": "Temporary injury",
+        "body_part": "teeth",
+        "laterality": null,
+        "source": [
+          "extensive damage to his teeth"
+        ],
+        "icd_code": "NA0D.Z",
+        "icd_description": "Injury of teeth or supporting structures, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "lung contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "lung",
+        "laterality": null,
+        "source": [
+          "lung contusion"
+        ],
+        "icd_code": "NB32.30",
+        "icd_description": "Contusion of lung"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "his vision was affected",
+        "injury_type": "Temporary injury",
+        "body_part": "vision",
+        "laterality": null,
+        "source": [
+          "his vision was affected"
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "a condition of bursitis in the elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "elbow",
+        "laterality": null,
+        "source": [
+          "a condition of bursitis in the elbow"
+        ],
+        "icd_code": "NC36.7",
+        "icd_description": "Injury of bursa of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headaches so severe at times that he had to stop working",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizzy spells",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "persistent pain in the hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "50% limitation of the movement of the hip joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "bursitis in the elbow (cleared by the date of the trial)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "reduction in vision / vision affected",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "dental treatment",
+      "hospitalisation"
+    ],
+    "treatments_future": [
+      "total replacement of the right hip joint"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "would be unable, after the operation, to play golf or to run and would have to slow down his walking pace",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "50% limitation of the movement of the hip joint",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Pillai v. Kwok Hung",
+        "neutral_citation": "1966 H.K.L.R. 366",
+        "action_number": null,
+        "injury_description": "hip injury with fracture of the left shoulder; required operation for fusion of the hip leaving a permanent limp",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 22000.0
+      },
+      {
+        "case_name": "Chung v. Haigh & Champion",
+        "neutral_citation": "O.J. 582/73 (unreported)",
+        "action_number": "O.J. 582/73",
+        "injury_description": "fracture of the right femur resulting in a hip condition leaving right lower limb shorter by 1 1/2 inches and gross limp; contusion of the urethra (required operation)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 25000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17158,
+      "output_tokens": 10173,
+      "reasoning_tokens": 6592,
+      "total_tokens": 27331
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51446.867257356644,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17158,
+      "output_tokens": 10173,
+      "reasoning_tokens": 6592,
+      "total_tokens": 27331
+    },
+    "total_duration_ms": 51446.867257356644
+  }
+}

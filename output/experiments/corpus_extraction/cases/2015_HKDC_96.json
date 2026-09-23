@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 96",
+    "action_number": "DCPI 1905/2013",
+    "case_name": "YIP MAU KEI v. WONG KAM TIM",
+    "judgment_date": "2015-02-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 45,
+    "age_at_trial": 48,
+    "occupation_before": "night-shift taxi driver",
+    "occupation_after": "night-shift taxi driver",
+    "expected_occupation_after": null,
+    "salary_before": 7200.0,
+    "salary_after": 4800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain with soft tissue/ paraspinal muscle involvement",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "suffered a back sprain with soft tissue/ paraspinal muscle involvement",
+          "soft tissue injury to his back, and there were only residual back symptoms with mild adverse effects."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "On and off low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Episcodic bilateral big toe numbness, more on left.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Complained of tenderness at bilateral paraspinal muscles at lower lumbar.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sensory  30% loss in anterior thigh  20% in rest of whole limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Could stand and walk on tiptoes or heels, with complaint of back discomfort",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Affected work efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (three sessions between March and April 2012)",
+      "analgesic medication",
+      "intramuscular analgesic (after 2nd Accident)",
+      "intensive inpatient physiotherapy (during admission on 28-29 December 2012)",
+      "hospital attendance and conservative treatment",
+      "sick leave granted (94 days for 1st Accident)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 94,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "residual back symptoms with mild adverse effects",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Hiu Yan Hilda v Lau Kam Hung",
+        "neutral_citation": null,
+        "action_number": "DCPI 220/2012",
+        "injury_description": "whiplash injury and sprained back with 10 days' sick leave",
+        "hospitalisation_days": 10,
+        "operations_count": null,
+        "sick_leave_days": 10,
+        "comparison": "less serious",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Tamang Udas v Global Sunny Engineering Limited & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 732/2011",
+        "injury_description": "injury to his back while moving metal scaffolds; hospitalized for 4 to 5 days and granted sick leave for about 7 months",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Fazal Ahmed v MTR Corp Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 29/2011",
+        "injury_description": "simple contusion of his back; judge recorded multiple inconsistencies",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Rai Pabitdara v Vegetable Marketing Organization",
+        "neutral_citation": null,
+        "action_number": "DCPI 2473/2009",
+        "injury_description": "sprained back with soft tissue injury from lifting",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 60000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15060,
+      "output_tokens": 5232,
+      "reasoning_tokens": 3840,
+      "total_tokens": 20292
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35240.96057936549,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15060,
+      "output_tokens": 5232,
+      "reasoning_tokens": 3840,
+      "total_tokens": 20292
+    },
+    "total_duration_ms": 35240.96057936549
+  }
+}

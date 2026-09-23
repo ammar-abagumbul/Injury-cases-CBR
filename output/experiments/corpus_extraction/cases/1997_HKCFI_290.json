@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 290",
+    "action_number": "HCPI000305/1997",
+    "case_name": "NG KAR YIU v. CHENG CHUNG LOK AND OTHERS",
+    "judgment_date": "1997-10-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 60,
+    "occupation_before": "machine technician and lathe operator",
+    "occupation_after": "lift attendant",
+    "expected_occupation_after": null,
+    "salary_before": 7280.0,
+    "salary_after": 4500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "His right arm was amputated just below the elbow.",
+        "injury_type": "Permanent injury",
+        "body_part": "right arm",
+        "laterality": "right",
+        "source": [
+          "His right arm was amputated just below the elbow."
+        ],
+        "icd_code": "NC38.3",
+        "icd_description": "Traumatic amputation at level between right elbow and wrist"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The Plaintiff suffered a crush injury and multiple laceration of the left hand.",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff suffered a crush injury and multiple laceration of the left hand."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "The left radius and ulna were each fractured.",
+        "injury_type": "Temporary injury",
+        "body_part": "left radius and ulna",
+        "laterality": "left",
+        "source": [
+          "The left radius and ulna were each fractured."
+        ],
+        "icd_code": "NC32.7",
+        "icd_description": "Multiple fractures of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Good range of movement in the thumb, which can be opposed to the middle, third and fourth fingers.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Those fingers will not fully close to make a fist resulting in poor grip.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The index finger is effectively frozen at a right angle at the middle joint and deviates towards the little finger.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Cannot use chopsticks but can manage a spoon or fork.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgery on left hand",
+      "Mechanical prosthesis prescribed (discarded)",
+      "Occupational therapy assessment by Alice Tsang"
+    ],
+    "treatments_future": [
+      "Further surgery to left hand recommended",
+      "Myoelectric prosthesis to be provided/replaced (recommended initially two devices)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of right arm below the right elbow.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Damage and permanent defects to left hand with reduced grip; index finger frozen at middle joint and deviation towards little finger; cannot use chopsticks (can use spoon or fork).",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 680000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki v. Leung On & Anor",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Pang Wai Chung v. Hoi Tat Rubber Factory",
+        "neutral_citation": "[1996] 2 HKC 557",
+        "action_number": null,
+        "injury_description": "Plaintiff had his right and preferred hand amputated.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 600000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16688,
+      "output_tokens": 5691,
+      "reasoning_tokens": 4288,
+      "total_tokens": 22379
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38944.69081610441,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16688,
+      "output_tokens": 5691,
+      "reasoning_tokens": 4288,
+      "total_tokens": 22379
+    },
+    "total_duration_ms": 38944.69081610441
+  }
+}

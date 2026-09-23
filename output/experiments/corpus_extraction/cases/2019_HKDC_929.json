@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 929",
+    "action_number": "DCPI 2856/2015",
+    "case_name": "CHIU YUEN YUEN v. BUCKINGHAM BANQUET LTD T/A BUCKINGHAM RESTAURANT",
+    "judgment_date": "2019-07-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 63,
+    "age_at_trial": 68,
+    "occupation_before": "Housewife; part-time cashier assisting husband's taxi rental business",
+    "occupation_after": null,
+    "expected_occupation_after": "She should be able to resume her pre-accident occupation",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary School"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "X-ray showed that her right ankle was fractured.",
+          "the injuries to Madam Chiu’s right ankle were the direct result of the accident."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Lower back pain",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "On 29 September 2015, she complained of lower back pain and was examined again at the Department of Physiotherapy of Princess Margaret Hospital.",
+          "Both doctors also did not ascribe Madam Chiu’s back pain to the accident."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "swelling over her right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in her right ankle after walking and standing for 30 minutes or more",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent pain on exertion such as prolonged walking or standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some loss of flexibility of her right ankle in relation to its range of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needed a stick to assist her for long journeys",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "required assistance for heavy household chores / was unable to do household work during prolonged treatment (10 months)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could no longer swim (previously enjoyed swimming with grandchildren)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower back pain treated with physiotherapy and subjectively improved by 80%",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "cast on right ankle",
+      "use of two crutches on discharge",
+      "physiotherapy",
+      "analgesic medication",
+      "use of walking stick for long journeys"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 271,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Deprivation of household services to family during the period of incapacity (assessed as cost of hiring a Filipino maid for duration of sick leave).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could no longer swim with her grandchildren, which she enjoyed doing.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual loss of flexibility of right ankle and intermittent pain on exertion.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sattar K.A. v Goodrich Transportation (HK) Limited & \"K\" Line Logistics (Hong Kong) Limited",
+        "neutral_citation": "[2018] HKDC 1510",
+        "action_number": "DCPI 2105/2016",
+        "injury_description": "Right ankle fracture; hospitalised; cast applied; fracture united; some residual pain with stiffness of the ankle.",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Yeung Siu Fong Mabel v Lam Siu Ha Trading as The Beauty",
+        "neutral_citation": null,
+        "action_number": "DCPI 1400/2006",
+        "injury_description": "Ankle injury on slipping; swelling in ankle but no fractures; hospitalised for 4 days; physiotherapy for 2 months.",
+        "hospitalisation_days": 4,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15517,
+      "output_tokens": 5262,
+      "reasoning_tokens": 3712,
+      "total_tokens": 20779
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32109.109591692686,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15517,
+      "output_tokens": 5262,
+      "reasoning_tokens": 3712,
+      "total_tokens": 20779
+    },
+    "total_duration_ms": 32109.109591692686
+  }
+}

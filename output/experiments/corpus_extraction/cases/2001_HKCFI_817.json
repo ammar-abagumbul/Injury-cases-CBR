@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 817",
+    "action_number": "HCPI 765/2000",
+    "case_name": "LAI KWAN MING v. LEE YIN HING T/A KING YIP CO. AND ANOTHER",
+    "judgment_date": "2001-10-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 46,
+    "age_at_trial": 50,
+    "occupation_before": "Carpenter (form work carpenter)",
+    "occupation_after": "Temporary/light cleaning worker, watchman, hawker, lunch-box delivery (casual jobs), rubbish collection",
+    "expected_occupation_after": null,
+    "salary_before": 31200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary education up to level 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "[The Plaintiff] fell from height whilst working on 15 September 1997, resulted in displaced fracture right neck of femur. Emergency operation with screws fixation performed on the same day. Post-operatively, he was discharged on 18 September 1997 and received out-patient physiotherapy for rehabilitation. Subsequent out-patient follow up showed good fracture healing and patient only got mild residual pain on walking.",
+        "injury_type": "Residual disability",
+        "body_part": "right neck of femur",
+        "laterality": "right",
+        "source": [
+          "[The Plaintiff] fell from height whilst working on 15 September 1997, resulted in displaced fracture right neck of femur. Emergency operation with screws fixation performed on the same day. Post-operatively, he was discharged on 18 September 1997 and received out-patient physiotherapy for rehabilitation. Subsequent out-patient follow up showed good fracture healing and patient only got mild residual pain on walking."
+        ],
+        "icd_code": "NC72.2Z",
+        "icd_description": "Fracture of neck of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Mild residual pain on walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Feeling of weakness in his right hip after walking for about 10 or more minutes; can manage walking slowly for about an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Ache in his right hip after standing for about 4 to 5 minutes, worse if standing over 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right hip felt tight in the squatting position; inability to squat (as complained by Plaintiff)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild limitation in the end range of some directions of the right hip motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Very mild decrease in the muscle bulk of the right thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild shortening of the right lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Trace of a limp, as if trying not to weight bear on right foot (observed by Dr Chun)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation with screws fixation performed on 15 September 1997",
+      "Out-patient physiotherapy for rehabilitation",
+      "Removal of implants was carried out on 6 November 1999 on patient's request",
+      "Out-patient follow up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He could no longer enjoy playing basketball and swimming",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 276000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yu Kok Wing v Lee Tim Loi",
+        "neutral_citation": "[2001] 2 HKLRD 306",
+        "action_number": null,
+        "injury_description": "Broke his right shin bone and fractured bones in his right ankle and his left heel. Treatment included insertion of plate into his left heel and bone grafting; external plates and pins were used for right ankle.",
+        "hospitalisation_days": 21,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17302,
+      "output_tokens": 5229,
+      "reasoning_tokens": 4160,
+      "total_tokens": 22531
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35371.691565960646,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17302,
+      "output_tokens": 5229,
+      "reasoning_tokens": 4160,
+      "total_tokens": 22531
+    },
+    "total_duration_ms": 35371.691565960646
+  }
+}

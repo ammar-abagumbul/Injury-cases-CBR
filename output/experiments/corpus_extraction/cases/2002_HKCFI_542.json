@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 542",
+    "action_number": "HCPI 852/1999 and 853/1999",
+    "case_name": "HO YING WAI v. KELISTON MARINE (FAR EAST) LTD. AND ANOTHER",
+    "judgment_date": "2002-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 39,
+    "occupation_before": "Commercial diver",
+    "occupation_after": "Working for his brother (family business)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 8500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left pneumothorax",
+        "injury_type": "Temporary injury",
+        "body_part": "left lung",
+        "laterality": "left",
+        "source": [
+          "The History and Clinical findings clearly record a diagnosis of left pneumothorax."
+        ],
+        "icd_code": "NB32.0",
+        "icd_description": "Traumatic pneumothorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right-sided pneumothorax",
+        "injury_type": "Permanent injury",
+        "body_part": "right lung",
+        "laterality": "right",
+        "source": [
+          "Admission diagnosis was \"Pneumothorax\". X-ray findings showed a right-sided pneumothorax."
+        ],
+        "icd_code": "NB32.0",
+        "icd_description": "Traumatic pneumothorax"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "blebs/bullae in his lungs",
+        "injury_type": "Permanent injury",
+        "body_part": "lungs",
+        "laterality": null,
+        "source": [
+          "\"I am sure Mr Ho has blebs in his lungs since 1990 when he had the first rupture of one of the blebs. These blebs are shown in his lungs beyond any doubt on the C T Scan of 1999.\""
+        ],
+        "icd_code": "NB32.3Y",
+        "icd_description": "Other injury of lung"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "sudden onset of left sided chest pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "shortness of breath",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "a degree of permanent pain or discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "substantially incapacitated",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "risk of recurrence of pneumothorax on the left side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "surgery (two operations)",
+      "chest X-ray(s)",
+      "barium meal",
+      "ultrasonogram of the upper abdomen",
+      "excretory urogram",
+      "skull X-ray (PA and lateral)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 14,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenity awarded at $300,000",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earnings and loss of congenial employment: pre-trial loss assessed as $525,000 (less actual earnings) and post-trial future loss lump sum $300,000",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Some shortness of breath and reluctance to exert himself limiting activity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26344,
+      "output_tokens": 5739,
+      "reasoning_tokens": 4416,
+      "total_tokens": 32083
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34878.98625060916,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26344,
+      "output_tokens": 5739,
+      "reasoning_tokens": 4416,
+      "total_tokens": 32083
+    },
+    "total_duration_ms": 34878.98625060916
+  }
+}

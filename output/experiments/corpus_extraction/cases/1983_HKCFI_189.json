@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 189",
+    "action_number": "HCA 4741/1980",
+    "case_name": "CHEUNG WAI LIN v. KOWLOON MOTOR BUS CO (1993) LTD AND ANOTHER",
+    "judgment_date": "1983-01-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "employee at the Jockey Club and tutor",
+    "occupation_after": "clerk at Jardines (joined 2 April 1979)",
+    "expected_occupation_after": null,
+    "salary_before": 900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Completed a one-year secretarial course including shorthand and typing (after leaving school in 1977)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a linear fracture of the left occipital bone",
+        "injury_type": "Temporary injury",
+        "body_part": "left occipital bone",
+        "laterality": "left",
+        "source": [
+          "a linear fracture of the left occipital bone."
+        ],
+        "icd_code": "NA02.03",
+        "icd_description": "Fracture of squama of occipital bone of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-concussional syndrome resulting in memory impairment (10%)",
+        "injury_type": "Residual disability",
+        "body_part": "head (brain/concussion)",
+        "laterality": null,
+        "source": [
+          "post-concussional syndrome following the injuries to the head which has resulted in a 10% memory impairment"
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "significant loss of sensation of smell (olfactory apparatus affected) affecting taste",
+        "injury_type": "Permanent injury",
+        "body_part": "nose/olfactory apparatus",
+        "laterality": null,
+        "source": [
+          "the plaintiff had suffered a significant loss of sensation of smell which indirectly affected an alteration in taste. He attributed the loss of sensation to the injuries to the head and fractured skull which affected the olfactory apparatus. He considers that this disability is likely to be permanent."
+        ],
+        "icd_code": "NA04.0",
+        "icd_description": "Injury of olfactory nerve"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "abrasions over the right infraorbital area",
+        "injury_type": "Temporary injury",
+        "body_part": "right infraorbital area",
+        "laterality": "right",
+        "source": [
+          "abrasions over the right infraorbital area"
+        ],
+        "icd_code": "NA00.10",
+        "icd_description": "Abrasion of eyelid or periocular area"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "swelling of the left elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "swelling of the left elbow"
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "10% memory impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "loss of sensation of smell which indirectly affected an alteration in taste",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "fainted / lapsed into unconsciousness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "abrasions over the right infraorbital area",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "swelling of the left elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Mary Hospital",
+      "Two electroencephalograms (EEGs) on 29 February 1980 and 8 May 1980",
+      "Referral to Dr. Philip Wu (ear, nose and throat surgeon)",
+      "Appetite-suppressants",
+      "Follow-up in outpatients department"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "10% memory impairment (permanent)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Loss of sensation of smell affecting taste (likely permanent)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (general damages)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 65000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14737,
+      "output_tokens": 6977,
+      "reasoning_tokens": 5312,
+      "total_tokens": 21714
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31693.6015188694,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14737,
+      "output_tokens": 6977,
+      "reasoning_tokens": 5312,
+      "total_tokens": 21714
+    },
+    "total_duration_ms": 31693.6015188694
+  }
+}

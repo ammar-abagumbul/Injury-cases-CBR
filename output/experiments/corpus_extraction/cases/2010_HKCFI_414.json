@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 414",
+    "action_number": "HCPI 63/2007",
+    "case_name": "CHENG LUNG FONG v. MITOYO HONG KONG LTD",
+    "judgment_date": "2010-05-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 27,
+    "age_at_trial": 33,
+    "occupation_before": "senior waitress in a Japanese restaurant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10550.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain back injury",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "The plaintiff sustained a sprain back injury in the accident."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "minor bulging of L5 with some right nerve root irritation",
+        "injury_type": "Residual disability",
+        "body_part": "L5 / lower back and right lower limb",
+        "laterality": "right",
+        "source": [
+          "probably the plaintiff also suffers from a minor bulging of L5 with some right nerve root irritation."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "she twisted and sprained her back. She felt a sudden pain in her back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right big toe weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impaired sensation over the lateral aspect of the right thigh and leg and over the dorsal aspect of the right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "very minor loss in dorsiflexion power of the right big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "discomfort after prolonged or more strenuous assertions",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "outpatient treatment",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12779,
+      "output_tokens": 4150,
+      "reasoning_tokens": 3200,
+      "total_tokens": 16929
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31832.601755857468,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12779,
+      "output_tokens": 4150,
+      "reasoning_tokens": 3200,
+      "total_tokens": 16929
+    },
+    "total_duration_ms": 31832.601755857468
+  }
+}

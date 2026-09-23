@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[1990] HKCFI 117",
+    "action_number": "HCA005494/1988",
+    "case_name": "YIU YUN v. ATTORNEY GENERAL",
+    "judgment_date": "1990-03-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 70,
+    "occupation_before": "vegetable farmer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Retained surgical pad (surgical swab) inside the abdomen",
+        "injury_type": "Permanent injury",
+        "body_part": "abdomen (subphrenic / above liver)",
+        "laterality": "right",
+        "source": [
+          "A surgical pad used in this operation was left inside the Plaintiff's abdomen and only removed by operation over 20 years later on 28th August 1987."
+        ],
+        "icd_code": "NB91",
+        "icd_description": "Injury of intra-abdominal organs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Chronic subphrenic abscess surrounding the retained surgical pad",
+        "injury_type": "Permanent injury",
+        "body_part": "subphrenic area (space above the liver)",
+        "laterality": "right",
+        "source": [
+          "He confirmed that a chronic subphrenic abscess and an abdominal surgical pad was later removed from a space above the Plaintiff's liver."
+        ],
+        "icd_code": "NB91",
+        "icd_description": "Injury of intra-abdominal organs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Calcification of tissue (calcified material / calcified wall) associated with the abscess",
+        "injury_type": "Permanent injury",
+        "body_part": "liver / surrounding tissue",
+        "laterality": "right",
+        "source": [
+          "a sinogram taken after the removal of the foreign body and abscess revealed a cavity the size of a grapefruit where the calcified material had laid (P.25 in Bundle of Documents)."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "She had a little pain on her side near her stomach.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The pain she felt in 1975 was in the same area but was more severe and she likened the pain to what she had experienced prior to her gall bladder operation.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The pain she felt after her operation did interfere with her work as a vegetable farmer at Wong Chuk Hang and she was only able to work when she did not feel the pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She was unable to do her housework or to have a good sleep when she felt severe pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She still feels some pain but that it is an improvement on her previous condition and does not interfere with her housework or sleep.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The arching of the Plaintiff's right diaphragm as seen on the x-rays was caused by the fibrous tissue containing the surgical pad.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgical removal of retained surgical pad by Dr. Frank Cheng (operation on 28 August 1987)",
+      "Admission for 5 days' observation in August 1987 and subsequent hospital admission until 11 September 1987",
+      "CT scan (27 August 1987 and earlier CT scan in 1983)",
+      "Barium meal x-ray (25 August 1987)",
+      "Chest and abdominal x-rays",
+      "ECG (30 July 1987)",
+      "Repeated intramuscular/intravenous injections (reticulose and essentiale) over many years (1,300 injections recorded)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Forced to give up vegetable farming due to pain associated with the condition.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Affected ability to do housework and to take rest and sleep over a long period.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and discomfort and impairment of abdominal area resulting from retained surgical pad and chronic abscess with calcification.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 237500.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Hing Mui v. Attorney-General",
+        "neutral_citation": null,
+        "action_number": "H.C.A. Wo. 4321 of 1981",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 85000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 32842,
+      "output_tokens": 7424,
+      "reasoning_tokens": 5824,
+      "total_tokens": 40266
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45122.606225311756,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 32842,
+      "output_tokens": 7424,
+      "reasoning_tokens": 5824,
+      "total_tokens": 40266
+    },
+    "total_duration_ms": 45122.606225311756
+  }
+}

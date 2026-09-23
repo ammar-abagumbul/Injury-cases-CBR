@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 176",
+    "action_number": "DCPI 2616/2008",
+    "case_name": "CHAN SHUI WO v. NG HO LAM AND ANOTHER",
+    "judgment_date": "2009-07-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 48,
+    "age_at_trial": 52,
+    "occupation_before": "welder",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14530.42,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "suffered injuries on his left foot",
+        "injury_type": "Residual disability",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "In the course of his employment he stepped onto a 3 inches long iron nail and suffered injuries on his left foot.",
+          "After the accident he had undergone 2 operations on his left foot requiring general anaesthesia.",
+          "According to the Plaintiff, he is now suffering from residual pain at his left foot which causes him less able to perform his job as a welder."
+        ],
+        "icd_code": "ND12.2",
+        "icd_description": "Puncture wound with foreign body of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain at his left foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "less able to perform his job as a welder; becomes easier to get tired, less efficient, and he will even hurt himself at work because of his inability to maintain a proper gesture when he is working",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He is now unable to jog in the morning as what he has been enjoying before the accident.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "2 operations on left foot requiring general anaesthesia"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 102,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to jog in the morning as what he has been enjoying before the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Less able to perform his job as a welder; becomes easier to get tired, less efficient, and may even hurt himself at work because of his inability to maintain a proper gesture when he is working.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Wah Chun v. Cheng Wing Chung & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI No.164 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung See Ning Clara v. Shun Tak Property Management Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI No.625 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kam Pui v. Wong Siu Hung and Ka Wai Motors Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI No.1920 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ko Chi Kei v. Funing Property Management Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI No.1228 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7557,
+      "output_tokens": 4395,
+      "reasoning_tokens": 3136,
+      "total_tokens": 11952
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33942.40616634488,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7557,
+      "output_tokens": 4395,
+      "reasoning_tokens": 3136,
+      "total_tokens": 11952
+    },
+    "total_duration_ms": 33942.40616634488
+  }
+}

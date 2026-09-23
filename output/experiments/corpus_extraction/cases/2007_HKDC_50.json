@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 50",
+    "action_number": "DCPI 1223/2006",
+    "case_name": "WONG KIN HUNG v. CHAN WAI MING",
+    "judgment_date": "2007-02-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "Taxi driver (plying for hire)",
+    "occupation_after": "Gardener (found work as a gardener around January 2005) (in addition to driving a taxi now and then)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head and neck injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head and neck",
+        "laterality": null,
+        "source": [
+          "Dr. Lam said the Plaintiff \"only had a minor head and neck injury…The injuries should have recovered within a short time.\"",
+          "There were tender areas over right side of head, neck and right leg. Haematoma was noted over right side of head. X-rays of head, neck, chest and right leg showed no fracture. He was discharged after observation."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right leg simple contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "right leg (near knee / upper tibia)",
+        "laterality": "right",
+        "source": [
+          "Both doctors agreed that \"(T)he right leg had a simple contusion only, which should have recovered already.\"",
+          "pain over upper tibia of right knee when he lay on his left side. The pain lasted 1-2 minutes and woke him up 3-4 nights per month."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "aching discomfort over the left side of his neck every day (neck pain)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right-sided headache associated with his neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "haematoma over right side of head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the tibial tuberosity on the right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain over upper tibia of right knee when lying on left side (woke him 3-4 nights per month)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency attendance and observation at Pamela Youde Nethersole Eastern Hospital on 19 May 2004",
+      "Follow-up attendances on 26 May 2004, 2 June 2004, 9 June 2004 and 16 June 2004",
+      "Attendance at PYNEH on 25 November 2004 (neck sprain)"
+    ],
+    "treatments_future": [
+      "30 sessions of physiotherapy recommended by Dr. Au (would take 6 weeks and cost $10,000 in the private sector)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 36,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities awarded under general damages",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 70000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Youn v Ng Kam Man and others",
+        "neutral_citation": "HCPI 533/1999",
+        "action_number": null,
+        "injury_description": "sprain neck injury; hospitalized the same day and treated with physiotherapy, neck collar and analgesic; discharged 2 days later; attended Orthopaedics Department for follow-up treatment lasting more than a year; still suffered from intermittent residual neck pain",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13432,
+      "output_tokens": 5677,
+      "reasoning_tokens": 4352,
+      "total_tokens": 19109
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42129.05891984701,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13432,
+      "output_tokens": 5677,
+      "reasoning_tokens": 4352,
+      "total_tokens": 19109
+    },
+    "total_duration_ms": 42129.05891984701
+  }
+}

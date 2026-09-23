@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 50",
+    "action_number": "DCPI 730/2009",
+    "case_name": "HO MAN WA v. WONG SHUI FUN T/A YAU LEE CO AND ANOTHER",
+    "judgment_date": "2010-03-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "delivery worker",
+    "occupation_after": "customer services officer",
+    "expected_occupation_after": null,
+    "salary_before": 10580.0,
+    "salary_after": 10852.9,
+    "expected_salary_after": null,
+    "education_level": "Form 7 school-leaver"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture at shaft of the right femur.",
+        "injury_type": "Residual disability",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "X-ray also showed fracture at shaft of the right femur."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "heterotopic ossification was noted at the tip of the greater trochanter (which was the entry site for insertion of intramedullary nail)",
+        "injury_type": "Residual disability",
+        "body_part": "right hip (greater trochanter)",
+        "laterality": "right",
+        "source": [
+          "heterotopic ossification was noted at the tip of the greater trochanter (which was the entry site for insertion of intramedullary nail)"
+        ],
+        "icd_code": "NC76.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at hip or thigh level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "several surgical scars over the lateral aspect of right hip.",
+        "injury_type": "Residual disability",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "several surgical scars over the lateral aspect of right hip."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Swelling and tenderness over the right thigh.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Plaintiff might still have some residual pain in his right hip and knee.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Maximal tenderness and pain complained by the Plaintiff at the tip of the greater trochanter.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Several surgical scars over the lateral aspect of right hip (non-tender).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Right hip and knee found to have full range of movement with no pain; muscle power of right hip and knee were full; able to squat fully with no pain; walking and running with normal gait; sitting and standing with no limitation.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "closed reduction and internal fixation with IM nail (emergency operation on 19th June 2005)",
+      "removal of implant (December 2006)",
+      "physiotherapy (2 courses, total of 47 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 206,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Kwan Ming v Lee Yin Hing t/a King Yip Company & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI No.765 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Tsz Wan v Caltex Oil Hong Kong Ltd. & Another",
+        "neutral_citation": null,
+        "action_number": "DCPI No.140 of 2001",
+        "injury_description": "fracture at neck of his right femur which required surgical intervention by means of closed reduction and hip screw fixation; residual pain and stiffness at the right hip; walking normally with no limp",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11722,
+      "output_tokens": 6017,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17739
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32852.50060632825,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11722,
+      "output_tokens": 6017,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17739
+    },
+    "total_duration_ms": 32852.50060632825
+  }
+}

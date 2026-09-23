@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1121",
+    "action_number": "HCPI 405/2012",
+    "case_name": "CHAN LUNG HING v. NG KAM MAN",
+    "judgment_date": "2014-06-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 36,
+    "occupation_before": "Garage owner / car mechanic",
+    "occupation_after": "Garage owner performing only light duties (general check ups, changing lubricants and simple tasks)",
+    "expected_occupation_after": null,
+    "salary_before": 15000.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the injuries suffered by the plaintiff is soft tissue injury to neck and back"
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to back (lumbar) with tenderness over L1 to L3 and right paraspinal muscles",
+        "injury_type": "Residual disability",
+        "body_part": "lower back (lumbar)",
+        "laterality": null,
+        "source": [
+          "the injuries suffered by the plaintiff is soft tissue injury to neck and back",
+          "tenderness over L1 to L3 and right paraspinal muscles."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Intermittent attacks of right side neck pain, occurred 1-2 times a week aggravated by prolonged walking or sitting for over 1 hour, heavy delivery at work over 100 lbs.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of movement of his neck was reduced to half.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diffuse tenderness over posterior neck and back.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Intermittent attacks of pain and tiredness of lower neck especially on exertion, or jogging with repeated movement for over 15 minutes or climbing underneath the car for inspection.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over L1 to L3 and right paraspinal muscles; pain on flexion and left lateral flexion on extreme range.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Decreased lifting and carrying strength and tolerance and decreased walking tolerance.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Subjective complaint of about 30% decrease in sensation to touch of right whole upper limb.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Waddell’s test suggests symptoms magnification during the examination.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "medications",
+      "physiotherapy (27 sessions since 30 December 2009)",
+      "occupational therapy (22 sessions up to 30 March 2010)",
+      "private chiropractor treatments (23 October 2009 to 16 December 2010)",
+      "consultation with bonesetter (16 November 2009)",
+      "acupuncture (July/August 2010)",
+      "herbal treatment (July/August 2010)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Youn v Ng Kam Man",
+        "neutral_citation": null,
+        "action_number": "HCPI 533/1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15974,
+      "output_tokens": 5121,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21095
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32868.07796731591,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15974,
+      "output_tokens": 5121,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21095
+    },
+    "total_duration_ms": 32868.07796731591
+  }
+}

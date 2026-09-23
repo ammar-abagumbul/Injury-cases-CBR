@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1398",
+    "action_number": "HCPI 786/2004",
+    "case_name": "CHAN MEI HING AND ANOTHER v. LAM KOK HENG",
+    "judgment_date": "2006-12-11",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 38,
+    "age_at_trial": 42,
+    "occupation_before": "English teacher, Panel Head (GM graduate master teacher grade) at Shatin Tsung Tsinn Secondary School",
+    "occupation_after": "Part-time teacher (from 1 September 2003 with 60% reduction; resumed full-time 12 January 2004 briefly; part-time from 1 September 2005 with 70% reduction)",
+    "expected_occupation_after": null,
+    "salary_before": 46810.0,
+    "salary_after": null,
+    "expected_salary_after": 45375.0,
+    "education_level": "Degree in Political Science (University of Saskatchewan)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "posterior left sided annular tear of the circumferential type with associated disc bugle at L5-S1 level.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L5-S1)",
+        "laterality": "left",
+        "source": [
+          "it was found that there was a posterior left sided annular tear of the circumferential type with associated disc bugle at L5-S1 level.",
+          "the annular tear of L5/S1 as revealed in the discogram was caused by the accident."
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion injury to both of her knees",
+        "injury_type": "Temporary injury",
+        "body_part": "knees",
+        "laterality": "bilateral",
+        "source": [
+          "sustained contusion injury to both of her knees in the accident",
+          "suffered from a contusion injury to her knee and back."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain radiating to left lower limb / left sciatica with numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bilateral knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced walking tolerance (walking tolerance noted around 20-30 minutes; later able to walk for 30 minutes after physiotherapy)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of movements of back moderately decreased",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Lower limb strength mildly decreased in general",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Positive non-organic signs (Waddell's signs) indicating symptom magnification/exaggeration",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Analgesics",
+      "Physiotherapy (24 sessions)",
+      "Admission and rehabilitation at Tai Po Hospital (14 days)",
+      "Referral to Pain Clinic",
+      "Psychological treatment at Pain Management Centre (Alice Ho Miu Ling Nethersole Hospital)",
+      "Discogram (27 August 2004)",
+      "Out-patient follow-up at Neurosurgery Department"
+    ],
+    "treatments_future": [
+      "Occasional outpatient neurosurgery follow-up (noted to attend about once a year)"
+    ],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Luk Yee Lam v Orasa Livasiri",
+        "neutral_citation": null,
+        "action_number": "HCPI 394/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      },
+      {
+        "case_name": "Lam Wa Lai v Starlong Development Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 624/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 170000.0
+      },
+      {
+        "case_name": "Chan Kwei Duen v. East Country Company Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 665/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20667,
+      "output_tokens": 5518,
+      "reasoning_tokens": 4352,
+      "total_tokens": 26185
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31719.066228717566,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20667,
+      "output_tokens": 5518,
+      "reasoning_tokens": 4352,
+      "total_tokens": 26185
+    },
+    "total_duration_ms": 31719.066228717566
+  }
+}

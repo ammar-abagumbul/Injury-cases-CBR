@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 366",
+    "action_number": "HCA005345/1982",
+    "case_name": "CHEUNG PING v. SIU CHUNG YEE AND OTHERS",
+    "judgment_date": "1984-07-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "trainee worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left femur",
+        "injury_type": "Permanent injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered a fracture of the left femur.",
+          "The fracture has healed in good alignment with some overriding which has resulted in some 1.5 centimetres of shortening in this leg."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain at the fracture site associated with changes in the weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Slight restriction of movement of the hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "1.5 centimetres shortening of the left leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Lack of stability in the left knee joint which may lead to onset of osteo arthritis",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "May suffer pain after prolonged standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Conservatively treated with skeletal traction for some twelve weeks",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Remained in hospital until after the birth of her child by Caesarian Section on 10th July",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservatively treated with skeletal traction for some twelve weeks",
+      "remained in hospital until after the birth of her child by Caesarian Section on 10th July"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering, loss of amenity; 1.5 centimetres shortening of left leg; slight restriction of movement of hip; lack of stability in left knee; possible future osteo arthritis.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Slight impairment in earning capacity; may suffer pain after prolonged standing which could marginally limit the jobs available to her in the future.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10010,
+      "output_tokens": 3715,
+      "reasoning_tokens": 2944,
+      "total_tokens": 13725
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26227.002799510956,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10010,
+      "output_tokens": 3715,
+      "reasoning_tokens": 2944,
+      "total_tokens": 13725
+    },
+    "total_duration_ms": 26227.002799510956
+  }
+}

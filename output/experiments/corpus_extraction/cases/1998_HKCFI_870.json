@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 870",
+    "action_number": "HCPI 1204/1996",
+    "case_name": "HO CHI MING v. UNION RIFE HONG KONG LTD.",
+    "judgment_date": "1998-08-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "deckhand",
+    "occupation_after": "repair worker at public housing estates",
+    "expected_occupation_after": "some light work",
+    "salary_before": 10000.0,
+    "salary_after": 4400.0,
+    "expected_salary_after": null,
+    "education_level": "little formal education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "old fracture of the 4th lumbar vertebral body",
+        "injury_type": "Permanent injury",
+        "body_part": "4th lumbar vertebral body",
+        "laterality": null,
+        "source": [
+          "Initial X-rays had shown an old fracture of the 4th lumbar vertebral body."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "retropulsion or bursting of the 4th lumbar fracture which led to indentation of the thecal sac and the 4th lumbar nerve root",
+        "injury_type": "Permanent injury",
+        "body_part": "4th lumbar vertebra / 4th lumbar nerve root",
+        "laterality": null,
+        "source": [
+          "a myelogram and CT scan was performed in November 1994 which revealed a retropulsion or bursting of the 4th lumbar fracture which led to indentation of the thecal sac and the 4th lumbar nerve root."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "arachnoiditis (as the likely cause of the Plaintiff's persistent symptoms)",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar region / nerve roots",
+        "laterality": null,
+        "source": [
+          "Dr. Lau formed the view that the Plaintiff's persistent symptoms is most likely due to arachnoiditis and expected these symptoms to persist as there were no further treatment, medical or surgical, which could help him."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intense pain at his lower back radiating down to his legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in his legs, in particular the right leg and frequent leg cramps at night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "stiffness in the Plaintiff's leg and also the lower spine region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "there was clumping of the nerve root at the 4th lumbar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the Plaintiff would not be able to return to his pre-accident employment as a deckhand but could take up some light work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "bed rest",
+      "myelogram",
+      "CT scan",
+      "conservative treatment",
+      "spinal fusion and pedicle screw fixation (operation in July 1995)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "persistent pain in the lower back and legs likely to remain for the rest of his life",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "would not be able to return to his pre-accident employment as a deckhand",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17370,
+      "output_tokens": 5677,
+      "reasoning_tokens": 4352,
+      "total_tokens": 23047
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30034.750998020172,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17370,
+      "output_tokens": 5677,
+      "reasoning_tokens": 4352,
+      "total_tokens": 23047
+    },
+    "total_duration_ms": 30034.750998020172
+  }
+}

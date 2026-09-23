@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 286",
+    "action_number": "DCPI 703/2004",
+    "case_name": "MA KWAI LAN v. CHIU YUN YAU AND ANOTHER",
+    "judgment_date": "2005-07-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 47,
+    "age_at_trial": 51,
+    "occupation_before": "cleaning worker at Hong Lok Yuen",
+    "occupation_after": "cleaning worker (light duties)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury with loss of consciousness and amnesia",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "head injury with loss of consciousness and amnesia"
+        ],
+        "icd_code": "NA07.09",
+        "icd_description": "Concussion with loss of consciousness, duration unspecified or unknown due to lack of information"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "facial abrasion with penetrating injury",
+        "injury_type": "Permanent injury",
+        "body_part": "right cheek / face",
+        "laterality": "right",
+        "source": [
+          "facial abrasion with penetrating injury",
+          "penetrating injury to her cheek",
+          "oblique and unsightly sunken scar over her left right cheek or left cheek should be right from the laceration",
+          "the deep wound sustained by the Plaintiff on her right cheek"
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "neck perispinal muscle spasm with decreased range of movement, otherwise described as neck sprain and contusion",
+        "injury_type": "Permanent injury",
+        "body_part": "neck / cervical spine",
+        "laterality": null,
+        "source": [
+          "neck perispinal muscle spasm with decreased range of movement, otherwise described as neck sprain and contusion"
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "left chest wall contusion",
+        "injury_type": "Permanent injury",
+        "body_part": "left chest wall",
+        "laterality": "left",
+        "source": [
+          "left chest wall contusion"
+        ],
+        "icd_code": "NA80.6",
+        "icd_description": "Contusion of thorax"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "2-cm hyper-dense area at the upper pole of the right kidney consistent with intra-renal haematoma (right renal haematoma / partial loss of renal tissue)",
+        "injury_type": "Permanent injury",
+        "body_part": "right kidney",
+        "laterality": "right",
+        "source": [
+          "CT scan of the abdominal area revealed a 2-cm hyper-dense area at the upper pole of the right kidney consistent with intra-renal haematoma",
+          "the right renal haematoma resulted from the accident has not resolved completely",
+          "persistent mild renal pains"
+        ],
+        "icd_code": "NB92.00",
+        "icd_description": "Contusion of kidney, minor"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "soft tissue injury / contusion of the left shoulder with restricted motion",
+        "injury_type": "Permanent injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "she is unable to elevate her left arm to overhead level mainly because of shoulder pain",
+          "soft tissue around the left shoulder was also injured during the accident",
+          "stiffness of the left shoulder"
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "left knee contusion and abrasion with subsequent pain and patello-femoral joint degeneration made symptomatic and disuse atrophy of left thigh and calf",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "left knee contusion and abrasion",
+          "On examination, crepitus were detected over both patello-femoral joints... only the left knee, which was the injured side, was painful and tender",
+          "there were some wasting of the left thigh and calf muscles, suggesting the Plaintiff was unable to use her left lower limb in a normal way, a condition known as disused atrophy"
+        ],
+        "icd_code": "NC90.4",
+        "icd_description": "Multiple superficial injuries of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "amnesia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "conspicuous/unsightly scar over right cheek with pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "saliva would escape whenever she spoke and ate (drooling) and difficulty in speaking and chewing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "neck pain over the left side with decreased range of movement; pain radiating to left side of head, face and left upper limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to elevate left arm to overhead level due to shoulder pain; restricted shoulder motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "left knee pain after walking for a long distance often associated with left calf muscle cramps",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "difficulty in climbing stairs, slopes and squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "residual left side chest wall pain, especially when lifting heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "wasting of left thigh and calf muscles (disuse atrophy)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "persistent mild renal pains",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "unable to sleep on her left side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation (no less than 14 days)",
+      "physiotherapy of over 65 sessions",
+      "suturing of right cheek laceration",
+      "sick leave for five months"
+    ],
+    "treatments_future": [
+      "neurological follow-up twice a year",
+      "specialist consultation with urine analysis and CT scan once a year",
+      "plastic surgery consultation (recommended by Dr Choi but not undertaken)"
+    ],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly and conspicuous scar over right cheek causing discomfort and affecting appearance",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Difficulty in speaking and chewing; saliva escaping when speaking and eating",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty climbing stairs and reliance on handrails to climb stairs",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Feeling she required to be looked after constantly instead of looking after her husband and son",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "No longer goes out after work and reduced sociability",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "Affected food ingestion due to cheek injury",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Required to be looked after rather than looking after husband and son",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Sing Kwai v Chan Yu Chuen & Another",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 320000.0
+      },
+      {
+        "case_name": "Rena v Aoki Corporation",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21457,
+      "output_tokens": 10119,
+      "reasoning_tokens": 7296,
+      "total_tokens": 31576
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53480.52328452468,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21457,
+      "output_tokens": 10119,
+      "reasoning_tokens": 7296,
+      "total_tokens": 31576
+    },
+    "total_duration_ms": 53480.52328452468
+  }
+}

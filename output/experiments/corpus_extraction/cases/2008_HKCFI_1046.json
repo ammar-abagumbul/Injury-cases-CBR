@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 1046",
+    "action_number": "HCPI 304/2004",
+    "case_name": "GURUNG DURGA BAHADUR v. KAM TAI CONSTRUCTION CO LTD AND ANOTHER",
+    "judgment_date": "2008-11-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 43,
+    "age_at_trial": 50,
+    "occupation_before": "casual labourer / construction worker",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": "light duty cleaning worker or a petrol station attendant",
+    "salary_before": 14400.0,
+    "salary_after": null,
+    "expected_salary_after": 5500.0,
+    "education_level": "Primary 3 or 4"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple fractures of the right transverse processes of the first to fourth lumbar vertebrae",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": "right",
+        "source": [
+          "According to the reports of the Government hospitals, Mr. Gurung suffered multiple fractures of the right transverse processes of the first to fourth lumbar vertebrae."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "haematoma of about 2.5 cm in diameter over the right side of the occiput",
+        "injury_type": "Temporary injury",
+        "body_part": "occiput (right side of head)",
+        "laterality": "right",
+        "source": [
+          "There was a haematoma of about 2.5 cm in diameter over the right side of the occiput."
+        ],
+        "icd_code": "NA00.01",
+        "icd_description": "Contusion of scalp"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post-concussion syndrome (mild head injury)",
+        "injury_type": "Temporary injury",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "the doctor in the Department of Neurosurgery diagnosed of a post-concussion syndrome."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "mild to moderate hearing loss at his right ear (ENT report dated 19 April 2004); prescribed a hearing aid",
+        "injury_type": "Permanent injury",
+        "body_part": "right ear",
+        "laterality": "right",
+        "source": [
+          "According to the report of the ENT Department from TMH dated 19 April 2004, Mr. Gurung was found to be suffering from mild to moderate hearing loss at his right ear. He was prescribed with a hearing aid."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual lower back pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping disability; walks with a very noticeable limp and requires a walking stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache near the occiput daily, lasting 1 to 2 hours",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "absent-mindedness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "decreased right ear hearing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (20 sessions: ice, electrotherapy, thermal, exercise therapy)",
+      "occupational therapy",
+      "walking exercises",
+      "home exercise programme",
+      "analgesics",
+      "hearing aid (prescribed)"
+    ],
+    "treatments_future": [
+      "outpatient follow up at TMH",
+      "analgesic medication"
+    ],
+    "hospitalisation_days": 38,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent residual lower back pain and stiffness resulting from fractures of the transverse processes of L1 to L4.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Severe limp and requirement of a walking stick for ambulation.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident employment as a labourer; limited to light duty unskilled work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 340000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Fuk Pau v Canton Curtain Wall Engineering Ltd & Anor.",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "fall through a height of 2.4 m and fracture of the transverse processes at L2, L3 and L4",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 330000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19664,
+      "output_tokens": 7572,
+      "reasoning_tokens": 5888,
+      "total_tokens": 27236
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33801.250740885735,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19664,
+      "output_tokens": 7572,
+      "reasoning_tokens": 5888,
+      "total_tokens": 27236
+    },
+    "total_duration_ms": 33801.250740885735
+  }
+}

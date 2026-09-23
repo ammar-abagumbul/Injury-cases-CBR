@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1181",
+    "action_number": "DCPI 1887/2016",
+    "case_name": "CHEUNG SHING CHI v. LEE KAI YUNG AND ANOTHER",
+    "judgment_date": "2018-09-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 23,
+    "age_at_trial": 27,
+    "occupation_before": "driver and delivery worker",
+    "occupation_after": "swimming pool maintenance worker",
+    "expected_occupation_after": null,
+    "salary_before": 17000.0,
+    "salary_after": 10400.0,
+    "expected_salary_after": null,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "X-ray confirmed avulsion fracture of the coronoid process of the right ulna.",
+        "injury_type": "Temporary injury",
+        "body_part": "right ulna / right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray confirmed avulsion fracture of the coronoid process of the right ulna."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right elbow pain, especially upon writing and sometimes during sleep.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual neck pain and numbness.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Residual back pain, especially upon prolonged walking or sitting.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Lower limb numbness, especially upon walking up or down stairs.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Dreaming of the accident at night.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Fear of travelling in vehicles driven by other people especially light goods vehicles.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Unable to lift heavy objects or drive for a prolonged period of time.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Depressive mood (referred to Department of Psychiatry for assessment and management).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Plaster cast applied to right elbow",
+      "Splint over right elbow removed on 2015-03-31",
+      "Analgesic medication",
+      "Outpatient physiotherapy",
+      "Follow-up at Department of Orthopaedics and Traumatology, Princess Margaret Hospital",
+      "Referral to the Department of Psychiatry",
+      "Work capacity evaluation (WCE) on 2015-07-17",
+      "Referral for driving assessment by Rehabaid"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 192,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Right elbow injury causing right elbow pain and limitation (unable to lift heavy objects; pain especially upon writing and sometimes during sleep).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Residual back pain, especially upon prolonged walking or sitting; lower limb numbness, especially upon walking up or down stairs.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Fear of travelling in vehicles driven by other people especially light goods vehicles; dreaming of the accident at night.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsui Kwan Fai v Goldfield N&W Construction Company Ltd",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 286,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Hung Yui v Muck Yun Chung formerly known as Chung Kee Electrical Works",
+        "neutral_citation": null,
+        "action_number": "HCPI 924/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chung Ping Wai v Pedder Logistics Godown Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1770/20017",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Li Moon Chai v Leung Shu Man",
+        "neutral_citation": null,
+        "action_number": "HCPI 48/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11089,
+      "output_tokens": 4133,
+      "reasoning_tokens": 2624,
+      "total_tokens": 15222
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31199.357092380524,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11089,
+      "output_tokens": 4133,
+      "reasoning_tokens": 2624,
+      "total_tokens": 15222
+    },
+    "total_duration_ms": 31199.357092380524
+  }
+}

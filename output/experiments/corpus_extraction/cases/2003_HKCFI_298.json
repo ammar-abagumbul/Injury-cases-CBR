@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 298",
+    "action_number": "HCPI 983/2001",
+    "case_name": "TAM YUEN HOI v. 陳牧成 AND OTHERS",
+    "judgment_date": "2003-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 41,
+    "occupation_before": "carpenter",
+    "occupation_after": "carpenter",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Degeneration of the spine and mild postero-lateral L4/L5 disc protrusion",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/L5)",
+        "laterality": null,
+        "source": [
+          "magnetic resonance imaging (MRI) showed a postero-lateral disc protrusion at L4/L5 vertebral disc with no compression on the nerve roots or cauda equina.",
+          "Dr Lau Hoi Kuen, opined that the degeneration of the Plaintiff's spine and mild protrusion of the L4/L5 disc took a long time to develop and should have existed before the accident."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Back injury / back sprain sustained in fall while descending marble staircase",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back / waist",
+        "laterality": null,
+        "source": [
+          "He fell and hurt his back as he was descending a marble staircase leading to the ground floor.",
+          "In the average cases with such back sprain, symptoms should subside within a few months, certainly not more than a year."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left buttock pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "sciatica",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "restricted movement of the back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness and numbness of left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "severe motor weakness and severe sensory deficit of both lower limbs (as demonstrated to Dr Lau)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital",
+      "admitted to Pamela Youde Nethersole Eastern Hospital (PYNEH)",
+      "MRI scan of lumbar spine",
+      "referral to orthopaedic clinic",
+      "multiple outpatient visits (400 visits to hospital for treatment)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could not enjoy playing basketball, swimming and cycling which he used to enjoy.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "He said he had problem having sex also.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "Could not sleep.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yu Kwok Wing",
+        "neutral_citation": "[2001] 2 HKLRD 306",
+        "action_number": null,
+        "injury_description": "referred to as the starting point for serious injury category (around $460,000)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lawati Bhawani Bikram v Ting Kau Contractors Joint Venture",
+        "neutral_citation": "CACV 3/2002",
+        "action_number": null,
+        "injury_description": "cited along with Yu Kwok Wing as authority for serious injury category starting point",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18224,
+      "output_tokens": 4369,
+      "reasoning_tokens": 2944,
+      "total_tokens": 22593
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25759.463850408792,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18224,
+      "output_tokens": 4369,
+      "reasoning_tokens": 2944,
+      "total_tokens": 22593
+    },
+    "total_duration_ms": 25759.463850408792
+  }
+}

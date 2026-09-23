@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 488",
+    "action_number": "HCPI 394/2002",
+    "case_name": "LUK YEE LAM v. ORASA LIVASIRI",
+    "judgment_date": "2003-11-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "Full time taxi driver (hired taxi); previously employed as a bus maintenance mechanic and drove taxis part time",
+    "occupation_after": "Not working; unable to return to taxi driving",
+    "expected_occupation_after": "Employment involving light duties",
+    "salary_before": 9464.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": 6000.0,
+    "education_level": "Educated up to Form 3 in China"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Disc herniation at C5/6 level",
+        "injury_type": "Permanent injury",
+        "body_part": "neck (C5/6)",
+        "laterality": null,
+        "source": [
+          "an MRI showed disc herniation at C5/6 level.",
+          "whiplash-type injury to the plaintiff's neck caused damage to the disc at the C5/6 level"
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the right arm and left wrist",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in his hands",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some numbness and pain in his right leg and his feet",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced sexual desire caused by the pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to participate in sports or go swimming",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to drive a taxi again",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Queen Mary Hospital (discharged with analgesics)",
+      "referral to orthopaedic clinic and physiotherapists",
+      "referral to Pamela Youde Nethersole Eastern Hospital",
+      "MRI",
+      "physiotherapy",
+      "conservative treatment (surgical treatment offered but declined)",
+      "sick leave certificates"
+    ],
+    "treatments_future": [
+      "continued treatment of some kind for the rest of his life"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to participate in sports or go swimming",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Reduced sexual desire caused by the pain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to taxi driving and has not worked since the accident",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9645,
+      "output_tokens": 4136,
+      "reasoning_tokens": 3008,
+      "total_tokens": 13781
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33295.02658173442,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9645,
+      "output_tokens": 4136,
+      "reasoning_tokens": 3008,
+      "total_tokens": 13781
+    },
+    "total_duration_ms": 33295.02658173442
+  }
+}

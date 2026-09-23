@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 13",
+    "action_number": "HCA004125/1978",
+    "case_name": "CHO SUK YING v. YUNG MUK HOI AND OTHERS",
+    "judgment_date": "1980-01-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 17,
+    "age_at_trial": null,
+    "occupation_before": "pupil (day school)",
+    "occupation_after": "assistant nurse (unqualified) at a clinic",
+    "expected_occupation_after": "plans to go to the University",
+    "salary_before": null,
+    "salary_after": 750.0,
+    "expected_salary_after": null,
+    "education_level": "Form IV (repeated)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2\" Y-Shaped laceration wound over her right forehead with active bleeding.",
+        "injury_type": "Temporary injury",
+        "body_part": "right forehead",
+        "laterality": "right",
+        "source": [
+          "2\" Y-Shaped laceration wound over her right forehead with active bleeding."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "1½\" irregular lacerated wound over her upper lip.",
+        "injury_type": "Temporary injury",
+        "body_part": "right upper lip",
+        "laterality": "right",
+        "source": [
+          "1½\" irregular lacerated wound over her upper lip."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture of the left radius.",
+        "injury_type": "Temporary injury",
+        "body_part": "left radius",
+        "laterality": "left",
+        "source": [
+          "Fracture of the left radius."
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Clinically cerebral contusion; damage to the left side of her brain which has left her with partial paralysis of her right arm and right leg, memory disturbance and a slight risk of epilepsis.",
+        "injury_type": "Permanent injury",
+        "body_part": "brain (left side)",
+        "laterality": "left",
+        "source": [
+          "Clinically cerebral contusion.",
+          "the Plaintiff as a result of the accident has suffered damage to the left side of her brain which has left her with partial paralysis of her right arm and right leg and memory disturbance and also a slight risk of epilepsis which will continue for 20 years at a steadily decreasing rate."
+        ],
+        "icd_code": "NA07.40",
+        "icd_description": "Focal non-haemorrhagic contusion of cerebrum"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Lost four central lower teeth which have had to be replaced by a denture.",
+        "injury_type": "Permanent injury",
+        "body_part": "four central lower teeth",
+        "laterality": null,
+        "source": [
+          "this girl lost four central lower teeth which have had to be replaced by a denture."
+        ],
+        "icd_code": "NA0D.Y",
+        "icd_description": "Other specified injury of teeth or supporting structures"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Scarring of her right eyebrow, right upper lip and on the back of her right forearm.",
+        "injury_type": "Residual disability",
+        "body_part": "right eyebrow; right upper lip; back of right forearm",
+        "laterality": "right",
+        "source": [
+          "She has scarring of her right eyebrow, right upper lip and also on the back of her right forearm."
+        ],
+        "icd_code": "NA00.5",
+        "icd_description": "Multiple superficial injuries of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Partial paralysis of her right arm and right leg.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Memory disturbance.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Slight risk of epilepsis which will continue for 20 years at a steadily decreasing rate.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Significant amount of intellectual deficit amounting to about 20% (difficulty with comprehension).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Apt to lose her temper very easily over trivial things (behavioural change not present prior to the accident).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Scarring of right eyebrow, right upper lip and back of right forearm (cosmetic/disfigurement).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Pain and suffering associated with broken arm and lacerations and abrasions.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Swollen right eyelids.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Loss of four central lower teeth (required denture).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Kwong Wah Hospital",
+      "Discharged from Kwong Wah Hospital on the 8th November 1977",
+      "Attended follow-up treatment for a further three months on a daily basis",
+      "Replacement of four central lower teeth by a denture"
+    ],
+    "treatments_future": [
+      "Plastic surgery may probably right scarring (possible future plastic surgery)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scarring of right eyebrow, right upper lip and back of right forearm; scarring may be corrected by plastic surgery.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Partial paralysis of right arm and right leg caused by damage to the left side of the brain.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Partial paralysis affecting right leg (reduced mobility).",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Memory disturbance and significant intellectual deficit (about 20%) with difficulty in comprehension.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Diminution of future earning capacity assessed at $800 per month with multiplier 10, total assessed $96,000.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Loss of four central lower teeth (replaced by a denture).",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14654,
+      "output_tokens": 9931,
+      "reasoning_tokens": 7680,
+      "total_tokens": 24585
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40732.77182877064,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14654,
+      "output_tokens": 9931,
+      "reasoning_tokens": 7680,
+      "total_tokens": 24585
+    },
+    "total_duration_ms": 40732.77182877064
+  }
+}

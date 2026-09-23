@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 709",
+    "action_number": "HCPI 575/2004",
+    "case_name": "SO SHU KEUNG SAMMY v. TAM TAK FONG AND ANOTHER",
+    "judgment_date": "2006-07-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 37,
+    "age_at_trial": null,
+    "occupation_before": "truck driver",
+    "occupation_after": "Unemployed since February 2003; part-time worker doing simple interior decoration work (April-May 2006) preparing tools and buying raw materials",
+    "expected_occupation_after": null,
+    "salary_before": 15240.13,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured right superior and inferior public rami",
+        "injury_type": "Residual disability",
+        "body_part": "right pelvis",
+        "laterality": "right",
+        "source": [
+          "Radiographs showed fractured right superior and inferior public rami, and fractured right 6th, 7th and 8th ribs."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured right 6th, 7th and 8th ribs",
+        "injury_type": "Residual disability",
+        "body_part": "right ribs (6th, 7th and 8th)",
+        "laterality": "right",
+        "source": [
+          "Radiographs showed fractured right superior and inferior public rami, and fractured right 6th, 7th and 8th ribs."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "scarring of both thighs",
+        "injury_type": "Residual disability",
+        "body_part": "both thighs",
+        "laterality": "bilateral",
+        "source": [
+          "(i) INJURY OF RIGHT CHEST RESULTING IN PAIN; (ii) FRACTURED RIGHT PELVIS RESULTING IN RESIDUAL PAIN AND STIFFNESS AND SCARRING OF BOTH THIGHS (i) 右胸部受傷引致疼痛; (ii) 右盆骨折骨引致殘餘的疼痛及僵硬及雙大腿結疤"
+        ],
+        "icd_code": "NC70.Y",
+        "icd_description": "Other specified superficial injury of hip or thigh"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "INJURY OF RIGHT CHEST RESULTING IN PAIN",
+        "injury_type": "Residual disability",
+        "body_part": "right chest",
+        "laterality": "right",
+        "source": [
+          "(i) INJURY OF RIGHT CHEST RESULTING IN PAIN; (ii) FRACTURED RIGHT PELVIS RESULTING IN RESIDUAL PAIN AND STIFFNESS AND SCARRING OF BOTH THIGHS (i) 右胸部受傷引致疼痛; (ii) 右盆骨折骨引致殘餘的疼痛及僵硬及雙大腿結疤"
+        ],
+        "icd_code": "NA80.6",
+        "icd_description": "Contusion of thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "multiple abrasions and bruises over both lower limbs and pelvic region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the right subcostal region and the right groin",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild residual pain at the fracture site",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual pain and stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scarring of both thighs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "serial radiographs",
+      "follow up in specialist clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 111,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15583,
+      "output_tokens": 6306,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21889
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31410.030256956816,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15583,
+      "output_tokens": 6306,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21889
+    },
+    "total_duration_ms": 31410.030256956816
+  }
+}

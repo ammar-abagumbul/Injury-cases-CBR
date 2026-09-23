@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKDC 64",
+    "action_number": "DCPI 329/2002",
+    "case_name": "HAU KIT HO v. STARWAY INTERNATIONAL DEVELOPMENT LTD T/A TAO HEUNG SUPER 88",
+    "judgment_date": "2003-09-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 54,
+    "age_at_trial": 56,
+    "occupation_before": "housewife",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture over the left lateral malleolus",
+        "injury_type": "Permanent injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "she had a fall and suffered a fracture to her left ankle.",
+          "X-ray on admission showed a fracture over the left lateral malleolus.",
+          "Dr. Chiang commented that x-ray showed that the fracture of the distal tibula had well united."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the left ankle was grossly swollen with a tender spot over lateral malleolus",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of movement decreased because of pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain after prolonged walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild pain in left heel when she started walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some blocking feeling in her left ankle when she moved her ankle in certain angle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort in the malleolar region of the left lateral ankle when she lowered her body to sit down",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wheelchair-bound for the 3 to 4 months after the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "used a frame for support in walking for 2 to 3 months; later trying to walk with a walking stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation on 2001-09-06 for open reduction and screw fixation of the fracture",
+      "hospitalisation and discharge with a wheelchair",
+      "leg splint fixed in the operation removed in about 4 weeks",
+      "used a frame for support in walking for 2 to 3 months",
+      "acupuncture (5 sessions from 2001-09-20 to 2001-10-10)",
+      "bonesetter treatment at the Kwong Wah Hospital in Dec., 2002",
+      "an injection to her left ankle in Feb., 2003 which produced noted improvement",
+      "15 intramuscular injections to relieve knee pains in late February to early March, 2002"
+    ],
+    "treatments_future": [
+      "30 sessions of physiotherapy",
+      "removal of screws (could be removed in about a year after the consolidation of the fracture)"
+    ],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "impairment of her ability to render household chores which were all done by her prior to the accident; after the accident, all such work was done by her husband",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could not resume her habits of morning swimming or hiking",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Ming v. Wayfine Investment Ltd. (trading as Wayfair Warehousing Co.)",
+        "neutral_citation": null,
+        "action_number": "HCPI 148 of 1997",
+        "injury_description": "fracture of the left lateral malleolus; open reduction, internal fixation and bone grafting were done on 30th April, 1994",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Cheung Hei Kwong v. Kwong Key Construction and Engineering Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCIP No. 1260 of 1999",
+        "injury_description": "fracture of distal fibula; inversion injury to left ankle with gross swelling",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14764,
+      "output_tokens": 4538,
+      "reasoning_tokens": 3072,
+      "total_tokens": 19302
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41727.158419787884,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14764,
+      "output_tokens": 4538,
+      "reasoning_tokens": 3072,
+      "total_tokens": 19302
+    },
+    "total_duration_ms": 41727.158419787884
+  }
+}

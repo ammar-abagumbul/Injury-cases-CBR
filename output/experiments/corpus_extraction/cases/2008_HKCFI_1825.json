@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 1825",
+    "action_number": "HCPI 305/2004",
+    "case_name": "POON KWOK WING ERNEST v. AIRPORT AUTHORITY HONG KONG",
+    "judgment_date": "2008-11-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 47,
+    "age_at_trial": 55,
+    "occupation_before": "traffic supervisor / kerb supervisor",
+    "occupation_after": "anti-touting work (could sit down while keeping watch)",
+    "expected_occupation_after": null,
+    "salary_before": 19124.8,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "concussion",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The injuries sustained by the plaintiff as a result of the accident included concussion, contusion to the neck and back, sprain injuries to the left knee and left ankle."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion to the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The injuries sustained by the plaintiff as a result of the accident included concussion, contusion to the neck and back, sprain injuries to the left knee and left ankle."
+        ],
+        "icd_code": "NA20.Y",
+        "icd_description": "Other specified superficial injury of neck"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusion to the back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "The injuries sustained by the plaintiff as a result of the accident included concussion, contusion to the neck and back, sprain injuries to the left knee and left ankle."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "sprain injury to the left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The injuries sustained by the plaintiff as a result of the accident included concussion, contusion to the neck and back, sprain injuries to the left knee and left ankle."
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "sprain injury to the left ankle",
+        "injury_type": "Temporary injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "The injuries sustained by the plaintiff as a result of the accident included concussion, contusion to the neck and back, sprain injuries to the left knee and left ankle."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "disc prolapses at L2 to L5 regions",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L2 to L5)",
+        "laterality": null,
+        "source": [
+          "On 21 October 2001 the plaintiff underwent a magnetic resonance imaging scan (MRI) of his spine, which showed disc prolapses at L2 to L5 regions."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "multiple level disc degeneration and spinal stenosis (pre-existing)",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "The multiple level disc degeneration and spinal stenosis were pre-existing conditions of wear and tear and might be a result of the plaintiff’s corpulence."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in the lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "pain in the ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "inability to stand, walk or sit for more than 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "neurasthenia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "erectile dysfunction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "claudication (pain induced by a brief period of walking and relieved by taking a rest)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "conservative treatment"
+    ],
+    "treatments_future": [
+      "laminectomy decompression operation (recommended / should undergo)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 618,
+    "sick_leave_days_expected": 365
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "inability to stand, walk or sit for more than 30 minutes",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "erectile dysfunction",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "alleges that thereafter he was unable to obtain a suitable job",
+        "caused_by_injury_id": "inj_006"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 55000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chung Keung v Greenroll Ltd t/a Conrad Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 275/2005",
+        "injury_description": "back contusion; slight degeneration L4-5; back pain not disabling",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Lam Kei Fung v Incorporated Owners of Yue Tin Court",
+        "neutral_citation": null,
+        "action_number": "DCPI 1237/2005",
+        "injury_description": "back contusion; persistent back pain; pre-existing degenerative changes",
+        "hospitalisation_days": 30,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 25357,
+      "output_tokens": 9896,
+      "reasoning_tokens": 7680,
+      "total_tokens": 35253
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 63188.449297100306,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 25357,
+      "output_tokens": 9896,
+      "reasoning_tokens": 7680,
+      "total_tokens": 35253
+    },
+    "total_duration_ms": 63188.449297100306
+  }
+}

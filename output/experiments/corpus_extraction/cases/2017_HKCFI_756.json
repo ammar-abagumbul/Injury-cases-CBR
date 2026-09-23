@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 756",
+    "action_number": "HCPI 225/2013",
+    "case_name": "WONG HEUNG WING WINGO v. JOHNSON CLEANING SERVICES CO LTD AND ANOTHER",
+    "judgment_date": "2017-05-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 34,
+    "age_at_trial": 41,
+    "occupation_before": "van driver",
+    "occupation_after": "casual tour bus driver",
+    "expected_occupation_after": null,
+    "salary_before": 7500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "chronic renal failure",
+        "injury_type": "Permanent injury",
+        "body_part": "kidneys",
+        "laterality": null,
+        "source": [
+          "he had renal failure before the accident.",
+          "According to Dr Kwok, despite all the urological care Wong had received, his kidney function continued to deteriorate.",
+          "Since June 2014, Wong had to receive haemodialysis twice a week. That was changed to daily abdominal peritoneal dialysis in January 2015, which Wong can perform by himself. Such dialysis is required 4 times every day."
+        ],
+        "icd_code": "NB92.0",
+        "icd_description": "Injury of kidney"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contracted bladder requiring augmentation with a piece of small bowel and intermittent self-catheterization",
+        "injury_type": "Permanent injury",
+        "body_part": "bladder",
+        "laterality": null,
+        "source": [
+          "his bladder was found to be very constricted. As a result, his bladder capacity had to be augmented with a piece of small bowel by open surgery.",
+          "Wong also had a contracted bladder which required him to preform intermittent self-catheterization to relieve himself."
+        ],
+        "icd_code": "NB92.2Y",
+        "icd_description": "Other specified injury of bladder"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "severe impairment of liver function",
+        "injury_type": "Permanent injury",
+        "body_part": "liver",
+        "laterality": null,
+        "source": [
+          "Finally, Wong also suffered from severe impairment of liver function."
+        ],
+        "icd_code": "NB91.1Y",
+        "icd_description": "Other specified injury of liver"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "severe anaemia",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Wong was severely anaemic on the day of the accident.",
+          "the hospital record shows that he required a transfusion on the next day, 22 March 2010.",
+          "Subsequent investigation found that Wong was suffering from gastritis and severe iron deficiency anaemia."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "serum electrolyte imbalance",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Wong also suffered from serum electrolyte imbalance."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "gastritis",
+        "injury_type": "Temporary injury",
+        "body_part": "stomach",
+        "laterality": null,
+        "source": [
+          "investigation found that Wong was suffering from gastritis, which was treated with medication.",
+          "During hospitalisation, the anaemia was investigated with upper gastrointestinal endoscopy on 9 April 2010 with diagnosis of gastritis, which was treated with medication."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "fracture of the left proximal humerus",
+        "injury_type": "Residual disability",
+        "body_part": "left proximal humerus",
+        "laterality": "left",
+        "source": [
+          "Wong suffered from fracture of the left proximal humerus and fracture of the left hip.",
+          "The left proximal humerus was treated conservatively."
+        ],
+        "icd_code": "NC12.2",
+        "icd_description": "Fracture of upper end of humerus"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "fracture of the left hip",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "Wong suffered from fracture of the left proximal humerus and fracture of the left hip.",
+          "Wong had surgery performed on his hip (dynamic hip screw fixation) on 25 March 2010."
+        ],
+        "icd_code": "NC72.3Z",
+        "icd_description": "Fracture of unspecified trochanteric section of femur"
+      },
+      {
+        "injury_id": "inj_009",
+        "description": "septicaemia",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "On 17 July 2010, Wong was again admitted into Hospital because of jaundice, severe anaemia and acute chronic renal failure. He had to be transferred to intensive care for renal support. He was put on temporary dialysis (apparently he was not fit for haemodialysis) and was found to have septicaemia."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lethargy and dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness, headache, vertigo, tinnitus, fatigue, exertional dyspnea, tachycardia, palpitation, angina, nausea, loss of appetite, constipation or diarrhoea (as possible symptoms of severe anaemia)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "requirement to perform intermittent self-catheterization",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual pain in the left hip region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "residual pain in the left shoulder region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "mild residual tenderness over the left hip region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "residual weakness in his left leg which might hinder heavy lifting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_008"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "dynamic hip screw fixation on 25 March 2010",
+      "left proximal humerus treated conservatively",
+      "blood transfusion on 22 March 2010",
+      "upper gastrointestinal endoscopy on 9 April 2010 with diagnosis of gastritis",
+      "physiotherapy",
+      "occupational therapy",
+      "work hardening programme",
+      "temporary dialysis during July 2010 admission",
+      "haemodialysis twice a week since June 2014",
+      "daily abdominal peritoneal dialysis since January 2015 (performed by himself, required 4 times every day)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Damages for pain suffering and loss of amenities agreed at HK$215,000 (pain, suffering and loss of amenities)",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "residual weakness in his left leg which might hinder heavy lifting and give a substantial disadvantage in the labour market",
+        "caused_by_injury_id": "inj_008"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 215000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23735,
+      "output_tokens": 11352,
+      "reasoning_tokens": 9344,
+      "total_tokens": 35087
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 55628.52570414543,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23735,
+      "output_tokens": 11352,
+      "reasoning_tokens": 9344,
+      "total_tokens": 35087
+    },
+    "total_duration_ms": 55628.52570414543
+  }
+}

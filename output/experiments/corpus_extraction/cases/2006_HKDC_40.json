@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 40",
+    "action_number": "DCPI 902/2004",
+    "case_name": "AZHAR HUSSAIN v. FASTCUT SERVICES LTD AND ANOTHER",
+    "judgment_date": "2006-02-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 24,
+    "age_at_trial": 28,
+    "occupation_before": "general worker assisting the operation of the drilling machine (employee of the 1st Defendant)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11796.51,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injury in his right ankle with residual stiffness and mild residual decrease of endurance",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "injury he suffered in his right ankle with its residual stiffness and mild residual decrease of endurance",
+          "mild residual stiffness in the right ankle, likely to be in the form of a mild decrease in his endurance with unduly prolonged squatting and with period of excessive heavy object lifting",
+          "there “may be a very mild reduction in his capacity as related to the mild residual stiffness in the right ankle. This would likely be in the form of a mild decrease in his endurance with unduly prolonged staying in squatting, and when prolonged period of excessive heavy object lifting is required.”"
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He had difficulty squatting beyond one minute.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He had difficulty carrying weights and in particular walking when carrying weights.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He had difficulty walking more than 3 to 4 flights of stairs.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He had difficulty with slopes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "A mild decrease in his endurance with unduly prolonged squatting.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced ability to squat for prolonged periods, reduced ability to carry weights and to walk multiple flights of stairs; difficulty with slopes.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced competitiveness in the job market and loss of earning capacity; assessed reduction in ability to obtain work similar to pre-accident employment leading to an award for loss of earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Wan Choi v Choi Wan Hing & Anor",
+        "neutral_citation": "[2000] 4 HKC",
+        "action_number": null,
+        "injury_description": "injuries to the pelvis, left femur and tibia resulting in 8 - 9% disability of the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14150,
+      "output_tokens": 4258,
+      "reasoning_tokens": 3136,
+      "total_tokens": 18408
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27619.140692055225,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14150,
+      "output_tokens": 4258,
+      "reasoning_tokens": 3136,
+      "total_tokens": 18408
+    },
+    "total_duration_ms": 27619.140692055225
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 1211",
+    "action_number": "HCPI 333/2009",
+    "case_name": "GURUNG BHAKTA BAHADUR v. GREEN VALLEY LANDFILL LTD",
+    "judgment_date": "2011-01-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "skilled labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back (lower back)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "He described the nature of the injury to the plaintiff as \"sprain\", and the location of the injury to be at the lower back.",
+          "He was diagnosed to have suffered from a sprained back and discharged with analgesics."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low back tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain was worse in the morning, gradually getting better; pain after walking; pain after sitting for 20 to 30 minutes; more pain during change of weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "flexion (bending forwards) 40º, extension (bending backwards) 30º, side-bending 30º on each side and rotation 40º in each direction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could only squat halfway (complaining of back pain)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Straight leg raising test 45º bilaterally in the lying down position with complaint of back pain; 70º bilaterally in the sitting position without pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Waddell's test was positive",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "hydrotherapy",
+      "attendance at Tseung Kwan O Clinic and Accident and Emergency Department of Tseung Kwan O Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could no longer pursue his former hobbies, which included volleyball, badminton, football and dancing.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ali Shoukat v. Hang Seng Bank Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 3 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ernest Poon Kwok Wing v. Airport Authority of Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 305 of 2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15729,
+      "output_tokens": 3942,
+      "reasoning_tokens": 2752,
+      "total_tokens": 19671
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35431.410402059555,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15729,
+      "output_tokens": 3942,
+      "reasoning_tokens": 2752,
+      "total_tokens": 19671
+    },
+    "total_duration_ms": 35431.410402059555
+  }
+}

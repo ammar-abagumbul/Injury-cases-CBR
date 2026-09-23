@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 227",
+    "action_number": "DCPI 1493/2006",
+    "case_name": "LAU KWOK TAI v. HANG YICK PROPERTIES MANAGEMENT LTD",
+    "judgment_date": "2007-07-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "deposit services officer of Hang Seng Bank at the Shatin Prestige Banking Centre",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture over his right radial neck near the elbow.",
+        "injury_type": "Residual disability",
+        "body_part": "right radial neck near the elbow",
+        "laterality": "right",
+        "source": [
+          "fracture over his right radial neck near the elbow."
+        ],
+        "icd_code": "NC32.1",
+        "icd_description": "Fracture of upper end of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured left patella",
+        "injury_type": "Residual disability",
+        "body_part": "left patella",
+        "laterality": "left",
+        "source": [
+          "fractured left patella"
+        ],
+        "icd_code": "NC92.0",
+        "icd_description": "Fracture of patella"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain, stiffness and numbness over his right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain, stiffness and numbness over his left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He feels discomfort after prolonged standing or sitting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Difficulty walking fast or run",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Has to hold handrail for walking on staircases",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Difficulty squatting and bending his left knee",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "traumatic arthritics of the patello-femoral joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation for fractured patella",
+      "plaster and bracing for fractured right forearm",
+      "physiotherapy (21 sessions from 9 October 2003 to 19 December 2003)",
+      "occupational therapy (24 sessions from 22 December 2003 to 6 March 2004)"
+    ],
+    "treatments_future": [
+      "intra-articular hyaluronic injection of left knee every two or three years (3 injection courses claimed)",
+      "removal of the broken wire loop in left knee"
+    ],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 168,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10951,
+      "output_tokens": 4839,
+      "reasoning_tokens": 3776,
+      "total_tokens": 15790
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34950.0468224287,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10951,
+      "output_tokens": 4839,
+      "reasoning_tokens": 3776,
+      "total_tokens": 15790
+    },
+    "total_duration_ms": 34950.0468224287
+  }
+}

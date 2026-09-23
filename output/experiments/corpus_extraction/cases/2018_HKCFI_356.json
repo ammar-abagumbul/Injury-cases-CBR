@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 356",
+    "action_number": "HCPI 999/2015",
+    "case_name": "LEUNG HOI WAI v. PO LEUNG KUK",
+    "judgment_date": "2018-02-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 34,
+    "age_at_trial": 38,
+    "occupation_before": "Instructor (I) at the Pokfulam Rehabilitation Centre",
+    "occupation_after": "Programme worker at Hong Kong Lutheran Social Service",
+    "expected_occupation_after": null,
+    "salary_before": 15125.0,
+    "salary_after": 17090.0,
+    "expected_salary_after": null,
+    "education_level": "tertiary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture at the proximal phalanx of the right big toe",
+        "injury_type": "Temporary injury",
+        "body_part": "right big toe",
+        "laterality": "right",
+        "source": [
+          "X-ray examination revealed that her right big toe was fractured.",
+          "Radiological study showed a fracture at the proximal phalanx of the right big toe.",
+          "the right big toe of Madam Leung was swollen, tender and bruised."
+        ],
+        "icd_code": "ND13.4",
+        "icd_description": "Fracture of great toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "sharp pain to the right big toe",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swollen, tender and bruised right big toe",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain noted on 26 June 2013",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness over fracture site",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "initial limitation: could stand for 10 minutes, walk for an hour and climb 2 flights of stairs (around 13 August 2013)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "later improvement: could stand for 30 minutes and walk 3 hours (29 August 2013)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "by 19 November 2013 could stand for 1 to 2 hours and walk for 4 hours",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to kick a football with her right foot (29 August 2013)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Accident & Emergency Department of Queen Mary Hospital",
+      "painkillers",
+      "referral to Orthopaedic Clinic",
+      "occupational rehabilitation at the Occupational Therapy Department of Queen Elizabeth Hospital",
+      "occupational therapy sessions",
+      "physiotherapy (subsequently requested)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 567,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to kick a football with her right foot (recorded 29 August 2013).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Initial reduced ability to stand and walk (could stand for 10 minutes and walk for 1 hour around 13 August 2013) with progressive improvement over months.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Poon Chun Lam v Yip Fung Textiles Company Limited (in liquidation)",
+        "neutral_citation": null,
+        "action_number": "DCPI 1197/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Singh Chamkaur v Richard Ethan Latker",
+        "neutral_citation": null,
+        "action_number": "DCPI 1323/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Yuen Neung Shirley v Lee Sze Wai t/a蝦碌美食",
+        "neutral_citation": null,
+        "action_number": "DCPI 2012/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13880,
+      "output_tokens": 4137,
+      "reasoning_tokens": 2688,
+      "total_tokens": 18017
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29824.81038570404,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13880,
+      "output_tokens": 4137,
+      "reasoning_tokens": 2688,
+      "total_tokens": 18017
+    },
+    "total_duration_ms": 29824.81038570404
+  }
+}

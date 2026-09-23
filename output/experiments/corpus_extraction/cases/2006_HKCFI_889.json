@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 889",
+    "action_number": "HCPI 1056/2002",
+    "case_name": "LIN CHIU LUNG v. ILE CO LTD",
+    "judgment_date": "2006-07-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 18,
+    "age_at_trial": null,
+    "occupation_before": "Apprentice electrician",
+    "occupation_after": "Limited employment in a sheltered workshop",
+    "expected_occupation_after": "Electrician",
+    "salary_before": 7800.0,
+    "salary_after": null,
+    "expected_salary_after": 7500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the medial epicondyle of the right humerus",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "Mr Lin suffered a fracture of the medial epicondyle of the right humerus."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right ulnar nerve entrapment",
+        "injury_type": "Temporary injury",
+        "body_part": "right ulnar nerve / right elbow",
+        "laterality": "right",
+        "source": [
+          "Consequent upon that Mr Lin suffered right ulnar nerve entrapment."
+        ],
+        "icd_code": "NC34.0",
+        "icd_description": "Injury of ulnar nerve at forearm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "adjustment disorder with prolonged depressive reaction",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He has subsequently suffered a psychiatric condition described by the psychiatrist as adjustment disorder with prolonged depressive reaction.",
+          "diagnosed by Professor Felice Leih-Mak as suffering from a prolonged depressive reaction to the injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tingling and numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in the right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain in his liver, both shoulders, and the left side of his chest (reported by plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "lack of energy and drive",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressed and irritable mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "preoccupation by perceived deformity of the right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "social isolation and not going out except for clinics or to the mainland seeking treatment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "limited employment (working in a sheltered workshop) and inability to return to previous employment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A.&E. examination and x-ray at Eastern Hospital (25 November 1999)",
+      "CT scan(s)",
+      "Physiotherapy",
+      "Work hardening program",
+      "Two surgical operations to relieve right ulnar nerve entrapment (first operation 19 June 2001; second operation 17 December 2001)"
+    ],
+    "treatments_future": [
+      "Day patient psychiatric rehabilitation five days a week for six months",
+      "20 sessions with a psychiatrist over one year",
+      "20 sessions of psychotherapy by a clinical psychologist over one year"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "Social isolation; does not go out of his home other than to attend clinics or to the mainland seeking treatment.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Does not go out of his home other than to attend clinics or to the mainland seeking treatment.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to previous employment as an electrician and has obtained only limited employment in a sheltered workshop.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12641,
+      "output_tokens": 5696,
+      "reasoning_tokens": 4608,
+      "total_tokens": 18337
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33722.011633217335,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12641,
+      "output_tokens": 5696,
+      "reasoning_tokens": 4608,
+      "total_tokens": 18337
+    },
+    "total_duration_ms": 33722.011633217335
+  }
+}

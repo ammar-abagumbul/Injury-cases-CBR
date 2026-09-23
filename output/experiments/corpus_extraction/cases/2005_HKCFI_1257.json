@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 1257",
+    "action_number": "HCPI 1086/2004",
+    "case_name": "KWAN YIU YAM v. RICH GLOBAL ENGINEERING LTD AND OTHERS",
+    "judgment_date": "2005-12-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 50,
+    "age_at_trial": null,
+    "occupation_before": "accredited welder with about 10 years experience, earning $700.00 per day",
+    "occupation_after": "menial activity",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the most serious injury was to his right wrist. It has not fully healed and he has now lost a significant amount of mobility and strength;",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "the most serious injury was to his right wrist. It has not fully healed and he has now lost a significant amount of mobility and strength;"
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracturing bones in both wrists",
+        "injury_type": "Temporary injury",
+        "body_part": "both wrists",
+        "laterality": "bilateral",
+        "source": [
+          "he fell and hurt himself, fracturing bones in both wrists and suffering a cut to one of his eyelids."
+        ],
+        "icd_code": "NC53.Z",
+        "icd_description": "Fracture at wrist or hand level, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a cut to one of his eyelids",
+        "injury_type": "Temporary injury",
+        "body_part": "eyelid",
+        "laterality": null,
+        "source": [
+          "he fell and hurt himself, fracturing bones in both wrists and suffering a cut to one of his eyelids."
+        ],
+        "icd_code": "NA06.04",
+        "icd_description": "Open wound of eyelid or periocular area"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost a significant amount of mobility and strength",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "deformity, stiffness and weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a cut to one of his eyelids",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "examined and treated at Queen Mary Hospital",
+      "sick-leave until March 2004, amounting in all to 27 months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "I accept that Mr Kwan must now be limited to menial activity, which I fix at $8,000.00 per month.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12370,
+      "output_tokens": 5556,
+      "reasoning_tokens": 4480,
+      "total_tokens": 17926
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34146.34704962373,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12370,
+      "output_tokens": 5556,
+      "reasoning_tokens": 4480,
+      "total_tokens": 17926
+    },
+    "total_duration_ms": 34146.34704962373
+  }
+}

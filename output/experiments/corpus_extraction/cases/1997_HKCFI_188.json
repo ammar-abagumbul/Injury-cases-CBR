@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 188",
+    "action_number": "HCPI000883/1995",
+    "case_name": "LEUNG CHUN TUNG v. SIU WAI CHEONG",
+    "judgment_date": "1997-12-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 31,
+    "occupation_before": "office assistant and driver (South African Airways)",
+    "occupation_after": "public light bus (PLB) driver (casual)",
+    "expected_occupation_after": null,
+    "salary_before": 5065.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": null,
+    "education_level": "formal education up to primary four; attended evening school and completed form one of secondary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractured left ilium and acetabulum with dislocation of left hip; fracture-dislocation of the left hip joint with comminuted fracture around the acetabulum; avascular necrosis of the femoral head resulting in collapse and flattening; permanent damage to the hip joint with incongruity and instability resulting in gross subluxation of the femoral head.",
+        "injury_type": "Permanent injury",
+        "body_part": "left pelvis / left hip",
+        "laterality": "left",
+        "source": [
+          "X-ray photographs showed fractured left ilium and acetabulum with dislocation of left hip.",
+          "Mr Leung suffered severe injury to the left side of his pelvis in the motorcycle accident.",
+          "The iliac wing was fractured.",
+          "What was even worse was the fracture dislocation of the left hip joint.",
+          "In spite of being treated aggressively with open reduction and internal fixation, the hip joint has been permanently damaged.",
+          "There is incongruity and instability of the joint resulting in gross subluxation of the demoral head.",
+          "There is also avascular necrosis of the femoral head resulting in collapse and flattening."
+        ],
+        "icd_code": "NC79",
+        "icd_description": "Multiple injuries of hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and stiffness of his left hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "gross subluxation of the femoral head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced mobility / much reduced degree of mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction of the fractured areas (16 March 1990)",
+      "arthroscopy of the left hip (23 October 1990)",
+      "removal of the left ilicar crest plate (29 April 1991)"
+    ],
+    "treatments_future": [
+      "total joint replacement (total hip replacement)",
+      "possible revision hip replacement(s)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He was a kung fu instructor and a scout master before the accident and was actively engaged in canoeing and wind-surfing activities; these activities were curtailed by his injuries.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "The injuries leave the victim with a much reduced degree of mobility and progressive deterioration of the left hip joint.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to continue work as a kung fu instructor and scout master and unable to perform certain delivering and sales duties; his activities and employment as an active instructor were curtailed by his injuries.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Kei v. Leung On & KMB",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10838,
+      "output_tokens": 5168,
+      "reasoning_tokens": 3968,
+      "total_tokens": 16006
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28613.11062797904,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10838,
+      "output_tokens": 5168,
+      "reasoning_tokens": 3968,
+      "total_tokens": 16006
+    },
+    "total_duration_ms": 28613.11062797904
+  }
+}

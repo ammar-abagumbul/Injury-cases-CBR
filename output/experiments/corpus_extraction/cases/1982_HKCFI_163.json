@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 163",
+    "action_number": "HCA005226/1981",
+    "case_name": "CHAN YUEN KUEN AND OTHERS v. CHAN KWOK CHU AND ANOTHER",
+    "judgment_date": "1982-06-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 9,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "she had a fracture of the left humerus.",
+        "injury_type": "Temporary injury",
+        "body_part": "left humerus",
+        "laterality": "left",
+        "source": [
+          "she had a fracture of the left humerus."
+        ],
+        "icd_code": "NC12.Z",
+        "icd_description": "Fracture of shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the Plaintiff's left arm is permanently bent at the elbow",
+        "injury_type": "Permanent injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "In practical terms this means that the Plaintiff's left arm is permanently bent at the elbow and her left hand is extremely weak. The condition will not improve."
+        ],
+        "icd_code": "NC34.4",
+        "icd_description": "Injury of multiple nerves at forearm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "her left hand is extremely weak",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "In practical terms this means that the Plaintiff's left arm is permanently bent at the elbow and her left hand is extremely weak. The condition will not improve."
+        ],
+        "icd_code": "NC55.Z",
+        "icd_description": "Injury of unspecified nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Board found residual pain at her left elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "wasting of muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Supination was full but pronation limited to 40°",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The range of flexion at her left elbow was limited from 80° to 120°",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Weakness of her left wrist was also detected in both flexion and extension movements",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "whereas her right hand exercised a 30lb grip her left could only manage 3 lb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "she is afraid of corssing road",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "she cannot do up her own buttons",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "she cannot engage in the normal schoolgirl sports and pastimes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "she has ... the sense of isolation from her friends in their play and sporting activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to hospital",
+      "traction (displacement failed to be corrected by traction)",
+      "transferred to Sandy Bay Hospital and operated on",
+      "arm remained in plaster for two months",
+      "physiotherapy for two weeks",
+      "treatment by a bone setter"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "left hand is extremely weak / very little use from her left hand; weak grip (left could only manage 3 lb)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "cannot do up her own buttons",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "cannot engage in the normal schoolgirl sports and pastimes",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "she is afraid of corssing road",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "sense of isolation from her friends in their play and sporting activities",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "effect of this disability, for life, on the Plaintiff ... in relation to her earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 64000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10090,
+      "output_tokens": 6903,
+      "reasoning_tokens": 5248,
+      "total_tokens": 16993
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33164.868861436844,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10090,
+      "output_tokens": 6903,
+      "reasoning_tokens": 5248,
+      "total_tokens": 16993
+    },
+    "total_duration_ms": 33164.868861436844
+  }
+}

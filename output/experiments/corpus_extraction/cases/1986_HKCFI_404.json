@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 404",
+    "action_number": "HCA002486/1984",
+    "case_name": "CHEUNG SZE KUEN v. WONG CHI CHEUNG AND ANOTHER",
+    "judgment_date": "1986-03-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 28,
+    "age_at_trial": 31,
+    "occupation_before": "restaurant waiter",
+    "occupation_after": "employed in a plastics factory",
+    "expected_occupation_after": null,
+    "salary_before": 4600.0,
+    "salary_after": 1830.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "lacerations to the face and neck / scarring of the face and neck",
+        "injury_type": "Permanent injury",
+        "body_part": "face and neck",
+        "laterality": null,
+        "source": [
+          "the Plaintiff in evidence said that he also suffered lacerations to the face and neck and scratches to the leg.",
+          "the Plaintiff certainly has noticeable scars on the face and neck",
+          "scarring of the face and neck which is noticeable although not disfiguring."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right wrist of the type known as a \"Colles\" fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "the principal injury he sustained was a fracture of the right wrist of the type known as a \"Colles \"' fracture."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "shoulder injury / weakness of the right shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "the comparatively brief medical reports from Princess Margaret Hospital also mention a shoulder injury, of which the Plaintiff only complained about a year later",
+          "Dr. Hodgson, who gave evidence, confirmed that he believed they were caused by the accident as was also the shoulder injury, and I accept that evidence."
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "scratches to the leg",
+        "injury_type": "Temporary injury",
+        "body_part": "leg",
+        "laterality": null,
+        "source": [
+          "the Plaintiff in evidence said that he also suffered lacerations to the face and neck and scratches to the leg.",
+          "these latter injuries are not mentioned in the hospital reports at all although they are in a \"Medical Enquiry Form\" dated 11th March 1983"
+        ],
+        "icd_code": "NC90.2",
+        "icd_description": "Abrasion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "permanent weakness and deformity of the right wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of the right shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "scarring of the face and neck which is noticeable although not disfiguring",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of strength in the right arm (right-hand grip of about 70 lbs. to his left-hand grip of about 85 to 100 lbs.)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of flexion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "loss of some shoulder movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "wasting of muscle in the right arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "cannot carry heavy weights, or even moderate weights over a prolonged period, and in particular cannot carry a tray with the palm uppermost",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "now effectively prevented from pursuing any occupation which involves lifting heavy weights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital where he remained for three days during which a plaster-of-Paris cast was applied and he was then transferred to Yan Chai Hospital for a further week, before being discharged.",
+      "about two weeks later he was re-admitted for a further reduction of the fracture as the fragments of bone had moved, and had a new cast for a month.",
+      "attended physiotherapy and occupational therapy clinics",
+      "attended a bonesetter in respect of his shoulder injury",
+      "Chinese medicine and tonic food"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "scarring of the face and neck which is noticeable although not disfiguring.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "permanent weakness and deformity of the right wrist",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "loss of some shoulder movement",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "cannot return to his pre-accident employment as a waiter as he can no longer carry heavy weights, or even moderate weights over a prolonged period, and in particular cannot carry a tray with the palm uppermost.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11965,
+      "output_tokens": 8324,
+      "reasoning_tokens": 6464,
+      "total_tokens": 20289
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52609.59242656827,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11965,
+      "output_tokens": 8324,
+      "reasoning_tokens": 6464,
+      "total_tokens": 20289
+    },
+    "total_duration_ms": 52609.59242656827
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 574; DCPI 2225/2012 (26 May 2014)",
+    "action_number": "DCPI 2225/2012",
+    "case_name": "CHAN CHEUNG v. HONOUR HALL ENGINEERING LTD (IN LIQUIDATION) AND ANOTHER",
+    "judgment_date": "2014-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 67,
+    "age_at_trial": 72,
+    "occupation_before": "construction site labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10295.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Scar and deformity of the plaintiff’s nose",
+        "injury_type": "Permanent injury",
+        "body_part": "nose / nasal bridge",
+        "laterality": null,
+        "source": [
+          "The scar and the deformity of the plaintiff’s nose caused 6% impairment to the whole person.",
+          "Scar and deformity of the nasal bridge do not prevent (the plaintiff) from resuming his pre-accident job as a construction site labourer."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractured nasal bone",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal bone / nasal bridge",
+        "laterality": null,
+        "source": [
+          "If Mr Chan had repeated closed reduction of fractured nasal bone in January 2010 as advised by ENT surgeon of UCH, his nasal profile should look better. By now, simple closed reduction will not work. More complicated surgery is necessary to improve the appearance of his nose. The cost of the operation and subsequent follow-up visits is about $80,000 in private hospital setting.",
+          "In the consultation note, it was stated: “IOD (injured on duty) Nose hit by rear mirror of car with right nasal depression, close reduction done 1/2010…”"
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Scar of nasal bridge",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Deformity of nasal bridge",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild nose pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "6% impairment to the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction done 1/2010"
+    ],
+    "treatments_future": [
+      "More complicated surgery to improve the appearance of his nose"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 31,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar and deformity of the nasal bridge / nose",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "6% impairment to the whole person resulting from scar and deformity of the nose",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Hin Fong v Chan Chi Shing",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 60 of 2001",
+        "injury_description": "fractured nasal bone; 1% permanent disability with no loss of earning capacity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13858,
+      "output_tokens": 5748,
+      "reasoning_tokens": 4544,
+      "total_tokens": 19606
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38312.49579787254,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13858,
+      "output_tokens": 5748,
+      "reasoning_tokens": 4544,
+      "total_tokens": 19606
+    },
+    "total_duration_ms": 38312.49579787254
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 422",
+    "action_number": "DCPI 262/2006",
+    "case_name": "CHAU KWAI v. LEE CHIU FAN AND ANOTHER",
+    "judgment_date": "2007-08-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "minibus driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14300.0,
+    "salary_after": 12000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injuries to his face and scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "face and scalp",
+        "laterality": null,
+        "source": [
+          "As a result of the head-on collision, the plaintiff sustained injuries to his face, scalp, left shoulder, left chest wall, fracture of the left 3rd and 4th ribs."
+        ],
+        "icd_code": "NA00.5",
+        "icd_description": "Multiple superficial injuries of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injured left shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "As a result of the head-on collision, the plaintiff sustained injuries to his face, scalp, left shoulder, left chest wall, fracture of the left 3rd and 4th ribs.",
+          "Dr Chan\u0000\u0000\u0000found the plaintiff to have suffered from mild weakness and limitation of the left shoulder elevation and abduction"
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "cervical spine condition / central cervical cord syndrome (whiplash-related cervical injury)",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "The QEH doctors at the Orthopaedics & Traumatology Department found his complaints were due to cervical spine degenerative changes with narrowing of C6 and C7 and corresponding intervertebral foramina and cervical spondylotic changes with posterior disc herniation at C3/C4 level that caused spinal cord compression.",
+          "Dr Chan considered the plaintiff\u0002s symptoms after the accident to be compatible with central cervical cord syndrome with predominantly sensory involvement, namely fingertip numbness."
+        ],
+        "icd_code": "NA31.1",
+        "icd_description": "Central cord syndrome of cervical spinal cord"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fracture of the left 3rd and 4th ribs",
+        "injury_type": "Temporary injury",
+        "body_part": "left 3rd and 4th ribs",
+        "laterality": "left",
+        "source": [
+          "As a result of the head-on collision, the plaintiff sustained injuries to his face, scalp, left shoulder, left chest wall, fracture of the left 3rd and 4th ribs."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness of fingertips in both his hands",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual neck pain with stiffness on rotation and flexion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild weakness and limitation of the left shoulder elevation and abduction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "lack of strength in both arms",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in the neck and shoulders",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "numbness in the base of his feet",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "would be able to drive but with less confidence and dexterity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at the ICU of the Queen Elizabeth Hospital",
+      "convalescence at the Kowloon Hospital",
+      "follow-up treatments",
+      "physiotherapy",
+      "occupational therapy",
+      "orthopaedic follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 17,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He is still suffering from pain in the neck and shoulders, stiffness of the neck, numbness of the fingertips, lack of strength in the left shoulder and left arm, numbness in the base of his feet.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Man Fai v To Yu Bun and Another",
+        "neutral_citation": "[2005] 4 HKLRD 16",
+        "action_number": null,
+        "injury_description": "suffered similar injuries to the plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 550000.0
+      },
+      {
+        "case_name": "Boivin v Wong King Yin and Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 195/2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 475500.0
+      },
+      {
+        "case_name": "Iau Kau Ih v Wan Kei Geotechnical Engineering Company Limited",
+        "neutral_citation": "[2002] 4 HKC 76",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 400000.0
+      },
+      {
+        "case_name": "Tang Ka Wai v Chan Wai Kin",
+        "neutral_citation": null,
+        "action_number": "HCPI1335/2003",
+        "injury_description": "sustained injuries to his neck and left knee; hospitalised for 15 days; had an operation in respect of his neck injury",
+        "hospitalisation_days": 15,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Lam Wai Chun v Tam Chi Wai and Another",
+        "neutral_citation": null,
+        "action_number": "HCPI1352/2000",
+        "injury_description": "suffered fractures to four ribs and laceration to the scalp with a complaint of whiplash",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12754,
+      "output_tokens": 10125,
+      "reasoning_tokens": 8000,
+      "total_tokens": 22879
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 68756.55157491565,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12754,
+      "output_tokens": 10125,
+      "reasoning_tokens": 8000,
+      "total_tokens": 22879
+    },
+    "total_duration_ms": 68756.55157491565
+  }
+}

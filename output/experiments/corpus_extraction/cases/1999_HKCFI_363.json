@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 363",
+    "action_number": "HCPI 57/98",
+    "case_name": "YU HEUNG YUK v. HO MAN AND OTHERS",
+    "judgment_date": "1999-08-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "Employee at Philips HK Ltd.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 4765.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "perforation of her left eardrum",
+        "injury_type": "Temporary injury",
+        "body_part": "left eardrum",
+        "laterality": "left",
+        "source": [
+          "perforation of her left eardrum"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post concussion syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "post concussion syndrome"
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "depressive disorder",
+        "injury_type": "Permanent injury",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "diagnosed as suffering from a depressive disorder"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "bruising on the back of the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "back of the neck",
+        "laterality": "left",
+        "source": [
+          "bruising on the back of the neck"
+        ],
+        "icd_code": "NA20.Y",
+        "icd_description": "Other specified superficial injury of neck"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "bruising on the left hip anteriorly",
+        "injury_type": "Temporary injury",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "bruising over the back of her left neck, left hip anteriorly and left elbow anteriorly"
+        ],
+        "icd_code": "NC70.1",
+        "icd_description": "Contusion of hip"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "abrasion over her left hip region",
+        "injury_type": "Temporary injury",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "An abrasion was noticed over her left hip region."
+        ],
+        "icd_code": "NC70.0",
+        "icd_description": "Abrasion of hip"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "bruising on left elbow anteriorly",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "bruising over the back of her left neck, left hip anteriorly and left elbow anteriorly"
+        ],
+        "icd_code": "NC30.1",
+        "icd_description": "Contusion of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased hearing in her left ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling and redness over left side of the face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "transient loss of consciousness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "severe dizziness (ongoing)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness of the whole body",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "weakness on the left side of her body",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty in walking because of weakness and dizziness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "vomiting several times a day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "deafness in her left ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "anxiety",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "fatigue",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "poor concentration / poor mental acuity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of sleep / sleep impairment / insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "weight loss",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "thoughts of suicide",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "intrusive thoughts and nightmares of being assaulted",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "panic attacks",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital (A&E assessment)",
+      "referral to Yan Chai Hospital and admission to Yan Chai Hospital",
+      "ENT outpatient assessment",
+      "treatment at South Kwai Chung Psychiatric Centre",
+      "drug treatment (psychiatric)"
+    ],
+    "treatments_future": [
+      "intensive three year course of psychotherapy by a private psychiatrist (recommended by Dr. Singer)",
+      "possible future private hospitalization (as suggested by Dr. Singer)",
+      "outpatient follow up treatment through the Hospital Authority"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Personality change",
+        "description": "Change from being a cheerful and very energetic person into someone who is depressed, anxious, impatient and demanding; attempts at suicide.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Plaintiff is looked after full time by her daughter who has to bath her.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to work; loss of earning capacity; plaintiff never resumed employment and was dismissed on 1996-03-12.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Decreased hearing / deafness in her left ear following traumatic rupture/perforation of the left eardrum.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 440000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v. Leung Kam Ming",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Reference point for placing the plaintiff's injury at the lower end of the serious injury category",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19025,
+      "output_tokens": 8860,
+      "reasoning_tokens": 6272,
+      "total_tokens": 27885
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 57939.350727945566,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19025,
+      "output_tokens": 8860,
+      "reasoning_tokens": 6272,
+      "total_tokens": 27885
+    },
+    "total_duration_ms": 57939.350727945566
+  }
+}

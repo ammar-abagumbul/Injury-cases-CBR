@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[1976] HKCFI 97; HCA 701/1976",
+    "action_number": "HCA000701/1976",
+    "case_name": "LEE MAN LEUNG v. CHOI CHUN FUNG AND ANOTHER",
+    "judgment_date": "1976-04-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 55,
+    "occupation_before": "labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": 1400.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured skull",
+        "injury_type": "Temporary injury",
+        "body_part": "skull (region of right ear)",
+        "laterality": "right",
+        "source": [
+          "He had lacerations of the scalp which were sutured and a fractured skull.",
+          "The fracture to the skull in the region of the right ear had two effects:-"
+        ],
+        "icd_code": "NA02.11",
+        "icd_description": "Fracture of middle fossa of base of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "lacerations of the scalp; 2 inch laceration under the chin",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp; under the chin",
+        "laterality": null,
+        "source": [
+          "He had lacerations of the scalp which were sutured and a fractured skull.",
+          "a 2 inch laceration under the chin.",
+          "Apart from the lacerations which have now healed the Plaintiff's injuries appear to fall under two heads, namely, partial deafness to the right ear and damage to the facial nerve."
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "partial right sided facial paralysis (damage to the facial nerve)",
+        "injury_type": "Permanent injury",
+        "body_part": "right side of face (facial nerve / 7th cranial nerve)",
+        "laterality": "right",
+        "source": [
+          "He also sustained a partial right sided facial paralysis and a 2 inch laceration under the chin.",
+          "The fracture to the skull in the region of the right ear had two effects:- (b) pressure on the 7th cranial nerve which supplies all the muscles of the face.",
+          "The effect of the damage to the facial nerve is mainly related to the right side of the Plaintiff's face."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "partial deafness to the right ear",
+        "injury_type": "Permanent injury",
+        "body_part": "right ear",
+        "laterality": "right",
+        "source": [
+          "Apart from the lacerations which have now healed the Plaintiff's injuries appear to fall under two heads, namely, partial deafness to the right ear and damage to the facial nerve.",
+          "Dr. Wedderburn has assessed the loss of hearing to the right ear as being 70%.",
+          "The hearing in the left ear is normal. This loss of hearing was not regarded as being sufficiently serious to impede the Plaintiff's ability to hear normal conversation in quiet surroundings but there would always be a tendency for the Plaintiff to favour his other ear and he may have some difficulty in hearing when he was in a noisy environment."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "bleeding from the right ear for a month after the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot completely close or raise the right eyelid",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "prone to inflammation or infection of the eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "there would always be a tendency for the Plaintiff to favour his other ear and he may have some difficulty in hearing when he was in a noisy environment.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "the Plaintiff still suffers from some dizziness if he bends over.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "lacerations which have now healed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "lacerations of the scalp were sutured",
+      "admitted to Queen Elizabeth Hospital"
+    ],
+    "treatments_future": [
+      "eye drops (may be used to treat eye condition)"
+    ],
+    "hospitalisation_days": 15,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "cosmetic disadvantage from partial right sided facial paralysis",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "partial loss of hearing in the right ear (70%), causing inconvenience and difficulty hearing in noisy environments",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 20000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11896,
+      "output_tokens": 8253,
+      "reasoning_tokens": 6592,
+      "total_tokens": 20149
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43088.03464844823,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11896,
+      "output_tokens": 8253,
+      "reasoning_tokens": 6592,
+      "total_tokens": 20149
+    },
+    "total_duration_ms": 43088.03464844823
+  }
+}

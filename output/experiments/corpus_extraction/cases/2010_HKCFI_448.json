@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 448",
+    "action_number": "HCPI 515/2009",
+    "case_name": "TAM KAM LEUNG v. CHAN CHOW TONG",
+    "judgment_date": "2010-05-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 43,
+    "age_at_trial": 47,
+    "occupation_before": "decoration worker doing painting work",
+    "occupation_after": "decoration painter",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": 10850.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right shoulder injury",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "sustained injuries to his left elbow and right shoulder.",
+          "But as remarked by Dr. Wong, Dr. Wong believed the right shoulder injury of the Plaintiff is only a minor form of injury compared with the left elbow injury.",
+          "The Plaintiff would have intermittent pain over left elbow and right shoulder in future particularly when he performs heavy manual work and prolong manipulative work as well as lifting and carrying heavy weights."
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left elbow fracture (with subsequent contracture, stiffness and degenerative changes)",
+        "injury_type": "Residual disability",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "sustained injuries to his left elbow and right shoulder.",
+          "The Plaintiff was admitted to Ruttonjee Hospital. He was then transferred to Pamela Youde Nethersole Eastern Hospital for further treatment. On 28 January 2006, open reduction and internal fixation of left elbow fracture was performed.",
+          "Dr. Wong also commented that the Plaintiff's left elbow develop contracture and stiffness. X-ray of left elbow show the fracture heels satisfactorily but with mark arthritic changes and irregularities over the elbow joint, indicating degenerative changes,",
+          "With such degenerative changes, the Plaintiff is expected to have residual left elbow pain in future."
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in left hand/left elbow, pain increases when moving or carrying articles weighing over 30-40 pounds",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left elbow stiffness and contracture after work",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of left hand causing plaintiff (left-handed) to use his right hand for daily activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in right shoulder, right elbow and right wrist from overuse of right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent pain over left elbow and right shoulder in future particularly when performing heavy manual work and prolonged manipulative work as well as lifting and carrying heavy weights",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "insomnia caused by pain which affected his health",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced working capacity, difficulty in lifting heavy weights and reduced efficiency when using heavy metallic tools and performing repetitive movements of left elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to go swimming or play basketball which he used to do",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Ruttonjee Hospital and transferred to Pamela Youde Nethersole Eastern Hospital",
+      "open reduction and internal fixation of left elbow fracture (28 January 2006)",
+      "implant removal operation (8 March 2007)",
+      "physiotherapy treatment (right shoulder, starting 28 April 2007)"
+    ],
+    "treatments_future": [
+      "future medical treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 590,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Weakness with his left hand; he is left-handed but has to use his right hand for daily activities because of his left hand weakness and pain.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "After the accident, he could not go swimming or play basketball, which he used to do.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Working capacity is lower than before the accident; when using tools or working at height his left hand feels pain hence he works fewer days and has reduced earning.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "Because of the pain, he suffers from insomnia which affected his health.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Li Wan Ki v Hyundai Engineering and Construction Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 577 of 2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Iau Kau-ih v Wan Kei Geotechnical Engineering Co. Ltd. and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 130 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsui Kwan Fai v Goldfield N & W Construction Company Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 97 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Wing Kong v Hung Wing Steel Engineering Ltd. & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 199 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Siu Leong Ching v Professional Scaffolding Engineering Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 70 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11466,
+      "output_tokens": 7011,
+      "reasoning_tokens": 4864,
+      "total_tokens": 18477
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49242.429718375206,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11466,
+      "output_tokens": 7011,
+      "reasoning_tokens": 4864,
+      "total_tokens": 18477
+    },
+    "total_duration_ms": 49242.429718375206
+  }
+}

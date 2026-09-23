@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 704",
+    "action_number": "HCPI 425/2006",
+    "case_name": "TAI MEI LIN v. FUNG KING KONG AND ANOTHER",
+    "judgment_date": "2007-07-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 48,
+    "age_at_trial": 52,
+    "occupation_before": "healthcare worker (Hong Kong Society for the Aged)",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 10260.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "left school before concluding her primary schooling"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the neck of her left femur (left hip)",
+        "injury_type": "Temporary injury",
+        "body_part": "left femur / left hip",
+        "laterality": "left",
+        "source": [
+          "The most serious injury was a fracture of the neck of her left femur or hip.",
+          "she was found to have fractured the neck of her left femur, or thigh bone."
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "avascular necrosis of the femoral head",
+        "injury_type": "Permanent injury",
+        "body_part": "left femoral head",
+        "laterality": "left",
+        "source": [
+          "She was found to be suffering from avascular necrosis of the femoral head."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "permanent partial disability following hip injury and surgery (residual stiffness, leg shortened by one centimetre, mild limp; cannot squat)",
+        "injury_type": "Residual disability",
+        "body_part": "left hip / left leg",
+        "laterality": "left",
+        "source": [
+          "Madam Tai has not fully recovered and remains permanently partially disabled.",
+          "By all accounts the operation was a success. There was residual stiffness and the leg is shorter by one centimetre. She cannot squat, and suffers some pain when she has had to walk or sit for some time. But the more or less continual pain she was suffering from with the onset of the necrosis is now of the past. She has a mild limp but no longer needs a walking stick."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuous severe pain prior to hip replacement (daily pain, poor sleep)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "required use of a walking stick (unable to get around without a stick)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "leg shortened by one centimetre",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "some pain on walking or sitting for some time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Closed reduction and internal fixation with screws (emergency surgery on day of accident)",
+      "Physiotherapy (11 sessions between July and December 2003)",
+      "Total hip replacement (October 2005 at Milton Keynes General Hospital)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Residual stiffness, mild limp, leg shortened by one centimetre, cannot squat, some pain on walking or sitting (reduced mobility and need for stick prior to surgery).",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Required daughter’s care and lived with daughter's family in England because she could not get around without assistance prior to hip replacement.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to work as a healthcare worker (could not carry out duties requiring lifting or squatting); limited to less strenuous, lower paid work.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Hing Lun v Hao Tong Trading Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 132 of 2003",
+        "injury_description": "fracture of the femoral neck",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lau Tsz Wan v Caltex Oil",
+        "neutral_citation": null,
+        "action_number": "DCPI 1140 of 2001",
+        "injury_description": "fracture of the femoral neck",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13510,
+      "output_tokens": 6091,
+      "reasoning_tokens": 4416,
+      "total_tokens": 19601
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37228.77925261855,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13510,
+      "output_tokens": 6091,
+      "reasoning_tokens": 4416,
+      "total_tokens": 19601
+    },
+    "total_duration_ms": 37228.77925261855
+  }
+}

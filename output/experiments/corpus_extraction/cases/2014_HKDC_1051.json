@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 1051",
+    "action_number": "DCPI 2757/2012",
+    "case_name": "TSANG SAU YAN v. MAN SHING CLEANING SERVICE COMPANY LTD",
+    "judgment_date": "2014-09-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 49,
+    "age_at_trial": 53,
+    "occupation_before": "Cleaner (employed by the defendant working in the government building in Shek Kei Mei since 2007)",
+    "occupation_after": "Full-time cleaner with the government (since 12 May 2014); prior part-time cleaning work from 1 September 2011 to 11 May 2014",
+    "expected_occupation_after": null,
+    "salary_before": 5283.0,
+    "salary_after": 10555.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild wedge fracture of the T12 vertebral body without neurological deficit",
+        "injury_type": "Residual disability",
+        "body_part": "T12 vertebral body",
+        "laterality": null,
+        "source": [
+          "The plaintiff’s injuries were diagnosed as “mild wedge fracture of the T12 vertebral body without neurological deficit” and residual back pain was expected to remain."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual back tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to the Accident and Emergency Department of the Caritas Medical Centre",
+      "X-ray",
+      "hospitalized to Department of Orthopedics and Traumatology for 10 days",
+      "CT scan on the low back",
+      "given a body jacket for over 6 months and then changed to a soft surgical corset",
+      "physiotherapy for one year at Caritas Medical Centre",
+      "physiotherapy at Kowloon Hospital for 2 months",
+      "occupational therapy for 2 months",
+      "referred to psychiatry",
+      "sought treatment from bonesetter and private chiropractor"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 423,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "residual back pain expected to remain",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wu Choi Lan v Tonge (Hong Kong) Limited & Another",
+        "neutral_citation": "[2004] 2 HKLRD G14",
+        "action_number": null,
+        "injury_description": "back injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14503,
+      "output_tokens": 3628,
+      "reasoning_tokens": 2880,
+      "total_tokens": 18131
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23614.131335169077,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14503,
+      "output_tokens": 3628,
+      "reasoning_tokens": 2880,
+      "total_tokens": 18131
+    },
+    "total_duration_ms": 23614.131335169077
+  }
+}

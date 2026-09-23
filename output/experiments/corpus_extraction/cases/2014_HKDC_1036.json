@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 1036",
+    "action_number": "DCPI 41/2013",
+    "case_name": "KWAN KAI WU v. LAM PUI SHAN AND ANOTHER",
+    "judgment_date": "2014-09-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 54,
+    "age_at_trial": 57,
+    "occupation_before": "sole-proprietor working as a locksmith",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 21000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "chest wall injury",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis was chest wall injury."
+        ],
+        "icd_code": "NB34.Z",
+        "icd_description": "Injury of muscle, fascia or tendon at thorax level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "rib injury",
+        "injury_type": "Temporary injury",
+        "body_part": "rib",
+        "laterality": null,
+        "source": [
+          "He was diagnosed as rib and stoma injuries."
+        ],
+        "icd_code": "NA82.3Z",
+        "icd_description": "Fracture of rib, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "stoma injuries",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He was diagnosed as rib and stoma injuries."
+        ],
+        "icd_code": "NB51.Z",
+        "icd_description": "Open wound of abdomen, lower back or pelvis, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over chest wall",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "9cm x 12 cm bruise on his chest",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to raise his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "painful on his left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment at Queen Elizabeth Hospital (QEH) - HK$100",
+      "analgesic",
+      "Chinese medical treatment (13 January 2010 to 25 February 2010)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities due to chest wall and rib injuries",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 20000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14323,
+      "output_tokens": 6294,
+      "reasoning_tokens": 5248,
+      "total_tokens": 20617
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30877.195201814175,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14323,
+      "output_tokens": 6294,
+      "reasoning_tokens": 5248,
+      "total_tokens": 20617
+    },
+    "total_duration_ms": 30877.195201814175
+  }
+}

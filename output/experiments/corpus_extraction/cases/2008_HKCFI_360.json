@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 360",
+    "action_number": "HCPI 103/2007",
+    "case_name": "WONG KWAN TUNG v. YETAI CHEMOPLAST COMPANY LIMITED",
+    "judgment_date": "2008-04-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 56,
+    "occupation_before": "Employed by Yetai since 1984 doing general maintenance, cleaning, repair and gardening; previously a decoration worker before joining Yetai.",
+    "occupation_after": "Unemployed save for sporadic part-time jobs mainly as a stand-in security guard and a cleaner",
+    "expected_occupation_after": null,
+    "salary_before": 15200.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures of the left heel bone",
+        "injury_type": "Permanent injury",
+        "body_part": "left heel",
+        "laterality": "left",
+        "source": [
+          "He suffered from fractures of the left heel bone and minor compression fracture of T12 and L2 vertebrae."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "minor compression fracture of T12 and L2 vertebrae",
+        "injury_type": "Permanent injury",
+        "body_part": "T12 and L2 vertebrae / lower back",
+        "laterality": null,
+        "source": [
+          "He suffered from fractures of the left heel bone and minor compression fracture of T12 and L2 vertebrae."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "adjustment disorder with depressed mode",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Mr Wong developed adjustment disorder with depressed mode.",
+          "Mr Wong was also diagnosed to be suffering from adjustment disorder caused by the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent pain in his heel",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wasting of the left calf muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild limp (video evidence) and occasional need to use a walking stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent back pain and stiffness in back movement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Depression, low-esteem and reluctance to see people (symptoms of adjustment disorder)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Nightmares and waking in the middle of the night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Bonesetter treatment (herbal medicine)",
+      "X-ray by bonesetter",
+      "Orthopaedic treatment at Tuen Mun Hospital",
+      "Physiotherapy",
+      "Psychiatric medication"
+    ],
+    "treatments_future": [
+      "Further regular follow up treatment for one year (psychiatric / psychiatric follow up)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent impairment of the left heel with associated wasting of the left calf muscle",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Mild limp and, at times, need to use a walking stick; pain causing reduced ability to walk",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Depression, low-esteem and reluctance to see people caused by adjustment disorder",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Wah Chun v Cheng Wing Chung",
+        "neutral_citation": null,
+        "action_number": "HCPI 164/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yu Kok Wing v Lee Tim Loi t/a Tim Wan Painting and Decoration Works",
+        "neutral_citation": null,
+        "action_number": "CACV 139/2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chu Kwong Sang v Chuen Wo Transportation Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 296/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13515,
+      "output_tokens": 5588,
+      "reasoning_tokens": 3968,
+      "total_tokens": 19103
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45007.973063737154,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13515,
+      "output_tokens": 5588,
+      "reasoning_tokens": 3968,
+      "total_tokens": 19103
+    },
+    "total_duration_ms": 45007.973063737154
+  }
+}

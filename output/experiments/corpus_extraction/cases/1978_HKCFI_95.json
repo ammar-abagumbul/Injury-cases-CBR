@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 95",
+    "action_number": "HCA002723/1972",
+    "case_name": "LAM CHUN KEUNG v. MOTOKI YOSHITAKA AND ANOTHER",
+    "judgment_date": "1978-05-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 25,
+    "age_at_trial": 34,
+    "occupation_before": "employed as a pastry worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "lacerations to the head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The injuries suffered by the plaintiff involved lacerations to the head and some abrasions on his arms."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "some abrasions on his arms",
+        "injury_type": "Temporary injury",
+        "body_part": "arms",
+        "laterality": null,
+        "source": [
+          "The injuries suffered by the plaintiff involved lacerations to the head and some abrasions on his arms."
+        ],
+        "icd_code": "NC30.2",
+        "icd_description": "Abrasion of other or unspecified parts of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "personality deterioration as a result of the injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "mental/psychological",
+        "laterality": null,
+        "source": [
+          "A Medical Board convened at this hospital has found that the plaintiff has suffered a personality deterioration as a result of the injuries he received."
+        ],
+        "icd_code": "NA07",
+        "icd_description": "Intracranial injury"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rendered unconscious for a period of four weeks",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "His memory and ability to learn have been grossly impaired",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "His mental age was found to be that of a 9 year old child",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He would require constant supervision",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "has been unable to resume any form of employment since the date of the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "an assessment of 85% total damage was arrived at",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "rendered unconscious for a period of four weeks and was finally discharged from hospital in March 1970",
+      "further medical examinations",
+      "admitted to Castle Peak Hospital",
+      "Medical Board assessment at Castle Peak Hospital"
+    ],
+    "treatments_future": [
+      "institutional care / constant supervision (as described by Dr. W.K. Lau)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "His memory and ability to learn have been grossly impaired and an assessment of 85% total damage was arrived at.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "He would require constant supervision and ... it is inevitable that the plaintiff will spend the rest of his life in Castle Peak Hospital or some similar institution.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He has been unable to resume any form of employment since the date of the accident.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Unlike the claimants in both the cases cited this plaintiff does not enjoy the comforts of residing at his own home in the company of family members and it is almost certain that he never will.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Kam v. Tsang Tak-kuen",
+        "neutral_citation": null,
+        "action_number": "O.J.A. No. 232 of 1971",
+        "injury_description": "the plaintiff, a 48 year old male, suffered a personality change as a result of injuries to his head. He became violent on occasions and required constant supervision and possibly eventual institutional care.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 62800.0
+      },
+      {
+        "case_name": "Yung Shi-fun v. Tsang Cheuk-sum",
+        "neutral_citation": null,
+        "action_number": "O.J.A. 167 of 1976",
+        "injury_description": "the plaintiff a 24 year old woman, suffered injuries in an accident including a fractured skull. This injury resulted in a significant intellectual impairment. She was unable to look after herself and was incapable of doing more than looking at comics or watching television.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9940,
+      "output_tokens": 7016,
+      "reasoning_tokens": 5312,
+      "total_tokens": 16956
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31036.96870803833,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9940,
+      "output_tokens": 7016,
+      "reasoning_tokens": 5312,
+      "total_tokens": 16956
+    },
+    "total_duration_ms": 31036.96870803833
+  }
+}

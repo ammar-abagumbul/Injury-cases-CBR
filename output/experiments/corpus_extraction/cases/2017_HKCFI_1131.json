@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1131",
+    "action_number": "HCPI 903/2014",
+    "case_name": "WO CHUN WAH v. CHAU KWEI YIN AND OTHERS",
+    "judgment_date": "2017-06-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 50,
+    "occupation_before": "decoration worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": 12000.0,
+    "expected_salary_after": 12000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture injuries to his lumber spine at L1",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L1)",
+        "laterality": null,
+        "source": [
+          "fracture injuries to his lumber spine at L1 and coccyx, but with no neurological deficits.",
+          "His X-ray and CT examinations revealed fracture injuries to his lumber spine at L1 and coccyx, but with no neurological deficits."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture injuries to his coccyx",
+        "injury_type": "Residual disability",
+        "body_part": "coccyx",
+        "laterality": null,
+        "source": [
+          "fracture injuries to his lumber spine at L1 and coccyx, but with no neurological deficits.",
+          "X-ray examination shows that the Plaintiff’s coccyx has fully healed."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain, particularly on the left side",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "such pain usually appears after prolonged standing or sitting or after walking for more than 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He feels painful when in a squatting position",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "has to refrain from lifting objects weighing over 3 kg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficits",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "intermittent sick leave for a total of 703 days",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "spinal orthopedic treatment for 12 weeks",
+      "physiotherapy for 12 months",
+      "further physiotherapy from government and private therapists"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 703,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) assessed at $280,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Jianxing v Sakoma (HK) Ltd",
+        "neutral_citation": "2011 5 HKLRD 329, HCPI 757/2009",
+        "action_number": "HCPI 757/2009",
+        "injury_description": "wedge collapse of L1 in the spine with no injuries to the coccyx",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18344,
+      "output_tokens": 5568,
+      "reasoning_tokens": 4352,
+      "total_tokens": 23912
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45865.39840698242,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18344,
+      "output_tokens": 5568,
+      "reasoning_tokens": 4352,
+      "total_tokens": 23912
+    },
+    "total_duration_ms": 45865.39840698242
+  }
+}

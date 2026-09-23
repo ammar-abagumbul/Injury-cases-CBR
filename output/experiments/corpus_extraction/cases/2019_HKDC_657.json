@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 657",
+    "action_number": "DCEC1791/2015 & DCPI 1699/2016",
+    "case_name": "TSUI WAI HO v. PRIDE GLORY LTD FORMERLY T/A ZITI’S",
+    "judgment_date": "2019-05-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 24,
+    "age_at_trial": null,
+    "occupation_before": "clerk in a social service organization",
+    "occupation_after": "assistant clerical officer (ACO) at the Death Registry of the Immigration Department",
+    "expected_occupation_after": "continue working as an ACO if possible",
+    "salary_before": 4365.0,
+    "salary_after": 15735.0,
+    "expected_salary_after": null,
+    "education_level": "Higher diploma in accounting (completed Aug 2016); studied up to Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left ankle fracture (fracture distal fibula)",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "X-ray left ankle revealed fracture distal fibula.",
+          "left ankle fracture"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness, bruises and swollen left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited range of movement of left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild pain in left leg from time to time, especially when there is a change of weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation of left ankle fracture (operation on 4 Sept 2013)",
+      "physiotherapy (13 sessions until 6 Dec 2013)",
+      "occupational therapy",
+      "removal of left ankle implant (operation on 24 Jul 2015)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 145,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "limited range of movement in left ankle",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "handicap in the open market in jobs requiring prolonged walking and/or strenuous exertion",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Mok Yau v. 黃吉利 and Another",
+        "neutral_citation": "[2018] HKCFI 1084",
+        "action_number": null,
+        "injury_description": "right ankle fracture treated conservatively by cast; required 424 days of sick leave; almost 2 years after accident still had moderately reduced range of movement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 424,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Lam Kam Fai v. Yau Shing Scaffolding Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 894/2011",
+        "injury_description": "left ankle fracture with surgery and removal of implant; fracture healed with full range of movement; claimant had a pre-existing old injury to left ankle and court applied a 10% discount",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 292500.0
+      },
+      {
+        "case_name": "Leung See Ning Clara v. Shun Tak Property Management Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 625/2003",
+        "injury_description": "left ankle fracture; open reduction and internal fixation; implant removed 2.5 years after accident; occasional mild pain on follow-up about 3 months after accident",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 230000.0
+      },
+      {
+        "case_name": "Kwong Wan Kau v. Yuen Wing Hong",
+        "neutral_citation": null,
+        "action_number": "HCPI 142/2002",
+        "injury_description": "right ankle fracture; operation with metal implants; hospitalized for 11 days; physiotherapy for more than one year and occupational therapy about 14 months; implant removed 6 months after accident; sick leave for more than 3 years",
+        "hospitalisation_days": 11,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12597,
+      "output_tokens": 5480,
+      "reasoning_tokens": 4096,
+      "total_tokens": 18077
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41659.01565179229,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12597,
+      "output_tokens": 5480,
+      "reasoning_tokens": 4096,
+      "total_tokens": 18077
+    },
+    "total_duration_ms": 41659.01565179229
+  }
+}

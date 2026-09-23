@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 88",
+    "action_number": "DCPI 2136/2006",
+    "case_name": "TSANG CHING FEI v. MO KING GUO",
+    "judgment_date": "2008-04-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 30,
+    "occupation_before": "construction site labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "lack of formal education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractures to the distal and proximal phalanges of the left big toe",
+        "injury_type": "Permanent injury",
+        "body_part": "left big toe",
+        "laterality": null,
+        "source": [
+          "The joint medical report of Dr. Chan Ping Keung and Dr. Lam Kwong Chin confirmed Mr. Tsang had suffered fractures to the distal and proximal phalanges of his left big toe."
+        ],
+        "icd_code": "ND13.4",
+        "icd_description": "Fracture of great toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pin-prick pain over his left big toe provoked by prolonged walking of over one hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the inter-phalangeal joint (IPJ) of the left big toe with limited movement due to pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness to the left knee down to his toe every night",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanent loss of earning capacity assessed at 2%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation: open reduction, screw fixation and k-wire fixation",
+      "follow-up at North District Hospital until 28 September 2004",
+      "screw fixation removed on 16 July 2004 at the Ping Le Hospital in Shenzhen",
+      "occupational therapy (referred but defaulted)"
+    ],
+    "treatments_future": [
+      "consideration of fusion operation of the inter-phalangeal joint (recommended if persistent pain)"
+    ],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 108,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, stiffness, numbness, scar and limited movement of the left big toe resulting from fractures to the distal and proximal phalanges with a permanent 2% loss of earning capacity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Chi Wah v. Wai Luen Metal Factory",
+        "neutral_citation": "HCPI 66/1995",
+        "action_number": null,
+        "injury_description": "fracture to the middle phalanx of the second toe",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "To Ying Wa v. Cargo-land (warehouse) Development Ltd.",
+        "neutral_citation": "HCPI 441/2000",
+        "action_number": null,
+        "injury_description": "fractures to the 4th and 5th metacarpals of the right foot",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Siu Fu Yan v. Cheung Kwok Leung & ors.",
+        "neutral_citation": "DCPI 1081/2005",
+        "action_number": null,
+        "injury_description": "fracture to the base of the proximal phalanx of the left toe",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12092,
+      "output_tokens": 3931,
+      "reasoning_tokens": 2624,
+      "total_tokens": 16023
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27592.21352264285,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12092,
+      "output_tokens": 3931,
+      "reasoning_tokens": 2624,
+      "total_tokens": 16023
+    },
+    "total_duration_ms": 27592.21352264285
+  }
+}

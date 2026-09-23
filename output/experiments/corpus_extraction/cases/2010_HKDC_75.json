@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 75",
+    "action_number": "DCPI 41/2009",
+    "case_name": "LAU CHI LAM v. CARITAS-HONG KONG",
+    "judgment_date": "2010-03-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 51,
+    "age_at_trial": 54,
+    "occupation_before": "Workman II at an elderly home (Caritas)",
+    "occupation_after": "Early retirement (applied for and approved with effect from 23 September 2008)",
+    "expected_occupation_after": null,
+    "salary_before": 10060.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of Lau’s lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "the clinical picture was compatible with soft tissue injury of Lau’s lower back."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple lumbar level degenerative changes with no obvious theca sac or nerve root compression",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "X-ray and MRI done after the accident in 2007 revealed multiple lumbar level degenerative changes with no obvious theca sac or nerve root compression."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "minimal spondylolisthesis over L5/S1; mild degenerative scoliosis",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L5/S1)",
+        "laterality": null,
+        "source": [
+          "There was no spondylosis, minimal spondylolisthesis over L5/S1 and normal lordosis.",
+          "Degenerative changes with multiple marginal bone spurs, slightly narrowed L4/5 disc and mild degenerative scoliosis were confirmed."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to walk for a long time or at quick pace",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort after prolonged sitting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not return to work or his pre-accident leisure of going fishing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (over 20 sessions)",
+      "occupational therapy (over 10 sessions)",
+      "consulted private doctor",
+      "bonesetter",
+      "admitted and treated in hospital (initial admission)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could not return to his pre-accident leisure of going fishing.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his pre-accident occupation (Workman II); reduction in work capacity and realistic inability to carry out heavy tasks involving frequent bending and lifting.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent mild residual low back pain arising from soft tissue injury and aggravated pre-existing degeneration.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yau Shing Tsan v Fai To Elderly Affairs Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 168/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14505,
+      "output_tokens": 4821,
+      "reasoning_tokens": 3456,
+      "total_tokens": 19326
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29064.00642544031,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14505,
+      "output_tokens": 4821,
+      "reasoning_tokens": 3456,
+      "total_tokens": 19326
+    },
+    "total_duration_ms": 29064.00642544031
+  }
+}

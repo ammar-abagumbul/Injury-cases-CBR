@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 255",
+    "action_number": "HCPI 189/2013",
+    "case_name": "LIU CAIRONG v. PARKER CLEANING SERVICES COMPANY LIMITED",
+    "judgment_date": "2015-02-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 52,
+    "age_at_trial": 57,
+    "occupation_before": "Cleaning worker (employed by the defendant); previously a farmer in the Mainland",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 6100.0,
+    "salary_after": 9000.0,
+    "expected_salary_after": 11000.0,
+    "education_level": "2 years of primary education (on the Mainland)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures of the distal radius (left)",
+        "injury_type": "Permanent injury",
+        "body_part": "left distal radius / left wrist",
+        "laterality": "left",
+        "source": [
+          "X-rays showed her fractures of the distal radius and ulna styloid process."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the ulnar styloid process (left) with features of non-union at the ulnar styloid and slight separation of the distal radio-ulnar joint",
+        "injury_type": "Permanent injury",
+        "body_part": "left ulnar styloid process / left wrist",
+        "laterality": "left",
+        "source": [
+          "X-rays showed her fractures of the distal radius and ulna styloid process.",
+          "there were also features of non-union at the ulnar styloid and slight separation of the distal radio-ulnar joint."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "depressive episode (psychiatric condition)",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric / mental health (depressive episode)",
+        "laterality": null,
+        "source": [
+          "Dr Chan recorded in the letter that the plaintiff has history of depression and has been seen by Integrated Mental Health Program in July and August 2013. Allegedly she was suicidal and once even went to a roof of a building.",
+          "Dr Pao stated that the plaintiff was first known to the West Kowloon Psychiatric Centre in February 2014 because of low mood after the Accident. She was diagnosed to have a depressive episode secondary to he1r physical pain."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild left wrist pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild swelling of left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain, weakness and stiffness of the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty on exertion required for pre-injury job",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inconvenience when mopping floors and climbing a ladder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressive episode with low mood and reported suicidal behaviour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "immobilised by a plaster of Paris cast for four weeks",
+      "physiotherapy (twelve sessions) until 30 July 2010",
+      "occupational therapy until 15 November 2010"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA (pain, suffering and loss of amenities) assessed at HK$200,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earnings of HK$35,227.50 (calculation: HK$6,100 x 105% x 5.5)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity (global award) HK$30,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Value of service of caregiver (nominal) HK$5,000 covering period from the Accident to May 2010",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Future medical expenses (public sector treatments) assessed at HK$5,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Other special damages allowed in total HK$28,200 (includes physiotherapy HK$3,000, tonic food allowed HK$3,000, travel allowed HK$4,000 and other items to total HK$28,200)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15446,
+      "output_tokens": 6199,
+      "reasoning_tokens": 4928,
+      "total_tokens": 21645
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36497.751858085394,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15446,
+      "output_tokens": 6199,
+      "reasoning_tokens": 4928,
+      "total_tokens": 21645
+    },
+    "total_duration_ms": 36497.751858085394
+  }
+}

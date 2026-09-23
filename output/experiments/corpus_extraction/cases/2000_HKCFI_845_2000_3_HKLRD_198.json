@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 845; [2000] 3 HKLRD 198",
+    "action_number": "HCPI 542/1999",
+    "case_name": "YIP MAU LEUNG v. THE UNIVERSITY OF HONG KONG",
+    "judgment_date": "2000-07-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 24,
+    "age_at_trial": 28,
+    "occupation_before": "artisan (Department of Civil Engineering)",
+    "occupation_after": "artisan (Department of Civil Engineering)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "scapholunate laxity and dorsal wrist syndrome with dynamic carpal instability; scapholunate subluxation; sprained scapholunate ligament of the right wrist",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "the plaintiff has suffered scapholunate laxity and dorsal wrist syndrome with dynamic carpal instability.",
+          "sprained scapholunate ligament of the right wrist was diagnosed.",
+          "the clinical features were compatible with the diagnosis of scapholunate subluxation."
+        ],
+        "icd_code": "NC54.60",
+        "icd_description": "Strain or sprain of carpal joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe pain in the right wrist at the time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at the base of the 2nd and 3rd metacarpals and limitation of the affected wrist, flexion and extension",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain over the right wrist continued with intermittent exacerbations",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right hand was weaker than his left hand, about 70% of the left wrist strength",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness, pain and stiffness of the right wrist would remain a problem",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation in performing heavy manual tasks (pain when applying too much force using tools such as hammer or screwdriver)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic drugs",
+      "physiotherapy",
+      "occupational therapy",
+      "splintage",
+      "referral to Occupational Therapy Clinic",
+      "treatment and assessment at David Trench Rehabilitation Centre",
+      "conservative treatment by medication, splintage, physiotherapy and occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 125,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "No longer able to play badminton; reduced ability to ride a bicycle; hiking and camping activity scaled down due to inability to carry too much weight; sporting activities curtailed to a degree",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced prospect of promotion to senior artisan and erosion of competitive edge in the labour market as an artisan; award made for loss of promotion (chance)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12691,
+      "output_tokens": 4652,
+      "reasoning_tokens": 3520,
+      "total_tokens": 17343
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28480.703987181187,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12691,
+      "output_tokens": 4652,
+      "reasoning_tokens": 3520,
+      "total_tokens": 17343
+    },
+    "total_duration_ms": 28480.703987181187
+  }
+}

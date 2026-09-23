@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 1249",
+    "action_number": "HCPI 336/2001",
+    "case_name": "KWONG YUI HUNG v. WONG FAT KAN",
+    "judgment_date": "2002-03-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "container truck driver (for King Fortune Corporation Ltd)",
+    "occupation_after": "professional driver of lighter vehicles",
+    "expected_occupation_after": null,
+    "salary_before": 23000.0,
+    "salary_after": null,
+    "expected_salary_after": 12000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "abdominal injury",
+        "injury_type": "Permanent injury",
+        "body_part": "abdomen",
+        "laterality": null,
+        "source": [
+          "He was found to be suffering from abdominal injury, head injury with facial lacerations and a right tibial plateau fracture.",
+          "In brief and simple terms the abdominal injuries consisted of tearing and bruising of the bowels, with internal bleeding, which required an emergency laparotomy and a temporary colostomy."
+        ],
+        "icd_code": "NB91.81",
+        "icd_description": "Laceration of colon"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "head injury with facial lacerations",
+        "injury_type": "Residual disability",
+        "body_part": "head/face",
+        "laterality": null,
+        "source": [
+          "He was found to be suffering from abdominal injury, head injury with facial lacerations and a right tibial plateau fracture.",
+          "The facial lacerations required surgical repair."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right tibial plateau fracture",
+        "injury_type": "Residual disability",
+        "body_part": "right tibia",
+        "laterality": "right",
+        "source": [
+          "He was found to be suffering from abdominal injury, head injury with facial lacerations and a right tibial plateau fracture.",
+          "The tibial fracture required an operation for reduction with internal fixation and bone grafting."
+        ],
+        "icd_code": "NC92.1Z",
+        "icd_description": "Fracture of upper end of tibia, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tearing and bruising of the bowels",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "internal bleeding",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "continuing abdominal disabilities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "facial lacerations",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "continuing orthopaedic disabilities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "1% probability of developing intestinal obstruction from post-operative adhesions",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency laparotomy",
+      "temporary colostomy",
+      "repair of the temporary colostomy which was carried out on 13 May 1998",
+      "surgical repair of facial lacerations",
+      "operation for reduction with internal fixation and bone grafting"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "loss of memory",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13087,
+      "output_tokens": 6379,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19466
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31966.12786129117,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13087,
+      "output_tokens": 6379,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19466
+    },
+    "total_duration_ms": 31966.12786129117
+  }
+}

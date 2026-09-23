@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 912",
+    "action_number": "HCPI 1186/1995",
+    "case_name": "CHAU TIM KWAI v. HO KEUNG AND OTHERS",
+    "judgment_date": "1998-05-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 57,
+    "occupation_before": "Ran a fish stall in Shatin, sole proprietor",
+    "occupation_after": "Helping on his son's stall",
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": 2000.0,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to his head; rendered unconscious",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He sustained an injury to his head in the accident. He was rendered unconscious, and only regained his consciousness once he had been taken to the Prince of Wales Hospital."
+        ],
+        "icd_code": "NA07.09",
+        "icd_description": "Concussion with loss of consciousness, duration unspecified or unknown due to lack of information"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Cuts on both his ear lobes",
+        "injury_type": "Temporary injury",
+        "body_part": "ear lobes",
+        "laterality": "bilateral",
+        "source": [
+          "He had cuts on both his ear lobes and on his left forearm."
+        ],
+        "icd_code": "NA0B",
+        "icd_description": "Injury of the auricle"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Cut on his left forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "left forearm",
+        "laterality": "left",
+        "source": [
+          "He had cuts on both his ear lobes and on his left forearm."
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Multiple fractures to his pelvis",
+        "injury_type": "Residual disability",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "But his principal injuries consisted of multiple fractures to his pelvis, his left thigh, his left medial femoral condyle, and his left shoulder blade."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Fracture to his left thigh",
+        "injury_type": "Residual disability",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "But his principal injuries consisted of multiple fractures to his pelvis, his left thigh, his left medial femoral condyle, and his left shoulder blade."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Fracture to his left medial femoral condyle",
+        "injury_type": "Residual disability",
+        "body_part": "left medial femoral condyle",
+        "laterality": "left",
+        "source": [
+          "But his principal injuries consisted of multiple fractures to his pelvis, his left thigh, his left medial femoral condyle, and his left shoulder blade."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Fracture to his left shoulder blade",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder blade",
+        "laterality": "left",
+        "source": [
+          "But his principal injuries consisted of multiple fractures to his pelvis, his left thigh, his left medial femoral condyle, and his left shoulder blade."
+        ],
+        "icd_code": "NC12.1Z",
+        "icd_description": "Fracture of scapula, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Rendered unconscious",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dizzy spells lasting for an hour or two, occurring as often as once or twice a day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tired easily",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Headaches from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Walks with a slight limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "After standing for 10 minutes or so, his thigh starts to hurt",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "After squatting for 10 minutes or so, pain begins to develop in his thigh and the lower part of his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "After walking for 15 minutes or so, his hip begins to hurt",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "After sitting for 30 minutes or so, the area around his pelvis begins to ache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Cannot lift his left arm as much as he could before the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Can now only pick up relatively heavy objects using both arms (previously could do so with left arm alone)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Cuts on both his ear lobes",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Cut on his left forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "The fracture to his shoulder blade was treated \"conservatively\"",
+      "On 4th December 1992, an operation was carried out to fix the fractures to his pelvis, thigh and femoral condyle with screws and interlocking nails",
+      "Transferred to the Cheshire Home, Shatin, on 6th January 1993, and discharged on 13th January",
+      "Attended the hospital as an out-patient for physiotherapy for several months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from multiple fractures and head injury; assessed award for pain, suffering and loss of amenities $425,000.00",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Closure of plaintiff's fish stall; loss of earnings and inability to continue running his fish stall",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 425000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki v. Leung On",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19714,
+      "output_tokens": 9520,
+      "reasoning_tokens": 7104,
+      "total_tokens": 29234
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43762.133818119764,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19714,
+      "output_tokens": 9520,
+      "reasoning_tokens": 7104,
+      "total_tokens": 29234
+    },
+    "total_duration_ms": 43762.133818119764
+  }
+}

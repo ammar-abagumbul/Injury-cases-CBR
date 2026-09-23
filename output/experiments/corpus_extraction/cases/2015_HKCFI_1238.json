@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1238",
+    "action_number": "HCPI 913/2011",
+    "case_name": "WONG MAN KIN v. GOLDEN WHEEL (C&HK) TRANSPORTATION CO LTD (IN LIQUIDATION)",
+    "judgment_date": "2015-07-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 52,
+    "occupation_before": "container truck driver",
+    "occupation_after": null,
+    "expected_occupation_after": "light work including driving vehicles with automatic gearboxes",
+    "salary_before": 15070.0,
+    "salary_after": null,
+    "expected_salary_after": 8000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion injury to the back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "The experts agreed that the injury was a contusion injury to the back."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerated L5/S1 intervertebral disc with large left postero-lateral protrusion causing severe narrowing of the lateral recess and compression of the left exiting nerve roots",
+        "injury_type": "Residual disability",
+        "body_part": "L5/S1 intervertebral disc / lower back",
+        "laterality": "left",
+        "source": [
+          "the MRI showed a degenerated L5/S1 intervertebral disc with large left postero-lateral protrusion causing severe narrowing of the lateral recess and compression of the left exiting nerve roots."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "lumbar spondylosis and minimal diffuse disc bulge at L4/5 level",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine L4/5",
+        "laterality": null,
+        "source": [
+          "The MRI also showed lumbar spondylosis and minimal diffuse disc bulge at L4/5 level."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain radiating to left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "radiculopathy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left leg weakness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "40% decrease sensation over postero-lateral calf and lateral part of sole",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced power of left hip, left knee extension, left ankle dorsiflexion and plantarflexion (assessed as Grade -5)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over lower lumbar back and left sacroliac region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sleep disturbance due to pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced pace when walking upstairs; ability to walk normally on level ground but more slowly on stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mixed anxiety and depressive disorder (psychiatric symptoms: low mood, irritability, loss of interest, poor sleep, occasional suicidal thoughts, reduced social interaction)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "conservative treatment",
+      "psychiatric treatment (East Kowloon Psychiatric Centre)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "10% impairment of the whole person (orthopaedic); residual impairment of lower back and left lower limb",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "could not undertake the work of a container truck driver",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "reduced social interaction; psychiatric symptoms aggravated by wife's attitude towards the plaintiff’s disability and further aggravated by their subsequent divorce",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "reduced social interaction",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Yuet Keung v. Harmony (International) Knitting Factory Ltd.",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "back injury less serious than the present case and no psychiatric condition",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21863,
+      "output_tokens": 6002,
+      "reasoning_tokens": 4352,
+      "total_tokens": 27865
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32138.001084327698,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21863,
+      "output_tokens": 6002,
+      "reasoning_tokens": 4352,
+      "total_tokens": 27865
+    },
+    "total_duration_ms": 32138.001084327698
+  }
+}

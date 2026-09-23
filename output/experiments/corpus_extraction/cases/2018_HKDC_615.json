@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 615",
+    "action_number": "DCPI 470/2014",
+    "case_name": "CHANG LOK KUAN ROCKY v. GERMAN POOL KITCHEN EQUIPMENT LIMITED",
+    "judgment_date": "2018-06-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": null,
+    "occupation_before": "marketing and sales manager in his family business",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Laceration over his right inner thigh (sutured)",
+        "injury_type": "Temporary injury",
+        "body_part": "right inner thigh",
+        "laterality": "right",
+        "source": [
+          "there was laceration over his right inner thigh. Suturing was performed on the wound and the plaintiff was discharged with analgesics."
+        ],
+        "icd_code": "NC71.0",
+        "icd_description": "Laceration without foreign body of hip or thigh"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Right hand abrasion",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "the medical notes taken at the time of the consultation did note that there was right hand abrasion."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Bleeding from the right thigh wound",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "1 cm scar on his right inner thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right hand abrasion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing (two stitches)",
+      "analgesics",
+      "anti-tetanus toxoid injection (government outpatient clinic)",
+      "physiotherapy (8 sessions)",
+      "ambulance transport to A&E"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 0,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "1 cm scar on his right inner thigh",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Fu Wah v Hoffman",
+        "neutral_citation": null,
+        "action_number": "DCPI 2390/2011",
+        "injury_description": "abrasion, laceration wounds or puncture wounds (dog attack)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Kumara Debanama v Lui Pui Wai",
+        "neutral_citation": "[2016] 4 HKLRD 501",
+        "action_number": null,
+        "injury_description": "abrasion, laceration wounds or puncture wounds (dog attack)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18253,
+      "output_tokens": 3736,
+      "reasoning_tokens": 2880,
+      "total_tokens": 21989
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26940.55737555027,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18253,
+      "output_tokens": 3736,
+      "reasoning_tokens": 2880,
+      "total_tokens": 21989
+    },
+    "total_duration_ms": 26940.55737555027
+  }
+}

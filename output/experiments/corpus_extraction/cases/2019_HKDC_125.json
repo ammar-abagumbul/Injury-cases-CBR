@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 125",
+    "action_number": "DCPI 1054/2016",
+    "case_name": "LAM MEI WAN v. NGAI KEUNG JAMES AND ANOTHER",
+    "judgment_date": "2019-02-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 56,
+    "age_at_trial": 61,
+    "occupation_before": "Janitor with SKH Lam Kau Mow Secondary School",
+    "occupation_after": "Janitor at another kindergarten commencing 2016-09-01 (quitted after two months)",
+    "expected_occupation_after": null,
+    "salary_before": 9715.0,
+    "salary_after": 10700.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the coccyx",
+        "injury_type": "Temporary injury",
+        "body_part": "coccyx",
+        "laterality": null,
+        "source": [
+          "She fell off the bus to the ground and sustained lower back injuries (the “Accident”).",
+          "She was diagnosed to have tenderness at her coccyx, but no bruising or wound.",
+          "Radiograph showed fracture of the coccyx.",
+          "The plaintiff sustained coccygeal fracture in the Accident, which was compatible and consistent with the mechanism of injury given by the plaintiff that her fracture was solely attributable to the Accident."
+        ],
+        "icd_code": "NB52",
+        "icd_description": "Fracture of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Pre-existing spondylosis of the cervical and lumbar spine, and reduced C5/6 disc space with narrowing of intervertebral foramina",
+        "injury_type": "Residual disability",
+        "body_part": "cervical and lumbar spine",
+        "laterality": null,
+        "source": [
+          "It was also observed that the plaintiff had pre-existing spondylosis of the cervical and lumbar spine, and reduced C5/6 disc space with narrowing of intervertebral foramina."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness at her coccyx",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Coccygeal pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right buttock pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right lower limb pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right lower limb numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Positive Waddell’s simulation tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Generalised weakness over both lower limbs / mild lower limb weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced range of lumbar flexion/extension (flexion 60 degrees, extension 10 degrees, lateral flexion 20 degrees)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Independent with activities of daily living",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Intramuscular analgesic",
+      "Analgesics",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Admission to Orthopaedic Department of Pamela Youde Nethersole Eastern Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 52,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Yuk King v Tung Chun",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Fracture of her coccyx",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 140000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15354,
+      "output_tokens": 4978,
+      "reasoning_tokens": 3648,
+      "total_tokens": 20332
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27153.772477060556,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15354,
+      "output_tokens": 4978,
+      "reasoning_tokens": 3648,
+      "total_tokens": 20332
+    },
+    "total_duration_ms": 27153.772477060556
+  }
+}

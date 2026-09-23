@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKDC 25",
+    "action_number": "DCCJ009048/1978",
+    "case_name": "CHONG HAY v. AU HON WAH AND ANOTHER",
+    "judgment_date": "1979-06-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 8,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the plaintiff suffered transverse fractures of the left tibia and fibula.",
+        "injury_type": "Temporary injury",
+        "body_part": "left tibia and fibula",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered transverse fractures of the left tibia and fibula."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Hospitalised for 36 days",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Attended an outpatients clinic for 3 months",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to walk without sticks for 3 months",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Off school for 2 months",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Flat round scar about 1 inch in diameter (moderately obvious at present; will become white and be obscured by normal flesh coloured stockings)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and suffering from the injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No permanent impairment; fractures healed without any complications; no shortening; alignment is perfect",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "outpatient clinic attendance",
+      "use of walking sticks"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 36,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Flat round scar about 1 inch in diameter; moderately obvious at present but will become white and be obscured by normal flesh coloured stockings.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Anxiety and agitation when asked to cross a street; required escort to school until 30.12.78.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 10000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Luk Bik-yu & Anor v. Fong Wing-fook & Anor",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No. 2819/76",
+        "injury_description": "a child injured in 1975 having similar but slightly more serious injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 8000.0
+      },
+      {
+        "case_name": "Chan Wing-kuen v. Ho Shui-gun & Anor",
+        "neutral_citation": null,
+        "action_number": "O.J.A. No. 1189/77",
+        "injury_description": "a similar injury resulted in an agreed sum under this head of $10,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 10000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8869,
+      "output_tokens": 4292,
+      "reasoning_tokens": 3072,
+      "total_tokens": 13161
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29687.090668827295,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8869,
+      "output_tokens": 4292,
+      "reasoning_tokens": 3072,
+      "total_tokens": 13161
+    },
+    "total_duration_ms": 29687.090668827295
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 41",
+    "action_number": "HCA 2390/1974",
+    "case_name": "CHIANG YING CHENG AND ANOTHER v. HO LAI PING AND ANOTHER",
+    "judgment_date": "1979-03-21",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 38,
+    "age_at_trial": 37,
+    "occupation_before": "proprietor of two businesses, each of which operated shops dealing in electrical appliances",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "This is an assessment of damages consequent upon the deceased's death in a traffic accident on the 23rd April 1973.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "This is an assessment of damages consequent upon the deceased's death in a traffic accident on the 23rd April 1973."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Dependency of widow and child (General Damages awarded: $146,200.00)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of support for the widow and child between date of death and date of trial (Special Damages awarded: $119,000.00)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of support for deceased's parents, brothers and sisters to date of trial (Special Damages awarded: $108,000.00)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Funeral Expenses (Special Damages awarded: $6,645.00)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Damage to clothing etc. (Special Damages awarded: $400.00)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Damages to the estate for loss of expectation of life under the Law Amendment and Reform (Consolidation) Ordinance, Cap. 23 (awarded: $10,000.00)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8370,
+      "output_tokens": 3573,
+      "reasoning_tokens": 2688,
+      "total_tokens": 11943
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31416.21571406722,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8370,
+      "output_tokens": 3573,
+      "reasoning_tokens": 2688,
+      "total_tokens": 11943
+    },
+    "total_duration_ms": 31416.21571406722
+  }
+}

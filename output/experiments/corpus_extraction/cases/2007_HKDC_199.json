@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 199",
+    "action_number": "DCPI 629/2006",
+    "case_name": "CHENG YUK CHUN v. WINSON CLEANING SERVICE CO LTD AND OTHERS",
+    "judgment_date": "2007-07-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 43,
+    "occupation_before": "cleaner",
+    "occupation_after": null,
+    "expected_occupation_after": "cleaning worker",
+    "salary_before": 3500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "X-ray showed fracture of the right distal radius.",
+        "injury_type": "Temporary injury",
+        "body_part": "right distal radius",
+        "laterality": "right",
+        "source": [
+          "X-ray showed fracture of the right distal radius."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "development of Reflex Sympathetic Dystrophy (RSD) or Complex Regional Pain Syndrome (CRPS) which resulted in pain and stiffness of fingers and wrist.",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist and fingers",
+        "laterality": "right",
+        "source": [
+          "development of Reflex Sympathetic Dystrophy (RSD) or Complex Regional Pain Syndrome (CRPS) which resulted in pain and stiffness of fingers and wrist."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "MRI in late 2003 showed tear of Triradiate Fibrocartilage Cartilage (TFC).",
+        "injury_type": "Temporary injury",
+        "body_part": "TFC of the wrist",
+        "laterality": "right",
+        "source": [
+          "MRI in late 2003 showed tear of Triradiate Fibrocartilage Cartilage (TFC)."
+        ],
+        "icd_code": "NC54.42",
+        "icd_description": "Traumatic rupture of ulnocarpal ligament"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Nerve conduction test showed mild carpal tunnel syndrome.",
+        "injury_type": "Temporary injury",
+        "body_part": "carpal tunnel / right hand",
+        "laterality": "right",
+        "source": [
+          "Nerve conduction test showed mild carpal tunnel syndrome."
+        ],
+        "icd_code": "NC55.1",
+        "icd_description": "Injury of median nerve at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "bruises in the forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "bruises in the forehead"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "a 1-cm nasal bridge laceration.",
+        "injury_type": "Temporary injury",
+        "body_part": "nasal bridge",
+        "laterality": null,
+        "source": [
+          "a 1-cm nasal bridge laceration."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Swelling of the right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness of the right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decreased range of movement of the right wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and stiffness of fingers and wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Numbness in fingers",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Limitation in movement principally in pronation (loss of pronation)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Low mood, worries about health and work ability, increased irritability and sleep disturbance (mood disturbance / adjustment disorder with depressed mood)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Bruises in the forehead",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "1-cm nasal bridge laceration",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and plaster immobilisation",
+      "physiotherapy",
+      "consultation with psychiatrist",
+      "pain clinic consultation",
+      "wrist arthroscopy and debridement of the TFC tear",
+      "psychiatric treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Major disability being the loss of pronation and residual vague pain",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "Mood disturbance in the form of low mood, worries about health and work ability, increased irritability and sleep disturbance (adjustment disorder with depressed mood)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Kwai Kong v Cheng Kok",
+        "neutral_citation": "HCPI 93/2002, 31/10/2002",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 380000.0
+      },
+      {
+        "case_name": "Frank Yu Yu Kai v Chan Chi Keung",
+        "neutral_citation": "HCPI 230/2004, 8/11/2006",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19256,
+      "output_tokens": 9077,
+      "reasoning_tokens": 7488,
+      "total_tokens": 28333
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42285.5122089386,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19256,
+      "output_tokens": 9077,
+      "reasoning_tokens": 7488,
+      "total_tokens": 28333
+    },
+    "total_duration_ms": 42285.5122089386
+  }
+}

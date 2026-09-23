@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1353",
+    "action_number": "HCPI 163/2015",
+    "case_name": "CHAU CHIN TO CHADOW v. WING FUNG FINANCIAL GROUP LTD",
+    "judgment_date": "2017-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "warehouse clerk",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "educated up to secondary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Early degeneration with focal disc protrusion at L5/S1 (minor disc protrusion) without nerve root impingement or spinal stenosis.",
+        "injury_type": "Permanent injury",
+        "body_part": "L5/S1 disc / lower back",
+        "laterality": "right",
+        "source": [
+          "FINDINGS:\n\nEarly desiccated change is noted at the L5/S1 disc and this disc height has this diminished. There is a focal protrusion of disc noted at the right posterolateral recess, indenting onto the thecal sac. There is no nerve root impingement. The neural foramina are patent.\n\nThe rest of the intervertebral discs are of normal signal and heights without protrusion and herniation.\n\nThere is no thickening or arthritis noted at the facets joints. The ligamentum flavum is of normal appearance and not thickened as well.\n\nThe normal spinal alignment is preserved. No marrow infiltration is seen. No bony collapse or injury is noted.\n\nCOMMENTS:\n\n1. There is early degeneration with focal disc protrusion conducted at the L5/S1, without causing nerve root impingement or spinal stenosis.\n\n2. There is no other neurological complication or degenerated disc disease is noted."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Soft tissue injury of back (low back injury resulting in low back pain).",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "We agree Mr. Chau’s clinical picture is compatible with the diagnosis of soft tissue injury of back. We agree it should be due to the said accident on 2nd May 2012. There is no evidence of pre‑existing pathology.",
+          "By his injury of “LOW BACK INJURY RESULTING IN LOW BACK PAIN (下腰背受傷引致下腰疼痛)”, the plaintiff lost earning capacity permanently by 2%."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent deep stretching pain over his low back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Range of motion of his low back was decreased with pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "on and off pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in lifting objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in manual lifting; prone to injury if performing manual lifting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could resume original duty with reducing efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "diffuse tenderness over thoracic and lumbosacral spine region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced lumbar extension and side flexion (extension 20º; side flexion to right 20º and left 20º)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "electrotherapy",
+      "back mobilization",
+      "strengthening exercises",
+      "A & E Department assessment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 405,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "On and off low back pain; decreased range of motion; difficulty in lifting objects and manual lifting; reduced efficiency in original duty.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Shek Kam Ching v. Po Kee Construction Engineering Ltd",
+        "neutral_citation": "HCPI 434/2001",
+        "action_number": null,
+        "injury_description": "Victim sprained his back when he lifted steel rod. He suffered a small prolapse of intervertebral disc at L5/S1. He was given sick leave for 26 months. He was unable to return to his pre‑accident work. He had a good recovery after conservative treatment.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13660,
+      "output_tokens": 6131,
+      "reasoning_tokens": 4544,
+      "total_tokens": 19791
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43373.958211392164,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13660,
+      "output_tokens": 6131,
+      "reasoning_tokens": 4544,
+      "total_tokens": 19791
+    },
+    "total_duration_ms": 43373.958211392164
+  }
+}

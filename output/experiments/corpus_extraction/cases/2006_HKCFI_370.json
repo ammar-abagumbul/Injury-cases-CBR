@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 370",
+    "action_number": "HCPI 405/2005",
+    "case_name": "MO PO v. YAT FAI ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2006-04-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "fixing wooden formwork / nailing wooden battens",
+    "occupation_after": "cleaner",
+    "expected_occupation_after": null,
+    "salary_before": 18000.0,
+    "salary_after": 5800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "penetrating injury to the left eye-ball",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "(i) The Plaintiff has suffered a penetrating injury to the left eye-ball which required three operations under general anaesthetic with the prospect of a further operation to extract a cataract and implant an intra-ocular lens. His best corrected visual acuity to his left eye is 6/12 [a 50% loss of central vision]. He has a traumatic cataract of the left eye. The left pupil is abnormal. It is slightly oval and slightly dilated with reaction to light being sluggish."
+        ],
+        "icd_code": "NA06.84",
+        "icd_description": "Penetrating wound of eyeball without foreign body, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "traumatic cataract of the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "He has a traumatic cataract of the left eye.",
+          "(i) The Plaintiff has suffered a penetrating injury to the left eye-ball which required three operations under general anaesthetic with the prospect of a further operation to extract a cataract and implant an intra-ocular lens."
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Best corrected visual acuity to his left eye is 6/12 (a 50% loss of central vision)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Photophobia (undue sensitivity to sunlight) with pain and excessive tearing (as alleged by Plaintiff and Dr Ng)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Excessive tearing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced working capacity — judge assessed working capacity as 15 days per month (reduced ability to work a full month)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "three operations under general anaesthetic"
+    ],
+    "treatments_future": [
+      "extraction of cataract and implantation of an intra-ocular lens"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity for penetrating injury to the left eyeball (including visual loss, photophobia, abnormal pupil)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity and reduced ability to work (monthly pre-accident earnings assessed at $18,000; reduced working capacity assessed at $12,000/month; award for loss of earning capacity noted as $144,000)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 330000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sze Ping Chui v Lau Ching Wai",
+        "neutral_citation": null,
+        "action_number": "HCPI 1051/01",
+        "injury_description": "Plaintiff had sustained a ruptured eye-ball and underwent an operation to repair the cornea, to remove the damaged lens and to implant an intra-ocular lens. He was left with blurred vision, a corneal scar and photophobia. Visual acuity was 35% of normal.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kin Ka v Siu Tung Hun",
+        "neutral_citation": null,
+        "action_number": "HCPI 570/98",
+        "injury_description": "Best corrected acuity was 44% of normal and plaintiff could not resume his pre-accident work.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Kei Yu Fuk v Wong Ching Nam",
+        "neutral_citation": null,
+        "action_number": "HCPI 872/00",
+        "injury_description": "Penetrating injury caused by a metal fragment resulting in central eye vision of 20/80; difficulty in perception of depth and in judging distances.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 280000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16977,
+      "output_tokens": 5783,
+      "reasoning_tokens": 4544,
+      "total_tokens": 22760
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38746.227618306875,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16977,
+      "output_tokens": 5783,
+      "reasoning_tokens": 4544,
+      "total_tokens": 22760
+    },
+    "total_duration_ms": 38746.227618306875
+  }
+}

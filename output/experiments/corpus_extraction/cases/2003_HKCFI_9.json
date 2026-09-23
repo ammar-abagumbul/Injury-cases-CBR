@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 9",
+    "action_number": "HCPI 237/2001",
+    "case_name": "CHENG KWOK SANG v. MAXIM'S CATERERS LIMITED",
+    "judgment_date": "2003-02-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 47,
+    "occupation_before": "Restaurant captain",
+    "occupation_after": "Business department duties; later working in \"po cho fong\" folding napkins and putting chopsticks into paper covers",
+    "expected_occupation_after": "Storekeeper / stock attendant",
+    "salary_before": 16199.0,
+    "salary_after": 8218.0,
+    "expected_salary_after": 8213.38,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right patella",
+        "injury_type": "Permanent injury",
+        "body_part": "right patella",
+        "laterality": "right",
+        "source": [
+          "x-ray examination of the right knee ... revealed a fracture of the right patella",
+          "The knee injury was treated by open reduction with partial patellectomy, tension band wiring and screw fixing. A second operation was performed later to remove broken wires."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the left radial head",
+        "injury_type": "Temporary injury",
+        "body_part": "left radial head (left elbow)",
+        "laterality": "left",
+        "source": [
+          "x-ray examination of the ... left elbow revealed a fracture of the ... left radial head",
+          "The left arm fracture was treated with a long arm cast for six weeks."
+        ],
+        "icd_code": "NC32.1",
+        "icd_description": "Fracture of upper end of radius"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "laceration of the head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "injuries to the head and eye, a laceration and mild blurring of vision"
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "injury to the left eye (mild blurring of vision)",
+        "injury_type": "Temporary injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "injuries to the head and eye, a laceration and mild blurring of vision"
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in his right leg exacerbated by prolonged standing, walking or even sitting, stair climbing and squatting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Obvious, albeit not pronounced, limp and walks comparatively slowly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and weakness in his left arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Requires regular treatment by painkillers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "When pain is present, affects his mood",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction with partial patellectomy, tension band wiring and screw fixing",
+      "second operation to remove broken wires",
+      "long arm cast for six weeks (left arm)",
+      "physiotherapy once or twice a week for about two years",
+      "analgesics / painkillers"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Pain in right leg causing difficulties and pain if required to remain on his feet for long periods; difficulty with stair climbing and squatting; an obvious limp",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Prevents him resuming his previous occupation as a restaurant captain which involved long hours on his feet attending to customers",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Kwok Wing Ming v. Wong Lin Lun",
+        "neutral_citation": null,
+        "action_number": "HCPI 1341 of 1996",
+        "injury_description": "fracture of the patella (assessed by the doctors at 8% disability)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 360000.0
+      },
+      {
+        "case_name": "Liu Hung Fai v. Sandvik Hongkong Ltd & anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 934 of 1995",
+        "injury_description": "same injury (patella fracture) in a 69 year old lady, more severely affected",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      },
+      {
+        "case_name": "Lee Chun Fat v. Chan Kin Wo & anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 1306 of 2000",
+        "injury_description": "patella-related case (injuries appear to be more severe)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13194,
+      "output_tokens": 6445,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19639
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54895.83237841725,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13194,
+      "output_tokens": 6445,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19639
+    },
+    "total_duration_ms": 54895.83237841725
+  }
+}

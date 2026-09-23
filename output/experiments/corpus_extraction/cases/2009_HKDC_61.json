@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 61",
+    "action_number": "DCPI 1514/2008",
+    "case_name": "KHAN ZUBAIR v. HUNG KEE CLEANING ENVIRONMENT RECYCLE LIMITED",
+    "judgment_date": "2009-04-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": "general labourer",
+    "salary_before": 8000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left index finger infection with abscess formation",
+        "injury_type": "Residual disability",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "Khan was diagnosed to have left index finger infection with abscess formation."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "His finger became swollen which necessitated hospitalisation and surgical operation.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abscess formation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight finger stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild reduced movement of the finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Khan was reported to have avoided using the finger for daily activities.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the finger particularly when he has to lift heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hand weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "subjective tenderness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "much reduced sensation all over the left index finger from the MCPJ distally",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "minimal active movement of the finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "incision and drainage",
+      "antibiotics",
+      "occupational therapy",
+      "surgical operation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain, weakness and stiffness of the left index finger with mild reduced movement and reduced sensation affecting use of the finger.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Yun San v Cheung Yue Yiu",
+        "neutral_citation": null,
+        "action_number": "DCPI 1909/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yiu Pau Yau v Co-Ray Design & Construction Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 864/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7968,
+      "output_tokens": 4135,
+      "reasoning_tokens": 2944,
+      "total_tokens": 12103
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41140.7585144043,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7968,
+      "output_tokens": 4135,
+      "reasoning_tokens": 2944,
+      "total_tokens": 12103
+    },
+    "total_duration_ms": 41140.7585144043
+  }
+}

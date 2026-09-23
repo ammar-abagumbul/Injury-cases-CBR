@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1102",
+    "action_number": "HCPI 802/2013",
+    "case_name": "CHU KAM HUNG v. SHING LEE (MEAT SUPPLIES) HONG LIMITED",
+    "judgment_date": "2015-06-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 59,
+    "occupation_before": "labourer and delivery worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8673.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right calcaneum",
+        "injury_type": "Permanent injury",
+        "body_part": "right calcaneum",
+        "laterality": "right",
+        "source": [
+          "sustaining a fracture of the right calcaneum[1] and contusion of his back."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion of his back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "sustaining a fracture of the right calcaneum[1] and contusion of his back."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent pain over right ankle and dorsum of the foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Coldness and paraesthesia in right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Allodynia (excessive tenderness of skin) of the right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decrease in skin temperature over the right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced range of motion of the right ankle (dorsiflexion 5 degrees; no plantar flexion, inversion or eversion)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Needed to walk with a pair of crutches (reduced mobility)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness around the right heel",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual pain of the back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tenderness around right lateral lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "plaster of paris",
+      "physiotherapy",
+      "analgesics",
+      "TENS",
+      "hot pad",
+      "light mobilisation",
+      "referral to Pain Clinic",
+      "offered diagnostic lumbar sympathetic block (declined)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Moving about only on crutches, thereby reducing his mobility",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Residual disability from the calcaneal fracture would have prevented him from carrying on the very heavy manual work that he was doing for the defendant",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 275000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17412,
+      "output_tokens": 4320,
+      "reasoning_tokens": 3392,
+      "total_tokens": 21732
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25531.759675592184,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17412,
+      "output_tokens": 4320,
+      "reasoning_tokens": 3392,
+      "total_tokens": 21732
+    },
+    "total_duration_ms": 25531.759675592184
+  }
+}

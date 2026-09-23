@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 146",
+    "action_number": "DCPI 856/2005",
+    "case_name": "TSE SO KAM v. GUARDIAN PROPERTY MANAGEMENT LTD",
+    "judgment_date": "2006-05-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general worker employed by \"Ever Success Garments Limited\" and was deployed to work at Room 508, Block B of the Office Tower at the Premises",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 4895.31,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "displaced fracture of the distal pole of left patella",
+        "injury_type": "Permanent injury",
+        "body_part": "left patella / left knee",
+        "laterality": "left",
+        "source": [
+          "Arising from the accident, the left knee of the Plaintiff suffered a displaced fracture of the distal pole of left patella."
+        ],
+        "icd_code": "NC92.0",
+        "icd_description": "Fracture of patella"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual stiffness of her left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild limping",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needed to walk with umbrella outdoors for support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "marked left quadriceps weakness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty for the left leg to descend stairs carrying 10 lbs weight as pain increased with the weight bearing; needed handrail for support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "only able to perform single side squat with the left leg placed in front; could only squat in an adapted position",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some permanent residual pain, weakness and stiffness of her left knee joint",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild wasting of her left thigh muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at PF joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of movement of left knee",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation, which involved a partial patellectomy",
+      "completed a course of rehabilitation in Kowloon Hospital",
+      "referred to outpatient physiotherapy for residual stiffness of her left knee",
+      "admitted to Queen Elizabeth Hospital for removal of broken wires on 8 April 2004",
+      "Removal of implant was performed on 13 April 2004 under spinal anaesthesia",
+      "referred to outpatient physiotherapy and occupational therapy again"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "displaced fracture of the distal pole of left patella and partial patellectomy",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "walking with mild limping and needing to walk with umbrella outdoors for support; reduced range of movement of left knee; difficulty descending stairs",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "could only squat in an adapted position; difficulty in squatting tasks and limitation in carrying loads causing difficulty in tasks requiring bending/squatting",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9847,
+      "output_tokens": 4399,
+      "reasoning_tokens": 3136,
+      "total_tokens": 14246
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33640.87653532624,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9847,
+      "output_tokens": 4399,
+      "reasoning_tokens": 3136,
+      "total_tokens": 14246
+    },
+    "total_duration_ms": 33640.87653532624
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 206",
+    "action_number": "HCA009964/1982",
+    "case_name": "LI YEE YUEN v. TAM WING KEUNG AND ANOTHER",
+    "judgment_date": "1985-03-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "Driver (lorry driver)",
+    "occupation_after": "Light work (taken up October 1981)",
+    "expected_occupation_after": "Driving",
+    "salary_before": 3900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whiplash injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "he suffered what is commonly referred to as a whiplash injury"
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "cervical spondylosis",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "condition which he describes as cervical spondylosis"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unconscious for a short while",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "painful to turn his head acutely to the right",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "generalized discomfort in the lower neck on the left side",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "some restriction of movement of the neck",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain and restriction on tilting the head to the right",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "affected reflexes in the right arm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "substantially reduced grip in the left hand and an overall loss of grip in both arms",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Elizabeth Hospital",
+      "use of collar for a year",
+      "physiotherapy over a protracted period",
+      "bone setter treatment",
+      "tonic/customary foods"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenity",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Decision reported in 1983 Hong Kong Law Journal p.423",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "injuries more severe than the present case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 45000.0
+      },
+      {
+        "case_name": "Decision reported in 1983 Hong Kong Law Journal p.424",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "injuries more severe than the present case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 40000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10093,
+      "output_tokens": 4639,
+      "reasoning_tokens": 3712,
+      "total_tokens": 14732
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34490.66944047809,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10093,
+      "output_tokens": 4639,
+      "reasoning_tokens": 3712,
+      "total_tokens": 14732
+    },
+    "total_duration_ms": 34490.66944047809
+  }
+}

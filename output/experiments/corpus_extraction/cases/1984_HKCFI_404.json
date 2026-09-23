@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 404",
+    "action_number": "HCA 12683/1983",
+    "case_name": "LAM NGAI CHUNG v. CHEUNG WAN CHUEN",
+    "judgment_date": "1984-06-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 28,
+    "age_at_trial": null,
+    "occupation_before": "tailor",
+    "occupation_after": "tailor",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "an 8 cm laceration over his right forearm with a torn brachioradialis muscle",
+        "injury_type": "Temporary injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "an 8 cm laceration over his right forearm with a torn brachioradialis muscle."
+        ],
+        "icd_code": "NC36.21",
+        "icd_description": "Laceration of other flexor muscle, fascia or tendon at forearm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to the Branchial Plexus, the intersection of nerves in the neck and shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "neck and shoulder (brachial plexus)",
+        "laterality": "right",
+        "source": [
+          "Dr Wedderburn concludes that there can be no doubt that the plaintiff injured the Branchial Plexus, the intersection of nerves in the neck and shoulder."
+        ],
+        "icd_code": "NC14.6",
+        "icd_description": "Injury of multiple nerves at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "redness over his chest wall, abrasions over his right shoulder, right arm, right knee and face; graft scar on right forearm and a 4\" x 4\" scar on the right thigh (donor area for the skin graft)",
+        "injury_type": "Residual disability",
+        "body_part": "chest wall; right shoulder; right arm; right knee; face; right thigh (donor area)",
+        "laterality": "right",
+        "source": [
+          "redness over his chest wall, abrasions over his right shoulder, right arm, right knee and face",
+          "a graft scar 3\" x 1 1/8 \" across the front of the right forearm and a 4\" x 4\" scar on the right thigh, the donor area for the skin graft."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "scattered areas of numbness on the right arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "wasting of the deltoid muscle at the shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right hand grip reduced to 50 lb compared with 80 lb in left hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in moving his arm away from the body against pressure of the examiner's hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no loss of co-ordination except in the limited movements using thumb and forefinger",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "superficial abrasion scar on the outside of his right knee, a small faint flat scar on his upper right chest, a 'T' shaped abrasion scar on the front of the upper arm and a graft scar on the right forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "still feels numbness and has restricted movement of his arm; his hand is not as good as before the accident; his hand quivers when he uses needles; using scissors is more difficult and his hand and arm get tired more quickly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no longer wore 'T' shirts because of embarrassment over the scars on his arm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "repair of the torn brachioradialis muscle",
+      "skin graft to right forearm",
+      "hospital admission 1981-07-10 to 1981-07-15"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced dexterity, strength and co-ordination in the right hand and arm affecting ability to perform tailoring work (hand quivers with needles, difficulty with scissors, hand and arm tire more quickly; now takes 13-15 hours to complete work that took 10 hours)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Embarrassment over scars on his arm resulting in him no longer wearing T-shirts",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Mok Kai v Lee Hing Chuen",
+        "neutral_citation": null,
+        "action_number": "H.C. Action 4989 of 1979",
+        "injury_description": "a fracture of the forearm, some minor scaring and a slight weakness of fine finger movement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 6000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10193,
+      "output_tokens": 7468,
+      "reasoning_tokens": 5760,
+      "total_tokens": 17661
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37849.888283759356,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10193,
+      "output_tokens": 7468,
+      "reasoning_tokens": 5760,
+      "total_tokens": 17661
+    },
+    "total_duration_ms": 37849.888283759356
+  }
+}

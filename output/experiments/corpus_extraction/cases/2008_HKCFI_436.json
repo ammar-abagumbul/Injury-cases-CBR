@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 436",
+    "action_number": "HCPI 1173/2004",
+    "case_name": "NGUYEN VAN VINH v. CHEUNG YING CONSTRUCTION ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2008-05-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 32,
+    "age_at_trial": 36,
+    "occupation_before": "general casual worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10500.0,
+    "salary_after": 7500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "large corneal abscess with extensive scarring resulting in effective blindness of the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "a concrete chip bounced up from the force of the hammering and entered his left eye as a result of which he is now, for all intents and purposes, blind in that eye",
+          "the doctors discovered that he had sustained a large corneal abscess with extensive scarring for which he required in operation"
+        ],
+        "icd_code": "NA06.81",
+        "icd_description": "Retained intraocular nonmagnetic foreign body, unilateral"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "blind in that eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a sharp pain in his eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "large corneal abscess with extensive scarring",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "went to his local eye clinic",
+      "sent to Tuen Mun Hospital",
+      "required an operation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Total loss of sight in one eye (left eye); effectively useless left eye",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Hang Huu Duc v Hanbo Engineering Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 172/2004",
+        "injury_description": "total loss of one eye",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 550000.0
+      },
+      {
+        "case_name": "Ho Yam Pan v Tse Tak Ming",
+        "neutral_citation": null,
+        "action_number": "HCPI 91/1996",
+        "injury_description": "total loss of one eye",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 450000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12474,
+      "output_tokens": 4128,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16602
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34365.36983773112,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12474,
+      "output_tokens": 4128,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16602
+    },
+    "total_duration_ms": 34365.36983773112
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 439",
+    "action_number": "HCPI 691/1998",
+    "case_name": "KWAN WING CHEUNG v. HANG SHING PRINTING CO. LTD. AND ANOTHER",
+    "judgment_date": "1999-09-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 45,
+    "age_at_trial": null,
+    "occupation_before": "printing machine operator",
+    "occupation_after": "various employments including printing machine chief operator, No.2 operator, watchman and messenger",
+    "expected_occupation_after": null,
+    "salary_before": 32000.0,
+    "salary_after": 17600.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Crush injuries to the tips of the right middle and ring fingers with loss of flexibility in the distal interphalangeal joints and loss of surface sensitivity at the tip of the ring finger.",
+        "injury_type": "Residual disability",
+        "body_part": "right middle and ring fingers",
+        "laterality": "right",
+        "source": [
+          "the Plaintiff had suffered crush injuries to the tips of his right middle and ring fingers with a considerable loss of flexibility in the distal interphalangeal joint of both fingers. There was a loss of surface sensitivity at the tip of the ring finger.",
+          "It was common ground that the Plaintiff had suffered crush injuries to the tips of his right middle and ring fingers with a considerable loss of flexibility in the distal interphalangeal joint of both fingers. There was a loss of surface sensitivity at the tip of the ring finger."
+        ],
+        "icd_code": "NC58.1",
+        "icd_description": "Crushing injury of other finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "considerable loss of flexibility in the distal interphalangeal joint of both fingers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of surface sensitivity at the tip of the ring finger",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some loss of strength in his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "continuing pain in his fingers, described as an ache and pain when carrying heavy loads",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some loss of utility in his right hand making it uncomfortable to carry heavy loads over a period of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Dr MAO Wen-chee examined the Plaintiff in May 1998",
+      "Dr CHUN Sin-yeung examined the Plaintiff in February 1999",
+      "sick leave for a period of 7 months following the accident"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "some loss of utility in his right hand and some loss of strength in respect of that hand so as to make it uncomfortable for him to carry heavy loads over a period of time in that hand. I accept also that when he does he feels pain from that hand.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14470,
+      "output_tokens": 3730,
+      "reasoning_tokens": 2688,
+      "total_tokens": 18200
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26477.88253799081,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14470,
+      "output_tokens": 3730,
+      "reasoning_tokens": 2688,
+      "total_tokens": 18200
+    },
+    "total_duration_ms": 26477.88253799081
+  }
+}

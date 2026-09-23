@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 1970",
+    "action_number": "DCPI 352/2009",
+    "case_name": "CHAN KAM FAI v. 李志傑經營之惠林運輸公司",
+    "judgment_date": "2010-12-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 41,
+    "age_at_trial": 46,
+    "occupation_before": "driver and delivery worker for furniture",
+    "occupation_after": "delivery worker (delivering food and grocery items)",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 7500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "comminuted fracture of the distal phalanx of the left big toe with minimal displacement of the fracture fragments and soft tissues swelling around the fracture",
+        "injury_type": "Residual disability",
+        "body_part": "left big toe",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff was suffering from comminuted fracture of the distal phalanx of the left big toe with minimal displacement of the fracture fragments and soft tissues swelling around the fracture.",
+          "he suffered from capillary and lymphatic injury causing left big toe swelling.",
+          "physical examination revealed reduced flexion at the first metatarsal phalangeal joint and total loss of flexion and extension at the interphalangeal joint."
+        ],
+        "icd_code": "ND13.4",
+        "icd_description": "Fracture of great toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "soft tissues swelling around the fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not bear weight on his left foot and he had to sit on wheelchair for mobilization",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on-and-off needle pain and numbness in his left big toe",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left big toe will be painful during change of weather and while jumping or running",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced flexion at the first metatarsal phalangeal joint and total loss of flexion and extension at the interphalangeal joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment at the Prince of Wales Hospital",
+      "Treatment at ADEC Medical Centre",
+      "Physiotherapy at JP Physiotherapy Clinic",
+      "Consultation with Dr Chang Shao"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 252,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, stiffness and reduced flexion/extension of the left big toe resulting from fracture and soft tissue injury",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Left big toe is painful while jumping or running; affected ability to carry out such activities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Cannot carry heavy objects like furniture as before, causing a disadvantage and handicap in the labour market",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sin Fu Yau v Cheung Kwok Leung Keith & Others",
+        "neutral_citation": null,
+        "action_number": "DCPI1081 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8702,
+      "output_tokens": 4001,
+      "reasoning_tokens": 2816,
+      "total_tokens": 12703
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38707.415614277124,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8702,
+      "output_tokens": 4001,
+      "reasoning_tokens": 2816,
+      "total_tokens": 12703
+    },
+    "total_duration_ms": 38707.415614277124
+  }
+}

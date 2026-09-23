@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 294",
+    "action_number": "DCPI 893/2008",
+    "case_name": "CHAU PAK FEI v. ALL MEMBERS OF BOARD OF DIRECTORS",
+    "judgment_date": "2008-11-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "worked as a chef at a restaurant operated by the Defendants (\"Restaurant\")",
+    "occupation_after": "chef in the restaurant of another service centre",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue sprain of the lumbar spine region",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "He was diagnosed as suffering from soft tissue sprain of the lumbar spine region."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "excruciating pain in his back such that he could not get up and had to remain squatting on the floor for about 8 minutes before he could slowly stand up",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual subjective back complaints",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not tolerate long periods of sitting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "not able to use a Chinese wok efficiently",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance was called and he was admitted to the emergency section of Princess Margaret Hospital shortly after noon on 6 May 2004",
+      "5 months' sick leave",
+      "assigned light duties upon return to work"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "suffers from a significant handicap by reason of the fact that as a result of his injury, he was not able to use a Chinese wok efficiently",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11491,
+      "output_tokens": 3491,
+      "reasoning_tokens": 2624,
+      "total_tokens": 14982
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29689.883664250374,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11491,
+      "output_tokens": 3491,
+      "reasoning_tokens": 2624,
+      "total_tokens": 14982
+    },
+    "total_duration_ms": 29689.883664250374
+  }
+}

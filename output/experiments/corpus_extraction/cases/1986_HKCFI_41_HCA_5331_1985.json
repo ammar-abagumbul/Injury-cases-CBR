@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 41; HCA 5331/1985",
+    "action_number": "HCA005331/1985",
+    "case_name": "WONG HOK CHUEN v. TAI KAM KIU AND ANOTHER",
+    "judgment_date": "1986-07-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "hawker; door to door salesman; practising Chinese medicine/acupuncturist (occasional)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "concussed probably for a matter of hours only",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "First he was concussed probably for a matter of hours only."
+        ],
+        "icd_code": "NA07.04",
+        "icd_description": "Concussion with loss of consciousness, short duration of one hour to less than 6 hours"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "laceration of the scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "Secondly he suffered a laceration of the scalp and of the scrotum."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "laceration of the scrotum",
+        "injury_type": "Temporary injury",
+        "body_part": "scrotum",
+        "laterality": null,
+        "source": [
+          "Secondly he suffered a laceration of the scalp and of the scrotum."
+        ],
+        "icd_code": "NB99",
+        "icd_description": "Injury to male genital organ without specification of injury type"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "wedge fracture of the front of the body of the second lumbar vertebra",
+        "injury_type": "Temporary injury",
+        "body_part": "second lumbar vertebra",
+        "laterality": null,
+        "source": [
+          "Thirdly he suffered a wedge fracture of the front of the body of the second lumbar vertebra."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "damage to the 5th lumbar nerve",
+        "injury_type": "Temporary injury",
+        "body_part": "5th lumbar nerve",
+        "laterality": null,
+        "source": [
+          "Fourthly, there were some damage to the 5th lumbar nerve; and fifthly damage to the right shoulder joint."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "damage to the right shoulder joint",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder joint",
+        "laterality": "right",
+        "source": [
+          "Fourthly, there were some damage to the 5th lumbar nerve; and fifthly damage to the right shoulder joint."
+        ],
+        "icd_code": "NC13.Z",
+        "icd_description": "Dislocation or strain or sprain of joints or ligaments of shoulder girdle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of balance",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of memory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of confidence",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of powers of concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "phobia about work; a complete inability to return to work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "emotional disturbance / clinical depression or anxiety neurosis",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "psychiatric consultation",
+      "anti-depressant drugs"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity arising from the physical injuries which have otherwise healed",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Complete inability to return to work since the accident; work-related phobia and loss of earnings for an estimated period",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Loss of confidence and diminished facility, producing a deepening neurosis or depression and a far from happy life for nearly three years",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16182,
+      "output_tokens": 7084,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23266
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37402.498818933964,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16182,
+      "output_tokens": 7084,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23266
+    },
+    "total_duration_ms": 37402.498818933964
+  }
+}

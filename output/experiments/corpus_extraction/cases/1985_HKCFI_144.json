@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 144",
+    "action_number": "HCA007161/1984",
+    "case_name": "HO CHI KIN v. CHAN HOI SHING",
+    "judgment_date": "1985-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 43,
+    "age_at_trial": null,
+    "occupation_before": "tally clerk",
+    "occupation_after": "tally clerk",
+    "expected_occupation_after": "alternative employment when he attained the age of 50 years",
+    "salary_before": 4100.0,
+    "salary_after": 2500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "trochanteric fracture of the right femur",
+        "injury_type": "Permanent injury",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "As a result of the fall, the plaintiff had a trochanteric fracture of the right femur, spent a period in hospital and while he has now returned to his same job as a tally clerk, is in receipt of a reduced income."
+        ],
+        "icd_code": "NC72.3",
+        "icd_description": "Fracture of trochanteric section of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The operation has left an 8 inch scar.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There has been wasting of the thigh muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "10 degree loss of rotation of the leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "8% impairment of the leg or 5% of the whole man",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he did not now accept work on ships which involved excessive climbing; even on those ships which he now boarded the arrangement with his employer is that he no longer climbs stacked cargo",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain, suffering and loss of amenities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "On 2nd June 1983 he was operated on when a bone plate was inserted secured with an angled prong and five bone screws.",
+      "Readmitted into hospital on 6th March 1985 for removal of the bone plate and screws.",
+      "physiotherapy",
+      "orthopaedic treatment",
+      "crutches"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "8% impairment of the leg or 5% of the whole man; permanent disabilities affecting employment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "The operation has left an 8 inch scar.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "10 degree loss of rotation of the leg; wasting of the thigh muscles; inability to perform climbing duties aboard ships",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9586,
+      "output_tokens": 4548,
+      "reasoning_tokens": 3456,
+      "total_tokens": 14134
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31797.306217253208,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9586,
+      "output_tokens": 4548,
+      "reasoning_tokens": 3456,
+      "total_tokens": 14134
+    },
+    "total_duration_ms": 31797.306217253208
+  }
+}

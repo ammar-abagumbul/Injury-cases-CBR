@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 311",
+    "action_number": "HCPI 305/2013",
+    "case_name": "TSANG CHIU YIP v. HO KWOK LEUNG",
+    "judgment_date": "2016-02-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 27,
+    "age_at_trial": 32,
+    "occupation_before": "Temporary helper (fleet and distribution department) employed by Swire Beverages Limited trading as Swire Coca Cola HK (delivery worker)",
+    "occupation_after": "Sales assistant (Wellcome Supermarket); warehouse security officer / watchman (合億環保貿易公司); kitchen worker (Green River Restaurant)",
+    "expected_occupation_after": null,
+    "salary_before": 12053.1,
+    "salary_after": 8500.0,
+    "expected_salary_after": null,
+    "education_level": "Secondary 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his left wrist",
+        "injury_type": "Temporary injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "soft tissue injuries to his left wrist, right ankle and right low back/waist as a result of the Accident"
+        ],
+        "icd_code": "NC54.6Z",
+        "icd_description": "Strain or sprain of wrist, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to his right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "soft tissue injuries to his left wrist, right ankle and right low back/waist as a result of the Accident"
+        ],
+        "icd_code": "ND14.7",
+        "icd_description": "Strain or sprain of ankle"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to his right low back/waist",
+        "injury_type": "Residual disability",
+        "body_part": "right low back/waist",
+        "laterality": "right",
+        "source": [
+          "soft tissue injuries to his left wrist, right ankle and right low back/waist as a result of the Accident"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left wrist pain (mostly subsided)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent right leg numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced trunk flexion/extension",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "difficulty in carrying weight of more than 15kgs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "occupational therapy",
+      "inpatient physiotherapy",
+      "analgesics",
+      "MRI",
+      "private physiotherapy (PRS)",
+      "assessment by TRM and Dr Baldwin Chan"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 676,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "lost interest in his football hobby after the Accident",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "P would not be able to return to his pre-Accident work (delivery work)",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 370000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 39743,
+      "output_tokens": 5948,
+      "reasoning_tokens": 4928,
+      "total_tokens": 45691
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29125.652264803648,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 39743,
+      "output_tokens": 5948,
+      "reasoning_tokens": 4928,
+      "total_tokens": 45691
+    },
+    "total_duration_ms": 29125.652264803648
+  }
+}

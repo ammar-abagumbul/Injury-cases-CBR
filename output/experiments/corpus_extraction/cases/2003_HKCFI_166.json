@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 166",
+    "action_number": "HCPI 809/2001",
+    "case_name": "LI YING YI AND ANOTHER v. LO HAU ON AND OTHERS",
+    "judgment_date": "2003-11-14",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Worked together in the business of production and publication of comic books for comic book publishers. The 2nd plaintiff made the drawings, and the 1st plaintiff handled all the administration. They had their own business, named Yau Yi Production Company.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right orbit injury",
+        "injury_type": "Residual disability",
+        "body_part": "right orbit",
+        "laterality": "right",
+        "source": [
+          "The 1st plaintiff suffered a right orbit injury and a compound fracture of the right radius and ulna. Both required surgery."
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "compound fracture of the right radius and ulna",
+        "injury_type": "Residual disability",
+        "body_part": "right radius and ulna (forearm)",
+        "laterality": "right",
+        "source": [
+          "The 1st plaintiff suffered a right orbit injury and a compound fracture of the right radius and ulna. Both required surgery."
+        ],
+        "icd_code": "NC32.7",
+        "icd_description": "Multiple fractures of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "scarring under the eye and on the forearm and facial deformity following operation for correction of the orbital fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "face; right forearm",
+        "laterality": "right",
+        "source": [
+          "The 1st plaintiff's facial and eye injures were more serious. She has scarring under the eye, and on the forearm, and some facial deformity following the operation for correction of the orbital fracture, which she claims needs plastic surgery."
+        ],
+        "icd_code": "NA02.2Z",
+        "icd_description": "Orbital fracture, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "optic nerve neuropathy / binocular diplopia / blurred right vision / ocular motility disorder",
+        "injury_type": "Residual disability",
+        "body_part": "right eye / visual system",
+        "laterality": "right",
+        "source": [
+          "She claims to have severe loss of vision in the right eye. Her expert says she has binocular diplopia, blurred right vision and difficulty in focussing her right eye. He says that she has optic nerve neuropathy.",
+          "However the defendants' expert believes that her eye condition is as it was before the accident. She only has an ocular motility disorder (which the plaintiff's expert also mentions) but there is no evidence of neuropathy and on the loss of vision the 1st plaintiff is malingering."
+        ],
+        "icd_code": "NA04.10",
+        "icd_description": "Injury of optic nerve, unilateral"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "pain and bruising of the left chest and back",
+        "injury_type": "Temporary injury",
+        "body_part": "left chest and back",
+        "laterality": "left",
+        "source": [
+          "The 2nd plaintiff was admitted to hospital suffering pain and bruising of the left chest and back. He was discharged from hospital after 10 days."
+        ],
+        "icd_code": "NA80.7",
+        "icd_description": "Multiple superficial injuries of thorax"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "fracture of the infero-lateral aspect of the L2 vertebra with evidence of healing",
+        "injury_type": "Permanent injury",
+        "body_part": "L2 vertebra (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "X-rays confirm a fracture of the infero-lateral aspect of the L2 vertebra with evidence of healing."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "fracture of the transverse process and degenerative changes in the lumbar spine",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (transverse process)",
+        "laterality": null,
+        "source": [
+          "The defendants' expert Dr Lee Po Chin agrees that the 2nd plaintiff only suffers from mild residual lower back pain. He found degenerative changes in the lumbar spine, with a fracture of the transverse process."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness of the right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of grip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "scarring under the eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "scarring on the forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "facial deformity following the operation for correction of the orbital fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "binocular diplopia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "blurred right vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "difficulty in focussing her right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "ocular motility disorder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "left upper backache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "residual left upper lumbar backache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "no objective neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgery (for right radius and ulna and for orbital fracture correction)",
+      "hospital admission (2nd plaintiff)"
+    ],
+    "treatments_future": [
+      "plastic surgery (1st plaintiff claims she needs plastic surgery)"
+    ],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scarring under the eye, and on the forearm, and some facial deformity following the operation for correction of the orbital fracture",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Severe loss of vision in the right eye; binocular diplopia, blurred right vision and difficulty in focussing the right eye",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Stiffness of the right wrist and weakness of grip following fracture of the right radius and ulna",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Neither of them is now able to carry on the work which he or she did before the accident (production and publication of comic books)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18022,
+      "output_tokens": 10080,
+      "reasoning_tokens": 7552,
+      "total_tokens": 28102
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41946.842674165964,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18022,
+      "output_tokens": 10080,
+      "reasoning_tokens": 7552,
+      "total_tokens": 28102
+    },
+    "total_duration_ms": 41946.842674165964
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 589",
+    "action_number": "HCPI 148/1997",
+    "case_name": "CHAN MING v. WAYFINE INVESTMENT LTD.",
+    "judgment_date": "2001-04-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 34,
+    "age_at_trial": 41,
+    "occupation_before": "construction worker",
+    "occupation_after": "unemployed (receiving social welfare assistance)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of his left lateral malleolus.",
+        "injury_type": "Permanent injury",
+        "body_part": "left lateral malleolus",
+        "laterality": "left",
+        "source": [
+          "the plaintiff had suffered a fracture of his left lateral malleolus.",
+          "Open reduction, internal fixation and bone grafting were undertaken on 30 April 1994."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild pain in the ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness and pain after prolonged periods of walking or standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual limitation in the dorsiflexion, eversion and inversion of the left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walking with a mild limp (a feature that no longer obtains today)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty standing for longer than an hour at a time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort in the affected leg when sitting, squatting, or lifting heavy weights for long periods",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "3% permanent impairment of the whole person (opinion of Dr. Chiang)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction",
+      "internal fixation",
+      "bone grafting",
+      "use of plaster",
+      "use of crutches",
+      "follow-up treatment at Sai Ying Pun Clinic",
+      "physiotherapy at Kowloon Rehabilitation Centre"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "3% permanent impairment of the whole person and residual limitation in ankle movement (dorsiflexion, eversion and inversion).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty standing for longer than an hour, residual mild limp (previously) and pain/stiffness after prolonged walking or standing.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sui Wai Man v Lee Chi Chong & anr",
+        "neutral_citation": null,
+        "action_number": "PI No 174 of 1994",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Kwai Yip v Yuen Yun Kui",
+        "neutral_citation": null,
+        "action_number": "HCA No A12617 of 1994",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8252,
+      "output_tokens": 4597,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12849
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32532.726116478443,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8252,
+      "output_tokens": 4597,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12849
+    },
+    "total_duration_ms": 32532.726116478443
+  }
+}

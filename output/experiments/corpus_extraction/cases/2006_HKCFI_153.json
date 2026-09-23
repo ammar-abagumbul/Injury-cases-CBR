@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 153",
+    "action_number": "HCPI 534/2004",
+    "case_name": "WONG CHOI FUNG v. FUNG KAI PUBLIC SCHOOL OPERATING AS FUNG KAI CARE AND ATTENTION HOME FOR THE ELDERLY",
+    "judgment_date": "2006-02-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general workman working at the Fung Kai Care and Attention Home for the Elderly",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10420.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "she sprained her back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "The first accident occurred on 20 June 2001 when the plaintiff was lifting a tray of dishes from a trolley at her work place she sprained her back.",
+          "The second accident took place on 18 April 2002 when she was attempting to lift a big pot of food during her work and sprained her back again."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "prolapsed L4/5 and L5/S1 disc causing irritation to L5 and S1 nerve root",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered from prolapsed L4/5 and L5/S1 disc after the first accident in June 2001 but responded well with conservative treatments and could resume her work on 14 January 2002.",
+          "Dr Wong concluded that the plaintiff was and has been suffering from prolapsed L4/5 and L5/S1 disc causing irritation to L5 and S1 nerve root."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "grossly disabled by her back pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could not walk normally, perform tiptoes and feet walking, single leg standing and squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could not sit for more than 15 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "definite localized tenderness over L4/5 and L5/S1 level",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness and muscle spasm over left paraspinal muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased range of movement of lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "nerve stretching test was positive over the left side in both prone and sitting position",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild atrophy of both the left calf and thigh muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "knee jerks and ankle jerks were present",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased power and sensation at the whole left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "deeply depressed psychologically after the second accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatments provided by government hospital",
+      "steroid injections aimed to decrease local nerve root inflammation (August 2002 and March 2003)"
+    ],
+    "treatments_future": [
+      "spine operation including posterior decompression and disectomy at L4/5 and L5/S1 levels (recommended; plaintiff declined but was advised to reconsider)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 37,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Could not walk normally, perform tiptoes and feet walking, single leg standing and squatting; could not sit for more than 15 minutes",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Claim for loss of gratuitous service under Section 20C(4) of the Law Amendment and Reform (Consolidation) Ordinance, Cap.23 (claim discussed by parties)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "Deeply depressed psychologically after the second accident",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11296,
+      "output_tokens": 7079,
+      "reasoning_tokens": 5888,
+      "total_tokens": 18375
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45274.063520133495,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11296,
+      "output_tokens": 7079,
+      "reasoning_tokens": 5888,
+      "total_tokens": 18375
+    },
+    "total_duration_ms": 45274.063520133495
+  }
+}

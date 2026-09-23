@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1294",
+    "action_number": "HCPI 136/2004",
+    "case_name": "YEUNG KWOK WO v. HOI HING STEEL FIXING WORKS CO AND OTHERS",
+    "judgment_date": "2006-11-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 50,
+    "age_at_trial": 56,
+    "occupation_before": "steel bender",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": "watchman or cleaner",
+    "salary_before": 23000.0,
+    "salary_after": null,
+    "expected_salary_after": 5500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Multiple left lower ribs fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "left lower ribs",
+        "laterality": "left",
+        "source": [
+          "He suffered multiple left lower ribs fracture with a splenic rupture."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Splenic rupture requiring splenectomy",
+        "injury_type": "Permanent injury",
+        "body_part": "spleen",
+        "laterality": null,
+        "source": [
+          "He suffered multiple left lower ribs fracture with a splenic rupture.",
+          "Emergency laparotomy and splenectomy were performed."
+        ],
+        "icd_code": "NB91.04",
+        "icd_description": "Laceration of spleen, major"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Hypertrophic laparotomy scar",
+        "injury_type": "Residual disability",
+        "body_part": "laparotomy scar / abdomen",
+        "laterality": null,
+        "source": [
+          "He also suffers from a hypertrophic laparotomy scar which required regular kenacort injections for about a year and a hospital admission in 2003 for excision of the scar.",
+          "He suffers from tightness at the laparotomy scar, and continues to required to wear a pressure garment."
+        ],
+        "icd_code": "NB50.Y",
+        "icd_description": "Other specified superficial injury of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Post-laparotomy adhesive intestinal obstruction (adhesions)",
+        "injury_type": "Residual disability",
+        "body_part": "intestines / abdominal adhesions",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered from abdominal complications following the laparotomy. He was admitted to hospital twice in 2003 with post-laparotomy adhesive obstruction.",
+          "He still had persistent symptoms suggesting difficulty in the intestinal transit. These might be due to adhesions or kinking of intestinal loops after the first operation."
+        ],
+        "icd_code": "NB91.7Y",
+        "icd_description": "Other specified injury of small intestine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and tenderness at the site of the injury and in the left shoulder and neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tightness at the laparotomy scar and requirement to wear a pressure garment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Ongoing bowel problems / difficulty in intestinal transit preventing a normal solid diet",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Reduced sexual ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Adjustment Disorder: Chronic Depressive Reaction (diagnosed)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency laparotomy",
+      "Splenectomy",
+      "Kenacort injections for scar (about a year)",
+      "Excision of hypertrophic laparotomy scar (hospital admission 2003)",
+      "Hospital admissions for post-laparotomy adhesive intestinal obstruction (2003)",
+      "Use of a pressure garment over the scar"
+    ],
+    "treatments_future": [
+      "Further investigation (e.g. barium meal)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to work as a steel bender; can work only as watchman/cleaner etc",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of spleen following splenic rupture and splenectomy",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Hypertrophic laparotomy scar requiring excision and pressure garment",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Reduced sexual ability associated with pain and discomfort",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "Unable to take a normal solid diet because of intestinal symptoms",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19142,
+      "output_tokens": 7065,
+      "reasoning_tokens": 5760,
+      "total_tokens": 26207
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32903.95672991872,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19142,
+      "output_tokens": 7065,
+      "reasoning_tokens": 5760,
+      "total_tokens": 26207
+    },
+    "total_duration_ms": 32903.95672991872
+  }
+}

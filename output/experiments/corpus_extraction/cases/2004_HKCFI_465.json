@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 465",
+    "action_number": "HCPI 970/2001",
+    "case_name": "LEUNG CHI LAP v. YEUNG CHUN KWAN AND ANOTHER",
+    "judgment_date": "2004-07-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "air-conditioning technician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left frontal depressed fracture to the skull",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": "left",
+        "source": [
+          "the plaintiff had sustained a left frontal depressed fracture to the skull"
+        ],
+        "icd_code": "NA02.00",
+        "icd_description": "Fracture of squama of frontal bone of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractures to the lamina of the C2 and right pedicle of C3 vertebrae",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "fractures to the lamina of the C2 and right pedicle of C3 vertebrae."
+        ],
+        "icd_code": "NA22.3",
+        "icd_description": "Multiple fractures of cervical spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "face laceration / facial disfigurement",
+        "injury_type": "Temporary injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "His face was lacerated as can readily be seen from the photographs put in evidence.",
+          "The facial disfigurement is of no special cosmetic consequence."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The plaintiff lost consciousness, his general condition being poor (Glasgow coma scale being 11/15) on admission to Queen Elizabeth Hospital.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Glasgow coma scale being 11/15 on admission",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "some mild headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "slight memory impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a small degree of neck and shoulder pains and giddiness, particularly when lifting heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Though less prominent with time, they were still largely visible at the hearing (facial lacerations / disfigurement)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "There was no neurological deficit.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Wound debridement",
+      "craniectomy",
+      "Somi Brace (neck collar) for immobilization of the cervical spine",
+      "cranioplasty (artificial bone covering)",
+      "follow-up treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 19,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Facial disfigurement visible at the hearing; of no special cosmetic consequence.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual mild headaches, slight memory impairment, small degree of neck and shoulder pains and giddiness affecting work efficiency and performance.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12852,
+      "output_tokens": 5557,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18409
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31940.025255084038,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12852,
+      "output_tokens": 5557,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18409
+    },
+    "total_duration_ms": 31940.025255084038
+  }
+}

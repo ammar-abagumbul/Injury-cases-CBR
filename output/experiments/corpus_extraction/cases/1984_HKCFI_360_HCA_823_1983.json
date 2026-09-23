@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 360; HCA 823/1983",
+    "action_number": "HCA000823/1983",
+    "case_name": "LIANG YUH JEN v. KWAN KAM LIN AND ANOTHER",
+    "judgment_date": "1984-08-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 48,
+    "age_at_trial": 51,
+    "occupation_before": "factory worker (packing of shirts in a clothing factory)",
+    "occupation_after": "possibly sedentary home industry (negligible income)",
+    "expected_occupation_after": "sedentary home industry",
+    "salary_before": 2700.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "(f) abdominal pain and intra-abdominal bleeding.",
+        "injury_type": "Residual disability",
+        "body_part": "abdomen",
+        "laterality": null,
+        "source": [
+          "(f) abdominal pain and intra-abdominal bleeding."
+        ],
+        "icd_code": "NB91.Z",
+        "icd_description": "Injury of intra-abdominal organs, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "(a) compound fracture of right knee;",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "(a) compound fracture of right knee;"
+        ],
+        "icd_code": "NC92.0",
+        "icd_description": "Fracture of patella"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "(c) comminuted fracture of left tibia;",
+        "injury_type": "Residual disability",
+        "body_part": "left tibia",
+        "laterality": "left",
+        "source": [
+          "(c) comminuted fracture of left tibia;"
+        ],
+        "icd_code": "NC92.2",
+        "icd_description": "Fracture of shaft of tibia"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "(b) compound fracture of left ankle;",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "(b) compound fracture of left ankle;"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "(e) fracture of left navicular and metatarsals;",
+        "injury_type": "Residual disability",
+        "body_part": "left foot (navicular and metatarsals)",
+        "laterality": "left",
+        "source": [
+          "(e) fracture of left navicular and metatarsals;"
+        ],
+        "icd_code": "ND13.6",
+        "icd_description": "Multiple fractures of foot"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "(d) contusion of right wrist and hand;",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist and hand",
+        "laterality": "right",
+        "source": [
+          "(d) contusion of right wrist and hand;"
+        ],
+        "icd_code": "NC51.2",
+        "icd_description": "Multiple superficial injuries of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the degree of pain and discomfort suffered by the plaintiff",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "abdominal obstruction which developed while she was in hospital being treated for the injuries and which in the opinion of Dr Wedderburn was directly attributable to the accident.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the plaintiff had about 3/8th of an inch shortening of the right leg and 5/8th of an inch of the left leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "she had limited capacity to bend her knee.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "From loss of knee joint movement there was 7% impairment of the whole man.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "From loss of foot movement at the left ankle the plaintiff had 12% impairment of the leg which represented 5% impairment of the whole man",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Her total impairment therefore was 15% of the whole man.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "osteoarthritis although slower than usual to develop in the case of the plaintiff, would visit her in due course and increase her impairment to 20% by the age of 60 and 25% by the age of 70.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "out-patient treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 205,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "her activities social and domestic were considerably impaired",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "her activities social and domestic were considerably impaired",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "her employment prospects diminished to the extent described.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13111,
+      "output_tokens": 7351,
+      "reasoning_tokens": 5504,
+      "total_tokens": 20462
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39506.507601588964,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13111,
+      "output_tokens": 7351,
+      "reasoning_tokens": 5504,
+      "total_tokens": 20462
+    },
+    "total_duration_ms": 39506.507601588964
+  }
+}

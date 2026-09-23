@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 911",
+    "action_number": "HCPI 957 of 1996",
+    "case_name": "YUEN WAI KUEN v. CHAN SHAN",
+    "judgment_date": "1998-12-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 59,
+    "age_at_trial": null,
+    "occupation_before": "retired driver",
+    "occupation_after": "retired person",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crack fracture at the distal end of the right radius",
+        "injury_type": "Residual disability",
+        "body_part": "distal end of the right radius",
+        "laterality": "right",
+        "source": [
+          "a crack fracture at the distal end of the right radius"
+        ],
+        "icd_code": "NC32.5Y",
+        "icd_description": "Other specified fracture of lower end of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "spiral fracture of the right third metacarpal shaft",
+        "injury_type": "Residual disability",
+        "body_part": "right third metacarpal shaft",
+        "laterality": "right",
+        "source": [
+          "a spiral fracture of the right third metacarpal shaft"
+        ],
+        "icd_code": "NC53.30",
+        "icd_description": "Fracture of shaft of other metacarpal bone"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "superficial abrasions over the right thigh, right middle and right fingers and the left shin",
+        "injury_type": "Temporary injury",
+        "body_part": "right thigh; right middle and right fingers; left shin",
+        "laterality": null,
+        "source": [
+          "superficial abrasions over the right thigh, right middle and right fingers and the left shin"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "still suffers from pain over his right wrist from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of his right hand, both on grip and pinch",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and stiffness of the right hand on morning, requiring exercise for a few minutes to improve the condition",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right wrist ache, especially on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "one episode of severe radiating pain up to the right shoulder, requiring admission and rest for about one week",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital",
+      "placed in a long-arm plaster of paris cast to immobilise the right hand, wrist and elbow",
+      "on 25 August, 1995, x-ray of his wrist showed satisfactory healing and the cast was changed to a functional brace",
+      "outpatient treatment",
+      "bonesetter treatment",
+      "private doctors and x-ray"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee wong sin v. The Estate of Wong Shek mei and ors.",
+        "neutral_citation": null,
+        "action_number": "PI 1759 of 1995",
+        "injury_description": "bruising to the right side of the face, and a Colles fracture of the right wrist. The most up-to-date medical report prior to the assessment, assessed her overall impairment at 11%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 60000.0
+      },
+      {
+        "case_name": "Sin sau mui v. Yuen sai kwong",
+        "neutral_citation": "(1997) HKLJ 110",
+        "action_number": null,
+        "injury_description": "a displaced Colles fracture of her right wrist treated by close reduction and immobilisation in a plaster cast for three months. Left with weakness in the right hand grip and some deformity and tenderness of the right wrist joint. Dr. David Lee assessed her permanent disability at 10% and a loss of earning capacity of 99%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11035,
+      "output_tokens": 6719,
+      "reasoning_tokens": 5248,
+      "total_tokens": 17754
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39380.92067465186,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11035,
+      "output_tokens": 6719,
+      "reasoning_tokens": 5248,
+      "total_tokens": 17754
+    },
+    "total_duration_ms": 39380.92067465186
+  }
+}

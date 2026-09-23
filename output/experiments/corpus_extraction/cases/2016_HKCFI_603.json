@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 603",
+    "action_number": "HCPI 779/2012",
+    "case_name": "TSOI WING YUK v. PERFECT MARBLE COMPANY LIMITED AND ANOTHER",
+    "judgment_date": "2016-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "casual marble worker",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 15600.0,
+    "salary_after": 7440.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain injury whilst lifting the Slab that might have resulted in mild disc bulging of L5 with mild soft tissue residual back pain and residual right leg numbness.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L5-S1)",
+        "laterality": null,
+        "source": [
+          "back sprain injury whilst lifting the Slab that might have resulted in mild disc bulging of L5 with mild soft tissue residual back pain and residual right leg numbness."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right lower limb numbness / sciatica",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness of lower lumbar spine on palpation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced active range of back movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced standing/walking/sitting tolerance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "occupational therapy",
+      "medication",
+      "MRI scan",
+      "attendance at Accident and Emergency department",
+      "vocational resettlement service"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 842,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Modest residual back pain limiting enjoyment of some recreational/sport activities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Inability to continue pre-Accident work as a marble worker and need to take work as a security guard",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 35717,
+      "output_tokens": 3508,
+      "reasoning_tokens": 2816,
+      "total_tokens": 39225
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28007.282346487045,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 35717,
+      "output_tokens": 3508,
+      "reasoning_tokens": 2816,
+      "total_tokens": 39225
+    },
+    "total_duration_ms": 28007.282346487045
+  }
+}

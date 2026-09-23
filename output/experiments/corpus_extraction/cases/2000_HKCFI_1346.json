@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 1346",
+    "action_number": "HCPI 533/1999",
+    "case_name": "CHAN SIU YOUN v. NG KAM MAN AND OTHERS",
+    "judgment_date": "2000-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Interior decorator / internal decoration business",
+    "occupation_after": "Delivery assistant",
+    "expected_occupation_after": null,
+    "salary_before": 18200.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Cervical acceleration-deceleration injury (cervical whiplash) with degenerative change at C5-6 resulting in sprain neck and residual neck pain",
+        "injury_type": "Residual disability",
+        "body_part": "neck / cervical spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff was admitted into that hospital on 25 May 1996 for his sprain neck injury sustained in the traffic accident.",
+          "Mr Chan's history, physical findings and X-ray findings suggest a cervical acceleration-deceleration injury or commonly known as cervical whiplash.",
+          "At this examination, X-ray revealed degenerative changes at C5-6 level of the cervical spine, which was very likely to be the cause of the persistent neck pain."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on and off residual neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to perform long hours of overhead ceiling work due to neck pain on prolonged neck extension",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "required physiotherapy and follow-up treatment; unable to resume full duties and took lighter duty work (delivery assistant)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "neck collar",
+      "analgesic",
+      "orthopaedic follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 104,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Neck injury with residual neck pain affecting bodily function",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to carry on internal decoration business immediately after accident; took on lighter delivery work and cannot perform long hours of overhead ceiling work",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Yee Yuen v. Tam Wing Keung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11315,
+      "output_tokens": 4373,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15688
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28483.501974493265,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11315,
+      "output_tokens": 4373,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15688
+    },
+    "total_duration_ms": 28483.501974493265
+  }
+}

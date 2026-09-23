@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1024",
+    "action_number": "HCPI 232/2011",
+    "case_name": "KAN WAI LING AND FAN MEI NA THE CO ADMINISTRATRICES OF THE ESTATE OF KAN SIU HONG, DECEASED v. KAN CHI FAI",
+    "judgment_date": "2018-05-09",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 51,
+    "age_at_trial": null,
+    "occupation_before": "Sole proprietor of Cheung Hong Engineering Transportation Company",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 75285.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fatal injuries sustained in a traffic accident",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the deceased sustained fatal injuries in a traffic accident that occurred on 11 February 2009 at Lam Kam Road, Pat Heung, New Territories."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Fatal injuries leading to death",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Damages for bereavement are agreed in the sum of HK$150,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial loss of dependency awarded to Madam Fan, Kan Wai Ling and Kan Ho Chuen for the pre-trial period from 11 February 2009 to the date of judgment (about 9.25 years) in the total sum of HK$4,179,483 (HK$37,653 x 12 months x 9.25 years).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 36904,
+      "output_tokens": 2914,
+      "reasoning_tokens": 2368,
+      "total_tokens": 39818
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22524.46934953332,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 36904,
+      "output_tokens": 2914,
+      "reasoning_tokens": 2368,
+      "total_tokens": 39818
+    },
+    "total_duration_ms": 22524.46934953332
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1107",
+    "action_number": "HCPI 1126/2014",
+    "case_name": "SINGH BAL WINDER v. IWS WASTE MANAGEMENT CO LTD FORMERLY KNOWN AS FOOK WOO WASTE PAPER CO LTD",
+    "judgment_date": "2018-05-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "lorry driver employed by the defendant",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 14416.67,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple disc desiccation and bulging (generalized posterior prolapse) discs at L3‑4, L4‑5; operative removal at L3/4 and L4/5",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar spine (L3-4, L4-5)",
+        "laterality": null,
+        "source": [
+          "a MRI was performed on 10 April 2012 which showed “multiple disc desiccation” and “bulging (generalized posterior prolapse) discs at L3‑4, L4‑5”.",
+          "An operation was performed on 24 August 2012. Intra-operative finding was “bulging disc L3/4 and L4/5” and the surgical procedure of “left side L3/4 laminotomy and annulotomy and discectomy L3/4; left side L4/5 laminotomy, annulotomy and discectomy L4/5” was performed.",
+          "“it is likely that Mr. Singh suffered from significant and at least moderate degree of soft tissue injury to his back, probably causing / significantly aggravating disc protrusions in the lower back, causing persistent pain and impairment in the back…rather than developing such back pain coincidentally after the subject accident as a result of natural degeneration.”"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing back degeneration",
+        "injury_type": "Residual disability",
+        "body_part": "back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "there is no dispute between the orthopaedics experts (Dr. Lam Chi Keung, Johnson, for the plaintiff and Dr. Chun Siu Yeung for the defendant) that the plaintiff has pre-existing back degeneration"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "history of left ankle fracture with resulting osteoarthritis",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "The plaintiff also has a history of left ankle fracture with resulting osteoarthritis."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain and impairment in the back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain (of moderate to severe degree) which disturbed his sleep and not controlled by medications since the accident (i.e. for more than 6 years).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "burning pain in the back of thigh and calf when depressing the clutch of the lorry",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended A&E at United Christian Hospital (UCH) on 4 December 2011",
+      "admitted for 10 days",
+      "given injection",
+      "physiotherapy exercise in bed",
+      "MRI on 10 April 2012",
+      "left side L3/4 laminotomy and annulotomy and discectomy L3/4; left side L4/5 laminotomy, annulotomy and discectomy L4/5 (operation on 24 August 2012)",
+      "post-operative physiotherapy between 12 October 2012 and 2 April 2013",
+      "follow-ups in the UCH orthopaedics out-patient clinic until 20 November 2013"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 593,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 320000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12443,
+      "output_tokens": 5882,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18325
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31620.05726248026,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12443,
+      "output_tokens": 5882,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18325
+    },
+    "total_duration_ms": 31620.05726248026
+  }
+}

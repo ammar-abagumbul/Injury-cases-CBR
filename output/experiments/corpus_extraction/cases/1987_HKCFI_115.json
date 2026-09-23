@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 115",
+    "action_number": "HCA005978/1986",
+    "case_name": "LAU HI v. KAM SHEK INVESTMENT CO. LTD. AND ANOTHER",
+    "judgment_date": "1987-11-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 53,
+    "age_at_trial": null,
+    "occupation_before": "employee on a construction site (labourer)",
+    "occupation_after": "substitute caretaker/watchman",
+    "expected_occupation_after": null,
+    "salary_before": 4040.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crush fracture of the calcanei in both ankles",
+        "injury_type": "Permanent injury",
+        "body_part": "both ankles",
+        "laterality": "bilateral",
+        "source": [
+          "In his fall the Plaintiff landed on his heels and suffered a crush fracture of the calcanei in both ankles."
+        ],
+        "icd_code": "ND18.2",
+        "icd_description": "Crushing injury of other parts of foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fusion of the subtalar joint of the right ankle (operative)",
+        "injury_type": "Permanent injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "Because of persistent pain the Plaintiff's right ankle was operated on for fusion of the subtalar joint.",
+          "This injury results in the patient losing the normal spring movement in walking and he tends to stomp about on his heels.",
+          "Dr. Philip MAO reported that this injury can give rise to much pain and distress and difficulty in walking or bearing weight."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "ankylosis of both ankle joints",
+        "injury_type": "Permanent injury",
+        "body_part": "both ankle joints",
+        "laterality": "bilateral",
+        "source": [
+          "The Plaintiff was also assessed to have 20% loss of earning capacity under Employees Compensation on the basis that he has ankylosis of both ankle joints."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and swelling in the ankles persisted",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the Plaintiff could not walk normally",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "losing the normal spring movement in walking and he tends to stomp about on his heels",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "much pain and distress and difficulty in walking or bearing weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He still complains of pain in his right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He cannot squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "can walk no longer than 45 minutes and then only with pain in his right foot throughout",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He cannot walk on his toes and has no proper arch support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He has difficulty in coming down stairs because of the reduced movements of his ankle joints",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He requires special shoes because both ankle joints have been widened",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital for 3 days",
+      "transferred to Caritas Hospital and kept in bed until discharged on 30th January 1984",
+      "physiotherapy twice a week for 3 months after discharge",
+      "outpatient treatment at South Kwai Chung Polyclinic every 2 - 4 weeks",
+      "fusion of the subtalar joint to right ankle on 1st July 1984",
+      "plaster cast applied to right foot and ankle for 3 months (removed on 25th September 1984)",
+      "used crutches until end of September 1984",
+      "physiotherapy twice a week for 3 weeks after cast removal"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 18,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Permanent disability with restricted physical movements of the ankle joints, pain on walking, inability to squat, inability to walk on toes, limited walking duration (no longer than 45 minutes), difficulty in coming down stairs, requirement for special shoes.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "TSANG Yung-sang v. Sanfield Building Contractors Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCA No. 957/1984",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10047,
+      "output_tokens": 7672,
+      "reasoning_tokens": 6016,
+      "total_tokens": 17719
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46576.985236257315,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10047,
+      "output_tokens": 7672,
+      "reasoning_tokens": 6016,
+      "total_tokens": 17719
+    },
+    "total_duration_ms": 46576.985236257315
+  }
+}

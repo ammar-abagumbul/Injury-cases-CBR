@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 961",
+    "action_number": "HCPI 486/2009",
+    "case_name": "GURUNG KRISHNA JANG v. PRECIOUS SWINE LTD",
+    "judgment_date": "2010-11-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 25,
+    "age_at_trial": null,
+    "occupation_before": "Meat-cutter (employed by the Defendant); previously a formwork worker",
+    "occupation_after": "Part-time cleaner (cleaning public railings)",
+    "expected_occupation_after": null,
+    "salary_before": 7500.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": "Educated in Nepal up to secondary school level; Certificate in Standard Security & Property Management"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The cut resulted in a 3 cm laceration of the dorsum of the Plaintiff\u000e2\b0\t9s left thumb. There was a 70% cut extensor pollicis longus and tendon repair was performed by the North District Hospital.",
+        "injury_type": "Residual disability",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "The cut resulted in a 3 cm laceration of the dorsum of the Plaintiff\u000e2\b0\t9s left thumb. There was a 70% cut extensor pollicis longus and tendon repair was performed by the North District Hospital.",
+          "an emergency operation was performed on him to repair the tendon."
+        ],
+        "icd_code": "NC57.21",
+        "icd_description": "Laceration of extensor muscle, fascia or tendon of thumb at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The holding power of his left hand has been reduced.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual pain at the base of his left thumb which continued to plague him.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduction in efficiency / difficulty returning to pre-accident employment.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "an emergency operation was performed on him to repair the tendon",
+      "physiotherapy for about 4 & 1/2 months",
+      "occupational therapy for about 4 & 1/2 months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The holding power of his left hand has been reduced.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He will experience difficulty in returning to his previous employments and will suffer a disadvantage in finding work because of the reduced efficiency of his left thumb.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17347,
+      "output_tokens": 3900,
+      "reasoning_tokens": 3136,
+      "total_tokens": 21247
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29603.791043162346,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17347,
+      "output_tokens": 3900,
+      "reasoning_tokens": 3136,
+      "total_tokens": 21247
+    },
+    "total_duration_ms": 29603.791043162346
+  }
+}

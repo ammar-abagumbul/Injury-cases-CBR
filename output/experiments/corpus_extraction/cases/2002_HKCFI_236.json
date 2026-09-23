@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 236",
+    "action_number": "HCPI 57/2001",
+    "case_name": "LEUNG FUN HING v. EXTREME GOOD (ASIA) CONSTRUCTION CO. LTD. AND CHEVALIER CONSTRUCTION (HONG KONG) LIMITED",
+    "judgment_date": "2002-09-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 51,
+    "occupation_before": "steel bender",
+    "occupation_after": "works in China for a meagre $650 a month",
+    "expected_occupation_after": null,
+    "salary_before": 20990.0,
+    "salary_after": 650.0,
+    "expected_salary_after": 5500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Damage to right eardrum",
+        "injury_type": "Residual disability",
+        "body_part": "right eardrum",
+        "laterality": "right",
+        "source": [
+          "His right ear drum was damaged."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Post Concussional Syndrome (PCS)",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "it is agreed that his long term complaint is Post Concussional Syndrome (PCS)."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Moderate right sided deafness",
+        "injury_type": "Residual disability",
+        "body_part": "right ear / hearing",
+        "laterality": "right",
+        "source": [
+          "He now suffers from tinnitus and moderate right sided deafness."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Moderate right sided deafness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Fatigue",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "reports from the government doctors who treated him"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Tinnitus and moderate right sided deafness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Damage to right eardrum",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to former steel bending work; reduced earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11899,
+      "output_tokens": 4881,
+      "reasoning_tokens": 3776,
+      "total_tokens": 16780
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30634.611546993256,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11899,
+      "output_tokens": 4881,
+      "reasoning_tokens": 3776,
+      "total_tokens": 16780
+    },
+    "total_duration_ms": 30634.611546993256
+  }
+}

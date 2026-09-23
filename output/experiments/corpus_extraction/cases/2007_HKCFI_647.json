@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 647",
+    "action_number": "HCPI 1169/2004",
+    "case_name": "LAU CHOK TING v. CHUN WO CONSTRUCTION AND ENGINEERING CO LTD AND OTHERS",
+    "judgment_date": "2007-06-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "material handler",
+    "occupation_after": "part-time material loader",
+    "expected_occupation_after": "decoration or factory worker",
+    "salary_before": 14000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mild posterior prolapse (disc bulging) at L4/5 related to the accident",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4-5)",
+        "laterality": "left",
+        "source": [
+          "MRI scan showed degenerative changes of discs at L2 to S1 levels, with mild posterior prolapse (disc bulging) at L4/5, dural sac and nerve roots free from impeachment with mild posterior bulging of the disc at L5/S1.",
+          "the disc prolapse at L4-5 was related to acute trauma suffered during the accident."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Degenerative changes of discs at L2 to S1 levels",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L2-S1)",
+        "laterality": null,
+        "source": [
+          "MRI scan showed degenerative changes of discs at L2 to S1 levels, with mild posterior prolapse (disc bulging) at L4/5, dural sac and nerve roots free from impeachment with mild posterior bulging of the disc at L5/S1."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Back sprain (initial diagnosis at A&E)",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "After the accident the plaintiff went to the A&E Department of the Tuen Mun Hospital (“TMH”). He had low back pain. However the x-rays were normal and the doctors just diagnosed his injury as a back sprain. He was treated and discharged on the same day."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over the left paraspinal muscles of his lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Constant pain with limitation to physical activities; reduced ability to jog and practise Tai Chi",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Not fit to perform heavy physical jobs and requires assistance in lifting heavy objects; unable to return to pre-injury manual labour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No evidence of nerve root compression affecting his lower limbs (no neurological deficit found)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment at Tuen Mun Hospital",
+      "physiotherapy until June 2002",
+      "occupational therapy until January 2003",
+      "MRI scan"
+    ],
+    "treatments_future": [
+      "medical consultations and treatments for back pain as required"
+    ],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Before the accident the plaintiff enjoyed a variety of sports, in particular jogging and practising Tai Chi; since the accident his physical activities are limited to light exercises and Tai Chi with certain limitations.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The plaintiff could not return to his pre-injury job as manual labour/material handler and should take up lighter jobs; reduced employability in manual labour.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced ability to perform vigorous physical work and lifting heavy objects; occasional inability to work full days.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Moh v. Tam Yiu Keung t/a Yiu Sun Construction Engineering Co. and Another",
+        "neutral_citation": "HCPI 1251/1998",
+        "action_number": null,
+        "injury_description": "Small disc prolapse at L3-4 level and suggestion of a defect in the pars interarticularis of the L5 vertebra",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Woo Wai Kuen v. Li Siu Keung t/a Alex's Kitchen",
+        "neutral_citation": null,
+        "action_number": "DCPI 309/2001",
+        "injury_description": "Back injury with a small fracture of the sacrum; advised not to perform heavy work and persistent pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Lee Yuk Lan v. Royalette International Ltd",
+        "neutral_citation": "HCPI 187/1995",
+        "action_number": null,
+        "injury_description": "Diffuse back pain with no fracture; permanent disability assessed at 3%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16640,
+      "output_tokens": 6288,
+      "reasoning_tokens": 4480,
+      "total_tokens": 22928
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52128.55564802885,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16640,
+      "output_tokens": 6288,
+      "reasoning_tokens": 4480,
+      "total_tokens": 22928
+    },
+    "total_duration_ms": 52128.55564802885
+  }
+}

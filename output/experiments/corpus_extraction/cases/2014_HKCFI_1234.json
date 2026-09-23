@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1234",
+    "action_number": "HCPI 138/2011",
+    "case_name": "GURUNG DEVCHANDRA v. PACIFIC CONSTRUCTION (HK) CO LTD AND OTHERS",
+    "judgment_date": "2014-07-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 39,
+    "age_at_trial": 44,
+    "occupation_before": "Construction site rigger / steel rigger",
+    "occupation_after": "Accounting clerk; security guard; auxiliary guard",
+    "expected_occupation_after": "Security guard",
+    "salary_before": 13500.0,
+    "salary_after": 5500.0,
+    "expected_salary_after": 12000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The plaintiff suffered a back injury of soft tissue origin",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered a back injury of soft tissue origin"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Burning sensation radiating from left buttock to outer foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness and pain along the back of his left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Paraspinal muscle tightness at left side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No paraspinal muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness at left paraspinal region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to participate in Taekwondo activities to the high level previously enjoyed",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Claimed need to use a stick/umbrella to walk and reduced walking tolerance (claimed can only tolerate walking 30 minutes with aid)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency attendances at Tuen Mun Hospital and Pok Oi Hospital",
+      "Department of Orthopaedics and Traumatology outpatient consultations at Tuen Mun Hospital",
+      "Outpatient physiotherapy at Tuen Mun Hospital",
+      "Occupational therapy at Tuen Mun Hospital",
+      "MRI scan of the lumbar spine",
+      "X-rays of the lumbar spine"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 421,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Not being able to participate in Taekwondo activities to the high level he enjoyed prior to the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident work as a steel rigger where he would have to constantly lift beams weighing 40 kg to 50 kg",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Claimed reduced walking tolerance (can only tolerate walking 30 minutes with aid) and use of walking aid",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 160000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Yu Hey v Yuen His Carl",
+        "neutral_citation": null,
+        "action_number": "DCPI 546/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Mohammad Waheed Khan v Rising Sun Transportation Company Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 241/2010",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Fong Yuet Ha v Success Employment Services Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 345/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kam Hoi v Dragages et Travaux Publics",
+        "neutral_citation": "[1998] 2 HKLRD 958",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13875,
+      "output_tokens": 4815,
+      "reasoning_tokens": 3648,
+      "total_tokens": 18690
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34956.417825073004,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13875,
+      "output_tokens": 4815,
+      "reasoning_tokens": 3648,
+      "total_tokens": 18690
+    },
+    "total_duration_ms": 34956.417825073004
+  }
+}

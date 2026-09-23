@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "YU MAN CHUI v. CHOW CHI FUN [1982] HKCFI 23; HCA 2518/1981 (13 August 1982)",
+    "action_number": "HCA002518/1981",
+    "case_name": "YU MAN CHUI v. CHOW CHI FUN",
+    "judgment_date": "1982-08-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 29,
+    "occupation_before": "Operations worker employed by Dairy Farm Ltd. at the Airport",
+    "occupation_after": "Security guard (acting supervisor) at General Security (HK) Ltd",
+    "expected_occupation_after": null,
+    "salary_before": 1010.0,
+    "salary_after": 1456.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "torn lateral collateral ligament of the right knee",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "After the accident the plaintiff was admitted to Queen Elizabeth Hospital where he was found to have suffered a torn lateral collateral ligament of the right knee. The ligament was repaired at operation and he wore a plaster cost for three months, and was discharged from hospital on the 24th February, but returned to Queen Elizabeth Hospital because of pain in his leg and was hospitalised for two weeks before being finally discharged. The plaster cast was later removed and the plaintiff commenced physiotherapy."
+        ],
+        "icd_code": "NC93.53",
+        "icd_description": "Rupture of lateral collateral ligament of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "both ligaments at the knee are defective resulting in the plaintiff's knee being unstable; osteo-authritis of the knee is inevitable",
+        "injury_type": "Permanent injury",
+        "body_part": "knee",
+        "laterality": null,
+        "source": [
+          "Dr. Wedderburn advises that both ligaments at the knee are defective resulting in the plaintiff's knee being unstable and repair difficult; and it is a permanent condition. Dr Wedderburn is further of the opinion that osteo-authritis of the knee in this case is inevitable."
+        ],
+        "icd_code": "NC93.8",
+        "icd_description": "Injury to multiple structures of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The plaintiff states that he can now only stand for about an hour and then has to rest for 10 to 15 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he has a bit of a limp which becomes more marked when he is tired",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he suffers occasional pain, more particularly after he has been walking for some time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his injury has affected his ability to lift weights and is now quite unable to lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He cannot squat down completely",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "since the accident his injured knee gives way sometimes - at least two or three times a month",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation to repair the torn lateral collateral ligament",
+      "plaster cast for three months",
+      "physiotherapy"
+    ],
+    "treatments_future": [
+      "possible knee joint operation in about twenty years' time"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function of the right knee with instability; inability to squat properly; reduced ability to lift heavy objects; knee gives way occasionally",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Can only stand for about an hour before needing to rest 10-15 minutes; has a limp which becomes more marked when tired; occasional pain after walking",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 20000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Kwok Mei Tai v. Tang Yu Hand & Anr",
+        "neutral_citation": null,
+        "action_number": "HCA No. 3707 of 1977",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 15000.0
+      },
+      {
+        "case_name": "Cao Hao v. Liong Peng For & Anr",
+        "neutral_citation": null,
+        "action_number": "HCA No. 3634 of 1978",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 15000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11106,
+      "output_tokens": 6275,
+      "reasoning_tokens": 4736,
+      "total_tokens": 17381
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49180.23417145014,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11106,
+      "output_tokens": 6275,
+      "reasoning_tokens": 4736,
+      "total_tokens": 17381
+    },
+    "total_duration_ms": 49180.23417145014
+  }
+}

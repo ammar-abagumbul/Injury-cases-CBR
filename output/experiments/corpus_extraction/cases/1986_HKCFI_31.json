@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 31",
+    "action_number": "HCA 1180/1985",
+    "case_name": "WONG NAI HUNG v. GREAT JIM ENGINEERING EQUIPMENT CO LTD AND ANOTHER",
+    "judgment_date": "1986-11-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 27,
+    "occupation_before": "engaged in manual labour",
+    "occupation_after": "working for a considerable period in a machinery factory which makes spare parts. He uses a machine and hand tools.",
+    "expected_occupation_after": null,
+    "salary_before": 4069.3,
+    "salary_after": 2600.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "His most serious injury was a fracture of the left Femur, bone of the thigh which was obliquely fractured, occupying some Lt inches of bone, at the lowest level which is 4 inches above the knee joint.",
+        "injury_type": "Permanent injury",
+        "body_part": "left femur / left leg",
+        "laterality": "left",
+        "source": [
+          "His most serious injury was a fracture of the left Femur, bone of the thigh which was obliquely fractured, occupying some Lt inches of bone, at the lowest level which is 4 inches above the knee joint.",
+          "On examination he has 7/8 inch Shortening of the left leg.",
+          "X-ray of the leg shows that there was an oblique fracture in the lower half of the bone which is soundly united. The Jowett Plate is on the outside of the Femur and is a transverse prong which penetrates the breadth of the Femur and is only ½ inch from the knee joint and part of his inability to straighten the knee is probably due to the proximity of the metal to the joint. The upper part of the plate is secured by 5 bone screws."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Extensor tendon of the ring finger was divided leading to loss of movement of the ring finger of the right hand.",
+        "injury_type": "Permanent injury",
+        "body_part": "right ring finger / right hand",
+        "laterality": "right",
+        "source": [
+          "He thought he had a fracture of the ring finger but I do not think so. X-ray is normal but the Extensor tendon, that is, the tendon on the back of the finger which straightens the finger was divided and it was treated by sutures, and immobilised to take pressure off the repaired tendon.",
+          "Despite repair of the tendon he h&s loss of movement of the ring finger."
+        ],
+        "icd_code": "NC57.31",
+        "icd_description": "Laceration of extensor muscle, fascia or tendon of other finger at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Large laceration/scar on the outer side of the left thigh reaching knee level and a 3 inch laceration scar behind the operation scar just above the knee joint.",
+        "injury_type": "Permanent injury",
+        "body_part": "left thigh (laceration/scar)",
+        "laterality": "left",
+        "source": [
+          "There is 4 10 inch operation scar on the outer side of the thigh reaching knee level and a 3 inch laceration scar behind the operation scar which is situated just above the knee joint.",
+          "The court was shown the principal accident scar on plaintiff's thigh, which was around 10 inches long up the thigh, 2 to 3 inches across and gouged to a depth of about a ½ inch."
+        ],
+        "icd_code": "NC71.0",
+        "icd_description": "Laceration without foreign body of hip or thigh"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Shortening of the left leg of 7/8 inch.",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg (shortening)",
+        "laterality": "left",
+        "source": [
+          "On examination he has 7/8 inch Shortening of the left leg."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of movement of the ring finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "80% impairment of the ring finger which is a 3% impairment of the Wholeman",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "cannot straighten the knee. The deficit is 7° and he can only bend it from -7 to a position of 80°",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of 15° of dorsi flexion of the left foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "marked wasting of the left thigh muscles. The circumference of the thigh is 2 inches less than the right.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty walking for any length of time and carrying heavy objects for more than 4 to 5 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "principal accident scar on plaintiff's thigh, around 10 inches long, 2 to 3 inches across and gouged to a depth of about a ½ inch",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "sutures and immobilisation of extensor tendon repair",
+      "traction with pin through tibia",
+      "surgery: Jowett Plate and bone graft (operation on 7.8.82)",
+      "Quadriceps Plasty (re-admission operation 29.3.83)",
+      "vigorous physiotherapy at Rehabilitation Centre",
+      "inpatient hospital treatment"
+    ],
+    "treatments_future": [
+      "removal of the plate and screws (surgical operation)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The plaintiff testified as to injuries to the ring finger of his right (preferred) hand with substantial loss of movement.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "He was unable to squat and this made it particularly difficult to lift weights from the ground. Further difficulties were encountered both walking for any length of time and carrying heavy objects for more than 4 to 5 minutes.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "The court was shown the principal accident scar on plaintiff's thigh, which was around 10 inches long up the thigh, 2 to 3 inches across and gouged to a depth of about a ½ inch.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 130000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chu Suen v. Lok Chi Keung",
+        "neutral_citation": null,
+        "action_number": "HCA 3524 of 1984",
+        "injury_description": "injuries to the leg of a 58-year-old man which were very similar to the plaintiff's injuries, though less serious. The wholeman impairment was only 7% and the injuries did not include the hand as in the instant case.",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Liang Yuh Jen v. Kwan Kam Lin",
+        "neutral_citation": null,
+        "action_number": "HCA 8233 of 1983",
+        "injury_description": "a 48-year-old woman suffered slight shortening of both legs due to a traffic accident; there were no hand injuries as in the present case and wholeman impairment was assessed at 15%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16018,
+      "output_tokens": 9830,
+      "reasoning_tokens": 7424,
+      "total_tokens": 25848
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48742.190428078175,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16018,
+      "output_tokens": 9830,
+      "reasoning_tokens": 7424,
+      "total_tokens": 25848
+    },
+    "total_duration_ms": 48742.190428078175
+  }
+}

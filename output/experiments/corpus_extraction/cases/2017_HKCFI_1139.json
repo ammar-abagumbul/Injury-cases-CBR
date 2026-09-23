@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1139",
+    "action_number": "HCPI 399/2012",
+    "case_name": "TALAT ZAHID v. CHEUNG FAT METAL TRADING CO LTD AND OTHERS",
+    "judgment_date": "2017-06-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 32,
+    "age_at_trial": 40,
+    "occupation_before": "construction site general worker / general worker",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 20686.0,
+    "salary_after": 10500.0,
+    "expected_salary_after": null,
+    "education_level": "Grade 8 in Pakistan"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2-cm scalp laceration over occipital area with mild bleeding",
+        "injury_type": "Temporary injury",
+        "body_part": "occipital scalp",
+        "laterality": null,
+        "source": [
+          "Physical examination showed that there was 2-cm scalp laceration over occipital area with mild bleeding, tenderness over neck and lower back."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild superficial abrasion over left elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "There was mild superficial abrasion over left elbow."
+        ],
+        "icd_code": "NC30.0",
+        "icd_description": "Abrasion of elbow"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "multiple level of prolapsed intervertebral disc over lumbar spine with left S1 root compression; annular tear; small L5-S1 left side protruded disc; moderate degree of soft tissue injury to the lower back causing persistent pain and impairment",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine / lower back",
+        "laterality": "left",
+        "source": [
+          "he had a private MRI examination of lumbar spine in October 2009 showing multiple level of prolapsed intervertebral disc over lumbar spine with left S1 root compression.",
+          "the significant left lateral recess L5/S1 protrusion is unlikely to be pre-existing and it is most probable that the Plaintiff suffers from more significant and at least moderate degree of soft tissue injury to the lower back, with or without causing or significantly aggravating disc protrusion, causing persistent pain and impairment in the lower back."
+        ],
+        "icd_code": "NB71",
+        "icd_description": "Injury of nerve root of sacral spine"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "tenderness over neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Physical examination showed that there was 2-cm scalp laceration over occipital area with mild bleeding, tenderness over neck and lower back."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lower back pain (moderate degree)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Pain at the back of the head",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain in left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Pain in right ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Lower limbs power mildly decreased due to pain, power at least grade 4",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "lumbar facet joint injection",
+      "sacroiliac joint injection",
+      "various injections",
+      "referral to the Pain Clinic",
+      "private MRI examination",
+      "admitted under the care of the Department of Orthopaedics and Traumatology of QEH"
+    ],
+    "treatments_future": [
+      "referred to the Pain Clinic"
+    ],
+    "hospitalisation_days": 70,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Moderate degree of lower back pain causing persistent pain and impairment",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to former employment as a general worker due to moderate lower back pain",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Man Kin v Golden Wheel (C & HK) Transportation Co Ltd",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19823,
+      "output_tokens": 6252,
+      "reasoning_tokens": 4672,
+      "total_tokens": 26075
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38566.64369255304,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19823,
+      "output_tokens": 6252,
+      "reasoning_tokens": 4672,
+      "total_tokens": 26075
+    },
+    "total_duration_ms": 38566.64369255304
+  }
+}

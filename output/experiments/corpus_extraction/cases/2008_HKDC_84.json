@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 84",
+    "action_number": "DCPI 1237/2005",
+    "case_name": "LAM KEI FUNG v. THE INCORPORATED OWNERS OF YUE TIN COURT AND OTHERS",
+    "judgment_date": "2008-04-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 60,
+    "age_at_trial": null,
+    "occupation_before": "car park attendant (employed by Vinci Park Services Hong Kong Ltd.)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8040.43,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Back injury: lower back injury / back contusion; annular tear at L4/5 and disc desiccation identified on MRI",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Mr. Lam was admitted to the Accident and Emergency Department of Prince of Wales Hospital on 24 September 2002, complaining of tenderness at the lower back.",
+          "the Progress and Treatment record of the Prince of Wales Hospital completed on the day of the accident, which indicated that Mr. Lam was diagnosed as having suffered \"back contusion\".",
+          "the annular tear at L4/5 detected at the MRI investigation is likely to be a result of the accident."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain (persistent, fluctuating intensity; increases with weather change and prolonged sitting or standing for half an hour, walking for an hour, squatting, getting up from bed or lying down flat, and turning over in bed)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and weakness of the left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiff back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion of trunk flexion to about knee level with pain at end range",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "required walking aid (small quadripod) on discharge in October 2002",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "hospital admission",
+      "MRI investigation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 25,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenity arising from persistent lower back pain (PSLA awarded $180,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17382,
+      "output_tokens": 3958,
+      "reasoning_tokens": 3008,
+      "total_tokens": 21340
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24126.401107758284,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17382,
+      "output_tokens": 3958,
+      "reasoning_tokens": 3008,
+      "total_tokens": 21340
+    },
+    "total_duration_ms": 24126.401107758284
+  }
+}

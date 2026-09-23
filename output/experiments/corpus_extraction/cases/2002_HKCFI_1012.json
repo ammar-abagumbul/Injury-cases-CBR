@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 1012",
+    "action_number": "HCPI 1184/1998",
+    "case_name": "WONG KIN CHUNG MICHAEL v. FENBAN SHIPPING CO. LTD. AND OTHERS",
+    "judgment_date": "2002-11-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 27,
+    "occupation_before": "stevedore",
+    "occupation_after": "stevedore",
+    "expected_occupation_after": null,
+    "salary_before": 16850.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He had received a 4 cm scalp laceration in the occiput region of his head and which was sutured.",
+        "injury_type": "Temporary injury",
+        "body_part": "occiput (back of head)",
+        "laterality": null,
+        "source": [
+          "He had received a 4 cm scalp laceration in the occiput region of his head and which was sutured."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Clinical diagnosis by the hospital was a severe head injury; Dr Brian Choa concluded from such examination that the plaintiff suffered a mild head injury from the accident and had sustained post traumatic amnesia for some seven to eight hours. He also had post concussion syndrome with mild memory impairment, intermittent headache and dizziness and sleep disturbance.",
+        "injury_type": "Temporary injury",
+        "body_part": "head / brain (post-concussion syndrome)",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis by the hospital was a severe head injury.",
+          "Dr Choa concluded from such examination that the plaintiff suffered a mild head injury from the accident and had sustained post traumatic amnesia for some seven to eight hours. He also had post concussion syndrome with mild memory impairment, intermittent headache and dizziness and sleep disturbance but that the prognosis is good in view of his young age."
+        ],
+        "icd_code": "NA07.05",
+        "icd_description": "Concussion with loss of consciousness, intermediate duration of 6 hours to less than 24 hours"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "The resultant neck pain arises from musculo-tendinous strain over the paraspinal muscle with residual inflammation and scarring.",
+        "injury_type": "Residual disability",
+        "body_part": "neck (paraspinal muscles)",
+        "laterality": null,
+        "source": [
+          "Dr Tsoi was of the opinion that the plaintiff suffered a direct contusion injury over his head and neck during the accident and that the resultant neck pain arises from musculo-tendinous strain over the paraspinal muscle with residual inflammation and scarring."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness when the steel plate hit him on the head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Post traumatic amnesia for some seven to eight hours",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Mild memory impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Sleep disturbance",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Persistent neck pain, particularly when he turned his head to the right, sometimes radiating to the scapular and mid-thoracic region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Occasional left upper limb numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Feeling weak generally especially after a day's work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency treatment at Queen Elizabeth Hospital",
+      "Suturing of 4 cm scalp laceration",
+      "X-ray (no fracture detected)",
+      "C.T. brain scan (no intracranial lesion detected)",
+      "6 days hospital observation",
+      "Referral to neurological clinic",
+      "Referral to orthopaedic clinic",
+      "Physiotherapy"
+    ],
+    "treatments_future": [
+      "Conservative treatment (as recommended by Dr Tsoi and Dr Choa)"
+    ],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities including persistent neck pain and other disabilities resulting from the head and neck injury. Award under this head: $250,000.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14461,
+      "output_tokens": 6140,
+      "reasoning_tokens": 4544,
+      "total_tokens": 20601
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33181.81785196066,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14461,
+      "output_tokens": 6140,
+      "reasoning_tokens": 4544,
+      "total_tokens": 20601
+    },
+    "total_duration_ms": 33181.81785196066
+  }
+}

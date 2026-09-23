@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 404",
+    "action_number": "HCA012617/1994",
+    "case_name": "LAM KWAI YIP v. YUEN YUN KUI",
+    "judgment_date": "1997-01-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 30,
+    "age_at_trial": 34,
+    "occupation_before": "Full-time dim-sum maker (restaurant) and part-time employee at fruit stall",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 12704.0,
+    "salary_after": 0.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "4 cm parietal laceration which required suturing",
+        "injury_type": "Temporary injury",
+        "body_part": "parietal (head)",
+        "laterality": null,
+        "source": [
+          "He sustained a 4 cm parietal laceration which had to be sutured."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the calcis (heel bone) of the right foot",
+        "injury_type": "Residual disability",
+        "body_part": "right calcis (right heel / right foot)",
+        "laterality": "right",
+        "source": [
+          "His right foot was swollen with a fracture in the calcis.",
+          "The fracture was treated with plaster.",
+          "According to the report of Dr. H.P. So of Orthopaedic Unit, Caritas Medical Centre, by 4.8.1993, the fracture to the right calcis had healed and the range of movement of the right ankle was nearly full.",
+          "Dr. Brian Choa, in his medical report dated 29.10.1994, observed that the fractured ankle will be a long term problem and there is the possibility of developing accelerated arthritis."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he still felt pain in his right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "he could not walk for more than 45 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He had to walk with the aid of crutches for several months.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "even after he could walk without crutches, he had to remain indoor",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "he had occasional headache and dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "suffered from deteriorated memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the fractured ankle will be a long term problem and there is the possibility of developing accelerated arthritis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admission to Caritas Medical Centre Surgical Unit and Orthopaedic Ward",
+      "Suturing of 4 cm parietal laceration",
+      "Plaster treatment for fractured calcis",
+      "Follow-up treatment at the Orthopaedic Outpatient Clinic of Caritas Medical Centre until November 1993",
+      "Chinese bone-setter treatment for about 6 months",
+      "Use of crutches for several months",
+      "X-ray examination",
+      "Physiotherapy (follow-up & physiotherapy treatment listed in special damages)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 177,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Could not walk for more than 45 minutes; had to walk with the aid of crutches for several months; had to rest after walking and remained indoors",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Will not be able to manage two jobs; unable to return to previous profession or to perform work which requires him to stand for long hours",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsang Chin Keung v. Lo Tat Kong t/a Hung Kwong Glass Works & Anor.",
+        "neutral_citation": null,
+        "action_number": "P.I. Case No. 806/95",
+        "injury_description": "The injuries suffered by the plaintiff in Tsang Chin Keung case are far more serious than those sustained by the Plaintiff in the present case.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11570,
+      "output_tokens": 5334,
+      "reasoning_tokens": 3840,
+      "total_tokens": 16904
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34194.83831897378,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11570,
+      "output_tokens": 5334,
+      "reasoning_tokens": 3840,
+      "total_tokens": 16904
+    },
+    "total_duration_ms": 34194.83831897378
+  }
+}

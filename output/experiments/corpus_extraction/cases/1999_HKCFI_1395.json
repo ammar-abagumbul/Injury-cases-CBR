@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1395",
+    "action_number": "HCPI 1111/1997",
+    "case_name": "LEE LAP PANG v. YUEN TAT WAH T/A CHONG HING MOTOR CO AND ANOTHER",
+    "judgment_date": "1999-05-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "welder",
+    "occupation_after": "watchman/caretaker",
+    "expected_occupation_after": null,
+    "salary_before": 16500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right shoulder pain due to bicept and rotator cuff tendenitis",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff suffered right shoulder pain due to bicept and rotator cuff tendenitis, and right elbow pain due probably to ulnar neuritis. Dr. Lau assessed him to have suffered 14% permanent disability."
+        ],
+        "icd_code": "NC16.4Y",
+        "icd_description": "Other specified injury of multiple muscles or tendons at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right elbow pain due probably to ulnar neuritis",
+        "injury_type": "Permanent injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff suffered right shoulder pain due to bicept and rotator cuff tendenitis, and right elbow pain due probably to ulnar neuritis. Dr. Lau assessed him to have suffered 14% permanent disability."
+        ],
+        "icd_code": "NC34.0",
+        "icd_description": "Injury of ulnar nerve at forearm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right elbow pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Numbness over one and half of his fingers when pressure was applied to the right elbow",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "14% permanent disability (overall assessment by Dr. Lau)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance transport to hospital",
+      "consultations with Dr. Lau",
+      "medical treatment (unspecified) without operation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering & loss of amenities (general damages awarded as PSLA)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of future earnings due to inability to continue previous work as a welder",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity (award for diminished ability to find/maintain regular employment)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki v. Leung On & Anor",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": "serious injury category (Court of Appeal approved awards between $400,000 and $540,000)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chun Sung-yong v. Au Sze-hung Christopher Kwan Man Wah",
+        "neutral_citation": "21 (1991) HKLJ 400",
+        "action_number": "HCA No. A118 of 1990",
+        "injury_description": "plaintiff suffered fractures to left shoulder and leg bones with hospitalisation and lasting disability (case considered more serious)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 130000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14385,
+      "output_tokens": 5398,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19783
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33071.50337100029,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14385,
+      "output_tokens": 5398,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19783
+    },
+    "total_duration_ms": 33071.50337100029
+  }
+}

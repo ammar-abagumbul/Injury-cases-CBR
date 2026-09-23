@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 273",
+    "action_number": "DCPI 1970/2008",
+    "case_name": "CHAN KIN MAN v. CHEUK SIU TONG",
+    "judgment_date": "2009-11-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 25,
+    "age_at_trial": null,
+    "occupation_before": "driver",
+    "occupation_after": "driver",
+    "expected_occupation_after": "driver",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain injury to the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "From the medical evidence, it appears that Mr. Chan sustained sprain injuries to the neck and back as a result of the collision.",
+          "X-rays of the cervical and lumbar spine were normal."
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sprain injury to the back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "From the medical evidence, it appears that Mr. Chan sustained sprain injuries to the neck and back as a result of the collision.",
+          "X-rays of the cervical and lumbar spine were normal."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild stiffness in his neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild stiffness in his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "X-rays of the cervical and lumbar spine"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 4,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "with only a mild degree of inconvenience and reasonable reduction of working efficiency because of the mild stiffness in his neck",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "with only a mild degree of inconvenience and reasonable reduction of working efficiency because of the mild stiffness in his back",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Youn v. Ng Kam Man",
+        "neutral_citation": null,
+        "action_number": "HCPI 533/1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Kin Hung v. Chan Wai Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 1223/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chun Wa v. Wong Chiu Yuen Andrew",
+        "neutral_citation": null,
+        "action_number": "DCPI 235/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Ka Yin v. Chan Yiu Kei",
+        "neutral_citation": null,
+        "action_number": "DCPI 453/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11113,
+      "output_tokens": 4614,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15727
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29081.068482249975,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11113,
+      "output_tokens": 4614,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15727
+    },
+    "total_duration_ms": 29081.068482249975
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 113",
+    "action_number": "DCPI 189/2004",
+    "case_name": "CHAN CHUNG SAU v. HOSPITAL AUTHORITY",
+    "judgment_date": "2006-05-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture in his right wrist at the scaphoid bone which eventually developed into non-union of the fracture and degenerative changes following non-union.",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist (scaphoid bone)",
+        "laterality": "right",
+        "source": [
+          "he has a fracture in his right wrist at the scaphoid bone which eventually developed into non-union of the fracture and degenerative changes following non-union.",
+          "x-rays were taken by the UCH which revealed fracture of the scaphoid bone with mal-union and onset of degenerative changes.",
+          "x-rays ordered there revealed fracture of the right carpal bones."
+        ],
+        "icd_code": "NC53.0",
+        "icd_description": "Fracture of scaphoid bone of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wrist effectively fully functional save when pushed to extremes (reduced function at extremes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the United Christian Hospital and received treatment",
+      "x-rays taken on 2001-11-07 by United Christian Hospital"
+    ],
+    "treatments_future": [
+      "wrist surgery"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8741,
+      "output_tokens": 3074,
+      "reasoning_tokens": 2368,
+      "total_tokens": 11815
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23693.567790091038,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8741,
+      "output_tokens": 3074,
+      "reasoning_tokens": 2368,
+      "total_tokens": 11815
+    },
+    "total_duration_ms": 23693.567790091038
+  }
+}

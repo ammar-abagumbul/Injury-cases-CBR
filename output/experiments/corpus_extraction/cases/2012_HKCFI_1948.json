@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKCFI 1948",
+    "action_number": "HCPI 241/2010",
+    "case_name": "MOHAMMAD WAHEED KHAN v. RISING SUN TRANSPORTATION COMPANY LIMITED",
+    "judgment_date": "2012-12-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": 28,
+    "occupation_before": "driver",
+    "occupation_after": "salesman for Fletcher Jon’s Custom Tailors",
+    "expected_occupation_after": "driver",
+    "salary_before": 13000.0,
+    "salary_after": 4800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained lower back / soft tissue sprain injury to the Plaintiff’s lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "On examination, the Plaintiff was found to suffer from sprained lower back.",
+          "Both doctors opined that the injury was compatible with the Plaintiff’s description of the circumstances of the accident on 23 September 2006. They agreed that accident had caused soft tissue sprain injury to the Plaintiff’s lower back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild posterior central intervertebral disc bulging between the 4th and 5th lumbar spine level",
+        "injury_type": "Residual disability",
+        "body_part": "4th and 5th lumbar spine (L4-L5)",
+        "laterality": null,
+        "source": [
+          "MRI in August 2007 revealed that there was mild posterior central intervertebral disc bulging between the 4th and 5th lumbar spine level."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual back pain during daily activities (sleeping, taking shower, sitting on toilet, sexual intercourse, walking, dressing and in cold weather).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness over midline upper lumbar region and sacrum; moderate tenderness over midline lumbo-sacral junction; mild tenderness bilateral paraspinal muscles at lumbo-sacral junction.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "all trunk movements were limited by severe pain; slightly reduced active movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced straight-leg-raising on lying but satisfactory on sitting; restrictions on straight leg raising both sides",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Accident & Emergency Department of Ruttonjee & Tang Shiu Kin Hospitals",
+      "attendance at Accident & Emergency Department of the Queen Elizabeth Hospital",
+      "physiotherapy",
+      "medication",
+      "referral to Kwong Wah Hospital",
+      "MRI",
+      "general out-patient clinic follow-up"
+    ],
+    "treatments_future": [
+      "occasional symptomatic treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 401,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual impairment and pain of the lower back causing reduced function of the lumbar spine.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Pain affecting daily activities such as taking shower, sitting on toilet, dressing.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Residual back pain experienced during sexual intercourse.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Mild to moderate impairment as a delivery worker; unsuitable for manual labour requiring lifting and repeated bending, limiting employment options to driving or light-duty work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16323,
+      "output_tokens": 5309,
+      "reasoning_tokens": 4032,
+      "total_tokens": 21632
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32624.641310423613,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16323,
+      "output_tokens": 5309,
+      "reasoning_tokens": 4032,
+      "total_tokens": 21632
+    },
+    "total_duration_ms": 32624.641310423613
+  }
+}

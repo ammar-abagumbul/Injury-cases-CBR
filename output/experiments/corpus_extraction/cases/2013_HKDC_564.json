@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 564",
+    "action_number": "DCPI 220/2012",
+    "case_name": "LEUNG HIU YAN HILDA v. LAU KAM HUNG",
+    "judgment_date": "2013-05-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 31,
+    "age_at_trial": 34,
+    "occupation_before": "Senior research assistant of the Hong Kong Institute of Education (HKIE)",
+    "occupation_after": "Primary school teacher (Po Leung Kuk school from 1 September 2010; later St Joseph's, teacher and panel head of music)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Neck sprain / whiplash injury",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "sprain of back and neck",
+          "whiplash injury and sprain back",
+          "soft tissue injury of the neck and back"
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Low back sprain / soft tissue injury of lumbar region",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "sprain of back and neck",
+          "whiplash injury and sprain back",
+          "soft tissue injury of the neck and back"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Early degenerative change of a number of discs in the cervical and lumbar region",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical and lumbar spine (disc degeneration)",
+        "laterality": null,
+        "source": [
+          "the MRI of Madam Leung's cervical spine and lumbar spine done after the subsequent road traffic accident showed early degenerative change of quite a number of discs in the cervical and lumbar region, apart from reduction of the cervical lordosis",
+          "the disc degeneration is related to the effect of ageing in the past 2 years and not due to trauma"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness over right neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over lower back (paraspinal muscles on both sides)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Limited range of movement mainly in extension (neck)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of movement slightly limited (low back)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Intermittent residual pain in the midline area of her neck and low back preventing her from lying on her back to sleep and disturbing her sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Unable to walk or stand for long time, or to squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Could not enjoy playing badminton and has to reduce the time for playing piano and guzheng at home",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "No focal neurological deficit elicited / no neurological deficit in the upper or lower limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance at Alice Ho Miu Ling Nethersole Hospital (AHNH)",
+      "Analgesics",
+      "Physiotherapy (attended UH physiotherapy on 15, 17 & 21 April 2010; physiotherapy at AHNH from 16 May to 1 August 2012)",
+      "Referral to orthopaedic surgeon",
+      "X-ray (skull, lumbosacral spine and cervical spine unremarkable)",
+      "MRI scan of the cervical spine and lumbar spine"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 10,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could not enjoy playing badminton and has to reduce the time for playing piano and guzheng at home",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Unable to walk or stand for long time, or to squat",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "Pain prevents her from lying on her back to sleep and such limit on her sleeping posture disturbs her sleep",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Ka Yin v Chan Yiu Kei",
+        "neutral_citation": null,
+        "action_number": "DCPI 453/2008",
+        "injury_description": "Whiplash injuries to neck and back; soft tissue injury of the neck and back with no evidence of any more serious injury; able to return to pre-accident job; no fracture of the cervical spine",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Lo Yim Fong v Ho Po Yin & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 654/2010",
+        "injury_description": "Soft tissue sprain of neck and back, without bony fracture or neurological deficit; plaintiff returned to work as a clerk after 10 days",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 10,
+        "comparison": null,
+        "psla_amount": 80000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14526,
+      "output_tokens": 7208,
+      "reasoning_tokens": 5376,
+      "total_tokens": 21734
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41712.91409432888,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14526,
+      "output_tokens": 7208,
+      "reasoning_tokens": 5376,
+      "total_tokens": 21734
+    },
+    "total_duration_ms": 41712.91409432888
+  }
+}

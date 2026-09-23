@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1642",
+    "action_number": "HCPI 718/2012",
+    "case_name": "CHAN CHEUK PUI v. MAN CHUN PONG T/A WUIYING (C&H) CONSTRUCTION CO AND OTHERS",
+    "judgment_date": "2016-10-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 52,
+    "age_at_trial": 59,
+    "occupation_before": "construction worker for village houses (formwork worker)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a laceration on his left scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "left scalp",
+        "laterality": "left",
+        "source": [
+          "As a result of the fall, Mr Chan had a laceration on his left scalp and a deep laceration in his left axilla."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a deep laceration in his left axilla",
+        "injury_type": "Temporary injury",
+        "body_part": "left axilla",
+        "laterality": "left",
+        "source": [
+          "As a result of the fall, Mr Chan had a laceration on his left scalp and a deep laceration in his left axilla."
+        ],
+        "icd_code": "NC11.0",
+        "icd_description": "Laceration without foreign body of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to his radial nerve (causing radial nerve palsy)",
+        "injury_type": "Permanent injury",
+        "body_part": "left arm (radial nerve)",
+        "laterality": "left",
+        "source": [
+          "he had injury to his radial nerve (causing radial nerve palsy)"
+        ],
+        "icd_code": "NC34.2",
+        "icd_description": "Injury of radial nerve at forearm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a 20% cut of the long head of triceps",
+        "injury_type": "Temporary injury",
+        "body_part": "long head of triceps",
+        "laterality": null,
+        "source": [
+          "a 20% cut of the long head of triceps"
+        ],
+        "icd_code": "NC16.31",
+        "icd_description": "Laceration of muscle, fascia or tendon of triceps"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "a complete cut and thrombosis of the Profunda Brachii artery",
+        "injury_type": "Temporary injury",
+        "body_part": "Profunda Brachii artery",
+        "laterality": null,
+        "source": [
+          "a complete cut and thrombosis of the Profunda Brachii artery"
+        ],
+        "icd_code": "NC15.Y",
+        "icd_description": "Injury of other specified blood vessels at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "an additional head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "the current injury was traumatic in nature and there was an additional head injury."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "weakness of the wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "numbness in his left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual left upper limb weakness and numbness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "persistent pain at the axilla wound",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "muscle wasting in the left arm and forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild lag in shoulder movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "numbness and paraesthesia in the left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "hand grip was satisfactory",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation to explore the axilla wound",
+      "physiotherapy",
+      "occupational therapy",
+      "left wrist splint for half a year"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 29,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual left upper limb weakness and numbness and radial nerve palsy with persistent pain at the axilla",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Frank Yu Yu Kai v Chan Chi Keung",
+        "neutral_citation": "[HCPI 230/2004]",
+        "action_number": "HCPI 230/2004",
+        "injury_description": "radial nerve palsy (albeit happened during a general anaesthesia operation); plaintiff recovered fully after 1 year",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14154,
+      "output_tokens": 7760,
+      "reasoning_tokens": 5888,
+      "total_tokens": 21914
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46267.696999013424,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14154,
+      "output_tokens": 7760,
+      "reasoning_tokens": 5888,
+      "total_tokens": 21914
+    },
+    "total_duration_ms": 46267.696999013424
+  }
+}

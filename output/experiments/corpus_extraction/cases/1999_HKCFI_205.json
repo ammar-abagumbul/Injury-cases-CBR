@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 205",
+    "action_number": "HCPI000005/1997",
+    "case_name": "LAM YAN FOO v. PUN WAI HONG AND ANOTHER",
+    "judgment_date": "1999-03-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": null,
+    "occupation_before": "Bus driver (Kowloon Motor Bus Company)",
+    "occupation_after": "Retired April 1995; School bus driver (Lingnan College) for 4 months in early 1996",
+    "expected_occupation_after": "Bus driver (KMB) until age 65 (intended)",
+    "salary_before": 8438.7,
+    "salary_after": 12000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He suffered 2 perforations of the small bowel and one perforation of the large bowel.",
+        "injury_type": "Residual disability",
+        "body_part": "small and large bowel",
+        "laterality": null,
+        "source": [
+          "He suffered 2 perforations of the small bowel and one perforation of the large bowel."
+        ],
+        "icd_code": "NB91.B",
+        "icd_description": "Injury of multiple intra-abdominal organs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "that, as a result of the abdominal wound and necessary resectioning of the Plaintiffs bowel, the Plaintiff suffered from extensive adhesions of the bowel which had caused a partial bowel obstruction.",
+        "injury_type": "Residual disability",
+        "body_part": "bowel (adhesions / partial bowel obstruction)",
+        "laterality": null,
+        "source": [
+          "that, as a result of the abdominal wound and necessary resectioning of the Plaintiffs bowel, the Plaintiff suffered from extensive adhesions of the bowel which had caused a partial bowel obstruction."
+        ],
+        "icd_code": "NB91.Z",
+        "icd_description": "Injury of intra-abdominal organs, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the development of an incisional hernia",
+        "injury_type": "Residual disability",
+        "body_part": "abdomen (incisional hernia)",
+        "laterality": null,
+        "source": [
+          "the development of an incisional hernia also supported the present existence of a partial blockage."
+        ],
+        "icd_code": "NB94.Y",
+        "icd_description": "Other specified injury of muscle, fascia or tendon of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "other more minor injuries to the region of his right shoulder and neck.",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder and neck",
+        "laterality": "right",
+        "source": [
+          "other more minor injuries to the region of his right shoulder and neck."
+        ],
+        "icd_code": "NC10.Z",
+        "icd_description": "Superficial injury of shoulder or upper arm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "uncontrollable urges to go to the toilet and defecated some 3-4 times a day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to sit for periods of greater than 15 minutes or so and had to stand or change his position as a result of abdominal wound pain or discomfort",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abdominal pain, which he described also as wound pain, continuously",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his sex life had deteriorated. It had reduced by about half as a result of this pain and discomfort.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a minor but continuing disability with his neck and right shoulder which causes him some inconvenience in activities such as dressing or lifting objects.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgical operations (3)",
+      "Continuing follow up treatment",
+      "Physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 60,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Uncontrollable urges to go to the toilet and defecation 3-4 times a day; ongoing abdominal/wound pain; difficulty sitting for periods greater than 15 minutes, considerably restricting daily activities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His sex life had deteriorated. It had reduced by about half as a result of this pain and discomfort.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Minor but continuing disability with his neck and right shoulder causing inconvenience in activities such as dressing or lifting objects.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19514,
+      "output_tokens": 7029,
+      "reasoning_tokens": 5440,
+      "total_tokens": 26543
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38931.10917881131,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19514,
+      "output_tokens": 7029,
+      "reasoning_tokens": 5440,
+      "total_tokens": 26543
+    },
+    "total_duration_ms": 38931.10917881131
+  }
+}

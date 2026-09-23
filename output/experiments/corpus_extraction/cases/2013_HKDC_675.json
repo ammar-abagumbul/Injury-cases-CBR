@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 675",
+    "action_number": "DCPI 2336/2011",
+    "case_name": "CHAN SAI CHIU v. CHING YAN CHEUK T/A EDEN CONNECTIONS DESIGN & ENGINEERING CO",
+    "judgment_date": "2013-06-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "casual general labourer in decoration industry",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 22500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "deep laceration of left index finger pulp",
+        "injury_type": "Residual disability",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "Dr Lam\u0002s diagnosis of the injury was deep laceration of left index finger pulp.",
+          "an irregular dirty wound associated with tissue and skin loss was noted over the pulp of his left index finger."
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent numbness and pain over his left index finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "atrophy of the left index finger pulp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased sensation over the pulp",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight decrease in range of motion of the left index finger joints",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in grip strength and significant decrease in pinch grip with left index finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hypersensitive and stiffness at his left index finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to resume work after the sick leave (initially)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment at the Ruttonjee & Tang Shiu Kin Hospitals (TSKH)",
+      "follow-up treatments at TSKH",
+      "wound dressing at the Shek Kip Mei General Out Patient Clinic"
+    ],
+    "treatments_future": [
+      "occupational therapy with desensitization program (six weeks, three sessions per week)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 52,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General damages for pain, suffering and loss of amenities resulting from deep laceration of left index finger pulp",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Yun San v Cheung Yue Yiu trading as Radio Engineering Co",
+        "neutral_citation": null,
+        "action_number": "DCPI 1909/2007",
+        "injury_description": "claimant\u0002s left index and middle fingers were injured in the accident by a circular saw. He was found to have sustained a crush injury to his left middle and index fingers. There was pulp loss in his left index finger and a deep laceration in the middle finger exposing extensor tendon over proximal interphalangeal joint. X-ray showed communited intra-articular fracture of the condyle of the proximal phalanx of the left middle finger. He had undergone two surgical operations.",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Chan Hung Hang v Fat Kee Marine Repairing & Engineering Co Limited and Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 2328/2007",
+        "injury_description": "claimant welder injured his right middle finger in the accident. He was found to have suffered crush injury to his right middle finger. Physical examination revealed bruise and tenderness over the tip of the right middle finger and subungal haematoma over nail. The active range of motion was decreased although flexion and extension mechanism was intact. X-ray showed fracture of the tuft of distal phalanx of the right middle finger.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12255,
+      "output_tokens": 4553,
+      "reasoning_tokens": 3456,
+      "total_tokens": 16808
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32291.319996118546,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12255,
+      "output_tokens": 4553,
+      "reasoning_tokens": 3456,
+      "total_tokens": 16808
+    },
+    "total_duration_ms": 32291.319996118546
+  }
+}

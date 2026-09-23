@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "neutral_citation": "FUNG KWOK KI v. WING SANG CONSTRUCTION CO LTD AND OTHERS [2003] HKCFI 837; [2003] 3 HKLRD 201; HCPI 757/2002 (1 August 2003)",
+    "action_number": "HCPI 757/2002",
+    "case_name": "FUNG KWOK KI v. WING SANG CONSTRUCTION CO LTD AND OTHERS",
+    "judgment_date": "2003-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 38,
+    "age_at_trial": 41,
+    "occupation_before": "Lift Technician II (Ryoden Elevator Co. Ltd.)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 18586.18,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis was head injury, thoracic spinal injury with paralysis and fracture of left femur.",
+          "After a prolonged period of surgical and medical treatment, the plaintiff has made a partial recovery and is left with permanent residual brain damage in the form of impaired higher mental functions including dysarthria, dysphagia and mild upper limb dysfunction.",
+          "He was unconscious when admitted to hospital. He was in deep coma with Glasgow Coma Score of 3/15."
+        ],
+        "icd_code": "NA07.30",
+        "icd_description": "Diffuse injury of cerebrum"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "thoracic spinal injury with paralysis / complete spinal cord injury at T7",
+        "injury_type": "Permanent injury",
+        "body_part": "spinal cord (T7 / thoracic)",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis was head injury, thoracic spinal injury with paralysis and fracture of left femur.",
+          "Physical examination showed tetraplegia with signs of complete spinal cord injury.",
+          "His neurogenic urinary and bowel disturbance are caused by the spinal cord damage at T7 level.",
+          "There is also no recovery of his paraplegia with double incontinence.",
+          "He is now permanently wheelchair-bound."
+        ],
+        "icd_code": "NA91.0",
+        "icd_description": "Complete lesion of thoracic spinal cord"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of left femur",
+        "injury_type": "Temporary injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "The clinical diagnosis was head injury, thoracic spinal injury with paralysis and fracture of left femur.",
+          "He ... had internal fixation of his spine and left femur."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "neuropathic bladder / neurogenic urinary and bowel disturbance; neuropathic impotence",
+        "injury_type": "Permanent injury",
+        "body_part": "bladder, bowel and sexual function",
+        "laterality": null,
+        "source": [
+          "Moreover, the plaintiff has a neuropathic bladder with poor or uncoordinated detrusor contraction and without any sensation of filling or distension. He is being managed by Clean Intermittent Catheterisation five times daily.",
+          "His bowel problem needs to have continued management with laxative and suppositories. His neuropathic impotence is permanent.",
+          "His neurogenic urinary and bowel disturbance are caused by the spinal cord damage at T7 level."
+        ],
+        "icd_code": "NA91.0",
+        "icd_description": "Complete lesion of thoracic spinal cord"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Deep coma with Glasgow Coma Score of 3/15 on admission",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tetraplegia with signs of complete spinal cord injury",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Paraplegia (no recovery)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Double incontinence",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Neurogenic urinary and bowel disturbance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Neuropathic bladder with poor or uncoordinated detrusor contraction and without any sensation of filling or distension",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Neuropathic impotence is permanent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Permanent residual brain damage in the form of impaired higher mental functions",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dysarthria",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dysphagia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dysphasic (speech impairment)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild upper limb dysfunction / left upper limb weaker than the right",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe pressure sores (required multiple debridement and Gluteal maximus myocutaneous flap)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Permanently wheelchair-bound",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Will never be able to work again / full loss of earnings",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Intubation",
+      "Intravenous infusion",
+      "Neck collar and spine board",
+      "Admission to Intensive Care Unit",
+      "Internal fixation of spine and left femur",
+      "Multiple debridement of pressure sores",
+      "Gluteal maximus myocutaneous flap",
+      "Percutaneous release of contracted left middle finger",
+      "Rehabilitation (Wong Tai Sin Hospital, Kowloon Hospital)",
+      "Speech therapy",
+      "Clean Intermittent Catheterisation (ongoing, five times daily)"
+    ],
+    "treatments_future": [
+      "Ongoing clean intermittent catheterisation",
+      "Continued management with laxatives and suppositories",
+      "Urological follow-up and monitoring",
+      "Physiotherapy",
+      "Speech therapy",
+      "Community nursing",
+      "Assistance at home (domestic helper(s))",
+      "Ongoing drugs/medications as per neurologist",
+      "Follow-ups at public hospitals"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "He is now permanently wheelchair-bound.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Permanent residual brain damage in the form of impaired higher mental functions including dysarthria, dysphagia and mild upper limb dysfunction.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Dysarthria and dysphasic speech impairment.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His neuropathic impotence is permanent.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "In his present condition he will not be able to do minor odd jobs in the house and a handyman will have to be engaged and paid.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Requires full time domestic helper(s) and assistance at home for daily care.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The plaintiff will never be able to work again; full loss of future earnings.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of society of the plaintiff by his wife (statutory award for loss of society).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20033,
+      "output_tokens": 10633,
+      "reasoning_tokens": 8064,
+      "total_tokens": 30666
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 67844.21632066369,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20033,
+      "output_tokens": 10633,
+      "reasoning_tokens": 8064,
+      "total_tokens": 30666
+    },
+    "total_duration_ms": 67844.21632066369
+  }
+}

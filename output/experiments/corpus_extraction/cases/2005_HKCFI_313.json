@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 313",
+    "action_number": "HCPI 886/2003",
+    "case_name": "CHEUNG MAN FAI v. TO YU BUN AND ANOTHER",
+    "judgment_date": "2005-04-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": 35,
+    "occupation_before": "police constable",
+    "occupation_after": "building supervisor (Synergis)",
+    "expected_occupation_after": null,
+    "salary_before": 22210.0,
+    "salary_after": 9000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He was diagnosed as having Adjustment Disorder with depressed mood.",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "He was diagnosed as having Adjustment Disorder with depressed mood."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "He had suffered what is commonly called a whiplash injury to the neck.",
+        "injury_type": "Temporary injury",
+        "body_part": "neck/cervical spine",
+        "laterality": null,
+        "source": [
+          "He had suffered what is commonly called a whiplash injury to the neck."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "A CT Scan taken on 11 October 2000 of his cervical spine showed no cervical fracture but slight bulging of the intervertebral disc at C4/5 and C5/6 without significant narrowing of the spinal canal.",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C4/5 and C5/6)",
+        "laterality": null,
+        "source": [
+          "A CT Scan taken on 11 October 2000 of his cervical spine showed no cervical fracture but slight bulging of the intervertebral disc at C4/5 and C5/6 without significant narrowing of the spinal canal."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "complaining of neck pain and left upper limb paresis",
+        "injury_type": "Residual disability",
+        "body_part": "left upper limb/left hand",
+        "laterality": "left",
+        "source": [
+          "On 9 October 2000, the plaintiff was referred to the Orthopaedic Clinic of Caritas Medical Centre complaining of neck pain and left upper limb paresis."
+        ],
+        "icd_code": "NA40",
+        "icd_description": "Injury of nerve root of cervical spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he experienced pain over the right side of his forehead and paralysis over the left side of his neck.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the plaintiff felt stiffness in his neck and left upper limb numbness and weakness.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He was found to have limitation in lateral rotation of his neck.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left upper limb numbness and weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "he still has headaches, irritability and depressed mood all of which affects his concentration.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has insomnia as well as nightmares of the collision with the taxi.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "This has given rise to a fear of red-coloured taxis.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Due to the pain and numbness, the plaintiff was unable to carry out his duties as a police constable and has been on sick leave.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment at Caritas Medical Centre (treated and discharged same day)",
+      "Orthopaedic follow-up at Caritas Medical Centre",
+      "CT Scan of cervical spine (11 October 2000)",
+      "Psychiatric treatment at Department of Psychiatry of Prince of Wales Hospital",
+      "Regular psychiatric follow-up"
+    ],
+    "treatments_future": [
+      "psychotherapy (recommended 26 sessions by Dr Singer; court assessed fewer)",
+      "psychiatric medication",
+      "maintenance psychiatric treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 284,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The accident had caused him to give up sporting activities including ten-pin bowling; numbness in his left hand had effectively taken away this and other sporting activities from his enjoyment.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "His injuries interfered with his carrying out his duties as a police constable and he could no longer further his career as a policeman leading to early retirement.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 550000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14431,
+      "output_tokens": 5827,
+      "reasoning_tokens": 4160,
+      "total_tokens": 20258
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37046.29984498024,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14431,
+      "output_tokens": 5827,
+      "reasoning_tokens": 4160,
+      "total_tokens": 20258
+    },
+    "total_duration_ms": 37046.29984498024
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 78",
+    "action_number": "HCPI 617/2006",
+    "case_name": "LI LUNG HAU v. GRAND POWER ASIA LTD T/A HON FOOK SEAFOOD RESTAURANT",
+    "judgment_date": "2008-01-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": 34,
+    "occupation_before": "third assistant chef",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained his back whilst lifting a quantity of celery placed in a water-filled metal container which he was attempting to put into a floor level refrigerator.",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "claiming damages for personal injury as a result of his having sprained his back whilst lifting a quantity of celery placed in a water-filled metal container which he was attempting to put into a floor level refrigerator.",
+          "This is a soft tissue injury."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "felt a sharp pain in his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and discomfort in the succeeding days",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "he sought treatment at Princess Margaret Hospital on 17 April"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity from soft tissue injury to the back.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 125000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10012,
+      "output_tokens": 3398,
+      "reasoning_tokens": 2688,
+      "total_tokens": 13410
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22543.048050254583,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10012,
+      "output_tokens": 3398,
+      "reasoning_tokens": 2688,
+      "total_tokens": 13410
+    },
+    "total_duration_ms": 22543.048050254583
+  }
+}

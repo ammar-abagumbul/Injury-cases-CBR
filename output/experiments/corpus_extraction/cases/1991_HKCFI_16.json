@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[1991] HKCFI 16",
+    "action_number": "HCA 118/1990",
+    "case_name": "CHUNG SUNG YONG v. AU SZE HUNG, CHRISTOPHER AND ANOTHER",
+    "judgment_date": "1991-06-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "owner of a family inn in Seoul",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 30000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "high school graduate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures to his left shoulder bones",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "The plaintiff sustained injuries to the tibia and fibula in his left leg and bones in his left shoulder."
+        ],
+        "icd_code": "NC12.5",
+        "icd_description": "Multiple fractures of clavicle, scapula or humerus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractures to the tibia and fibula in his left leg; imperfect union with angulation of 5° to 10° and shortness of the left leg by half an inch; muscle damage causing weakness in the left leg",
+        "injury_type": "Residual disability",
+        "body_part": "left leg (tibia and fibula)",
+        "laterality": "left",
+        "source": [
+          "The plaintiff sustained injuries to the tibia and fibula in his left leg and bones in his left shoulder.",
+          "Dr Li also took the view that the imperfect union of the bones in the left leg produced an angle (angulation) which had been reduced to 5° to 10°. 5° - 10° would not affect the ankle joint.",
+          "Dr Li further explained that given time the shortness of the left leg by half an inch would not cause any noticeable limbing in walking.",
+          "There was some muscle damage in the accident causing weakness in the left leg. That would be permanent to a degree."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He was knocked unconscious for three days.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "severe pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "some muscle damage in the accident causing weakness in the left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness of the left leg and the ankle joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "running and squatting would be hampered",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "shortness of the left leg by half an inch",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He could not clean his left leg which was, as described by the plaintiff, decaying.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "initial operative corrections",
+      "metal fixator applied to leg (external fixator with metal pins)",
+      "plaster cast",
+      "plaster mould for reinforcement",
+      "crutches",
+      "various types of walking aids",
+      "physiotherapy"
+    ],
+    "treatments_future": [
+      "bone graft operation (advised by 7th month)",
+      "further physiotherapy (three months after bone graft)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Dr Li's ultimate assessment was 3% for the left shoulder and 4% for the left leg and ankle giving a total of 7% permanent disability.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Dr Li's ultimate assessment was 3% for the left shoulder and 4% for the left leg and ankle giving a total of 7% permanent disability.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The plaintiff skied before the accident. That past-time is now beyond his reach.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "running and squatting would be hampered; stiffness of the left leg and the ankle joint would improve gradually within the five years after the injury.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "He could not clean his left leg which was, as described by the plaintiff, decaying.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "I accept his evidence that he is no longer in a position to carry on with his former calling as a result of his injuries.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15601,
+      "output_tokens": 5230,
+      "reasoning_tokens": 3648,
+      "total_tokens": 20831
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36311.91015988588,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15601,
+      "output_tokens": 5230,
+      "reasoning_tokens": 3648,
+      "total_tokens": 20831
+    },
+    "total_duration_ms": 36311.91015988588
+  }
+}

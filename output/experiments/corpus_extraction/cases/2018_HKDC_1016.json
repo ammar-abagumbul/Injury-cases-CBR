@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1016",
+    "action_number": "DCPI 1697/2015",
+    "case_name": "WONG ELEVEN v. CHINA WAY TRANSPORTATION LTD AND ANOTHER",
+    "judgment_date": "2018-08-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 40,
+    "occupation_before": "Three part-time jobs: driver for various charitable organizations (including The Hong Kong Society for Rehabilitation); adventure/camp instructor for The Federation of the Youth Groups; self-employed van driver cum delivery worker.",
+    "occupation_after": "Resumed first two part-time jobs (driver for charitable organisations and camp instructor) with some modification of duties; ceased van driver cum delivery job.",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 13528.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "provisional diagnosis was sprain neck.",
+          "Dr. Lam\u0002s diagnosis was soft tissue injury to the neck"
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to the neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Dr. Lam\u0002s diagnosis was soft tissue injury to the neck"
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness at the left trapezius muscle at the neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness and muscle guarding over the plaintiff\u0002s left cervical paraspinal muscle and left upper trapezius but without muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in cervical lordosis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual neck and left upper trapezius pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment at North District Hospital",
+      "analgesic",
+      "neck collar",
+      "orthopaedic specialist assessment (joint medical report)",
+      "no hospitalization"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Residual neck and left upper trapezius pain may cause minor discomfort and diminish enjoyment of sports and outdoor activities such as hiking, canoeing, mountaineering, rock climbing, camping, ropes course and archery.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "So Kim Lung v Lee Pak Wai",
+        "neutral_citation": "HCPI 494/2010",
+        "action_number": null,
+        "injury_description": "lower back and neck injury with no neurological deficit or bony fracture; the court accepted there was 0.5% residual mild pain and ache at the plaintiff\u0002s neck and lower back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 180,
+        "comparison": "similar or same",
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15462,
+      "output_tokens": 5389,
+      "reasoning_tokens": 4160,
+      "total_tokens": 20851
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31484.136432409286,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15462,
+      "output_tokens": 5389,
+      "reasoning_tokens": 4160,
+      "total_tokens": 20851
+    },
+    "total_duration_ms": 31484.136432409286
+  }
+}

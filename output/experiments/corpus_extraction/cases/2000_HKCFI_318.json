@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 318",
+    "action_number": "HCPI 527/1998",
+    "case_name": "SO CHUNG KWONG v. NG MING FONG",
+    "judgment_date": "2000-03-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 50,
+    "occupation_before": "Carpenter (foreman)",
+    "occupation_after": "Painter or similar (also worked as watchman/cleaner intermittently)",
+    "expected_occupation_after": "Painter or similar until retirement",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "broken the scaphoid bone in his left hand",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "he was examined and found to have broken the scaphoid bone in his left hand as well as suffering minor abrasions."
+        ],
+        "icd_code": "NC53.0",
+        "icd_description": "Fracture of scaphoid bone of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to his left wrist resulted in residual pain and lack of mobility",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "But pain and lack of mobility persisted in his left wrist, right palm and right ankle, and he was given sick leave until March 1991.",
+          "There is still a residual pain in his left wrist, now 11 years later, and it is not as flexible as it was before the accident."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to his left wrist and right hand resulted in a permanently reduced strength in grip and pinch",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist; right hand",
+        "laterality": null,
+        "source": [
+          "She found that the injury to his left wrist and right hand resulted in a permanently reduced strength in grip and pinch, which would limit his ability to perform as a carpenter because of reduced strength and endurance."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "pain and lack of mobility in right palm and right ankle / injuries to his hands and wrists and right foot",
+        "injury_type": "Residual disability",
+        "body_part": "right palm; right ankle; right foot",
+        "laterality": "right",
+        "source": [
+          "But pain and lack of mobility persisted in his left wrist, right palm and right ankle, and he was given sick leave until March 1991.",
+          "his tests and reports were limited solely to the injuries Mr So suffered to his hands and wrists and right foot."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "minor abrasions",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "he was examined and found to have broken the scaphoid bone in his left hand as well as suffering minor abrasions."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain in his left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left wrist not as flexible as before the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "permanently reduced strength in grip and pinch",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain and lack of mobility persisted in his right palm and right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "was given sick leave for two years",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "becomes frightened when walking on the footpath or when in the vicinity of vehicles",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulties with memory and concentration (as alleged by plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken by ambulance to Prince of Wales Hospital",
+      "hand was put in plaster",
+      "follow up treatment for 12 weeks",
+      "therapy for another 6 months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 730,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "would have resulted in a minor reduction in his capacity to work at his chosen trade; prevented him from working more than intermittently as a carpenter and having to resort to menial activity for a considerably reduced income",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "deterioration in his marriage and relationship with his children; the disorder has diminished the quality of his life, in particular his family life",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His sexual libido has gone from active to non-existent",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "They stopped going out together and a long time ago social intercourse virtually ceased",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Ever since the accident he becomes frightened when walking on the footpath or when in the vicinity of vehicles",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 125000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Oi Ming v. Christian Family Service Centre and Cheng Yuk Kuen",
+        "neutral_citation": null,
+        "action_number": "No. PI 339 of 1995",
+        "injury_description": "permanent damage to her left shoulder with ongoing pain and loss of mobility",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15856,
+      "output_tokens": 7687,
+      "reasoning_tokens": 5696,
+      "total_tokens": 23543
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47296.17702960968,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15856,
+      "output_tokens": 7687,
+      "reasoning_tokens": 5696,
+      "total_tokens": 23543
+    },
+    "total_duration_ms": 47296.17702960968
+  }
+}

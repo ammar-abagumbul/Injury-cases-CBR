@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 136",
+    "action_number": "DCPI 313/2008",
+    "case_name": "YEUNG TSOI KAN v. WONG KEUNG KWONG",
+    "judgment_date": "2009-06-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 18,
+    "age_at_trial": null,
+    "occupation_before": "Waitress at a karaoke bar",
+    "occupation_after": "Sales person",
+    "expected_occupation_after": null,
+    "salary_before": 9167.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whiplash injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Both experts found that Yeung’s symptoms are consistent with soft tissue injury and whiplash injury as a result of the sudden impact of the vehicles in the accident."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck, shoulder and back",
+        "laterality": null,
+        "source": [
+          "Sent to the Tuen Mun Hospital after the accident, Yeung felt pain in her neck, shoulder and back. The diagnosis was soft tissue sprain."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in the neck when moved suddenly",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the left back after sitting, standing and walking for over an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in the left shoulder when moved in a big range and when moving weight of over 5 kg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the left middle and lower lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the left anterior and posterior aspect of the left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the left mid cervical region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "crepitus were felt in her left scapula spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced 20 degrees in forward flexion of the shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the readings of the ranges of motions of the neck were substantially subnormal",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain causing her to wake up in the middle of the night (initially once or twice every night, later about once every 2 to 3 weeks)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "needle pin feeling at her shoulder occasionally",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness occasionally",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "not able to carry a bag of rice weighing 5 kg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Tuen Mun Hospital for 3 nights",
+      "Oral analgesic prescribed",
+      "Follow up treatment and physiotherapy (attended 5 sessions in 2006)",
+      "Outpatient treatment at Tuen Mun Hospital",
+      "Five consultations with private doctor Dr Ng in 2006"
+    ],
+    "treatments_future": [
+      "Physiotherapy once every week for 4 months (recommended by Dr Tio)"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 405,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities attributable to the accident and her injury",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tai Yuk Wong v Chong Kwok Fung & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 1405/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10939,
+      "output_tokens": 5534,
+      "reasoning_tokens": 4032,
+      "total_tokens": 16473
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35229.13121804595,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10939,
+      "output_tokens": 5534,
+      "reasoning_tokens": 4032,
+      "total_tokens": 16473
+    },
+    "total_duration_ms": 35229.13121804595
+  }
+}

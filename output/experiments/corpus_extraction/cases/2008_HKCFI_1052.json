@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 1052",
+    "action_number": "HCPI 979/2007",
+    "case_name": "LEE KIN ON v. CHIT LUEN TRANSPORTATION COMPANY LIMITED",
+    "judgment_date": "2008-12-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "container truck driver",
+    "occupation_after": "taxi driver",
+    "expected_occupation_after": null,
+    "salary_before": 15500.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe fracture of the os calcis of the right heel",
+        "injury_type": "Residual disability",
+        "body_part": "right heel",
+        "laterality": "right",
+        "source": [
+          "An x-ray revealed that he had sustained a severe facture of the os calcis of the right heel.",
+          "Four days later he underwent an open reduction with internal fixation (a plate and multiple screws) and bone grafting.",
+          "This was carried out at PMH on 13 April 2007."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual heel pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual heel stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lifting capacity was limited",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "not able to walk fast or run; needs often to take a short rest",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needs to use a stick for prolonged walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "disqualified from driving tractor trailers / driving restriction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "should avoid work that requires heavy lifting, climbing on ladders or scaffold and prolonged walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction with internal fixation (a plate and multiple screws)",
+      "bone grafting",
+      "physiotherapy",
+      "occupational therapy",
+      "removal of plate and screws"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 16,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 320,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual heel pain and stiffness following severe fracture of the os calcis of the right heel",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Not able to walk fast or run; needs often to take a short rest; needs to use a stick for prolonged walking",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Lifting capacity was limited",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Should avoid work that requires heavy lifting, climbing on ladders or scaffold and prolonged walking; disqualified from driving tractor trailers",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10073,
+      "output_tokens": 5480,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15553
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38712.791442871094,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10073,
+      "output_tokens": 5480,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15553
+    },
+    "total_duration_ms": 38712.791442871094
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 247",
+    "action_number": "DCPI 842/2008",
+    "case_name": "CHENG LIU NEI SU v. CLARE ENVIRONMENTAL SERVICES LTD",
+    "judgment_date": "2009-07-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cleaning foreman",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury / contusion of the back and buttocks with residual pain",
+        "injury_type": "Residual disability",
+        "body_part": "back and buttocks",
+        "laterality": null,
+        "source": [
+          "she fell off the ladder, landing on her buttocks and back.",
+          "some soft tissue injury but there was no major structural damage to the back.",
+          "soft tissue injury with residual pain",
+          "residual pain on the back soft tissue contusion injury is 3 per cent impairment of the whole person"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "adjustment disorder with depressed mood / depression",
+        "injury_type": "Residual disability",
+        "body_part": "mental health",
+        "laterality": null,
+        "source": [
+          "About six months after the accident, she developed mental depression due to the residual back pain which affected her sleep and well-being.",
+          "they agreed Madam Cheng suffered from adjustment disorder with depressed mood.",
+          "Dr Lau assessed her psychiatric impairment to be 1%."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sleep had been affected",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low mood, crying episodes, insomnia, reduced appetite, inertia and anergia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "social and marital relationships were also affected",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not return to her old job",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to Queen Elizabeth Hospital by ambulance at around 6 pm. After examination and diagnosis by the accident and emergency doctors, she was treated and discharged home.",
+      "followed up at the Robert Black General Outpatients Clinic",
+      "followed up at the Queen Elizabeth Hospital Orthopaedics Department",
+      "subsequently, she received physiotherapy and occupational therapy treatments at the Queen Elizabeth Hospital",
+      "treatment at the East Kowloon Psychiatric Centre with medications"
+    ],
+    "treatments_future": [
+      "consultation at the public sector at the East Kowloon Psychiatric Centre"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "her social and marital relationships were also affected",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "she accepted that she could not return to her old job",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ahmed Masood v Chung Kau Engineering Company Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI517/2003",
+        "injury_description": "mild back sprain; permanent residual symptoms of back pain; could only do light duty work after the accident",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v The Kowloon Motorbus Company (1993) Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI775/2001",
+        "injury_description": "back injury resulting in minor back impairment and residual pain; court allowed 9 months' sick leave; plaintiff suffered depression occasioned by inactivity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 273,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13033,
+      "output_tokens": 5538,
+      "reasoning_tokens": 4160,
+      "total_tokens": 18571
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45606.91609978676,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13033,
+      "output_tokens": 5538,
+      "reasoning_tokens": 4160,
+      "total_tokens": 18571
+    },
+    "total_duration_ms": 45606.91609978676
+  }
+}

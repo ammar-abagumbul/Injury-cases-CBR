@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 942",
+    "action_number": "HCPI 653/2012",
+    "case_name": "TANG YAM KAU v. KEY ASIA ENGINEERING LTD",
+    "judgment_date": "2015-06-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "freelance carpenter",
+    "occupation_after": null,
+    "expected_occupation_after": "cleaner",
+    "salary_before": 20800.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "complex multiple deep structure injuries including complete cut of the thumb and middle finger flexor tendons, multiple cuts to the digital arteries and digital nerves, cut to the ring finger extensor tendon, multiple fractures of the thumb, ring and middle fingers and nail injury.",
+        "injury_type": "Residual disability",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "He suffered complex multiple deep structure injuries including complete cut of the thumb and middle finger flexor tendons, multiple cuts to the digital arteries and digital nerves, cut to the ring finger extensor tendon, multiple fractures of the thumb, ring and middle fingers and nail injury.",
+          "Exploration and tendon repair surgery was performed on 16 October 2010."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Adjustment disorder with depressive features",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Mr Tang also developed adjustment disorder with depressive features and was treated with medications as well as cognitive behavioural therapy.",
+          "According to the medical evidence, by 12 May 2011, or about 8 months after the accident, Mr Tang\u0019s wounds were healed and the improvement of hand function has become static with residual stiffness and weakness.",
+          "According to Dr Chow, a further 12 months of sick leave from the date of the first consultation on psychiatric ground was appropriate."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiff fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to make a fist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain despite physiotherapy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Adjustment Disorder with Depressed Mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "exploration and tendon repair surgery",
+      "physiotherapy",
+      "medications",
+      "cognitive behavioural therapy",
+      "psychiatric consultation"
+    ],
+    "treatments_future": [
+      "six sessions of psychological treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "residual hand function impairment including stiff fingers, inability to make a fist, weakness and persistent pain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Mr Tang has lost the enjoyment of a job that he was pride of and I would award HK$50,000 under this head of claim.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 480000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Siu Wa v Nuovo Design Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 84/2010",
+        "injury_description": "similar injury and residual problems (but on his dominant hand) as well as psychiatric illness",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "Tsang Chung Wan v Li Ming or Lee Ming and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 1063/1996",
+        "injury_description": "crushing injury to the dominant hand",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 450000.0
+      },
+      {
+        "case_name": "Chan Kai Wing v Leung Fat Kee Engineering Factory Co and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 1163/1999",
+        "injury_description": "crushing injury of the dominant hand",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 450000.0
+      },
+      {
+        "case_name": "Chow Cheung Ching v Right Base Construction & Engineering Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 742/2000",
+        "injury_description": "injury to his two fingers in the non-dominant hand with fractures that failed to heal and numerous operations including a toe joint implant",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 540000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9195,
+      "output_tokens": 5951,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15146
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37575.684648007154,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9195,
+      "output_tokens": 5951,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15146
+    },
+    "total_duration_ms": 37575.684648007154
+  }
+}

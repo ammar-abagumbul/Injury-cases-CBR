@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 2053",
+    "action_number": "HCPI 122/2011",
+    "case_name": "HO SUK MAN v. SIT TIM MAU AND OTHERS",
+    "judgment_date": "2013-11-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 34,
+    "age_at_trial": 40,
+    "occupation_before": "Assistant accountant",
+    "occupation_after": "Senior accountant",
+    "expected_occupation_after": null,
+    "salary_before": 18000.0,
+    "salary_after": 25000.0,
+    "expected_salary_after": null,
+    "education_level": "Bachelor of Accountancy"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left knee contusion without fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "They agreed that the plaintiff sustained a left knee contusion without fracture and also probably a mild contusion to the left upper arm."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild contusion to the left upper arm",
+        "injury_type": "Temporary injury",
+        "body_part": "left upper arm",
+        "laterality": "left",
+        "source": [
+          "They agreed that the plaintiff sustained a left knee contusion without fracture and also probably a mild contusion to the left upper arm."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue back contusion injury",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "They also agreed that the plaintiff could have sustained soft tissue back contusion injury."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "left hip dysplasia with acetabular labral tear, subchondral (sublabral) bone cyst, subluxation and osteoarthritis",
+        "injury_type": "Permanent injury",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "left hip mild dysplasia with shallow acetabulum and subchondral cyst.",
+          "an MRI scan also showed a left acetabular labrum tear and a sublabral bone cyst.",
+          "He concluded that the plaintiff suffered from left hip dysplasia, labrum tear and bone cyst formation.",
+          "I find that the plaintiff had a degenerative condition of the left hip (left hip dysplasia) before the accident which produced no symptoms.",
+          "I find that the plaintiff’s left hip dysplasia was in a degenerative state and sensitive to trauma, and the accident caused her hip injury and the resultant symptoms."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tender spot on her left upper arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "low back pain radiating down her left thigh or leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "she had a limp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "ranges of motion of the hips were less on the left side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "difficulty walking and sitting for prolonged periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "use of a walking stick"
+    ],
+    "treatments_future": [
+      "continue with physiotherapy (regularly)",
+      "possible surgery discussed but not pursued (patient prefers conservative treatment)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 4,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Will not now be able to do the sporting and other recreational activities that she once enjoyed.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Suffering with left hip pain and some discomfort when walking or sitting for prolonged periods.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 225000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Ming Lung v Fastcut Services Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 545/2001",
+        "injury_description": "minimal displaced fracture of the pubic rami and residual right hip pain after treatment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Lau Tsz Wan v Caltex Oil Hong Kong Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 140/2001",
+        "injury_description": "injury to the femur treated with close reduction and hip screw fixation leaving residual hip pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24489,
+      "output_tokens": 6701,
+      "reasoning_tokens": 4928,
+      "total_tokens": 31190
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39482.78787359595,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24489,
+      "output_tokens": 6701,
+      "reasoning_tokens": 4928,
+      "total_tokens": 31190
+    },
+    "total_duration_ms": 39482.78787359595
+  }
+}

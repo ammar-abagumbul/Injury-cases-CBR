@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "neutral_citation": "[1977] HKCFI 41; HCA 1829/1975 (25 August 1977)",
+    "action_number": "HCA001829/1975",
+    "case_name": "POON SUI LU v. KWONG TAI-CHOI",
+    "judgment_date": "1977-08-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 43,
+    "occupation_before": "licensee and book-keeper of a mahjong school",
+    "occupation_after": "Returned to previous employment after accident but unable to resume book-keeping duties; since October 1975 employed irregularly by his brother-in-law",
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": 400.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Concussion",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "(a) Concussion;"
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Contusion of the brain",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "(b) Contusion of the brain;"
+        ],
+        "icd_code": "NA07.4C",
+        "icd_description": "Focal brain contusion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture of the left and right clavicles",
+        "injury_type": "Residual disability",
+        "body_part": "shoulder / clavicles",
+        "laterality": "bilateral",
+        "source": [
+          "(c) Fracture of the left and right clavicles;"
+        ],
+        "icd_code": "NC12.5",
+        "icd_description": "Multiple fractures of clavicle, scapula or humerus"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Fractures of the right 2nd and 3rd ribs and the left 1st rib",
+        "injury_type": "Temporary injury",
+        "body_part": "thorax / ribs",
+        "laterality": null,
+        "source": [
+          "(d) Fractures of the right 2nd and 3rd ribs and the left 1st rib;"
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Bilateral haemopneumothoraces.",
+        "injury_type": "Temporary injury",
+        "body_part": "thorax / pleural cavities",
+        "laterality": "bilateral",
+        "source": [
+          "(e) Bilateral haemopneumothoraces."
+        ],
+        "icd_code": "NB32.2",
+        "icd_description": "Traumatic haemopneumothorax"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "The deformity of the left shoulder and arm",
+        "injury_type": "Permanent injury",
+        "body_part": "left shoulder and arm",
+        "laterality": "left",
+        "source": [
+          "The deformity of the left shoulder and arm is clearly the most serious consequence of the accident."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Partial loss of hearing in the left ear",
+        "injury_type": "Residual disability",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "(3) Partial loss of hearing in the left ear;"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Impaired function of the left shoulder and arm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Occasional headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Partial loss of hearing in the left ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Coughing causing chest discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Impairment of vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Loss of memory function",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "General lassitude, bad temper and loss of energy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Elizabeth Hospital",
+      "Transferred to the Thoracic Surgical Unit at Kowloon Hospital",
+      "Returned to the care of the Neurosurgical Unit at Queen Elizabeth Hospital",
+      "Discharged from hospital on 1972-10-19",
+      "Continued to attend out-patient clinic",
+      "Consulted several private doctors",
+      "Spectacles prescribed by Dr. W.J. Heffernan"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent loss of movement of the left shoulder and arm; will never be able to lift heavy objects and will suffer some pain when performing simple movements such as dressing or bathing.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Partial loss of hearing in the left ear (assessed approximately 30%) and slight loss in the right ear (about 10%).",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty and pain when performing simple movements such as dressing or bathing due to impairment of the left shoulder and arm.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Some impairment in auditory short-term memory and loss of memory function.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16107,
+      "output_tokens": 8590,
+      "reasoning_tokens": 6528,
+      "total_tokens": 24697
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47416.91342741251,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16107,
+      "output_tokens": 8590,
+      "reasoning_tokens": 6528,
+      "total_tokens": 24697
+    },
+    "total_duration_ms": 47416.91342741251
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 105",
+    "action_number": "DCPI 1092/2010",
+    "case_name": "TAM OI LIN v. SIU HON MING",
+    "judgment_date": "2012-02-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 42,
+    "age_at_trial": 45,
+    "occupation_before": "accounts clerk (accountant clerk) at Keysun Industrial Co Ltd",
+    "occupation_after": "accounts clerk at Keysun Industrial Co Ltd",
+    "expected_occupation_after": "accounts clerk",
+    "salary_before": 11300.0,
+    "salary_after": null,
+    "expected_salary_after": 8000.0,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture (vertical split) of the right tibial plateau, with medial tibial plateau displaced posteromedially",
+        "injury_type": "Temporary injury",
+        "body_part": "right tibial plateau / right knee",
+        "laterality": "right",
+        "source": [
+          "She suffered a fracture (vertical split) of the right tibial plateau, with medial tibial plateau displaced posteromedially. Open reduction and plating was performed on 24.5.2008. Artificial bone substitute was used."
+        ],
+        "icd_code": "NC92.14",
+        "icd_description": "Fracture of upper end of tibia, medial condyle"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "surgical scar over the right knee",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "She has a surgical scar over the right knee."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "early degeneration / increased chance of osteoarthritis of the right knee (10% increased chance noted by expert)",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "According to Dr Wong See Hoi, she is expected to develop early degeneration, and right knee pain is expected on exertion.",
+          "Dr Chun Siu Yeung said that there was an increased chance of osteoarthritis of 10%."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent attacks of stretching pain from outer aspect of right leg to buttock associated with change of weather, fast walking, prolonged walking, and prolonged standing for over 2 hours",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right knee stiffness upon kneeling and squatting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right calf cramp 2 times a month at night time, relieved by stretching and drug",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of efficiency at work on squatting and climbing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right knee pain on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "affected sporting activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "wheelchair bound for 2 months; limited walking with the assistance of a rollator for 4 months; walking with a walking stick for 2 months; could walk unaided by the end of December 2008",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and plating performed on 2008-05-24",
+      "Artificial bone substitute was used",
+      "Implant removal surgery in September 2009",
+      "32 physiotherapy treatment sessions",
+      "Acupuncture treatment (claimed and awarded; acupuncture fees awarded $78,620)",
+      "Tonic food (claimed and awarded $30,195.5)",
+      "Taxi/travelling for treatment and outings (awarded $2,500)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 243,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Wheelchair bound for 2 months; limited walking with assistance of a rollator for 4 months; walking with walking stick for 2 months",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Surgical scar over the right knee",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "This has affected her sporting activities",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of efficiency at work on squatting and climbing; reduced working efficiency which may affect ability to find commensurate employment if employer/company closes",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 210000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Chi Ming v Li Chau Wan & another",
+        "neutral_citation": null,
+        "action_number": "HCPI 1028/2002",
+        "injury_description": "the plaintiff suffered a fractured tibia in his right leg and knee; high chance of accelerated degenerative arthritis of the right knee",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Cheung Kwong Hon v Nixon Cleaning Company Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 1876/2009",
+        "injury_description": "fracture at his right distal tibia; open reduction and internal fixation; intermittent sick leave totaling 10 months; expected on and off pain after prolonged walking, stair climbing and heavy lifting; whole person impairment 4-5%",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11772,
+      "output_tokens": 6629,
+      "reasoning_tokens": 5184,
+      "total_tokens": 18401
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38877.03775987029,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11772,
+      "output_tokens": 6629,
+      "reasoning_tokens": 5184,
+      "total_tokens": 18401
+    },
+    "total_duration_ms": 38877.03775987029
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1925",
+    "action_number": "HCPI 1186/2014",
+    "case_name": "CHAN LONG KIN v. LAM KAM CHEONG",
+    "judgment_date": "2016-11-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 29,
+    "age_at_trial": 33,
+    "occupation_before": "Clerk / administrative assistant for a jewellery business; part-time motorcycle pizza deliveryman",
+    "occupation_after": "Office assistant (redeployed)",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 8800.0,
+    "expected_salary_after": null,
+    "education_level": "Form 4"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left distal fibula (left ankle)",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "X-ray examination revealed fractures of the right superior pubic ramus, L5 lumbar vertebrae transverse process, and left distal fibula (left ankle). He also suffered a soft tissue left shoulder injury."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right superior pubic ramus",
+        "injury_type": "Temporary injury",
+        "body_part": "right superior pubic ramus",
+        "laterality": "right",
+        "source": [
+          "X-ray examination revealed fractures of the right superior pubic ramus, L5 lumbar vertebrae transverse process, and left distal fibula (left ankle). He also suffered a soft tissue left shoulder injury."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "L5 lumbar vertebrae transverse process fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "L5 lumbar vertebrae transverse process",
+        "laterality": null,
+        "source": [
+          "X-ray examination revealed fractures of the right superior pubic ramus, L5 lumbar vertebrae transverse process, and left distal fibula (left ankle). He also suffered a soft tissue left shoulder injury."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "soft tissue left shoulder injury",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "X-ray examination revealed fractures of the right superior pubic ramus, L5 lumbar vertebrae transverse process, and left distal fibula (left ankle). He also suffered a soft tissue left shoulder injury."
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Adjustment Disorder, with some-clinical symptoms of PTSD and Obsessive Compulsive Disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He was first seen on 9 January 2013, and was diagnosed with Adjustment Disorder, with some-clinical symptoms of PTSD and Obsessive Compulsive Disorder."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and cramp in his left ankle and foot when the weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual shoulder pain and slightly decreased range of movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Difficulty in heavy lifting and fast walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Uncontrollable recurrent intrusive imagery of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Fear of riding in private cars or taxis (travel not wholly avoided)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Occasional intrusive thoughts of harming his girlfriend (never acted upon)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Vulnerability to stress, tendency to develop obsessive and hypochondriacal thoughts, fluctuation of mental state when faced with stressors",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Unable to manage Thai boxing, cycling or gym workout",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction internal fixation surgery on left ankle with syndesmotic screw on 2012-09-17",
+      "Surgical removal of syndesmotic screw on 2012-11-16",
+      "Removal of remaining implants from left ankle on 2014-08-05",
+      "20 sessions of physiotherapy between 30 October 2012 and 3 June 2013",
+      "Orthopaedic follow-up care until discharge on 2014-08-20",
+      "Referral to Department of Psychiatry; first seen 9 January 2013; diagnosed and managed (drug-free observation initially)",
+      "Clinical psychology sessions (first seen 27 May 2013; last session 10 July 2013)",
+      "Commencement of Sertraline (low dose) from 27 October 2014 and ongoing psychiatric follow-up",
+      "Occupational therapy assessments (first out-patient session 9 April 2013; last assessment 10 May 2013)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 16,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to manage Thai boxing, cycling or gym workout",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and stiffness in left ankle; difficulty in heavy lifting and fast walking",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 475000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ching Yuk Yee v Furniss Jacqueline Elizabeth and Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 127/2012",
+        "injury_description": "Left ankle fracture; open reduction and internal fixation, later surgery for removal of part of the implant; developed anxiety and sleeping difficulties; diagnosed with PTSD and depression (mild)",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18853,
+      "output_tokens": 8455,
+      "reasoning_tokens": 6400,
+      "total_tokens": 27308
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48590.90754762292,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18853,
+      "output_tokens": 8455,
+      "reasoning_tokens": 6400,
+      "total_tokens": 27308
+    },
+    "total_duration_ms": 48590.90754762292
+  }
+}

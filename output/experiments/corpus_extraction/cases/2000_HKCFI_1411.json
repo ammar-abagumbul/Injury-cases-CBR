@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 1411",
+    "action_number": "HCPI 581/1998",
+    "case_name": "LAU CHIU WAH v. KWONG KEY CONSTRUCTION AND ENGINEERING LTD. AND OTHERS",
+    "judgment_date": "2000-04-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 49,
+    "occupation_before": "stone-cutter / caisson worker",
+    "occupation_after": "security guard (Golden Knight Security Limited)",
+    "expected_occupation_after": null,
+    "salary_before": 26000.0,
+    "salary_after": 5300.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the injury sustained in July 1995 by the plaintiff was a soft tissue contusion injury to the lower back.",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the injury sustained in July 1995 by the plaintiff was a soft tissue contusion injury to the lower back."
+        ],
+        "icd_code": "NB94.Y",
+        "icd_description": "Other specified injury of muscle, fascia or tendon of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the plaintiff had degenerative changes in the lumbar spine which were likely to be present before the accident in July 1995.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff had degenerative changes in the lumbar spine which were likely to be present before the accident in July 1995."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the plaintiff had suffered a back injury in 1989, whereby he suffered back pain but without any pain radiating to his lower extremities.",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "the plaintiff had suffered a back injury in 1989, whereby he suffered back pain but without any pain radiating to his lower extremities."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain radiating down to the left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of his left big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some limitation as to the range of movement of the plaintiff's back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could manage to sit for only 50 to 60 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain when he sneezed or coughed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain with prolonged walking, prolonged standing, climbing stairs or lifting heavy weights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "more back pain in the mornings",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment at Princess Margaret Hospital",
+      "referral to and attendance at South Kwai Chung Specialist Clinic",
+      "physiotherapy (three months)",
+      "MRI scan in 1996",
+      "consultations with private doctor Dr Ma Ming Shing in 1999",
+      "pain killing injection"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from the plaintiff's lower back injury.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his pre-accident job as a caisson worker.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20959,
+      "output_tokens": 5217,
+      "reasoning_tokens": 4160,
+      "total_tokens": 26176
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29818.88197734952,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20959,
+      "output_tokens": 5217,
+      "reasoning_tokens": 4160,
+      "total_tokens": 26176
+    },
+    "total_duration_ms": 29818.88197734952
+  }
+}

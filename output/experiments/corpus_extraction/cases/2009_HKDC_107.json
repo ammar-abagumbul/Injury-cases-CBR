@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 107",
+    "action_number": "DCPI 2537/2007",
+    "case_name": "HUSSAIN TANWEER v. FOCUS ROLLER SHUTTER LTD (IN LIQUIDATION)",
+    "judgment_date": "2009-02-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "welder",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right eye corneal abrasion",
+        "injury_type": "Temporary injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "he was diagnosed for corneal abrasion with no foreign body found.",
+          "the plaintiff claimed he was injured in his right eye at an accident in the course of work ... the welding slag broke and a piece of metal fragment injured his right eye"
+        ],
+        "icd_code": "NA06.4",
+        "icd_description": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back contusion with residual pain and stiffness",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine / lower back",
+        "laterality": null,
+        "source": [
+          "back contusion with residual pain and stiffness",
+          "para-spinal spasm at his lumbar region and the range of movement of the back to have diminished."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left knee sprain",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "left knee sprain",
+          "contusion but no wound over his left knee"
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "poor visual recovery and poor vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "blurry right eye / blurred vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "para-spinal spasm at his lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "range of movement of the back diminished",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent low back pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "contusion but no wound over his left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "temporary left knee pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted into Kwong Wah Hospital for treatment",
+      "referred to Caritas Medical Centre Eye Clinic",
+      "treatment at Caritas Medical Centre Eye Clinic",
+      "treatment at Caritas Medical Centre Orthopaedics Department",
+      "analgesics",
+      "physiotherapy (14 to 15 sessions)",
+      "attendance at Ruttonjee Hospital Accident and Emergency Department"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 143,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Reduced vision / blurred vision in right eye following corneal abrasion",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent low back pain, diminished range of movement and para-spinal spasm in the lumbar region",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Left knee pain and discomfort following contusion / sprain",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 105000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ali Shoukat v Hang Seng Bank Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI3/2003",
+        "injury_description": "loss of lordosis in the lumbosacral region which was found to be the cause of the plaintiff’s pain and muscle spasm",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Lung Kwong Ying v So Sai Lo & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI206/2001",
+        "injury_description": "lumbar spine injury leading to decreased range of movement and muscle spasm; X-ray showed deformity at S4 level; MRI showed degenerative changes at L4/5",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Yuen Yiu Kwong v Chau Kwok Chuen & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI1356/1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Mahmood Tariq v Kinway Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI149/2006",
+        "injury_description": "loss of normal lumbar lordosis and mild degenerative spondylosis with reduced L5/S1 disc space; no back or right knee bone or joint lesion attributable to trauma",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Ashok G. C. v Kam Kee Construction Works Limited & Another",
+        "neutral_citation": "[2006] HKLRD 370",
+        "action_number": "HCPI691/2004",
+        "injury_description": "bilateral spondylosis at the L5 vertebra, assessed as likely pre-existing with 5% to 7% impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12876,
+      "output_tokens": 6977,
+      "reasoning_tokens": 4992,
+      "total_tokens": 19853
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39847.87419438362,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12876,
+      "output_tokens": 6977,
+      "reasoning_tokens": 4992,
+      "total_tokens": 19853
+    },
+    "total_duration_ms": 39847.87419438362
+  }
+}

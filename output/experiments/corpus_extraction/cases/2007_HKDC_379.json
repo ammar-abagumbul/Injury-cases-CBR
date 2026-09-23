@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 379",
+    "action_number": "DCPI 235/2007",
+    "case_name": "CHAN CHUN WA v. WONG CHIU YUEN ANDREW",
+    "judgment_date": "2007-11-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 27,
+    "age_at_trial": null,
+    "occupation_before": "self employed goods vehicle driver",
+    "occupation_after": "scaffold worker",
+    "expected_occupation_after": null,
+    "salary_before": 18786.89,
+    "salary_after": 9853.3,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whiplash injury of the cervical spine with residual pain and stiffness",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "it was their joint opinions that the Plaintiff suffered whiplash injury of the cervical spine with residual pain and stiffness, that the diagnosis was consistent with the mechanism of the injury as a result of the accident which caused the persistent symptoms claimed."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sprained neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "sprained neck and right elbow contusion"
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right elbow contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "sprained neck and right elbow contusion"
+        ],
+        "icd_code": "NC30.1",
+        "icd_description": "Contusion of elbow"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "soft tissue injury on his neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "he was told he suffered from soft tissue injury on his neck."
+        ],
+        "icd_code": "NA61",
+        "icd_description": "Injury of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild tenderness over the posterior neck with reduced range of neck motion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "muscle spasm over the right side of his neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild pain over his right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "numbness along elbow and down to ulnar side of hand and wrist (subsided)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "limitation of motions of the cervical region especially in lateral rotation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain and stiffness over his neck region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "rigid collar",
+      "analgesic",
+      "antacid",
+      "physiotherapy",
+      "orthopaedic consultation",
+      "A & E attendances"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Plaintiff claimed he used to enjoy playing football and swimming prior to the accident. He claimed he could no longer play football or swim due to the neck pain.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Dr. Kong commented that Mr. Chan may find difficulty to maintain a job as a driver because of the neck pain on rotation.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Youn v Ng Kam Man",
+        "neutral_citation": null,
+        "action_number": "HCPI 533/1999",
+        "injury_description": "whiplash injuries; hospitalized for two days; treated with physiotherapy, neck collar and analgesic; on and off residual neck pain",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Chiu Wing See v Cheung Ying Wai",
+        "neutral_citation": "HKLRD 92/2001",
+        "action_number": null,
+        "injury_description": "whiplash injuries; hospitalized for observation for 10 days; continuous neck pain with occasional numbness of right hand",
+        "hospitalisation_days": 10,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Wong Kin Hung v Chan Wai Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 1223/2006",
+        "injury_description": "pain at the neck and simple contusion in the right leg near the knee",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      },
+      {
+        "case_name": "Siu Leung Shang Peter v Chung Wai Ming",
+        "neutral_citation": null,
+        "action_number": "HCPI 43/2006",
+        "injury_description": "soft tissue injury to neck and pain in right thigh; effects mild and of short duration",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Leung Chiu v Poon Tak Hing",
+        "neutral_citation": null,
+        "action_number": "DCPI 2/2001",
+        "injury_description": "neck injuries; hospitalized for 14 days; residual neurological stiffness in upper limb",
+        "hospitalisation_days": 14,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18533,
+      "output_tokens": 9662,
+      "reasoning_tokens": 7616,
+      "total_tokens": 28195
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 56528.65660190582,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18533,
+      "output_tokens": 9662,
+      "reasoning_tokens": 7616,
+      "total_tokens": 28195
+    },
+    "total_duration_ms": 56528.65660190582
+  }
+}

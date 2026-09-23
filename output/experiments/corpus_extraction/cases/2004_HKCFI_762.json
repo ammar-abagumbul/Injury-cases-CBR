@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 762",
+    "action_number": "HCPI 416/2003",
+    "case_name": "AU HON LING v. CHING HOI KEUNG T/A C & L CO AND ANOTHER",
+    "judgment_date": "2004-09-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 34,
+    "occupation_before": "carpenter",
+    "occupation_after": "carpenter",
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": 17000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Cut digital nerve and vessels to the left thumb.",
+        "injury_type": "Permanent injury",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "Cut digital nerve and vessels to the left thumb."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Cut flexor and extensor muscle of the left thumb.",
+        "injury_type": "Permanent injury",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "Cut flexor and extensor muscle of the left thumb."
+        ],
+        "icd_code": "NC57.Y",
+        "icd_description": "Injury of other specified muscle, fascia or tendon at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Cut common digital nerve to the index and middle fingers, and cut common digital nerve to the middle and ring fingers.",
+        "injury_type": "Permanent injury",
+        "body_part": "left index, left middle, left ring fingers",
+        "laterality": "left",
+        "source": [
+          "Cut common digital nerve to the index and middle fingers, and cut common digital nerve to the middle and ring fingers."
+        ],
+        "icd_code": "NC55.1",
+        "icd_description": "Injury of median nerve at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Compound fracture of the distal phalanx and nail bed injury of the little finger.",
+        "injury_type": "Permanent injury",
+        "body_part": "left little finger (distal phalanx and nail bed)",
+        "laterality": "left",
+        "source": [
+          "Compound fracture of the distal phalanx and nail bed injury of the little finger."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Left thumb being almost completely amputated by the saw.",
+        "injury_type": "Permanent injury",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "his left thumb being almost completely amputated by the saw."
+        ],
+        "icd_code": "NC59.0Z",
+        "icd_description": "Traumatic amputation of thumb, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Complete numbness over that part of the left thumb distal to the cut wound.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual numbness at the palmar aspect of the left index and middle fingers.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Complete loss of motion in the interphalangeal joint of the left thumb.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Overall range of movement of the left index, middle and ring fingers was satisfactory despite a very mild loss in the end range of extension.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Sensitive spot over the donor site of the nerve graft (tender spot).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "A neuroma developed at the distal end of the nerve at the donor site for the nerve graft.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "With the residues in the left hand the plaintiff might not be able to perform the carpentry work in full capacity and would likely perform activities with reduced speed and efficiency.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation (same day) with fusion of the left thumb interphalangeal joint",
+      "Revascularization of the radial digital artery",
+      "Repair of the radial digital nerve",
+      "Repair of the nail bed of the little finger",
+      "Physiotherapy (34 sessions between May and November 2000)",
+      "Two further nerve grafting operations (first in October 2000, second about half a year later)",
+      "Neuroma excision at donor site",
+      "K-wires removal at Duchess of Kent Children's Hospital",
+      "Occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scarring and neuroma (tender spot) at the donor site and scarring related to the hand injuries.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Might not be able to perform carpentry work in full capacity; activities likely performed with reduced speed and efficiency.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15905,
+      "output_tokens": 8190,
+      "reasoning_tokens": 6400,
+      "total_tokens": 24095
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42525.837402790785,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15905,
+      "output_tokens": 8190,
+      "reasoning_tokens": 6400,
+      "total_tokens": 24095
+    },
+    "total_duration_ms": 42525.837402790785
+  }
+}

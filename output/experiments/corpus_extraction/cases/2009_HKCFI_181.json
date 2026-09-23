@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 181",
+    "action_number": "HCPI 106/2003 & HCPI 107/2003",
+    "case_name": "CHEUNG YUEN FAN SALLY v. THE HONG KONG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+    "judgment_date": "2009-03-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "attendant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10175.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right postero-lateral disc prolapse at C3-4 with narrowing of the cervical canal",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (C3-4)",
+        "laterality": "right",
+        "source": [
+          "MRI taken of the cervical spine showed reversal of lordosis at C3-4 where there was a right postero-lateral disc prolapse with narrowing of the cervical canal."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "chronic regional pain syndrome involving the right side of her body",
+        "injury_type": "Residual disability",
+        "body_part": "right side of body",
+        "laterality": "right",
+        "source": [
+          "By June of 2000, the plaintiff was diagnosed as having chronic regional pain syndrome involving the right side of her body."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right wrist tendonitis / sprained right wrist",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "diagnosed as suffering from right wrist tendonitis.",
+          "found to be suffering from right wrist tendonitis and was given anti-inflammatory medication."
+        ],
+        "icd_code": "NC57.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain, swelling and redness in her right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "limited movement of right shoulder and right wrist with diffuse tenderness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "on and off swelling and temperature fluctuation of right upper limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "gross restriction of neck motion, with right arm pain during neck extension especially combined with right rotation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain spread to the right side of the neck, shoulder, arm, forearm and hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reversal of lordosis at C3-4",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "anti-inflammatory medication",
+      "four injections between 26 February and 14 March 2000",
+      "admission to St. Teresa's Hospital",
+      "treatment at United Christian Hospital�s Orthopaedic and Traumatology Department",
+      "admission into Hong Kong Sanatorium & Hospital in mid June 2000 treated with analgesic and anti-inflammatory agents",
+      "physiotherapy at MacLehose Medical Rehabilitation Centre for five months (Oct 2000 to Feb 2001)",
+      "referral to the Pain Team and the Department of Orthopaedic and Traumatology of Queen Mary Hospital",
+      "chiropractic treatment from Dr Leung",
+      "psychological treatment by clinical psychologist Wong Ting (QMH) from 27 November 2002 until 8 December 2004"
+    ],
+    "treatments_future": [
+      "conservative chiropractic treatments at least once per week for six months (medium term) and long term chiropractic treatment at least twice per month as maintenance (as advised by Dr Leung)",
+      "psychotherapy / psychiatric assessment (advised by experts)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 275000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17940,
+      "output_tokens": 6462,
+      "reasoning_tokens": 5120,
+      "total_tokens": 24402
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50739.643186330795,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17940,
+      "output_tokens": 6462,
+      "reasoning_tokens": 5120,
+      "total_tokens": 24402
+    },
+    "total_duration_ms": 50739.643186330795
+  }
+}

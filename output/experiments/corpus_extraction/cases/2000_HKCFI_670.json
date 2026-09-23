@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 670",
+    "action_number": "HCPI 317/1999",
+    "case_name": "LEUNG LAI YIN v. YEUNG KEI CHI AND OTHERS",
+    "judgment_date": "2000-04-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 32,
+    "age_at_trial": 36,
+    "occupation_before": "master carpenter",
+    "occupation_after": "carpenter",
+    "expected_occupation_after": null,
+    "salary_before": 16100.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "his middle finger was amputated",
+        "injury_type": "Permanent injury",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "He suffered near amputation of his left index and ring fingers while his middle finger was amputated."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "near amputation of his left index finger",
+        "injury_type": "Permanent injury",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "He suffered near amputation of his left index and ring fingers while his middle finger was amputated."
+        ],
+        "icd_code": "NC59.21",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, left hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "near amputation of his left ring finger",
+        "injury_type": "Permanent injury",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "He suffered near amputation of his left index and ring fingers while his middle finger was amputated."
+        ],
+        "icd_code": "NC59.21",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, left hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He is now able to return to his original occupation as a carpenter, though at a disability.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a number of his fingers were cut",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgery (5 operations)",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity awarded $400,000.00",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Chi Bun v. Leung Wah Kwan",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 1984 of 1997",
+        "injury_description": "severe deep cut over the dorsum of his right (dominant) hand. He had six operations and physiotherapy. He could not use his ring or little fingers and could not return to his original employment.",
+        "hospitalisation_days": null,
+        "operations_count": 6,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 480000.0
+      },
+      {
+        "case_name": "Ma Kam Yeung v. Fu Hay Kin",
+        "neutral_citation": "[1998] 2 HKLRD 615",
+        "action_number": null,
+        "injury_description": "severe cut between his thumb and forefinger. The thumb was saved.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12969,
+      "output_tokens": 6968,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19937
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27674.044102430344,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12969,
+      "output_tokens": 6968,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19937
+    },
+    "total_duration_ms": 27674.044102430344
+  }
+}

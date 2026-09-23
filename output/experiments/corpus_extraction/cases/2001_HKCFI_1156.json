@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 1156",
+    "action_number": "HCPI 1038/1999",
+    "case_name": "LI KING WING v. HONG KONG AIR CARGO TERMINALS LIMITED",
+    "judgment_date": "2001-03-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "warehouseman",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9388.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "was injured on his right ankle, waist and back and, at United Christian Hospital, was diagnosed to have right leg and lower back soft tissue contusion.",
+        "injury_type": "Temporary injury",
+        "body_part": "right leg and lower back",
+        "laterality": "right",
+        "source": [
+          "was injured on his right ankle, waist and back and, at United Christian Hospital, was diagnosed to have right leg and lower back soft tissue contusion."
+        ],
+        "icd_code": "ND11.1",
+        "icd_description": "Contusion of ankle"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "he sprained his back when he was lifting cargo.",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "he sprained his back when he was lifting cargo."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "An MRI scan on 19-6-98 showed degenerated discs at L4/5 and L5/S1, but no nerve compression.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbo-sacral spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "An MRI scan on 19-6-98 showed degenerated discs at L4/5 and L5/S1, but no nerve compression."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persisting numbness over the dorsum of the right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "parasthesia of the R leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "could only walk for about 15 minutes, sit for 30 minutes and stand for 20 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "seen to walk with a limp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "use a walking stick in his R hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "could squat normally but could not stand on the right leg alone",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right sciatica",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "hunched over a stick, moved extremely slowly and carefully when going in and out of the witness box",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "attendance at A & E Department",
+      "follow-up at P.O.W. Hospital"
+    ],
+    "treatments_future": [
+      "periodic follow up at P.O.W. Hospital",
+      "Pain Clinic consultations",
+      "psychiatric assessment",
+      "spinal injections (mentioned as a proposed treatment)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced ability to walk, sit and stand: \"could only walk for about 15 minutes, sit for 30 minutes and stand for 20 minutes\" and walking with a limp and use of a walking stick.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "His wife had had to stop work to care for him.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "serious injury category in Lee Ting Lam",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15028,
+      "output_tokens": 6398,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21426
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36120.018631219864,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15028,
+      "output_tokens": 6398,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21426
+    },
+    "total_duration_ms": 36120.018631219864
+  }
+}

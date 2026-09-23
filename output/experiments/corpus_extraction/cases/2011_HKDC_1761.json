@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 1761",
+    "action_number": "DCPI 691/2010",
+    "case_name": "CHOI YUM MAN v. LAM SIU WING",
+    "judgment_date": "2011-12-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "decoration worker",
+    "occupation_after": "maintenance repair worker (meter company)",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right foot injury with a transverse laceration and rupture of toe extensors",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "right foot injury with a transverse 4 cm long laceration with tendon cut over the dorsum of the right foot.",
+          "the injury to be a 3 cm transverse laceration over the dorsum of the right foot and the action extension of the second to fourth toes was lost due to the complete rupture of the extensors of the second to fourth toes."
+        ],
+        "icd_code": "ND17.11",
+        "icd_description": "Laceration of muscle, fascia or tendon of long extensor muscle of toe at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right foot discomfort over the dorsum of the right foot after prolonged standing for 30 minutes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and constricting feelings in the foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right toes stiffness and pain.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "complaining of lack of strength in the right foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not squat fully without feeling pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency treatment at Alice Ho Miu Ling Nethersole Hospital",
+      "surgical repair operation",
+      "follow up clinic attendance"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, Suffering and Loss of Amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Ming Kwan v Wing Ming Electrical Company Limited and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 760/2003",
+        "injury_description": "right leg laceration with complete cut of right anterior tibial artery, deep peroneal nerve, anterior tibial tendon, extensor hallucis longus tendon and extensor digitorum longus tendon; assessed 7% permanent impairment of the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "To Ying Wa v Cargo-Land (Warehouse) Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI441/2000",
+        "injury_description": "close reduction and K-wire fixation on right fourth and fifth metacarpals; cast for 1 month; assessed 1% permanent disability",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Imtiaz Perviz v Senibo Development Limited and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 437/2005",
+        "injury_description": "fracture to right tibia and compartment syndrome; emergency operation and a second operation including debridement and skin grafting; hospitalised for 10 days; attended 30 sessions of physiotherapy",
+        "hospitalisation_days": 10,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9426,
+      "output_tokens": 5342,
+      "reasoning_tokens": 4032,
+      "total_tokens": 14768
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49358.56328904629,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9426,
+      "output_tokens": 5342,
+      "reasoning_tokens": 4032,
+      "total_tokens": 14768
+    },
+    "total_duration_ms": 49358.56328904629
+  }
+}

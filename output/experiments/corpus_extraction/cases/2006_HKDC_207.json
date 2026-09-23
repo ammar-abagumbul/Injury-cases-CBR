@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 207",
+    "action_number": "DCPI 976/2005",
+    "case_name": "NG SIU CHO v. THE INCORPORATED OWNERS OF JARDINE COURT",
+    "judgment_date": "2006-07-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 63,
+    "age_at_trial": 67,
+    "occupation_before": "caretaker at Jardine Court",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right head of radius",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray taken on P’s right elbow showed fracture of the right head of radius."
+        ],
+        "icd_code": "NC32.1",
+        "icd_description": "Fracture of upper end of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "severely altered bony anatomy and the permanently dislocated ulnohumeral and radio-humeral joints in P’s right elbow",
+        "injury_type": "Permanent injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "the previous accident caused a severely altered bony anatomy and the permanently dislocated ulnohumeral and radio-humeral joints in P’s right elbow."
+        ],
+        "icd_code": "NC33.1",
+        "icd_description": "Dislocation of elbow"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to his right elbow",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "the experts opined that P sustained only soft tissue injury to his right elbow"
+        ],
+        "icd_code": "NC33.4",
+        "icd_description": "Strain or sprain of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right elbow was found to be swelling with tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abrasion on the right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual pain in right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "paraesthesia in right elbow",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "weakness in right forearm and hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "decrease in the range of movement of the right elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "wasting of muscles of the right hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right thumb weakness and inability to make a fist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department consultation",
+      "X-ray",
+      "conservative treatment",
+      "long arm cylinder (arm cylinder) applied"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "limitation of movement and inability to take part in activities like martial arts and lion dance",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "cannot cut food or use chopsticks with his right hand",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "loss of earning capacity due to limited range of movement of right arm",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11971,
+      "output_tokens": 6356,
+      "reasoning_tokens": 4992,
+      "total_tokens": 18327
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36641.3113810122,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11971,
+      "output_tokens": 6356,
+      "reasoning_tokens": 4992,
+      "total_tokens": 18327
+    },
+    "total_duration_ms": 36641.3113810122
+  }
+}

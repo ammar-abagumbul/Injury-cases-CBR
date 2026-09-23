@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 958",
+    "action_number": "HCPI 1300/2000",
+    "case_name": "HO KWAI SANG v. YEUNG LING TSZ AND ANOTHER",
+    "judgment_date": "2002-10-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 40,
+    "age_at_trial": 45,
+    "occupation_before": "steel bender / steel bar fixer",
+    "occupation_after": null,
+    "expected_occupation_after": "casual worker at construction sites",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe soft tissue sprained injury over his lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "it is likely that the plaintiff suffered from severe soft tissue sprained injury over his lower back.",
+          "“ When lifting up a 12 m long Y40 iron bar the iron bar got entangled and resulted in sprain injury to the waist accidentally.\""
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual inflammation accounting for persistent back pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to carry on pre-accident work as a steel bender (heavy manual work requiring frequent bending or lifting)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "5% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Kwong Wah Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent back pain and residual inflammation in the lower back following a soft tissue sprain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Could not carry on with pre-accident work as a steel bender (heavy manual work requiring frequent bending or lifting)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15083,
+      "output_tokens": 3283,
+      "reasoning_tokens": 2432,
+      "total_tokens": 18366
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 18585.600584745407,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15083,
+      "output_tokens": 3283,
+      "reasoning_tokens": 2432,
+      "total_tokens": 18366
+    },
+    "total_duration_ms": 18585.600584745407
+  }
+}

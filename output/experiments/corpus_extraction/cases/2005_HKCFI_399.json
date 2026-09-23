@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 399",
+    "action_number": "HCPI 1194/2003",
+    "case_name": "YU WAI LEUNG v. MANDARIN ORIENTAL, HONG KONG LTD",
+    "judgment_date": "2005-05-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 55,
+    "occupation_before": "Number 4 chopper, Man Wah Chinese Restaurant, Mandarin Oriental Hotel",
+    "occupation_after": "retired",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "educated up to the third form at secondary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "tennis elbow (lateral epicondylitis)",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "sustained what is commonly referred to as tennis elbow, its medical term being lateral epicondylitis.",
+          "He noticed soreness over the right elbow in 1998.",
+          "Dr Tsoi ... describes how tennis elbow is not uncommonly seen in middle aged patients with 'over use of forearm extensor muscles'."
+        ],
+        "icd_code": "NC36.5Y",
+        "icd_description": "Other specified injury of other extensor muscle, fascia or tendon at forearm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "soreness over the right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and inconvenience for about two years (period of symptoms for which compensation would be awarded)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "disabled and unable to perform his duties nor indeed less onerous work put on him (sandwich making)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "steroid injections",
+      "rest",
+      "analgesics",
+      "treatment by company doctor",
+      "treatment at Occupational Health Clinic",
+      "referral to Queen Mary Hospital",
+      "over 100 sessions of physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity (judge would have awarded HKD 110,000 for two years of some pain and inconvenience)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 110000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yip Man Leung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "arm injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Yuen Wai Kuen",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "arm injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Gurung Netrabahadur",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "arm injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11761,
+      "output_tokens": 4175,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15936
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32303.43098565936,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11761,
+      "output_tokens": 4175,
+      "reasoning_tokens": 3328,
+      "total_tokens": 15936
+    },
+    "total_duration_ms": 32303.43098565936
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 286",
+    "action_number": "HCPI000166/1995",
+    "case_name": "CHEUNG CHI WAH v. WAI LUEN METAL FACTORY",
+    "judgment_date": "1997-12-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "delivery and general worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the middle phalanx of the 2nd toe",
+        "injury_type": "Temporary injury",
+        "body_part": "right 2nd toe",
+        "laterality": "right",
+        "source": [
+          "x-ray on 30th March 1992 which revealed fracture of the middle phalanx of the 2nd toe.",
+          "X-ray revealed the frature was completely healed."
+        ],
+        "icd_code": "ND13.5",
+        "icd_description": "Fracture of other toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "recurring pain once every now and then for a few minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the flexor and extensor tendons",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mildly swollen right 2nd toe with local tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased inter phalangeal joint movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly decreased plantarflexion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "subjective pain on palpation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "consultation with a herbalist",
+      "x-ray",
+      "consultation with general practitioner Dr. Eddie T. Chan",
+      "sick leave certificates",
+      "orthopaedic outpatient consultation at Tuen Mun Hospital Department of Orthopaedics and Traumatology",
+      "consultation with Dr. Lau Hoi Kuen",
+      "consultation with Dr. Tsoi Chi Wah"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Pain and suffering and loss of amenities claimed including inability to pursue hobbies (football, fishing, swimming).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Sam-mui (Administratrix of the Estate of Tam Wan Loong, deceased) v. Fan Yiu Sum",
+        "neutral_citation": null,
+        "action_number": "HCA 1817/94",
+        "injury_description": "fractures to 2nd and 3rd metatarsal bones and lacerations, hospitalised for 3 weeks with follow up treatment for 6 months.",
+        "hospitalisation_days": 21,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Wong Hok Chuen v. Tai Kam Kui",
+        "neutral_citation": null,
+        "action_number": "HCA 5331/1985",
+        "injury_description": "concussion for a few hours, laceration of the scalp and the scrotum, a wedge fracture of the front of the body of the 2nd lumbar vertebra and some damage to the fifth lumbar nerve and to the right shoulder joint, hospitalized for 3 days.",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8968,
+      "output_tokens": 4245,
+      "reasoning_tokens": 3008,
+      "total_tokens": 13213
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29282.18997642398,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8968,
+      "output_tokens": 4245,
+      "reasoning_tokens": 3008,
+      "total_tokens": 13213
+    },
+    "total_duration_ms": 29282.18997642398
+  }
+}

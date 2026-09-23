@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 277",
+    "action_number": "DCPI 560/2005",
+    "case_name": "WONG SHUK LEI v. LEUNG MING KWONG",
+    "judgment_date": "2005-12-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "machine operator",
+    "occupation_after": "jobless",
+    "expected_occupation_after": null,
+    "salary_before": 7150.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": "low education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Soft tissue injury / lumbar spine involvement with tenderness at L4/5 and L5/S1 and decreased range of motion",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": "left",
+        "source": [
+          "tenderness elicited at the L4/5 and L5/S1 levels, maximal over her left paraspinal regions. The range of motion of her lumbar spine, in terms of flexion, extension, left and right lateral bending, had substantially decreased. She had reached a state of maximum medical improvement."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Face injury (eye twitching)",
+        "injury_type": "Residual disability",
+        "body_part": "face / eye",
+        "laterality": "left",
+        "source": [
+          "she still suffers back pain, face injury (eye twitching), and psychological impacts.",
+          "the plaintiff was sitting at an aisle seat in a coach. The defendant negligently drove a car, which hit the coach. She was thrown forward with her left face hit against her front seat."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Psychological impacts (anxiety and fear)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "she still suffers back pain, face injury (eye twitching), and psychological impacts.",
+          "Anxiety and fear"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness elicited at the L4/5 and L5/S1 levels, maximal over her left paraspinal regions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Substantially decreased range of motion of the lumbar spine (flexion, extension, left and right lateral bending)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to stand long or sit low due to back pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Eye twitching",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Anxiety and fear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency attendances at Queen Elizabeth Hospital (A & E QEH)",
+      "X-ray of lumbar spine",
+      "Admission from 30.5.04 to 1.6.04 for anxiety and fear (Psychological) at TKOH",
+      "Psychological treatment (multiple entries listed as Anxiety and fear at TKOH)",
+      "Orthopaedic consultations at TKOH",
+      "Physiotherapy at TKOH",
+      "Consultation with orthopaedic specialist Dr. Li Wing Kin (report after consultation on 19 March 2005)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 30,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Lun v Hui Cho Yee & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 120/1997",
+        "injury_description": "Fractured odontoid which has healed; Soft tissue injury at left side and low back; Mild pain or discomfort which might increase slightly as he got older; Mild depressive mood which was likely to dissipate upon conclusion of trial.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11161,
+      "output_tokens": 4814,
+      "reasoning_tokens": 3392,
+      "total_tokens": 15975
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37669.954780489206,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11161,
+      "output_tokens": 4814,
+      "reasoning_tokens": 3392,
+      "total_tokens": 15975
+    },
+    "total_duration_ms": 37669.954780489206
+  }
+}

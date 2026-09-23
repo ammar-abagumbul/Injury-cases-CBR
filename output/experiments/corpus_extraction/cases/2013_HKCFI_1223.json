@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 1223",
+    "action_number": "HCPI 846/2011",
+    "case_name": "LAW YAU KEUNG v. CHU SAI CHUEN",
+    "judgment_date": "2013-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 59,
+    "age_at_trial": 64,
+    "occupation_before": "self-employed taxi driver",
+    "occupation_after": "taxi driver",
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "low education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor soft tissue sprain of the neck on the right side with the right trapezius muscle",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine / neck (right trapezius)",
+        "laterality": "right",
+        "source": [
+          "Dr Chun agreed that the plaintiff suffered from minor soft tissue sprain of the neck on the right side with the right trapezius muscle with no neurological deficit.",
+          "According to Dr Lung, the plaintiff suffered from soft tissue injury in cervical spine region with partial recovery."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post traumatic stress disorder (PTSD)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "I find the plaintiff suffered soft tissue injury. I rely on the evidence of Dr Chun, Dr Lung and Dr Singer. I do not adopt the opinion of Dr Lee. I find the plaintiff suffered from mild soft tissue injury and after the accident, he had suffered mild PTSD.",
+          "It is recorded that the plaintiff complained that he had impairment of sleep associated with neck pain 10 odd days after the accident. He also had nightmares – of driving and walking on street and being hit by cars."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "pre-existing mild cervical spine degeneration (degenerative changes over C5/6/7 cervical vertebrae)",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (C5/6/7)",
+        "laterality": null,
+        "source": [
+          "X-ray examination showed that there were degenerative changes over C5/6/7 cervical vertebrae.",
+          "It is important to note that Dr Lung opined that while the accident caused soft tissue injury and the plaintiff suffered from the residual pain, but the residual numbness, reduced upper limb power and sensation cannot be explained by soft tissue injury. The pattern of reduced power and sensation cannot be explained by nerve compression by disc prolapse. It is said that the residual pain was so intense and his neck stiffness so marked that these are disproportionally severed. The limb numbness does not correspond to any nerve injury pattern."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent neck pain (rated by plaintiff as high; pain affecting sleep)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced neck range of movement / neck stiffness (claimed marked limitation; multiple clinic notes recorded 'ROM full')",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "upper limb 'numbness' (reduction of sensation, soreness, ache and weakness)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "poor walking tolerance (can walk up to 3 to 4 minutes as recorded by orthopaedic report)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor sitting tolerance (sitting tolerance recorded as 10 minutes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia, nightmares and re-experiencing/flashbacks of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "fear and avoidance of stimuli reminding of the accident (e.g. fear of driving taxis, sitting in front row of bus)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "low mood, lack of energy, poor memory and concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "erectile dysfunction (patient complained of erectile dysfunction)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "suicidal ideation and attempts (attempted suicide three times, last in 2010)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy (27 sessions at PMH from 11 September 2009 to 3 March 2010)",
+      "inpatient observation (overnight at United Christian Hospital)",
+      "outpatient psychiatric treatment (referred to WKPC; psychiatric assessment and treatment)"
+    ],
+    "treatments_future": [
+      "psychiatric medication",
+      "psychotherapy (intensive; 8 sessions at intervals of 2 weeks on average)"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 300
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced walking, sitting and standing tolerance (walking up to 3-4 minutes, sitting tolerance 10 minutes, standing tolerance 20 minutes recorded in orthopaedic report).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Low mood, lack of energy, poor memory and concentration after the accident.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Erectile dysfunction complained by the plaintiff.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14876,
+      "output_tokens": 5560,
+      "reasoning_tokens": 3776,
+      "total_tokens": 20436
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31622.492618858814,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14876,
+      "output_tokens": 5560,
+      "reasoning_tokens": 3776,
+      "total_tokens": 20436
+    },
+    "total_duration_ms": 31622.492618858814
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 838",
+    "action_number": "DCPI 1148/2014",
+    "case_name": "LAU KWAI CHIU AND OTHERS v. WONG HOK CHEUNG",
+    "judgment_date": "2015-07-29",
+    "plaintiff_count": 5,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Adjustment Disorder With Anxiety",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "it stated that the 4th plaintiff attended for “psychiatric assessment” on 27 September 2014. It further stated that the 4th plaintiff was “diagnosed with Adjustment Disorder With Anxiety”.",
+          "“On examination, [the 4th plaintiff] was diagnosed with Adjustment Disorder With Anxiety” (paragraph 1)"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "anxiety",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "psychiatric assessment on 27 September 2014"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9435,
+      "output_tokens": 2415,
+      "reasoning_tokens": 1856,
+      "total_tokens": 11850
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 17586.524948477745,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9435,
+      "output_tokens": 2415,
+      "reasoning_tokens": 1856,
+      "total_tokens": 11850
+    },
+    "total_duration_ms": 17586.524948477745
+  }
+}

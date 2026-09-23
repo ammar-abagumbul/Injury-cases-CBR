@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1492",
+    "action_number": "HCPI 1085/2014",
+    "case_name": "LEE LUK PO v. SIN SZE T/A NGAI LUNG IRON WARE ENG",
+    "judgment_date": "2015-08-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 38,
+    "age_at_trial": 42,
+    "occupation_before": "ironware worker (welding work)",
+    "occupation_after": "ironware worker",
+    "expected_occupation_after": null,
+    "salary_before": 18750.0,
+    "salary_after": 17000.0,
+    "expected_salary_after": null,
+    "education_level": "Secondary 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the spine at T12",
+        "injury_type": "Residual disability",
+        "body_part": "T12 vertebra",
+        "laterality": null,
+        "source": [
+          "fracture of the spine at T12",
+          "collapsed fracture at the anterio-superior aspect of T12 vertebra"
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the proximal interphalangeal joints of both middle fingers of both his hands were dislocated",
+        "injury_type": "Temporary injury",
+        "body_part": "proximal interphalangeal joints of both middle fingers",
+        "laterality": "bilateral",
+        "source": [
+          "the proximal interphalangeal joints of both middle fingers of both his hands were dislocated"
+        ],
+        "icd_code": "NC54.3",
+        "icd_description": "Multiple dislocations of fingers"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe pain in his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severe pain in his hands",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "intermittent pain which occurred daily, lasting some 10 to 20 minutes; he rated the pain to be in the region of 2 to 3 out of 10",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain aggravated by bad weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced ability to lift heavy weights; he would suffer pain if he was lifting weights of up to 30 to 40 catties",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain over the thoracolumbar junction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of movement was good",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "there was no neurological deficit in his lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sent to the Accident & Emergency Department of the Pok Oi Hospital and then to Tuen Mun Hospital",
+      "clinical examination and X-rays",
+      "CT scan (23 June 2011)",
+      "fracture at T12 treated conservatively with thoracolumbarsacral orthosis",
+      "dislocation of the middle fingers managed with closed reduction and finger splintage",
+      "eight sessions of physiotherapy at the Kwong Wah Hospital",
+      "outpatient follow up at Tuen Mun Hospital and orthopaedics follow-up at Tseung Kwan O Hospital",
+      "treatment from private practitioners"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 24,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 178,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "fracture of the T12 vertebra with residual reduction in height of less than 25 per cent and dislocation of the proximal interphalangeal joints of both middle fingers",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "reduced efficiency in resuming his duty as a metallic worker and welder on account of pain over his back when he had to climb, when performing heavy manual work, or on prolonged standing and bending of his back; endurance and power would also be moderately reduced and he might need intermittent breaks of 15 minutes after working for some two hours",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11433,
+      "output_tokens": 4845,
+      "reasoning_tokens": 3456,
+      "total_tokens": 16278
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32083.090130239725,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11433,
+      "output_tokens": 4845,
+      "reasoning_tokens": 3456,
+      "total_tokens": 16278
+    },
+    "total_duration_ms": 32083.090130239725
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 47",
+    "action_number": "DCPI 164/2003",
+    "case_name": "MAN LAI MUI v. DIRECTOR OF TERRITORY DEVELOPMENT AND ANOTHER",
+    "judgment_date": "2006-02-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 80,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right neck of femur",
+        "injury_type": "Permanent injury",
+        "body_part": "right neck of femur",
+        "laterality": "right",
+        "source": [
+          "sustained a fracture of the right neck of femur."
+        ],
+        "icd_code": "NC72.2Z",
+        "icd_description": "Fracture of neck of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "progressive wear of the cartilage of the hip due to pressure of the metal prosthesis following Austin Moore arthroplasty",
+        "injury_type": "Permanent injury",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "consequent significant residual pain and stiffness of the hip joint due to progressive wear of the cartilage from pressure of the metal prosthesis."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "significant residual pain and stiffness of the hip joint",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in activities of daily living and ambulation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "required a full time domestic helper to relieve the burden on the Daughter",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diapers when going out",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a walking frame for walking at home",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not climb stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would not require further therapeutic treatment except analgesics for her right hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "problem to progress in future due to progressive wear of the cartilage",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Austin Moore arthroplasty (ie removal of the femoral head and replacing it with a metal prosthesis)"
+    ],
+    "treatments_future": [
+      "analgesics"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "The Plaintiff had difficulty in activities of daily living and ambulation and could not climb stairs; required a walking frame for walking at home.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "The Plaintiff required a full time domestic helper to relieve the burden on the Daughter.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "The Plaintiff had difficulty in activities of daily living and required assistance for domestic tasks.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23788,
+      "output_tokens": 4561,
+      "reasoning_tokens": 3648,
+      "total_tokens": 28349
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25897.929798811674,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23788,
+      "output_tokens": 4561,
+      "reasoning_tokens": 3648,
+      "total_tokens": 28349
+    },
+    "total_duration_ms": 25897.929798811674
+  }
+}

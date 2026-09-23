@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 163",
+    "action_number": "HCA003982/1978",
+    "case_name": "LEE YUK YING v. GHIM KWOK CHUEN AND ANOTHER",
+    "judgment_date": "1980-11-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 56,
+    "age_at_trial": null,
+    "occupation_before": "employed immediately prior to the accident in a factory",
+    "occupation_after": "baby-sitter for her daughter",
+    "expected_occupation_after": null,
+    "salary_before": 318.44,
+    "salary_after": null,
+    "expected_salary_after": 650.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compression fracture of the 11th thoracic vertebra",
+        "injury_type": "Residual disability",
+        "body_part": "11th thoracic vertebra",
+        "laterality": null,
+        "source": [
+          "The plaintiff's main injuries were a compression fracture of the 11th thoracic vertebra and a fracture of the pelvis.",
+          "Mr Wedderburn said that the fracture of the 11th thoracic vertebra had united but the compression of the vertebra (more than 50%) upsets the mechanics of the spine which causes her some back pain."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "The plaintiff's main injuries were a compression fracture of the 11th thoracic vertebra and a fracture of the pelvis.",
+          "The pelvic fracture has properly healed with no impairment."
+        ],
+        "icd_code": "NB52.Z",
+        "icd_description": "Fracture of lumbar spine or pelvis, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "period of post-traumatic ammensia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "post-traumatic neuralgia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "needed a companion to help her in walking for about a month",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "visual fields were markedly restricted; \"blurring vision symptoms\" partly due to cataract and partly due to refractive error; spectacles prescribed to bring vision to 6/24 in each eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "bonesetter treatment",
+      "eye specialist consultation",
+      "spectacles prescribed"
+    ],
+    "treatments_future": [
+      "exercises",
+      "physiotherapy"
+    ],
+    "hospitalisation_days": 24,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (general damages for pain, suffering and loss of amenities)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Back pain would affect her efficiency and might make it difficult for her to get a job",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9940,
+      "output_tokens": 5156,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15096
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28431.65234476328,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9940,
+      "output_tokens": 5156,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15096
+    },
+    "total_duration_ms": 28431.65234476328
+  }
+}

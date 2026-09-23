@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 40",
+    "action_number": "HCA002146/1979",
+    "case_name": "NG FAT SUM v. LI CHOR AND ANOTHER",
+    "judgment_date": "1979-08-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "free-lance cameraman employed in the television and motion picture industry",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "found to have a fractured pelvis"
+        ],
+        "icd_code": "NB52.Z",
+        "icd_description": "Fracture of lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured neck of the right femur",
+        "injury_type": "Temporary injury",
+        "body_part": "neck of the right femur",
+        "laterality": "right",
+        "source": [
+          "fractured neck of the right femur. This fracture in the thigh was \"pinned\"",
+          "The pin remains at the site of the fracture and the probability is that it will be there for the rest of the plaintiff's life."
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "was on crutches for about 3 months",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "was encouraged to walk with the assistance of a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "had to attend regularly as an out-patient for six months before he was fit for work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "assessed as normal with no disability",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The pin remains at the site of the fracture and the probability is that it will be there for the rest of the plaintiff's life",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "fracture \"pinned\" (operation)",
+      "admitted to hospital",
+      "follow-up out-patient treatment",
+      "walk on crutches then with the assistance of a stick"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 15,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General Damages $10,000 for pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9230,
+      "output_tokens": 4362,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13592
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28963.874362409115,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9230,
+      "output_tokens": 4362,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13592
+    },
+    "total_duration_ms": 28963.874362409115
+  }
+}

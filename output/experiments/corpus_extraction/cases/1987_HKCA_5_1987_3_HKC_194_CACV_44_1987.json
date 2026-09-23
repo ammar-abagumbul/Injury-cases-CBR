@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCA 5; [1987] 3 HKC 194; CACV 44/1987",
+    "action_number": "CACV 44/1987",
+    "case_name": "HUI KIN FAI v. DIRECTOR OF HOUSING",
+    "judgment_date": "1987-10-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 16,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a 5 cm. laceration over the chin, below the lip; keloid formation on the scar resulting from a cut on his chin caused by the accident",
+        "injury_type": "Permanent injury",
+        "body_part": "chin",
+        "laterality": null,
+        "source": [
+          "a 5 cm. laceration over the chin, below the lip.",
+          "keloid formation on the scar resulting from a cut on his chin caused by the accident."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple abrasions over the head, lower jaw, abdomen and right upper chest",
+        "injury_type": "Temporary injury",
+        "body_part": "head, lower jaw, abdomen, right upper chest",
+        "laterality": null,
+        "source": [
+          "multiple abrasions over the head, lower jaw, abdomen and right upper chest"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the left radial styloid",
+        "injury_type": "Temporary injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "a swollen left wrist which X-ray showed to be due to a fracture of the left radial styloid."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "5 cm. swelling on the top of his head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "multiple abrasions over the head, lower jaw, abdomen and right upper chest",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "5 cm. laceration over the chin, below the lip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swollen left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "keloid formation on the scar resulting from a cut on his chin",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to the hospital",
+      "X-ray"
+    ],
+    "treatments_future": [
+      "plastic surgery to remove the keloid formation on the scar resulting from a cut on his chin"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "keloid formation on the scar resulting from a cut on his chin caused by the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities (non-pecuniary general damages)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 8500.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13231,
+      "output_tokens": 4697,
+      "reasoning_tokens": 3456,
+      "total_tokens": 17928
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31626.318026334047,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13231,
+      "output_tokens": 4697,
+      "reasoning_tokens": 3456,
+      "total_tokens": 17928
+    },
+    "total_duration_ms": 31626.318026334047
+  }
+}

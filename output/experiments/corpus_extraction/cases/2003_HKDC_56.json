@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKDC 56",
+    "action_number": "DCPI 408/2002",
+    "case_name": "KAM WAI MING v. MTR CORPORATION LTD AND ANOTHER",
+    "judgment_date": "2003-12-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 29,
+    "age_at_trial": null,
+    "occupation_before": "Chef employed in the kitchens of the Marriott Hotel at Pacific Place",
+    "occupation_after": "Chef employed in the kitchens of the Marriott Hotel at Pacific Place",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "having dislocated his right shoulder in the course of his fall.",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "having dislocated his right shoulder in the course of his fall."
+        ],
+        "icd_code": "NC13.0",
+        "icd_description": "Dislocation of shoulder joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "complained of being in pain and unable to get up.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "still causes him problems.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "It limits his ability at work in terms of lifting things.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he suffers pain from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he can no longer play racquet sports, which he greatly enjoys, as well as soccer.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treated perfectly well in the public sector by way of emergency"
+    ],
+    "treatments_future": [
+      "private surgery in the event of a future dislocation of his shoulder"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Limits his ability at work in terms of lifting things.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Can no longer play racquet sports and soccer.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 104000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15088,
+      "output_tokens": 3332,
+      "reasoning_tokens": 2688,
+      "total_tokens": 18420
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29804.57118153572,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15088,
+      "output_tokens": 3332,
+      "reasoning_tokens": 2688,
+      "total_tokens": 18420
+    },
+    "total_duration_ms": 29804.57118153572
+  }
+}

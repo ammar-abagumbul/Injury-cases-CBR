@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 411",
+    "action_number": "DCPI586/2007",
+    "case_name": "MOHAMMED ASHAQ v. ROYAL HONOUR INDUSTRIAL LTD",
+    "judgment_date": "2007-11-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": 25,
+    "occupation_before": "forklift driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "low back contusion injuries involving soft tissues",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "the plaintiff had sustained low back and left shoulder contusion injuries involving soft tissues."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left shoulder contusion injuries involving soft tissues",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "the plaintiff had sustained low back and left shoulder contusion injuries involving soft tissues."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Left shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over the posterior aspect of the left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tenderness over the low back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intermittent low back pain when bending and twisting, turning in bed and carrying heavy objects of over 5 kilograms for 5 to 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Back pain if he walked without a cane",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain severity rated 7/10",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intermittent shoulder pain with movement or change of weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Could not squat or stand on tiptoes or heels",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Walking with a slight right limp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Relied on a walking stick/cane to walk (claimed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Could not do heavy manual duties (claimed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted into the Orthopaedics and Traumatology Department of the Yan Chai Hospital",
+      "analgesic",
+      "physiotherapy",
+      "outpatient physiotherapy for four to five months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities due to soft tissue contusion injuries to left shoulder and back",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Kin Hung v Chan Wai Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI1223/2006",
+        "injury_description": "intermittent residual neck pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 70000.0
+      },
+      {
+        "case_name": "Tam Fu Yip Fip v Sincere Engineering & Trading Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI473/2006",
+        "injury_description": "soft tissue injury to the back with pre-existing degenerative back disorder",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 75000.0
+      },
+      {
+        "case_name": "Shaw J (reported case noted by judgment)",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "minor injury to back (with two subsequent injuries which aggravated back pain)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Ma Shak Yau v Chan Wai Man & Anor",
+        "neutral_citation": null,
+        "action_number": "CPI2318/2006",
+        "injury_description": "pain and disability to the back increased by 20% due to the accident",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 80000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10774,
+      "output_tokens": 6365,
+      "reasoning_tokens": 4672,
+      "total_tokens": 17139
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42707.57823437452,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10774,
+      "output_tokens": 6365,
+      "reasoning_tokens": 4672,
+      "total_tokens": 17139
+    },
+    "total_duration_ms": 42707.57823437452
+  }
+}

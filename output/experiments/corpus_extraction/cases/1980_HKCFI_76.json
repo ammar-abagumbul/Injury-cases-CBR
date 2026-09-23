@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 76",
+    "action_number": "HCA001062/1980",
+    "case_name": "TSANG KEI-LUNG v. LEE WING-SHUN",
+    "judgment_date": "1980-10-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 56,
+    "occupation_before": "fortune teller",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the left eyeball was ruptured and that the left eye had lost its function.",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "apart from receiving some minor injuries on various parts of his body, the plaintiff became blind in his left eye.",
+          "whose diagnosis was that the left eyeball was ruptured and that the left eye had lost its function.",
+          "A second operation was performed to eviscerate the left eye, i.e. to remove the contents of the eyeball so as to relieve the pain and prevent the right eye from being affected."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "some minor injuries on various parts of his body",
+        "injury_type": "Temporary injury",
+        "body_part": "various parts of his body",
+        "laterality": null,
+        "source": [
+          "apart from receiving some minor injuries on various parts of his body, the plaintiff became blind in his left eye."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the plaintiff became blind in his left eye.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the left eye failed to recover any of its function and was aching.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "aching",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The glass eye sometimes causes discomfort.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The loss of the left eye has made him nervous.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Prior to the assault, he enjoyed watching the movies and television but has now lost all interest in doing so.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some minor injuries on various parts of his body",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation to repair the rupture of the left eyeball",
+      "evisceration of the left eye (to remove the contents of the eyeball)",
+      "follow-up treatment at the Yaumati Ophthalmic Centre",
+      "fitment/purchase of a glass eye made in Japan"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 23,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Prior to the assault, he enjoyed watching the movies and television but has now lost all interest in doing so.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "The glass eye sometimes causes discomfort. The loss of the left eye has made him nervous.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Shum v. Chan Chee-tak",
+        "neutral_citation": "[1980] 10 HKLJ 104",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Chung Chak v. Chan Wing Yin",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 617 of 1980",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8351,
+      "output_tokens": 4663,
+      "reasoning_tokens": 3264,
+      "total_tokens": 13014
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29935.397658497095,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8351,
+      "output_tokens": 4663,
+      "reasoning_tokens": 3264,
+      "total_tokens": 13014
+    },
+    "total_duration_ms": 29935.397658497095
+  }
+}

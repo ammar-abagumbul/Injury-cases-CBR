@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 347",
+    "action_number": "HCA010702/1983",
+    "case_name": "WU KAM MAN v. KO SIU LUN",
+    "judgment_date": "1984-12-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Hemiplegia from previous stroke",
+        "injury_type": "Permanent injury",
+        "body_part": "brain / neurological",
+        "laterality": null,
+        "source": [
+          "a gentleman at that time in his mid-fifties who was, I find fairly severely handicapped by a previous stroke",
+          "if the Plaintiff had not been immobilized by the hemiplegia, he would have developed osteo-arthritis of the knee"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the tibia and fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "lower leg",
+        "laterality": null,
+        "source": [
+          "the Plaintiff suffered a fracture of the tibia and fibula which had to be set in hospital."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the trauma of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the pain and suffering associated with the fracture of toe leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced for a period of time to almost total physical inactivity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "hemiplegia (immobilization)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he suffered a heart attack which is referred to in the report of Dr. Wedderburn dated the 10th of May 1983",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "by the 9th of May, he had had, what I take to be, another stroke",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "fracture set in hospital",
+      "hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "reduced for a period of time to almost total physical inactivity by reason of the accident for a period of 18 months",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenity associated with the fracture of the leg",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 20000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7998,
+      "output_tokens": 4386,
+      "reasoning_tokens": 3328,
+      "total_tokens": 12384
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33955.00325411558,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7998,
+      "output_tokens": 4386,
+      "reasoning_tokens": 3328,
+      "total_tokens": 12384
+    },
+    "total_duration_ms": 33955.00325411558
+  }
+}

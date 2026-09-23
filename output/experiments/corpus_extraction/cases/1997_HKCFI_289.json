@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 289",
+    "action_number": "HCPI000255/1996",
+    "case_name": "LAI KIN WAH v. HIP HING CONSTRUCTION CO. LTD. AND ANOTHER",
+    "judgment_date": "1997-01-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 48,
+    "occupation_before": "formwork carpenter",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": "sedentary occupation such as a watchman or information officer",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "disc protrusions of L2-3 and L4-5 with prolapsed disc material impinging on nerve roots (slipped discs, especially at L4-5)",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back (lumbar spine)",
+        "laterality": "left",
+        "source": [
+          "Dr Lee called for an MRI scan and from that scan was able to diagnose with certainty that Plaintiff had disc protrusions of L2-3 and L4-5 and that prolapsed disc material was impinging on the nerve roots.",
+          "There is no doubt he is suffering from the condition of slipped discs, especially at L4-5 level, there is evidence that the left side nerve roots were impinged by the prolapsed disc material."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild lumbar scoliosis convexed to the right with some spasm of the sacro spinalis muscle",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "When the Plaintiff stood, Dr Lee was able to note that he had a mild lumbar scoliosis convexed to the right with some spasm of the sacro spinalis muscle."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "chronic lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sciatica",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lumbar movements materially restricted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not cock up the left great toe and the left forefoot; left extensor hallucis longus and dorsiflexors of ankle are very weak",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked very slowly and deliberately; difficulty getting up on the examination couch; difficulty lying flat on his back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "must take painkillers on a regular basis; analgesics have caused stomach ache and constipation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "periodic exacerbation of condition which may force him to bed for periods of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "hydrotherapy",
+      "analgesics",
+      "myelographic examination",
+      "MRI scan"
+    ],
+    "treatments_future": [
+      "possible spinal fusion operation (considered in 1991 but not performed and problematical now)"
+    ],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He has slipped discs with the disc material impinging on his nerve roots. He has chronic lower back pain, sciatica, weakness in one leg and his lumbar movements are materially restricted.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He can no longer enjoy outdoor activities such as swimming or basketball.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "He is unable to be as active as a father and husband as he has been before the injury; he used to like to take the family out at weekends but, because of his pain, he no longer has the desire to do so.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His sexual relations with his wife have suffered.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "His general mobility is materially reduced and he must expect periodic exacerbation of his condition which may even force him to bed for periods of time.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15223,
+      "output_tokens": 6139,
+      "reasoning_tokens": 4608,
+      "total_tokens": 21362
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51673.26617985964,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15223,
+      "output_tokens": 6139,
+      "reasoning_tokens": 4608,
+      "total_tokens": 21362
+    },
+    "total_duration_ms": 51673.26617985964
+  }
+}

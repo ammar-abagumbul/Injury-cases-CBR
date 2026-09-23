@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 274",
+    "action_number": "HCPI 943/2007",
+    "case_name": "AMJAD v. WONG YUI CHEONG T/A CHEONG KEE TRANSPORTATION CO",
+    "judgment_date": "2011-04-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 20,
+    "age_at_trial": 26,
+    "occupation_before": "delivery worker / light goods vehicle driver and loader",
+    "occupation_after": "security guard (occasional)",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 6250.0,
+    "expected_salary_after": null,
+    "education_level": "Primary 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injury to his left shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "I am satisfied that Mr Amjad sustained injury to his left shoulder and lower back as a result of the accident."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to his lower back / lumbar spine (including sacralization at L5 and disc bulging L2-L5)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "I am satisfied that Mr Amjad sustained injury to his left shoulder and lower back as a result of the accident.",
+          "According to the MRI of the lumbar spine taken on 15 July 2006, there was sacralization at L5 level, with disc bulging from L2 to L5 levels.",
+          "He complained of sternal pain and was found to have tenderness over the lower abdomen and bruising and tenderness over the lower lumbar spine."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "occasional pain at the base of the spine radiating to right thigh, aggravated by long walking, sitting, heavy lifting, cold weather, or changing position in sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "occasional pain in left shoulder joint",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He used to play cricket but could not enjoy this sport now.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He cannot lift heavy objects.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He would not be able to resume the pre-accident work which involved heavy and/or constant lifting in the course of loading and unloading in the transportation business.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Shah Nisar v Wai Kit Engineering Co Ltd and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 1092/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12993,
+      "output_tokens": 5328,
+      "reasoning_tokens": 4160,
+      "total_tokens": 18321
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36637.47910037637,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12993,
+      "output_tokens": 5328,
+      "reasoning_tokens": 4160,
+      "total_tokens": 18321
+    },
+    "total_duration_ms": 36637.47910037637
+  }
+}

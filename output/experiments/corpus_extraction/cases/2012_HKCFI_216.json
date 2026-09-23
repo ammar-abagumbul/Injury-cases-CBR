@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKCFI 216",
+    "action_number": "HCPI 331/2010",
+    "case_name": "MAK CHI KEUNG v. LAI KAM PIU T/A 錦記廢紙五金",
+    "judgment_date": "2012-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 42,
+    "age_at_trial": null,
+    "occupation_before": "general or miscellaneous worker",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": "car park attendant or security guard",
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right below elbow amputation (complete right hand amputation at the wrist joint; ultimately right below elbow amputation).",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "Examination showed complete right hand amputation at the wrist joint.",
+          "As a result, his right forearm from below the elbow was severed.",
+          "but reattachment failed, and on 18 July 2007 right below elbow amputation was finally performed."
+        ],
+        "icd_code": "NC38.3",
+        "icd_description": "Traumatic amputation at level between right elbow and wrist"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of right hand function after injury and amputation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain, numbness and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "very sensitive over certain areas on the anterior surface of the stump",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "feeling pain of the right hand in his sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation on movement of the right upper limb causing inconvenience to his daily life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "PYNEH’s DOT immediately performed replantation surgery of the right hand",
+      "multiple salvage procedures including vascular repair surgeries and debridement of the wound",
+      "right below elbow amputation (performed on 18 July 2007)",
+      "further debridement of wound, stump revision and skin graft until 7 August 2007",
+      "discharged on 14 August 2007 with Specialist Outpatient Clinic follow-up arranged",
+      "referred to PYNEH’s prosthetic and orthotic department for prosthetic fitting and management",
+      "cosmetic hand prosthesis prescribed and fitted on 21 February 2008",
+      "attended PYNEH’s POD 5 times between December 2007 and December 2008 for prosthesis adjustment and prosthetic management",
+      "regular follow up at PYNEH’s Specialist Outpatient Clinic and prosthetic and orthotic department"
+    ],
+    "treatments_future": [
+      "Myoelectric prosthesis with i-Limb hand combination (prosthesis components with a lifespan of about 3 years)",
+      "custom-made silicon hand (lifespan about 3 years)",
+      "regular inspection/repair of prosthesis (2-3 times a year)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 340,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "loss of right hand function after injury and amputation",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "his injuries resulted not only in serious physical but also cosmetic disability",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "he cannot slice a fish, open canned food or hold a bowl of rice or glass of water",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is unable to work",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18445,
+      "output_tokens": 5220,
+      "reasoning_tokens": 3968,
+      "total_tokens": 23665
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34802.09484323859,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18445,
+      "output_tokens": 5220,
+      "reasoning_tokens": 3968,
+      "total_tokens": 23665
+    },
+    "total_duration_ms": 34802.09484323859
+  }
+}

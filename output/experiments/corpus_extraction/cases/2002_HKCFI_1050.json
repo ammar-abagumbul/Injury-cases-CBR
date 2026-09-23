@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 1050",
+    "action_number": "HCPI 76/2002",
+    "case_name": "CHEUNG KOON WAH v. LEUNG KA HANG AND OTHERS",
+    "judgment_date": "2002-11-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 38,
+    "occupation_before": "seaman",
+    "occupation_after": "unable to find a job",
+    "expected_occupation_after": "fit for job of light or sedentary in nature such as office assistant, receptionist, messenger, cashier, operator, security guard, carpark attendant",
+    "salary_before": 16000.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": 7000.0,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of right tibia and fibula",
+        "injury_type": "Permanent injury",
+        "body_part": "right tibia and fibula",
+        "laterality": "right",
+        "source": [
+          "the plaintiff's right tibia and fibula were fractured."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "wasting of the plaintiff's right calf muscle",
+        "injury_type": "Residual disability",
+        "body_part": "right calf muscle",
+        "laterality": "right",
+        "source": [
+          "there was wasting of the plaintiff's right calf muscle."
+        ],
+        "icd_code": "NC96.1Y",
+        "icd_description": "Other specified injury of other muscle, fascia or tendon of posterior muscle group at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "piercing pain on the right leg when the weather changed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scars in the right leg and he feels embarrassed about them",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty of climbing stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could only squat for a short while",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not kneel",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency operation by intramedullary nailing of his right tibia",
+      "removal of the intramudullary nail",
+      "follow-up treatment",
+      "physiotherapy (more than 44 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 18,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 410,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "scars in the right leg causing embarrassment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "walks with a limp; difficulty climbing stairs; can only squat briefly; cannot kneel",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "not fit to return to his previous job as a sailor and has been unable to obtain employment as a sailor",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Poon Chung Fai v Leung Ka Shing and Anr",
+        "neutral_citation": "[2001] 31 HKLJ 169",
+        "action_number": "HCPI 1050 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11156,
+      "output_tokens": 4885,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16041
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37946.61654159427,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11156,
+      "output_tokens": 4885,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16041
+    },
+    "total_duration_ms": 37946.61654159427
+  }
+}

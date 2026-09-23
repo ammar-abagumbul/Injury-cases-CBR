@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 63",
+    "action_number": "HCPI 1011/2005",
+    "case_name": "HUNG YUET WAN v. LAU YAN SHING T/A SHING HING ENG AND ANOTHER",
+    "judgment_date": "2008-01-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 51,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left wrist injury with tenderness and swelling",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "she slipped on a slope while working in a construction site and sustained a wrist injury of tenderness and swelling.",
+          "She was only diagnosed of having suffered from left wrist injury with no fracture."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing condition of her carpal tunnel syndrome",
+        "injury_type": "Permanent injury",
+        "body_part": "carpal tunnel syndrome",
+        "laterality": null,
+        "source": [
+          "the medical evidence shows that the Plaintiff had pre-existing condition of her carpal tunnel syndrome",
+          "In view of the long-standing pre-existing condition of her carpal tunnel syndrome, the pain she has been suffering is most likely due to the existing condition rather than to the injury."
+        ],
+        "icd_code": "NC55.1",
+        "icd_description": "Injury of median nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Claim for PSLA (the Plaintiff claimed $400,000 for PSLA; the court observed there was little prospect of recovering $400,000).",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Claim for loss of earnings (the Plaintiff claimed about $950,000; Defendants disputed and submitted a much lower realistic figure).",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8855,
+      "output_tokens": 4581,
+      "reasoning_tokens": 3648,
+      "total_tokens": 13436
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33592.538971453905,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8855,
+      "output_tokens": 4581,
+      "reasoning_tokens": 3648,
+      "total_tokens": 13436
+    },
+    "total_duration_ms": 33592.538971453905
+  }
+}

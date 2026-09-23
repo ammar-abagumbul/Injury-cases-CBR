@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 408",
+    "action_number": "DCPI 126/2013",
+    "case_name": "WONG YUNG TAI v. TOP EAGLE SECURITY MANAGEMENT LTD AND ANOTHER",
+    "judgment_date": "2019-03-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Cleaner",
+    "occupation_after": "Cleaning worker (intermittent, early 2017 to June 2018)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "low back injury with left leg sciatica",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "she \"has still been suffering from severe low back pain with left leg sciatica, together with associated symptoms such as weakness, numbness and stiffness in the affected areas\"."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injuries to right upper limb",
+        "injury_type": "Residual disability",
+        "body_part": "right upper limb",
+        "laterality": "right",
+        "source": [
+          "injuries over her right wrist, back and right upper limb."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to right wrist",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "injuries over her right wrist, back and right upper limb."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left leg sciatica",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness, numbness and stiffness in the affected areas",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in her low back and left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness from her left knee to toes",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right upper limb pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced lifting and carrying capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to return to her pre-accident job as a cleaner which requires strenuous manual work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "adjustment disorder with prolonged depressive reaction (diagnosed and found causally related to the persistent low back pain)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Attended the Accident & Emergency Department of Kwong Wah Hospital",
+      "Referred for physiotherapy",
+      "Referred for occupational therapy",
+      "Referred to the Department of Orthopaedics and Traumatology",
+      "Attending West Kowloon Psychiatric Centre since January 2014"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "She is no longer able to return to her pre-accident job as a cleaner which requires strenuous manual work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19060,
+      "output_tokens": 5456,
+      "reasoning_tokens": 4160,
+      "total_tokens": 24516
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27190.28440117836,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19060,
+      "output_tokens": 5456,
+      "reasoning_tokens": 4160,
+      "total_tokens": 24516
+    },
+    "total_duration_ms": 27190.28440117836
+  }
+}

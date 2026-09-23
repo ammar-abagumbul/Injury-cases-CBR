@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 781",
+    "action_number": "HCPI 369/2010; HCPI 62/2011",
+    "case_name": "LAM PO YEE AND ANOTHER v. DR CHAN YEE SHING ALSO KNOWN AS DR CHAN YEE SHING ALVIN",
+    "judgment_date": "2017-05-08",
+    "plaintiff_count": 3,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 1,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Cut wound to right 4th finger",
+        "injury_type": "Permanent injury",
+        "body_part": "right 4th finger",
+        "laterality": "right",
+        "source": [
+          "cut wound to his right 4th finger (\"Finger\")."
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Gangrene of the Finger",
+        "injury_type": "Temporary injury",
+        "body_part": "right 4th finger",
+        "laterality": "right",
+        "source": [
+          "the Finger turned gangrenous."
+        ],
+        "icd_code": "NC56.5Y",
+        "icd_description": "Other specified injury of blood vessel of other finger"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Amputation of the Finger at the level of middle phalanx",
+        "injury_type": "Permanent injury",
+        "body_part": "right 4th finger (stump)",
+        "laterality": "right",
+        "source": [
+          "part of the Finger had to be amputated.",
+          "Amputation of the Finger at the level of middle phalanx was done on 30 September 2009"
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Mother developed depressive disorder",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "the Mother and Father developed depressive disorder and adjustment disorder respectively."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Father developed adjustment disorder",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "the Mother and Father developed depressive disorder and adjustment disorder respectively."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "discomfort and troubled sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "soft tissue of the stump showed hypertrophy",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "joint movements were full range with no finger curving, no bony impingement, no stump hypersensitivity and no scar hypertrophy",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "possibility of future bone lengthening and need for revision/cosmetic surgery",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "bright/amiable with good academic progress without signs of psychological distress but may be puzzled/sensitive about curiosity over his shortened Finger in adolescence",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "severely strained/traumatised, depressed/sombre, poor concentration and memory, difficulty in decision-making, vegetative symptoms of depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "sleep impairment, poor appetite, repeated intrusive negative thoughts, excessive worry and anxiety, pervasive sense of dread and hypervigilance",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impairment in social functioning; loss of social contacts; ceased socialising; friends no longer invited him out",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "self-blame, guilt feelings, ruminations and emotional exhaustion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "loss of interest in sports and giving up on sports",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical adhesive application and dressing",
+      "daily dressing and wound care",
+      "antibiotic intravenous drip",
+      "amputation surgery",
+      "physiotherapy",
+      "occupational therapy",
+      "use of pressure garment"
+    ],
+    "treatments_future": [
+      "possible future cosmetic/revision surgery",
+      "possible future bone lengthening"
+    ],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Mother could barely manage housework and childcare and was unable to take up previous part-time/full-time work during her period of psychiatric disorder",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Father ceased to socialise; friends no longer asked him out; social isolation",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Father gave up on sports and felt physically unfit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Father's claim for loss of congenial employment (pleaded)",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 275000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 35541,
+      "output_tokens": 7921,
+      "reasoning_tokens": 6016,
+      "total_tokens": 43462
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37873.04096668959,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 35541,
+      "output_tokens": 7921,
+      "reasoning_tokens": 6016,
+      "total_tokens": 43462
+    },
+    "total_duration_ms": 37873.04096668959
+  }
+}

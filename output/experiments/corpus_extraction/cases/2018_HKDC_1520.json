@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1520",
+    "action_number": "DCPI 304/2016",
+    "case_name": "CHU KA WAI v. HOP HING FURNITURE CO LTD AND ANOTHER",
+    "judgment_date": "2018-12-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": 38,
+    "occupation_before": "delivery worker / transportation (delivery worker, operated own lorry)",
+    "occupation_after": "employee of Ying Fat until May 2015; from June 2015 onwards worked as a forklift operator",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Computed tomography of his brain showed acute right epidural haemorrhage with compression and effacement of ipsilateral lateral and third ventricles, and midline shift to the left.",
+        "injury_type": "Residual disability",
+        "body_part": "brain",
+        "laterality": "right",
+        "source": [
+          "Computed tomography of his brain showed acute right epidural haemorrhage with compression and effacement of ipsilateral lateral and third ventricles, and midline shift to the left."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "He also suffered right temporal bone fracture.",
+        "injury_type": "Temporary injury",
+        "body_part": "right temporal bone",
+        "laterality": "right",
+        "source": [
+          "He also suffered right temporal bone fracture."
+        ],
+        "icd_code": "NA02.1A",
+        "icd_description": "Other fractures of base of skull"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "X-ray of his right elbow revealed right olecranon fracture.",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray of his right elbow revealed right olecranon fracture."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of consciousness and seizure for one minute",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual post-concussional syndrome which is permanent in nature",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasional headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in concentration on and performance of certain mental tasks",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain, stiffness and weakness over his right elbow",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dizziness aggravated by big movement especially extension and weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "memory impairment, insomnia and irritability",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment from the Department of Neurosurgery",
+      "treatment from the Department of Orthopaedics & Traumatology",
+      "physiotherapy (completed 22 sessions of out-patient physiotherapy in Tuen Mun Hospital)",
+      "occupational therapy"
+    ],
+    "treatments_future": [
+      "periodic clinic visits for headaches and dizziness (4 visits annually at HK$400 each)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 86,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to pursue pre-accident hobbies including boxing, basketball and snooker due to his residual pain.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty in performing repair and handyman jobs at home and shared household work due to his medical condition after the accident.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Difficulty in concentration, alleged memory impairment and related post-concussional symptoms.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15763,
+      "output_tokens": 5894,
+      "reasoning_tokens": 4416,
+      "total_tokens": 21657
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35961.04505285621,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15763,
+      "output_tokens": 5894,
+      "reasoning_tokens": 4416,
+      "total_tokens": 21657
+    },
+    "total_duration_ms": 35961.04505285621
+  }
+}

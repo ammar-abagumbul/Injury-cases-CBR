@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 74",
+    "action_number": "HCPI 132/2003",
+    "case_name": "YEUNG HING LUN v. HAO TONG TRADING LTD",
+    "judgment_date": "2004-02-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 51,
+    "age_at_trial": null,
+    "occupation_before": "delivery/transportation worker",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 6500.0,
+    "salary_after": 5100.0,
+    "expected_salary_after": null,
+    "education_level": "educated up to primary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of left femoral neck",
+        "injury_type": "Residual disability",
+        "body_part": "left femoral neck / left hip",
+        "laterality": "left",
+        "source": [
+          "X-ray was taken which showed fracture of left femoral neck.",
+          "Screw fixation was performed at the Caritas Medical Centre on 13 April 2003.",
+          "The Plaintiff still has pain and weakness in his left hip.",
+          "According to the medical report of Dr. Lam dated 5 July 2002, the Plaintiff continued to show Trendelenburg sign positive for left hip (i.e. when standing with the left leg alone, the weakness in the left abductor muscle is unable to maintain the pelvis in the horizontal position and, as a result, the right side of pelvis will drop and the upper part of the body will swing to the left in order to maintain balance) when he was examined on 26 June 2002.",
+          "X-rays taken on 28 June 2002 when he was examined by Dr. Lam showed a slightly shortened femoral neck, which in turn shortens the lever arm of hip abductor muscles."
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "acute pain in his left hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "was unable to walk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and weakness in his left hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain when lying on his left side, sitting, or climbing stairs for more than 15 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Trendelenburg sign positive for left hip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly shortened femoral neck causing mechanical disadvantage in the biomechanics of the abductor muscles of the hip joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no longer able to lift heavy objects and is therefore unable to resume his previous occupation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Screw fixation",
+      "physiotherapy",
+      "occupational therapy",
+      "admission to Accident and Emergency Department",
+      "admission to Orthopaedic ward"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "In view of his injury and weakness of his left hip, the Plaintiff is no longer able to lift heavy objects and is therefore unable to resume his previous occupation. He can only do light duty job and has been employed as a security guard since 8 December 2002.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "In view of his injury and weakness of his left hip, the Plaintiff is no longer able to lift heavy objects.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Kwan Ming v Lee Yin Hing trading as King Yip Co. & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI No.765 of 2000",
+        "injury_description": "displaced fracture right neck of femur; screw fixation performed; able to walk unaided about six months after the injury; slight shortening in the neck",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 276000.0
+      },
+      {
+        "case_name": "Ku Chiu Chung v Tang Tin Sung",
+        "neutral_citation": null,
+        "action_number": "HCPI No.288 of 2001",
+        "injury_description": "closed fractured of the left acetabulum with dislocation of the left hip, open fracture of the left proximal tibia, open complete tear of the anterior cruciate ligament of the left knee, open partial tear of the anterior lateral meniscus of the left knee and closed fracture of the shaft of the left tibia; multiple operations including open reduction and internal fixation",
+        "hospitalisation_days": null,
+        "operations_count": 3,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 375000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10120,
+      "output_tokens": 5160,
+      "reasoning_tokens": 3584,
+      "total_tokens": 15280
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36852.041367441416,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10120,
+      "output_tokens": 5160,
+      "reasoning_tokens": 3584,
+      "total_tokens": 15280
+    },
+    "total_duration_ms": 36852.041367441416
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 280",
+    "action_number": "DCPI 1707/2014",
+    "case_name": "LEUNG LAI CHUN v. MTR CORPORATION LTD",
+    "judgment_date": "2017-03-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "flower shop assistant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of the right foot",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "It only resulted in soft tissue injury of which the plaintiff claims to have caused her a lot of pain and took a long time to heal.",
+          "redness, swelling and decreasing range of movement over right lateral foot (sic)",
+          "mild tender over the lateral side of the right foot",
+          "Complain about tenderness over the 4th to 5th metatarsal bone of the right foot was only first recorded on 10 September 2011."
+        ],
+        "icd_code": "ND11.8",
+        "icd_description": "Contusion of other or unspecified parts of foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "redness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreasing range of movement over right lateral foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain or tenderness over the lateral side of the right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent pain in the right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping gait",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "full weight bearing unaided",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment at Tuen Mun Hospital",
+      "physiotherapy (4 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 158,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fung Tak Yau v Chow Wah Tim t/z Chung Wah Transportation Company and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 973/2006",
+        "injury_description": "contusion injury might have caused an injury to the cutaneous sensory nerve branch which gave rise to the victim’s claim of persistent forefoot pain; 1.5% impairment of the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Nicola Sian Griffiths v Lettuce Chat Limited Ltd trading as Zip",
+        "neutral_citation": null,
+        "action_number": "DCPI 22/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13064,
+      "output_tokens": 4176,
+      "reasoning_tokens": 3008,
+      "total_tokens": 17240
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29651.69944241643,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13064,
+      "output_tokens": 4176,
+      "reasoning_tokens": 3008,
+      "total_tokens": 17240
+    },
+    "total_duration_ms": 29651.69944241643
+  }
+}

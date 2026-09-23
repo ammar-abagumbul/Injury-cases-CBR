@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 478",
+    "action_number": "HCPI 773/2007",
+    "case_name": "HUI WING HUNG v. WONG WING KEE PLASTER ENGINEEERING CO LTD AND ANOTHER",
+    "judgment_date": "2009-06-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 34,
+    "age_at_trial": 39,
+    "occupation_before": "Plasterer",
+    "occupation_after": "Security guard",
+    "expected_occupation_after": null,
+    "salary_before": 13200.0,
+    "salary_after": 7100.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right proximal forearm was badly hurt with blood bleeding profusedly from a wound of 1 cm long.",
+        "injury_type": "Residual disability",
+        "body_part": "right proximal forearm",
+        "laterality": "right",
+        "source": [
+          "His right proximal forearm was badly hurt with blood bleeding profusedly from a wound of 1 cm long.",
+          "it is common ground that there is no fracture and there is partial tear of the exterior muscle."
+        ],
+        "icd_code": "NC36.51",
+        "icd_description": "Laceration of other extensor muscle, fascia or tendon at forearm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "blood bleeding profusedly from a wound of 1 cm long",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness in his right forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in his right forearm/right hand (reduced grip strength, weakness on exertion)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness (e.g. hand is numb after writing for about 3 minutes / increased numbness after writing more than 30 Chinese characters)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight reduction in muscle bulk in his right forearm as compared to his left forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "follow-up medical treatment",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 338,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain (residual pain lasting until mid 2008) - assessed at HK$40,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Suffering (anxiety, frustration, sleeplessness, irritability) - assessed at HK$50,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Stopped hobbies such as basketball, gym, push-ups and driving motorcycle - assessed at HK$25,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 115000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ngai Lung Hing v Gowin Engineering Co. Ltd and another",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Right (dominant) forearm cut deeply by a sawing plate; 70% cut of brachioradialis muscle bulk and other muscles; emergency operation; pain and numbness; unable to perform previous duties.",
+        "hospitalisation_days": 3,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Ching Kam v Au Wing Keung & Another",
+        "neutral_citation": "[1999] 1 HKLRD B13",
+        "action_number": null,
+        "injury_description": "Deep transverse cut to right forearm with muscles and tendons cut through; operation to sew severed tendons; stiffness, weakness and numbness of thumb; inability to grip; 25% loss of earning capacity.",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lau Chi Man v Kowloon Canton Railway Corp.",
+        "neutral_citation": "DCPI 501/2005",
+        "action_number": null,
+        "injury_description": "Fractured shaft of right radius with open reduction and internal fixation, long scar, implant removal later, rehabilitation, stiffness and weakened right hand grip.",
+        "hospitalisation_days": 4,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 220000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14977,
+      "output_tokens": 5024,
+      "reasoning_tokens": 3584,
+      "total_tokens": 20001
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39227.68545523286,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14977,
+      "output_tokens": 5024,
+      "reasoning_tokens": 3584,
+      "total_tokens": 20001
+    },
+    "total_duration_ms": 39227.68545523286
+  }
+}

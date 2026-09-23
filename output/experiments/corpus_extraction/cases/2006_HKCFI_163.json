@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 163",
+    "action_number": "HCMP 2878/2004",
+    "case_name": "RE YCK",
+    "judgment_date": "2006-02-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "He was a delivery worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "serious head injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He had a coma and sustained serious head injuries."
+        ],
+        "icd_code": "NA07.3Z",
+        "icd_description": "Unspecified diffuse traumatic brain injury"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-traumatic epilepsy",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Apart from cognitive functions impairment and post-traumatic epilepsy, he also had problems with hearing and vision."
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "problems with hearing and vision",
+        "injury_type": "Permanent injury",
+        "body_part": "hearing and vision",
+        "laterality": null,
+        "source": [
+          "Apart from cognitive functions impairment and post-traumatic epilepsy, he also had problems with hearing and vision."
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "dementia",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "In 2005, about 4 years after the accident, the doctors were of the opinion that he is suffering from dementia and the prognosis is poor."
+        ],
+        "icd_code": "NA07",
+        "icd_description": "Intracranial injury"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "global cognitive dysfunction",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cognitive functions impairment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "post-traumatic epilepsy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "problems with hearing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "problems with vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "personality and behavioral changes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "coma",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot lead an independent life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of independence",
+        "description": "He cannot lead an independent life.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "he also had problems with hearing and vision.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "He also experienced personality and behavioral changes.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "suffered from global cognitive dysfunction",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He idles at home most of the time.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11849,
+      "output_tokens": 6893,
+      "reasoning_tokens": 5440,
+      "total_tokens": 18742
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29892.205704003572,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11849,
+      "output_tokens": 6893,
+      "reasoning_tokens": 5440,
+      "total_tokens": 18742
+    },
+    "total_duration_ms": 29892.205704003572
+  }
+}

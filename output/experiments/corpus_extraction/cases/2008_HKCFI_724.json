@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 724",
+    "action_number": "HCPI 741/2006",
+    "case_name": "MAHMOOD, NAZIR v. CHIN WAI ON AND PUN WAI MING T/A KENZ ENGINEERING CO AND OTHERS",
+    "judgment_date": "2008-08-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 25,
+    "age_at_trial": 29,
+    "occupation_before": "Casual construction site worker; casual labourer employed by Kenz Engineering Company",
+    "occupation_after": "Freelance translator; security guard (briefly)",
+    "expected_occupation_after": null,
+    "salary_before": 11650.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Educated in Pakistan; left school at age 18"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Soft tissue sprain of the lower back (lumbar sprain)",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "His diagnosis was sprain back.",
+          "I accept Dr Wong\u0019s conclusions that Mr Mahmood suffered a soft tissue sprain as a result of the sudden and unexpected burden of extra weight put upon his back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Slight left posterior protrusion at the L5/S1 disc (disc protrusion / degenerative disc change)",
+        "injury_type": "Residual disability",
+        "body_part": "L5/S1 disc (lumbar spine)",
+        "laterality": "left",
+        "source": [
+          "a slight left posterior protrusion at the L5/S1 disc and a mild difference in signal intensity compared with the remaining lumbar discs.",
+          "The protrusion is the result of disc degeneration, exacerbated by the heavy duty work of manual labouring."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe lower back pain; constant mild pain with bouts of very bad pain on occasion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Heard a cracking sound as if something had broken at his back at time of injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to walk without the use of a walking frame initially",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Needed a walking stick for about a month",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limitation in trunk flexion and extension about 1/3 of full range of motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Muscles on either side of the spine were tense",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No neurological sign / no neurovascular deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Cannot carry anything weighing more than 15 kgs without feeling pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bending forward produces pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual back pain that might re-occur after heavy or prolonged lifting or carrying",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "interferential therapy",
+      "hot pack",
+      "back exercises",
+      "relaxation training",
+      "analgesic"
+    ],
+    "treatments_future": [
+      "supervised progressive exercise to recondition",
+      "avoid heavy manual work / avoid lifting and carrying heavy loads"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Construction site work and heavy manual labour is beyond him because of inability to handle weights; must avoid lifting and carrying heavy materials",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Kam Wah v Wing & Kwong Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1131 of 2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Mahmood Tariq v Kinway Engineering Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 149/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14631,
+      "output_tokens": 6177,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20808
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37923.64748567343,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14631,
+      "output_tokens": 6177,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20808
+    },
+    "total_duration_ms": 37923.64748567343
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 956",
+    "action_number": "HCPI 1370/2014",
+    "case_name": "ALI MEHBOOB v. YUN KWAN CONSTRUCTION ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2018-05-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "Construction site labourer and 24-ton truck driver (also worked as night-time security guard)",
+    "occupation_after": "Office messenger (from 11 June 2014) and later light goods vehicle driver with SK Recycling",
+    "expected_occupation_after": null,
+    "salary_before": 19678.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractured right distal radius (intra-articular fracture of the right distal radius)",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist / right distal radius",
+        "laterality": "right",
+        "source": [
+          "X-ray showed him to have sustained a fractured right distal radius.",
+          "characterized the injury as an intra-articular fracture of the right distal radius."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in the right wrist when carrying heavy objects; constant mild aching of the right wrist even during sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain on movement and exertion of the right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Active range of right wrist flexion 60 degrees and extension 50 degrees",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right power grip 18 kg (reduced grip strength)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Slight radial shortening and slight irregularity of the joint surface with slight dorsal tilting of the articular surface and slight deformity in the joint line",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty driving a loaded truck because of heavy steering column and weakness of grip; unable to lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain increases to 5/10 on NPRS upon lifting objects between 2kg to 3kg and on certain wrist movements; sensitivity to cold weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "X-ray and diagnosis of fractured right distal radius",
+      "Closed reduction and short arm slab",
+      "Short arm cast",
+      "Physiotherapy (15 sessions)",
+      "Occupational therapy (work capacity evaluation and rehabilitation training)",
+      "Analgesics / painkillers and analgesic balm",
+      "MRI (MR Arthrogram)"
+    ],
+    "treatments_future": [
+      "Wrist arthroscopy (explained on 11 December 2013 but considered and declined by the plaintiff)"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and stiffness of the right wrist with slight articular deformity, reduced range of motion and reduced grip strength",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced ability to perform previous employment (heavy truck driving and construction site labour) because of inability to manoeuvre the steering wheel of a loaded truck and inability to lift heavy objects",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Kwok Kee v China HK Wah Lee Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 477/2013",
+        "injury_description": "Wrist fracture injuries (after open reduction and internal fixation, recovered with no deformity but with two minor scars, residual pain and stiffness)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 240000.0
+      },
+      {
+        "case_name": "Yip Mau Leung v University of Hong Kong",
+        "neutral_citation": "[2000] 3 HKLRD 198",
+        "action_number": null,
+        "injury_description": "Wrist injury (falling below the category of serious injury)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15683,
+      "output_tokens": 4358,
+      "reasoning_tokens": 2944,
+      "total_tokens": 20041
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27851.345036178827,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15683,
+      "output_tokens": 4358,
+      "reasoning_tokens": 2944,
+      "total_tokens": 20041
+    },
+    "total_duration_ms": 27851.345036178827
+  }
+}

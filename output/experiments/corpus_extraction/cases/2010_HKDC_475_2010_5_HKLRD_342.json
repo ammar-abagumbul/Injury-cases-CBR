@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 475; [2010] 5 HKLRD 342",
+    "action_number": "DCPI 1503/2007",
+    "case_name": "CHAN WAI TUNG v. TANG KWOK KWONG AND OTHERS",
+    "judgment_date": "2010-04-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "engaging in the work of removing garbage and debris in a construction site (employed by Tang)",
+    "occupation_after": "internal renovation worker",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": 16000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion and superficial abrasion",
+        "injury_type": "Temporary injury",
+        "body_part": "back (lumbar region)",
+        "laterality": null,
+        "source": [
+          "I find that Chan suffered contusion and superficial abrasion in the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "episodic lower back pain of a piercing character",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain after walking or sitting for 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty even in squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitations in his spinal movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasionally felt pain in the lumbar region; each week he felt pain which lasted several minutes; needed analgesics twice a month",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment",
+      "injection of analgesic",
+      "analgesic medication",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of conveniences or amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12922,
+      "output_tokens": 3244,
+      "reasoning_tokens": 2432,
+      "total_tokens": 16166
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28937.18335777521,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12922,
+      "output_tokens": 3244,
+      "reasoning_tokens": 2432,
+      "total_tokens": 16166
+    },
+    "total_duration_ms": 28937.18335777521
+  }
+}

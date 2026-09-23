@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKCFI 73",
+    "action_number": "HCPI 945/2003",
+    "case_name": "ANDREW WILLIAM MAXWELL v. KELISTON MARINE (FAR EAST) LTD (NOW IN LIQUIDATION) AND ANOTHER",
+    "judgment_date": "2012-01-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": 45,
+    "occupation_before": "site supervisor (underwater engineering)",
+    "occupation_after": "employee at Bostwick Bo-Shan; later employed at Kaba",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 20000.0,
+    "expected_salary_after": null,
+    "education_level": "O-Levels"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "bronchial asthma; established since 2001",
+        "injury_type": "Permanent injury",
+        "body_part": "bronchi / airways",
+        "laterality": null,
+        "source": [
+          "I accept that evidence and I find that the plaintiff did not suffer from asthma in the past and only became asthmatic at around the time that he worked in the tunnel project for the 1st defendant.",
+          "In his assessment of the plaintiff on 11 March 2005, Dr Leung concluded that the plaintiff had clinical features of asthma that consisted of persistent cough with nocturnal worsening, wheezing attacks, chest tightness, and prompt response to bronchodilator therapy.",
+          "Dr Leung was also of the view that the plaintiff had bronchial asthma of mild degree with no impairment of the whole person."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent cough with nocturnal worsening",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wheezing attacks (audible wheeze and wheeze on auscultation)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "chest tightness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in exercise tolerance; shortness of breath on walking and swimming",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tickling sensation in the throat causing cough; wheeze at night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ventolin inhaler (bronchodilator)",
+      "beclomethasone (inhaled steroid)",
+      "budesonide-formoterol combination inhaler",
+      "daily oral tablet (unspecified)",
+      "anti-histamines (intermittent)",
+      "nasal spray for rhinitis",
+      "peak flow diary monitoring",
+      "referrals to respiratory specialists (Dr Ho Hok Fai, Dr Jane Chan, etc.)",
+      "psychological treatment sessions with Dr Calais Chan"
+    ],
+    "treatments_future": [
+      "restart inhaled beclomethasone (as recommended by Dr Pang)",
+      "continued treatment by neurologists and/or psychiatrists (recommended)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 0,
+    "sick_leave_days_expected": 30
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to continue playing soccer and swimming; decreased exercise tolerance and gave up sports.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of prospects of developing a career as a commercial diver; assessed loss of earning capacity caused by asthmatic condition in the sum of HK$150,000.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20205,
+      "output_tokens": 5678,
+      "reasoning_tokens": 4544,
+      "total_tokens": 25883
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38548.70790615678,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20205,
+      "output_tokens": 5678,
+      "reasoning_tokens": 4544,
+      "total_tokens": 25883
+    },
+    "total_duration_ms": 38548.70790615678
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 590",
+    "action_number": "HCPI 616/1999",
+    "case_name": "CHIU WING SZE KARBY v. CHAN YING WAI AND ANOTHER",
+    "judgment_date": "2001-04-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 18,
+    "age_at_trial": 21,
+    "occupation_before": "partner in a newspaper stall",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 3000.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whiplash injury to her neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "she suffered whiplash and other injuries.",
+          "both orthopaedic surgeons accepted that the plaintiff had suffered a whiplash injury to her neck."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "linear crack of the transverse process of L5 / involvement of lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L5 transverse process)",
+        "laterality": null,
+        "source": [
+          "an x-ray on 30 September 1998 revealed a linear crack of the transverse process of L5",
+          "it seems that there was considerable improvement but there is still occasional neck and back pain.",
+          "it does not seem that there is now any evidence of continuing physical abnormality in either the neck or the lower back."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe headache and vomiting (after the accident)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "continuing pain in the neck with occasional numbness of the right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the right gluteal region after walking for 5 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "burning neck pain which persisted most of the time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lumbar pain and tenderness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "occasional neck and back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to hospital",
+      "neck collar",
+      "manipulation",
+      "physiotherapy",
+      "MRI scan of cervical spine (24 September 1998)",
+      "MRI scan of lumbar spine (7 May 1999)",
+      "x-rays",
+      "out-patient treatment",
+      "private doctor consultation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity for whiplash injury to the neck (PSLA component awarded $100,000)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity for lumbar injury (PSLA component awarded $50,000)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v. Leung Kam-ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": "serious whiplash injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13863,
+      "output_tokens": 6178,
+      "reasoning_tokens": 5184,
+      "total_tokens": 20041
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39896.67759090662,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13863,
+      "output_tokens": 6178,
+      "reasoning_tokens": 5184,
+      "total_tokens": 20041
+    },
+    "total_duration_ms": 39896.67759090662
+  }
+}

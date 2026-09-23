@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 194",
+    "action_number": "DCPI 1719/2008",
+    "case_name": "LEE WAI MAN v. CHAN CHE MING AND ANOTHER",
+    "judgment_date": "2009-08-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "16-ton truck driver",
+    "occupation_after": "16-ton truck driver and deliveryman",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 14000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of neck / neck sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Drs Fu and Lam agreed that the Plaintiff suffered a soft tissue injury of neck which had largely recovered.",
+          "The provisional diagnoses were ... neck sprain."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left acromio-clavicular ligament injury / left shoulder contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "The provisional diagnoses were left peroneal nerve palsy, left knee medial collateral ligament sprain, left acromio-clavicular ligament injury and neck sprain.",
+          "The impression was one of \"left shoulder contusion; left peroneal nerve injury \u000096 improving trend\"."
+        ],
+        "icd_code": "NC13.6",
+        "icd_description": "Strain or sprain of acromioclavicular joint"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left knee medial collateral ligament sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "Left knee examination revealed tenderness over left medial proximal tibia, and pain while performing valgus stress test.",
+          "The provisional diagnoses were left peroneal nerve palsy, left knee medial collateral ligament sprain, left acromio-clavicular ligament injury and neck sprain."
+        ],
+        "icd_code": "NC93.50",
+        "icd_description": "Strain or sprain of medial collateral ligament of knee, excluding rupture"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "left peroneal nerve palsy (complete or incompletion division of nerve) / soft tissue injury of leg with peroneal nerve palsy",
+        "injury_type": "Residual disability",
+        "body_part": "left lower leg / peroneal nerve distribution",
+        "laterality": "left",
+        "source": [
+          "In respect of the lower limbs, Drs Fu and Lam agreed that the Plaintiff had soft tissue injury of leg with left peroneal nerve palsy (complete or incompletion division of nerve) due to the Accident.",
+          "Nerve conduction test was done on 15th November 2007 and confirmed diagnosis of left peroneal nerve palsy.",
+          "The impression was one of \"left shoulder contusion; left peroneal nerve injury \u000096 improving trend\"."
+        ],
+        "icd_code": "NC94.1",
+        "icd_description": "Injury of peroneal nerve at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent left shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced range of left shoulder movement with pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "intermittent left ankle and left leg pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "intermittent numbness in left ankle and left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "left forearm numbness (transient)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left ankle and big toe dorsiflexion power decreased (4-/5)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "positive Tinel sign over anterolateral aspect of left leg, distal to fibula head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "decreased sensation along left peroneal nerve distribution",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "left shoulder abduction 90\u0000 and reduced internal rotation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased range of motion in all directions of cervical spine",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "accident and emergency treatment at Prince of Wales Hospital",
+      "physiotherapy",
+      "occupational therapy",
+      "nerve conduction test",
+      "admission to Prince of Wales Hospital orthopaedics unit for neurology assessment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced efficiency at work; should take some rest after long period of walking; cannot lift more than 20kg; difficulty performing manual delivery duties",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Problem with long periods of walking; needs rest after one hour of walking; decreased steadiness",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Lower leg and ankle strength decreased about 50%",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 30621,
+      "output_tokens": 8280,
+      "reasoning_tokens": 6400,
+      "total_tokens": 38901
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45695.9836371243,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 30621,
+      "output_tokens": 8280,
+      "reasoning_tokens": 6400,
+      "total_tokens": 38901
+    },
+    "total_duration_ms": 45695.9836371243
+  }
+}

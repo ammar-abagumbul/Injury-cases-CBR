@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 462",
+    "action_number": "HCPI 504/2003",
+    "case_name": "LEE TSZ KIN KEN v. CLIMAX PAPER CONVERTERS LIMITED",
+    "judgment_date": "2004-06-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "Registered electrical worker; employed as a technician by the defendant in about February 1998",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14004.25,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained his right thumb",
+        "injury_type": "Residual disability",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "in the course of operating the Vacuum Cleaner he sprained his right thumb."
+        ],
+        "icd_code": "NC54.7",
+        "icd_description": "Strain or sprain of thumb"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild scarring around the radial digital nerve of right thumb",
+        "injury_type": "Residual disability",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "There was just mild scarring around the radial digital nerve of right thumb."
+        ],
+        "icd_code": "NC55.2",
+        "icd_description": "Injury of radial nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his neck and right thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the right thumb base",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased touch sensation over the whole thumb from the tip down to the wrist including the 1st web space and the whole thenar eminence",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild wasting of the muscles of the thenar eminence",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the whole thumb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "significant decrease in the range of movement of the MCP joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "significant decrease in the range of movement of the basal joint of the thumb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "marked weakening in the power of the finger pinch",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to actively extend his right thumb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to use chopsticks, write or button up his clothing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation on right thumb (operation performed on him on 25 August 2000)",
+      "40 sessions of rehabilitation between 21 August 2000 and 26 June 2001",
+      "successive sick leave totalling 850 days intermittently from 26 May 2000 to 21 March 2003"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 850,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenities (PSLA) - awarded HK$50,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity - concession award HK$100,000.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12429,
+      "output_tokens": 4848,
+      "reasoning_tokens": 3840,
+      "total_tokens": 17277
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26559.177570044994,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12429,
+      "output_tokens": 4848,
+      "reasoning_tokens": 3840,
+      "total_tokens": 17277
+    },
+    "total_duration_ms": 26559.177570044994
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 67",
+    "action_number": "HCA000635/1979",
+    "case_name": "LI YUEN WAH v. CHAN YEE KUK AND ANOTHER",
+    "judgment_date": "1980-11-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": "Packing factory worker (briefly)",
+    "expected_occupation_after": null,
+    "salary_before": 990.0,
+    "salary_after": 572.0,
+    "expected_salary_after": 1500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "concussion",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "She suffered from concussion and a fracture of the right occipital skull bone."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right occipital skull bone",
+        "injury_type": "Temporary injury",
+        "body_part": "right occipital skull bone",
+        "laterality": "right",
+        "source": [
+          "She suffered from concussion and a fracture of the right occipital skull bone."
+        ],
+        "icd_code": "NA02.03",
+        "icd_description": "Fracture of squama of occipital bone of skull"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "brain damage (moderate abnormality in the posterior part of the brain)",
+        "injury_type": "Permanent injury",
+        "body_part": "brain (posterior part)",
+        "laterality": null,
+        "source": [
+          "He found the EEG showed moderate abnormality in the posterior part of the brain indicating brain damage."
+        ],
+        "icd_code": "NA07.4Z",
+        "icd_description": "Unspecified focal traumatic brain injury"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "possible tendency to epileptic attacks",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "abnormal EEG suggested \"abnormal activity of the brain and possible tendency to epileptic attacks.\""
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rendered unconscious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "vomitted",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "felt dizzy / giddiness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not see clearly",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not stand up",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severe headaches / post-concussion headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "intermittent headaches and giddiness for possibly 10 - 20 years",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "intolerant of loud noises",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "ability to concentrate is impaired",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "suffers from memory difficulties",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "impaired mental ability",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "irritable and impatient (change of temperament)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "frightened of heavy traffic / phobia about moving vehicles",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "episode of being unconscious while riding in a friend's motor car (possible epileptic attack)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "detained at Princess Margaret Hospital",
+      "injection of pain killers",
+      "X-ray",
+      "electroencephalogram (EEG)",
+      "examination by Dr Edmund Cheung"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 13,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Her ability to concentrate and her faculties of recollection have been and remained impaired; impaired memory and mental ability.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "The plaintiff and her husband have been separated for almost two years which she attributed to her irritability and impatience.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Before the accident she and her husband went swimming; now she is afraid to swim out to the raft and is no longer interested in that pastime.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "She usually spent most of her time in her mother's flat because she is afraid of vehicles on the road.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13268,
+      "output_tokens": 7890,
+      "reasoning_tokens": 6016,
+      "total_tokens": 21158
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36820.52489370108,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13268,
+      "output_tokens": 7890,
+      "reasoning_tokens": 6016,
+      "total_tokens": 21158
+    },
+    "total_duration_ms": 36820.52489370108
+  }
+}

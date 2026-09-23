@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 290",
+    "action_number": "DCPI 1453/2005",
+    "case_name": "LEE HO CHUEN v. LAI WAI KEI",
+    "judgment_date": "2006-09-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 56,
+    "occupation_before": "Taxi driver (since 1998); previously maintenance technician with Canadian Airlines",
+    "occupation_after": "Worked part time as a locum taxi driver and part time as a clerical worker in a friend's fabric factory; later worked as a taxi driver full time at reduced capacity (20 days/month, resting periodically)",
+    "expected_occupation_after": null,
+    "salary_before": 11200.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right sided chronic subdural haematoma",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": "right",
+        "source": [
+          "Urgent Computerized Tomographic scan of his brain revealed right sided chronic subdural haematoma."
+        ],
+        "icd_code": "NA07.61",
+        "icd_description": "Chronic traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "haematoma at the right parietal scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "right parietal scalp",
+        "laterality": "right",
+        "source": [
+          "Upon examination, it was found that he had a haematoma at the right parietal scalp"
+        ],
+        "icd_code": "NA00.01",
+        "icd_description": "Contusion of scalp"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "superficial abrasion on his right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "superficial abrasion on his right knee"
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of both lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on and off dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "post-concussion eye discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scar on his scalp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "nausea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "repeated vomiting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance transport to Accident and Emergency Department of Caritas Medical Centre",
+      "A&E treatment",
+      "admitted to hospital for two days",
+      "computerized tomographic scan (CT scan) of brain",
+      "burr hole drainage for chronic subdural haematoma (operation lasted 5 hours)",
+      "follow-up outpatient treatment at Department of Neurosurgery of PYNEH"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Weakness of both lower limbs and residual effects (persistent headache, dizziness, post-concussion symptoms) affecting everyday life and working capacity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar on his scalp",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ip Shuk Hing v Yuen Yuk Wai",
+        "neutral_citation": null,
+        "action_number": "HCPI 216 of 1999",
+        "injury_description": "hairline fracture on the skull from a blow in the head, which resulted in haematoma and loss of consciousness. Mild post-concussion syndrome and mild post-traumatic stress disorder resulted. Symptoms of headaches, instability and dizziness.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 240000.0
+      },
+      {
+        "case_name": "Tsui San Yau v Tsang Wai Hong",
+        "neutral_citation": null,
+        "action_number": "HCPI 657 of 2003",
+        "injury_description": "scalp laceration, facial swelling and left shoulder abrasion. Diagnosed with anxiety and post-traumatic stress disorder. Post-concussion syndrome diagnosed because of headache and dizziness; mild head injury and an adjustment disorder.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16136,
+      "output_tokens": 6027,
+      "reasoning_tokens": 4352,
+      "total_tokens": 22163
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35781.32067620754,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16136,
+      "output_tokens": 6027,
+      "reasoning_tokens": 4352,
+      "total_tokens": 22163
+    },
+    "total_duration_ms": 35781.32067620754
+  }
+}

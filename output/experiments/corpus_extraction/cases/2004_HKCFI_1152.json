@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 1152",
+    "action_number": "HCPI 296/2002",
+    "case_name": "CHU KWONG SANG v. CHUEN WO TRANSPORTATION LTD AND OTHERS",
+    "judgment_date": "2004-12-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 37,
+    "age_at_trial": 42,
+    "occupation_before": "slinger",
+    "occupation_after": null,
+    "expected_occupation_after": "car park or petrol station attendant",
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left calcaneal (heel) fracture with multiple fragments and displacement",
+        "injury_type": "Permanent injury",
+        "body_part": "left calcaneus (left heel)",
+        "laterality": "left",
+        "source": [
+          "The Medical Reports of PMH dated 11 October and 9 November 2001 stated that plaintiff suffered from left calcaneal (heel) fracture with multiple fragments and displacement. Open reduction, internal fixation and bone grafting were performed on 7 September 2000."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild adjustment disorder with depressed mood / depressive disorder precipitated by stress of the injury and compensation",
+        "injury_type": "Permanent injury",
+        "body_part": "psychiatric (mild adjustment disorder / depressive disorder)",
+        "laterality": null,
+        "source": [
+          "The Psychiatric Report of Tai Po Hospital dated 9 October 2002 stated that the plaintiff suffered from depressive disorder precipitated by stress of the injury and compensation.",
+          "The psychiatric report of Dr Chung dated 4 November 2002 stated that the plaintiff suffered from mild adjustment disorder with depressed mood, caused by the trauma and resultant physical problem."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left heel pain on prolong sitting over 20 to 30 minutes; standing over four to five minutes; tiptoeing; walking up and down stairs and on uneven surface; pain at back of heel on prolonged walking; forefoot pain and numbness after walking for 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain of grade 8 out of 10",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needs to use stick for going out",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain and restriction in ankle and heel movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot return to his pre-accident job (involves a lot of climbing and jumping)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia, depressed mood, poor appetite, persecutory ideas and increased irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction",
+      "internal fixation",
+      "bone grafting"
+    ],
+    "treatments_future": [
+      "removal of internal fixation (removal of implants)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 437,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Persistent pain and restriction in ankle and heel movement; pain on prolonged sitting, standing, walking, tiptoeing; needs to use a stick for going out; difficulty walking up and down stairs and on uneven surfaces.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Plaintiff could not return to his pre-accident job which involves a lot of climbing and jumping; suitable only for jobs with not much walking such as car park or petrol station attendant.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 375000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Kin Wah v. Lam Shu Kan",
+        "neutral_citation": null,
+        "action_number": "HCPI No.1208 of 1998",
+        "injury_description": "the plaintiff suffered a fracture of the right calcaneus (heel bone). It was treated by open reduction, internal fixation and bone graft. He was in hospital for six weeks, physiotherapy for a year, and dispensation of crutches at the end of two years. He suffered from spasms in the right leg, loss of strength in the right limb when negotiating stairs, and had difficulty in squatting.",
+        "hospitalisation_days": 42,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 375000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13362,
+      "output_tokens": 4770,
+      "reasoning_tokens": 3328,
+      "total_tokens": 18132
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34255.401238799095,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13362,
+      "output_tokens": 4770,
+      "reasoning_tokens": 3328,
+      "total_tokens": 18132
+    },
+    "total_duration_ms": 34255.401238799095
+  }
+}

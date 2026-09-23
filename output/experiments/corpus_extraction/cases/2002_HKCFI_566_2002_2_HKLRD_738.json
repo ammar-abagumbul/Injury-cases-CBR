@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 566; [2002] 2 HKLRD 738",
+    "action_number": "HCPI 742/2000",
+    "case_name": "CHOW CHEUNG CHING v. RIGHT BASE CONSTRUCTION & ENGINEERING CO. LTD. AND OTHERS",
+    "judgment_date": "2002-06-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 45,
+    "age_at_trial": 50,
+    "occupation_before": "odd job worker / construction worker",
+    "occupation_after": "general non-production work not requiring much exertion of the left hand",
+    "expected_occupation_after": null,
+    "salary_before": 15500.0,
+    "salary_after": 6750.0,
+    "expected_salary_after": 7000.0,
+    "education_level": "primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound fracture to the middle phalanx and severing of tendons and nerves of his left index finger (\"LIF\")",
+        "injury_type": "Permanent injury",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "The plaintiff suffered compound fracture to the middle phalanx and severing of tendons and nerves of his left index finger (\"LIF\") and left middle finger (\"LMF\")."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "compound fracture to the middle phalanx and severing of tendons and nerves of his left middle finger (\"LMF\")",
+        "injury_type": "Permanent injury",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "The plaintiff suffered compound fracture to the middle phalanx and severing of tendons and nerves of his left index finger (\"LIF\") and left middle finger (\"LMF\")."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "amputation of the 2nd toe of the left foot",
+        "injury_type": "Permanent injury",
+        "body_part": "left second toe",
+        "laterality": "left",
+        "source": [
+          "The plaintiff also suffered the amputation of the 2nd toe of the left foot and felt some pain upon standing for over 15 minutes."
+        ],
+        "icd_code": "ND19.6",
+        "icd_description": "Traumatic amputation of one toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Numbness and stiffness of LIF",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Deformity, pain and stiffness in LMF",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Pain over base of 2nd toe of left toe after standing for over 15 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Poor recovery of the finger fractures",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor recovery of the finger fractures",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation for internal fixation of the fractures and repair of tendons and nerves",
+      "open reduction and internal fixation of fractures (May 1997)",
+      "volar plate re-attachment for hyper-extension of PIP joint of LMF (November 1997)",
+      "removal of metal implants to release persistent stiffness of the finger (January 1998)",
+      "removal of implants (March 1998)",
+      "joint transplant from 2nd toe of left foot to LMF (October 1999)",
+      "removal of implants on LMF (March 2000)",
+      "physiotherapy",
+      "occupation therapy"
+    ],
+    "treatments_future": [
+      "fusion of the DIP joint of the LMF"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 7,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 90
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 540000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Lai Yin v. Yeung Kei Chi t/a Shun Hing Furniture Decorating Construction and anor.",
+        "neutral_citation": "HCPI317/1999",
+        "action_number": "HCPI317/1999",
+        "injury_description": "near amputation of his left index and ring fingers and amputation of the middle finger",
+        "hospitalisation_days": null,
+        "operations_count": 5,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15564,
+      "output_tokens": 6402,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21966
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42030.209343880415,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15564,
+      "output_tokens": 6402,
+      "reasoning_tokens": 4864,
+      "total_tokens": 21966
+    },
+    "total_duration_ms": 42030.209343880415
+  }
+}

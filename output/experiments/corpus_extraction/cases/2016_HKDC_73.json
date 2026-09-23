@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 73",
+    "action_number": "DCPI 17/2013",
+    "case_name": "RAJWINDER SINGH v. MAN HUNG KWAN AND ANOTHER",
+    "judgment_date": "2016-01-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general labourer / construction site worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain / mechanical low back pain with soft tissue/paraspinal muscle involvement",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": "left",
+        "source": [
+          "Dr Lam Kwong Chin, who was appointed by the 1st defendant then solicitors while he still had legal representation, opined that the plaintiff’s “back sprain” was actually due to his persisting back problems, with caused the onset of pain at that stage.",
+          "The medical experts agreed that the plaintiff had “a mechanical low back pain, mainly with tenderness over the left paraspinal muscle”. The pain was mainly with soft tissue/paraspinal sprain muscle involvement. There was no well-defined neurological deficit.",
+          "When the plaintiff was examined by the two experts in August 2012, there was no loss of lumbar lordosis and no paraspinal muscle spasm."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mechanical low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the left paraspinal muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no loss of lumbar lordosis and no paraspinal muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "plaintiff alleged he felt severe pain in his back and heard a cracking sound immediately",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "consultation with an unregistered bonesetter in Tokwawan near to where he lives",
+      "consultation at the government hospital",
+      "joint medical examination by experts in August 2012"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 90,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11848,
+      "output_tokens": 3878,
+      "reasoning_tokens": 3008,
+      "total_tokens": 15726
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29385.69136708975,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11848,
+      "output_tokens": 3878,
+      "reasoning_tokens": 3008,
+      "total_tokens": 15726
+    },
+    "total_duration_ms": 29385.69136708975
+  }
+}

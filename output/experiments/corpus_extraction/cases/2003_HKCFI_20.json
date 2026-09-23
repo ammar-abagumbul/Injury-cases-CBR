@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 20",
+    "action_number": "HCPI 482/2002",
+    "case_name": "TANG CHI WA v. DR ALBERT Y.H. CHAN",
+    "judgment_date": "2003-04-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 27,
+    "occupation_before": "Surveyor (employed by Hyundai Engineering & Construction Limited)",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": "Less physically demanding work in an office or as a sales assistant, store keeper, caretaker",
+    "salary_before": 21837.0,
+    "salary_after": null,
+    "expected_salary_after": 10000.0,
+    "education_level": "Educated in China up to Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right sciatic nerve damage causing foot drop / right sciatic nerve palsy",
+        "injury_type": "Permanent injury",
+        "body_part": "right sciatic nerve / right foot",
+        "laterality": "right",
+        "source": [
+          "it caused damage to his right sciatic nerve which in turn caused \"foot drop\", a condition which will now be permanent.",
+          "The diagnosis was right \"foot drop\" and right sciatic nerve palsy."
+        ],
+        "icd_code": "NC74.0",
+        "icd_description": "Injury of sciatic nerve at hip or thigh level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Injury to left shoulder and neck sustained at work on 3 October 2000",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder and neck",
+        "laterality": "left",
+        "source": [
+          "the plaintiff who had been suffering from the effects of an injury to his left shoulder and neck which he had sustained at work on 3 October 2000,"
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Foot drop",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness and numbness of the lower part of his right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Requires wearing a foot brace / splint to prevent foot drop",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Can no longer run or play sports at the pre-accident level",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Slight abnormality of gait detected on walking",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Physiotherapy",
+      "Foot splint / brace",
+      "Hospitalisation (Caritas Medical Centre)",
+      "Outpatient follow-up (O & T Department, Caritas Medical Centre)",
+      "Follow-up at Prosthetic & Orthotic Department (Caritas Medical Centre)",
+      "Consultation with orthopaedic surgeon (Mr Michael Lau FRCS)",
+      "Bonesetter treatment (in Hong Kong and China)",
+      "Medical treatment at different hospitals/clinics in China",
+      "Treatment at Hospital Kiang Wu",
+      "Consultation with Dr Kwok Che Cheung",
+      "Yan Wai Chuen Clinic treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Permanent need to wear a foot brace and diminished mobility with an abnormal gait",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Activities such as dancing at discotheques, country walks, jogging and playing basketball have been very seriously curtailed",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Active social life curtailed (e.g. discotheque dancing) and feelings of inhibition about wearing shorts because of the brace",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 440000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Chun Wing v. Szeto Sau Ha & Another",
+        "neutral_citation": "[2000] 3 HKLRD J10",
+        "action_number": null,
+        "injury_description": "Identical injuries caused in precisely the same way",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 480000.0
+      },
+      {
+        "case_name": "Choy Chung Shing v. Dr Ng Hon Chun",
+        "neutral_citation": null,
+        "action_number": "HCPI 201/1998",
+        "injury_description": "Identical injuries caused in precisely the same way",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 436000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11781,
+      "output_tokens": 6219,
+      "reasoning_tokens": 4736,
+      "total_tokens": 18000
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51654.63128685951,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11781,
+      "output_tokens": 6219,
+      "reasoning_tokens": 4736,
+      "total_tokens": 18000
+    },
+    "total_duration_ms": 51654.63128685951
+  }
+}

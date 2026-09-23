@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 1161",
+    "action_number": "DCPI 1651/2017",
+    "case_name": "DIU CHUN MING v. LI MAN HA JUDY",
+    "judgment_date": "2019-08-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "self-employed",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 17600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "neck sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "both experts agreed that the plaintiff had neck and back sprain on 29 February 2016 (and possibly lower lumbar nerve entrapment) with “good” and “satisfactory” recovery."
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "both experts agreed that the plaintiff had neck and back sprain on 29 February 2016 (and possibly lower lumbar nerve entrapment) with “good” and “satisfactory” recovery."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "possible lower lumbar nerve entrapment",
+        "injury_type": "Temporary injury",
+        "body_part": "lower lumbar spine",
+        "laterality": null,
+        "source": [
+          "both experts agreed that the plaintiff had neck and back sprain on 29 February 2016 (and possibly lower lumbar nerve entrapment) with “good” and “satisfactory” recovery."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck and lower back sprain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness with no neurological signs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "deterioration of SLR tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "leg numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended AED of Queen Mary Hospital",
+      "admitted to orthopaedics unit",
+      "X-ray",
+      "physiotherapy",
+      "occupational therapy",
+      "analgesics",
+      "orthopaedics follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 168,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Muhammad Saddiq v Cheung Chi Keung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1018/2006",
+        "injury_description": "more serious (with a whiplash injury to the neck as well as a sprained back caused by two rear-ended impacts during a road traffic accident)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Fu Chuen Sing v Ryan (HK) Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 2135/2009",
+        "injury_description": "less serious (\"extremely mild\" lower back pain caused by a back sprain during an attempt to \"stop falling papers\")",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Kong Kam Yuen v Yim To Keung and Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 1971/2013",
+        "injury_description": "more comparable to the present case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13854,
+      "output_tokens": 6939,
+      "reasoning_tokens": 5440,
+      "total_tokens": 20793
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36040.54135084152,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13854,
+      "output_tokens": 6939,
+      "reasoning_tokens": 5440,
+      "total_tokens": 20793
+    },
+    "total_duration_ms": 36040.54135084152
+  }
+}

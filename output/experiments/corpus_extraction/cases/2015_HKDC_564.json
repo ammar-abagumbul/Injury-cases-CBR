@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 564",
+    "action_number": "DCPI 508/2012",
+    "case_name": "HUSSAIN BASHARAT v. 曾慶裕 AND ANOTHER",
+    "judgment_date": "2015-06-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Refugee applicant; not allowed to work",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissues sprain and contusion to his ... lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "The medical evidence supports that he sustained soft tissues sprain and contusion to his right shoulder, right elbow and lower back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissues sprain and contusion to his right shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The medical evidence supports that he sustained soft tissues sprain and contusion to his right shoulder, right elbow and lower back."
+        ],
+        "icd_code": "NC13.5",
+        "icd_description": "Strain or sprain of shoulder joint"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissues sprain and contusion to his right elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "The medical evidence supports that he sustained soft tissues sprain and contusion to his right shoulder, right elbow and lower back."
+        ],
+        "icd_code": "NC33.4",
+        "icd_description": "Strain or sprain of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Afterwards, he got pain and reduced range of movement over his right shoulder and elbow.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002, inj_003"
+      },
+      {
+        "description": "The tenderness and pain over his lower back and right shoulder would not resolve completely.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001, inj_002"
+      },
+      {
+        "description": "When the plaintiff gave evidence in court, he still complained that after a prolonged sitting for about 2 hours, he was painful.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001, inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the A&E department of Queen Elizabeth Hospital",
+      "14 sessions of physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and reduced range of movement over his right shoulder and elbow; tenderness and pain over his lower back and right shoulder would not resolve completely.",
+        "caused_by_injury_id": "inj_001, inj_002, inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Ka Kat v Yiu Hsing Development Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 495/2010",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Mahmood Tariq v Kinway Engineering Ltd & others",
+        "neutral_citation": null,
+        "action_number": "HCPI 149/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chu Chin Wang Geroge v Wong Wai Man formerly trading as Sakura Japanese Restaurant",
+        "neutral_citation": null,
+        "action_number": "DCPI 1316/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Fu Chuen Sing v Ryan (HK) Limited",
+        "neutral_citation": null,
+        "action_number": "DPCI 2135/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "譚惠安對陳力恆 and Tsun Tai Stationary Manufactory Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 465/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11750,
+      "output_tokens": 5871,
+      "reasoning_tokens": 4288,
+      "total_tokens": 17621
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34628.16606834531,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11750,
+      "output_tokens": 5871,
+      "reasoning_tokens": 4288,
+      "total_tokens": 17621
+    },
+    "total_duration_ms": 34628.16606834531
+  }
+}

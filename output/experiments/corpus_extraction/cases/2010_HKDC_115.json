@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 115",
+    "action_number": "DCPI 818/2008",
+    "case_name": "CHANG TSUN TEIN v. WAI LEE SCAFFOLDING CO LTD",
+    "judgment_date": "2010-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "scaffold worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "educated up to form three"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2cm laceration of the scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "According to the hospital report, Mr. Chang had a 2cm laceration of the scalp, with no neurological deficit."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "4 cm scar over the left high parietal region",
+        "injury_type": "Residual disability",
+        "body_part": "left high parietal region (scalp/head)",
+        "laterality": "left",
+        "source": [
+          "He was recorded to be conscious and alert, with a 4 cm scar over the left high parietal region."
+        ],
+        "icd_code": "NA00.0",
+        "icd_description": "Superficial injury of scalp"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Mr. Chang had a mild head injury as a result of the accident."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "very mild post-concussional syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Dr. Woo considered that Mr. Chang's residual headache, dizziness, and subjectively impaired memory are consistent with the diagnosis of a very mild post-concussional syndrome."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "adjustment disorder with mixed anxiety and depressive mood",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/psychological",
+        "laterality": null,
+        "source": [
+          "Dr. Ho diagnosed Mr. Chang as suffering from a very mild degree of post-concussional disorder, and adjustment disorder with mixed anxiety and depressive mood."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "moderate degree of post-traumatic stress disorder",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/psychological",
+        "laterality": null,
+        "source": [
+          "Dr. Chen diagnosed Mr. Chang as suffering from a moderate degree of post-traumatic stress disorder, with impairment in his cognitive function."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "impairment in his cognitive function",
+        "injury_type": "Residual disability",
+        "body_part": "cognitive function/brain",
+        "laterality": null,
+        "source": [
+          "Dr. Chen diagnosed Mr. Chang as suffering from a moderate degree of post-traumatic stress disorder, with impairment in his cognitive function."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "inability to concentrate",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impairment in psychological and social functioning",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "hearing a female voice calling him at night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "nightmares related to scaffolding",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "social withdrawal / becoming unsociable",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "mild to moderate degree of cognitive deficit (mini-mental test 20/30)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_007"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "treated with Panadol and discharged on the same day",
+      "referred to the neurosurgery clinic for management of suspected post-concussion syndrome",
+      "given symptomatic medication",
+      "seen by the psychiatrist for poor sleep and was put on medication",
+      "neuro-psychological assessment by the clinical psychologist of the Castle Peak Hospital",
+      "treatment at Castle Peak Hospital",
+      "psychiatric/psychological outpatient treatment once every 3 or 4 months"
+    ],
+    "treatments_future": [
+      "further psychological treatment (to be provided by government hospitals)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 377,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "inability to concentrate, loss of memory and impairment in cognitive function",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "4 cm scar over the left high parietal region",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "impairment in psychological and social functioning; social withdrawal / unsociable behaviour",
+        "caused_by_injury_id": "inj_006"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16285,
+      "output_tokens": 10481,
+      "reasoning_tokens": 8384,
+      "total_tokens": 26766
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 60170.55742070079,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16285,
+      "output_tokens": 10481,
+      "reasoning_tokens": 8384,
+      "total_tokens": 26766
+    },
+    "total_duration_ms": 60170.55742070079
+  }
+}

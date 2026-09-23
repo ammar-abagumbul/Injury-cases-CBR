@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 134",
+    "action_number": "DCPI 342/2002",
+    "case_name": "LI PIU KEI v. CHOI KAI MING AND CHOY (CHOI) CHONG YIP T/A KAI SHUNG ELECTRICAL REPAIRS AND OTHERS",
+    "judgment_date": "2007-05-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 18,
+    "age_at_trial": null,
+    "occupation_before": "electrician (apprentice)",
+    "occupation_after": "clerical work with the Housing Authority",
+    "expected_occupation_after": null,
+    "salary_before": 9100.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Intra-operative finding was 50% cut of his Achilles tendon, which was surgically repaired",
+        "injury_type": "Permanent injury",
+        "body_part": "right Achilles tendon / right ankle",
+        "laterality": "right",
+        "source": [
+          "Intra-operative finding was 50% cut of his Achilles tendon, which was surgically repaired"
+        ],
+        "icd_code": "ND17.Y",
+        "icd_description": "Injury of other specified muscle, fascia or tendon at ankle or foot level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "2 cm laceration over the back of his ankle",
+        "injury_type": "Temporary injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "2 cm laceration over the back of his ankle"
+        ],
+        "icd_code": "ND12.0",
+        "icd_description": "Laceration without foreign body of ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "9cm long zigzag surgical scar at posterior aspect of lower leg, with horizontal arm directly over the tendo Achilles",
+        "injury_type": "Residual disability",
+        "body_part": "posterior aspect of lower right lower leg / tendo Achilles region",
+        "laterality": "right",
+        "source": [
+          "9cm long zigzag surgical scar at posterior aspect of lower leg, with horizontal arm directly over the tendo Achilles"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "occasional pain and weakness in his right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain after walking or standing for 20 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty negotiating stairs for 5 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tightness or stiffness in the right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain when the weather changed, when it rained or humidity was high",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to play football or jog",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some numbness at surgical site",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "difficulty to squat down / difficulty to squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weaker muscle power at the right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight restriction in ankle motion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over his right tendo Achilles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "3 scars around his right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced walking tolerance and efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical repair of Achilles tendon",
+      "short leg plaster cast",
+      "use of 2 elbow crutches",
+      "outpatient follow-up at hospital",
+      "physiotherapy (20 sessions at Caritas Medical Centre)",
+      "physiotherapy at hospital outpatient department"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 544,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to play football or jog",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Presence of 9cm zigzag surgical scar and other scars around right ankle",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Decreased walking tolerance and efficiency; difficulty walking or standing for more than short periods; difficulty negotiating stairs and squatting",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Partial (50%) cut of the right Achilles tendon with residual weakness of the right lower limb",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LOBO, Helena George v BHAGWANDAS, K. Kripalani",
+        "neutral_citation": null,
+        "action_number": "HCPI 1286 of 1996",
+        "injury_description": "a 50 year old domestic helper who suffered a deep cut to her Achilles tendon (it would appear to be that for her left leg). She was hospitalised for 8 days. The severed tendon was repaired and her lacerations stitched. She had substantially recovered. The plaintiff was, however, left with some scarring which had paled and was not keloid. There was \"some thickening, or possibly swelling, around the tendon area.\" There was 1.5 to 2 centimetre of wasting in the left calf muscle. The Court accepted that the plaintiff was left with some minor disability in that there was difficulty in climbing steps and getting up from a squatting position. The Court accepted that there was residual weakness of the foot or ankle and some pain.",
+        "hospitalisation_days": 8,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11948,
+      "output_tokens": 7149,
+      "reasoning_tokens": 5184,
+      "total_tokens": 19097
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 56063.28630074859,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11948,
+      "output_tokens": 7149,
+      "reasoning_tokens": 5184,
+      "total_tokens": 19097
+    },
+    "total_duration_ms": 56063.28630074859
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 1322",
+    "action_number": "DCPI 660/2013",
+    "case_name": "CHAN KAI MAN v. BAIQIAN INTERNATIONAL HOLDING LTD",
+    "judgment_date": "2016-10-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": null,
+    "occupation_before": "Hong Kong–China cross-border lorry driver",
+    "occupation_after": "Cross-border driver (employed by Uni-Link Logistics Ltd. from 1 July 2014)",
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": 16000.0,
+    "expected_salary_after": null,
+    "education_level": "Received education in Mainland China up to level 5 in primary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain resulting in residual pain.",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "Chan was assessed to have sustained back sprain resulting in residual pain."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back sprain and radiculopathy",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "back sprain and radiculopathy"
+        ],
+        "icd_code": "NB96",
+        "icd_description": "Other multiple injuries of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness on his right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness and stiffness over the 2nd and 3rd lumbar paraspinal muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of spinal movement was markedly limited in flexion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right buttock numbness on prolonged sitting",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild tenderness over the lumbosacral junction and the sacrum",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness over the lumbar paraspinal muscle with muscle tightness and guarding",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Chinese bonesetter treatment (Hui Kok Yin Bone Injuries Clinic)",
+      "Accident & Emergency Department treatment (Queen Mary Hospital)",
+      "Physiotherapy (referred and undergone)",
+      "Oral analgesics",
+      "Physiotherapy/medical treatment in Mainland China"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 18,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General damages for pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 34768,
+      "output_tokens": 4552,
+      "reasoning_tokens": 3456,
+      "total_tokens": 39320
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34137.863889336586,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 34768,
+      "output_tokens": 4552,
+      "reasoning_tokens": 3456,
+      "total_tokens": 39320
+    },
+    "total_duration_ms": 34137.863889336586
+  }
+}

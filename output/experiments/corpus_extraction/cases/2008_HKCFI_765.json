@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 765",
+    "action_number": "HCPI 610/2007",
+    "case_name": "MOHAMMAD SHAKIL v. LAM SIU KWONG TRADING UNDER THE NAME OR STYLE OF TAT LEE ENGINEERING AND ANOTHER",
+    "judgment_date": "2008-09-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 34,
+    "age_at_trial": 36,
+    "occupation_before": "general construction site labourer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": "security guard",
+    "salary_before": 11500.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": 6750.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back contusion with soft tissue involvement",
+        "injury_type": "Residual disability",
+        "body_part": "back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "resulting in injuries to the plaintiff\u0019s back and right thigh.",
+          "The plaintiff has essentially suffered back contusion and soft tissue injury."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to right thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "resulting in injuries to the plaintiff\u0019s back and right thigh."
+        ],
+        "icd_code": "NC7Z",
+        "icd_description": "Injuries to the hip or thigh, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain / low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right thigh pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to lift weight heavier than 7 to 10 kilogrammes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited walking tolerance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no definite neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "rehabilitation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Intermittent low back pain and reduced ability to lift weights (cannot lift heavier than 7 to 10 kilogrammes); some loss of work efficiency and endurance.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Hon Chiu v. Choy Kam Tin",
+        "neutral_citation": null,
+        "action_number": "HCPI 260/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Kei Fung v. Incorporated Owners of Yue Tin Court",
+        "neutral_citation": null,
+        "action_number": "DCP1237/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chung Keung v. Greenroll t/a Conrad Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 275/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Lai Fan Fanny v. The Hong Kong Golf Club",
+        "neutral_citation": null,
+        "action_number": "HCPI 511/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12173,
+      "output_tokens": 5165,
+      "reasoning_tokens": 3776,
+      "total_tokens": 17338
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39747.920498251915,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12173,
+      "output_tokens": 5165,
+      "reasoning_tokens": 3776,
+      "total_tokens": 17338
+    },
+    "total_duration_ms": 39747.920498251915
+  }
+}

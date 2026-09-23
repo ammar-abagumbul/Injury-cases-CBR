@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 982",
+    "action_number": "HCPI 1096/1999",
+    "case_name": "SIU LEUNG SING v. WONG FOOK WING AND ANOTHER",
+    "judgment_date": "2002-11-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "electrician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe head injuries requiring craniotomy and tracheostomy, with consequent permanent disability",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "suffered severe head injuries with consequent permanent disability.",
+          "The head injury required a craniotomy, and tracheostomy was later performed."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left fourth cranial nerve palsy",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "It is now regarded more exactly as left fourth cranial nerve palsy."
+        ],
+        "icd_code": "NA04.3",
+        "icd_description": "Injury of trochlear nerve"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Unconscious for about five weeks.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Great problems in communication, his speech and cognitive skills having been seriously affected for some time.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bi-temporal headaches daily.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor memory and comprehension.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diplopia (double vision); can control the diplopia effect by tilting his head to the right side.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Needs to wear an optical lens with a correction in the left lens, and adopt an abnormal head posture to compensate fully for the binocular diplopia.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Permanent difficulties in using normal speech and language for daily communication.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "craniotomy",
+      "tracheostomy",
+      "surgery to improve diplopia and head posture",
+      "speech therapy (short course commenced November 2001)",
+      "rehabilitation (in hospitals and rehabilitation units)"
+    ],
+    "treatments_future": [
+      "ongoing speech therapy to maintain and consolidate progress",
+      "neurological consultations",
+      "drug therapy (anti-convulsant/neurological medication)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor memory and comprehension; cognitive deficits affecting ability to obtain gainful employment.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Permanent difficulties in using normal speech and language for daily communication; speech therapy required.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Dependent to a substantial extent, and permanently, on members of his family for varying periods and in a variety of ways.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Needs help with shopping, cooking, cleaning and washing; requires part-time daily help (found to be 3 hours daily).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "No realistic prospect of his obtaining gainful employment; loss of earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Left fourth cranial nerve palsy causing diplopia and need to adopt abnormal head posture and corrective lens.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 900000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14334,
+      "output_tokens": 5328,
+      "reasoning_tokens": 3904,
+      "total_tokens": 19662
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32583.438273519278,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14334,
+      "output_tokens": 5328,
+      "reasoning_tokens": 3904,
+      "total_tokens": 19662
+    },
+    "total_duration_ms": 32583.438273519278
+  }
+}

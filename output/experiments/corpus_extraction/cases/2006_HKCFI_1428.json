@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1428",
+    "action_number": "HCPI 1062/2004",
+    "case_name": "MAN YING CHU v. LEUNG KWOK WING AND OTHERS",
+    "judgment_date": "2006-12-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "employed by Citywise as a casual worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6862.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "not educated"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Ms Man\u0002s left knee has no anterior cruciate ligament, (ACL), neither is there any lateral meniscus in the left knee.",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The injuries suffered by Ms Man were to her knees, and in particular her left knee. The very unusual feature about this case is that subsequent medical examination has demonstrated that Ms Man\u0002s left knee has no anterior cruciate ligament, (ACL), neither is there any lateral meniscus in the left knee.",
+          "On 3 December 2001, six days after the accident a CT scan showed that the ACL in Ms Man\u0002s left knee was chronically torn. An MRI scan undertaken in November 2003, demonstrated a complete ACL tear, and that all of the residual ACL fibres had been reabsorbed into the body. The MRI also demonstrated a complete loss of the lateral meniscus."
+        ],
+        "icd_code": "NC93.8",
+        "icd_description": "Injury to multiple structures of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Rotational injury to her left knee suffered in the accident which has resulted in the symptoms from which Ms Man now suffers.",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "I am satisfied on the balance of probabilities that the injuries suffered by Ms Man occurred in the course of the accident.",
+          "I am satisfied on the balance of probabilities that in the accident Ms Man suffered a rotational injury to her left knee. Having regard to her preaccident condition, the injury was to an essentially normal knee, notwithstanding the absence of ACL and meniscus. That injury has resulted in the symptoms from which Ms Man now suffers."
+        ],
+        "icd_code": "NC93",
+        "icd_description": "Dislocation or strain or sprain of joints or ligaments of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Ms Man regularly suffered from a limp; Ms Man favoured her left leg, and tended to place more weight on her right leg, thereby producing a limp.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Ms Man is unable to squat freely.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She will suffer regular pain and discomfort in the knee, pain and discomfort which will vary from time to time, from virtually nonexistent, to a level of discomfort that will require occasional analgesic relief.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Although she is able to perform most household tasks satisfactorily she will require some assistance for heavy tasks, and in the absence of assistance will have difficulty in performing those tasks.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The surveillance videotape confirms the view that I have formed that Ms Man would have difficulty returning to work on a construction site, with all of the uneven surfaces, bending and squatting, that such work requirements.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "work hardening program at the occupational therapy department of Prince of Wales Hospital",
+      "physiotherapy",
+      "regular attendance at physiotherapy and other treatment programs"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Although she is able to perform most household tasks satisfactorily she will require some assistance for heavy tasks, and in the absence of assistance will have difficulty in performing those tasks.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Ms Man is unable to squat freely and will suffer regular pain and discomfort in the knee; she would have difficulty returning to work on a construction site with uneven surfaces, bending and squatting.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The surveillance videotape confirms the view that I have formed that Ms Man would have difficulty returning to work on a construction site, with all of the uneven surfaces, bending and squatting, that such work requirements. She would be capable of undertaking some less strenuous work.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12059,
+      "output_tokens": 5909,
+      "reasoning_tokens": 4416,
+      "total_tokens": 17968
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33811.32544577122,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12059,
+      "output_tokens": 5909,
+      "reasoning_tokens": 4416,
+      "total_tokens": 17968
+    },
+    "total_duration_ms": 33811.32544577122
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 712",
+    "action_number": "DCPI 2627/2015",
+    "case_name": "YIP KWOK SHING v. FUNG CHAU TIM",
+    "judgment_date": "2017-06-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "self-employed merchant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of the back; redness and tenderness over the left lower back region",
+        "injury_type": "Temporary injury",
+        "body_part": "left lower back",
+        "laterality": "left",
+        "source": [
+          "In his report dated 19 September 2016, Dr Fu opined that the plaintiff\u0019s injury was compatible with the diagnosis of soft tissue injury of the back.",
+          "When he was first admitted to the Department of Accident and Emergency (\"A&E\") at Pok Oi Hopsital (\"POH\") after the incident on 9 August 2013, he was found to have redness and tenderness over the left lower back region only (which was mistyped by the attending doctor as the right region)."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "redness and tenderness over the left lower back region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited lumbar movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left side low back pain (plaintiff's complaint of persistent back pain)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walking with a limp immediately after the incident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "was able to walk unaided to the ambulance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic (given at A&E)",
+      "admitted to Emergency Medical Ward (EMW) for slightly over one day",
+      "physiotherapy (7 sessions from 3 September 2013 to 20 December 2013)",
+      "medical expenses allowed: 860 HKD",
+      "tonic food allowed: 200 HKD",
+      "travelling expenses allowed nominal: 300 HKD",
+      "total special damages allowed: 1360 HKD"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 10,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The plaintiff alleges that he could no longer enjoy playing basketball and football after the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and tenderness in the left lower back resulting from the assault.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chiu Man Chi v Motorola Asia Pacific Limited",
+        "neutral_citation": "unreported, HCPI 150/2011 (Bharwaney J; 16.3.2016)",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Luo Xiao Rong v Full Trend Development Limited trading as Banquet Delicious",
+        "neutral_citation": "unreported, DCPI 2418/2014 (Deputy Judge Kam Cheung; 21.12.2016)",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chu Sio Iong v Cheung Ho Yin",
+        "neutral_citation": "unreported, DCPI 580/2011 (HH Judge Kent Yee; 7.5.2013)",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tamang Udas v Global Sunny Engineering Ltd",
+        "neutral_citation": "unreported, HCPI 732/2011 (Deputy High Court Judge Woo; 7.1.2013)",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11695,
+      "output_tokens": 5304,
+      "reasoning_tokens": 3840,
+      "total_tokens": 16999
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29789.39900547266,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11695,
+      "output_tokens": 5304,
+      "reasoning_tokens": 3840,
+      "total_tokens": 16999
+    },
+    "total_duration_ms": 29789.39900547266
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCA 260",
+    "action_number": "CACV 13/1983",
+    "case_name": "WONG YUK CHAU AND ANOTHER v. TANG SUK YEE AND OTHERS",
+    "judgment_date": "1983-03-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the said Tang Man deceased suffered serious injuries from which he died on 30th August, 1980, his expectation of life was considerably shortened and his estate has suffered loss and damage.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the said Tang Man deceased suffered serious injuries from which he died on 30th August, 1980, his expectation of life was considerably shortened and his estate has suffered loss and damage.",
+          "While Mr. Tang Man and his wife Madam Ko Sin were waiting at a bus stop, a bus mounted the platform upon which they stood and knocked them and others down. Mr. Tang Man died that day"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the said Ko Sin deceased suffered serious injuries from which she died on 31st August, 1980, her expectation of life was considerably shortened and her estate has suffered loss and damage.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the said Ko Sin deceased suffered serious injuries from which she died on 31st August, 1980, her expectation of life was considerably shortened and her estate has suffered loss and damage.",
+          "While Mr. Tang Man and his wife Madam Ko Sin were waiting at a bus stop, a bus mounted the platform upon which they stood and knocked them and others down. ... his wife on the following day."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "expectation of life was considerably shortened",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "expectation of life was considerably shortened",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of expectation of life",
+        "description": "Award of $15,000 to the estate for loss of expectation of life",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Award of $15,000 to the estate for loss of expectation of life",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13934,
+      "output_tokens": 3383,
+      "reasoning_tokens": 2432,
+      "total_tokens": 17317
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23388.644762337208,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13934,
+      "output_tokens": 3383,
+      "reasoning_tokens": 2432,
+      "total_tokens": 17317
+    },
+    "total_duration_ms": 23388.644762337208
+  }
+}

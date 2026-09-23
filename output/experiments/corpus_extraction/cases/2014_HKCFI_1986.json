@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1986",
+    "action_number": "HCPI 209/2013",
+    "case_name": "NG TIN CHUEN v. 黃宗強 AND OTHERS",
+    "judgment_date": "2014-11-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 58,
+    "occupation_before": "general labourer",
+    "occupation_after": "gardener (briefly); thereafter freelance light construction work (8-10 days/month)",
+    "expected_occupation_after": null,
+    "salary_before": 17000.0,
+    "salary_after": 8800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the plaintiff fell from a collapsing working platform on 19 March 2010 and suffered a fracture of the left calcaneum.",
+        "injury_type": "Residual disability",
+        "body_part": "left calcaneum",
+        "laterality": "left",
+        "source": [
+          "the plaintiff fell from a collapsing working platform on 19 March 2010 and suffered a fracture of the left calcaneum."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left hind foot pain on walking for 15 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness (cannot carry more than 10 kg)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle cramp at bedtime",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no finding of muscle wasting (on physical examination)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "x-ray showed healed fracture in acceptable alignment with preserved joint space (but with mild irregularity of the articular surface)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of movement and stiffness of the left ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could no longer jog or hike",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would have left foot pain upon prolonged walking or exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would find significant difficulties and left foot pain if he walked on uneven ground for a long period of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Mary Hospital",
+      "treated with a short leg cast",
+      "physiotherapy for 6 months"
+    ],
+    "treatments_future": [
+      "future medical and travelling expenses HK$1,000"
+    ],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 510,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "fracture of the left calcaneum with reduced range of movement and stiffness of the left ankle",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "left hind foot pain on walking for 15 minutes; reduced range of movement and stiffness of the left ankle; left foot pain upon prolonged walking or exertion; significant difficulties and left foot pain if walking on uneven ground for a long period",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could no longer jog or hike",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chi Shing v Chan Siu Kuen & others",
+        "neutral_citation": null,
+        "action_number": "DCPI 229/2007",
+        "injury_description": "the plaintiff suffered a fracture of lumbar vertebrate as well as a fracture of calcaneum which required surgery.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Lau Kin Wah v Lam Shu Kan",
+        "neutral_citation": null,
+        "action_number": "HCPI 1208/1998",
+        "injury_description": "the plaintiff suffered a fracture of calcaneum which required surgery, hospitalization for 6 weeks and the patient was on crutches for 2 years.",
+        "hospitalisation_days": 42,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 375000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8550,
+      "output_tokens": 3809,
+      "reasoning_tokens": 2368,
+      "total_tokens": 12359
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26855.9629060328,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8550,
+      "output_tokens": 3809,
+      "reasoning_tokens": 2368,
+      "total_tokens": 12359
+    },
+    "total_duration_ms": 26855.9629060328
+  }
+}

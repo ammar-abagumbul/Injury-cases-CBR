@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 773",
+    "action_number": "HCPI 698/2009",
+    "case_name": "LAM SIU KONG v. LUCK ON ENTERPRISE LTD T/A OCEAN SUPER SEAFOOD RESTAURANT",
+    "judgment_date": "2010-08-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "captain in a restaurant",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injuring the right foot",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "she had previously met an accident in April 2008 at work injuring the right foot"
+        ],
+        "icd_code": "ND1Z",
+        "icd_description": "Injuries to the ankle or foot, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "moderate depressive episode",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "crying episodes accompanied by negative cognition and sense of worthlessness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lethargy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "non-specific somatic symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor appetite",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "disturbed sleep with occasional wakening",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "self-harming behaviour such as burning herself with cigarette butt and slapping her own face",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "fleeting suicidal ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unemployed since the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild reduction in work capacity / reduced work efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulties in breathing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "psychiatric consultation at West Kowloon Psychiatric Centre",
+      "medication prescribed by Dr. Wong Sze Nga",
+      "orthopaedic assessments and treatment by treating orthopaedic surgeon",
+      "attendance at various private clinics to obtain additional sick leave"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10618,
+      "output_tokens": 3863,
+      "reasoning_tokens": 2752,
+      "total_tokens": 14481
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24451.687689870596,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10618,
+      "output_tokens": 3863,
+      "reasoning_tokens": 2752,
+      "total_tokens": 14481
+    },
+    "total_duration_ms": 24451.687689870596
+  }
+}

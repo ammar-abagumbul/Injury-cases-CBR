@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 118",
+    "action_number": "HCA001679/1986",
+    "case_name": "YIP KAI MING v. CHENG CHU MUI",
+    "judgment_date": "1987-05-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "fortune-teller",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 3000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "damage to the left temporal lobe",
+        "injury_type": "Permanent injury",
+        "body_part": "left temporal lobe",
+        "laterality": "left",
+        "source": [
+          "the brain scans produced by Dr. Shroff, the neurosurgeon who treated the Plaintiff, clearly show the damage to the left temporal lobe"
+        ],
+        "icd_code": "NA07.4A",
+        "icd_description": "Contusion of temporal lobe"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "resultant intellectual impairment",
+        "injury_type": "Residual disability",
+        "body_part": "brain / cognitive function",
+        "laterality": null,
+        "source": [
+          "the Plaintiff's resultant intellectual impairment"
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "spasticity of his right limbs",
+        "injury_type": "Residual disability",
+        "body_part": "right limbs",
+        "laterality": "right",
+        "source": [
+          "produced a degree of spasticity to the right limbs"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "pain in the right hip with some limitation of movement and a slight limp",
+        "injury_type": "Residual disability",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "pain in the right hip with some limitation of movement and a slight limp"
+        ],
+        "icd_code": "NC73.1",
+        "icd_description": "Strain or sprain of hip"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headaches occurring on a daily basis",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "spasticity of his right limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness which results in his tiring easily",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in the right hip with some limitation of movement and a slight limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot find his way and has to be escorted",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diminution of ability to enjoy life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "is now bad tempered",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "at least a 25% risk of developing epilepsy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "loss of memory and resultant intellectual impairment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "some limitation of movement and a slight limp",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "cannot go out alone and has to be escorted; no longer knows the way",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "no longer goes out or meets his friend for a drink or a chat as often as he used to",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "has lost the dignity and quality of life that flowed from his occupation as a fortune-teller and is incapable of carrying on his occupation as a fortune-teller",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "is now bad tempered",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 112000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ling-lam",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "serious injury category; award $60,000 to $80,000 in 1980",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11857,
+      "output_tokens": 8054,
+      "reasoning_tokens": 6336,
+      "total_tokens": 19911
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45736.760061234236,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11857,
+      "output_tokens": 8054,
+      "reasoning_tokens": 6336,
+      "total_tokens": 19911
+    },
+    "total_duration_ms": 45736.760061234236
+  }
+}

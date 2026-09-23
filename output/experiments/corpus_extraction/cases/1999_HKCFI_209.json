@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 209",
+    "action_number": "HCPI 179/1998",
+    "case_name": "CHIU MO YUEN v. JAMES CATERING EQUIPMENT LTD. AND OTHERS",
+    "judgment_date": "1999-12-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 54,
+    "age_at_trial": 58,
+    "occupation_before": "general manual labourer",
+    "occupation_after": "same occupation; unable to perform heavy duty work",
+    "expected_occupation_after": null,
+    "salary_before": 9360.0,
+    "salary_after": 9520.0,
+    "expected_salary_after": 5725.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of his left distal radius",
+        "injury_type": "Permanent injury",
+        "body_part": "left distal radius",
+        "laterality": "left",
+        "source": [
+          "he fell, suffering a fracture of his left distal radius and a laceration on his left palm.",
+          "The Plaintiff was admitted to Tuen Mun hospital on 19 August 1995 with a fracture of his left side distal radius and with a laceration to his left palm. As emergency operation under general anaesthetic was carried out that same day for fracture fixation and wound suturing. The Plaintiff was discharged on 21 August and he was readmitted for removal of the external fixator on 4 October 1995. The fracture healed uneventfully but the Plaintiff complained of persistent pain over his wrist. A medical assessment board granted the Plaintiff 10% permanent disability on 16 October 1996."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "laceration on his left palm",
+        "injury_type": "Temporary injury",
+        "body_part": "left palm",
+        "laterality": "left",
+        "source": [
+          "he fell, suffering a fracture of his left distal radius and a laceration on his left palm.",
+          "The Plaintiff was admitted to Tuen Mun hospital on 19 August 1995 with a fracture of his left side distal radius and with a laceration to his left palm. As emergency operation under general anaesthetic was carried out that same day for fracture fixation and wound suturing."
+        ],
+        "icd_code": "NC52.10",
+        "icd_description": "Laceration without foreign body of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain over his wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left wrist pain (especially upon a change of the weather)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in the left wrist making it impossible for him to lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness in that wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild degree of radial deformity of the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight wasting of the left forearm muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "distinct limitation in the range of motion of the Plaintiff's palmer flexion and his ulnar deviation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakened dorsiflexion and radial deviation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "fracture of the distal radius had healed with deformity and the fracture of the left radius had healed with slight shortening resulting in relative ulnar lengthening",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "10% permanent disability (medical assessment board)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "As emergency operation under general anaesthetic was carried out that same day for fracture fixation and wound suturing.",
+      "He was readmitted for removal of the external fixator on 4 October 1995.",
+      "a graft of bone has been taken from the Plaintiff's hip, or 'iliac crest', and had been used to fill the gap caused by the fracture.",
+      "Occupational therapy",
+      "Follow-up",
+      "Further treatment",
+      "Metal stick"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "left wrist pain (especially upon a change of the weather); weakness in the left wrist making it impossible for him to lift heavy objects and stiffness in that wrist; mild degree of radial deformity of the left wrist; slight wasting of the left forearm muscles and distinct limitation in the range of motion of the Plaintiff's palmer flexion and his ulnar deviation.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 183150.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14675,
+      "output_tokens": 5667,
+      "reasoning_tokens": 4096,
+      "total_tokens": 20342
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34902.192771434784,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14675,
+      "output_tokens": 5667,
+      "reasoning_tokens": 4096,
+      "total_tokens": 20342
+    },
+    "total_duration_ms": 34902.192771434784
+  }
+}

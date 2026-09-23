@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 12",
+    "action_number": "DCPI 1478/2005",
+    "case_name": "CHAU KA MING v. LEE WAI KONG",
+    "judgment_date": "2007-01-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 30,
+    "age_at_trial": 33,
+    "occupation_before": "part-time delivery worker for a sushi shop",
+    "occupation_after": null,
+    "expected_occupation_after": "permanent post in the new sushi branch shop",
+    "salary_before": 7500.0,
+    "salary_after": null,
+    "expected_salary_after": 10000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of the cervical spine",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the pain and stiffness are probably caused by the soft tissue injury of the cervical and lumbar spine."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury of the lumbar spine",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the pain and stiffness are probably caused by the soft tissue injury of the cervical and lumbar spine."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "tenderness and some bruises in the right ankle and leg",
+        "injury_type": "Temporary injury",
+        "body_part": "right ankle and leg",
+        "laterality": "right",
+        "source": [
+          "the Plaintiff suffered tenderness and some bruises in the right ankle and leg during the accident"
+        ],
+        "icd_code": "ND11.1",
+        "icd_description": "Contusion of ankle"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "decreased lordosis of the cervical spine",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "X-ray examination revealed that the Plaintiff did have decreased lordosis of the cervical spine, but it is not certain whether such injury was caused by the accident itself."
+        ],
+        "icd_code": "NA23.4Y",
+        "icd_description": "Other specified strain or sprain of cervical spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain and stiffness in the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of the right lower limb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness over his right knee, neck and lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic injection",
+      "balm",
+      "outpatient treatments",
+      "psychiatric treatment at East Kowloon Psychiatric Clinic (3 visits)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "persistent pain and stiffness in the neck",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "lower back pain",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "weakness of the right lower limb",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Kwok Man v KMB",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 755 of 2001",
+        "injury_description": "back injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14441,
+      "output_tokens": 7958,
+      "reasoning_tokens": 6528,
+      "total_tokens": 22399
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39353.39114069939,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14441,
+      "output_tokens": 7958,
+      "reasoning_tokens": 6528,
+      "total_tokens": 22399
+    },
+    "total_duration_ms": 39353.39114069939
+  }
+}

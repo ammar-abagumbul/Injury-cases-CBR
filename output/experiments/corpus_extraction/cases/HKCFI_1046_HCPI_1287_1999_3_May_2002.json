@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "neutral_citation": "HKCFI 1046; HCPI 1287/1999 (3 May 2002)",
+    "action_number": "HCPI 1287/1999",
+    "case_name": "LI XIAO YOU v. FUGRO GEOTECHNICAL SERVICES (HK) LTD &AMP; OTHERS",
+    "judgment_date": "2002-05-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 25,
+    "age_at_trial": 30,
+    "occupation_before": "geological surveying technician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Graduated from the Geological Training College at Guangzhou; had commenced further study for a degree"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the 5th thoracic vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "5th thoracic vertebra",
+        "laterality": null,
+        "source": [
+          "he sustained a fracture of the 5th thoracic vertebra and a burst fracture of the 12th thoracic vertebra"
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "burst fracture of the 12th thoracic vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "12th thoracic vertebra",
+        "laterality": null,
+        "source": [
+          "he sustained a fracture of the 5th thoracic vertebra and a burst fracture of the 12th thoracic vertebra"
+        ],
+        "icd_code": "NA82.1",
+        "icd_description": "Multiple fractures of thoracic spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "multiple rib fractures and haemopneumothorax",
+        "injury_type": "Permanent injury",
+        "body_part": "ribs / thorax",
+        "laterality": null,
+        "source": [
+          "together with multiple rib fractures and haemopneumothorax"
+        ],
+        "icd_code": "NB35",
+        "icd_description": "Multiple injuries of thorax"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "small subarachnoid haemorrhage",
+        "injury_type": "Permanent injury",
+        "body_part": "brain / subarachnoid space",
+        "laterality": null,
+        "source": [
+          "a small subarachnoid haemorrhage"
+        ],
+        "icd_code": "NA07.7",
+        "icd_description": "Traumatic subarachnoid haemorrhage"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "right brachial plexus injury",
+        "injury_type": "Permanent injury",
+        "body_part": "right brachial plexus / right upper arm",
+        "laterality": "right",
+        "source": [
+          "and a right brachial plexus injury"
+        ],
+        "icd_code": "NC14.6",
+        "icd_description": "Injury of multiple nerves at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "total paralysis of his lower limbs",
+        "injury_type": "Permanent injury",
+        "body_part": "lower limbs / spinal cord",
+        "laterality": "bilateral",
+        "source": [
+          "The injuries resulted in total paralysis of his lower limbs, loss of feeling from his nipples downwards, and weakness in his right upper arm.",
+          "He is permanently wheelchair-bound and cannot stand or walk unaided."
+        ],
+        "icd_code": "NA91.0",
+        "icd_description": "Complete lesion of thoracic spinal cord"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "total paralysis of his lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "loss of feeling from his nipples downwards",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "weakness in his right upper arm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "permanently wheelchair-bound and cannot stand or walk unaided",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "some pain in his right shoulder, particularly when pushing his wheelchair along",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "has to support himself when sitting without back support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "has some pain in his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "suffers involuntary spasms of the lower limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "impotent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "urinary and bowel incontinence",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "has to use a catheter and suppositories to evacuate his bladder and bowels",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "frequent urinary tract infections",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "some constriction in his chest and breathing difficulties on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "psychiatric disorders and depression which require counselling",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "able to feed himself, but not cook",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "can transfer himself in and out of his wheelchair, manoeuvre it on the flat, and bathe himself, although he often needs assistance when he is ill, and for some movements he finds difficult",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      "mechanically assisted ventilation (about one month)",
+      "inpatient care at Queen Mary Hospital (three months)",
+      "rehabilitation at Maclehose Medical Rehabilitation Centre (nine months)",
+      "physiotherapy",
+      "occupational therapy",
+      "psychological counselling",
+      "catheterisation",
+      "use of suppositories",
+      "Chinese doctor treatment: stretching, vitamin injection and acupuncture",
+      "attendance at Chung Shan Hospital for emergencies",
+      "regular follow ups and urological tests including urine tests, urodynamic tests, kidney scans"
+    ],
+    "treatments_future": [
+      "continuation of Chinese doctor treatment (stretching, vitamin injection, acupuncture)",
+      "attendance at Chung Shan Hospital for emergencies (e.g. urinary tract infections)",
+      "regular examination at Guangdong Province Medicine Hospital",
+      "urological follow-ups in Hong Kong including urine tests, urodynamic tests, kidney scans",
+      "physiotherapy review",
+      "occupational therapy",
+      "psychological counselling"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Paralysis of lower limbs; loss of feeling from nipples downwards; weakness in right upper arm; impotence; urinary and bowel incontinence.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Permanently wheelchair-bound; cannot stand or walk unaided.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "He is impotent.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Often needs assistance when ill; employs a domestic helper and assisted by his brother on a full-time basis.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Able to feed himself but cannot cook; requires assistance for some movements and tasks.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Little expectation of any permanent personal relationship nor family of his own.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "Ended his prospects of marriage to a Ms Ye Li Hua (Yip Lai Fa).",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "The accident ended his chances of completing his university education.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Total loss of earnings and no realistic prospect of obtaining work in the future.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of holidays or special occasions",
+        "description": "Increased costs of holidays because he will require assistance and the help of a carer or companion.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1700000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Chi Pon v. Toto Steel & Iron Works Ltd & ors",
+        "neutral_citation": "[1997] 2 HKC 741",
+        "action_number": null,
+        "injury_description": "plaintiff who had suffered similar injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1500000.0
+      },
+      {
+        "case_name": "Tse Lai Yin Lily & ors v Incorporated Owners of Albert House & ors",
+        "neutral_citation": "HCPI 828 of 1997",
+        "action_number": null,
+        "injury_description": "similar situation but with greater psychiatric problems",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 1800000.0
+      },
+      {
+        "case_name": "Chan Yuet Lui Rebecca v. The Ritz Carlton Ltd & ors",
+        "neutral_citation": "HCPI 658 of 2000",
+        "action_number": null,
+        "injury_description": "31 year old paraplegic",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1700000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16106,
+      "output_tokens": 10931,
+      "reasoning_tokens": 7872,
+      "total_tokens": 27037
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 64810.51421165466,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16106,
+      "output_tokens": 10931,
+      "reasoning_tokens": 7872,
+      "total_tokens": 27037
+    },
+    "total_duration_ms": 64810.51421165466
+  }
+}

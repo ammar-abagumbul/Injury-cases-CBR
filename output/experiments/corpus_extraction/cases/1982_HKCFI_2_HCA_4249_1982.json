@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 2; HCA 4249/1982",
+    "action_number": "HCA004249/1982",
+    "case_name": "CHAN KIT CHING AND ANOTHER v. LEE YUK SUI",
+    "judgment_date": "1982-11-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 22,
+    "age_at_trial": null,
+    "occupation_before": "Line-leader in the assembly department of a factory",
+    "occupation_after": null,
+    "expected_occupation_after": "supervisor",
+    "salary_before": 1450.0,
+    "salary_after": null,
+    "expected_salary_after": 4000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Twice suffered cardiac arrest and was successfully resuscitated on both occasions",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "twice suffered cardiac arrest and was successfully resuscitated on both occasions"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "later died from her injures on the 14th November, 1980.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "later died from her injures on the 14th November, 1980."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cardiac arrest (two occasions)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Gradual deterioration leading to death",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "successfully resuscitated on both occasions"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering while in hospital prior to death; award under this head $5,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Award for loss of expectation of life in the sum of $15,000.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "There is only dependancy for the plaintiff who could ... expect a measure of support from her daughter for the remainder of her days.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 5000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Chiu Yuen v Chan Sang",
+        "neutral_citation": "(1979) 9 H.K.L.J. 104",
+        "action_number": null,
+        "injury_description": "deceased for \"considerable pain suffering\" before lapsing into a coma",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 2000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 12
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7370,
+      "output_tokens": 5091,
+      "reasoning_tokens": 4032,
+      "total_tokens": 12461
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42379.95481491089,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7370,
+      "output_tokens": 5091,
+      "reasoning_tokens": 4032,
+      "total_tokens": 12461
+    },
+    "total_duration_ms": 42379.95481491089
+  }
+}

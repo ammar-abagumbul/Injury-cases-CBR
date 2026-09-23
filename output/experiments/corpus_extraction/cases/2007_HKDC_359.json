@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 359",
+    "action_number": "DCPI 1025/2006",
+    "case_name": "WONG YUK FOON v. NICE PROPERTY MANAGEMENT LTD",
+    "judgment_date": "2007-11-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "Security guard (Express Security Limited); part-time Customer Service Centre Assistant for MTR Corporation",
+    "occupation_after": "General worker in a restaurant (March 2006); Service attendant in a private club (from September 2007)",
+    "expected_occupation_after": null,
+    "salary_before": 5800.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture in the 5th metatarsal bone in the left foot",
+        "injury_type": "Permanent injury",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "fracture of the bone in the small toe of her left foot.",
+          "fracture in the 5th metatarsal bone in the left foot."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual but permanent pain in her left foot, particularly when she sits, stands or walks for a prolonged period of time.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The pain would also disturb her sleep.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild left calf muscle wasting.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She has to take rest from time to time after prolonged sitting, standing or walking.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medicine",
+      "splintage"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 48,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual but permanent pain in left foot, particularly when she sits, stands or walks for a prolonged period of time; pain disturbs her sleep; mild left calf muscle wasting; needs rest from time to time after prolonged sitting, standing or walking.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced earning capacity and a real risk of financial disadvantage in the labour market because of residual pain causing inconvenience in work and greater difficulty finding suitable work if dismissed.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "To Ying Wa v Cargo-Land (Warehouse) Devlopment Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 441 of 2000",
+        "injury_description": "The plaintiffs there suffered fractures of similar bones in their feet and obtained damages for PSLA in the region of $150,000 and $200,000.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Sze Wai v Law Chi Kin",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 44 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Sam Mui, the administratrix of the estate of Tam Wan Loong, deceased v Fan Yiu Sum t/a Fan’s Stevedores",
+        "neutral_citation": null,
+        "action_number": "HCA No. A1817 of 1994",
+        "injury_description": "Fracture of the 2nd and the 3rd right metatarsal bones.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10918,
+      "output_tokens": 4285,
+      "reasoning_tokens": 3008,
+      "total_tokens": 15203
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31980.337239801884,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10918,
+      "output_tokens": 4285,
+      "reasoning_tokens": 3008,
+      "total_tokens": 15203
+    },
+    "total_duration_ms": 31980.337239801884
+  }
+}

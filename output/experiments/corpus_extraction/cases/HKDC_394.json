@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "HKDC 394",
+    "action_number": "DCPI 1981/2006",
+    "case_name": "TSE PARC KI v. ATLANTIC TEAM LTD T/A LE BEAUMONT LANGUAGE CENTRE",
+    "judgment_date": "2007-12-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 2,
+    "age_at_trial": 4,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right middle finger crushed",
+        "injury_type": "Temporary injury",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "Dr. Chan found Parc-ki’s right middle finger crushed over the nail with 2/3 of the volar skin intact."
+        ],
+        "icd_code": "NC58.1",
+        "icd_description": "Crushing injury of other finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Avulsed nail and bleeding from the nail bed in the right middle finger",
+        "injury_type": "Temporary injury",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "Physical examination by Dr. Lo Wing-kee showed avulsed nail and bleeding from the nail bed in the right middle finger."
+        ],
+        "icd_code": "NC50",
+        "icd_description": "Injury to fingernail"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Chip fracture in the distal phalanx (right middle finger)",
+        "injury_type": "Temporary injury",
+        "body_part": "right middle finger (distal phalanx)",
+        "laterality": "right",
+        "source": [
+          "X-ray showed a chip fracture in the distal phalanx."
+        ],
+        "icd_code": "NC53.61",
+        "icd_description": "Fracture of middle finger"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Laceration wound to right middle finger closed with sutures",
+        "injury_type": "Temporary injury",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "Dr. Chan removed the damaged nail and closed the laceration wound with 5 “O” vincryl."
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Avulsed nail",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Bleeding from the nail bed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Conscious of the injury for about 8 months",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Treated at Accident and Emergency Department of Queen Mary Hospital",
+      "Transferred to Hong Kong Sanitorium & Hospital",
+      "Examination under general anaesthesia",
+      "Removal of damaged nail",
+      "Closure of laceration wound with 5 “O” vincryl",
+      "Wound dressed daily",
+      "Follow-up visits on 5th, 7th and 12th December 2005",
+      "Discharged home on 2005-12-03"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity arising from the crushing injury to the right middle finger",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Singh Jagdeep v. VSC Engineering Products Company Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 391/2005",
+        "injury_description": "Abrasion over the left dorsal part of the hand; fingers' movement and sensation normal; no fracture.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 16,
+        "comparison": "less serious",
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Yu Pau Yau v. Co-Ray Design & Construction Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 864/2006",
+        "injury_description": "Complete cuts of flexor digitorum profundus tendon, radial and ulnar digital nerve, and other tendon injuries to left index finger.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14375,
+      "output_tokens": 6792,
+      "reasoning_tokens": 5248,
+      "total_tokens": 21167
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35854.44036871195,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14375,
+      "output_tokens": 6792,
+      "reasoning_tokens": 5248,
+      "total_tokens": 21167
+    },
+    "total_duration_ms": 35854.44036871195
+  }
+}

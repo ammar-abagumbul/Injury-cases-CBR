@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 364",
+    "action_number": "DCPI 2243/2015",
+    "case_name": "RUKHSAR BEGUM v. NATIVE ENGLISH CENTER LTD T/A THE GREEN LOUNGE",
+    "judgment_date": "2017-04-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "waitress",
+    "occupation_after": "part-time private tutor; teaching/educational-related jobs",
+    "expected_occupation_after": "office clerk, cashier or receptionist",
+    "salary_before": 8280.0,
+    "salary_after": 400.0,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the base of the distal phalanx of the right ring finger (healed with mild mal-union).",
+        "injury_type": "Residual disability",
+        "body_part": "right ring finger",
+        "laterality": "right",
+        "source": [
+          "Dr Li found, after reviewing the X–ray films of the right ring finger, that there was in fact a fracture of the base of the distal phalanx of the finger even though the fracture had already healed quite well with mild mal-union at the time of his review of the films.",
+          "TB p.86: \"right ring finger ... mild stiffness\""
+        ],
+        "icd_code": "NC53.62",
+        "icd_description": "Fracture of ring finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Meniscal tear of the right knee (classified as \"grade 2\"); right traumatic patellar tendinitis; right knee pain with decreased range of motion.",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "It was stated in the MRI report that the knee had a \"possible tear of posterior horn of medical meniscus\".",
+          "Dr Li classified the meniscal tear of the right knee as \"grade 2\".",
+          "TB p.86: \"right traumatic patellar tendinitis\"",
+          "TB p.85: complaints of pain in the right knee with a decreased range of motion."
+        ],
+        "icd_code": "NC96.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tender and swollen right ring finger and right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Reduced range of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Limping gait",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Mild stiffness of right ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Discomfort from continuous bending or standing for 4 hours or more; unable to stand for more than 4 hours",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Treated and discharged from A&E with a knee brace and walking stick",
+      "Four follow-up sessions with the Orthopaedics & Traumatology Department of Queen Mary Hospital on 2 December 2013, 24 February 2014, 3 March 2014 and 23 June 2014",
+      "Two physiotherapy treatments for knee injury on 16 and 23 December 2013",
+      "MRI scan of the right knee (15 January 2014) done privately"
+    ],
+    "treatments_future": [
+      "12 physiotherapy sessions (recommended in Li's 1st)",
+      "Home exercises using \"Power Putty\" (recommended by Dr Li)"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 330,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume her pre-accident waitressing job due to residual pain from the knee.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Mild mal-union of the base of the distal phalanx of the right ring finger which may potentially cause residual symptoms.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Poon Ching Man v Lam Hoi Pun",
+        "neutral_citation": null,
+        "action_number": "DCPI 1585 of 2011",
+        "injury_description": "Fracture of a tibial plateau and a lateral meniscal tear; had an operation and was hospitalized for 11 days.",
+        "hospitalisation_days": 11,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Li Wan Kei v Hyundai Engineering & Construction Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 577 of 2004",
+        "injury_description": "Small ossicle at the medial epicondyle of the elbow, tenderness over the elbow, hip and meniscal tear of the knee, which was arthroscopically repaired.",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 375000.0
+      },
+      {
+        "case_name": "Frances Christine Keeling v The Hebe Haven Yacht Club Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 579 of 2004",
+        "injury_description": "Injuries from repeated falls including ligament and meniscal injuries; partial meniscectomy mentioned.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 160000.0
+      },
+      {
+        "case_name": "Lee Kam Lin v Full Wise Ltd trading as Fishing Bay Restaurant",
+        "neutral_citation": null,
+        "action_number": "DCPI 2354 of 2014",
+        "injury_description": "Grade 3 meniscus tear of knee and psychiatric condition requiring treatment.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 230000.0
+      },
+      {
+        "case_name": "Ho Shu Yau v Lo Siu Ling formerly trading as Chi Wo Civil Engineering Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 1336 of 2000",
+        "injury_description": "Amputation of distal phalanx of his ring finger.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Chan Ming Yat v Youh Eng Lai Michael trading as Prime Industrial Co (Hong Kong)",
+        "neutral_citation": null,
+        "action_number": "DCPI 201 of 2003",
+        "injury_description": "Fracture of left ring finger, dislocation, torn ulnar collateral ligament, contused ulnar digital nerve and artery; required emergency operation with wound debridement and fracture fixation; hospitalized for about a week.",
+        "hospitalisation_days": 7,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Mohammed Sayeed v Leighton Road Hotel Management Services Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 2072 of 2012",
+        "injury_description": "Left ring finger cut by a knife; 1 cm wound sutured; plaintiff also suffered psychiatric impairment; parties agreed PSLA.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23268,
+      "output_tokens": 6593,
+      "reasoning_tokens": 4352,
+      "total_tokens": 29861
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50118.33534389734,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23268,
+      "output_tokens": 6593,
+      "reasoning_tokens": 4352,
+      "total_tokens": 29861
+    },
+    "total_duration_ms": 50118.33534389734
+  }
+}

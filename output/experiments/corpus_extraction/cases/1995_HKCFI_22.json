@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 22",
+    "action_number": "HCA005715/1989",
+    "case_name": "KWONG SIU WING AND ANOTHER v. WONG WAI CHUNG",
+    "judgment_date": "1995-09-26",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 58,
+    "age_at_trial": null,
+    "occupation_before": "carpenter",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5720.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The deceased sustained a crush and cut injury to his right hand amputating his right little finger at the proximal interphalangeal joint.",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand / right little finger",
+        "laterality": "right",
+        "source": [
+          "The deceased sustained a crush and cut injury to his right hand amputating his right little finger at the proximal interphalangeal joint."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The damage to the index and middle finger was repaired by internal fixation by pins",
+        "injury_type": "Permanent injury",
+        "body_part": "index and middle fingers (right)",
+        "laterality": "right",
+        "source": [
+          "The damage to the index and middle finger was repaired by internal fixation by pins"
+        ],
+        "icd_code": "NC53.7",
+        "icd_description": "Multiple fractures of fingers"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "he was left with ankylosing (a consolidation and immobilising of the bones) of the proximal and distal interphalangeal joints of the right ring and middle fingers, and the distal interphalangeal joint of the index finger.",
+        "injury_type": "Permanent injury",
+        "body_part": "right ring, middle and index fingers (interphalangeal joints)",
+        "laterality": "right",
+        "source": [
+          "he was left with ankylosing (a consolidation and immobilising of the bones) of the proximal and distal interphalangeal joints of the right ring and middle fingers, and the distal interphalangeal joint of the index finger."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "His right hand could not make a fist because of the stiffness of the fingers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "diminished sensation over the right palm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a very weak right grip and pinch",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to return to his pre-accident occupation as a carpenter",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "internal fixation by pins",
+      "amputation of right little finger"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "the disability which resulted would have prevented the deceased from performing easily many of the day to day personal and domestic tasks",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "unable to return to his pre-accident occupation as a carpenter",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 260000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v. Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Chun Yat Nam v. A.G.",
+        "neutral_citation": null,
+        "action_number": "C.A. 92 of 1994",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 1626
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9970,
+      "output_tokens": 7039,
+      "reasoning_tokens": 5568,
+      "total_tokens": 17009
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48793.124958872795,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9970,
+      "output_tokens": 7039,
+      "reasoning_tokens": 5568,
+      "total_tokens": 17009
+    },
+    "total_duration_ms": 48793.124958872795
+  }
+}

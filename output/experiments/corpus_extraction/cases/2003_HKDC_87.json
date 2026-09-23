@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKDC 87",
+    "action_number": "DCPI 293/2003",
+    "case_name": "MUHAMMAD ISMAIL v. OR WAH",
+    "judgment_date": "2003-12-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 60,
+    "age_at_trial": 63,
+    "occupation_before": "general labourer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 10920.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "superficial abrasion over his right wrist",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The finding was that he had a wound about 2 mm over medial side of right ankle with swelling and a foreign body in his right ankle, superficial abrasion over his right wrist."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a wound about 2 mm over medial side of right ankle with swelling and a foreign body in his right ankle",
+        "injury_type": "Temporary injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "The finding was that he had a wound about 2 mm over medial side of right ankle with swelling and a foreign body in his right ankle, superficial abrasion over his right wrist."
+        ],
+        "icd_code": "ND12.2",
+        "icd_description": "Puncture wound with foreign body of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over his ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "wound about 2 mm over medial side of right ankle with swelling and a foreign body in his right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "superficial abrasion over his right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He could not return to his original work.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Pamelda Youde Nethersole Eastern Hospital (discharged the next day)",
+      "follow up treatment / follow up visits"
+    ],
+    "treatments_future": [
+      "if the Plaintiff has the foreign body removed by operation there should be no permanent impairment. The operation would cost about $8,000."
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He could not return to his original work.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Hau Kit Ho v Starway International Development Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 329 of 2002",
+        "injury_description": "fracture of left lateral malleolus. Open reduction and abridgment resulted in good alignment. She was in splint 4 weeks and then crutches for 2-3 months.",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Lo Hing Fong v Chan Chi Shing",
+        "neutral_citation": null,
+        "action_number": "DCPI 66 of 2001",
+        "injury_description": "fracture of nasal bone resulting in 1% impairment. The Plaintiff had recovered.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Lee Sze Wai v Law Chi Kin",
+        "neutral_citation": null,
+        "action_number": "DCPI 44 of 2001",
+        "injury_description": "fracture of second metatarsal of left foot. Leg plaster was applied but removed the next day.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9118,
+      "output_tokens": 5469,
+      "reasoning_tokens": 4096,
+      "total_tokens": 14587
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44423.28302934766,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9118,
+      "output_tokens": 5469,
+      "reasoning_tokens": 4096,
+      "total_tokens": 14587
+    },
+    "total_duration_ms": 44423.28302934766
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "neutral_citation": "CHAN KWAI NGOR v. LEUNG FAT HANG AND ANOTHER [1992] HKCFI 100; [1992] 1 HKC 408; HCA 4053/1990 (3 April 1992)",
+    "action_number": "HCA004053/1990",
+    "case_name": "CHAN KWAI NGOR v. LEUNG FAT HANG AND ANOTHER",
+    "judgment_date": "1992-04-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "a cleaner working in the Buddhist Hospital",
+    "occupation_after": "working in a similar job as before (cleaner/amah at hospitals)",
+    "expected_occupation_after": null,
+    "salary_before": 3546.0,
+    "salary_after": 3840.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "X-rays showed a compression fracture of the 12th thoracic vertebra.",
+        "injury_type": "Temporary injury",
+        "body_part": "12th thoracic vertebra (D12)",
+        "laterality": null,
+        "source": [
+          "X-rays showed a compression fracture of the 12th thoracic vertebra."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "found the Plaintiff to have suffered from a minor crash fracture in the twelve dorsal vertebra (D12) with evidence of damage to D9, 10 and 11.",
+        "injury_type": "Temporary injury",
+        "body_part": "D9, D10 and D11 (thoracic vertebrae)",
+        "laterality": null,
+        "source": [
+          "found the Plaintiff to have suffered from a minor crash fracture in the twelve dorsal vertebra (D12) with evidence of damage to D9, 10 and 11."
+        ],
+        "icd_code": "NA82.1",
+        "icd_description": "Multiple fractures of thoracic spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "possible damage in the soft tissues such as cartilage and ligaments.",
+        "injury_type": "Temporary injury",
+        "body_part": "soft tissues (cartilage and ligaments) of the thoraco-lumbar region",
+        "laterality": null,
+        "source": [
+          "there was possible damage in the soft tissues such as cartilage and ligaments."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the Plaintiff was admitted to the Queen Elizabeth Hospital with a low back pain.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Physical examination revealed a weakness of her right leg and impaired sensation at the lateral aspect of her right thigh.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She complained of nagging back pain if she stands or sits for more than half to one hour.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She could not walk for more than half an hour without having to take a rest.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She also complained of numbness of the left leg.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There was only a reduction of 10° in the left leg on a straight leg raising test, being associated with pain.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No muscle wasting and reflexes were normal.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Her gait was normal.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "thoraco-lumbar brace",
+      "physiotherapy (inpatient and outpatient)",
+      "convalescence"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (award under this head $80,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Wai Tong v. Li Ping Sum",
+        "neutral_citation": "[1985] 2 W.C.R. 396",
+        "action_number": null,
+        "injury_description": "female accountant, aged 25 who suffered a permanent disability of 20% as a result of back injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Kwong Kam Cheung v. Lee Cheong Dyeing Works Ltd.",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 2300/83",
+        "injury_description": "male worker aged 40 who suffered a 2% disability from his back injury",
+        "hospitalisation_days": 9,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Lee Miu Ling v. Wong Him Chee",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 1947/84",
+        "injury_description": "female taxi-driver who suffered some residual restriction in movement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 35000.0
+      },
+      {
+        "case_name": "Lee Hen Chuen v. Fung Kin Sang & Anr.",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. A1105/89",
+        "injury_description": "construction worker hospitalized for almost a month and underwent physiotherapy for 3 1/2 months; injuries to back and heel with some shortening of the right leg",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Fu Chee Kong v. Shun Fai Construction Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. A1247/88",
+        "injury_description": "construction worker who received injuries to his ribs and liver and left with a persistent low back pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 110000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11998,
+      "output_tokens": 7082,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19080
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46024.760350584984,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11998,
+      "output_tokens": 7082,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19080
+    },
+    "total_duration_ms": 46024.760350584984
+  }
+}

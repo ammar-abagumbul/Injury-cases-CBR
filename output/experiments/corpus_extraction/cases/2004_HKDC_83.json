@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKDC 83",
+    "action_number": "DCPI 355/2003",
+    "case_name": "CHAN KAM MAN v. YIU KAM SHUI",
+    "judgment_date": "2004-05-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cook",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right optic atrophy",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "Dr Tsui diagnosed righ optic atrophy."
+        ],
+        "icd_code": "NA04.10",
+        "icd_description": "Injury of optic nerve, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "2 cm laceration over the right eyebrow, without foreign body or active bleedings",
+        "injury_type": "Residual disability",
+        "body_part": "right eyebrow",
+        "laterality": "right",
+        "source": [
+          "he was found to have a 2 cm laceration over the right eyebrow, without foreign body or active bleedings."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild opacity in the crystal lens",
+        "injury_type": "Residual disability",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "mild opacity in the crystal lens"
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "blurred and dim vision in the right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "frequent tearing, especially in a hot environment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tension around the right eye with headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "visual acuity of 20/30 in the right eye and 20/20 in the left",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "colour vision slightly impaired",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight afferent papillary defect",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "conjunctival injection in the right eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bled profusely and right eye was swollen immediately after the injury",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "eyebrow scar (2% cosmetic disability for the eyebrow scar)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment at Prince of Wales Hospital",
+      "Stitches over the right eyebrow",
+      "Consultation with ophthalmologist (Dr Tsui Chung Wan)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 10,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "10% loss of vision in the right eye (equivalent to 5% impairment of the whole visual system); blurred vision, tearing and sensitivity to smoke/heat",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scarring over the right eyebrow (2% cosmetic disability)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11276,
+      "output_tokens": 5981,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17257
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34386.60890609026,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11276,
+      "output_tokens": 5981,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17257
+    },
+    "total_duration_ms": 34386.60890609026
+  }
+}

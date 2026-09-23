@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "neutral_citation": "[2020] HKDC 1745",
+    "action_number": "DCPI 2723/2018",
+    "case_name": "LIU WEIGUANG v. LI KENG KO AND ANOTHER",
+    "judgment_date": "2020-01-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 52,
+    "age_at_trial": 56,
+    "occupation_before": "construction worker",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 19345.0,
+    "salary_after": 8742.93,
+    "expected_salary_after": 13094.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the left distal fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "left distal fibula",
+        "laterality": "left",
+        "source": [
+          "X-ray showed fracture of the left distal fibula and the plaintiff was admitted to the Department of Traumatology afterwards."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "12 cm-scar at his right shin",
+        "injury_type": "Permanent injury",
+        "body_part": "right shin",
+        "laterality": "right",
+        "source": [
+          "(1) A 12 cm-scar at his right shin;"
+        ],
+        "icd_code": "NC90.Y",
+        "icd_description": "Other specified superficial injury of knee or lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Multiple abrasions/wounds on left thigh, left leg and right leg",
+        "injury_type": "Temporary injury",
+        "body_part": "left thigh; left leg; right leg",
+        "laterality": null,
+        "source": [
+          "There was deep abrasion of the right medial leg and abrasion of medial left thigh. There were multiple small wounds/abrasions on the left leg."
+        ],
+        "icd_code": "NC90.4",
+        "icd_description": "Multiple superficial injuries of lower leg"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Post-traumatic stress disorder (PTSD) attributable to the accident",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Both experts agreed that the plaintiff had developed PTSD following the accident, and that the PTSD was attributable to the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Nightmares and flash backs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Sleep disturbances, sleep latency of 2-3 hours and broken sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Irritability and agitation / changed into an irritable and agitated person",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Difficulty in concentration and worsened memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Heightened arousal with increased suspiciousness and perceived social stigma",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Significant weight loss of 30 lbs (initial)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "cast for 24 days from 16 September 2015 to 9 October 2015",
+      "out-patient occupational therapy (received 27 out of 33 sessions)",
+      "physiotherapy (discharged 26 May 2016)",
+      "stress management groups and cognitive behavioural therapy groups for insomnia",
+      "psychiatric treatment at Kwai Chung Hospital with regular medication"
+    ],
+    "treatments_future": [
+      "psychiatric follow-up appointments every year"
+    ],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 401,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "12 cm-scar at his right shin",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his pre-accident job as a construction worker; will need to find alternative employment due to remaining psychiatric symptoms and inability to work at heights",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tamang Tikaram",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Law Yau Keung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20436,
+      "output_tokens": 6339,
+      "reasoning_tokens": 4736,
+      "total_tokens": 26775
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33064.66094776988,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20436,
+      "output_tokens": 6339,
+      "reasoning_tokens": 4736,
+      "total_tokens": 26775
+    },
+    "total_duration_ms": 33064.66094776988
+  }
+}

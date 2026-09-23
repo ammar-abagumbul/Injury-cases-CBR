@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 31",
+    "action_number": "HCPI 118/2004",
+    "case_name": "CHAN PAK LEUNG v. LEE KIN TAK AND ANOTHER",
+    "judgment_date": "2006-01-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "self-employed, owning his own vehicle",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 15000.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": "low education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The injuries to the plaintiff’s right leg after the accident necessitated the right leg to be amputated 16 cm below the knee.",
+        "injury_type": "Permanent injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "The injuries to the plaintiff’s right leg after the accident necessitated the right leg to be amputated 16 cm below the knee.",
+          "There was marked wasting of right thigh muscle.",
+          "The plaintiff was assessed to have 28% impairment of the whole person.",
+          "As far as residual disability is concerned, the plaintiff has recurrent pain in the amputated right leg. He also needs walking aid for prolonged walking. He is unable to run, jump, climb or squat and cannot carry heavy weight."
+        ],
+        "icd_code": "NC98.3",
+        "icd_description": "Traumatic amputation at level between right knee and ankle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "With a prosthesis fitted to the amputation stump, the plaintiff could walk without crutches but with a limp.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There was marked wasting of right thigh muscle.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The plaintiff was assessed to have 28% impairment of the whole person.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The plaintiff has recurrent pain in the amputated right leg.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He also needs walking aid for prolonged walking.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He is unable to run, jump, climb or squat and cannot carry heavy weight.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "prosthesis fitted to the amputation stump",
+      "amputation of right leg 16 cm below the knee (operation)",
+      "Agreed: Past Medical Expenses $9,286",
+      "Agreed: Past Travelling Expenses $3,300"
+    ],
+    "treatments_future": [
+      "renew prosthesis every two to three years; ongoing prosthetic care",
+      "future medical care (agreed) $36,000",
+      "future cost of prostheses awarded $456,090"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of right leg 16 cm below the knee resulting in permanent loss of bodily integrity.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "With a prosthesis the plaintiff walks with a limp and needs walking aid for prolonged walking.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to run, jump, climb or squat and cannot carry heavy weight.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 620000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Man Kit Michael v. Wong Foon Woon",
+        "neutral_citation": null,
+        "action_number": "HCA283/1985",
+        "injury_description": "above knee amputation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Bijay Rai v. Pacific Crown Engineering Ltd and anr",
+        "neutral_citation": null,
+        "action_number": "HCPI 1045/1998",
+        "injury_description": "above knee amputation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 720000.0
+      },
+      {
+        "case_name": "Lau Che Ping v. Hoi Kong Ironwares Godown Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCA1030/1986",
+        "injury_description": "below knee amputation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 175000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13039,
+      "output_tokens": 4653,
+      "reasoning_tokens": 3200,
+      "total_tokens": 17692
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37068.1069791317,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13039,
+      "output_tokens": 4653,
+      "reasoning_tokens": 3200,
+      "total_tokens": 17692
+    },
+    "total_duration_ms": 37068.1069791317
+  }
+}

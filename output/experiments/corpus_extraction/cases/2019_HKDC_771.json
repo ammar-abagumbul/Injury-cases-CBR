@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 771",
+    "action_number": "DCPI 206/2017",
+    "case_name": "LEE CHI MING v. E ENTERTAINMENT WEEKLY LIMITED",
+    "judgment_date": "2019-06-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 41,
+    "age_at_trial": null,
+    "occupation_before": "paparazzi entertainment news reporter (photography reporter)",
+    "occupation_after": "driver",
+    "expected_occupation_after": null,
+    "salary_before": 19000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Undisplaced fracture in the olecranon of the right elbow.",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "The plaintiff suffered undisplaced fracture in the olecranon of the right elbow.",
+          "The fall led to fracture of the right elbow bone."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Intense pain at the time of the incident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Extension reduction of 5 degree",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduction of endurance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment",
+      "splinting",
+      "X-ray follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 104,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and mild stiffness, extension reduction of 5 degrees and reduced endurance following undisplaced olecranon fracture of the right elbow.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Stiffness affected photography work requiring precision and stillness; plaintiff claimed he was assigned to drive instead of working as a photographer and could only work as a driver.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Moon Chai v Leung Shu Man & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 48 of 2007",
+        "injury_description": "elbow dislocation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13793,
+      "output_tokens": 3535,
+      "reasoning_tokens": 2816,
+      "total_tokens": 17328
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27730.50484061241,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13793,
+      "output_tokens": 3535,
+      "reasoning_tokens": 2816,
+      "total_tokens": 17328
+    },
+    "total_duration_ms": 27730.50484061241
+  }
+}

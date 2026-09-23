@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1523",
+    "action_number": "HCPI 508/2013",
+    "case_name": "WAN LAI FONG, ADMINISTRATRIX OF THE ESTATE OF KWOK TAK CHUNG, DECEASED v. WONG SHIU KEI T/A WAN MEI ENGINEERING COMPANY",
+    "judgment_date": "2014-08-21",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 44,
+    "age_at_trial": null,
+    "occupation_before": "glazier",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 12150.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured skull",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The deceased fell from a height of 2 metres and sustained a fractured skull."
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unconscious on admission to hospital",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "did not regain consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "urgent operation performed",
+      "hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA HK$40,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement under section 4 of the Fatal Accidents Ordinance: HK$150,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial loss of dependency: HK$833,861",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Future loss of dependency (future loss of earnings and MPF): HK$1,343,479",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Loss of service: HK$60,000 (HK$500 per month for 10 years)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Medical expenses: HK$500",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Funeral expenses: HK$79,040",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wang Chin Ying v Lam Ping Fung",
+        "neutral_citation": "[1999] 3 HKLRD 190",
+        "action_number": null,
+        "injury_description": "similar situation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 5
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9328,
+      "output_tokens": 3611,
+      "reasoning_tokens": 2816,
+      "total_tokens": 12939
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25706.63082227111,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9328,
+      "output_tokens": 3611,
+      "reasoning_tokens": 2816,
+      "total_tokens": 12939
+    },
+    "total_duration_ms": 25706.63082227111
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 48",
+    "action_number": "DCPI 669/2016",
+    "case_name": "TONG CHUN YIP v. LEUNG SAU LAI AND ANOTHER",
+    "judgment_date": "2019-01-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "freelance light goods vehicle driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue neck injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered from a soft tissue neck and back injury."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue back injury",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered from a soft tissue neck and back injury."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "minimal disc protrusion of the C3/4 disc",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine (C3/4)",
+        "laterality": null,
+        "source": [
+          "MRI of cervical spine showed no nerve compression but only minimal disc protrusion of the C3/4 disc."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Numbness much improved",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Neck pain better",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Elbow pain much better",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Declined analgesics",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "some residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "minimal stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "referred for physiotherapy (defaulted)",
+      "referred for occupational therapy (defaulted)",
+      "attended follow-ups at Orthopaedics Outpatient department (last attendance on 12 June 2014)",
+      "Declined analgesics"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 95,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Eleven v. China Way Transportation Limited",
+        "neutral_citation": "[2018] HKDC 2016",
+        "action_number": null,
+        "injury_description": "similar uncomplicated \"whiplash\" injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wu Kin Ho v. Wong Kong Hop Kenneth",
+        "neutral_citation": "[2018] HKDC 526",
+        "action_number": null,
+        "injury_description": "similar uncomplicated \"whiplash\" injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ko Hoi Seung Korin v. Liu Kwok Leung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1206/2014",
+        "injury_description": "similar uncomplicated \"whiplash\" injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9720,
+      "output_tokens": 5713,
+      "reasoning_tokens": 4288,
+      "total_tokens": 15433
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30385.68903505802,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9720,
+      "output_tokens": 5713,
+      "reasoning_tokens": 4288,
+      "total_tokens": 15433
+    },
+    "total_duration_ms": 30385.68903505802
+  }
+}

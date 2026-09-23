@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCA 259",
+    "action_number": "CACV 93/1982",
+    "case_name": "LEUNG SHING AND ANOTHER v. CHEUNG PING KWAI AND OTHERS",
+    "judgment_date": "1982-12-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 10,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": "likely to be restricted in the labour market to jobs of a clerical nature",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Amputation of leg below the knee (about mid calf) with subsequent revision operations to the stump",
+        "injury_type": "Permanent injury",
+        "body_part": "leg",
+        "laterality": null,
+        "source": [
+          "The Plaintiff was injured in a road accident. He suffered severe injuries to ore leg and as a result his leg was amputated below the knee somewhere about the mid calf.",
+          "the amputation stump has had to be operated on already three times, with the possibility that he may require a further operation: as his tibia grows this affects the skin covering the stump, causing great discomfort, and a further operation becomes necessary."
+        ],
+        "icd_code": "NC98.Z",
+        "icd_description": "Traumatic amputation of lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "great discomfort (caused by skin covering the stump as tibia grows)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "will not be able to walk long distances and stand for long periods of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "likely to be restricted in the labour market to jobs of a clerical nature",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "the amputation stump has had to be operated on already three times"
+    ],
+    "treatments_future": [
+      "possible further operation on the amputation stump"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of job options / loss of earning capacity; restriction to clerical jobs and limitations on jobs he can take because he will not be able to walk long distances or stand for long periods",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8217,
+      "output_tokens": 3280,
+      "reasoning_tokens": 2432,
+      "total_tokens": 11497
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22018.4455960989,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8217,
+      "output_tokens": 3280,
+      "reasoning_tokens": 2432,
+      "total_tokens": 11497
+    },
+    "total_duration_ms": 22018.4455960989
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKDC 82",
+    "action_number": "DCPI 201/2003",
+    "case_name": "CHAN MING YAT v. YOUH ENG LAI MICHAEL T/A PRIME INDUSTRIAL CO (HONG KONG)",
+    "judgment_date": "2004-06-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 42,
+    "age_at_trial": null,
+    "occupation_before": "supervisor in the Defendant's workshop",
+    "occupation_after": "lorry driver",
+    "expected_occupation_after": null,
+    "salary_before": 11500.0,
+    "salary_after": 9000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "open fracture of the proximal phalanx of the left index finger",
+        "injury_type": "Residual disability",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "(i) open fracture of the proximal phalanx of the left index finger;"
+        ],
+        "icd_code": "NC53.60",
+        "icd_description": "Fracture of index finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "dislocation of proximal interphalangeal joint (PIP joint) of the same finger",
+        "injury_type": "Residual disability",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "(ii) dislocation of proximal interphalangeal joint (PIP joint) of the same\nfinger;"
+        ],
+        "icd_code": "NC54.21",
+        "icd_description": "Dislocation of interphalangeal joint of finger"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "reputure ulnar collateral ligament of the PIP joint",
+        "injury_type": "Residual disability",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "(iii) reputure ulnar collateral ligament of the PIP joint;"
+        ],
+        "icd_code": "NC54.50",
+        "icd_description": "Traumatic rupture of collateral ligament of finger at metacarpophalangeal or interphalangeal joint"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "contused ulnar digital nerve and artery",
+        "injury_type": "Residual disability",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "(iv) contused ulnar digital nerve and artery."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over left index finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the left index finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of sensation over ulnar side of the left index finger",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "pain over dorsum of the left hand thereby limiting left wrist extension",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "local tenderness over dorsum of the radio-carpal joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "various small scars in the left index finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "deformity of index finger with angulation to the ulnar side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "rotational deformity of distal part of the index finger leading to more severe ulnar deviation on the flexion of the index finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "wound debridement",
+      "fracture fixation",
+      "outpatient physiotherapy",
+      "follow-up treatments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "various small scars in the left index finger",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "residual stiffness of the left index finger and limited left wrist extension",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "rotational deformity and angulation of the left index finger with loss of sensation over ulnar side",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Shu Yau v. Lo Siu Ling formerly t/a Chi Wo Civil Engineering Company & anr.",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 1336 of 2000",
+        "injury_description": "stiffness and tenderness of his left ring finger after an industrial accident",
+        "hospitalisation_days": 1,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16876,
+      "output_tokens": 7809,
+      "reasoning_tokens": 6464,
+      "total_tokens": 24685
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31105.226818472147,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16876,
+      "output_tokens": 7809,
+      "reasoning_tokens": 6464,
+      "total_tokens": 24685
+    },
+    "total_duration_ms": 31105.226818472147
+  }
+}

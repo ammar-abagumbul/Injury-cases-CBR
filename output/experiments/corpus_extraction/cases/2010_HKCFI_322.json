@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 322",
+    "action_number": "HCPI 314/2008",
+    "case_name": "NG KAI MAN SAMUEL v. CHOW YAT TAK T/A KAM KEE STEVEDORE & TRANSPORTATION CO",
+    "judgment_date": "2010-04-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 49,
+    "occupation_before": "Crane operator / foreman (assign and supervise other crane operators and workers)",
+    "occupation_after": "Day shift taxi driver (from 15 April 2009 until assessment); previously crane operator (1 Sep 2006–15 Nov 2006) and transportation worker (20 Jul 2007–31 Oct 2008)",
+    "expected_occupation_after": null,
+    "salary_before": 26360.0,
+    "salary_after": 15000.0,
+    "expected_salary_after": null,
+    "education_level": "Local education up to secondary level at Form 4"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right thumb distal phalanx partial amputation; loss of distal 1 cm of right thumb; widened stump end; loss of nail; fracture distal phalanx.",
+        "injury_type": "Permanent injury",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "Physical examination showed distal amputation of right thumb. X-ray right thumb showed fracture distal phalanx.",
+          "Specific: Right thumb distal phalanx partial amputation.",
+          "61. Physical examination shows loss of distal 1 cm of his right thumb, widened stump end, loss of nail, reduced sensation and numbness stump end. Updated x-ray shows loss of distal 11 mm of the distal phalanx right thumb."
+        ],
+        "icd_code": "NC59.0Y",
+        "icd_description": "Other specified traumatic amputation of thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual hypersensitivity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain over tip of right thumb / stump",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced sensation and numbness at stump end",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced dexterity in performing fine movements",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness / reduced grip strength (decreased lateral pinch and power grip)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty playing racket-sports using his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty performing fine control of a crane and performing maintenance tasks (including climbing the 'cat-ladder' and carrying/using spanner and hammer)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Revision amputation on 9/5/05.",
+      "Excisional debridement, suturing on 12/5/05.",
+      "Physiotherapy: Magnetopulse Therapy, Desensitization program, mobilizing, stretching and strengthening exercises (total 8 sessions).",
+      "Occupational therapy: desensitization and hand class (hand class arranged since 10-10-05)."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Physical loss of distal 1 cm of his right thumb; the thumb can no longer perform a 'locking' function to grasp objects firmly.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Will definitely encounter difficulty playing racket-sports using his right hand, but not to the extent that he is unable to participate at all.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "In open market, on balance, he will not be able to resume his pre-injury job any more; it would be difficult, if not impossible, to perform fine control of a crane.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Tai Yan v Transward Stevedore Ltd. & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 1080/2006",
+        "injury_description": "Authority bearing similar features and extent of injury as in the present one although the Plaintiff herein suffered a bit lesser.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11029,
+      "output_tokens": 4929,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15958
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26990.088656544685,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11029,
+      "output_tokens": 4929,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15958
+    },
+    "total_duration_ms": 26990.088656544685
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 507",
+    "action_number": "HCPI 428/2005",
+    "case_name": "LO CHUEN CHUNG v. WONG CHUN SING",
+    "judgment_date": "2006-05-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 24,
+    "age_at_trial": null,
+    "occupation_before": "driver",
+    "occupation_after": "office assistant",
+    "expected_occupation_after": null,
+    "salary_before": 8500.0,
+    "salary_after": 4500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the plaintiff suffered multiple injuries to the face, nose and right eye, including rupture of the right eyeball and extrusion of the crystalline lens.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered multiple injuries to the face, nose and right eye, including rupture of the right eyeball and extrusion of the crystalline lens."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-traumatic aphakia and aniridia involving scleral fixation of an intra-ocular lens with artificial iris.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "he underwent three operations between the date of the accident and 1 March 2004 when he the final operation was performed for post-traumatic aphakia and aniridia involving scleral fixation of an intra-ocular lens with artificial iris."
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the plaintiff had suffered from glaucoma but this had been successfully treated with eye drops.",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "the plaintiff had suffered from glaucoma but this had been successfully treated with eye drops."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the plaintiff's vision in his right eye was poor. The best-corrected distant visual acuity was 0.3 for the right eye as against the 1.0 for the left eye. For both eyes together, it was 1.0.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the best-corrected visual acuity of 20/50 for the right eye as against 20/20 for the left eye (Dr Cheung's finding).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to tolerate optical correction due to anisometropia (the discrepancy between the optical corrections).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of stereopsis for the judgment of distance and depth.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "photophobia in the right eye; may have to wear sunglasses and eye may become tired if he had to drive for long hours under the sun.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanent impairment of visual function, according to the AMA guide, of 29% (Dr Chua).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impairment of the whole visual system at 17% (Dr Cheung).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "three operations between the date of the accident and 1 March 2004",
+      "scleral fixation of an intra-ocular lens with artificial iris (operation performed 1 March 2004)",
+      "glaucoma treatment with eye drops",
+      "follow-up check-ups"
+    ],
+    "treatments_future": [
+      "follow-up treatment for 12 months at a cost of $5,000 (private sector estimate by Dr Chua)",
+      "possible future operation for further retinal detachment (cost estimate $60,000 by Dr Chua)",
+      "possible operation for post-traumatic glaucoma (cost estimate $40,000 by Dr Chua)",
+      "Dr Cheung: follow-up for glaucoma for about 7 years involving about 15 check-ups at $40 each in the public sector or $1,000 each in the private sector"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of visual function and loss of visual capacity in the right eye (rupture of right eyeball, extrusion of crystalline lens, aphakia, aniridia).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident employment as a driver because of loss of ability to judge distance and depth; can only work as an office assistant.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12318,
+      "output_tokens": 4923,
+      "reasoning_tokens": 3328,
+      "total_tokens": 17241
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42969.10398826003,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12318,
+      "output_tokens": 4923,
+      "reasoning_tokens": 3328,
+      "total_tokens": 17241
+    },
+    "total_duration_ms": 42969.10398826003
+  }
+}

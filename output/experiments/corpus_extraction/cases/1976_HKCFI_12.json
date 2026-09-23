@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[1976] HKCFI 12",
+    "action_number": "HCA 1711/1973",
+    "case_name": "TSENG TIEN PEI v. CHAN SHUN KWONG AND ANOTHER",
+    "judgment_date": "1976-09-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "employed in the electronic industry in a skilled supervisory or assistant managerial capacity",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whip lash injuries to his neck",
+        "injury_type": "Permanent injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "He suffered what are commonly known as \"whip lash\" injuries to his neck."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative changes to his spine",
+        "injury_type": "Permanent injury",
+        "body_part": "spine",
+        "laterality": null,
+        "source": [
+          "It appears from the evidence of Dr. Hunter that the plaintiff's symptoms are as a result of degenerative changes to his spine"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Numbness of both upper limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness of fingers on both hands",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and numbness of the right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain in his shoulders with a feeling of great weight upon them when he over-exerts himself or sits/stands for long periods",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of sensation in both hands and his right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness of both arms",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty in controlling fine movements of the hands",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Morning stiffness: sometimes takes several minutes to uncurl his hands",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot stoop to pick things up; can only squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to resume his former employment in the electronic industry in a skilled supervisory or assistant managerial capacity (substantial permanent loss of employment claimed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "bed rest",
+      "traction",
+      "attended as an out-patient"
+    ],
+    "treatments_future": [
+      "intensive course of physiotherapy for about 7 months including one month in hospital",
+      "surgical decompression of the spine followed by further physiotherapy"
+    ],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": 30,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 120
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Denied the swimming, ball games and hiking he used to enjoy",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Requires the services of a servant to do general housework",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume his former employment in the electronic industry in a skilled supervisory or assistant managerial capacity; substantial permanent loss of employment (as claimed)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 23000.0,
+    "comparable_cases": [
+      {
+        "case_name": "A 3094/75",
+        "neutral_citation": null,
+        "action_number": "A 3094/75",
+        "injury_description": "\"whiplash\" injuries to the spine; injuries and suffering much more severe than in this case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 55000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10284,
+      "output_tokens": 6097,
+      "reasoning_tokens": 4608,
+      "total_tokens": 16381
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37401.9052349031,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10284,
+      "output_tokens": 6097,
+      "reasoning_tokens": 4608,
+      "total_tokens": 16381
+    },
+    "total_duration_ms": 37401.9052349031
+  }
+}

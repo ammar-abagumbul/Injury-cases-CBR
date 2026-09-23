@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 672",
+    "action_number": "HCPI 1025/2003",
+    "case_name": "SHEA LAI CHUEN v. FEDERAL EXPRESS PACIFIC, INC",
+    "judgment_date": "2006-06-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Senior courier",
+    "occupation_after": "Driver",
+    "expected_occupation_after": null,
+    "salary_before": 22357.87,
+    "salary_after": 9986.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained injury of lumber spine",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "The diagnosis was sprained injury of lumber spine and prolapse of intervertebral disc of lumber spine."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "prolapse of intervertebral disc L5/S1 with compression to right S1 nerve root",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L5/S1)",
+        "laterality": "right",
+        "source": [
+          "MIR Examination on 30 January 2003 which revealed L5/S1 disc protrusion with compression to right S1 nerve root.",
+          "The diagnosis was sprained injury of lumber spine and prolapse of intervertebral disc of lumber spine."
+        ],
+        "icd_code": "NB71",
+        "icd_description": "Injury of nerve root of sacral spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuous low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right-sided sciatica / paraesthesia of whole right lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of lower right limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced sitting tolerance (sitting tolerance 30 minutes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced walking tolerance (could walk without rest for one hour only)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to perform manual work like car washing and household chores",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced ability to engage in sports (could not resume swimming, playing golf)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "psychological distress and decreased sexual performance and ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "x-ray examination",
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "MRI examination",
+      "injection treatment to the lumbar disc protrusion and compression to nerve root",
+      "neuropathic analgesic / pain control treatment"
+    ],
+    "treatments_future": [
+      "laminatomy, removal of protruding disc and decompression of nerve root (recommended)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 347,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of the whole person assessed at 15% due to prolapsed intervertebral disc L5/S1 with compression to right S1 nerve root.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Could not do car washing and household chores.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Could not resume swimming and playing golf.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced walking and sitting tolerance (could walk without rest for one hour only; sitting tolerance 30 minutes).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Reduced social activities.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Relationship with his wife was less close and could not have outdoor activities with his son and parents.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Decreased sexual performance and ability.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Ching v Wong Chiu Kwai (trading as Wing Lai and/or Wing Lai Arts Jewellery (a firm))",
+        "neutral_citation": null,
+        "action_number": "HCPI 1192/1996",
+        "injury_description": "Back pain, total impairment 24%, symptoms similar but more serious than present case.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lee Yuk Lan v Royaltelle International Ltd (trading as The Royal Garden)",
+        "neutral_citation": null,
+        "action_number": "HCPI 187/1995",
+        "injury_description": "Fall with back injury, required 12 months for recovery.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 365,
+        "comparison": "less serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Lau Chiu Wah v Kong Key Construction and Engineering Ltd & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 581/1998",
+        "injury_description": "Back injury with long term on and off back pain; pre-existing degenerative changes.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v The Kowloon Motor Bus Co. (1933) Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 755/2001",
+        "injury_description": "Fall with residual back pain, sick leave up to about 9 months considered maximum in judge's view.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 280,
+        "comparison": "less serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21697,
+      "output_tokens": 5563,
+      "reasoning_tokens": 3584,
+      "total_tokens": 27260
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41867.24532023072,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21697,
+      "output_tokens": 5563,
+      "reasoning_tokens": 3584,
+      "total_tokens": 27260
+    },
+    "total_duration_ms": 41867.24532023072
+  }
+}

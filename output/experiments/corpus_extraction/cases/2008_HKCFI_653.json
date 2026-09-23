@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 653",
+    "action_number": "HCPI 981/2005",
+    "case_name": "ALLAJA DOTTA v. RODNEY ENGINEERING CO LTD",
+    "judgment_date": "2008-07-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 28,
+    "age_at_trial": 32,
+    "occupation_before": "driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Fell from 8 feet high with head injury. Loss of consciouness for 5 minutes."
+        ],
+        "icd_code": "NA07.02",
+        "icd_description": "Concussion with loss of consciousness, short duration of less than 30 minutes"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Contusion of trunk, back",
+        "injury_type": "Temporary injury",
+        "body_part": "trunk, back",
+        "laterality": null,
+        "source": [
+          "The provisional diagnosis was\n\nContusion of trunk, back"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Back and neck injury",
+        "injury_type": "Temporary injury",
+        "body_part": "back and neck",
+        "laterality": null,
+        "source": [
+          "Diagnosis:\n\nBack and neck injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Right foot injury (localized tenderness over right foot 2nd metatarsal region)",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "Clinical diagnosis was back contusion and right foot injury, result from work related injury.",
+          "There was localized tenderness over right foot 2nd metatarsal region."
+        ],
+        "icd_code": "ND11.8",
+        "icd_description": "Contusion of other or unspecified parts of foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness for 5 minutes.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Neck and back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Mild pain over R ankle.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Right leg movement decreased and walked slowly with stick.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Local tenderness over right para-spinal muscle region with muscle spasm.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Slight decrease in right lower limb power below right knee.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Localized tenderness over right foot 2nd metatarsal region.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Back was slightly better with physiotherapy.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A & E treatment at North District Hospital",
+      "Caritas Medical Centre outpatient care",
+      "Physiotherapy",
+      "Referred to Orthopaedic & Traumatology Out-patient Dept."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity: disadvantage in the open labour market; approximately 5 months' salary awarded as loss of earning capacity ($50,000).",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earnings and MPF: Loss of earnings $81,000 and MPF $4,050 totalling $85,050 (9 months' sick leave).",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Special damages awarded in full: $1,175.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chimmalee On-Uma v Waylung Waste Services Limited",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "spraining one's back at work",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13233,
+      "output_tokens": 8468,
+      "reasoning_tokens": 6784,
+      "total_tokens": 21701
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47288.07934373617,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13233,
+      "output_tokens": 8468,
+      "reasoning_tokens": 6784,
+      "total_tokens": 21701
+    },
+    "total_duration_ms": 47288.07934373617
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 317",
+    "action_number": "HCPI 338/1998",
+    "case_name": "NG CHI CHUNG v. LAU KAM PING",
+    "judgment_date": "2000-03-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": 27,
+    "occupation_before": "student (final year, Bachelor of Business (Marketing), Lingnan College)",
+    "occupation_after": "research assistant (temporary employment with Lingnan College)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 8550.0,
+    "expected_salary_after": null,
+    "education_level": "Bachelor of Business (Marketing)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right brachial plexus injury",
+        "injury_type": "Permanent injury",
+        "body_part": "right upper arm",
+        "laterality": "right",
+        "source": [
+          "right brachial plexus injury",
+          "his right upper arm is paralyzed with a complete loss of sensation. His right arm could not perform any function."
+        ],
+        "icd_code": "NC14.6",
+        "icd_description": "Injury of multiple nerves at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right hemothorax",
+        "injury_type": "Temporary injury",
+        "body_part": "thorax",
+        "laterality": "right",
+        "source": [
+          "right hemothorax"
+        ],
+        "icd_code": "NB30.Z",
+        "icd_description": "Injury of unspecified blood vessels of thorax"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "crush injuries to the left forearm and left hand",
+        "injury_type": "Residual disability",
+        "body_part": "left forearm and left hand",
+        "laterality": "left",
+        "source": [
+          "crush injuries to the left forearm and left hand",
+          "As for the left hand, the radius was removed, plating was done to the metacarpal bone and the wrist joint was fused."
+        ],
+        "icd_code": "NC58.3",
+        "icd_description": "Crushing injury of wrist"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "dislocation of the left radial head",
+        "injury_type": "Residual disability",
+        "body_part": "left radial head (elbow/forearm)",
+        "laterality": "left",
+        "source": [
+          "dislocation of the left radial head"
+        ],
+        "icd_code": "NC33.0",
+        "icd_description": "Dislocation of radial head"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "fracture of the left 2nd metacarpal",
+        "injury_type": "Residual disability",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "fracture of the left 2nd metacarpal"
+        ],
+        "icd_code": "NC53.3Z",
+        "icd_description": "Fracture of other metacarpal bone, unspecified"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "wrist joint fused (left)",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "the wrist joint was fused."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unconscious state on admission; remained unconscious until the third week after the accident",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "confused state for about 2 weeks as a result of sedation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "paralysis of right upper arm with complete loss of sensation; right arm could not perform any function",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "requires shoulder immobilizer to keep the arm immobilized and in place",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot perform pronation nor supination (wrist fused)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "decreased thumb extension",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "power grip and lateral pinch reduced to about 50 to 60% of expected normal strength",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "had to re-learn some daily skills such as walking, writing and feeding himself",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulties with daily activities including getting dressed and undressed, opening and handling an umbrella, handling hair dryer and holding heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "requires assistance when washing his hair and bathing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to undertake activities requiring coordination of both hands (tying shoe laces, squeezing toothpaste, wringing towels, dining with knife and fork)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "can no longer take up swimming and ball games",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "multiple large, raised and pigmented surgical scars; marks from skin and muscle grafting and stitching; conspicuous and unsightly",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "more irritable mood and tendency to avoid crowds; reduced confidence and low esteem; risk of future crisis requiring professional assistance",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical operations (multiple)",
+      "intensive unit care",
+      "physiotherapy",
+      "occupational therapy",
+      "intensive rehabilitative treatment",
+      "follow up sessions"
+    ],
+    "treatments_future": [
+      "possible operation to fuse the right shoulder and wrist",
+      "psychiatric counselling (12 one-hour sessions suggested)",
+      "physiotherapy/rehabilitation after future operations"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 12,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "multiple large, raised and pigmented surgical scars; marks from skin and muscle grafting and stitching; conspicuous and unsightly",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "can no longer take up swimming and ball games",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "difficulties with daily activities including getting dressed and undressed, opening and handling an umbrella, handling hair dryer and holding heavy objects; requires assistance washing hair and bathing; unable to undertake tasks requiring both hands",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "setback in personality and outlook on life; more irritable mood and tendency to avoid crowds; reduced confidence and low esteem",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "tendency to avoid crowds and reduced confidence in socializing and courtship",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1000000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mak Yiu Keung v. Ho Cheung Kar",
+        "neutral_citation": "[1995] 3HKC 575",
+        "action_number": null,
+        "injury_description": "near amputation of the non-preferred hand with lengthy treatment and 12 operations in 4 years; the hand remained useless",
+        "hospitalisation_days": null,
+        "operations_count": 12,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Pang Wai Chung v. Hoi Tat Rubber Factory",
+        "neutral_citation": "[1996] 2 HKC 556",
+        "action_number": null,
+        "injury_description": "right arm amputated at below the elbow level resulting in residual muscle cramps and numbness; embarrassment caused by the false hand",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19953,
+      "output_tokens": 10037,
+      "reasoning_tokens": 8000,
+      "total_tokens": 29990
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42803.66401746869,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19953,
+      "output_tokens": 10037,
+      "reasoning_tokens": 8000,
+      "total_tokens": 29990
+    },
+    "total_duration_ms": 42803.66401746869
+  }
+}

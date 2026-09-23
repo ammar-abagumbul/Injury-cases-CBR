@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 181",
+    "action_number": "HCPI 252/2004",
+    "case_name": "NG YU FU v. WONG SHEK MING AND ANOTHER",
+    "judgment_date": "2006-02-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": null,
+    "occupation_before": "Operated his own company called Fu Shing Engineering Co. from 1989 dealing with business of installation repair and maintenance of air-conditioners",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 25000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Educated up to Form 6"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff had only suffered a back contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbo-sacral spine / lower back (sacral region)",
+        "laterality": null,
+        "source": [
+          "the Plaintiff had only suffered a back contusion",
+          "“He was well on examination and walking unaided. His back was tender on the sacral region and there was no neurology identified. X-ray lumbo-sacral spine was taken, which was normal. He was given analgesic and topical ointment. Sick leave from 7/5/2001 to 10/5/2001 was granted.” (Dr. Lee’s report dated 6 January 2002)"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple levels of very mild posterior disc bulges / slight posterior bulging of degenerated lower lumbar disc",
+        "injury_type": "Residual disability",
+        "body_part": "lower lumbar discs",
+        "laterality": null,
+        "source": [
+          "It is difficult to interpret the multiple levels of very mild posterior disc bulges as described in the MRI findings.",
+          "Dr. Kenneth Ho’s report (p71) stating ‘There was posterior herniations of the degenerated lower lumber disc, slight posterior bulging ……'.",
+          "Dr. Chun had stated categorically that this was not a disc prolapse but a bulge. He cited high authority for the proposition that bulging of disc is age related and not caused by trauma."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "His back was tender on the sacral region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "episode paraethesia in lower limbs during walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "moderate limitation in the SLR test",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild limitation in the end of range of movement of back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no obvious motor neurological deficit in the lower limbs and reflexes were normal",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "even with described ache at the end of range of back motion, the overall range of movement of back was still considered as reasonably preserved",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic",
+      "topical ointment",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 90,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chiu Wing Sze Karby v Chan Ying Wai and Chan Ying Kit",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 616 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Siu Youn v Ng Kam Man and others",
+        "neutral_citation": null,
+        "action_number": "HCPI 533 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12256,
+      "output_tokens": 6496,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18752
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40966.06972068548,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12256,
+      "output_tokens": 6496,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18752
+    },
+    "total_duration_ms": 40966.06972068548
+  }
+}

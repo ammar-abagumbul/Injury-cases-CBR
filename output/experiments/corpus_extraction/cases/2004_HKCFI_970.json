@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 970",
+    "action_number": "HCPI 377/2003",
+    "case_name": "LAM HOK FAI v. CHAN SAI KIT AND ANOTHERS",
+    "judgment_date": "2004-10-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 39,
+    "age_at_trial": 43,
+    "occupation_before": "construction site casual worker",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": "sedentary job",
+    "salary_before": 10800.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": "junior secondary level education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration over the Plaintiff’s vertex.",
+        "injury_type": "Temporary injury",
+        "body_part": "vertex (scalp)",
+        "laterality": null,
+        "source": [
+          "Physical examination revealed laceration over the Plaintiff’s vertex."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-concussion syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The diagnosis was post-concussion syndrome."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Major Depressive Disorder",
+        "injury_type": "Permanent injury",
+        "body_part": "psychiatric/mental health",
+        "laterality": null,
+        "source": [
+          "Mr Lam was free from psychiatric morbidity before the accident. He suffers from a psychiatric sequela of the accident, i.e., Major Depressive Disorder."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impaired concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "subjective impairment of cognition and memory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressive mood / depressive features",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "suicidal ideation (worsening depressive mood Oct 2003)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "auditory hallucination and persecutory delusion (psychotic features at stage)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "slow speech / stammering / difficulty expressing himself",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of sex life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "anger, violent behaviour (beat children, slapped wife)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced work capacity / inability to work in pre-accident job",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "feeling frightened about going outside / reduced confidence to go out",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "blurred vision (reported in Day Hospital)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Initial hospital admission and discharge the following day for scalp laceration",
+      "Admission to Psychiatric Ward (18 June 2002 to 5 July 2002)",
+      "Admission to Acute Psychiatric Ward (9 October 2003)",
+      "Attendance at Psychiatric Day Hospital (Shatin Hospital) from 11 July 2002 and resumed 4 July 2003",
+      "Private psychiatric treatment with Dr Law Wun Tong (September 2003; 5 consultations)",
+      "Occupational therapy and Day Hospital rehabilitation",
+      "Medications including Amitriptyline, Fluoxetine, Ativan, Dologesic, Deanxit, Stemetil, Nortriptyline, Lithium, Stelazine",
+      "Psychotherapy/supportive psychotherapy and family therapy"
+    ],
+    "treatments_future": [
+      "Intensive cognitive psychological therapy / intensive psychotherapy (recommended 15-20 sessions or course of 9 months to 2 years)",
+      "Continue psychiatric medication and Day Hospital rehabilitation",
+      "Out-patient neurological check-ups and psychotherapy/family therapy"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Marital and family breakdown: wife deserted him in August 2001; separation and impact on relationship with two children",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "Became dull, reticent and quiet; spoke slowly; lost temper easily; became irritable and violent (beat his children, slapped his wife)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His sex life with his wife was very much affected",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Impaired concentration and subjective impairment of cognition and memory",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Felt frightened about going outside and had vague ideas of being followed by unknown people",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident construction site job; likely unable to hold open employment; 100% loss of earning capacity (as assessed by Dr Wong and accepted in part by the Court)",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26541,
+      "output_tokens": 6639,
+      "reasoning_tokens": 5120,
+      "total_tokens": 33180
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41698.40355217457,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26541,
+      "output_tokens": 6639,
+      "reasoning_tokens": 5120,
+      "total_tokens": 33180
+    },
+    "total_duration_ms": 41698.40355217457
+  }
+}

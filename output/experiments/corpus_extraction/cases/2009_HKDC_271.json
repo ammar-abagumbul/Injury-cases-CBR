@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 271",
+    "action_number": "DCPI 594/2008",
+    "case_name": "LUI KIN WAI v. ACTIVE ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2009-11-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 43,
+    "age_at_trial": 47,
+    "occupation_before": "structural investigator",
+    "occupation_after": "security officer",
+    "expected_occupation_after": null,
+    "salary_before": 9500.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "superficial abrasion of the right cheek",
+        "injury_type": "Temporary injury",
+        "body_part": "right cheek",
+        "laterality": "right",
+        "source": [
+          "fracture of the right distal radius, fracture of the right pubic ramus and superficial abrasion of the right cheek,"
+        ],
+        "icd_code": "NA00.6",
+        "icd_description": "Abrasion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right pubic ramus",
+        "injury_type": "Temporary injury",
+        "body_part": "right pubic ramus",
+        "laterality": "right",
+        "source": [
+          "fracture of the right distal radius, fracture of the right pubic ramus and superficial abrasion of the right cheek,",
+          "fractured his right wrist and right pelvis"
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the right distal radius",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "fracture of the right distal radius, fracture of the right pubic ramus and superficial abrasion of the right cheek,",
+          "fractured his right wrist and right pelvis",
+          "R. wrist deformity and pain"
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "R. wrist deformity",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right wrist pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right shoulder pain (experts state not related to the accident)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right hand grip strength of up to 22 kgs (measurement)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at the Accident and Emergency Department of the Prince of Wales Hospital",
+      "medication for his pain",
+      "surgery to treat the distal radius fracture",
+      "corrective osteotomy",
+      "wrist arthroscopy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 1033,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14313,
+      "output_tokens": 4917,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19230
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30775.91325342655,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14313,
+      "output_tokens": 4917,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19230
+    },
+    "total_duration_ms": 30775.91325342655
+  }
+}

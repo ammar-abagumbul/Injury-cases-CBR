@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 176",
+    "action_number": "HCPI 1063/2000",
+    "case_name": "LEE KIM FUNG v. LOK LUN KEUNG AND ANOTHER",
+    "judgment_date": "2003-02-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 36,
+    "occupation_before": "Sergeant (Police)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 23505.0,
+    "salary_after": 25460.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture left 9th and 10th ribs",
+        "injury_type": "Residual disability",
+        "body_part": "left 9th and 10th ribs",
+        "laterality": "left",
+        "source": [
+          "fractured left 9th and 10th ribs"
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "urethral laceration and subsequent bulbomembranous urethral stricture",
+        "injury_type": "Residual disability",
+        "body_part": "urethra / pelvis",
+        "laterality": null,
+        "source": [
+          "pelvic fracture causing urethral laceration and subsequent stricture requiring anastomotic surgery and multiple dilations thereafter",
+          "urethral stricture"
+        ],
+        "icd_code": "NB92.31",
+        "icd_description": "Laceration of urethra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture left humerus",
+        "injury_type": "Residual disability",
+        "body_part": "left humerus",
+        "laterality": "left",
+        "source": [
+          "fractured left humerus"
+        ],
+        "icd_code": "NC12.Z",
+        "icd_description": "Fracture of shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fracture right acetabulum (right hip) with subsequent femoral head resorption and loosening of screw",
+        "injury_type": "Residual disability",
+        "body_part": "right acetabulum / right hip",
+        "laterality": "right",
+        "source": [
+          "fractured right acetabulum",
+          "repeated x-ray revealed loosening of a screw and suspected screw protusion leading to femoral head resorption"
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain when the left arm was extended and there is no strength",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left arm cannot be raised above shoulder level",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot carry heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "frequent pain at right pelvis and right knee particularly on walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot raise the right hip joint to more that 90 degrees without risk of dislocation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "wastage of muscle at the inner side of the right thigh which cannot regenerate",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impaired sensation over the lateral aspect of right thigh",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "lack of strength in urination; frequent passing of urine with leakage and wetting of underpants; slow urinary stream",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "sexual dysfunction / impotence requiring Viagra",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "loss of sleep due to pain at leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "weak body, frequent dizziness and fatigue",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of confidence and feeling sad, depressed and worried about future living and health",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "needs a walking stick for walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "difficulty climbing up or down stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot tie his shoelace; cannot wear his socks without an instrument; cannot cut his toenail",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "requires regular physiotherapy (attended physiotherapy treatments 254 times up to 19 November 2002)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and external fixation of the left humerus (18 May 1999)",
+      "debridement of abrasions (18 May 1999)",
+      "open reduction and internal fixation of fractured right acetabulum (25 May 1999)",
+      "tube in lung for transferring blood (first operation after admission)",
+      "removal of external fixator of the left humerus and application of humeral brace",
+      "anastomotic urethroplasty (8 September 1999)",
+      "balloon dilatation of urethral stricture (12 November 1999)",
+      "removal of right hip implants (13 January 2000)",
+      "total hip replacement (operation performed during hospitalization 31 October 2001 to 16 November 2001)",
+      "physiotherapy (attended 254 times up to 19 November 2002)",
+      "psychological clinic attendance (about 22 times)"
+    ],
+    "treatments_future": [
+      "two revision hip replacement surgeries (judge awarded two revision surgeries at $120,000 each)",
+      "ongoing use of Viagra (monthly)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 7,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Urological injury including urethral stricture, ongoing urinary dysfunction and sexual dysfunction/impotence requiring Viagra",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Needs walking stick, difficulty climbing stairs, frequent right hip and knee pain on walking",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Cannot tie shoelace, cannot wear socks without an instrument, cannot cut toenails",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Used to enjoy jogging and ball games frequently but after the accident cannot enjoy these sports anymore",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Relationship with his girl friend is greatly affected by sexual dysfunction and loss of desire",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Loss of confidence and increased worry about future living and health",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 792000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Chi Chung v. Lau Kam Ping",
+        "neutral_citation": "[2000] 2 HKC 759",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui Ki v. Leung On",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17611,
+      "output_tokens": 6530,
+      "reasoning_tokens": 3968,
+      "total_tokens": 24141
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48707.28574693203,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17611,
+      "output_tokens": 6530,
+      "reasoning_tokens": 3968,
+      "total_tokens": 24141
+    },
+    "total_duration_ms": 48707.28574693203
+  }
+}

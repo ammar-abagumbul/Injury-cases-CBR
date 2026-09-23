@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 768; HCPI 934/1995 (18 April 1997)",
+    "action_number": "HCPI 934/1995",
+    "case_name": "LIU HUNG FAI v. SANDVIK HONGKONG LTD AND ANOTHER",
+    "judgment_date": "1997-04-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 64,
+    "age_at_trial": 69,
+    "occupation_before": "Taught Tai Chi sword and handicraft (to earn an income)",
+    "occupation_after": "Has not been able to teach Tai Chi sword and handicraft since the accident",
+    "expected_occupation_after": null,
+    "salary_before": 4000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "She was admitted to Kwong Wah Hospital and underwent operations on her left knee.",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "She was admitted to Kwong Wah Hospital and underwent operations on her left knee.",
+          "She still suffers pain in her left knee and wasting of muscle."
+        ],
+        "icd_code": "NC96.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "temporarily lost consciousness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "still suffers pain in her left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wasting of muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walks with a limp, and a stick when she goes out",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot squat down and cannot climb up to a height",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Kwong Wah Hospital",
+      "Underwent operations on her left knee",
+      "Transferred to Wong Tai Sin Infirmary for convalescence for 5 months",
+      "Aftercare treatment after discharge",
+      "Physiotherapy treatment on a regular basis"
+    ],
+    "treatments_future": [
+      "Estimated future medical expenses $132,600",
+      "Cost of future physiotherapy treatment $124,800",
+      "Estimated future medical equipment $131,985",
+      "Future travelling expenses $30,000",
+      "Cost of Joint replacement operation No award",
+      "Domestic helper for three hours a day (award calculation: ($60 x 3 x 30) x 12 x 6 = $388,800)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Since the time of the accident, she has not been able to teach Tai Chi sword and handicraft which she used to do to earn an income for her living.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Walks with a limp, and a stick when she goes out; cannot squat down and cannot climb up to a height.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Able to manage most affairs but requires some help because of her injuries and age; domestic helper for three hours a day allowed.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung On & KMB v Chan Pui Ki",
+        "neutral_citation": "[1996] 565",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8275,
+      "output_tokens": 5431,
+      "reasoning_tokens": 4224,
+      "total_tokens": 13706
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30206.90281316638,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8275,
+      "output_tokens": 5431,
+      "reasoning_tokens": 4224,
+      "total_tokens": 13706
+    },
+    "total_duration_ms": 30206.90281316638
+  }
+}

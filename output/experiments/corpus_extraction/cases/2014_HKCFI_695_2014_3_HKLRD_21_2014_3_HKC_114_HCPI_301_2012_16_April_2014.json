@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 695; [2014] 3 HKLRD 21; [2014] 3 HKC 114; HCPI 301/2012 (16 April 2014)",
+    "action_number": "HCPI 301/2012",
+    "case_name": "BUSHRA BIBI AND NABELA QOSER THE CO-ADMINISTRATORS OF THE ESTATE OF KHALID, MEHMOOD, THE DECEASED v. METHOD BUILDING & ENGINEERING WORKS LTD (IN LIQUIDATION) AND OTHERS",
+    "judgment_date": "2014-04-16",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the deceased died on 2 July 2009.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the deceased died on 2 July 2009."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "caused head injuries from which he died on that day",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "it was pleaded in the statement of claim that he was struck by a falling cement tile which fell from a height, struck and broke his safety helmet, and caused head injuries from which he died on that day."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "damages for loss of dependency",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "damages for bereavement",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "claim under the LARCO for loss of accumulation of wealth",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "damages for pain suffering and loss of amenities (claim on behalf of the estate under the LARCO)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "damages for loss of dependency (claims in HCPI 764/2012 & HCPI 197/2013)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "damages for bereavement (claims in HCPI 764/2012 & HCPI 197/2013)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21515,
+      "output_tokens": 4622,
+      "reasoning_tokens": 3840,
+      "total_tokens": 26137
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33793.06262359023,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21515,
+      "output_tokens": 4622,
+      "reasoning_tokens": 3840,
+      "total_tokens": 26137
+    },
+    "total_duration_ms": 33793.06262359023
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 7",
+    "action_number": "HCA 7692/1982",
+    "case_name": "CHUI KIT v. TONG YIU-KAY",
+    "judgment_date": "1982-12-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 59,
+    "age_at_trial": 62,
+    "occupation_before": "Self-employed man collecting rubbish from a number of multi-storey buildings",
+    "occupation_after": "Has not worked since the date of the accident",
+    "expected_occupation_after": null,
+    "salary_before": 1200.0,
+    "salary_after": null,
+    "expected_salary_after": 1500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound fracture of the right tibia and fibula",
+        "injury_type": "Permanent injury",
+        "body_part": "right tibia and fibula",
+        "laterality": "right",
+        "source": [
+          "he had suffered a compound fracture of the right tibia and fibula."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "½ inch shortening of the leg",
+        "injury_type": "Permanent injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "there is a ½ inch shortening of the leg with a restriction of ankle joint movement."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "extensive scarring",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The plaintiff is left with extensive scarring"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rendered unconscious",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The wound continued to discharge until March 1982",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "underwent considerable pain and discomfort in hospital",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "is unable to squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "restriction of ankle joint movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "has not worked since the date of the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The resulting impairment of the right leg is assessed by Dr Wedderburn as 7% from shortening and 9% from loss of ankle joint movement. That is a 16% impairment of the leg and a 6% impairment of the whole man. In view of the plaintiff's occupation at the time of the accident Dr Wedderburn would classify the impairment as a 15% disability.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "plaster split",
+      "operation on 19th September securing the tibia with a bone plate and screws",
+      "cross flap procedure (flap of skin raised on the opposite leg and placed to cover the open wound, legs bandaged together and held by a plaster cast for about three weeks)",
+      "division and suturing of the flap; suturing of donor site",
+      "split skin graft with skin taken from the front of his right thigh",
+      "dressing and wound hygiene",
+      "attended at intervals at the South Kwai Chung Clinic",
+      "hospital treatment at Princess Margaret Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, Suffering and Loss of Amenities; the plaintiff's wound continued to discharge for some three years, he underwent considerable pain and discomfort in hospital and is unable to squat. Award under this head assessed at $60,000.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable ever to resume former occupation as collector of rubbish because of his disability and age; future earnings under this head assessed at $108,000.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wan Shui Yee v along Ying Tak and Hwang Jing Miu Jimmy",
+        "neutral_citation": null,
+        "action_number": "1980 No 6920",
+        "injury_description": "Agreed figure of $35,000 under this head in a somewhat similar case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 35000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8503,
+      "output_tokens": 8081,
+      "reasoning_tokens": 6592,
+      "total_tokens": 16584
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50469.14656087756,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8503,
+      "output_tokens": 8081,
+      "reasoning_tokens": 6592,
+      "total_tokens": 16584
+    },
+    "total_duration_ms": 50469.14656087756
+  }
+}

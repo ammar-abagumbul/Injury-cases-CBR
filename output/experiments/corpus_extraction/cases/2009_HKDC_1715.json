@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 1715",
+    "action_number": "DCPI 555/2009",
+    "case_name": "WONG KIN KEE v. NG CHI LAM",
+    "judgment_date": "2009-11-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": null,
+    "occupation_before": "Taxi driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Whiplash injury / neck sprain (soft tissue injury in his neck)",
+        "injury_type": "Residual disability",
+        "body_part": "neck / cervical spine",
+        "laterality": null,
+        "source": [
+          "Mr. Wong suffered a whiplash injury, in that the soft tissue in his neck was injured as a result of the hit from behind.",
+          "He was treated and discharged, and granted sick leave from 5 May 2007 to 8 May 2007 in respect of his neck sprain."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "C5/6 posterior disc prolapse; mild C4/5 posterior disc prolapse with early degeneration of the cervical discs and mild spondylosis in the mid-cervical spine",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (C4/5, C5/6)",
+        "laterality": null,
+        "source": [
+          "According to the MRI of Mr. Wong's cervical spine which was performed on 2 September 2008, there was C5/6 posterior disc prolapse just impinging but not significantly compressing the spinal cord. There was mild C4/5 posterior disc prolapse, with early degeneration of the cervical discs and mild spondylosis in the mid-cervical spine."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness in his neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in his neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain on rotation of the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck would feel very stiff after sleeping for a long duration of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had to lean backward when driving, to decrease the stiffness of the neck",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had to stop after driving for about an hour, to get out of the car to rest and to mobilize his neck",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "avoided lifting or carrying heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasionally, the pain in his neck radiated to the left shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of movement in the neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department attendance at Prince of Wales Hospital (attended 5 May 2007)",
+      "Accident and Emergency Department attendance at Caritas Medical Centre (attended 9 May 2007 and 13 May 2007)",
+      "Outpatient consultation with orthopaedic surgeon Dr. Wong Sze Hoi at Precious Blood Hospital (between 26 May 2007 to 4 August 2007)",
+      "Physiotherapy (at a private clinic in May 2007, and at PBH in mid-2007 for about 25 sessions)",
+      "Analgesics",
+      "Chinese herbal medicine and tonic foods (claimed)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kam Hoi v. Dragages et Travaux Publics",
+        "neutral_citation": "[1998] 2 HKLRD 958",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kam Hong v. Mohammad Riaz",
+        "neutral_citation": null,
+        "action_number": "HCPI 938/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10412,
+      "output_tokens": 5867,
+      "reasoning_tokens": 4288,
+      "total_tokens": 16279
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37539.87881168723,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10412,
+      "output_tokens": 5867,
+      "reasoning_tokens": 4288,
+      "total_tokens": 16279
+    },
+    "total_duration_ms": 37539.87881168723
+  }
+}

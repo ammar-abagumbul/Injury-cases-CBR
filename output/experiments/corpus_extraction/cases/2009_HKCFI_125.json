@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 125",
+    "action_number": "HCPI 168/2008",
+    "case_name": "GURUNG TIKI MAYA v. SHUM SHING CHEUNG AND ANOTHER",
+    "judgment_date": "2009-02-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 37,
+    "age_at_trial": 41,
+    "occupation_before": "Concrete finisher / concrete leveler (construction site worker)",
+    "occupation_after": null,
+    "expected_occupation_after": "Jobs of a lighter nature which do not require heavy exertion, including clerical duties, petty cleaner, office work, cashier and car park attendant",
+    "salary_before": 7125.0,
+    "salary_after": 5000.0,
+    "expected_salary_after": 5000.0,
+    "education_level": "Primary level education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion injury to her low back with soft tissue injury to her low back",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "As no fracture was revealed by X-rays of her spine, pelvis and right leg, the diagnosis was that she could have suffered contusion injury to her low back and right leg with soft tissue injury to her low back as a result of the accident. I so find."
+        ],
+        "icd_code": "NB94.Y",
+        "icd_description": "Other specified injury of muscle, fascia or tendon of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion injury to her right leg",
+        "injury_type": "Residual disability",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "As no fracture was revealed by X-rays of her spine, pelvis and right leg, the diagnosis was that she could have suffered contusion injury to her low back and right leg with soft tissue injury to her low back as a result of the accident. I so find."
+        ],
+        "icd_code": "NC90.3",
+        "icd_description": "Contusion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in the lower back, radiating down the lower third of her right leg. Need to take oral analgesics 3 times daily.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The back pain comes on intermittently. The pain is worse with movement, walking and prolonged sitting.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced sitting tolerance - increased back pain after sitting for more than 15 to 20 minutes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced walking tolerance - increased back pain after walking for more than 15 to 20 minutes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot walk without a stick.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Needs to wear a lumbar corset all the time.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Disturbance of sleep - wakes up every night due to back pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Increased back pain on coughing and sneezing. Also had increased back pain when strains during toileting.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decreased sensation to touch over the whole right leg lower limb from hip down to the toes when compared with left lower limb where there was normal sensation.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "At the examination the plaintiff walked with a slow pace using a stick; unable to stand upright and tended to stoop forward; asked to lie down after sitting in a chair for 25 minutes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Presentation at the Accident and Emergency Department of the Yan Chai Hospital on 12 April 2005",
+      "Oral analgesics 3 times daily",
+      "Wearing a lumbar corset",
+      "Use of a walking stick"
+    ],
+    "treatments_future": [
+      "Psychiatric treatment: Dr Singer recommended 20 sessions; Dr Law recommended 10 sessions",
+      "Future medical expenses agreed at $2,000.00"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 14,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot walk without a stick; reduced walking tolerance; increased back pain after walking for more than 15 to 20 minutes.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unlikely to be able to return to previous job in construction site as a concrete finisher; limited to lighter duties not requiring heavy exertion.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14891,
+      "output_tokens": 6092,
+      "reasoning_tokens": 4544,
+      "total_tokens": 20983
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35548.60185831785,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14891,
+      "output_tokens": 6092,
+      "reasoning_tokens": 4544,
+      "total_tokens": 20983
+    },
+    "total_duration_ms": 35548.60185831785
+  }
+}

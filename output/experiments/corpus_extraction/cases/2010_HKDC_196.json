@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 196",
+    "action_number": "DCPI2757/2008",
+    "case_name": "CHOW KAR WEI v. TAKAHASHI DESIGN HONG KONG LTD",
+    "judgment_date": "2010-06-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 30,
+    "age_at_trial": 33,
+    "occupation_before": "photographer",
+    "occupation_after": "web designer (full-time 7 March 2008 to 13 May 2008; part-time June 2008 to 19 December 2008)",
+    "expected_occupation_after": null,
+    "salary_before": 7000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": 6000.0,
+    "education_level": "Higher Diploma in Graphic Design"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to the back as a result of the accident.",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "According to both orthopaedic experts, the Plaintiff has suffered soft tissue injury to the back as a result of the accident."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "narrow disc space of L4/5 and L5/S1, degenerative disc at L3/4, L4/5 and L5/S1",
+        "injury_type": "Permanent injury",
+        "body_part": "L3/4, L4/5, L5/S1 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "According to the X-ray and MRI scan of the Plaintiff taken after the accident, there was narrow disc space of L4/5 and L5/S1, degenerative disc at L3/4, L4/5 and L5/S1,"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "L4/5 spinal stenosis with hypertrophic ligamentum flavum",
+        "injury_type": "Permanent injury",
+        "body_part": "L4/5 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "According to the X-ray and MRI scan of the Plaintiff taken after the accident, there was ... L4/5 spinal stenosis with hypertrophic ligamentum flavum,"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "L5/S1 posterolateral disc protrusion causing left S1 nerve root compression.",
+        "injury_type": "Permanent injury",
+        "body_part": "L5/S1 (lumbar spine)",
+        "laterality": "left",
+        "source": [
+          "According to the X-ray and MRI scan of the Plaintiff taken after the accident, there was ... L5/S1 posterolateral disc protrusion causing left S1 nerve root compression."
+        ],
+        "icd_code": "NB71",
+        "icd_description": "Injury of nerve root of sacral spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot sit for more than 4 hours a day",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot stand or walk continuously for about 30 minutes to an hour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "experiences pain in his back daily when he wakes up radiating down to his both legs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "feels pain when bending forward or backwards",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "X-ray",
+      "MRI scan",
+      "medical treatment",
+      "sick leave for about 15 months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "The Plaintiff's complaint of lower back pain ... He cannot sit for more than 4 hours a day and he cannot stand or walk continuously for about 30 minutes to an hour. He experiences pain in his back daily when he wakes up radiating down to his both legs. He also feels pain when bending forward or backwards.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "As the Plaintiff is suffering from serious lower back pain and he cannot sit, stand or walk for a prolonged period of time, I agree that he suffers a disadvantage in the labour market and he has difficulty in seeking re-employment.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 137500.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kam Hoi v Dragages et Travaux Publics",
+        "neutral_citation": "CACV 58/1997",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kam Hong v Mohammad Riaz",
+        "neutral_citation": null,
+        "action_number": "HCPI 938/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kwei Duen v East Country Company Limited t/a Gold River Vietnamese Food Shop",
+        "neutral_citation": null,
+        "action_number": "DCPI665/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13487,
+      "output_tokens": 8081,
+      "reasoning_tokens": 6272,
+      "total_tokens": 21568
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43767.85808801651,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13487,
+      "output_tokens": 8081,
+      "reasoning_tokens": 6272,
+      "total_tokens": 21568
+    },
+    "total_duration_ms": 43767.85808801651
+  }
+}

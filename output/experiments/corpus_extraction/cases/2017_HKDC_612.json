@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 612",
+    "action_number": "DCPI 1724/2016",
+    "case_name": "CHOW SHEK PING v. LAI SHING CONSTRUCTION ENGINEERING LIMITED AND OTHERS",
+    "judgment_date": "2017-06-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction site worker",
+    "occupation_after": "delivery worker between 22 to 26 September 2015; general worker at construction sites since October 2015",
+    "expected_occupation_after": null,
+    "salary_before": 19833.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head injury",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "the injuries sustained by the plaintiff as a result of the Accident are mild head injury and mild soft tissue injury to the neck and low back."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild soft tissue injury to the neck and low back",
+        "injury_type": "Temporary injury",
+        "body_part": "neck and low back",
+        "laterality": null,
+        "source": [
+          "the injuries sustained by the plaintiff as a result of the Accident are mild head injury and mild soft tissue injury to the neck and low back."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild Post-Concussion Syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The experts also agreed that the plaintiff might have suffered mild Post-Concussion Syndrome. The experts assessed this accounted for a 1% impairment of the whole person;"
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neurological deficits",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "1% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Accident & Emergency Department of Queen Elizabeth Hospital",
+      "attendance at Neurosurgery Clinic of Queen Elizabeth Hospital",
+      "sick leave from 20th September 2012 to 31st March 2015 (recorded in Joint Report)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 125000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tong Lin Keung v Wong Chi Leung",
+        "neutral_citation": "HCPI 789/1996, 20 October 1999",
+        "action_number": null,
+        "injury_description": "The claimant sustained neck injury causing disturbance of the balancing system and head injury with concessional syndrome resulting in memories and mood change. The medical evidence did not show that the claimant was suffering from injury which affecting his general activities and enjoyment of life.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16270,
+      "output_tokens": 5871,
+      "reasoning_tokens": 4608,
+      "total_tokens": 22141
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31407.043181359768,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16270,
+      "output_tokens": 5871,
+      "reasoning_tokens": 4608,
+      "total_tokens": 22141
+    },
+    "total_duration_ms": 31407.043181359768
+  }
+}

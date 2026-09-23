@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 785",
+    "action_number": "HCPI 472/2003",
+    "case_name": "CHUNG TAT HO v. AU HOI LAM SUB-CONTRACTOR LTD AND ANOTHER",
+    "judgment_date": "2004-09-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 48,
+    "occupation_before": "formworker",
+    "occupation_after": null,
+    "expected_occupation_after": "less intense construction work or other general labouring work",
+    "salary_before": 26000.0,
+    "salary_after": null,
+    "expected_salary_after": 15600.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The left index finger was badly damaged and eventually required amputation above the proximal phalanx.",
+        "injury_type": "Permanent injury",
+        "body_part": "left index finger",
+        "laterality": "left",
+        "source": [
+          "The left index finger was badly damaged and eventually required amputation above the proximal phalanx.",
+          "the agreed reports of Princess Margaret Hospital describe the injury to the plaintiff's left index finger as a \"severe crush injury\" with a fracture of the middle phalanx.",
+          "it still causes the plaintiff discomfort and residual pain."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The middle finger was lacerated but fully recovered.",
+        "injury_type": "Temporary injury",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "The middle finger was lacerated but fully recovered.",
+          "The injury to the middle finger comprised lacerations to the right side of that finger."
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain in the remaining left index finger stump",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "osteoporosis of the remaining bone of the left index finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle wasting and grip strength difficulties in the left arm and hand (noted earlier, subsequently returned to within normal ranges)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lacerations to the right side of the middle finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "amputation above the proximal phalanx",
+      "considerable treatment before amputation",
+      "medical treatment and examination at Princess Margaret Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "the eventual loss of half of the index finger on that hand is a significant injury",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "In my judgment, the plaintiff is no longer fit for formworking. He is at too great a disadvantage with persistent pain in his left index finger.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15033,
+      "output_tokens": 4444,
+      "reasoning_tokens": 3328,
+      "total_tokens": 19477
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30225.10438039899,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15033,
+      "output_tokens": 4444,
+      "reasoning_tokens": 3328,
+      "total_tokens": 19477
+    },
+    "total_duration_ms": 30225.10438039899
+  }
+}

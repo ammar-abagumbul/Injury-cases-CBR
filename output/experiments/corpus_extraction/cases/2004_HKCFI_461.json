@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 461",
+    "action_number": "HCPI 121/2001",
+    "case_name": "ACHACOSO, WARLY CABANEROS v. LIU MAN KUEN",
+    "judgment_date": "2004-06-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 28,
+    "age_at_trial": 32,
+    "occupation_before": "domestic helper",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 3670.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "secondary burn over the back of her hands",
+        "injury_type": "Permanent injury",
+        "body_part": "dorsum of both hands",
+        "laterality": "bilateral",
+        "source": [
+          "secondary burn over the back of her hands.",
+          "there was an ugly area of scaring approximately 60 x 70 mm on the dorsum of both hands. The scars were irregular in shape and pigmentation and in parts are red raised, thickened and hypertrophic. Dr. Nicolson assessed her permanent cosmetic disability at 5%."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Permanent unsightly scars on dorsum of both hands",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent cosmetic disability assessed at 5%",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and itchiness in hands when carrying heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Hands become red and swollen after carrying heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Hands react adversely to detergent",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Feelings of depression, loneliness, shame and embarrassment when looking at her hands",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Tang Shiu Kin Hospital",
+      "medical treatment until end of 2000"
+    ],
+    "treatments_future": [
+      "Vaseline (HK$24 per bottle monthly)",
+      "future medical treatment (HK$528)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent unsightly scars on the dorsum of both hands causing embarrassment, shame and lifetime embarrassment when she looks at her hands.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Felt very depressed and lonely as a result of what had happened.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Susi Yanti v Chu Shiu Chuen",
+        "neutral_citation": null,
+        "action_number": "HCPI 1176/2000",
+        "injury_description": "multiple abrasions and laceration wounds over both upper and lower limbs resulting in 19 very conspicuous, darkly pigmented, raised and scattered scars of significant dimensions on the back of her right leg and other scars on left calf",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 380000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8587,
+      "output_tokens": 3415,
+      "reasoning_tokens": 2304,
+      "total_tokens": 12002
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25053.723365068436,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8587,
+      "output_tokens": 3415,
+      "reasoning_tokens": 2304,
+      "total_tokens": 12002
+    },
+    "total_duration_ms": 25053.723365068436
+  }
+}

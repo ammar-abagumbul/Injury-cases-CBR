@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "neutral_citation": "LEE HON CHEUNG v. CHAN TANG KAI LAN AND ANOTHER [1995] HKCFI 15; [1995] 3 HKC 640; HCA 4522/1991 (30 October 1995)",
+    "action_number": "HCA004522/1991",
+    "case_name": "LEE HON CHEUNG v. CHAN TANG KAI LAN AND ANOTHER",
+    "judgment_date": "1995-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 10,
+    "age_at_trial": 18,
+    "occupation_before": "student",
+    "occupation_after": null,
+    "expected_occupation_after": "salesman in a fast-food outlet",
+    "salary_before": 16543.0,
+    "salary_after": null,
+    "expected_salary_after": 7088.0,
+    "education_level": "secondary (La Salle College)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mr Lee fractured his femoral shaft",
+        "injury_type": "Residual disability",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "Mr Lee fractured his femoral shaft and the proximal part of his left tibia."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the proximal part of his left tibia",
+        "injury_type": "Residual disability",
+        "body_part": "left tibia (proximal)",
+        "laterality": "left",
+        "source": [
+          "Mr Lee fractured his femoral shaft and the proximal part of his left tibia."
+        ],
+        "icd_code": "NC92.1Z",
+        "icd_description": "Fracture of upper end of tibia, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "very severe head injuries including cerebral oedema and prolonged post-traumatic amnesia",
+        "injury_type": "Permanent injury",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "C.T. scan showed cerebral oedema.",
+          "In my judgment, in view of the long period of PTA the head injuries could be described as very severe head injuries.",
+          "There is a 10% impairment of the whole person in respect of his post-traumatic amnesia, the period of confusion and mental disturbance and headache."
+        ],
+        "icd_code": "NA07.20",
+        "icd_description": "Diffuse traumatic cerebral oedema"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "two deep lacerations over the left eyebrow and forehead with resulting scar and deficiency of the eyebrow",
+        "injury_type": "Permanent injury",
+        "body_part": "left forehead / left eyebrow / left lateral side of left eye",
+        "laterality": "left",
+        "source": [
+          "On admission to the hospital there were two deep lacerations over the left eyebrow and forehead measuring 4 cm and 6 cm respectively.",
+          "when Mr Lee was examined by Dr Philip Mao in June 1993 there was a 3¼ inch long vertical oblique scar running from the left forehead and slicing through the left eyebrow at the junction of the middle and lateral thirds with deficiency of the eyebrow. The scar continued downwards to the lateral side of the left eye."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "multiple keloidal irregular scars on the lateral and anterior surfaces of the upper part of the left thigh",
+        "injury_type": "Permanent injury",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "There are multiple keloidal irregular scars totalling eight in all on the lateral and anterior services of the upper part of the left thigh."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "puncture holes on either side of the heel bone where pins had been inserted",
+        "injury_type": "Residual disability",
+        "body_part": "heels",
+        "laterality": "bilateral",
+        "source": [
+          "On either side of the heel bone there are puncture holes where the pins had been inserted."
+        ],
+        "icd_code": "ND12.3",
+        "icd_description": "Puncture wound without foreign body of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "frequent headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "deterioration in memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "poor concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "disorientated and confused for about 3 weeks",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "post-traumatic amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "withdrawn and showed less concern in his schoolworks; temper now is irritable, easily provoked",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild limping gait with shortening of his left lower limb by about 1.5 cm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a 15o medial angualation in the femoral fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some stiffness of his left knee and wasting of the left thigh muscle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of movement and he could not bend his left leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain from the scaring tissue and worry about his scars on the face",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "two operations in the fractured limb (pin insertion)",
+      "traction (pin inserted into the heel region) and then long leg dynacast",
+      "long leg brace",
+      "out-patient treatment",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 40,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "the head injuries had manifested themselves in the cognitive impairment of Mr Lee and in his personality changes; deterioration in school works particularly those involving more abstract or conceptual thinking",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "withdrawn and showed less concern in his schoolworks; temper now is irritable, easily provoked",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "He said he suffered pain from the scaring tissue, he was also worried about his scars on the face which was very apparent, he tended to think people would star him because of the scars.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "multiple keloidal irregular scars totalling eight in all on the lateral and anterior services of the upper part of the left thigh",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "mild limping gait with shortening of his left lower limb by about 1.5 cm; limitation of movement and he could not bend his left leg",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "As a result of the leg injuries he was not able to assert as much force with his left leg and he tried to avoid kicking with his left leg.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "Dr Kan was of the view that Mr Lee could not possibly have entered tertiary institutes.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chun Yat Nam v. The Attorney General",
+        "neutral_citation": null,
+        "action_number": "Civil Appeal No.92 of 1994",
+        "injury_description": "Revised damages categories for pain, suffering and loss of amenities (sets ranges for Serious, Substantial, Gross disability and Disaster)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 27104,
+      "output_tokens": 9255,
+      "reasoning_tokens": 6592,
+      "total_tokens": 36359
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45009.434312582016,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 27104,
+      "output_tokens": 9255,
+      "reasoning_tokens": 6592,
+      "total_tokens": 36359
+    },
+    "total_duration_ms": 45009.434312582016
+  }
+}

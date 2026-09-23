@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCFI 770",
+    "action_number": "HCA011319/1993",
+    "case_name": "SIN SAU MUI v. YUEN SAI KWONG AND OTHERS",
+    "judgment_date": "1996-11-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 67,
+    "age_at_trial": null,
+    "occupation_before": "cleaning worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2970.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The main consequence of the accident was a displaced Colles' fracture of the Plaintiff's right wrist which was treated by close reduction and immobilization in a plaster cast for three months.",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The main consequence of the accident was a displaced Colles' fracture of the Plaintiff's right wrist which was treated by close reduction and immobilization in a plaster cast for three months."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "weakness and pain in her right hand, which is her preferred hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some deformity of the right wrist with tenderness over the wrist joint space",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dr David Lee assessed her permanent disability at 10% and a loss of earning capacity of 99%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unemployability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction",
+      "immobilization in a plaster cast for three months",
+      "medical treatment",
+      "occupational therapy treatment in Hong Kong"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "weakness and pain in her right hand, which is her preferred hand; weakness of right hand grip; some deformity of the right wrist with tenderness over the wrist joint space",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity of 99% and unemployability",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Frank v. Cox",
+        "neutral_citation": "(1967) 111 SJ 670",
+        "action_number": null,
+        "injury_description": "Dictum regarding greater seriousness of impairment in advancing years",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7744,
+      "output_tokens": 3786,
+      "reasoning_tokens": 2752,
+      "total_tokens": 11530
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22478.337675333023,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7744,
+      "output_tokens": 3786,
+      "reasoning_tokens": 2752,
+      "total_tokens": 11530
+    },
+    "total_duration_ms": 22478.337675333023
+  }
+}

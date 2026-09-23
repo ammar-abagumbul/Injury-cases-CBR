@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 2319",
+    "action_number": "HCPI 579/2012",
+    "case_name": "ALE THAK PRASAD v. TSANG CHIN KEUNG AND ANOTHER",
+    "judgment_date": "2017-12-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "moderate degree of depressive disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Mr. Burke submitted that there was disagreement between the psychiatric experts: Dr. Connell diagnosed “moderate degree of depressive disorder” and Dr. Law diagnosed “adjustment disorder with depressive mood”."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "adjustment disorder with depressive mood",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Mr. Burke submitted that there was disagreement between the psychiatric experts: Dr. Connell diagnosed “moderate degree of depressive disorder” and Dr. Law diagnosed “adjustment disorder with depressive mood”."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychological distress",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "possible symptom magnification",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "possibly malingered psychiatric symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "chronic pain and disability symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9199,
+      "output_tokens": 3160,
+      "reasoning_tokens": 2368,
+      "total_tokens": 12359
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24366.04180559516,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9199,
+      "output_tokens": 3160,
+      "reasoning_tokens": 2368,
+      "total_tokens": 12359
+    },
+    "total_duration_ms": 24366.04180559516
+  }
+}

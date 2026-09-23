@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 408",
+    "action_number": "HCA007922/1982",
+    "case_name": "CHAN YIN PAN v. EASTERN TIME LIMITED AND OTHERS",
+    "judgment_date": "1986-04-15",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "odd job man / casual worker employed by Eastern Time (disposal of waste water and trade effluents)",
+    "occupation_after": "lift operator (from 1983-06-16)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 1790.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Very severe burns affecting arms and hands; burns also affected thighs (donor sites), back, neck, right ear and parts of the face; permanent discolouration and keloidal scarring; permanent deformity of terminal phalanxes in the thumb and two fingers of the left hand.",
+        "injury_type": "Permanent injury",
+        "body_part": "arms, hands, thighs, back, neck, right ear, face",
+        "laterality": "bilateral",
+        "source": [
+          "He was very seriously burned. The hospital estimate was that approximately 8% of the skin surface was affected. Dr. Wedderburn's estimate some two years later, was the more modest one of 40% with 10% of this second and third degree burns.",
+          "The limbs most affected were the.arms and. hands.",
+          "He was an in-patient for 2½ months, and later had to return to hospital for further skin grafting to the left hand.",
+          "The burns affected the function of most of the joints in both hands.",
+          "permanent discolouration and scar ring some keloidal. This is most obvious on both hands and forearms, the neck, the right ear and parts of the face. There is also conspicuous scarring to both thighs which also suffered from being donor sites. The back was also affected.",
+          "permanent deformity of the terminal phalanxes in the thumb and two of the fingers of this hand."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Severe burns to the deceased (Wong Yip Fai) resulting in death on 1979-10-15.",
+        "injury_type": "Permanent injury",
+        "body_part": "whole body (severe burns)",
+        "laterality": null,
+        "source": [
+          "The deceased 'was so severely burned that he died on 15th October 1979."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Material loss of function in most of the joints in both hands; right hand grip about 20 pounds (pre-accident 70 pounds); left hand grip about 5 pounds; total functional impairment about 35%.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent discolouration and keloidal scarring on both hands and forearms, neck, right ear, parts of the face, and both thighs and back; scarring remains a source of pain, stiffness and irritation.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Prolonged pain from burns; required prolonged and painful physiotherapy; wore pressure garments into 1982.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Avoids travelling at peak periods on public transport to minimize the risk of public reaction to scarring.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Grievous pain between 3rd and 15th October 1979; appears to have been in coma for much of the time prior to death.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "skin grafting (initial and further grafting to the left hand)",
+      "physiotherapy",
+      "pressure garments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 75,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Material loss of function in most joints in both hands; right hand grip reduced from 70 pounds pre-accident to 20 pounds; left hand grip about 5 pounds; total functional impairment approximately 35%.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent and very obvious discolouration and keloidal scarring on both hands and forearms, the neck, the right ear and parts of the face; conspicuous scarring to both thighs (donor sites) and back.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Plaintiff avoids travelling at peak periods on public transport to minimize public reaction to his scarring.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Manual disability rules out very heavy or very fine work; diminution in earning capacity leading to an award for future loss (court assessed future loss and diminution in earning capacity $60,000).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "The deceased's estate awarded $20,000 for loss of expectation of life following fatal burns.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 135000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 12
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16740,
+      "output_tokens": 5488,
+      "reasoning_tokens": 3840,
+      "total_tokens": 22228
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33071.210995316505,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16740,
+      "output_tokens": 5488,
+      "reasoning_tokens": 3840,
+      "total_tokens": 22228
+    },
+    "total_duration_ms": 33071.210995316505
+  }
+}

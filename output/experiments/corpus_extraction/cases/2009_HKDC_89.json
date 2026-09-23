@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 89",
+    "action_number": "DCPI 300/2008",
+    "case_name": "LEUNG SIU WAN v. GOLD HERO (ASIA) LTD",
+    "judgment_date": "2009-04-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": 37,
+    "occupation_before": "forklift operator",
+    "occupation_after": "assigned to work in the warehouse to count the inventory",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 7800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound fracture of left middle finger resulting in distal interphalangeal joint ankylosis",
+        "injury_type": "Permanent injury",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "As a result, his left middle suffered compound fracture resulting in distal interphalangeal joint ankylosis, pain, scarring and weakness."
+        ],
+        "icd_code": "NC53.61",
+        "icd_description": "Fracture of middle finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain, weakness and stiffness to the left middle finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced grip power of the left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of sleep due to pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to carry heavy items in his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operative treatments",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 176,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "reduced grip power and weakness of the left middle finger",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "inability to carry heavy items in his left hand and difficulties in daily life",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "unable to return to his pre-accident job as a forklift operator",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Hung Hang v. Fat Kee Repairing & Engineering Co. Limited and Another",
+        "neutral_citation": null,
+        "action_number": "DCPI 2328/2007",
+        "injury_description": "plaintiff injured his dominant hand",
+        "hospitalisation_days": 2,
+        "operations_count": 0,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8711,
+      "output_tokens": 5226,
+      "reasoning_tokens": 4224,
+      "total_tokens": 13937
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47862.68590763211,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8711,
+      "output_tokens": 5226,
+      "reasoning_tokens": 4224,
+      "total_tokens": 13937
+    },
+    "total_duration_ms": 47862.68590763211
+  }
+}

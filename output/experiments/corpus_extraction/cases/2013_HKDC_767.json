@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 767",
+    "action_number": "DCPI 2390/2011",
+    "case_name": "LEE FU WAH v. MICHAEL LEE HOFFMAN AND OTHERS",
+    "judgment_date": "2013-06-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 47,
+    "age_at_trial": 50,
+    "occupation_before": "decoration worker",
+    "occupation_after": "decoration worker",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "he suffered multiple abrasions over his body and limbs and also head injury."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple abrasions over his body and limbs",
+        "injury_type": "Temporary injury",
+        "body_part": "trunk and limbs",
+        "laterality": null,
+        "source": [
+          "he suffered multiple abrasions over his body and limbs and also head injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "an avulsed nail of his left toe",
+        "injury_type": "Temporary injury",
+        "body_part": "left toe",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered abrasions over his head, trunk and limbs, an avulsed nail of his left toe and a broken nail of his right toe."
+        ],
+        "icd_code": "ND10",
+        "icd_description": "Injury to toenail"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a broken nail of his right toe",
+        "injury_type": "Temporary injury",
+        "body_part": "right toe",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered abrasions over his head, trunk and limbs, an avulsed nail of his left toe and a broken nail of his right toe."
+        ],
+        "icd_code": "ND10",
+        "icd_description": "Injury to toenail"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "multiple abrasions over his body and limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "head injury",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "an avulsed nail of his left toe",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "a broken nail of his right toe",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "The plaintiff asserted that he has since been afraid of dogs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "treated at the Accident and Emergency Department of Yan Chai Hospital",
+      "conveyed to the hospital by ambulance"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 7,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "The plaintiff asserted that he has since been afraid of dogs",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Susi Yanti & Anor v Chu Shiu Chuen",
+        "neutral_citation": null,
+        "action_number": "HCPI 176/2000",
+        "injury_description": "a 4-year old girl who was attacked by a pack of dogs, suffering wounds on limbs and developed a fear of dogs",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Tsang Ka Hung Barry v Tang Yuk Ling",
+        "neutral_citation": null,
+        "action_number": "DCPI 525/2007",
+        "injury_description": "a medical doctor who was bitten by a dog with no lasting injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Chiu Po Ling v Wong Yuet",
+        "neutral_citation": null,
+        "action_number": "DCPI 115/2006",
+        "injury_description": "a 10-year old boy bitten by a dog just below his left eye resulting in a wound",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Tse Parc Ki v Atlantic Team Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 1981/2006",
+        "injury_description": "a 2½-year old girl whose finger was crushed by a closing door resulting in an avulsed nail and fracture",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 40000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17568,
+      "output_tokens": 5220,
+      "reasoning_tokens": 3584,
+      "total_tokens": 22788
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34592.59645268321,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17568,
+      "output_tokens": 5220,
+      "reasoning_tokens": 3584,
+      "total_tokens": 22788
+    },
+    "total_duration_ms": 34592.59645268321
+  }
+}

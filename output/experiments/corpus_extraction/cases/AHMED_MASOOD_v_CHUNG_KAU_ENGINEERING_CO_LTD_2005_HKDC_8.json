@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "AHMED MASOOD v. CHUNG KAU ENGINEERING CO LTD [2005] HKDC 8",
+    "action_number": "DCPI 517/2003",
+    "case_name": "AHMED MASOOD v. CHUNG KAU ENGINEERING COMPANY LIMITED",
+    "judgment_date": "2005-01-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 57,
+    "age_at_trial": 61,
+    "occupation_before": "construction site general labourer",
+    "occupation_after": "daytime security guard (AMEC, June 2002 to 15 December 2003); night-shift security guard (Honway, from 13 January 2004 for 3 months)",
+    "expected_occupation_after": null,
+    "salary_before": 9620.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild back sprain / back contusion",
+        "injury_type": "Permanent injury",
+        "body_part": "low back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "After Accident, he was diagnosed to have mild back sprain.",
+          "Dr Wong and Dr Au diagnosed P to have sustained back contusion or sprained back with no significant findings or neurological impairment."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain (especially when bending down and standing up) that would be aggravated with work",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent pain/stiffness in his right leg which became constant 6-8 months before trial",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unpredictable attacks of numbness in his right leg which lasted about half an hour and which would subside slowly occurring about every 3-4 days",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "painful/uncomfortable whilst sitting and had to shift his sitting posture every now and then",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy treatment until April 2001",
+      "self-purchased painkillers and ointment",
+      "attendance at Tuen Mun Hospital (TMH) for medical treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 130000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Shing Kwai v Chan Yu Chuen & anor",
+        "neutral_citation": "[2002] 3 HKLRD J14",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Kam Wah v Wing & Kwong Co Ltd",
+        "neutral_citation": "[2003] HKLRD L11 and L19",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22365,
+      "output_tokens": 3908,
+      "reasoning_tokens": 3072,
+      "total_tokens": 26273
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25055.05223199725,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22365,
+      "output_tokens": 3908,
+      "reasoning_tokens": 3072,
+      "total_tokens": 26273
+    },
+    "total_duration_ms": 25055.05223199725
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 91",
+    "action_number": "HCPI 1061/2003",
+    "case_name": "WONG MIU KWAN v. FPDSAVILLS PROPERTY MANAGEMENT LIMITED",
+    "judgment_date": "2005-01-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 45,
+    "age_at_trial": null,
+    "occupation_before": "building supervisor",
+    "occupation_after": "security guard (Professional Security Services Ltd since 23 November 2002)",
+    "expected_occupation_after": null,
+    "salary_before": 11900.0,
+    "salary_after": 4332.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back injury with continuous back pain",
+        "injury_type": "Residual disability",
+        "body_part": "lumbosacral spine / back",
+        "laterality": null,
+        "source": [
+          "she sustained a back injury with continuous back pain.",
+          "After examining the plaintiff, Dr Lau commented that she suffered left wrist tenderness and back and right pelvic tenderness with decreased range of movement of the lumbosacral spine as a result of her accident on 2 November 2000.",
+          "In his opinion, the MRI of her lumber spine taken in September 2001 had showed degenerative changes in her lumbosacral spine. These degenerative changes should have existed before the accident on 2 November 2000.",
+          "He further stated that the plaintiff has had a long period of conservative treatment of her back which should have improved but that she is still left with significant residual pain over her low back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuous back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left wrist tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right pelvic tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased range of movement of the lumbosacral spine",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "long period of conservative treatment of her back"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 57,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9318,
+      "output_tokens": 4156,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13474
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27643.643118441105,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9318,
+      "output_tokens": 4156,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13474
+    },
+    "total_duration_ms": 27643.643118441105
+  }
+}

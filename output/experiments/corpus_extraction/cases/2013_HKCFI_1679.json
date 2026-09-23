@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 1679",
+    "action_number": "HCPI 303/2012",
+    "case_name": "YUEN CHUNG SHUN v. ON ASCENT LIMITED",
+    "judgment_date": "2013-10-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 40,
+    "occupation_before": "cook and kitchen supervisor",
+    "occupation_after": "chef / kitchen worker",
+    "expected_occupation_after": null,
+    "salary_before": 17000.0,
+    "salary_after": 13500.0,
+    "expected_salary_after": 18000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury in or about the lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the plaintiff sustained an injury to his lower back.",
+          "the joint experts agreed that the plaintiff's injury was of soft tissue origin, there being no suggestion of more serious damage such as a bony fracture. Nor was there a suggestion of neurological deficit.",
+          "an injury of the kind diagnosed by the two doctors - a soft tissue injury in or about the lower back - presents particular difficulties, considerable reliance having to be placed on the subjective views of the injured person."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "sharp pain in his lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the area of the lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent lower back pain and tightness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty getting out of bed",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "used a walking stick (for a time, until early 2011; possibly only on rainy days)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in both legs when walking up and down stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "major areas of dysfunction were related to his strength in lifting and \"bilateral carrying\" and \"positional tolerance\" when standing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "traditional Chinese medicine",
+      "psychiatric assessment/outpatient treatment",
+      "medication"
+    ],
+    "treatments_future": [
+      "further limited psychiatric treatment on an out-patient basis",
+      "exercise to strengthen the back / rehabilitation exercises"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 532,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Yuet Keung v Harmony (International) Knitting Factory Limited",
+        "neutral_citation": "[2010] 5 HKLRD 599",
+        "action_number": null,
+        "injury_description": "the plaintiff slipped and fell suffering a soft tissue injury to his back. It was likely that the injury was an important causal factor of a disc extrusion at L5/S1 level, resulting in persistent low back pain.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Mohammad Waheed Khan v Rising Sun Transportation Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 241/2010",
+        "injury_description": "soft tissue sprain injury to his lower back; some residual back pain when walking, dressing, and undertaking daily activities.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Fong Yuet Ha v Success Employment Services Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 345/2009",
+        "injury_description": "soft tissue injuries to the left forearm, right heel, right buttock and lower back with some psychiatric trauma (insomnia, irritability and headaches) and adjustment disorder with depressive mood.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20221,
+      "output_tokens": 5225,
+      "reasoning_tokens": 3776,
+      "total_tokens": 25446
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35805.90673163533,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20221,
+      "output_tokens": 5225,
+      "reasoning_tokens": 3776,
+      "total_tokens": 25446
+    },
+    "total_duration_ms": 35805.90673163533
+  }
+}

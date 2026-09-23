@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 278",
+    "action_number": "DCPI 2620/2008",
+    "case_name": "HO KIN KEUNG v. TONG KIN WA",
+    "judgment_date": "2009-11-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": null,
+    "occupation_before": "office clerk",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The experts’ diagnosis is that Mr. Ho suffered from a sprained back injury.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine / lower back",
+        "laterality": null,
+        "source": [
+          "The experts’ diagnosis is that Mr. Ho suffered from a sprained back injury."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "his examination of Mr. Ho revealed abrasion wounds in the right lower leg, the right knee, the right lower thigh and the right forearm.",
+        "injury_type": "Temporary injury",
+        "body_part": "right lower leg; right knee; right lower thigh; right forearm",
+        "laterality": "right",
+        "source": [
+          "his examination of Mr. Ho revealed abrasion wounds in the right lower leg, the right knee, the right lower thigh and the right forearm."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the MRI taken in December 2006 had shown broad-based disc prolapses, with both the L4/5 and L5/S1 discs showing degeneration.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar discs L4/5 and L5/S1",
+        "laterality": "bilateral",
+        "source": [
+          "the MRI taken in December 2006 had shown broad-based disc prolapses, with both the L4/5 and L5/S1 discs showing degeneration."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness on the left side and in the left leg down to the dorsum of the foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual pain after prolonged sitting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right hand and right knee abrasions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment at the United Christian Hospital (discharged same day)",
+      "physiotherapy (33 sessions at Sik Sik Yuen Physiotherapy Centre)",
+      "acupuncture (21 June 2006 to 2 August 2006)",
+      "bonesetter treatment",
+      "Chinese manual therapy (29 October 2006 to 3 September 2007)",
+      "massage therapy (10 sessions May to September 2007)",
+      "MRI scan (28 December 2006)",
+      "x-rays"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 74,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Yuen Hoi v. Chan Muk Sing",
+        "neutral_citation": null,
+        "action_number": "HCPI 983 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tam Fu Yip Fip v. Sincere Engineering & Trading Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 473 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chong Pui Kin v. Leung Ka Fai Tony",
+        "neutral_citation": null,
+        "action_number": "HCPI 991 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Sulakhan Singh v. Federal Securities Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 231 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10877,
+      "output_tokens": 6832,
+      "reasoning_tokens": 5312,
+      "total_tokens": 17709
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 61161.487471312284,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10877,
+      "output_tokens": 6832,
+      "reasoning_tokens": 5312,
+      "total_tokens": 17709
+    },
+    "total_duration_ms": 61161.487471312284
+  }
+}

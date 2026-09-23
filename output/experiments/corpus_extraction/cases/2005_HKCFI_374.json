@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 374",
+    "action_number": "HCPI 334/2004",
+    "case_name": "FAN SIU KWAN v. KAMAN FASHION COMPANY LIMITED",
+    "judgment_date": "2005-05-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "salesperson",
+    "occupation_after": null,
+    "expected_occupation_after": "she could return to her previous job as a sales lady or to take up some lighter jobs such as a salesgirl in retail shops, an office worker or a cashier.",
+    "salary_before": 6500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "strained injury to the soft tissues of her back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Dr. Lau commented in the report that the plaintiff had suffered from strained injury to the soft tissues of her back with mild prolapse of the intervertebral disc at the L5/S1 level."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild prolapse / protrusion of the intervertebral disc at the L5/S1 level",
+        "injury_type": "Temporary injury",
+        "body_part": "L5/S1 (lower back)",
+        "laterality": null,
+        "source": [
+          "Dr. Lau commented in the report that the plaintiff had suffered from strained injury to the soft tissues of her back with mild prolapse of the intervertebral disc at the L5/S1 level.",
+          "The MRI revealed a protrusion of the L5/S1 disc without pressing on any nerve root and Dr Lau opined that the treatment was appropriate."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness and pain on her back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "numbness and tightness of the left lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness over the lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "severe pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment without surgery",
+      "occupational therapy",
+      "attendance at A & E Department of Princess Margaret Hospital",
+      "MRI scan"
+    ],
+    "treatments_future": [
+      "a short course of treatment when recurrence of symptoms occurs",
+      "practice some sports to recondition her spine and spinal muscles"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity claimed as PSLA (judge used $250,000 as a reasonable assessment for the purpose of choosing forum).",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial and post-trial loss of earnings and loss of earning capacity (loss of earning capacity accepted at $100,000).",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Shek Kam Ching v. Po Kee Construction Engineering Ltd. And Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 434 of 2001",
+        "injury_description": "small prolapsed intervertebral disc at L5/S1 level",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10048,
+      "output_tokens": 5599,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15647
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32621.26613408327,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10048,
+      "output_tokens": 5599,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15647
+    },
+    "total_duration_ms": 32621.26613408327
+  }
+}

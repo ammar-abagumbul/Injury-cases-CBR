@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 306",
+    "action_number": "DCPI 2570/2011",
+    "case_name": "LEUNG KWONG CHIN v. MAK CHUN HUNG",
+    "judgment_date": "2013-03-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 53,
+    "age_at_trial": null,
+    "occupation_before": "security guard; delivery worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left ankle sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "What the plaintiff suffered from the accident was a left ankle sprain."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasion wounds over his left leg",
+        "injury_type": "Temporary injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "Abrasion wounds were noted over his left leg. Tenderness was elicited on palpation of the left distal tibia and fibula. The range of left ankle movements was decreased. X ray films of left leg and ankle showed no fracture."
+        ],
+        "icd_code": "NC90.2",
+        "icd_description": "Abrasion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent left ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decreased range of left ankle movements",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness on palpation of the left distal tibia and fibula",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Kwong Wah Hospital AED",
+      "analgesics",
+      "physiotherapy (referred)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could not enjoy the sports he used to have.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9601,
+      "output_tokens": 4238,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13839
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25384.721152484417,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9601,
+      "output_tokens": 4238,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13839
+    },
+    "total_duration_ms": 25384.721152484417
+  }
+}

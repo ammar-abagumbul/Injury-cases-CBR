@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 616",
+    "action_number": "HCPI 910/2002",
+    "case_name": "WONG CHI HO JACKY v. POON YUK SHAN",
+    "judgment_date": "2004-05-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "employed as a local courier",
+    "occupation_after": "employed as a mechanic in a garage (August 2002)",
+    "expected_occupation_after": "could return to his pre-injury employment or as a mechanic (orthopaedic opinion)",
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild post-concussional syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "When he was seen by a neurologist in July 2002, he was diagnosed to have suffered mild post-concussional syndrome, with no significant improvement expected."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured clavicle of the right shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "He also suffered injuries which included fractured clavicle of the right shoulder and soft tissue injury to the left knee."
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to the left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "He also suffered injuries which included fractured clavicle of the right shoulder and soft tissue injury to the left knee."
+        ],
+        "icd_code": "NC96.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost consciousness momentarily after the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hospitalized for nine days",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "given sick leave for some 23.5 months",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of earning capacity estimated at 1% (neurologist)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of earning capacity assessed at 6% (orthopaedic specialist)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Employees' Compensation (Ordinary Assessment) Board assessed loss of earning capacity at 7% on 27 September 2002, revised to 4% after review on 24 January 2003",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation for nine days",
+      "sick leave for some 23.5 months",
+      "Employees' Compensation proceedings (District Court) resulting in Consent Order dated 18 August 2003, employees' compensation agreed at $293,873.00 inclusive of interest, of which $230,844.30 had already been paid as advance payment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity: neurologist estimated 1%; orthopaedic specialist assessed 6%; Board assessed 7% (27 September 2002) and revised to 4% (24 January 2003). Period of absence confirmed at 23.5 months.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13322,
+      "output_tokens": 6529,
+      "reasoning_tokens": 5184,
+      "total_tokens": 19851
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34559.48709696531,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13322,
+      "output_tokens": 6529,
+      "reasoning_tokens": 5184,
+      "total_tokens": 19851
+    },
+    "total_duration_ms": 34559.48709696531
+  }
+}

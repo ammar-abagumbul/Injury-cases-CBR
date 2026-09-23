@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 94; HCA 2528/1978",
+    "action_number": "HCA002528/1978",
+    "case_name": "LAM TIN-CHOR v. YUNG WAI-SUN AND ANOTHER",
+    "judgment_date": "1980-01-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 28,
+    "occupation_before": "labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He was mildly concussed",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He was mildly concussed but no medical evidence was led as to that, and there is no suggestion that he had suffered any head injuries which I ought to consider when assessing the question of quantum of damages.",
+          "The plaintiff was hospitalized from the 22nd of October, 1976, to the 30th of December, 1976, when he underwent skull traction for his spinal injury."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the 2nd cervical bone in his neck.",
+        "injury_type": "Residual disability",
+        "body_part": "neck (C2)",
+        "laterality": null,
+        "source": [
+          "Fracture of the 2nd cervical bone in his neck.",
+          "X-rays of the plaintiff's neck bone taken in January 1978 shows that the disc space between cervical vertebrae 2 and 3 - I will refer to this as C2 and C3 - was rather compressed. This and the damage to the ligaments in his neck, according to the medical evidence, is liable to cause the plaintiff continuing pain.",
+          "Dr. Horsfall, when he examined the plaintiff in November 1979, thought it likely that this had happened."
+        ],
+        "icd_code": "NA22.1",
+        "icd_description": "Fracture of second cervical vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture of the superior and inferior ramus on the left of his pelvis",
+        "injury_type": "Residual disability",
+        "body_part": "left pelvis",
+        "laterality": "left",
+        "source": [
+          "Fracture of the superior and inferior ramus on the left of his pelvis;",
+          "The fractures in his pelvis required no treatment other than bedrest but unfortunately the fractured left ramus has not healed perfectly and it is now somewhat displaced by reference to the right ramus, leaving the plaintiff with a tilted hip. This tilting makes his left leg appear to be half an inch shorter than his right, but it has not noticeably affected his gait."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Dislocation of the sacro-iliac joint on the left of his pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "left sacro-iliac joint",
+        "laterality": "left",
+        "source": [
+          "Dislocation of the sacro-iliac joint on the left of his pelvis;",
+          "As to the injury to the sacro-iliac joint, this has healed."
+        ],
+        "icd_code": "NB53.2",
+        "icd_description": "Dislocation of sacroiliac or sacrococcygeal joint without disruption of pelvic ring"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuing headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in the side of his abdomen",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "occasional nausea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "continuing pain (liable to be caused by damage to C2/C3 and neck ligaments)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tilted hip making his left leg appear to be half an inch shorter than his right",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "some functional impairment arising from the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "muscles and ligaments around the sites of the fractures must have been torn",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "skull traction",
+      "immobilization of his neck by means of a device held in place by small screws inserted into his skull"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 70,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18153,
+      "output_tokens": 7970,
+      "reasoning_tokens": 6336,
+      "total_tokens": 26123
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36710.066713392735,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18153,
+      "output_tokens": 7970,
+      "reasoning_tokens": 6336,
+      "total_tokens": 26123
+    },
+    "total_duration_ms": 36710.066713392735
+  }
+}

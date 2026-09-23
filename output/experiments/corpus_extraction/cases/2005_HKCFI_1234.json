@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 1234",
+    "action_number": "HCPI 1340/2003",
+    "case_name": "POON CHI KWONG v. POON WING KEE (METAL WORK) AND ANOTHER",
+    "judgment_date": "2005-12-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 49,
+    "age_at_trial": 53,
+    "occupation_before": "welder",
+    "occupation_after": "casual light and sedentary work with Chuen Tat Construction Company",
+    "expected_occupation_after": null,
+    "salary_before": 18443.0,
+    "salary_after": 3500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the first lumbar vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "first lumbar vertebra (L1)",
+        "laterality": null,
+        "source": [
+          "he was later diagnosed to have suffered multiple fractures to his left knee, right ankle, right thighbone, as well as the first and third lumbar vertebrae.",
+          "The lumbar fractures were treated with bed rest for nine weeks, then a rigid corset for two to three weeks which was then replaced with soft corset for one to two months.",
+          "In his report, Dr Au stated that there was a gibbus at L1 level of the lumbar spine. There was pounding over the mid lumbar spine and spinal movement was limited.",
+          "According to D Au, the impairment is permanent and the plaintiff will have on and off exacerbation of his back pain with exertion."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the third lumbar vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "third lumbar vertebra (L3)",
+        "laterality": null,
+        "source": [
+          "he was later diagnosed to have suffered multiple fractures to his left knee, right ankle, right thighbone, as well as the first and third lumbar vertebrae.",
+          "The lumbar fractures were treated with bed rest for nine weeks, then a rigid corset for two to three weeks which was then replaced with soft corset for one to two months."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the right thighbone (right femur)",
+        "injury_type": "Permanent injury",
+        "body_part": "right thighbone",
+        "laterality": "right",
+        "source": [
+          "he was later diagnosed to have suffered multiple fractures to his left knee, right ankle, right thighbone, as well as the first and third lumbar vertebrae.",
+          "Open reduction and Russel Taylor Nailing was performed for the fractured right femur"
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fracture of the left knee (left tibial plateau and fibula involvement described)",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "he was later diagnosed to have suffered multiple fractures to his left knee, right ankle, right thighbone, as well as the first and third lumbar vertebrae.",
+          "external fixation was performed for the left tibial plateau and fibula on 4 January 2002.",
+          "In his report, Dr Au stated ... the left knee joint movement was limited. There was tenderness over medial and lateral facets of the left patello-femoral joint with significant crepitation on bending of the left knee. There was no laxity of the left knee ligaments."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "fracture of the right ankle (right medial malleolus / pilon crack fracture referenced)",
+        "injury_type": "Permanent injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "he was later diagnosed to have suffered multiple fractures to his left knee, right ankle, right thighbone, as well as the first and third lumbar vertebrae.",
+          "Open reduction and internal fixation were performed for the right medial malleolus on 30 January 2002.",
+          "the fractures in the lumbar vertebra and the right pilon crack fracture were treated conservatively.",
+          "Dr Lau ... The plaintiff has residual pain in his back. There was also residual pain and stiffness of the left knee, as well as the right ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost consciousness until he woke up again in hospital",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "left knee pain and stiffness; limited left knee joint movement; tenderness over medial and lateral facets of the left patello-femoral joint with significant crepitation on bending",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "back pain with on and off exacerbation on exertion; gibbus at L1; pounding over the mid lumbar spine; spinal movement limited",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not squat fully",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "limited joint movement (left knee and right ankle)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and Russel Taylor Nailing for fractured right femur (4 January 2002)",
+      "external fixation for the left tibial plateau and fibula (4 January 2002)",
+      "Open reduction and internal fixation for the right medial malleolus (30 January 2002)",
+      "conservative treatment for lumbar fractures (bed rest nine weeks, rigid corset 2-3 weeks, soft corset 1-2 months)",
+      "physiotherapy from May 2002 onwards",
+      "occupational therapy until November 2002",
+      "regular outpatient follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 100,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 840,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and stiffness in the back, left knee and right ankle; recurrent exacerbations of back pain; reduced joint movement and crepitation",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume pre-accident work as a welder; tried various jobs but could not hold any due to disabilities; reduced earning capacity",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 550000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v. Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": "Serious Injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21778,
+      "output_tokens": 7701,
+      "reasoning_tokens": 5504,
+      "total_tokens": 29479
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43096.28038853407,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21778,
+      "output_tokens": 7701,
+      "reasoning_tokens": 5504,
+      "total_tokens": 29479
+    },
+    "total_duration_ms": 43096.28038853407
+  }
+}

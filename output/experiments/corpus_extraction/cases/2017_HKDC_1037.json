@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 1037",
+    "action_number": "DCPI 225/2016",
+    "case_name": "FAN CHI PING v. GOLDEN RESOURCES WAREHOUSE LTD",
+    "judgment_date": "2017-08-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 48,
+    "age_at_trial": 53,
+    "occupation_before": "warehouse keeper",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11638.5,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "the plaintiff allegedly has sustained serious injuries to her left knee.",
+          "the diagnosis was one of soft tissue injury only.",
+          "MRI of the left knee carried out on 16 June 2014 showed no definite pathology."
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over the medial side of the plaintiff’s left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent left knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left knee pain aggravated by slope/stairs walking or walking for more than 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sporadic pain occurring 3-4 times daily",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "need to use analgesic for pain control",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left knee stiffness and inability to squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight reduction of range of movement on her knee",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unstable on the left side when standing on one leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not perform heel walking on both sides",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "traditional Chinese medical practitioner treatment",
+      "Accident and Emergency Department treatment at Tuen Mun Hospital",
+      "X-ray of left knee",
+      "MRI of left knee",
+      "analgesic/medical management"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 448,
+    "sick_leave_days_expected": 90
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "intermittent left knee pain; left knee stiffness and inability to squat; pain aggravated by slope/stairs or walking more than 30 minutes; need for analgesic",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Yau Sui v Moral Accord Limited & Anor",
+        "neutral_citation": "[2017] 2 HKLRD 322",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15540,
+      "output_tokens": 3794,
+      "reasoning_tokens": 2944,
+      "total_tokens": 19334
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 21588.97927030921,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15540,
+      "output_tokens": 3794,
+      "reasoning_tokens": 2944,
+      "total_tokens": 19334
+    },
+    "total_duration_ms": 21588.97927030921
+  }
+}

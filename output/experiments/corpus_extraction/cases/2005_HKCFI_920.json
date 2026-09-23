@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 920",
+    "action_number": "HCPI 290/2003",
+    "case_name": "PANG PING SUM v. ENPACK (HONG KONG) LTD AND OTHERS",
+    "judgment_date": "2005-10-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "hose operator (cement spraying)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "very low education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Skull base fracture",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "CT scan showed a skull base fracture being a stable and non-displaced fracture of right lamina of the cervical 7th vertebra."
+        ],
+        "icd_code": "NA02.1",
+        "icd_description": "Fracture of base of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of right ulnar styloid (right wrist)",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "X-ray showed fracture of right ulnar styloid."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Stable and non-displaced fracture of right lamina of the cervical 7th vertebra (C7)",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C7)",
+        "laterality": "right",
+        "source": [
+          "CT scan showed a skull base fracture being a stable and non-displaced fracture of right lamina of the cervical 7th vertebra.",
+          "Dr Chan\u0002s report dated 1 September 2003 states that the plaintiff has persistent neck pain radiating to the right scapula... The neck pain is a consequence of the C7 lamina fracture which has healed."
+        ],
+        "icd_code": "NA22.2",
+        "icd_description": "Fracture of other specified cervical vertebra"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "4-cm laceration wound over the left occiput (scalp laceration)",
+        "injury_type": "Temporary injury",
+        "body_part": "left occiput (scalp)",
+        "laterality": "left",
+        "source": [
+          "He was found to have a 4-cm laceration wound over the left occiput and tenderness over the right wrist, right lower chest wall and lower part of neck."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Post-concussional syndrome (residual headache and impaired memory)",
+        "injury_type": "Residual disability",
+        "body_part": "head / neurological",
+        "laterality": null,
+        "source": [
+          "In April 2002 the plaintiff returned to the A and E Dept of UCH complaining of headache and was diagnosed to be suffering from post-concussional headache.",
+          "Dr Pang\u0002s report dated 6 February 2004 states that the plaintiff still suffers headache due to post concussional syndrome, neck pain and right wrist pain as well as right frozen shoulder (likely due to immobilization of the right arm from the plaster cast).",
+          "Dr Edmund Woo\u0002s report dated 24 September 2003 states that in the mental state examination conducted, the plaintiff demonstrated a mild impairment in tests of orientation and memory. He also has residual headache and impaired memory consistent with mild post-concussional syndrome."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Right frozen shoulder (likely due to immobilisation from arm cast)",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Dr Chan\u0002s report dated 1 September 2003 states that the plaintiff has persistent neck pain radiating to the right scapula, right frozen shoulder (due to the arm cast resulting from the injury) and deformed/painful right wrist.",
+          "Dr Pang\u0002s report dated 6 February 2004 states that the plaintiff still suffers headache due to post concussional syndrome, neck pain and right wrist pain as well as right frozen shoulder (likely due to immobilization of the right arm from the plaster cast)."
+        ],
+        "icd_code": "NC16",
+        "icd_description": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Adjustment disorder and depression",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric / mental",
+        "laterality": null,
+        "source": [
+          "During 21 to 23 July 2002, he was admitted to the Medical Department of UCH upon further complaints of headache. On this occasion the diagnosis was compatible to adjustment disorder.",
+          "In August 2002 the plaintiff was referred to the East Kowloon Psychiatric Centre where he was diagnosed to be suffering from depression."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lost consciousness for a short period of some minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bleeding profusely",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "4-cm laceration wound over the left occiput",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Headache (persistent, post-concussional headache)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Mild impairment in orientation and memory; impaired memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Persistent neck pain radiating to the right scapula",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Tenderness over the right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Deformed/painful right wrist resulting in a weaker right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Right frozen shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Depression (psychiatric symptoms)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Taken by ambulance to the A and E Department of United Christian Hospital",
+      "Transferred to the Neurosurgical Unit as well as the Department of Orthopaedics and Traumatology of UCH for further management",
+      "Long arm plaster applied for the fracture to the ulna",
+      "Neck collar applied for the cervical spine fracture",
+      "Suturing of the scalp",
+      "Follow-up at the Orthopaedics Department until June 2002",
+      "Admission to Medical Department of UCH from 21 to 23 July 2002",
+      "Referral to East Kowloon Psychiatric Centre (diagnosed with depression)",
+      "Multiple attendances at A and E Dept of UCH for headaches and shoulder pain (various dates)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities (PSLA awarded by the court)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Kit Ha v. KMB",
+        "neutral_citation": null,
+        "action_number": "HCPI 539 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Wing Sun v. Chan Man Kin",
+        "neutral_citation": null,
+        "action_number": "HCPI 902 of 2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheung Hei Kwong v. Kwong Key Const. & Eng. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1260 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Kin Wai v. Chan Wai Sang & Anr",
+        "neutral_citation": null,
+        "action_number": "HCPI 1007 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24769,
+      "output_tokens": 11155,
+      "reasoning_tokens": 8320,
+      "total_tokens": 35924
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 58392.7582167089,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24769,
+      "output_tokens": 11155,
+      "reasoning_tokens": 8320,
+      "total_tokens": 35924
+    },
+    "total_duration_ms": 58392.7582167089
+  }
+}

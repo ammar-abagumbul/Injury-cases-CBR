@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 1000",
+    "action_number": "HCPI 163/2007",
+    "case_name": "THAPA DHAN BAHADUR v. ALL CLAD ASIA LTD AND OTHERS",
+    "judgment_date": "2009-10-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 32,
+    "occupation_before": "construction site worker (performing window installation work with an electric drill)",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 13306.65,
+    "salary_after": 10500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture left distal radius",
+        "injury_type": "Temporary injury",
+        "body_part": "left distal radius / left wrist",
+        "laterality": "left",
+        "source": [
+          "He accidentally fell and sustained injuries to his left wrist and left distal radius. He was sent to Ruttonjee & Tang Shiu Kin Hospital. He had fracture left distal radius and painful swelling around the left wrist. He was treated with a short arm plaster and was discharged the same day."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "painful swelling around the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weak left hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sick leave from 20 August 2004 to 2 December 2004 was recommended",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "short arm plaster",
+      "follow-up outpatient treatment at Ruttonjee & Tang Shiu Kin Hospital",
+      "medical review (last visited 11 November 2004)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 105,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity resulting from fracture left distal radius (PSLA head). The Plaintiff only has a reasonable chance to recover $160,000 (PSLA).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 160000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yu Yixin v. Leung Chi Tin Andy",
+        "neutral_citation": null,
+        "action_number": "DCPI 1306/2007",
+        "injury_description": "fracture distal radius",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Shu Shek v. Leung Chi Kit",
+        "neutral_citation": null,
+        "action_number": "HCPI 219/2002",
+        "injury_description": "fracture distal radius",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Cheuk Yiu v. Chan Ho Kwanmain",
+        "neutral_citation": null,
+        "action_number": "HCPI 879/2000",
+        "injury_description": "fracture distal radius",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9500,
+      "output_tokens": 4246,
+      "reasoning_tokens": 3136,
+      "total_tokens": 13746
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35376.13156810403,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9500,
+      "output_tokens": 4246,
+      "reasoning_tokens": 3136,
+      "total_tokens": 13746
+    },
+    "total_duration_ms": 35376.13156810403
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 212",
+    "action_number": "DCPI 1542/2008",
+    "case_name": "CHAN KAM CHU v. CHU WING WAH AND ANOTHER",
+    "judgment_date": "2009-09-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Office Assistant at CNEC Lui Ming Choi Primary School",
+    "occupation_after": "Unemployed (since termination at end of 2008 school year)",
+    "expected_occupation_after": null,
+    "salary_before": 9870.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "“contusion of the back”",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "Madam Chan was diagnosed as having a “contusion of the back” as a result of the accident."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "\"lower back pain from lumbar spine degenerative changes at L4/5 spinal stenosis\"",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "After the accident, the Plaintiff was diagnosed with “lower back pain from lumbar spine degenerative changes at L4/5 spinal stenosis” (the said Medical Report by Caritas Medical Centre)."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right cardiovascular accident",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "in 2001 she was diagnosed with “right cardiovascular accident and spondylolysis of L5”."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "spondylolysis of L5",
+        "injury_type": "Residual disability",
+        "body_part": "L5",
+        "laterality": null,
+        "source": [
+          "in 2001 she was diagnosed with “right cardiovascular accident and spondylolysis of L5”."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Back pain (injuries to her back)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Symptoms were aggravated (aggravation of pre-existing condition)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Symptoms exaggeration and inappropriate illness behaviour (failed 65% of validity criteria)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance attendance and taken to hospital (hospitalisation mentioned)",
+      "Hospitalisation (no days specified)",
+      "Medical treatment at Caritas Medical Centre (reports dated 5 March 2007)",
+      "Medical expenses awarded: HK$23,685 and RMB 5,653.25",
+      "Tonic food awarded nominally: HK$5,000 (award for nourishing food)",
+      "Travelling expenses allowed: HK$8,030.50"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14729,
+      "output_tokens": 5872,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20601
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30651.06676891446,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14729,
+      "output_tokens": 5872,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20601
+    },
+    "total_duration_ms": 30651.06676891446
+  }
+}

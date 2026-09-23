@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 318",
+    "action_number": "DCPI 1920/2006",
+    "case_name": "CHAN KAM PUI v. WONG SIU HUNG AND ANOTHER",
+    "judgment_date": "2007-09-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "contract project worker for the Agriculture, Fisheries and Conservation Department (AFCD)",
+    "occupation_after": "contract project worker for the Agriculture, Fisheries and Conservation Department (AFCD)",
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crushed left leg injury with tenderness and swelling at lateral side of left ankle with bruising and laceration wound over the medial side of the left ankle",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff was found to have crushed left leg injury with tenderness and swelling at lateral side of left ankle with bruising and laceration wound over the medial side of the left ankle.",
+          "tenderness, swelling and bruising over the lateral side of his left ankle. There was a laceration over the medial side of his left ankle."
+        ],
+        "icd_code": "ND18.0",
+        "icd_description": "Crushing injury of ankle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruising",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "laceration wound over the medial side of the left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual stiffness and pain in the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "affected his jumping activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to United Christian Hospital (UCH)",
+      "discharged with oral analgesics",
+      "regular follow-up visits at UCH",
+      "outpatient follow-up treatment at a Kwun Tong clinic",
+      "visits to a bonesetter"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 41,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The Plaintiff complained of left ankle stiffness and that affected his jumping activities.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Man Fu v Great Vantage Development Limited",
+        "neutral_citation": "DCPI 1165 of 2005",
+        "action_number": null,
+        "injury_description": "sprained his ankle; assessed to suffer 2% permanent impairment to the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Wong Wai Hung v Loo Kin and another",
+        "neutral_citation": "DCPI 643 of 2006",
+        "action_number": null,
+        "injury_description": "right ankle injury; permanent impairment assessed to be 1.5%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 80000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9974,
+      "output_tokens": 3396,
+      "reasoning_tokens": 2176,
+      "total_tokens": 13370
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24179.965898394585,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9974,
+      "output_tokens": 3396,
+      "reasoning_tokens": 2176,
+      "total_tokens": 13370
+    },
+    "total_duration_ms": 24179.965898394585
+  }
+}

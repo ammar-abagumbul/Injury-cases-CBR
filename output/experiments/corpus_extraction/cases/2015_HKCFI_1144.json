@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1144",
+    "action_number": "HCPI 476/2010",
+    "case_name": "LEE WAH, ADMINISTRATRIX OF THE ESTATE OF YICK HONG KWAI, DECEASED, AND IN HER PERSONAL CAPACITY v. LOK WAI WA",
+    "judgment_date": "2015-07-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Tour guide",
+    "occupation_after": "Part-time tour guide",
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": "Education in the Mainland up to what was equivalent to Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "skull fracture and cerebral contusions",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Hong died of ruptured spleen with haemoperitoneum, lung contusions, skull fracture and cerebral contusions."
+        ],
+        "icd_code": "NA07.43",
+        "icd_description": "Multiple focal injuries of cerebrum"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "lung contusions",
+        "injury_type": "Permanent injury",
+        "body_part": "thorax",
+        "laterality": null,
+        "source": [
+          "Hong died of ruptured spleen with haemoperitoneum, lung contusions, skull fracture and cerebral contusions."
+        ],
+        "icd_code": "NB32.30",
+        "icd_description": "Contusion of lung"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "ruptured spleen with haemoperitoneum",
+        "injury_type": "Permanent injury",
+        "body_part": "abdomen",
+        "laterality": null,
+        "source": [
+          "Hong died of ruptured spleen with haemoperitoneum, lung contusions, skull fracture and cerebral contusions."
+        ],
+        "icd_code": "NB91.04",
+        "icd_description": "Laceration of spleen, major"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Certified dead after hours of resuscitation at the hospital",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Resuscitation and emergency treatment (hospital)",
+      "Psychiatric follow-up (plaintiff Lee)",
+      "Antidepressant medication (plaintiff Lee)",
+      "Antipsychotic medication (plaintiff Lee)",
+      "Clinical psychologist consultation (plaintiff Lee)"
+    ],
+    "treatments_future": [
+      "Ongoing psychiatric follow-up",
+      "Antidepressant medication for life (as per Dr Wong's opinion)",
+      "Clinical psychologist consultation every fortnight for a year (as per Dr Wong's opinion)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement HK$150,000 (agreed)",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Funeral expenses HK$130,000 (agreed)",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities HK$30,000 (agreed)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Loss of accumulation of wealth HK$150,000 (agreed)",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of dependency HK$276,000",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "PSLA (Lee) HK$350,000",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity (lump sum) HK$90,000",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Bernt Lars-Olof Wanlayaphol v The Incorporated Owners of the Foremost Building",
+        "neutral_citation": null,
+        "action_number": "HCPI 336/1998",
+        "injury_description": "Secondary victim psychiatric injury; claimant suffered severe bereavement reaction with depression, fatigue, reduced respiratory function and anxiety",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 600000.0
+      },
+      {
+        "case_name": "CMY v Tam Siu Wing",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Plaintiff (not a secondary victim) who suffered minor physical injuries but major psychiatric condition",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 28567,
+      "output_tokens": 7328,
+      "reasoning_tokens": 5696,
+      "total_tokens": 35895
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37108.78463461995,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 28567,
+      "output_tokens": 7328,
+      "reasoning_tokens": 5696,
+      "total_tokens": 35895
+    },
+    "total_duration_ms": 37108.78463461995
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 38",
+    "action_number": "DCPI 500/2008",
+    "case_name": "HA KIT YING KITTY v. NG KA KI",
+    "judgment_date": "2009-02-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 29,
+    "age_at_trial": 31,
+    "occupation_before": "Office secretary (daytime) and part-time beer promoter (night)",
+    "occupation_after": "Office secretary (resumed daytime job; did not resume part-time beer promoter)",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": 11000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a compression fracture of the L1 vertebra.",
+        "injury_type": "Residual disability",
+        "body_part": "L1 vertebra",
+        "laterality": null,
+        "source": [
+          "a compression fracture of the L1 vertebra.",
+          "Subsequent X-rays showed anterior wedging deformity with some reduction of anterior and right vertebral height in L1 body, compatible with the fracture.",
+          "There was also minimal lateral deviation of the backbone with slight left convexity at the fractured region."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue swelling over the mid-shin of her left leg.",
+        "injury_type": "Temporary injury",
+        "body_part": "mid-shin of left leg",
+        "laterality": "left",
+        "source": [
+          "soft tissue swelling over the mid-shin of her left leg."
+        ],
+        "icd_code": "NC90.3",
+        "icd_description": "Contusion of other or unspecified parts of lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "multiple abrasion wounds",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "multiple abrasion wounds"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Back pain and traction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Soreness after standing or walking for about an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Needs to lean back for support after sitting for over an hour and a half",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain increases during weather change and menstruation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild tenderness over the thoraco-lumbar junction",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No neurological deficit in either limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Scoliosis and kyphosis at L1 as well as increased lordosis in the rest of the lumbar spine; normal alignment was affected",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Paraspinal muscle guarding, tightness and tenderness, more severe on the left side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Some but likely mild decrease in the endurance for prolonged walking and standing, and some decrease in the endurance for prolonged and continuous handling of heavier objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Traction and onset of pain when she bends her body to wash hair and to wash the dog",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Healed multiple abrasions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Soft tissue swelling over the mid-shin of her left leg (noted after the accident)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Analgesic medications",
+      "Thoraco-lumbar-sacral orthosis",
+      "Outpatient treatment",
+      "Physiotherapy",
+      "X-rays"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Compression fracture of L1 resulting in residual impairment and disability at the back.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Some decrease in endurance for prolonged walking and standing and decreased endurance for prolonged handling of heavier objects.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Causes some adjustment in her pre-accident daily and sport activities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume her pre-accident part-time job as a beer promoter due to prolonged standing and handling of weights.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11606,
+      "output_tokens": 6326,
+      "reasoning_tokens": 4672,
+      "total_tokens": 17932
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45494.916535913944,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11606,
+      "output_tokens": 6326,
+      "reasoning_tokens": 4672,
+      "total_tokens": 17932
+    },
+    "total_duration_ms": 45494.916535913944
+  }
+}

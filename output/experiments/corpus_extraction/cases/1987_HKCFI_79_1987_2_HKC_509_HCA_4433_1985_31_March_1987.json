@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 79; [1987] 2 HKC 509; HCA 4433/1985 (31 March 1987)",
+    "action_number": "HCA 4433/1985",
+    "case_name": "LIU SUET UN AN INFANT BY HER NEXT FRIEND LIU PUI CHEUNG v. YU MAN FAI AND ANOTHER",
+    "judgment_date": "1987-03-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 6,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound depressed fractures of the skull bone",
+        "injury_type": "Permanent injury",
+        "body_part": "skull",
+        "laterality": "left",
+        "source": [
+          "X-ray examination revealed compound depressed fractures of the skull bone and also a fracture of the shaft of the humerus.",
+          "the injuries to the left side of the plaintiff's skull were far more serious.",
+          "surgery revealed multiple fractures of the skull bones which were depressed. The fractured segments of bone were elevated"
+        ],
+        "icd_code": "NA02.0",
+        "icd_description": "Fracture of vault of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "appreciable brain damage involving in particular the left temporal lobe of the brain; the surface of the left temporal lobe of the brain was found to be lacerated; the whole of this lobe was contused and about 8 to 10 c.c. of blood was removed from inside the temporal lobe",
+        "injury_type": "Permanent injury",
+        "body_part": "left temporal lobe of the brain",
+        "laterality": "left",
+        "source": [
+          "the surface of the left temporal lobe of the brain was found to be lacerated.",
+          "In addition, the whole of this lobe was contused and about 8 to 10 c.c. of blood was removed from inside the temporal lobe.",
+          "it is evident that there has been appreciable brain damage involving in particular the left temporal lobe of the brain"
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "An area of skull bone measuring 6 cm x 5 cm was removed from the anterior part of the left parietal bone during surgery leaving the underlying brain unprotected.",
+        "injury_type": "Permanent injury",
+        "body_part": "anterior part of the left parietal bone (skull defect)",
+        "laterality": "left",
+        "source": [
+          "An area of skull bone measuring 6 cm x 5 cm was removed from the anterior part of the left parietal bone during surgery leaving the underlying brain unprotected."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fracture of the shaft of the humerus",
+        "injury_type": "Temporary injury",
+        "body_part": "humerus (shaft)",
+        "laterality": null,
+        "source": [
+          "X-ray examination revealed compound depressed fractures of the skull bone and also a fracture of the shaft of the humerus.",
+          "The fractured humerus was simply treated by placing the same in a plaster cast and it is clear from the medical reports that she will make a complete recovery from this injury."
+        ],
+        "icd_code": "NC12.3",
+        "icd_description": "Fracture of shaft of humerus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "post-traumatic amnesia from which, according to her father, she did not fully recover for a period of 3 days",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unconscious for 3 days",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "initially showed signs of speech disturbance, her speech is now almost normal",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "An electroencephelogram revealed epileptogenic discharges when the plaintiff hyperventilated.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the plaintiff has become aggressive, bad tempered and unto-operative. She is nervous in public and becomes frustrated over small matters",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty, if not impossible, to form relationships with her peers or indeed anyone other than members of her immediate family",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "I.Q. of 93, on the lower side of the average range; showed rigidity, inflexibility and muddled conceptual thinking characteristic of brain damaged patients",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "memory functioning: current performance is only weak to adequate",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "school work has suffered and the deficit in abstract conceptual thinking will increasingly and adversely affect her performance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "there is a 31% chance of developing late post-traumatic epilepsy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to United Christian Hospital and transfer to Neurosurgical Unit of Kwong Wah Hospital",
+      "neurosurgery (elevation of depressed skull bone segments and removal of intracerebral blood)",
+      "plaster cast for fractured humerus",
+      "electroencephalogram",
+      "psychological assessment (Ms. Janie O.C. Lee)"
+    ],
+    "treatments_future": [
+      "further surgery to insert an acrylic graft to protect the brain where the skull bone has been removed"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Personality change",
+        "description": "The plaintiff has become aggressive, bad tempered and unto-operative. She is nervous in public and becomes frustrated over small matters.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "She finds it difficult if not impossible, to form relationships with her peers or indeed anyone other than members of her immediate family.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "Her school work has suffered and the deficit in abstract conceptual thinking will increasingly and adversely affect her performance.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "An area of skull bone measuring 6 cm x 5 cm was removed ... leaving the underlying brain unprotected; further surgery is required to insert an acrylic graft to protect the brain.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "She is nervous in public",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 96000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v. Leung Kam-ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Siu-kit v. Lam Po and Another",
+        "neutral_citation": null,
+        "action_number": "HCA No. 10812 of 1983",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14168,
+      "output_tokens": 9102,
+      "reasoning_tokens": 6720,
+      "total_tokens": 23270
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52092.3223271966,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14168,
+      "output_tokens": 9102,
+      "reasoning_tokens": 6720,
+      "total_tokens": 23270
+    },
+    "total_duration_ms": 52092.3223271966
+  }
+}

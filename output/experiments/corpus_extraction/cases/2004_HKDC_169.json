@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKDC 169",
+    "action_number": "DCPI140/2001",
+    "case_name": "LAU TSZ WAN v. CALTEX OIL HONG KONG LIMITED AND ANOTHER",
+    "judgment_date": "2004-12-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Insurance agent",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the neck of her right femur.",
+        "injury_type": "Residual disability",
+        "body_part": "right femur (neck)",
+        "laterality": "right",
+        "source": [
+          "fracture of the neck of her right femur."
+        ],
+        "icd_code": "NC72.2Z",
+        "icd_description": "Fracture of neck of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe tenderness over right hip joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impaired range of movement of right hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty in walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual stiffness at the right hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intermittent pins and needles after sitting for long time or at the start of walking",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wasting of muscle of the right leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Required two crutches on discharge",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Closed reduction and hip screw fixation",
+      "Physiotherapy",
+      "Outpatient orthopaedic follow-up",
+      "Removal of fixation screw (readmission 14 October to 19 October 1998)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 26,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from fracture of the neck of her right femur (PSLA awarded).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to participate in parenthood or grandparenthood",
+        "description": "Madam Lau and her husband were planning to have another child before the accident and the accident had made that plan impossible at least within 2 years of the accident.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Kwan Ming v. Lee Yin Hing trading as King Yip Company & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 765 of 2000",
+        "injury_description": "Displaced fracture right neck of femur; emergency operation with screws fixation on day of accident; mild residual pain on walking.",
+        "hospitalisation_days": 3,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 276000.0
+      },
+      {
+        "case_name": "Yeung Hing Lun v. Hao Tong Trading Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 132 of 2003",
+        "injury_description": "Fracture of the left femoral neck with positive Trendelenburg sign and 8% whole person impairment.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14770,
+      "output_tokens": 5733,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20503
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41932.151425629854,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14770,
+      "output_tokens": 5733,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20503
+    },
+    "total_duration_ms": 41932.151425629854
+  }
+}

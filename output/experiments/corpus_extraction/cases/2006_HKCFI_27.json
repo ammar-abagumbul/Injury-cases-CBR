@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 27",
+    "action_number": "HCPI 112/2004",
+    "case_name": "NG CHING v. LINK MACHINERY WORKDS LTD",
+    "judgment_date": "2006-01-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 42,
+    "age_at_trial": null,
+    "occupation_before": "artisan / machinist (duty was to cut and polish steel cylinders with the lathe)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration to the upper right arm with muscle lacerated; partial cut of the underlying brachialis muscle",
+        "injury_type": "Temporary injury",
+        "body_part": "right upper arm",
+        "laterality": "right",
+        "source": [
+          "Dr Lin stated in his report of 9 September 2003 that the Plaintiff had suffered a laceration to the upper right arm of about 30 cm which was deep at the medial side with muscle lacerated, there was no active bleeding and no neurovascular deficit.",
+          "A medical memorandum dated 14 August 2003 by Dr Kam Wing Lok of the Orthopaedic Department recorded that the Plaintiff had a 15 cm deep laceration over the right arm region and a partial cut of the underlying brachialis muscle, but the neurovascular structures were intact."
+        ],
+        "icd_code": "NC16.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury / damage to the lateral cutaneous (cutaneous) nerve of the right forearm (superficial sensory nerve)",
+        "injury_type": "Permanent injury",
+        "body_part": "right forearm (cutaneous nerve)",
+        "laterality": "right",
+        "source": [
+          "Dr Lam assessed ... the numbness was compatible with injury of the lateral cutaneous nerve, a superficial nerve.",
+          "There was a patch of decreased sensation of about 6 cm x 3 cm."
+        ],
+        "icd_code": "NC34.3",
+        "icd_description": "Injury of cutaneous sensory nerve at forearm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "wound healed with scarring (unsightly scar on right arm)",
+        "injury_type": "Residual disability",
+        "body_part": "right arm (scar)",
+        "laterality": "right",
+        "source": [
+          "The wound eventually healed with scarring.",
+          "Despite the Plaintiff's full recovery, there is an obvious unsightly scar on his right arm."
+        ],
+        "icd_code": "NC11.Z",
+        "icd_description": "Open wound of shoulder or upper arm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness over the lateral aspect of the forearm; no sensation over the part distal to the wound even when pinched",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "paraesthesia over the right dorsum of the forearm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in the distal arm and scar pain; stretching pain over right forearm scar on exerting force",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "weakness in his right upper limb including reduced grip (as complained/reported to Dr Lam)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "patch of decreased sensation of about 6 cm x 3 cm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A & E treatment at Yan Chai Hospital",
+      "admission to orthopaedic ward at Yan Chai Hospital",
+      "physiotherapy",
+      "occupational therapy",
+      "remedial class training and work rehabilitation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 194,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Obvious unsightly scar on his right arm which would put him under a disadvantage in seeking new jobs.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ching Kam v Au Wing Keung & Another",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsang Chin Keung v Lo Tat Kong (trading as Hung Kwong Glass Works) & Another",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Li Yuk Ching v Secretary for Justice",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Mau Leung v University of Hong Kong",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15786,
+      "output_tokens": 6966,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22752
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37544.60632801056,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15786,
+      "output_tokens": 6966,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22752
+    },
+    "total_duration_ms": 37544.60632801056
+  }
+}

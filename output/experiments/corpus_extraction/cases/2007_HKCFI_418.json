@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 418",
+    "action_number": "HCPI 1129/2005",
+    "case_name": "LEE LOK KOON v. MAXIM’S CATERERS LTD",
+    "judgment_date": "2007-04-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 30,
+    "age_at_trial": null,
+    "occupation_before": "deputy chef",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "prolapsed discs at L4/5 and L5/S1 with radiculopathy",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "Dr Chan found prolapsed discs at L4/5 and L5/S1 with radiculopathy.",
+          "CT scan ... suggested mild disc prolapse at L4/5 level without significant compression."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain radiating down his right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the lumbrosacral junction",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "paraspinal muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficits were detected",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "leg symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "radiculopathy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Alice Ho Miu Ling Nethersole Hospital",
+      "treated for acute back pain",
+      "attempt to take a MRI failed as the plaintiff complained of claustrophobia",
+      "CT scan was done on 5 November 2003",
+      "orthopaedic report by Dr Baldwin Chan dated 7 December 2004",
+      "sick leave period of 14 months and 6 days endorsed by the government hospitals"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is unlikely to be able to return to his original occupation.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8409,
+      "output_tokens": 3826,
+      "reasoning_tokens": 2880,
+      "total_tokens": 12235
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24579.800810664892,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8409,
+      "output_tokens": 3826,
+      "reasoning_tokens": 2880,
+      "total_tokens": 12235
+    },
+    "total_duration_ms": 24579.800810664892
+  }
+}

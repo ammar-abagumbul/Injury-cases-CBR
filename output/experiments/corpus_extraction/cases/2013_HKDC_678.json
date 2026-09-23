@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 678",
+    "action_number": "DCPI 1160/2012",
+    "case_name": "LAW KWONG KEUNG v. CHENG CHUNG HANG",
+    "judgment_date": "2013-06-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 52,
+    "occupation_before": "full time District Councilor member",
+    "occupation_after": "full time District Councilor member",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "neck sprain (cervical spine sprain/whiplash injury)",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "neck sprain (cervical spine sprain/whiplash injury);"
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "chest contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "chest contusion."
+        ],
+        "icd_code": "NA80.6",
+        "icd_description": "Contusion of thorax"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right foot sprain/right foot 1st metatarsophalangeal joint contusion);",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "right foot sprain/right foot 1st metatarsophalangeal joint contusion);"
+        ],
+        "icd_code": "ND14.90",
+        "icd_description": "Strain or sprain of metatarsophalangeal joint of great toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain over the right toe and foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain over the shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain at his chest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "could no longer play or fully enjoy such activities (participating in dragon boat, trailwalker and marathon races)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment from the Prince of Wales Hospital",
+      "treatment from the Union Hospital",
+      "treatment by private orthopaedic specialists",
+      "physiotherapy (recovered after fifteen sessions of physiotherapy; last one on 18 July 2011)"
+    ],
+    "treatments_future": [
+      "short course of physiotherapy (recommended by Dr Au on 15 August 2011)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could no longer play or fully enjoy participating in dragon boat, trailwalker and marathon races",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "suffers disadvantage at the labour market because of the accident; may need to look for alternative job after term of office expires",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14871,
+      "output_tokens": 5928,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20799
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35983.038168400526,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14871,
+      "output_tokens": 5928,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20799
+    },
+    "total_duration_ms": 35983.038168400526
+  }
+}

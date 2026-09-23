@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 1137",
+    "action_number": "DCPI 306/2015",
+    "case_name": "WAN KAM PING v. MAN WAI HUNG T/A CHIU SHING NOODLES HOUSE",
+    "judgment_date": "2017-09-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 51,
+    "age_at_trial": null,
+    "occupation_before": "worked in a bakery",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "swelling over right maxilla",
+        "injury_type": "Temporary injury",
+        "body_part": "right maxilla",
+        "laterality": "right",
+        "source": [
+          "swelling over right maxilla"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "swelling over right middle finger",
+        "injury_type": "Temporary injury",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "swelling over right middle finger"
+        ],
+        "icd_code": "NC51.01",
+        "icd_description": "Contusion of finger or thumb"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right shoulder injury",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "tenderness over right shoulder",
+          "range of movement of his right shoulder was limited by pain",
+          "provisional diagnosis was “S/F with right shoulder injury”",
+          "“Right shoulder pain” was put down in his medical certificate."
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "right chest wall injury / chest wall pain",
+        "injury_type": "Temporary injury",
+        "body_part": "right chest wall",
+        "laterality": "right",
+        "source": [
+          "localized tenderness over right anterior chest wall near shoulder",
+          "The provisional diagnosis was “R chest wall pain”",
+          "The provisional diagnosis was “chest wall pain”",
+          "“R shoulder and chest wall injury” was put down in his medical certificate."
+        ],
+        "icd_code": "NB34.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at thorax level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "swelling over right maxilla",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling over right middle finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over right shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "range of movement of his right shoulder was limited by pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "very mild intermittent pain on his right shoulder which does not affect his daily living in any way",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "localized tenderness over right anterior chest wall near shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "chest wall pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "dressing in form of sling",
+      "attendance at A&E of Pok Oi Hospital",
+      "attendance at A&E of Tuen Mun Hospital",
+      "ambulance transport to A&E of Pok Oi Hospital",
+      "consultation with Dr Lai Ming Yuet (private practitioner)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 13,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 70000.0,
+    "comparable_cases": [
+      {
+        "case_name": "So Kim Lung v Lee Pak Wai",
+        "neutral_citation": "unreported, HCPI 494/2010, 1 Nov 2012",
+        "action_number": "HCPI 494/2010",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Kin Hung v Chan Wai Ming",
+        "neutral_citation": "unreported, DCPI 1223/2006, 16 Feb 2007",
+        "action_number": "DCPI 1223/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ling Man Kuen v Chow Chan Ming & Another",
+        "neutral_citation": "unreported, DCPI 1445/2005, 21 Aug 2006",
+        "action_number": "DCPI 1445/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12808,
+      "output_tokens": 6385,
+      "reasoning_tokens": 4672,
+      "total_tokens": 19193
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29055.735878646374,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12808,
+      "output_tokens": 6385,
+      "reasoning_tokens": 4672,
+      "total_tokens": 19193
+    },
+    "total_duration_ms": 29055.735878646374
+  }
+}

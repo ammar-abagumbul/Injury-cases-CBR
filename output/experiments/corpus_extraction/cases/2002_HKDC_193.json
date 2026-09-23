@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 193",
+    "action_number": "DCPI 44/2001",
+    "case_name": "LEE SZE WAI v. LAW CHI KIN",
+    "judgment_date": "2002-05-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "working in shipping industry",
+    "occupation_after": "administration work at Seatop Shipping Limited (mainly dealing with daily administration work and contact clients by telephone)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 22000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of second metatarsal of left foot",
+        "injury_type": "Residual disability",
+        "body_part": "left foot - second metatarsal",
+        "laterality": "left",
+        "source": [
+          "X-ray of left foot showed oblique fracture of second metatarsal.",
+          "The clinical diagnosis was fracture left second metatarsal.",
+          "X-ray of his left foot revealed spiral fracture of the second metatarsal."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to left ankle (tibialis posterior tendon) with residual stiffness",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "there was mild residual stiffness of his left ankle observed at the follow up on 13th January 2000.",
+          "Examination revealed tenderness over the tibialis posterior tendon and residual stiffness of the MTP joint of the left second toe.",
+          "during the injury of the foot in the accident, it would be quite probable that the ankle was twisted as well, causing soft tissue injury not detected on x-ray examination."
+        ],
+        "icd_code": "ND17.Y",
+        "icd_description": "Injury of other specified muscle, fascia or tendon at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "There was some tenderness over dorsum of foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness and swelling over the dorsum of his left foot as well as bruising over the 2nd and 3rd toes. The range of movement of the 2nd and 3rd toes was markedly reduced.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual stiffness of his left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Examination revealed tenderness over the tibialis posterior tendon",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left ankle pain associated with playing soccer",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the Plaintiff cannot engage in prolonged walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the Plaintiff has to give up playing football, one of his hobbies",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty to climb 2 floors of stair",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "short leg plaster",
+      "follow-up outpatient treatment at Queen Elizabeth Hospital and Dr. Lau",
+      "medical consultations"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 35,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Fracture of left second metatarsal and residual ankle injury causing pain and stiffness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot engage in prolonged walking; difficulty to climb 2 floors of stair",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Has to give up playing football, one of his hobbies",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Less competitive in the job market; compensation for loss of earning capacity awarded",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12062,
+      "output_tokens": 5603,
+      "reasoning_tokens": 4160,
+      "total_tokens": 17665
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46918.01127791405,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12062,
+      "output_tokens": 5603,
+      "reasoning_tokens": 4160,
+      "total_tokens": 17665
+    },
+    "total_duration_ms": 46918.01127791405
+  }
+}

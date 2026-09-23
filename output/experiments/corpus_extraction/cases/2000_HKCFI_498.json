@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 498",
+    "action_number": "HCPI 231/1999",
+    "case_name": "CHEUNG CHUN WING v. SZETO SAU HA AND ANOTHER",
+    "judgment_date": "2000-11-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 34,
+    "age_at_trial": 38,
+    "occupation_before": "assistant charge-hand erector (construction worker)",
+    "occupation_after": "security guard / watchman (Ever Safety Security Services Co. Ltd)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 5520.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injury to his left sciatic nerve",
+        "injury_type": "Permanent injury",
+        "body_part": "left sciatic nerve",
+        "laterality": "left",
+        "source": [
+          "the injection unhappily caused injury to the plaintiff's left sciatic nerve",
+          "the plaintiff had sustained injury to his left sciatic nerve as a result of the injection to his left buttock."
+        ],
+        "icd_code": "NC74.0",
+        "icd_description": "Injury of sciatic nerve at hip or thigh level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in his left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in his left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the power of his hip and knee was grade 4 (5 being normal motor function)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sensation of light touch was subjectively diminished over the whole left lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "grade 4 plus weakness of left ankle eversion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "straight leg raising on the left side induced pain and pulling over the left thigh and buttock at 45 degrees",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "exercise tolerance was 20 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort, pain and numbness after walking or working for a period (sensory disturbance triggered by friction from activities such as walking, lifting and climbing)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "out-patient clinic follow-up",
+      "EMG and nerve conduction studies",
+      "physiotherapist and occupational therapist motor and sensory charts",
+      "prescribed painkillers and analgaesic balm",
+      "Chinese tonics comprising of deer's tail and other herbs",
+      "neurological examinations"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, weakness and numbness in the left leg with residual motor impairment affecting ability to do manual work",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "No longer fit for construction work of the nature he previously performed; unable to return to his former work as a charge-hand erector",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 480000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Wah Wai v Castco Testing Centre",
+        "neutral_citation": "[1996] 2 HKC 44",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Kin Wah v Hip Hing Construction Co. Ltd",
+        "neutral_citation": "[1997] HKLRD C47",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10617,
+      "output_tokens": 5128,
+      "reasoning_tokens": 3776,
+      "total_tokens": 15745
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38799.07386749983,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10617,
+      "output_tokens": 5128,
+      "reasoning_tokens": 3776,
+      "total_tokens": 15745
+    },
+    "total_duration_ms": 38799.07386749983
+  }
+}

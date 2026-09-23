@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 28",
+    "action_number": "DCCJ 2233/2007",
+    "case_name": "HONG KONG RED CROSS v. THE HONG KONG FEDERATION OF YOUTH GROUPS",
+    "judgment_date": "2010-02-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 35,
+    "occupation_before": "teacher at the Hong Kong Red Cross Hospital School",
+    "occupation_after": null,
+    "expected_occupation_after": "clerical assistant",
+    "salary_before": 22683.73,
+    "salary_after": null,
+    "expected_salary_after": 10000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back contussion",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back / lumbosacral region",
+        "laterality": null,
+        "source": [
+          "X-ray of the lumbascaral region did not show any fractures, his diagnosis was ‘back contussion’ and Miss Chan was given analgesic and sent home."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back sprain",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back / lumbosacral region",
+        "laterality": null,
+        "source": [
+          "These findings were consistent with back sprain."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Local tenderness over 4th and 5th lumber regions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "diminished spinal movements",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no motor-sensory deficits",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "only mildly positive straight leg raising tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent low back pain (recurrent, sometimes daily or once every two to three days)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "intolerant to prolonged walking, sitting or standing (maximum duration 10-15 minutes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "had to rely on the wheelchair for outdoor activities during periods of exacerbation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "presence of muscle guarding and mild spasm over the lumbar region and tenderness over both iliac crests and midline of the lumbar spine particularly over the lumbosacral junction",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to return to her pre-accident occupation as a teacher of sick children at the hospital",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic (A&E)",
+      "physiotherapy",
+      "manual therapy",
+      "ultrasonic treatments",
+      "back fitness and physical rehabilitation program"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Whole person impairment of 5% and persistent low back pain; judge accepted Dr Lam's assessment of 5% whole person impairment and suggested PSLA in the region of $300,000 to $350,000.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Intolerance to prolonged walking, sitting or standing (maximum 10-15 minutes) and reliance on wheelchair for outdoor activities during exacerbations.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident job as a teacher of sick children at the hospital; loss of earning capacity assessed in the region of 6%; pre-trial loss of earnings for 27.75 months at pre-accident salary $22,683.73 totalling $629,462 and further notional difference to trial of $640,500 (3 Nov 2004 to 3 Dec 2009).",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15929,
+      "output_tokens": 5903,
+      "reasoning_tokens": 4480,
+      "total_tokens": 21832
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35393.821593374014,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15929,
+      "output_tokens": 5903,
+      "reasoning_tokens": 4480,
+      "total_tokens": 21832
+    },
+    "total_duration_ms": 35393.821593374014
+  }
+}

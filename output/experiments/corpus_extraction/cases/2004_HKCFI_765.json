@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 765",
+    "action_number": "HCPI 244/2003",
+    "case_name": "YAN CHUI SIM v. PAUL Y. ITC GENERAL CONTRACTORS LTD AND OTHERS",
+    "judgment_date": "2004-09-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 50,
+    "age_at_trial": null,
+    "occupation_before": "construction worker",
+    "occupation_after": null,
+    "expected_occupation_after": "light sedentary work such as a cashier or car park attendant",
+    "salary_before": 9425.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "primary education in China"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a left hip dislocation",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "a left hip dislocation"
+        ],
+        "icd_code": "NC73.0Z",
+        "icd_description": "Dislocation of hip, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left abdominal thigh burn wounds",
+        "injury_type": "Residual disability",
+        "body_part": "left abdomen and left thigh",
+        "laterality": "left",
+        "source": [
+          "left abdominal thigh burn wounds."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "multiple hypotropic scars",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "multiple hypotropic scars"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a left frozen shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "a left frozen shoulder."
+        ],
+        "icd_code": "NC16",
+        "icd_description": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "post traumatic stress disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "post traumatic stress disorder as a result of the accident"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness and pain of the left hip joint with two to three episodes of pain each day lasting from several minutes to half an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the scars are painful and itchy; it gives a burning sensation and is more severe during hot weather when sweating causes irritation to the scars",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "shortness of breath",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizziness and headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "numbness of the left hand which started about half a year after the injury",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left shoulder pain since the injury, occurring some two to three times per month with each episode lasting a few days",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction of the left hip dislocation on 3 July 2000",
+      "debridement for burn wounds over the left abdomen and left thigh on 6 July 2000, 10 July 2000 and 11 August 2000",
+      "skin grafting to cover the wounds on 10 July 2000",
+      "psychiatric assessment and recommended follow-up care",
+      "in-hospital care and dressings"
+    ],
+    "treatments_future": [
+      "physiotherapy for left shoulder stiffness (claimed)",
+      "psychiatric treatment monthly for one year (recommended)",
+      "occupational therapy (claimed)",
+      "monitoring and possible future treatment for avascular necrosis/osteoarthritis"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Stiffness and pain of the left hip joint affecting mobility",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Painful, itchy and burning scars causing irritation, worse in hot weather",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Post traumatic stress disorder and associated need for psychiatric treatment",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Plaintiff no longer able to carry out housework; sons had to take over household duties",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Dependents (husband and sons) deprived of plaintiff's gratuitous services; husband sent to a home for the elderly",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 540000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18344,
+      "output_tokens": 6726,
+      "reasoning_tokens": 5440,
+      "total_tokens": 25070
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37506.157357245684,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18344,
+      "output_tokens": 6726,
+      "reasoning_tokens": 5440,
+      "total_tokens": 25070
+    },
+    "total_duration_ms": 37506.157357245684
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "HKCFI 145; HCPI 116/2005 (14 February 2006)",
+    "action_number": "HCPI 116/2005",
+    "case_name": "CHAN HONG NING v. WAI LEE SCAFFOLDING ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2006-02-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 35,
+    "occupation_before": "scaffolder specialising in the dismantling of scaffolds",
+    "occupation_after": "joiner and carpenter installing false ceilings",
+    "expected_occupation_after": null,
+    "salary_before": 10500.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a transverse full thickness corneal laceration at the centre of the right cornea",
+        "injury_type": "Permanent injury",
+        "body_part": "right cornea / right eye",
+        "laterality": "right",
+        "source": [
+          "the medical evidence is that the injury consisted of a small skin abrasion above the right eye-brow and a transverse full thickness corneal laceration at the centre of the right cornea."
+        ],
+        "icd_code": "NA06.8D",
+        "icd_description": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "traumatic cataract requiring surgical removal and replacement with an intra-ocular lens",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "He has also had to undergo an operation for the surgical removal of a traumatic cataract and its replacement with an intra-ocular lens."
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "small skin abrasion above the right eye-brow",
+        "injury_type": "Temporary injury",
+        "body_part": "right eyebrow / right upper face",
+        "laterality": "right",
+        "source": [
+          "the medical evidence is that the injury consisted of a small skin abrasion above the right eye-brow and a transverse full thickness corneal laceration at the centre of the right cornea."
+        ],
+        "icd_code": "NA00.6",
+        "icd_description": "Abrasion of other or unspecified sites of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "blurred vision from the right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of three-dimensional vision",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impaired depth perception",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to drive",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to return to previous occupation as a scaffolder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical removal of a traumatic cataract and replacement with an intra-ocular lens",
+      "medical treatment for corneal laceration",
+      "medicals agreed at $3,620.00",
+      "travel expenses agreed at $960.00",
+      "tonic food allowed $6,000.00"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 4,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent damage to the right eye including corneal laceration and traumatic cataract resulting in the right eye being for all intents and purposes useless",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Will not be able to return to his previous occupation as a scaffolder specialising in dismantling scaffolds",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Will not be able to drive as a result of loss of effective sight in the right eye",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Loss of effective sight from one eye will cause a considerable loss of confidence and time of reflection and adjustment",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 330000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Hang Huu Duc v Hambo Engineering Limited",
+        "neutral_citation": "HCPI 172/04",
+        "action_number": null,
+        "injury_description": "loss of vision in one eye (total loss)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 550000.0
+      },
+      {
+        "case_name": "Ho Yam Pan v Tse Tak Ming",
+        "neutral_citation": "HCPI 91/96",
+        "action_number": null,
+        "injury_description": "loss of vision in one eye (total loss)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 450000.0
+      },
+      {
+        "case_name": "Kwan Shuk Sang v Chan Kam Wah",
+        "neutral_citation": "(2003) 2 HKLRD 967",
+        "action_number": null,
+        "injury_description": "very severe injury to one eye resulting in loss of visual acuity to 20:40",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 280000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16131,
+      "output_tokens": 7527,
+      "reasoning_tokens": 5760,
+      "total_tokens": 23658
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42156.955771148205,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16131,
+      "output_tokens": 7527,
+      "reasoning_tokens": 5760,
+      "total_tokens": 23658
+    },
+    "total_duration_ms": 42156.955771148205
+  }
+}

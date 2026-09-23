@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 134",
+    "action_number": "DCPI 1127/2006",
+    "case_name": "LAI HO CHUEN (A MINOR) v. HUNG LING YUNG",
+    "judgment_date": "2008-04-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 9,
+    "age_at_trial": 13,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 2 student"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "4-cm wound to his right lower leg with bone exposure",
+        "injury_type": "Temporary injury",
+        "body_part": "right lower leg",
+        "laterality": "right",
+        "source": [
+          "Lai sustained a 4-cm wound to his right lower leg with bone exposure."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The distal shaft of the leg was fractured and displaced",
+        "injury_type": "Temporary injury",
+        "body_part": "distal shaft of the leg",
+        "laterality": "right",
+        "source": [
+          "The distal shaft of the leg was fractured and displaced."
+        ],
+        "icd_code": "NC92.2",
+        "icd_description": "Fracture of shaft of tibia"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Scars at the skin graft donor site of the inner thigh, near the knee and the lower leg",
+        "injury_type": "Permanent injury",
+        "body_part": "inner thigh; near the knee and the lower leg",
+        "laterality": null,
+        "source": [
+          "There are scars at the skin graft donor site of the inner thigh, near the knee and the lower leg."
+        ],
+        "icd_code": "NC70.Y",
+        "icd_description": "Other specified superficial injury of hip or thigh"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Insignificant length discrepancy (0.5-1cm) between his legs",
+        "injury_type": "Residual disability",
+        "body_part": "legs (length discrepancy)",
+        "laterality": null,
+        "source": [
+          "There was no residual symptom apart from the insignificant length discrepancy (0.5-1cm) between his legs."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain upon the accident and from the subsequent operations",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Post-traumatic syndrome (PTS) diagnosed by Dr Li (reduced by 2007)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "discovered low self-esteem in Lai",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Lai was then observed to be disruptive at school",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Lai no longer complained about the scars, apart from feeling embarrassed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "debridement",
+      "open reduction and external fixation",
+      "internal fixation",
+      "further wound debridement",
+      "skin grafting",
+      "pressure garment (short pant) worn to control the scar on the skin donor site of the inner thigh until the end of 2004",
+      "removal of metal implants (April 2004)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 30,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Embarrassment and noticeable but pale scars at donor site and leg",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Minor psychological impact including prior post-traumatic syndrome, low self-esteem and need for psychological therapy/family counselling",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Yiu Ping v Mok Yuk Kwong & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 92/1998",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17304,
+      "output_tokens": 7225,
+      "reasoning_tokens": 6080,
+      "total_tokens": 24529
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35977.033231407404,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17304,
+      "output_tokens": 7225,
+      "reasoning_tokens": 6080,
+      "total_tokens": 24529
+    },
+    "total_duration_ms": 35977.033231407404
+  }
+}

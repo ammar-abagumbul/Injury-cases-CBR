@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 193",
+    "action_number": "HCA010098/1982",
+    "case_name": "NG SHUI ON v. WONG TSUING MING AND ANOTHER",
+    "judgment_date": "1985-05-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 29,
+    "occupation_before": "operator of a plastic injection moulding machine",
+    "occupation_after": "Toilet Cleaner",
+    "expected_occupation_after": null,
+    "salary_before": 1516.0,
+    "salary_after": 1100.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Amputation of left hand and part of left forearm (amputation about 6½inches below the elbow).",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand and part of left forearm",
+        "laterality": "left",
+        "source": [
+          "the platen suddenly and without warning closed on and crushed his left hand. The injury eventually resulted in the amputation of the Plaintiff's hand and part of his forearm.",
+          "an amputation about 6½inches below the elbow.",
+          "he said that there were four operations altogether. First the thumb and one finger were amputated. Next another finger plus part of another one were removed. In the third operation, part of the hand went. Finally there was a decision to amputate at the wrist but that was not considered enough so the final amputation was done."
+        ],
+        "icd_code": "NC38.4",
+        "icd_description": "Traumatic amputation at level between left elbow and wrist"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain (required injections and sleeping pills).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The Plaintiff suffers some phantom limb symptoms which acts as an irritant rather than a serious side effect.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to play ballgames such as bowling, table tennis and basketball which he played before the accident.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"an amputation of the arm with a functional below the elbow is a 90% impairment of the arm and a 54% impairment of the whole man \"where the preferred arm is affected. In the case of an unpreferred arm, the impairment of the whole man is 50%. I have adopted the figure of 54%.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation",
+      "Four operations culminating in amputation on 1981-02-10",
+      "Fitted with two prostheses (an artificial arm and a hook device)",
+      "Injections for pain",
+      "Sleeping pills",
+      "Hospitalised for a total of three and a half months"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of the left hand and part of the forearm resulting in substantial permanent impairment (judge adopted figure of 54% impairment of the whole man).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Before the accident, the Plaintiff played ballgames, such as bowling, table tennis and basketball but can do so no longer.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Difficulty in finding and staying in work after the injury; reduced earnings and subsequent employment as a Toilet Cleaner at lower pay.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 145000.0,
+    "comparable_cases": [
+      {
+        "case_name": "WONG Pui-kwan v. Artking Industries Ltd.",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 11212 of 1985",
+        "injury_description": "Crushed right hand (preferred hand). After three operations he had very little left of his hand, losing the thumb and all fingers save for \"substantial remnants\" of thumb and fifth finger.",
+        "hospitalisation_days": null,
+        "operations_count": 3,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 125000.0
+      },
+      {
+        "case_name": "TANG Pui-wah v. YIU Yat-fan",
+        "neutral_citation": null,
+        "action_number": "High Court Action 4500 of 1984",
+        "injury_description": "Severe crushing injuries of the right hand and forearm left the right hand with only two bones, the fourth and fifth metacarpals, with only the ring and fifth finger remaining, condition almost equivalent to an amputation at mid-hand, a 54% impairment of the whole man.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 132000.0
+      },
+      {
+        "case_name": "LAM Yuen v. WAI Kit",
+        "neutral_citation": null,
+        "action_number": "High Court Action No. 7602 of 1982",
+        "injury_description": "Amputation of the right preferred hand and part of the forearm to within four inches of the elbow.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 135000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9861,
+      "output_tokens": 4960,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14821
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42732.88208246231,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9861,
+      "output_tokens": 4960,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14821
+    },
+    "total_duration_ms": 42732.88208246231
+  }
+}

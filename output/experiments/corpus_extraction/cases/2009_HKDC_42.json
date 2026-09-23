@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 42",
+    "action_number": "DCPI 1707/2005",
+    "case_name": "FU CHEUNG CHUN TOM v. MTR CORPORATION LTD",
+    "judgment_date": "2009-03-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 8,
+    "age_at_trial": 11,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "8-year-old Primary 2 pupil"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Post-traumatic stress disorder (PTSD)",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr Chen diagnosed Tom to be suffering from PTSD caused by a life-threatening situation in the accident.",
+          "Dr Lai, Dr Chung and Dr Chen shared the same diagnosis of PTSD."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "recurrent distressing nightmares of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "recurrent and intrusive distressing recollections of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent avoidance of MTR-related activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "social functioning has also been markedly impaired by his bad temper, irritability and social withdrawal",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "academic deterioration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor appetite",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to concentrate in class because of the recollection",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "fear of being trapped by train doors",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would deliberately avoid catching sight of MTR by taking a detour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would avoid playing with his classmates for fear that they might play train game",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to Ruttonjee Hospital (evening of 29 May 2005)",
+      "ambulance transport to hospital",
+      "X-rays of the cervical and T-L spine",
+      "MRI scan (result normal)",
+      "psychiatric consultations (Dr Lai, Dr Chen, Dr Lo, Dr Chung)",
+      "medication (mild tranquilizers)"
+    ],
+    "treatments_future": [
+      "psychiatric treatment",
+      "psychological and behavioural treatment (exposure)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "Tom's social functioning has also been markedly impaired by his bad temper, irritability and social withdrawal",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "academic deterioration; unable to concentrate in class because of recollection",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "persistent avoidance of MTR-related activities; would deliberately avoid catching sight of MTR by taking a detour",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lily Tse Lai Yin v The Incorporated Owners of Albert House",
+        "neutral_citation": null,
+        "action_number": "HCPI 828/1997",
+        "injury_description": "various infant plaintiffs",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Ka Ho v Yeung Kwok Leung",
+        "neutral_citation": null,
+        "action_number": "DCPI 28/2004",
+        "injury_description": "the plaintiff sustained head injury and lost consciousness upon being knocked down by a van; mild residual symptoms of PTSD",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Limbu Saram Kumar v Cheng Man Chung",
+        "neutral_citation": null,
+        "action_number": "HCPI 382/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16602,
+      "output_tokens": 5386,
+      "reasoning_tokens": 4288,
+      "total_tokens": 21988
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45784.44432094693,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16602,
+      "output_tokens": 5386,
+      "reasoning_tokens": 4288,
+      "total_tokens": 21988
+    },
+    "total_duration_ms": 45784.44432094693
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 178",
+    "action_number": "DCPI 764/2009",
+    "case_name": "CHAN CHUNG KUEN v. MTR CORPORATION LTD",
+    "judgment_date": "2010-07-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 59,
+    "occupation_before": "Cross-border trading in goods",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of distal third of his left tibia",
+        "injury_type": "Permanent injury",
+        "body_part": "left tibia / left leg",
+        "laterality": "left",
+        "source": [
+          "X-ray showed fracture of distal third of his left tibia and left fibula neck (leg).",
+          "They agreed on the diagnosis of left tibia shaft spiral fracture and left proximal fibular fracture."
+        ],
+        "icd_code": "NC92.2",
+        "icd_description": "Fracture of shaft of tibia"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left fibula fracture (proximal / neck)",
+        "injury_type": "Permanent injury",
+        "body_part": "left fibula / left leg",
+        "laterality": "left",
+        "source": [
+          "X-ray showed fracture of distal third of his left tibia and left fibula neck (leg).",
+          "They agreed on the diagnosis of left tibia shaft spiral fracture and left proximal fibular fracture."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent pain in the left lower leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "continuous numbness in the left lower leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness in the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild wasting of muscles of the left thigh and mild to moderate wasting of the left calf muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping; could walk unaided with some limping",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needed support to stand for half an hour (reduced standing tolerance)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in dexterity of the left lower leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "temporary loss of consciousness for about 10 seconds (pleaded by plaintiff)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "left long leg plaster cast slab for temporary immobilisation",
+      "close reduction and internal fixation of the left tibia (performed 5 days after injury)",
+      "transfer to Tai Po Hospital for rehabilitation and physiotherapy",
+      "regular follow up appointments"
+    ],
+    "treatments_future": [
+      "removal of the metal implants (advised by Dr Ko as advisable)"
+    ],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 147,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of left leg with residual pain, numbness, muscle wasting and decreased dexterity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced walking and standing tolerance; limping",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced efficiency in handling pre-accident work and loss of earning capacity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Chi Ming v Li Chau Wan & Anr",
+        "neutral_citation": "[2005] HKLRD H6",
+        "action_number": null,
+        "injury_description": "apparently more serious injuries and permanent impairment than those of Chan in the present case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Imitiaz Perviz v Senibo Development Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 437/2005 (21/8/2007)",
+        "injury_description": "apparently more serious injuries and permanent impairment than those of Chan in the present case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14469,
+      "output_tokens": 4942,
+      "reasoning_tokens": 3776,
+      "total_tokens": 19411
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30375.196993350983,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14469,
+      "output_tokens": 4942,
+      "reasoning_tokens": 3776,
+      "total_tokens": 19411
+    },
+    "total_duration_ms": 30375.196993350983
+  }
+}

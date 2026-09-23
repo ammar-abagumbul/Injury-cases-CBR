@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 48",
+    "action_number": "DCPI 1424/2009",
+    "case_name": "LO YIN FONG v. MAXIM'S CATERERS LTD",
+    "judgment_date": "2011-03-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "account manager",
+    "occupation_after": "account manager",
+    "expected_occupation_after": null,
+    "salary_before": 25800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to right hip",
+        "injury_type": "Temporary injury",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "she was diagnosed to have soft tissue injury to both knees, right hip and tendon injury over both shoulders."
+        ],
+        "icd_code": "NC76.00",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of hip"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "tendon injury over both shoulders / shoulder injuries",
+        "injury_type": "Temporary injury",
+        "body_part": "shoulders",
+        "laterality": "bilateral",
+        "source": [
+          "she was diagnosed to have soft tissue injury to both knees, right hip and tendon injury over both shoulders."
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to both knees",
+        "injury_type": "Temporary injury",
+        "body_part": "knees",
+        "laterality": "bilateral",
+        "source": [
+          "she was diagnosed to have soft tissue injury to both knees, right hip and tendon injury over both shoulders."
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "depressive symptoms and depressive disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "she had been referred to attend psychiatry consultant and was diagnosed to have depressive symptoms and depressive disorder.",
+          "The doctors note that the Plaintiff is quite depressed. She is under psychiatric treatment since 2005 for another incident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over her knees",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain over her right hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain over both shoulders",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "bilateral knee pain especially after walking for 25 minutes or on climbing stairs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual pain over her knees and her left shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "depressive symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medication",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 62,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Yuet Keung v. Harmony (International) Knitting Factory Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 144 of 2009",
+        "injury_description": "stiffness of low back; disc extrusion at L5/S1 level resulting in persistent pain in the low back area",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Ahmed Masood v. Chung Kau Engineering Co Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 517 of 2003",
+        "injury_description": "plaintiff could not return to his pre-accident job and can only do light duty due to the permanent residual symptom of back pain and discomfort",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v. The Kowloon Motor Bus Co (1993) Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 775/2001",
+        "injury_description": "bus driver sustained back injury with nine months' sick leave; plaintiff also suffered from depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15098,
+      "output_tokens": 7300,
+      "reasoning_tokens": 5696,
+      "total_tokens": 22398
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48251.850590109825,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15098,
+      "output_tokens": 7300,
+      "reasoning_tokens": 5696,
+      "total_tokens": 22398
+    },
+    "total_duration_ms": 48251.850590109825
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 157",
+    "action_number": "HCPI 398/2008",
+    "case_name": "RAI RANA MAGAR PABITRA AND ANOTHER v. PACIFIC CONSTRUCTION (HK) CO LTD AND OTHERS",
+    "judgment_date": "2011-03-07",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": null,
+    "occupation_before": "Skilled labourer (construction site worker)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fatal injuries (severe injuries to front and back upper body)",
+        "injury_type": "Permanent injury",
+        "body_part": "front upper body and back upper body",
+        "laterality": null,
+        "source": [
+          "He appeared to be badly injured and was in great pain. The operator noticed injuries to his front upper body and back upper body.",
+          "He was operated on six times but, sadly, could not be saved and died from his injuries 25 days after the accident."
+        ],
+        "icd_code": "NB35",
+        "icd_description": "Multiple injuries of thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Badly injured and in great pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Groaning and saying \"I'm dying I'm dying.\"",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Varying levels of consciousness over the next 25 days",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Crushed while extracting himself and falling to his right onto the ground",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Hospitalisation",
+      "Surgery (operated on six times)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 25,
+    "expected_hospitalisation_days": null,
+    "operations_count": 6,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity between the accident and death; unconscious/semi-conscious periods and taken to operating theatre six times. Award $150,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement award agreed at $150,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of dependency (head (iii) as assessed by the court) - $1,404,000 (pre-trial component 603,000 noted separately in reasoning).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Loss of accumulation of wealth awarded $100,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Loss of services agreed at $30,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Special damages agreed at $37,505.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 25
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10834,
+      "output_tokens": 4242,
+      "reasoning_tokens": 3136,
+      "total_tokens": 15076
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34043.7108874321,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10834,
+      "output_tokens": 4242,
+      "reasoning_tokens": 3136,
+      "total_tokens": 15076
+    },
+    "total_duration_ms": 34043.7108874321
+  }
+}

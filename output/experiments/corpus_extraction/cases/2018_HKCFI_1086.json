@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1086",
+    "action_number": "HCPI 214/2016",
+    "case_name": "RAI JUN PRASAD v. PACIFIC CROWN SECURITY SERVICES LTD AND ANOTHER",
+    "judgment_date": "2018-05-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 40,
+    "age_at_trial": 45,
+    "occupation_before": "construction site rigger",
+    "occupation_after": "working for a restaurant in a marketing capacity",
+    "expected_occupation_after": null,
+    "salary_before": 24123.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "supraspinatus tendinosis with adhesive capsulitis secondary to previous right shoulder injury",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "“ The clinical diagnosis was supraspinatus tendinosis with adhesive\ncapsulitis secondary to previous right shoulder injury."
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury of the left knee",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "Both doctors agreed that Mr Prasad suffered soft tissue injuries to his right shoulder, left knee, left buttock and lower back as a result of the fall on 19 August 2013."
+        ],
+        "icd_code": "NC96.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at lower leg level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury of the left buttock",
+        "injury_type": "Permanent injury",
+        "body_part": "left buttock",
+        "laterality": "left",
+        "source": [
+          "Both doctors agreed that Mr Prasad suffered soft tissue injuries to his right shoulder, left knee, left buttock and lower back as a result of the fall on 19 August 2013."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "disc bulge at L3/4 level of the lumbar spine and an encysted ganglion abutting the ACL and PCL",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "an MRI revealed a sub acromial and sub deltoid bursitis over the right shoulder, a disc bulge at L3/4 level of the lumbar spine and an encysted ganglion abutting the ACL and PCL."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right shoulder stiffness and pain; limited movement of his right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain on prolonged walking and standing and lifting heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain over left knee and left buttock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Outpatient physiotherapy at Queen Elizabeth Hospital (from 17 September 2013 until January 2014)",
+      "Second course of physiotherapy (began March 2014; discharged June 2014)",
+      "Shoulder surgery (7 November 2017)"
+    ],
+    "treatments_future": [
+      "physiotherapy for further rehabilitation (recommended post-surgery)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Right shoulder stiffness, pain and limited movement of his right shoulder",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Pain on prolonged walking and standing and difficulty lifting heavy objects",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his former occupation as a construction site rigger",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14021,
+      "output_tokens": 8069,
+      "reasoning_tokens": 6656,
+      "total_tokens": 22090
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54287.48582303524,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14021,
+      "output_tokens": 8069,
+      "reasoning_tokens": 6656,
+      "total_tokens": 22090
+    },
+    "total_duration_ms": 54287.48582303524
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 396",
+    "action_number": "HCPI 787/2000",
+    "case_name": "HO WING SAI v. WONG MUK HUNG T/A LAKE FAT TRANSPORT CO",
+    "judgment_date": "2005-05-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "driver/delivery worker",
+    "occupation_after": "dump truck driver",
+    "expected_occupation_after": null,
+    "salary_before": 14000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left lateral L4/5 disc protrusion impinging on the left L4 exiting nerve root (disc protrusion causing L4 radiculopathy)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back (L4/5)",
+        "laterality": "left",
+        "source": [
+          "\"the injury suffered by the plaintiff was \\u2018disc protrusion\\u2019. It was the protruded disc that impinges on the L4 root on the left side and results in sign and symptom of L4 radiculopathy.\"",
+          "\"left lateral L4/5 disc protrusion into the lateral aspect of the left L4/5 neuroforamen. The left L4 exiting nerve root may be impinged.\""
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the left calf area",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent back pain radiating down to the left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease left knee jerk",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sign and symptom of L4 radiculopathy",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain occasionally severe and disturbing sleep",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (17 sessions)",
+      "analgesics (pain-killers)",
+      "orthopaedic consultation",
+      "MRI scan"
+    ],
+    "treatments_future": [
+      "spinal operation recommended (patient refused)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 10,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA awarded for pain, suffering and loss of amenities (court accepted claim of $300,000 under this head).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earnings pre-trial $566,064.50 (difference in income as driver/delivery worker and subsequent lower/unsteady income).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of earnings $1,286,400.00.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of future earning capacity $200,000.00.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Kwok Man v. KMB (1933) Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 755/2001",
+        "injury_description": "minor contusion of the back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13751,
+      "output_tokens": 5185,
+      "reasoning_tokens": 3968,
+      "total_tokens": 18936
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37233.05007815361,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13751,
+      "output_tokens": 5185,
+      "reasoning_tokens": 3968,
+      "total_tokens": 18936
+    },
+    "total_duration_ms": 37233.05007815361
+  }
+}

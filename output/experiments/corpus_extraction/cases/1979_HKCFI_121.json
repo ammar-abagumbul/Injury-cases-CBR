@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 121",
+    "action_number": "HCA002059/1979",
+    "case_name": "LI SAI HUNG v. TSUI KWONG WAI",
+    "judgment_date": "1979-11-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "Employed in the Post Office",
+    "occupation_after": "Returned to the same work (Post Office); restricted to sedentary employment for life",
+    "expected_occupation_after": "Restricted to sedentary employment for life",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Laceration of the forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "Laceration of the forehead."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A fracture of the right forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "A fracture of the right forearm"
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture of the left hip",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "Fracture of the left hip"
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Fracture of the pelvis",
+        "injury_type": "Temporary injury",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "Fracture of the pelvis"
+        ],
+        "icd_code": "NB52.Z",
+        "icd_description": "Fracture of lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Permanent disability of the left leg",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "He has however a permanent disability of the left leg."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and stiffness in the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "There is some residual weakness in the right wrist which should disappear",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "a scar, which is not very noticeable, on the forehead",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left leg shorter than the right, healed in a slightly twisted position resulting in the left foot being turned inwards",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Walks with a distinct limp; cannot run; ascends and descends stairs with difficulty",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "All vigorous athletic pursuits are now out of the question; swimming limited to recreational bathing only",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Driving not advisable at present because of pain from the hip region and neck when turning to see when reversing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Restricted to sedentary employment for life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Absent from work for six months altogether",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Wore an orthopaedic collar initially all day and still wears for a short time each day",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Mary Hospital on 13th November, 1977",
+      "The fracture of the hip was treated by operative reduction and fixed with nail, boneplate and serews.",
+      "The fractures of the forearm and pelvis were treated conservatively",
+      "The forehead stitched",
+      "Readmitted April 1978 for further X-Rays including a Myelogram",
+      "Out-patient follow-up treatment",
+      "Given an orthopaedic collar"
+    ],
+    "treatments_future": [
+      "Removal of the nail and boneplate in his hip in the near future"
+    ],
+    "hospitalisation_days": 66,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 180,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent disability of the left leg: shorter than the right, healed in a slightly twisted position resulting in the left foot being turned inwards.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Walks with a distinct limp, cannot run, ascends and descends stairs with difficulty.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "All vigorous athletic pursuits are now out of the question; swimming limited to recreational bathing only; participation in outdoor activities severely limited.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "A scar on the forehead which is not very noticeable.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Restricted to sedentary employment for life; may be unable to change to other careers in future.",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 45000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12097,
+      "output_tokens": 8080,
+      "reasoning_tokens": 6144,
+      "total_tokens": 20177
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53309.78437513113,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12097,
+      "output_tokens": 8080,
+      "reasoning_tokens": 6144,
+      "total_tokens": 20177
+    },
+    "total_duration_ms": 53309.78437513113
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1446",
+    "action_number": "HCPI 1377/2016",
+    "case_name": "SHER RAHMAN v. TONG KEE ENGINEERING LTD",
+    "judgment_date": "2018-07-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 18693.0,
+    "salary_after": 11544.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Subsequent attendance at the hospital on the same day confirmed that he suffered from sprained lower back.",
+          "The diagnosis was back sprain."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative changes of the lumbar spine (pre-existing)",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "X-ray of the lumbar spine showed degenerative changes, which are pre-existing."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lumbar muscle spasm and tenderness over the lower lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain in the lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain radiating to the lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Waddell's signs and exaggerated pain on light touch",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked with a stick and some limping",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "trunk movements were limited in all directions with complaint of pain at the end range",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cogwheel muscle weakness of the left big toe and left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased sensation of the whole left lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "injection of analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "medication",
+      "MRI"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Could not realistically be expected to be gainfully employed to work as a general labourer in construction sites anymore because of his impaired ability to handle weight.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14447,
+      "output_tokens": 4113,
+      "reasoning_tokens": 3008,
+      "total_tokens": 18560
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32267.53406599164,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14447,
+      "output_tokens": 4113,
+      "reasoning_tokens": 3008,
+      "total_tokens": 18560
+    },
+    "total_duration_ms": 32267.53406599164
+  }
+}

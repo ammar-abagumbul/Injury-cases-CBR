@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKDC 147",
+    "action_number": "DCPI 183/2002",
+    "case_name": "YIP CHUN NAM v. CHAN KANG AND ANOTHER",
+    "judgment_date": "2003-03-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "chief executive officer of his family owned company",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "well educated"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "chest wall contusion / blunt chest injury; mild swelling and mild bruise in the chest region; lower sternum and chest wall contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "chest / lower sternum / chest wall",
+        "laterality": null,
+        "source": [
+          "slight injury on his chest region.",
+          "blunt chest injury",
+          "chest wall contusion",
+          "mild swelling and mild bruise in the chest region",
+          "mild bruising and swelling over lower sternum and chest wall contusion"
+        ],
+        "icd_code": "NA80.6",
+        "icd_description": "Contusion of thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "chest pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over chest wall",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild swelling and mild bruise in the chest region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness and wanted to vomit (in ambulance)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain during neck movement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "got frightened and scared whenever he saw the 1st Defendant",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "transport by ambulance",
+      "admitted to United Christian Hospital for observation",
+      "analgesics",
+      "consultations with Dr. Ernest Kwong (general practitioner)",
+      "psychiatric consultation with Dr. K Singer",
+      "consultation with Chinese herbalist in She Kou Shenzhen",
+      "medical certificates / sick leave"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 12,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain and suffering and loss of amenities for \"mild bruising and swelling over lower sternum and chest wall contusion\"",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 17500.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chung Man Yan and another v Sihon Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCA No. PI 117 of 1995",
+        "injury_description": "one swelling and a number of minor abrasion and had the experience of being under a collapsing balcony which had been terrifying",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 12500.0
+      },
+      {
+        "case_name": "Hong Kong Macao Hydrofoil Co. Ltd. v Ng Chau Wai and Yeung Ying and others",
+        "neutral_citation": null,
+        "action_number": "1984 AJ Folio 209",
+        "injury_description": "bruising, fractured nose and post concussional syndrome",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 15000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10821,
+      "output_tokens": 3669,
+      "reasoning_tokens": 2432,
+      "total_tokens": 14490
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27168.704513460398,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10821,
+      "output_tokens": 3669,
+      "reasoning_tokens": 2432,
+      "total_tokens": 14490
+    },
+    "total_duration_ms": 27168.704513460398
+  }
+}

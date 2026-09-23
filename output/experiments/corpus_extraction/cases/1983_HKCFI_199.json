@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 199",
+    "action_number": "HCA 7545/1981",
+    "case_name": "SUAN YUK KIN SUING AND ANOTHER v. OANG PUI MING AND ANOTHER",
+    "judgment_date": "1983-11-29",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 38,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "1 cm over upper lip",
+        "injury_type": "Temporary injury",
+        "body_part": "upper lip",
+        "laterality": null,
+        "source": [
+          "three lacerations:-\n\n(a) 1 cm over upper lip  "
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "1½ cm over left angle of mouth",
+        "injury_type": "Temporary injury",
+        "body_part": "left angle of mouth",
+        "laterality": "left",
+        "source": [
+          "three lacerations:-\n\n(b) 1½ cm over left angle of mouth  "
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "2 cm over left thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "three lacerations:-\n\n(c) 2 cm over left thigh"
+        ],
+        "icd_code": "NC71.0",
+        "icd_description": "Laceration without foreign body of hip or thigh"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "compression fracture over LI",
+        "injury_type": "Temporary injury",
+        "body_part": "L1 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "\"Patient was admitted on 17;8.79 with compression fracture over LI after a traffic accident."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "discomfort of sutures",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "one day in hospital (discharged the following day)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "one day in hospital (discharged the following day)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "one day in hospital (discharged the following day)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "tenderness over LI region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "some residual low back pain occurring from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "patient was in hospital for a week",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "wounds cleaned and sutured",
+      "discharged from hospital the following day (child)",
+      "admitted on 17.8.79 and discharged on 23.8.79 (compression fracture, Mme Suan)",
+      "application of medicated oil (self-treatment by Mme Suan)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of expectation of life",
+        "description": "Loss of expectation of life",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11799,
+      "output_tokens": 5724,
+      "reasoning_tokens": 4288,
+      "total_tokens": 17523
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41314.542815089226,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11799,
+      "output_tokens": 5724,
+      "reasoning_tokens": 4288,
+      "total_tokens": 17523
+    },
+    "total_duration_ms": 41314.542815089226
+  }
+}

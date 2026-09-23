@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 214",
+    "action_number": "HCPI 1270/2003",
+    "case_name": "CHUNG KAM CHUEN v. LISBOA BAKERIES LTD",
+    "judgment_date": "2005-03-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": 38,
+    "occupation_before": "Senior cook in the kitchens of the Macau Restaurant",
+    "occupation_after": "Part-time / weekend chef at the Sai Kung annex of the Hong Kong Yacht Club",
+    "expected_occupation_after": null,
+    "salary_before": 14166.67,
+    "salary_after": 3500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain injury (back sprain)",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back / lumbar region",
+        "laterality": null,
+        "source": [
+          "This can properly be described as a sprain injury.",
+          "The accident occurred at about 8 am on 25 November 2000. The soup was ready for pouring into the smaller serving containers which had been placed on the floor. The Plaintiff lifted the big pot clear of the cooking range and when he turned about 90° he says he sprained his back in the process which became very painful."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing disc-prolapse due to pre-accident degeneration",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar region",
+        "laterality": null,
+        "source": [
+          "The other feature is that the Plaintiff suffered from a pre-existing disc-prolapse due to pre-accident degeneration.",
+          "“Low back pain for 13 years. Lifting injury, admitted to UCH for 3 days … worse last 3-4 years.”"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "very painful back after the sprain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on and off back pain / long history of back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "local tenderness over the lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "full range of motion of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no associated neurological deficit of lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced capacity to lift heavy objects / previous job as a full-time western cook who needs to lift heavy objects frequently is too strenuous",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended Queen Elizabeth Hospital"
+    ],
+    "treatments_future": [
+      "future medical treatment (agreed $4,320.00)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity (sprain injury) - quantum awarded $150,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Past loss during sick leave - net entitlement $62,718.46 (sick leave certificated from 25 November 2000 to 16 April 2002, period of 16.7 months)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of earnings and MPF benefits awarded as a global amount $550,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12740,
+      "output_tokens": 5231,
+      "reasoning_tokens": 3968,
+      "total_tokens": 17971
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41967.04852581024,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12740,
+      "output_tokens": 5231,
+      "reasoning_tokens": 3968,
+      "total_tokens": 17971
+    },
+    "total_duration_ms": 41967.04852581024
+  }
+}

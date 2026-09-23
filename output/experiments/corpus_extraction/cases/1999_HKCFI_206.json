@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 206",
+    "action_number": "HCPI1327/1996",
+    "case_name": "CHAN CHUNG LOP v. CHAN YUN SUN",
+    "judgment_date": "1999-03-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 40,
+    "age_at_trial": 48,
+    "occupation_before": "Taxi driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7250.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left ulna",
+        "injury_type": "Permanent injury",
+        "body_part": "left ulna",
+        "laterality": "left",
+        "source": [
+          "As a result, the plaintiff suffered pain and injury, more particularly, a fracture of the left ulna which required surgery.",
+          "he was diagnosed to have fracture of the left ulna and laceration in the left arm."
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "laceration in the left arm",
+        "injury_type": "Temporary injury",
+        "body_part": "left arm",
+        "laterality": "left",
+        "source": [
+          "he was diagnosed to have fracture of the left ulna and laceration in the left arm.",
+          "Physical examination revealed that there was a 14.5 cm long scar over back of left elbow"
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "14.5 cm long scar over back of left elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild tenderness over proximal ulna",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "movement of wrist joint was normal but extension movement of elbow joint was minus ten degree",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left side forearm girths was less than the right side by 1 cm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "grip strength was 10 kg less in the left than the right",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual pain in poor weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild weakness in his left limb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "laceration in the left arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation of the left ulna with plate and screw",
+      "hospitalised for about 10 days"
+    ],
+    "treatments_future": [
+      "removal of metal plate"
+    ],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 140000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Chi Fat",
+        "neutral_citation": null,
+        "action_number": "PI 67/94",
+        "injury_description": "the fracture was in the left wrist, which was unlikely to unite because of an associated injury to a cartilage structure. The loss of earning capacity was assessed to be 20%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Sin Sau Mui",
+        "neutral_citation": null,
+        "action_number": "HCA11319/93",
+        "injury_description": "the plaintiff was 75 years of age and the injury was again in the wrist. There was a weakness of right hand grip and some deformity of the right wrist with tenderness in the wrist-joint. The loss of earning capacity was assessed to be 99%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Chung Hok Sung",
+        "neutral_citation": null,
+        "action_number": "PI393/95",
+        "injury_description": "the injuries involved were much more serious and extensive than the present case, including the snapping of muscles over the left elbow joint, a condition of tennis elbow, and loosening of the distal radio-ulna joint. The loss of earning capacity was estimated to be 20%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11288,
+      "output_tokens": 6190,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17478
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47754.03365120292,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11288,
+      "output_tokens": 6190,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17478
+    },
+    "total_duration_ms": 47754.03365120292
+  }
+}

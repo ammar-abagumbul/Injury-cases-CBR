@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1108",
+    "action_number": "HCPI 1168/2003",
+    "case_name": "HO HO MING v. TSEPOWAH AND OTHERS",
+    "judgment_date": "2006-09-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": 29,
+    "occupation_before": "scaffold dismantler",
+    "occupation_after": "sedentary job",
+    "expected_occupation_after": "sedentary job",
+    "salary_before": 22000.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": "Certificate in Vocational Studies (Technical)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "4 cm long laceration wound over the left parietal region of his head",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal region",
+        "laterality": "left",
+        "source": [
+          "There was a 4 cm long laceration wound over the left parietal region of his head, swelling and tenderness over his left shoulder with associated dilated left upper limb veins, tenderness over chest wall and abrasion over his right knee."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "tiny left parietal contusion",
+        "injury_type": "Residual disability",
+        "body_part": "left parietal region (brain)",
+        "laterality": "left",
+        "source": [
+          "CT scan of brain showed tiny left parietal contusion."
+        ],
+        "icd_code": "NA07.4E",
+        "icd_description": "Contusion of parietal lobe"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractures of left clavicle and fractures of 2nd to 6th ribs",
+        "injury_type": "Temporary injury",
+        "body_part": "left clavicle; 2nd to 6th ribs",
+        "laterality": "left",
+        "source": [
+          "X-rays showed fractures of left clavicle and fractures of 2nd to 6th ribs."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "tear of the left axillary artery; vascular injury to left arm requiring grafting",
+        "injury_type": "Permanent injury",
+        "body_part": "left axillary artery / left arm (vascular)",
+        "laterality": "left",
+        "source": [
+          "An arteriogram showed a tear of the left axillary artery.",
+          "Vein graft was done for repairing of the torn axillary vein.",
+          "An arteriogram for the left arm was repeated on 27 November 2000 which showed acutely truncated left axillary artery with 3rd part of axillary artery reconstituted by collaterals. The distal arteries were markedly narrowed."
+        ],
+        "icd_code": "NC15.Y",
+        "icd_description": "Injury of other specified blood vessels at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "severe injury to the left brachial plexus with rupture of all the three main trunks of the plexus; complete avulsion of neurovascular bundle to the left arm",
+        "injury_type": "Permanent injury",
+        "body_part": "left brachial plexus / left upper limb",
+        "laterality": "left",
+        "source": [
+          "Emergency surgery, carried out by vascular surgeon on the same day as the plaintiff was admitted, revealed complete avulsion of neurovascular bundle to the left arm.",
+          "Surgical exploration of the left shoulder was carried out on 14 December 2000 and it was found that there was a severe injury to the left brachial plexus with rupture of all the three main trunks of the plexus."
+        ],
+        "icd_code": "NC14.6",
+        "icd_description": "Injury of multiple nerves at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "complete loss of movement and sensation of left arm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "arterial pulses of his left arm were absent (both brachial and radial pulse)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "severe neuralgic pain of his left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "residual headache (post concussional syndrome)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "wasting of the limb, poor sensation or complete absence of it, poor grip or total inability to grip and severe weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency surgery (vascular) on the day of admission",
+      "Vein graft for torn axillary vein",
+      "Arteriogram",
+      "Transfer to Prince of Wales Hospital",
+      "Ultrasonogram of the brachial plexus",
+      "MRI of the cervical spine",
+      "Surgical exploration of left shoulder",
+      "Nerve grafting to musculocutaneous, radial and medial nerves",
+      "Vascular grafting procedure",
+      "Intercostal nerve transfer (18 January 2001)",
+      "Outpatient rehabilitation programme",
+      "Tendon transfer, 1st carpo-metacarpal joint fusion and split distal FPL tenodesis, rerouting of biceps tendon (29 July 2004)",
+      "Free microvascular transfer of gracilis muscle (February 2006)",
+      "Physiotherapy / electric physiotherapy (China, 2005)"
+    ],
+    "treatments_future": [
+      "symptomatic treatment of the neurotic pain of the left upper limb",
+      "periodic occupational therapy/physiotherapy (10 days' treatment once every six months)",
+      "psychotherapy (20 sessions)",
+      "rehabilitation training (three sessions per week for six months)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 1104,
+    "sick_leave_days_expected": 730
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Almost complete loss of use of his left arm",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Will not be able to return to his pre-accident job as a scaffold dismantler",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Personality change",
+        "description": "Moderately severe adjustment disorder with mixed depressive and anxiety features; low self esteem, bleak future outlook, gloom and sadness",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 750000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23930,
+      "output_tokens": 9221,
+      "reasoning_tokens": 7168,
+      "total_tokens": 33151
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41848.012149333954,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23930,
+      "output_tokens": 9221,
+      "reasoning_tokens": 7168,
+      "total_tokens": 33151
+    },
+    "total_duration_ms": 41848.012149333954
+  }
+}

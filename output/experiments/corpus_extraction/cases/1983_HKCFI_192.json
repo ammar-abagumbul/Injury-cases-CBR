@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 192",
+    "action_number": "HCA004811/1982",
+    "case_name": "NG MEI YUK v. YIP CHI KIN",
+    "judgment_date": "1983-01-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 84,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured pelvis",
+        "injury_type": "Residual disability",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "She was found to have a fractured pelvis."
+        ],
+        "icd_code": "NB52.Z",
+        "icd_description": "Fracture of lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "retro-peritoneal and extra-peritoneal haemotoma",
+        "injury_type": "Temporary injury",
+        "body_part": "retro-peritoneal / extra-peritoneal area",
+        "laterality": null,
+        "source": [
+          "retro-peritoneal and extra-peritoneal haemotoma was found."
+        ],
+        "icd_code": "NB90.Z",
+        "icd_description": "Injury of unspecified blood vessel at abdomen, lower back or pelvis level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the socket of the hip having been moved up 1\" resulting in apparent leg shortening and pelvic tilt",
+        "injury_type": "Residual disability",
+        "body_part": "right hip / pelvic socket",
+        "laterality": "right",
+        "source": [
+          "this was caused by the socket of the hip having been moved up 1\" and by the Plaintiff favouring her right leg by tilting the right side of the pelvis upwards by another 1\"."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "complains of pain in the right buttock, hip, low back and thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty even climbing onto his couch",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "her right leg appeared 2\" shorter than the other (appeared due to hip socket moved up 1\" and pelvic tilt)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of 10º of her ability to bend the leg at the hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of 45º in the movements of internal and external rotation of the leg at the hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "serious injury greatly reduces her mobility and her lifestyle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "she couldn't walk; spent 5 months in bed; relied on crutches until the summer of 1982; since then has needed a walking stick; the furthest she can now walk is less than a block",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "expectation of life is reduced by at least a year",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Elizabeth Hospital",
+      "Emergency laparatomy",
+      "use of crutches",
+      "use of walking stick"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "serious injury greatly reduces her mobility and her lifestyle; the furthest she can now walk is less than a block; relied on crutches and now a walking stick",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "spent 5 months in bed during which time her son employed an amah to care for her; assistance was needed",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "expectation of life is reduced by at least a year",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 45000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Leung v Yip Kam Wah",
+        "neutral_citation": null,
+        "action_number": "HCA 416/1980",
+        "injury_description": "similar injuries but not as serious",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Mak Leung Yan v China Motor Bus Ltd",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "similar injuries but not as serious",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 20000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9727,
+      "output_tokens": 6949,
+      "reasoning_tokens": 5312,
+      "total_tokens": 16676
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32516.82671159506,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9727,
+      "output_tokens": 6949,
+      "reasoning_tokens": 5312,
+      "total_tokens": 16676
+    },
+    "total_duration_ms": 32516.82671159506
+  }
+}

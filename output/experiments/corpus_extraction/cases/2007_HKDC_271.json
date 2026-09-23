@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 271",
+    "action_number": "DCPI 865/2007",
+    "case_name": "NG KA CHUK v. WELCOME CONSTRUCTION CO LTD AND OTHERS",
+    "judgment_date": "2007-08-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 42,
+    "age_at_trial": 46,
+    "occupation_before": "driver and worker (employed by the 2nd Defendant)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11509.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of distal fibula Weber Type B",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "Radiological examination revealed fracture of distal fibula Weber Type B."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness, swelling and bruising around the lateral malleolus of his left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle joint movement was limited by pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "active range of motion of left ankle dorsiflexion, plantar flexion and eversion were full but only 2/3 range for inversion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could walk unaided but with a limping gait and with mild pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain on full weight bearing (could squat but suffered pain on full weight bearing)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "assessed 2% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at A & E Department of Tuen Mun Hospital",
+      "admission to the Department of Orthopaedics and conservative treatment for fracture",
+      "physiotherapy (magnetic field therapy, ice therapy, active mobilization exercise and cycling exercise)",
+      "treatment at 24-hour Ambulatory Clinic of Pok Oi Hospital",
+      "seven sessions of physiotherapy between 31 March 2005 and 13 May 2005"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9970,
+      "output_tokens": 4419,
+      "reasoning_tokens": 3520,
+      "total_tokens": 14389
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39269.88497376442,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9970,
+      "output_tokens": 4419,
+      "reasoning_tokens": 3520,
+      "total_tokens": 14389
+    },
+    "total_duration_ms": 39269.88497376442
+  }
+}

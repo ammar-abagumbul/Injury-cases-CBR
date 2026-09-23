@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1277",
+    "action_number": "HCPI 662/2012 & HCPI 658/2012",
+    "case_name": "SO SUP NG v. CHUNG PO MOON CATOLE AND ANOTHER",
+    "judgment_date": "2014-07-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "transportation worker at a port",
+    "occupation_after": "salesman in uncle's trading company in Guangzhou (from October 2013); casual sailor in Macau for 8 days",
+    "expected_occupation_after": "sedentary work such as car park attendant or security guard",
+    "salary_before": 15000.0,
+    "salary_after": 6250.0,
+    "expected_salary_after": 9600.0,
+    "education_level": "Primary 6"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "segmental fracture shaft of right tibia",
+        "injury_type": "Temporary injury",
+        "body_part": "right tibia",
+        "laterality": "right",
+        "source": [
+          "segmental fracture shaft of right tibia",
+          "X-ray showed fractured tibia at proximal and distal 1/3."
+        ],
+        "icd_code": "NC92.2",
+        "icd_description": "Fracture of shaft of tibia"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture shaft right fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "right fibula",
+        "laterality": "right",
+        "source": [
+          "fracture shaft right fibula",
+          "Fractured fibula at proximal 1/3 was also noted."
+        ],
+        "icd_code": "NC92.4Y",
+        "icd_description": "Other specified fracture of fibula"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture right medial malleolus",
+        "injury_type": "Temporary injury",
+        "body_part": "right medial malleolus (right ankle)",
+        "laterality": "right",
+        "source": [
+          "fracture right medial malleolus",
+          "closed reduction and screw fixation to right medial malleolus"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Infection over right shin with abscess; right leg wound debridement and removal of implants from right tibia",
+        "injury_type": "Temporary injury",
+        "body_part": "right shin / right leg",
+        "laterality": "right",
+        "source": [
+          "Infection over right shin was detected on 3 December 2009.",
+          "Incision and drainage of right shin abscess was performed on 5 January 2010.",
+          "Incision and drainage of right leg abscess was performed on 9 June 2010.",
+          "Right leg wound debridement and removal of implants from right tibia was performed on 15 June 2010."
+        ],
+        "icd_code": "NC91.Y",
+        "icd_description": "Other specified open wound of knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right leg pain and scar; right knee and ankle stiffness, weakness and numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness of right big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual right shin pain after walking for 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "retropatellar tenderness over right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some stiffness of dorsiflexion of right ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent pain over right leg from knee to ankle reaching up to 6-9/10; worse at night 4-5 nights a week; needing analgesics on average every other day and 2-3 times each day when there was pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "wound dressing",
+      "splint immobilization",
+      "antibiotics",
+      "surgical toileting and suturing of wounds",
+      "closed reduction and intramedullary nail fixation to right tibia",
+      "closed reduction and screw fixation to right medial malleolus",
+      "inpatient physiotherapy for walking exercise",
+      "physiotherapy (24 sessions in Tuen Mun Hospital from December 2009 to July 2010)",
+      "occupational therapy (3 sessions in Tuen Mun Hospital from 13 April 2010 to 27 May 2010)",
+      "incision and drainage of right shin abscess (5 January 2010)",
+      "incision and drainage of right leg abscess (9 June 2010)",
+      "right leg wound debridement and removal of implants from right tibia (15 June 2010)",
+      "vocational rehabilitation referrals (10 March 2010 and 28 July 2010)"
+    ],
+    "treatments_future": [
+      "analgesics on a need-to basis"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 6,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 371,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Right leg, right knee and right ankle injuries resulting in (i) right leg pain and scar; (ii) right knee and ankle stiffness, weakness and numbness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Activities that caused increased physical demand on the right lower limb (eg prolonged standing and walking; prolonged squatting; walking a lot of stairs; running) would likely cause discomfort or even pain in the right lower limb (knee, leg or ankle).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He used to swim, play soccer and cycle. He was afraid and not confident to return to these sports after injury.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 330000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yau Kam Ching v. Cheung Shu Kau",
+        "neutral_citation": null,
+        "action_number": "DCPI 522/2012",
+        "injury_description": "Fracture left distal tibia and fibula and fracture left medial malleolus; small amount of left parietal traumatic subarachnoid haemorrhage",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15580,
+      "output_tokens": 8682,
+      "reasoning_tokens": 6272,
+      "total_tokens": 24262
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43501.4513656497,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15580,
+      "output_tokens": 8682,
+      "reasoning_tokens": 6272,
+      "total_tokens": 24262
+    },
+    "total_duration_ms": 43501.4513656497
+  }
+}

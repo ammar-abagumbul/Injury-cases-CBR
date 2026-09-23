@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 67",
+    "action_number": "HCPI 206/2004",
+    "case_name": "NG KONG v. GOLDEN CATERERS LTD",
+    "judgment_date": "2005-02-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cook",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 15333.33,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "secondary school education in the mainland"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back injury",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "The joint medical report of the Plaintiff\u0019s and the Defendant\u0019s doctors showed that the Plaintiff suffered from a sprained back injury.",
+          "The present condition of Ng is that the back injury of sprain is now over 2 years. There are some residue subjective back pain and stiffness and left leg pain. There is also some subjective weakness."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sciatica (left)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back and left lower limb",
+        "laterality": "left",
+        "source": [
+          "He was diagnosed to be suffering from sciatica.",
+          "The Plaintiff main problem was left sciatica.",
+          "On 21 August 2002 the Plaintiff was admitted ... because of persistent low back pain and numbness and weakness of his left lower limb."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "degeneration of multiple discs",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar discs",
+        "laterality": null,
+        "source": [
+          "The MRI test conducted at Queen Mary Hospital and Princess Margaret Hospital revealed that the Plaintiff had been suffering from degeneration of multiple discs and these discs generation was a natural occurring condition of wear and tear and was not caused by the accident.",
+          "I accept the evidence of Dr. Cheng (the Defendant\u0019s doctor) that the degenerative condition was a pre-existing condition."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual subjective back pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at the lower left paraspinal muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "flexion of the spine was limited",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of straight leg raising of his left lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness and weakness of his left lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "walking and sitting tolerance about 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "very slight limp when walking",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "some subjective weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment",
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "hospital admissions",
+      "medications"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 365
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to continue working as a \n\u0010\u001a\u001a\u001a\u001a上什 (Sheung Jab) in a restaurant kitchen; loss of ability to continue previous job and reduction in earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20998,
+      "output_tokens": 5497,
+      "reasoning_tokens": 4096,
+      "total_tokens": 26495
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40808.08314681053,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20998,
+      "output_tokens": 5497,
+      "reasoning_tokens": 4096,
+      "total_tokens": 26495
+    },
+    "total_duration_ms": 40808.08314681053
+  }
+}

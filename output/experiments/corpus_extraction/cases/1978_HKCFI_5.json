@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 5",
+    "action_number": "HCA000290/1978",
+    "case_name": "FOK SHU WOON v. KATHERINE POON LING-YEE AND ANOTHER",
+    "judgment_date": "1978-05-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 24,
+    "age_at_trial": null,
+    "occupation_before": "Teacher (primarily physical education but has other subjects)",
+    "occupation_after": "Teacher (returned to his former employment without any loss of earnings)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "ruptured left eyeball (operation for repair)",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "He underwent an operation for repair of a ruptured left eyeball and received stitches for facial lacerations."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left traumatic cataract with total loss of vision in that eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "Unfortunately, after discharge from hospital the Plaintiff developed left traumatic cataract which has developed to such an extent that he now has total loss of vision in that eye."
+        ],
+        "icd_code": "NA06.A",
+        "icd_description": "Injury of lens"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "facial lacerations and residual scarring to his face",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "He underwent an operation for repair of a ruptured left eyeball and received stitches for facial lacerations.",
+          "The Plaintiff has some residual scarring to his face."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Total loss of vision in left eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Loss of accommodation (ability to alter focus for objects at various distances)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Loss of stereoscopic or three-dimensional vision",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Frequent relatively minor irritations to the left eye including glare, easy fatigability, congestion or redness, itchiness, gritty sensations",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Residual scarring to the face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Detained at Queen Elizabeth Hospital for 2 days",
+      "Operation for repair of a ruptured left eyeball",
+      "Stitches for facial lacerations"
+    ],
+    "treatments_future": [
+      "Further operation for removal of the cataract during the next two or three months",
+      "Regular follow-up treatment for at least one year",
+      "Contact lenses (including replacement from time to time; probably a special new soft lens costing $600 - $700)"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Total loss of vision in the left eye",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Residual scarring to his face which will become noticeable when he changes to contact lenses",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to indulge in jumping and somersaulting necessary to physical education and the trampoline; advised not to take part in ball-games; loss of confidence and ability to enjoy physical sports",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 55000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Hon v. Cheng Wai & Another",
+        "neutral_citation": null,
+        "action_number": "O.J.A. No. 3117 of 1975",
+        "injury_description": "100% loss of vision of one eye and scarring",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 45000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10785,
+      "output_tokens": 6692,
+      "reasoning_tokens": 5184,
+      "total_tokens": 17477
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39483.99708047509,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10785,
+      "output_tokens": 6692,
+      "reasoning_tokens": 5184,
+      "total_tokens": 17477
+    },
+    "total_duration_ms": 39483.99708047509
+  }
+}

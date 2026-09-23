@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 207",
+    "action_number": "HCPI 103/1999",
+    "case_name": "CHOW SIU PING v. HOP LEE IRON WORKS AND ANOTHER",
+    "judgment_date": "1999-12-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 60,
+    "occupation_before": "steel binder",
+    "occupation_after": "factory watchman",
+    "expected_occupation_after": null,
+    "salary_before": 14820.0,
+    "salary_after": 5000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Post concussion syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Post concussion syndrome",
+          "Dr Ho considered Plaintiff had sustained a moderate closed head injury associated with a period of post-traumatic amnesia, as a result of the fall."
+        ],
+        "icd_code": "NA07.00",
+        "icd_description": "Concussion with incomplete loss of consciousness with amnesia"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractured lumbar spine (at L1 and L2); prolapsed discs at multiple levels",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "Fractured lumbar spine (at L1 and L2)",
+          "Dr Au Ka Kau, an orthopaedic specialist, confirmed that the Plaintiff had suffered a fracture of the L1 and L2 vertebrae; that he had prolapsed discs at multiple levels"
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Colles fracture of left wrist (fracture of the left distal radius with a malunion)",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Colles fracture of left wrist",
+          "he had a fracture of the left distal radius with a malunion.",
+          "On examination he found a \"dinner-fork\" deformity of the left wrist; limitation of left wrist movement and weakness of the left hand grip."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Impaired hearing/tinnitus (badly impaired hearing of both ears)",
+        "injury_type": "Permanent injury",
+        "body_part": "both ears",
+        "laterality": "bilateral",
+        "source": [
+          "Impaired hearing/tinnitus",
+          "badly impaired hearing of both ears",
+          "Dr Michael Tong assessed it at 60% of overall hearing, which was equivalent to 20% impairment of the whole person."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Occasional dizziness / giddiness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Badly impaired hearing of both ears",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Stiffness, aching, weak grip and shortened radius of the left wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Dinner-fork deformity of the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Back pain causing discomfort when sitting or standing for prolonged periods",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Episodes of pins and needles over his left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Impaired pinprick sensation in the left leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Limitation of lumbar spinal movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation for about seven weeks",
+      "sick leave for over two years"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 49,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "The Plaintiff has lost and will lose familial and social contact",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "The Plaintiff has lost and will lose familial and social contact",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Plaintiff is hampered in his already limited choice of jobs because of his hearing problem",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 900000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Chi Ming v. Union Life HK Ltd",
+        "neutral_citation": null,
+        "action_number": "PI No. 1204/96",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Liu Ching v. Wong Chiu Kwai",
+        "neutral_citation": null,
+        "action_number": "PI No. 1192/96",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsang Chin Keung v. Lo Tat Kong",
+        "neutral_citation": null,
+        "action_number": "PI No. 806/95",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Wan Chun v. Jim Han Tak & Ors",
+        "neutral_citation": null,
+        "action_number": "HCA 11640 of 1982",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15824,
+      "output_tokens": 7827,
+      "reasoning_tokens": 5760,
+      "total_tokens": 23651
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53068.921718746424,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15824,
+      "output_tokens": 7827,
+      "reasoning_tokens": 5760,
+      "total_tokens": 23651
+    },
+    "total_duration_ms": 53068.921718746424
+  }
+}

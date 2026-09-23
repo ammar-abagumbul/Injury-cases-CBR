@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 513",
+    "action_number": "DCPI 2640/2013",
+    "case_name": "NG HIU MAN v. TRADE IN ASIA LTD",
+    "judgment_date": "2017-05-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 26,
+    "age_at_trial": 30,
+    "occupation_before": "assistant merchandiser",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion and possible strain of the muscles of her lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the injury to her back is likely to be some kind of contusion and possible strain of the muscles of her lower back."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple levels disc degeneration with bulging of intervertebral discs at L2-S1 levels, mild bilateral nerve root compression at L2/L3, mild left nerve root compression at L3/L4, mild right nerve root compression at L4/L5 and a small annular tear at L3/L4",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "the MRI report revealed bulging of intervertebral discs at L2-S1 levels with mild bilateral nerve root compression at L2/L3, mild left nerve root compression at L3/L4, and mild right nerve root compression at L4/L5.",
+          "the latest MRI of the plaintiff\u0002s lumbar spine showed multiple levels disc degeneration without significant nerve root compression and it also showed a small annular tear at L3/L4 level."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Left side stretching back pain and stiffness; intermittent attack especially on prolonged sitting or standing for more than one hour, or lifting heavy object. Such pain and stiffness occasionally occurred at night time once in every 3 to 4 days and required intake of analgesic.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left lower limb numbness over anterior thigh, buttock and leg with intermittent attack around once every 2 to 3 days and with each attack lasted for a few minutes. Such symptoms would be aggravated by prolonged sitting for more than one hour, or prolonged standing for over 45 minutes to one hour.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Activities of daily living and the use of public transportation were manageable but with some inconvenience as the plaintiff claimed that she would need to use a stick for doing long journeys or journeys with prolonged walking for more than 30 minutes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower back muscle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "consultation with a Chinese bonesetter",
+      "Accident and Emergency Department of the Prince of Wales Hospital consultation and treatment",
+      "private medical consultations (Town Health Medical Centre; Ever Health Medical Center)",
+      "consultation at Hong Kong Traumatology and Orthopaedics Institute",
+      "physiotherapy sessions",
+      "occupational therapy",
+      "Pain Clinic management",
+      "MRI scans",
+      "work hardening training (6 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) award. \"In my assessment, an award of HK$120,000.00 with one-third reduction for the plaintiff\u0002s chronic pre-existing degeneration of her lumbar spine is appropriate. Hence, the discounted sum is therefore HK$80,000.00.\"",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity award of HK$50,000.00 as agreed by the defendant for loss of earning capacity.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sherma Phadindra v Tin Wo Engineering Co Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 32 of 2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tam Fu Yip Fip v Sincere Engineering & Trading Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 473 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22465,
+      "output_tokens": 4851,
+      "reasoning_tokens": 3328,
+      "total_tokens": 27316
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35458.17691832781,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22465,
+      "output_tokens": 4851,
+      "reasoning_tokens": 3328,
+      "total_tokens": 27316
+    },
+    "total_duration_ms": 35458.17691832781
+  }
+}

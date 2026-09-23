@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 652",
+    "action_number": "HCPI 937/2006",
+    "case_name": "WONG CHUN LAM v. TAI ON CIVIL ENGINEERING LTD",
+    "judgment_date": "2008-07-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 49,
+    "occupation_before": "construction site casual worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 15016.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Head injury",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "On 25 November 2003 the plaintiff, now aged 49, suffered a head injury in the course of his work."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Inverted v-shaped laceration on forehead which was sutured",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "There was an inverted v-shaped laceration on his forehead which was sutured."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Posttraumatic psychosis / psychotic disorder due to a general medical condition",
+        "injury_type": "Permanent injury",
+        "body_part": "brain/psychiatric",
+        "laterality": null,
+        "source": [
+          "psychotic disorder due to a general medical condition.",
+          "posttraumatic psychosis due to a general medical condition (i.e. the head injury)"
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "emotional change evidenced in bad temper / explosive temperament",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "abnormal behaviour: scolding aloud, pointing fingers into the air, or laughing for no reason",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "auditory hallucinations (hearing voices talking to him)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "wandering at night / inability to sleep well",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "speaks incoherently and is not able to have a normal conversation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to live independently; needs supervision and assistance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "needs assistance in washing and going to the lavatory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "sits on the floor, talks or murmurs to himself, stares at the ceiling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced ability to relate to others / severe restriction in ability to relate",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of inverted v-shaped laceration on forehead",
+      "X-ray of his head (normal)",
+      "C.T. scan (revealed no abnormality)",
+      "admission to the surgical unit",
+      "follow-up at the surgical outpatient clinic",
+      "outpatient psychiatric treatment and medication every 16 weeks"
+    ],
+    "treatments_future": [
+      "at least six months inpatient psychiatric treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": 183,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of independence",
+        "description": "needs assistance in washing and going to the lavatory; cannot live independently and needs supervision",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "inverted v-shaped laceration on his forehead which was sutured",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "complete change in the plaintiff’s personality; from a normal good-tempered husband he is now someone who speaks incoherently and is prone to fits of bad temper",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "condition severely restricts his ability to relate to others",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "for someone who had assisted with household duties he now spends most of his time sitting on the floor of the flat and needs assistance",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "has deprived Madam Chung of normal marital companionship; she must supervise and assist with his care",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 650000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lily Tse Lai Yin and Others v. The Incorporated Owners of Albert House",
+        "neutral_citation": null,
+        "action_number": "HCPI 828/1997",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Sau Wai v. Lam Kin Sum trading as Kim Yuen Mineral Co.",
+        "neutral_citation": null,
+        "action_number": "HCPI 1168/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wu Wai Wah v. Fung Kwong Hung and Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 256/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14059,
+      "output_tokens": 7817,
+      "reasoning_tokens": 5760,
+      "total_tokens": 21876
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45702.513329684734,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14059,
+      "output_tokens": 7817,
+      "reasoning_tokens": 5760,
+      "total_tokens": 21876
+    },
+    "total_duration_ms": 45702.513329684734
+  }
+}

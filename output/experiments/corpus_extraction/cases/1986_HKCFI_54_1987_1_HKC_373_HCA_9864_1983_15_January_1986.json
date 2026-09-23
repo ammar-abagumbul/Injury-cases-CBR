@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 54; [1987] 1 HKC 373; HCA 9864/1983 (15 January 1986)",
+    "action_number": "HCA009864/1983",
+    "case_name": "CHUNG KEI v. SO YIU AND LEUNG SHING, T/A WAI YIP PLASTIC METAL FACTORY AND OTHERS",
+    "judgment_date": "1986-01-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 43,
+    "occupation_before": "machine operator",
+    "occupation_after": "look-out man (for a hawker)",
+    "expected_occupation_after": null,
+    "salary_before": 2561.0,
+    "salary_after": 690.0,
+    "expected_salary_after": 900.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Crushing injuries to his right arm (mould caught his right arm about half way between the wrist and the elbow), leaving the limb below that point grossly disfigured and functionally 'completely useless'.",
+        "injury_type": "Permanent injury",
+        "body_part": "right arm",
+        "laterality": "right",
+        "source": [
+          "he suffered severe crushing injuries to his right arm.",
+          "Unhappily, the mould caught his right arm about half way between the wrist and the elbow. Below that point, he is left with a limb which is grossly disfigured and functionally in Doctor Hodgson's phrase 'completely useless'."
+        ],
+        "icd_code": "NC37",
+        "icd_description": "Crushing injury of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he is now a man who has no useful function in his right arm at all, and is therefore in effect a one armed man.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he suffers from the serious cosmetic disability occasioned by the look of this right arm, which has a real and understandable effect upon him. He is plainly embarrassed by it, and does his best to conceal it all the time.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Serious cosmetic disability occasioned by the look of his right arm causing embarrassment and concealment.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He cannot obviously do the skilled work which he was able originally to do.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 125000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12407,
+      "output_tokens": 4030,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16437
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 21273.82778376341,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12407,
+      "output_tokens": 4030,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16437
+    },
+    "total_duration_ms": 21273.82778376341
+  }
+}

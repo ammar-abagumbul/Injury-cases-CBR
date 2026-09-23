@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 1568",
+    "action_number": "DCPI 2418/2014",
+    "case_name": "LUO XIAO RONG v. FULL TREND DEVELOPMENT LTD T/A BANQUET DELICIOUS",
+    "judgment_date": "2016-12-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "part-time pantry helper/food conveyor",
+    "occupation_after": null,
+    "expected_occupation_after": "return to work as a part-time waitress/pantry helper",
+    "salary_before": 5400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary two"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion of the low back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "In the joint medical report of the two doctors, Dr Chun states that the appropriate diagnosis should be one of “contusion of the low back [with no other complications such as fracture, dislocation or other neurological deficits]”.",
+          "On the other hand, Dr Mui notes that the plaintiff had severe soft tissue injury to the back. He came to such finding because “the pain from the subject injury was so severe that she had to attend AED, TMH for treatment on the same date.”"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over the lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive Waddell's signs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment",
+      "conservative treatment",
+      "physiotherapy",
+      "occupational therapy",
+      "outpatient follow-up visits to Tuen Mun Hospital and Department of Family Medicine & Primary Health Care of Tuen Mun Wu Hong Clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chun Fat v Fortress Glory Engineering Ltd",
+        "neutral_citation": "HCPI 832/2013",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Wing Yeung v Kowloon Cricket Club",
+        "neutral_citation": "HCPI 955/2013",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Yiu Wing v Wong Lan Fun",
+        "neutral_citation": "HCPI 806/2004",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10622,
+      "output_tokens": 4503,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15125
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38017.476711422205,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10622,
+      "output_tokens": 4503,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15125
+    },
+    "total_duration_ms": 38017.476711422205
+  }
+}

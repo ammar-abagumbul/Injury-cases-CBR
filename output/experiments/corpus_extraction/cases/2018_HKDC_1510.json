@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1510",
+    "action_number": "DCPI 2105/2016",
+    "case_name": "SATTAR K.A. v. GOODRICH TRANSPORTATION (HK) LTD AND ANOTHER",
+    "judgment_date": "2018-12-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "worker responsible for delivery of goods / delivery worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 21117.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of right lower fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "right lower fibula",
+        "laterality": "right",
+        "source": [
+          "X-ray of his right ankle showed fracture of right lower fibula.",
+          "X-rays of right ankle showed that the fracture has healed with satisfactory alignment."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness and swelling over right lateral malleolus and right lower fibula",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild ankle pain on prolonged walking and standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of motion of his right ankle was mildly reduced, 5º difference between left and right ankles in pointing toes upwards and pointing toes downwards",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked with normal gait; could walk on his heels; could walk on tiptoes; squatted fully; had no obvious deformity, swelling or muscle wasting of the right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "short leg dynacast",
+      "admitted to the orthopedic ward at QEH",
+      "follow-up consultation and treatment at out-patient clinic",
+      "physiotherapy (about 16-17 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 122,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Ka Pang v Wong Chun Wang",
+        "neutral_citation": null,
+        "action_number": "HCPI 644/1998",
+        "injury_description": "sustained a fracture to his ankle and a torn ligament; he no longer plays football",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Leung See Ning Clara v Shun Tak Property Management Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 625/2003",
+        "injury_description": "fracture of the left distal fibula; open reduction and internal fixation performed and another operation to remove the screw and metal plate; scar at her ankle measured 8.5 cm",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 230000.0
+      },
+      {
+        "case_name": "Tamang Tikaram v Tong Kee Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 19/2013",
+        "injury_description": "minimally displaced fracture of the right medial malleolus; did not undergo any operation; short leg dynast worn for about seven weeks",
+        "hospitalisation_days": 3,
+        "operations_count": 0,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11829,
+      "output_tokens": 4333,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16162
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24874.184124171734,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11829,
+      "output_tokens": 4333,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16162
+    },
+    "total_duration_ms": 24874.184124171734
+  }
+}

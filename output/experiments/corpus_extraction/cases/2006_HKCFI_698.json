@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 698",
+    "action_number": "HCPI 412/2003",
+    "case_name": "KO SIU YEUNG v. KERRY DISTRIBUTION (HONG KONG) LIMITED",
+    "judgment_date": "2006-06-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "delivery worker",
+    "occupation_after": null,
+    "expected_occupation_after": "cleaner or machine operator",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "low level of education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain of the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered a sprain injury to his neck and right shoulder as a result of the first injury."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sprain of the right shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered a sprain injury to his neck and right shoulder as a result of the first injury.",
+          "He says that there may have been a minor sprain of the right shoulder on 23 March 2002."
+        ],
+        "icd_code": "NC13.5",
+        "icd_description": "Strain or sprain of shoulder joint"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "cervical spondylosis (found on X-ray on 7 March 2002)",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "refers to cervical spondylosis having been found on X-ray on 7 March 2002."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right arm weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness (right arm)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to lift more than 10-20 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild muscle spasm at the right neck and shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some restriction of shoulder movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "severe pain in the right side of his body, particularly the arm and shoulder (reported after second accident)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "shoulder and arm went black (plaintiff's report)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 11,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15556,
+      "output_tokens": 6247,
+      "reasoning_tokens": 4992,
+      "total_tokens": 21803
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30395.397882908583,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15556,
+      "output_tokens": 6247,
+      "reasoning_tokens": 4992,
+      "total_tokens": 21803
+    },
+    "total_duration_ms": 30395.397882908583
+  }
+}

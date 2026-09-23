@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 26",
+    "action_number": "HCA001530/1978",
+    "case_name": "CHOW WAI TING v. LI KA WAH AND ANOTHER",
+    "judgment_date": "1979-01-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 16,
+    "age_at_trial": null,
+    "occupation_before": "trained garment worker (piece time) for Wing Fung Company",
+    "occupation_after": "salesgirl (intermittent)",
+    "expected_occupation_after": "sedentary work",
+    "salary_before": 700.0,
+    "salary_after": 180.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture superior and inferior pubic rami of pelvis on left side",
+        "injury_type": "Temporary injury",
+        "body_part": "pelvis (left side)",
+        "laterality": null,
+        "source": [
+          "Fracture superior and inferior pubic rami of pelvis on left side"
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture neck right femur",
+        "injury_type": "Permanent injury",
+        "body_part": "right femur (neck of femur / hip)",
+        "laterality": "right",
+        "source": [
+          "Fracture neck right femur"
+        ],
+        "icd_code": "NC72.2Z",
+        "icd_description": "Fracture of neck of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Abrasion over the left trochanteric region.",
+        "injury_type": "Temporary injury",
+        "body_part": "left trochanteric region (left hip/thigh)",
+        "laterality": "left",
+        "source": [
+          "Abrasion over the left trochanteric region."
+        ],
+        "icd_code": "NC70.0",
+        "icd_description": "Abrasion of hip"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Nasty cut on her right elbow with resultant scar",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "she claims to have suffered a nasty cut on her right elbow and she showed the court the resultant scar."
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Avascular necrosis of the head of the right femur",
+        "injury_type": "Permanent injury",
+        "body_part": "right femoral head / hip",
+        "laterality": "right",
+        "source": [
+          "X-Ray of the right hip showed avascular necrosis of the head of the right femur."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Osteo-Arthritis of the hip",
+        "injury_type": "Permanent injury",
+        "body_part": "hip (right)",
+        "laterality": "right",
+        "source": [
+          "it is inevitable that she will develop an Osteo-Arthritis of the hip.",
+          "signs of Osteo-Arthritis are already present on clinical examination."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Progressive right hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Pain with standing became severe (caused her to give up job as a salesgirl)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Restriction of movement of the hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Scar on right elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Disfigurement of thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Unable to indulge in any sport which require standing, running or walking; can do only sedentary work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Elizabeth Hospital",
+      "bilateral skin traction (temporary immobilisation of femoral fracture)",
+      "operative fixation by pinning of the neck fracture (performed on 1976-06-19)",
+      "well-leg traction for pelvis injury (taken off on 1976-07-30)",
+      "non-weight bearing exercises with crutches (allowed on 1976-08-11)",
+      "transfer to Margaret Trench Rehabilitation Centre for physiotherapy",
+      "analgesics (conservative treatment for avascular necrosis)"
+    ],
+    "treatments_future": [
+      "hip replacement operation",
+      "possible blood transfusion if necessary during operation",
+      "2 to 3 months post-operative physiotherapy"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": 21,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Ongoing pain, restriction of movement of the right hip and need for eventual hip replacement",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Disfigurement of thigh and elbow (scar on right elbow and thigh disfigurement)",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Disfigurement of thigh (abrasion over the left trochanteric region resulting in scarring)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to indulge in any sport which require standing, running or walking; can do only sedentary work",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Could not return to old work operating a sewing machine; gave up job as a salesgirl due to pain on standing",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 32000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14592,
+      "output_tokens": 8748,
+      "reasoning_tokens": 6720,
+      "total_tokens": 23340
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44131.45000115037,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14592,
+      "output_tokens": 8748,
+      "reasoning_tokens": 6720,
+      "total_tokens": 23340
+    },
+    "total_duration_ms": 44131.45000115037
+  }
+}

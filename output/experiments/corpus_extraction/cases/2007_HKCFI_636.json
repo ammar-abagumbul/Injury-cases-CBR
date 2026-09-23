@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 636",
+    "action_number": "HCPI 54/2006",
+    "case_name": "CHAN YIM v. SHING CHEONG CONSTRUCTION LIMITED",
+    "judgment_date": "2007-06-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 49,
+    "occupation_before": "general manual worker",
+    "occupation_after": "road cleaning worker; decoration worker; decoration subcontractor",
+    "expected_occupation_after": null,
+    "salary_before": 18000.0,
+    "salary_after": 11000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "palsy of the right superior oblique muscle",
+        "injury_type": "Residual disability",
+        "body_part": "right eye (right superior oblique muscle)",
+        "laterality": "right",
+        "source": [
+          "bruises over the medial corner of the right upper eyelid, with mild vertical diplopia and mild right hypertropia compatible with palsy of the right superior oblique muscle."
+        ],
+        "icd_code": "NA04.3",
+        "icd_description": "Injury of trochlear nerve"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bruises over the medial corner of the right upper eyelid",
+        "injury_type": "Temporary injury",
+        "body_part": "right upper eyelid",
+        "laterality": "right",
+        "source": [
+          "bruises over the medial corner of the right upper eyelid, with mild vertical diplopia and mild right hypertropia compatible with palsy of the right superior oblique muscle."
+        ],
+        "icd_code": "NA04.3",
+        "icd_description": "Injury of trochlear nerve"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild vertical diplopia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild right hypertropia",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "minor discomfort or tiredness of his eyes if he has to look down for extended period of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in \"keeping good sight of an object\" and fear of losing balance when working at a height",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment at Queen Mary Hospital",
+      "regular follow-up at Queen Mary Hospital Ophthalmology Department",
+      "conservative treatment",
+      "prism spectacles"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 251,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering & loss of amenities for injury to right eye including diplopia and residual muscle imbalance",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 230000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Kwan Shek Sang v. Chan Kam Wah",
+        "neutral_citation": "[2003] 2 HKLRD 697",
+        "action_number": null,
+        "injury_description": "corneal scaring in his right eye after a metal fragment had flown into and become embedded in his eye; impairment of vision in his right eye",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 280000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10667,
+      "output_tokens": 5937,
+      "reasoning_tokens": 4800,
+      "total_tokens": 16604
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31243.450060486794,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10667,
+      "output_tokens": 5937,
+      "reasoning_tokens": 4800,
+      "total_tokens": 16604
+    },
+    "total_duration_ms": 31243.450060486794
+  }
+}

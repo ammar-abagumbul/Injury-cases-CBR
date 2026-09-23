@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 908",
+    "action_number": "HCPI 672/2008",
+    "case_name": "GURUNG LACHHAMAN v. GURUNG CHANDRA PRAKASH T/A METRO CONSTRUCTION CO AND OTHERS",
+    "judgment_date": "2010-10-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 31,
+    "age_at_trial": 36,
+    "occupation_before": "waterproofing applicator (causal labourer)",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 15600.0,
+    "salary_after": 0.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild soft tissue contusion to his low back",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "I find that the injuries suffered by the Plaintiff in the Incident had caused mild soft tissue contusion to his low back and abrasion to his right knee."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasion to his right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "I find that the injuries suffered by the Plaintiff in the Incident had caused mild soft tissue contusion to his low back and abrasion to his right knee.",
+          "The knee injury was only a superficial abrasion wound which should be recovered well within a few weeks with no residual abnormality."
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness at para-spinal muscle at lower lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Superficial skin abrasion at right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Numbness radiating down posterior aspect of his left thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Difficulty in descending stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Diminished ability in lifting heavy weights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "dressing to right knee",
+      "oral analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "work hardening training (30 sessions)",
+      "attendance at Accident & Emergency departments",
+      "referral to orthopaedic clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General damages for pain, suffering and loss of amenities for mild soft tissue contusion to low back and abrasion to right knee (PSLA awarded)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earnings from 12 September 2005 to 28 November 2006 totalling $156,009.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Special damages for medical and related expenses totalling $8,425.00 (medical expenses, travelling, vitamin/food supplement)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Mei Hing and Another v Lam Kok Heng",
+        "neutral_citation": null,
+        "action_number": "HCPI 786/2004",
+        "injury_description": "Traffic accident with bilateral knee pain and back pain; no meniscal or neurological defects; MRI showed annular tear and disc bulge at L5-S1; award HK$200,000.00",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Wong Shuk Lei v Leung Ming Kwong",
+        "neutral_citation": null,
+        "action_number": "DCPI 560/2005",
+        "injury_description": "Low back pain with substantially decreased range of motion; award HK$250,000.00",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v The Kowloon Motor Bus Company (1933) Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 755/2001",
+        "injury_description": "Tenderness at lumbar and sacral region and reduced movement of the back; award HK$150,000.00",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16459,
+      "output_tokens": 6696,
+      "reasoning_tokens": 5056,
+      "total_tokens": 23155
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 55862.44682595134,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16459,
+      "output_tokens": 6696,
+      "reasoning_tokens": 5056,
+      "total_tokens": 23155
+    },
+    "total_duration_ms": 55862.44682595134
+  }
+}

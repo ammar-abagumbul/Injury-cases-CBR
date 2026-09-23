@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 11",
+    "action_number": "DCPI 203/2001",
+    "case_name": "LAM CHIU v. POON TAT HING AND ANOTHER",
+    "judgment_date": "2002-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 62,
+    "age_at_trial": 63,
+    "occupation_before": "school bus driver",
+    "occupation_after": null,
+    "expected_occupation_after": "start his own business",
+    "salary_before": 7600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injury to his neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The Plaintiff sustained injury to his neck and head."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to his head",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The Plaintiff sustained injury to his neck and head."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual neurological deficit in his upper limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "there was no wasting of the muscle of the right upper limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He has an 8% impairment of the whole person (re-assessed to 5% after viewing videotape)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "spectacles were broken",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "hospitalised for 14 days",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "follow up treatment",
+      "bonesetter treatment (about 50 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from neck pain and related symptoms (PSLA awarded).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Difficulty in returning to driving; would have to change occupation to jobs like messenger, car-park attendant or deliveryman (as opined by PW2).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chiu Wing Sze Karby v. Chan Ying Wai and other",
+        "neutral_citation": null,
+        "action_number": "HCPI 616 of 1999",
+        "injury_description": "In that case, the plaintiff was admitted to hospital after the accident and was discharged. She was later readmitted and hospitalised for 10 days. She complained of continuing pain in the neck with occasional numbness of the right hand, and pain in the right gluteal region after walking for 5 minutes. She suffered 5% impairment of the whole person. On PSLA, she was awarded $100,000 for the whiplash and $50,000 for the lumbar injury.",
+        "hospitalisation_days": 10,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10894,
+      "output_tokens": 5731,
+      "reasoning_tokens": 4544,
+      "total_tokens": 16625
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33224.953427910805,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10894,
+      "output_tokens": 5731,
+      "reasoning_tokens": 4544,
+      "total_tokens": 16625
+    },
+    "total_duration_ms": 33224.953427910805
+  }
+}

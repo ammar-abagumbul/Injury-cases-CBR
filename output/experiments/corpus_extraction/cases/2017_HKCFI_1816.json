@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1816",
+    "action_number": "HCPI 1102/2015",
+    "case_name": "LI CHEUK LAM v. CHEUNG SUN TAI AND OTHERS",
+    "judgment_date": "2017-10-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 45,
+    "age_at_trial": 49,
+    "occupation_before": "self-employed container truck driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16350.0,
+    "salary_after": 12608.33,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury (or contusion) of his right knee (with pain, slight swelling, redness, decreased range of knee extension and flexion and uncomplicated by any open wounds, bony or ligament injuries) on 16 August 2013 but he had fully recovered certainly by 4 November 2013 if not well before then.",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "I would accept that the plaintiff suffered a soft tissue injury (or contusion) of his right knee (with pain, slight swelling, redness, decreased range of knee extension and flexion and uncomplicated by any open wounds, bony or ligament injuries) on 16 August 2013 but he had fully recovered certainly by 4 November 2013 if not well before then."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "redness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over medial joint line",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease extension/flexion because of pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "tramadol (stat on day of accident)",
+      "Panadol (prn)",
+      "orthopaedic clinic review at Tuen Mun Hospital",
+      "occupational therapy for work evaluation",
+      "home physiotherapy exercises taught"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 90,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 70000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12485,
+      "output_tokens": 3929,
+      "reasoning_tokens": 3008,
+      "total_tokens": 16414
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25231.83785378933,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12485,
+      "output_tokens": 3929,
+      "reasoning_tokens": 3008,
+      "total_tokens": 16414
+    },
+    "total_duration_ms": 25231.83785378933
+  }
+}

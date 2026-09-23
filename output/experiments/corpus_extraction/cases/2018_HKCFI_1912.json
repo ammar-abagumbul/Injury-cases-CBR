@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1912",
+    "action_number": "HCPI 232/2015",
+    "case_name": "BISHWAKARMA BHAKTA BAHADUR v. PACIFIC CROWN SECURITY SERVICES LTD AND ANOTHER",
+    "judgment_date": "2018-08-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general labourer (construction worker)",
+    "occupation_after": "security guard (since August 2015)",
+    "expected_occupation_after": null,
+    "salary_before": 27300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left tripod fracture injury",
+        "injury_type": "Temporary injury",
+        "body_part": "left face / orbital area",
+        "laterality": "left",
+        "source": [
+          "diagnosed to have suffered from left tripod fracture injury.",
+          "Left facial tripod fracture was eventually confirmed.",
+          "X-ray revealed that the fracture had healed up without a trace."
+        ],
+        "icd_code": "NA02.5",
+        "icd_description": "Fracture of zygoma"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "incomplete injury to the infra-orbital nerve",
+        "injury_type": "Permanent injury",
+        "body_part": "infra-orbital nerve (left)",
+        "laterality": "left",
+        "source": [
+          "this was compatible with the involvement of the infra-orbital nerve.",
+          "The symptoms of Bishwakarma were consistent with an incomplete injury to the infra-orbital nerve due to fracture orbital floor. This would amount to 2% impairment of the whole person and, given the lapse of time, should be regarded as permanent."
+        ],
+        "icd_code": "NA04.4",
+        "icd_description": "Injury of trigeminal nerve"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain, tenderness and numbness of the left facial tripod",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headache, and need to take painkillers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in chewing and biting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "sleep disturbance",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reduced sensation to light touch on the left face below the left eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild tenderness over the inferior orbit left side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "paresthesia, dysesthesia and diminished sensations in the upper lid and eyebrow",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no wound or loss of consciousness as a result of the fall",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of confidence and low self-esteem",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treated and discharged at Princess Margaret Hospital",
+      "referral to eye surgeon for further management",
+      "follow-up attendance at Princess Margaret Hospital and Tuen Mun Eye Clinic",
+      "attendance at Yuen Long Jockey Club General Outpatient Clinic",
+      "oral painkillers"
+    ],
+    "treatments_future": [
+      "further treatment for left face pain and numbness on a required basis (Dr Law's opinion)",
+      "oral painkillers once every 3 months (per Dr Law)",
+      "no further treatment recommended (per Dr Cheng and the neurological experts)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 607,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "loss of confidence and low self-esteem",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 230000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12533,
+      "output_tokens": 5769,
+      "reasoning_tokens": 4480,
+      "total_tokens": 18302
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42470.6690274179,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12533,
+      "output_tokens": 5769,
+      "reasoning_tokens": 4480,
+      "total_tokens": 18302
+    },
+    "total_duration_ms": 42470.6690274179
+  }
+}

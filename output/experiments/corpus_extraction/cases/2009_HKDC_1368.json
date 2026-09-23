@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 1368",
+    "action_number": "DCPI 344/2008",
+    "case_name": "MA SHUN HUNG v. CHUN WAI HK HOLDINGS LTD AND ANOTHER",
+    "judgment_date": "2009-05-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Director and shareholder of Grandly Enterprise Limited; employed by the same company as a sales manager",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 50000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury in his lower back as a result of the accident with damage to the muscles and the ligaments.",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back / lumbo-sacral spine",
+        "laterality": null,
+        "source": [
+          "both the Plaintiff\u0019s and the Defendants\u0019 medical experts agree that the Plaintiff has suffered soft tissue injury in his lower back as a result of the accident with damage to the muscles and the ligaments."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild degenerative changes in the Plaintiff\u0019s lumbo-sacral spine which are not caused by the accident.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbo-sacral spine",
+        "laterality": null,
+        "source": [
+          "There are mild degenerative changes in the Plaintiff\u0019s lumbo-sacral spine which are not caused by the accident."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual intermittent pain in his lower back occurring about once every 1 to 2 weeks.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain intensifies when the Plaintiff stands or walks for a longer period of time or carries heavy object.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to lift heavy objects, affecting daily activities including the enjoyment of sporting activities.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Recommendation of 3 days of sick leave after A&E attendance; treated and discharged same day.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment at Queen Elizabeth Hospital; treated and discharged same day",
+      "chiropractic treatment (6 sessions)",
+      "physiotherapy treatment (referred to Kowloon Hospital; attended until 10 September 2005 then defaulted)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Cannot lift heavy objects which would in turn affect his daily activities including the enjoyment of sporting activities.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Yuk Lan v Royaltelle International Ltd. t/a The Royal Garden",
+        "neutral_citation": null,
+        "action_number": "HCPI 187 of 1995 (decision of Beeson J on 5 August 1999)",
+        "injury_description": "lower back pain and restricted movements of spines or lower limbs",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14488,
+      "output_tokens": 4829,
+      "reasoning_tokens": 3648,
+      "total_tokens": 19317
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22724.02349114418,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14488,
+      "output_tokens": 4829,
+      "reasoning_tokens": 3648,
+      "total_tokens": 19317
+    },
+    "total_duration_ms": 22724.02349114418
+  }
+}

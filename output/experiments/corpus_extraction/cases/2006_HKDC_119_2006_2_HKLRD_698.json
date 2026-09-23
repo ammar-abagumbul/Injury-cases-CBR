@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 119; [2006] 2 HKLRD 698",
+    "action_number": "DCPI388/2003",
+    "case_name": "HUNG SHING KUN v. YEUNG CHI MING AND ANOTHER",
+    "judgment_date": "2006-05-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 59,
+    "occupation_before": "carpenter",
+    "occupation_after": null,
+    "expected_occupation_after": "caretaker",
+    "salary_before": 18000.0,
+    "salary_after": null,
+    "expected_salary_after": 6500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right facial laceration",
+        "injury_type": "Temporary injury",
+        "body_part": "face",
+        "laterality": "right",
+        "source": [
+          "Physical examination revealed right facial laceration and left parietal scalp haematoma."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left parietal scalp haematoma",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal scalp",
+        "laterality": "left",
+        "source": [
+          "Physical examination revealed right facial laceration and left parietal scalp haematoma.",
+          "upon physical examination, Mr. Hung suffered from facial laceration and left parietal scalp haematoma."
+        ],
+        "icd_code": "NA00.01",
+        "icd_description": "Contusion of scalp"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "minor head injury / concussion with persistent postconcussional syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "This gentleman was assaulted by people using mobile phone hitting over the head on 2 October 2001.",
+          "Professor Poon concluded that Mr. Hung had a minor head injury on 2 October 2001.",
+          "Mr. Hung also suffered from persistent postconcussional syndrome with headache and dizziness that require regular medication"
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "gross deficit of muscle group of left upper limb with motor power grade 2/5",
+        "injury_type": "Residual disability",
+        "body_part": "left upper limb",
+        "laterality": "left",
+        "source": [
+          "Upon examination, doctors found the muscle group on his left upper limb to be grossly deficit with grade 2/5 which meant his motor power was not sufficient for anti-gravity activities."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "transient loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "persistent headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "episodic loss of consciousness / blackouts",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "not able to hold a bowl and chopsticks",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "weakness over the left side of his body",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of the facial laceration",
+      "admitted into the Neurological Ward for observation",
+      "neurosurgery outpatient follow-up treatments at the Prince of Wales Hospital",
+      "occupational therapy sessions at Nethersole Hospital",
+      "attended the outpatient clinic of Tuen Mun Hospital for treatment of loss of consciousness and dizziness",
+      "prescribed the drug stemitil for his dizziness"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 12,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "not able to hold a bowl and chopsticks",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "his present status being prone to fainting spells, losing consciousness and dizziness would make him unsuitable to work at a construction site",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "impairment of memory / impaired memory and concentration",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "facial laceration and left parietal scalp haematoma",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Yuk Sim v. Wong Yuk Chun",
+        "neutral_citation": null,
+        "action_number": "DCPI 107/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Wong Siu Shan v. Tsang Hin Sum",
+        "neutral_citation": null,
+        "action_number": "DCPI 181/2002",
+        "injury_description": "laceration on his head, arm and leg from the assault, resulted in headache, dizziness, fatigue, irritability, impairment of memory, insomnia, reduced tolerance to stress and emotional excitement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Ng Ka Ho v. Yeung Kwok Leung",
+        "neutral_citation": null,
+        "action_number": "DCPI 28/2004",
+        "injury_description": "head injury with a loss of consciousness and further minor injury at the right knee with no fracture",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Tong Lin Keung v. Wong Chi Leung",
+        "neutral_citation": null,
+        "action_number": "HCPI 789/1996",
+        "injury_description": "neck injury, suffered from disturbance to his balancing system, post-concussion syndrome, loss of memory and mood change",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Mak Hung Yin v. Tsang Kuen Chung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1038/1997",
+        "injury_description": "head injury resulting in mild impairment (5%) of memory and concentration",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18000,
+      "output_tokens": 8773,
+      "reasoning_tokens": 6592,
+      "total_tokens": 26773
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52564.48916345835,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18000,
+      "output_tokens": 8773,
+      "reasoning_tokens": 6592,
+      "total_tokens": 26773
+    },
+    "total_duration_ms": 52564.48916345835
+  }
+}

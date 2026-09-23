@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 626",
+    "action_number": "HCPI 106/2001",
+    "case_name": "YEUNG LAI HUNG v. NG BING T/A SUN FAT RESTAURANT",
+    "judgment_date": "2002-07-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "clerical and accountancy work",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5750.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "completed her secondary education in Yunnan"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right loin contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "right loin",
+        "laterality": "right",
+        "source": [
+          "There was a preliminary diagnosis of \"right loin contusion\"."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Soft tissue injury of the cervical spine (whiplash-type)",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "his view of this is that the plaintiff sustained a whiplash-type of injury in the course of her fall.",
+          "The result has been soft tissue injury of the cervical spine."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Contusion of back without actual bony damage",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "a contusion of back without actual bony damage could recover in a few weeks' time."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right loin pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "microscopic amount of red blood cells in urine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild reduction of normal cervical lordosis at the lower cervical spine at C5-6 level",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent pain and symptoms continuing for over four years after the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "traditional bonesetter",
+      "medical consultation",
+      "X-ray",
+      "MRI scan",
+      "physiotherapy",
+      "occupational therapy",
+      "acupuncture"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 265,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 130000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17749,
+      "output_tokens": 6203,
+      "reasoning_tokens": 5056,
+      "total_tokens": 23952
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32934.29473042488,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17749,
+      "output_tokens": 6203,
+      "reasoning_tokens": 5056,
+      "total_tokens": 23952
+    },
+    "total_duration_ms": 32934.29473042488
+  }
+}

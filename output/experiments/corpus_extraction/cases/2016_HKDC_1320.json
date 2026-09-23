@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 1320",
+    "action_number": "DCEC 1612/2012; DCPI 660/2013",
+    "case_name": "CHAN KAI MAN v. BAIQIAN INTERNATIONAL HOLDING LTD",
+    "judgment_date": "2016-10-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": 59,
+    "occupation_before": "Hong Kong–China cross-border lorry driver",
+    "occupation_after": "Local driver (later cross-border driver with Uni-Link Logistics Ltd.)",
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": "Primary school (up to level 5)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his low back (back sprain)",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "soft tissue injury to his low back",
+          "back sprain resulting in residual pain"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness on his right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness and stiffness over the 2nd and 3rd lumbar paraspinal muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "markedly limited range of spinal movement in flexion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right buttock numbness on prolonged sitting",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased sensation over the whole right foot with preserved power",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "consultation at Hui Kok Yin Bone Injuries Clinic (bonesetter)",
+      "Accident & Emergency Department treatment (Queen Mary Hospital)",
+      "physiotherapy",
+      "oral analgesics"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 18,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 33749,
+      "output_tokens": 2246,
+      "reasoning_tokens": 1600,
+      "total_tokens": 35995
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 18308.149933815002,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 33749,
+      "output_tokens": 2246,
+      "reasoning_tokens": 1600,
+      "total_tokens": 35995
+    },
+    "total_duration_ms": 18308.149933815002
+  }
+}

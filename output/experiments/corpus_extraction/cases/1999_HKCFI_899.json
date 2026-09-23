@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 899",
+    "action_number": "HCPI 1189/1997",
+    "case_name": "CHENG YUK LIN v. UNIPRO LTD T/A BLUE SKY BALLROOM",
+    "judgment_date": "1999-08-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "waitress at the defendant's nightclub/karaoke in Yaumatei",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary 6"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of the lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "He found that it was likely she had sustained a soft tissue injury of the lower back."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "signs that suggested a condition called tethered spinal cord syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "spinal cord / lower back",
+        "laterality": null,
+        "source": [
+          "There were signs that suggested a condition called tethered spinal cord syndrome."
+        ],
+        "icd_code": "NB6Z",
+        "icd_description": "Injury of spinal cord at abdomen, lower back or pelvis level, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "complained of pain on both sides of her back after walking for half an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "experienced pain after sitting or standing for half an hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could only carry weights up to 5 kg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "felt pain in her back with changes in the weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had not complained of walking up stairs; nor of morning pain; nor complained of radiating symptoms to her lower limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "gait was normal",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "straight leg raising (SLR) test was within the normal range",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of motion in flexion and extension was within the normal range",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle power of both lower limbs were found to be within normal range",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalized at the Queen Elizabeth Hospital",
+      "treated conservatively with drugs",
+      "physiotherapy (out-patient treatment at orthopaedic clinic until about July 1996)",
+      "MRI performed on 1995-08-21",
+      "treated with a further course of non-steroidal anti-inflammatory drugs",
+      "treated by a chiropractor for lower back pain",
+      "physiotherapy treatment at Prince of Wales Hospital about 29 times"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA $250,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earnings (past) $140,504.85 and Loss of future earnings (post-assessment) $82,173.96; plaintiff suffered a 5% loss of earning capacity as found by Dr Chiang",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "some reduction in capacity on occasions when handling heavy objects is required",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Ching v Wong Chiu Kwai (t/a Wing Lai)",
+        "neutral_citation": null,
+        "action_number": "PI No.1192 of 1996",
+        "injury_description": "prolapsed disc at the L4-5 level with compression of the nerve root; there was a finding of 24% total impairment of the whole man, and a 35% loss of earning capacity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ho Chi Ming v Union Rife Hong Kong Ltd",
+        "neutral_citation": null,
+        "action_number": "PI No.1204 of 1996",
+        "injury_description": "the 4th lumbar was fractured and had burst, and inflammation of the arachnoid membrane had set in",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10236,
+      "output_tokens": 5510,
+      "reasoning_tokens": 3904,
+      "total_tokens": 15746
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47036.47434711456,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10236,
+      "output_tokens": 5510,
+      "reasoning_tokens": 3904,
+      "total_tokens": 15746
+    },
+    "total_duration_ms": 47036.47434711456
+  }
+}

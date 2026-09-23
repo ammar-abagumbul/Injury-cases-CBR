@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 1167; [2000] 3 HKLRD 241",
+    "action_number": "HCPI 550/1995",
+    "case_name": "SO CHUNG KWONG v. HO KUEN T/A BRILLIANT DESIGN AND DECORATION CO. AND ANOTHER",
+    "judgment_date": "2000-03-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 43,
+    "age_at_trial": 50,
+    "occupation_before": "carpentry (carpenter); also worked as a cleaner",
+    "occupation_after": "painter-decorator (also worked as watchman and painter)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a prolapsed invertebral disc of L4-5 lumber spine.",
+        "injury_type": "Permanent injury",
+        "body_part": "L4-5 lumber spine",
+        "laterality": null,
+        "source": [
+          "a prolapsed invertebral disc of L4-5 lumber spine."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "sudden sharp pain in his lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain spreading down from his back to his legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left with a residual stiffness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "still suffers from back pain if forced to sit for lengthy periods or if he over-indulges in strenuous activity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanent disability assessed at 10%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "risk if he were to attempt to lift weights in excess of 30 lbs (14 kgs) or engage in heavy labour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of earning capacity assessed at 20%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital admission for observation and conservative treatment",
+      "CT scan",
+      "surgery"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Permanently put paid to his returning to carpentry; can no longer work as a carpenter",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 320000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Wah Wai v. Castle Tasting Centre Limited",
+        "neutral_citation": null,
+        "action_number": "PI 1995/422",
+        "injury_description": "similar though slightly more severe back injury than Mr So's",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12129,
+      "output_tokens": 4380,
+      "reasoning_tokens": 3328,
+      "total_tokens": 16509
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26156.812582165003,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12129,
+      "output_tokens": 4380,
+      "reasoning_tokens": 3328,
+      "total_tokens": 16509
+    },
+    "total_duration_ms": 26156.812582165003
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1535",
+    "action_number": "HCPI 854/1995",
+    "case_name": "MAN SAI KUN v. LEUNG KIT KEE METAL WORKS AND OTHERS",
+    "judgment_date": "1999-11-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 49,
+    "occupation_before": "casual metal worker",
+    "occupation_after": "car park attendant",
+    "expected_occupation_after": "watchman",
+    "salary_before": 15000.0,
+    "salary_after": 5200.0,
+    "expected_salary_after": 7500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to lower back / back spine",
+        "injury_type": "Residual disability",
+        "body_part": "back spine (lower back)",
+        "laterality": null,
+        "source": [
+          "Sprained back when lifting heavy object at a construction site.",
+          "Back pain after lifting heavy weight on 28th August 1992.",
+          "The back spine."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe pain in his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe pain in his right leg (below the knee and above the ankle / right calf)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sensory disturbance",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Disabled from working",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment",
+      "hospital treatment",
+      "rehabilitation",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 22,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, Suffering and Loss of Amenity (PSLA)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Disabled from working",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 248857.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16826,
+      "output_tokens": 4285,
+      "reasoning_tokens": 3456,
+      "total_tokens": 21111
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35462.38177642226,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16826,
+      "output_tokens": 4285,
+      "reasoning_tokens": 3456,
+      "total_tokens": 21111
+    },
+    "total_duration_ms": 35462.38177642226
+  }
+}

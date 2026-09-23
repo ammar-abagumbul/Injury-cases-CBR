@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 676",
+    "action_number": "DCPI 118/2012",
+    "case_name": "DAYAWON FE BATIANCILA v. CHIEN CHI TOEPKER",
+    "judgment_date": "2013-06-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 37,
+    "age_at_trial": null,
+    "occupation_before": "domestic helper",
+    "occupation_after": "domestic helper",
+    "expected_occupation_after": null,
+    "salary_before": 3580.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right shoulder contusion / right shoulder injury",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was right shoulder and back injuries.",
+          "Diagnosis was shoulder and back contusion."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back contusion / back injury (lower back)",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "The diagnosis was right shoulder and back injuries.",
+          "Diagnosis was shoulder and back contusion."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness on right shoulder radiated to her neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty changing position in bed and getting up from bed",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulties in prolonged walking and standing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in holding pen or pencil to write",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "redness and tenderness, pain and limitation on motion of her shoulder and back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diminished power over right leg due to back pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "bruise over the lower back and the right upper back, both with tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "50% sensation deficit over her right upper and lower limbs (noted on physiotherapy assessment)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Waddell signs / evidence of symptom exaggeration observed by clinicians",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "hospitalisation",
+      "A&E attendance",
+      "Orthopaedics & Traumatology Department treatment",
+      "walking frame / walking stick prescription",
+      "Interferential Therapy",
+      "Hot Pack",
+      "physiotherapy sessions (two)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 210,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty in prolonged walking and standing",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty changing position in bed and getting up from bed; difficulty in holding pen or pencil to write",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Limited range of motion of right shoulder and persistent right shoulder pain",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Kin Hing v Chan Wai Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 1223/2006",
+        "injury_description": "Injuries to head, neck and right leg; simple contusion; neck pain and related headache ceased after 2 months.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      },
+      {
+        "case_name": "Limbu Dharamaraj v ISS Adams Secuforce Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 1568/2011",
+        "injury_description": "Soft tissue injury to right shoulder, back and ankle; treated conservatively with physiotherapy; one year sick leave was granted.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Ahmed Masood v Chung Kau Engineering Company Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 517/2003",
+        "injury_description": "Mild back sprain as a result of slip and fall; treated conservatively and received physiotherapy; sick leave about 5 months; residual pain and stiffness.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Ng Lai Fan Fanny v The Hong Kong Golf Club",
+        "neutral_citation": null,
+        "action_number": "HCPI 511/2005",
+        "injury_description": "Slipped and fell while descending a staircase; tenderness over the thoracic and low back regions with no neurological deficits; hospitalized for 8 days; persistent back pain.",
+        "hospitalisation_days": 8,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22049,
+      "output_tokens": 5860,
+      "reasoning_tokens": 4032,
+      "total_tokens": 27909
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42738.35388198495,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22049,
+      "output_tokens": 5860,
+      "reasoning_tokens": 4032,
+      "total_tokens": 27909
+    },
+    "total_duration_ms": 42738.35388198495
+  }
+}

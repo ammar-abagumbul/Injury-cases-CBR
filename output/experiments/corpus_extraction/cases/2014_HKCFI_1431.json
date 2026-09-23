@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1431",
+    "action_number": "HCPI 910/2011",
+    "case_name": "SO LOY HING v. THE KOWLOON MOTOR BUS CO (1933) LTD",
+    "judgment_date": "2014-08-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "light goods vehicle driver",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard or petrol station attendant",
+    "salary_before": 7250.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue contusion injury over his buttocks and possibly some soft tissue back sprain injury",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "the plaintiff sustained low back injury",
+          "soft tissue contusion injury over his buttocks and possibly some soft tissue back sprain injury"
+        ],
+        "icd_code": "NB96",
+        "icd_description": "Other multiple injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue contusion injury over his buttocks",
+        "injury_type": "Residual disability",
+        "body_part": "right buttock",
+        "laterality": "right",
+        "source": [
+          "tenderness over the right hip",
+          "soft tissue contusion injury over his buttocks and possibly some soft tissue back sprain injury"
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness to his legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right thigh numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not walk, stand or sit for more than 20 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping gait",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "50% reduced sensation over the whole right lower limb (subjective)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "urinary incontinence (alleged by plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "physiotherapy",
+      "occupational therapy",
+      "analgesics",
+      "private physiotherapy",
+      "PRC MRI (private MRI in PRC)",
+      "referral to Urology Department",
+      "referral to Pain Management Clinic",
+      "recommendation for epidural injection (declined)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could no longer engage in swimming, cycling and playing basketball which he had formerly enjoyed",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 130000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Sau Keung v Maxcredit Engineering Ltd & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 530/2001",
+        "injury_description": "soft tissue injuries and contusion to the back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Yeung Tai Hung v Hong Kong Baptist Hospital Au Shue Hung Health Centre",
+        "neutral_citation": null,
+        "action_number": "HCPI 686/2004",
+        "injury_description": "soft tissue injuries and contusion to the back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Wong Chui Wa v Ng Yuk Chun",
+        "neutral_citation": null,
+        "action_number": "HCPI 258/1999",
+        "injury_description": "minor buttock and back soft tissue contusion injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 30000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 32168,
+      "output_tokens": 5142,
+      "reasoning_tokens": 3712,
+      "total_tokens": 37310
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30464.881617575884,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 32168,
+      "output_tokens": 5142,
+      "reasoning_tokens": 3712,
+      "total_tokens": 37310
+    },
+    "total_duration_ms": 30464.881617575884
+  }
+}

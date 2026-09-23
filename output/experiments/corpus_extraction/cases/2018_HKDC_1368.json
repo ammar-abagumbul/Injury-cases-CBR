@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1368",
+    "action_number": "DCPI 1307/2016",
+    "case_name": "FUNG LAI KWAN v. HOSPITAL AUTHORITY",
+    "judgment_date": "2018-11-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 57,
+    "age_at_trial": 61,
+    "occupation_before": "Healthcare Assistant (employed since 26 February 1996 until retirement on 1 January 2017)",
+    "occupation_after": "Part-time waitress (earning $50 per hour at time of trial)",
+    "expected_occupation_after": "personal care assistant IIIA",
+    "salary_before": 17953.87,
+    "salary_after": null,
+    "expected_salary_after": 14500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "she sustained injuries to her lower back, right wrist and right leg.",
+          "1) The diagnosis of the plaintiff is back sprain;"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right shoulder injury",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "On 18 June 2006, the plaintiff suffered a right shoulder injury (\"Pre-Accident Injury\")."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to back and left wrist",
+        "injury_type": "Residual disability",
+        "body_part": "back and left wrist",
+        "laterality": "left",
+        "source": [
+          "On 12 July 2016, she injured her back and left wrist (\"Post-Accident Injuries\")."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right wrist pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right posterior scapular pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "supination on the right wrist 5 degrees less compared to the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "walked with a normal gait",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "positive Waddell's Signs on pelvic rotation and arm elevation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "moderate pre-existing degenerative changes of lumbar spondylosis and narrowing of disc spaces of the lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "rest",
+      "medication",
+      "physiotherapy",
+      "chiropractor (17 visits)",
+      "attendance at Dr Lau's clinic (fees not allowed for tendinitis; attendance for back pain noted)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 45,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Wa Lai v Startlong Development Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 624/2003",
+        "injury_description": "back sprain; assessed to be suffering a 3.5% or 5% permanent impairment to the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 170000.0
+      },
+      {
+        "case_name": "Chan Shui Fong v The Executive Committee of the Alice Ho Miu Ling Nethersole Hospital and another",
+        "neutral_citation": null,
+        "action_number": "DCPI 874/2007",
+        "injury_description": "back sprain; the judge found the plaintiff to be suffering a 1% permanent impairment to the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 2,
+        "comparison": "less serious",
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14595,
+      "output_tokens": 5921,
+      "reasoning_tokens": 4480,
+      "total_tokens": 20516
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44011.51022687554,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14595,
+      "output_tokens": 5921,
+      "reasoning_tokens": 4480,
+      "total_tokens": 20516
+    },
+    "total_duration_ms": 44011.51022687554
+  }
+}

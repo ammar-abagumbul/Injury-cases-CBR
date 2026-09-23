@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 188",
+    "action_number": "HCPI 245/2006",
+    "case_name": "LAU KWOK CHIU v. SENFIELD LTD T/A TSUI WAH RESTAURANT",
+    "judgment_date": "2007-03-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "watch assembler",
+    "occupation_after": "watch assembler",
+    "expected_occupation_after": null,
+    "salary_before": 8800.0,
+    "salary_after": 8800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "dislocated right shoulder and fractured right shoulder joint.",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "dislocated right shoulder and fractured right shoulder joint.",
+          "dislocation of right shoulder with fractured glenoid"
+        ],
+        "icd_code": "NC19",
+        "icd_description": "Multiple injuries of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a Hill Sach lesion over the humeral head was found.",
+        "injury_type": "Residual disability",
+        "body_part": "right humeral head",
+        "laterality": "right",
+        "source": [
+          "a Hill Sach lesion over the humeral head was found."
+        ],
+        "icd_code": "NC12.20",
+        "icd_description": "Fracture of upper end of humerus, head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "recurrent right shoulder instability",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder (instability)",
+        "laterality": "right",
+        "source": [
+          "recurrent right shoulder instability"
+        ],
+        "icd_code": "NC13.0",
+        "icd_description": "Dislocation of shoulder joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and discomfort in his right shoulder which is affecting his daily life and his work.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in range of movement and power in the right shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impingement and Howkin\u0019s signs were positive on the right side.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has to sleep with a pillow under his arm.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease range of motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "closed reduction",
+      "immobilizer (provided but only worn for a short period)",
+      "analgesics",
+      "physiotherapy (advised; poor compliance)",
+      "CT scan",
+      "conservative treatment"
+    ],
+    "treatments_future": [
+      "arthroscopy of shoulder (suggested)",
+      "surgical stabilization (recommended)"
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 22,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17221,
+      "output_tokens": 5311,
+      "reasoning_tokens": 4160,
+      "total_tokens": 22532
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29822.933577001095,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17221,
+      "output_tokens": 5311,
+      "reasoning_tokens": 4160,
+      "total_tokens": 22532
+    },
+    "total_duration_ms": 29822.933577001095
+  }
+}

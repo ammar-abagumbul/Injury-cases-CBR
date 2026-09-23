@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "neutral_citation": "YEUNG LOK SZE v. HONG YIP SERVICE CO LTD [2008] HKCFI 552",
+    "action_number": "HCPI 12/2007",
+    "case_name": "YEUNG LOK SZE v. HONG YIP SERVICE CO LTD",
+    "judgment_date": "2008-07-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Recreation Assistant (clubhouse, Hanford Garden)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 8100.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "coccyx injury",
+        "injury_type": "Residual disability",
+        "body_part": "coccyx",
+        "laterality": null,
+        "source": [
+          "diagnosis was coccyx injury which was compatible with blunt trauma."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "disc protrusions at L4/5 and L5/S1 levels (lumbar)",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "The MRI scan and reports suggested disc protrusions at both L4/5 and L5/S1 levels."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "psychiatric condition (Adjustment Disorder with Depressive Mood / Moderate Depressive Episode)",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/psychological",
+        "laterality": null,
+        "source": [
+          "diagnosed to have Moderate Depressive Episode",
+          "the Adjustment Disorder with Depressive Mood"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "could not move (in so much pain) immediately after the fall",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain radiating down her left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "irritable mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of interest and energy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pessimistic thoughts",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "limitation in mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to return to work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance to A&E of Tuen Mun Hospital; x-ray; treated and discharged",
+      "Physiotherapy (referred to Physiotherapy Department of Tuen Mun Hospital and Queen Elizabeth Hospital)",
+      "Treatment by private doctors and a bonesetter in 2005",
+      "Psychiatric treatment at East Kowloon Psychiatric Centre / public sector since February 2007"
+    ],
+    "treatments_future": [
+      "further physiotherapy and occupational therapy for about six months",
+      "further psychiatric treatment (medication) for 1 to 2 years",
+      "psychotherapy: a course of 12 sessions (private clinical psychologist recommended)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "limitation in mobility",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "inability to return to her pre-accident job / reduction in efficiency and endurance",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Kam Wah v. Wing & Kwong Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1131/2002",
+        "injury_description": "orthopaedic and psychiatric conditions which are very similar to those conditions and disabilities suffered by the present plaintiff.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14683,
+      "output_tokens": 5462,
+      "reasoning_tokens": 4288,
+      "total_tokens": 20145
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30680.88426068425,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14683,
+      "output_tokens": 5462,
+      "reasoning_tokens": 4288,
+      "total_tokens": 20145
+    },
+    "total_duration_ms": 30680.88426068425
+  }
+}

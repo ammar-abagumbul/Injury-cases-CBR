@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 699",
+    "action_number": "HCPI 869/2001",
+    "case_name": "TSANG HING CHEUNG v. CHAN PO LING STELLA AND OTHERS",
+    "judgment_date": "2002-11-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 42,
+    "age_at_trial": null,
+    "occupation_before": "electrician",
+    "occupation_after": "light-duty electrician; wall-painter; light electrical worker; employed by MTR; worked at science park",
+    "expected_occupation_after": null,
+    "salary_before": 9869.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to the plaintiff's dominant/right hand",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "the injury to the plaintiff was to his the dominant hand",
+          "The plaintiff's right hand achieved with lifting force of 19 kg, carrying force of 19 kg, pushing force of 85 kg and pulling force of 80 kg at the final physical and work tolerance evaluation on 26 November 2000."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Reduced lifting, carrying, pushing and pulling force in right hand: lifting 19 kg, carrying 19 kg, pushing 85 kg, pulling 80 kg (final physical and work tolerance evaluation on 26 November 2000).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Final physical and work tolerance evaluation on 26 November 2000",
+      "Sick leave from 1998-11-14 to 1999-12-01"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 382,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities assessed at $250,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Past loss of earnings assessed at $123,363.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "Special damages and tonic food assessed at $11,320 (medical expenses $6,320 and tonic food $5,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16833,
+      "output_tokens": 4297,
+      "reasoning_tokens": 3456,
+      "total_tokens": 21130
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36926.016855984926,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16833,
+      "output_tokens": 4297,
+      "reasoning_tokens": 3456,
+      "total_tokens": 21130
+    },
+    "total_duration_ms": 36926.016855984926
+  }
+}

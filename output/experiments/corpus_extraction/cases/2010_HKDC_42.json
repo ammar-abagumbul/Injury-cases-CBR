@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 42",
+    "action_number": "DCPI 1846/2008",
+    "case_name": "LAU CHI KEUNG v. WONG WAI KEI AND ANOTHER",
+    "judgment_date": "2010-03-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "waterproof engineering worker",
+    "occupation_after": null,
+    "expected_occupation_after": "able to resume his pre-accident occupation as a waterproof engineering worker in almost full capacity",
+    "salary_before": 17300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue contusion injury to the dorsum of his right foot.",
+        "injury_type": "Residual disability",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "I accept the joint medical opinion of Dr. Hung and Dr. Lam that the Plaintiff sustained a soft tissue contusion injury to the dorsum of his right foot."
+        ],
+        "icd_code": "ND11.8",
+        "icd_description": "Contusion of other or unspecified parts of foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild adjustment disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "I am prepared to give him the benefit of doubt by finding that he does suffer from a mild adjustment disorder as a result of the Accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "osteochondritis of navicular bony spur in both feet; accessory navicular in the right foot; benign bony spur protruding from the superolateral part of his medial cuneiform bone",
+        "injury_type": "Permanent injury",
+        "body_part": "both feet",
+        "laterality": "bilateral",
+        "source": [
+          "Radiological examination of both feet showed osteochondritis of navicular bony spur in both feet. There was an accessory navicular in the right foot.",
+          "X-rays of his right foot did not show any fracture or dislocation. However, apparent 5-8 mm nodular bony density with surrounding radiolucent “ring” was present over the superolateral corner of the navicular bone, suggesting changes of osteochondritis. Benign bony spur was also seen protruding from the superolateral part of his medial cuneiform bone."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right foot pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling over the dorsum of his right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness of right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neuropathic pain of right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can walk unaided for short distance; needs a stick for long distance walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "irritable mood / occasional irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "low mood / hopelessness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "problem in his sex life (reported)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "non-steroidal anti-inflammatory drug",
+      "medication (conservative)",
+      "physiotherapy",
+      "occupational therapy",
+      "superficial and deep peroneal nerve block",
+      "referral to Pain Clinic",
+      "acupuncture therapy (from pain clinic)",
+      "antidepressant (sertraline 25mg daily)",
+      "zopiclone 7.5mg bedtime prn",
+      "psychological support",
+      "referral to clinical psychologist"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fung Tak Yau v Chow Wah Tim",
+        "neutral_citation": null,
+        "action_number": "HCPI No.973 of 2006",
+        "injury_description": "physical injuries to the dorsum of the Plaintiff’s right foot are closely similar that involved in the Fung Tak Yau case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12281,
+      "output_tokens": 6109,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18390
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34850.336726754904,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12281,
+      "output_tokens": 6109,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18390
+    },
+    "total_duration_ms": 34850.336726754904
+  }
+}

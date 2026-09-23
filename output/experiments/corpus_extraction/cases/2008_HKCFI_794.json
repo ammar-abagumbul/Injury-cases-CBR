@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 794",
+    "action_number": "HCPI 659/2007",
+    "case_name": "TAMANG RABICHANDRA v. VSL SWC (A FIRM) AND ANOTHER",
+    "judgment_date": "2008-09-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "worked in the construction industry doing various manual jobs: rigger, ceiling panel fitter and scaffolder",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13500.0,
+    "salary_after": 11500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "hit on the lower back by a beam. This caused damage to his lower back and the surrounding area.",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "hit on the lower back by a beam. This caused damage to his lower back and the surrounding area."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "L5 spondylolysis",
+        "injury_type": "Residual disability",
+        "body_part": "L5 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "L5 spondylolysis"
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild decrease in L4/5 disc space",
+        "injury_type": "Residual disability",
+        "body_part": "L4/5 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "mild decrease in L4/5 disc space"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "loss of signal intensity at L3/4, L4/5 and L5/S1 are features of dehydration/degeneration",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L3/4, L4/5, L5/S1)",
+        "laterality": null,
+        "source": [
+          "loss of signal intensity at L3/4, L4/5 and L5/S1 are features of dehydration/degeneration"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "L5/S1 disc has circumferential disc bulge but no definite protrusion",
+        "injury_type": "Residual disability",
+        "body_part": "L5/S1 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "L5/S1 disc has circumferential disc bulge but no definite protrusion"
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain when walking, particularly upstairs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "cannot sit or stand for long periods without pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "sometimes he wakes at night (discomfort at night)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain precipitated by back movement, aggravated by bending forward",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "gradual, but not marked, restricted movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of normal lordosis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "lack of mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "massage",
+      "Chinese medicine",
+      "Accident and Emergency Department visits",
+      "Orthopaedic Department consultations",
+      "joint medical examination (28 June 2006)",
+      "MRI scan (6 March 2007)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "pain when walking, particularly upstairs; cannot sit or stand for long periods without pain",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "unable to work in the construction industry carrying out heavy manual jobs and cannot work as a security guard; has not worked since the accident",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15901,
+      "output_tokens": 8900,
+      "reasoning_tokens": 7232,
+      "total_tokens": 24801
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49563.504222780466,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15901,
+      "output_tokens": 8900,
+      "reasoning_tokens": 7232,
+      "total_tokens": 24801
+    },
+    "total_duration_ms": 49563.504222780466
+  }
+}

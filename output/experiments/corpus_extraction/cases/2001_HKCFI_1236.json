@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 1236",
+    "action_number": "HCPI 646/2000",
+    "case_name": "NG TAT PING v. CHO SHUI LEUNG T/A FU KEUNG ENGINEER CO.",
+    "judgment_date": "2001-06-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 23,
+    "age_at_trial": 26,
+    "occupation_before": "electrician apprentice",
+    "occupation_after": "electrician",
+    "expected_occupation_after": null,
+    "salary_before": 9150.0,
+    "salary_after": 10400.0,
+    "expected_salary_after": null,
+    "education_level": "studied up to Form 3 in the mainland"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "1 cm laceration on left middle finger with 2 tendons cut partially",
+        "injury_type": "Residual disability",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "The doctor found a 1 cm laceration on his left middle finger with 2 tendons cut partially.",
+          "He had two 'L' shape scars remaining on his proximal phalanges of his middle and ring finger."
+        ],
+        "icd_code": "NC57.6",
+        "icd_description": "Injury of multiple flexor muscles or tendons at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "1.5 cm laceration on left ring finger with 2 tendons thereat completely severed; repaired tendon ruptured and required further repair",
+        "injury_type": "Residual disability",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "On his left ring finger was a 1.5 cm laceration with 2 tendons thereat completely severed.",
+          "He was re-admitted into the hospital for another tendon repair operation."
+        ],
+        "icd_code": "NC57.6",
+        "icd_description": "Injury of multiple flexor muscles or tendons at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of active flexion of the ring finger at the distal interphalangeal joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impaired flexion of his ring finger and a mild impairment in the extension of his middle finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hand grip was found to be of 66% of the strength of his right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "not able to hold a complete fist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "felt stiffness in his 2 injured fingers when he needed to reflex or extend them",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "would feel pain if he was required to lift heavy object",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "slight shortening of his left ring finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "two 'L' shape scars remaining on his proximal phalanges of his middle and ring finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a moderate decrease in power in his right hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "tendon repair operation",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of mild flexion and extension power of left middle and ring finger; decreased left hand grip; residual scarring and slight shortening of left ring finger affecting hand function",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The plaintiff used to enjoy playing basketball. After the accident he no longer played the game.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Chun Wang",
+        "neutral_citation": null,
+        "action_number": "HCPI-644 of 1998",
+        "injury_description": "hand injuries of a greater severity (cited as having parity)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10283,
+      "output_tokens": 6238,
+      "reasoning_tokens": 4800,
+      "total_tokens": 16521
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43449.558574706316,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10283,
+      "output_tokens": 6238,
+      "reasoning_tokens": 4800,
+      "total_tokens": 16521
+    },
+    "total_duration_ms": 43449.558574706316
+  }
+}

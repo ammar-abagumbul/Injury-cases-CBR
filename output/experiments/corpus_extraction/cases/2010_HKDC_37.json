@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 37",
+    "action_number": "DCPI 44/2009",
+    "case_name": "CHEUNG YUET HAR v. FORCE TEAM LIMITED T/A HOI TIN (ASIA) HARBOUR RESTAURANT",
+    "judgment_date": "2010-02-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 72,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured neck of the left femur",
+        "injury_type": "Permanent injury",
+        "body_part": "left femur (neck)",
+        "laterality": "left",
+        "source": [
+          "As a result of the accident, Cheung suffered a fractured neck of the left femur."
+        ],
+        "icd_code": "NC72.2Z",
+        "icd_description": "Fracture of neck of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing osteoporosis",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The experts agreed that Cheung has pre-existing osteoporosis."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual left hip and thigh pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower limb weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower limb weakness and stiffness would persist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would need walking aid for outdoor walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walks with a cane",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in prolonged walking and wearing socks",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not perform heavy household duties",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "need for assistance in walking, squatting and bending down",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgery",
+      "physiotherapy",
+      "hospitalisation (admitted by ambulance)"
+    ],
+    "treatments_future": [
+      "further care and medication"
+    ],
+    "hospitalisation_days": 30,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "fractured neck of the left femur",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "lower limb weakness and stiffness; would need walking aid for outdoor walking; difficulty in prolonged walking",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "need for assistance in walking, squatting and bending down",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "could not perform heavy household duties",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Tsz Wan v Caltex Oil Hong Kong Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 140/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yeung Yuk Yiu v Cheung Tung Ho",
+        "neutral_citation": null,
+        "action_number": "HCPI 573/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Kwan Ming v Lee Yin Hing",
+        "neutral_citation": null,
+        "action_number": "HCPI 765/2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kun v Tsuen Wan New Cambridge Nursing Home Ltd & Anor",
+        "neutral_citation": "[2006] 2 HKLRD 623",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11300,
+      "output_tokens": 5647,
+      "reasoning_tokens": 4096,
+      "total_tokens": 16947
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 56120.756324380636,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11300,
+      "output_tokens": 5647,
+      "reasoning_tokens": 4096,
+      "total_tokens": 16947
+    },
+    "total_duration_ms": 56120.756324380636
+  }
+}

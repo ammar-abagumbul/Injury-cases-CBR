@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 499",
+    "action_number": "HCPI 146/2008",
+    "case_name": "WONG KAM SHU v. NG WAI ON",
+    "judgment_date": "2009-06-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "interior decoration worker",
+    "occupation_after": "casual worker in a construction site",
+    "expected_occupation_after": null,
+    "salary_before": 11800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture in his right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle / right heel",
+        "laterality": "right",
+        "source": [
+          "X-ray examination revealed that there was fracture in his right ankle.",
+          "Dr. Tsoi opined that the fracture right heel was consistent with the mode of injury and no pre-existing factor was identified."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Swelling and pain in his right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and uneasiness in right ankle when squatting and climbing up and down",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right lower limb cannot bear weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "When walking after a sitting position, the pain in right ankle will accurate",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "When getting up from bed in the morning, the pain in right ankle will accurate",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "When climbing up and down staircase and walking (especially walking on uneven road), there is uncomfortable feeling in the right ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Deformed hind foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of motion was also reduced",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wasting of the calf muscle (explaining weakened right ankle)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right ankle ranges were limited (early physiotherapy report)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right single leg standing tolerance was significantly poorer than his left leg (occupational therapy report)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Sent to see a bone setter",
+      "Accident and Emergency attendance at Kwong Wah Hospital",
+      "Admitted to the Orthopaedic Ward of Kwong Wah Hospital",
+      "Physiotherapy (12 sessions)",
+      "Occupational therapy (28 April 2005 to 11 August 2005)",
+      "Analgesics as needed"
+    ],
+    "treatments_future": [
+      "Possible subtalar joint fusion (chance about 10%)",
+      "Analgesics as needed (estimated $500 per year)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 165,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident work as an interior decoration worker; difficulty with standing on rungs of ladder, working in squatting position, walking on uneven surfaces and heavy lifting; suitable only for less demanding jobs",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced ability to walk on uneven surfaces, climb stairs, stand on a ladder and squat due to pain and instability of right ankle",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chong Yiu Tat v Fong Man Chi",
+        "neutral_citation": "[2003] HKCU 1432",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chu Kwong Sang v Chuen Wo Transportation Limited",
+        "neutral_citation": "[2004] HKCU 1514",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10249,
+      "output_tokens": 4350,
+      "reasoning_tokens": 3264,
+      "total_tokens": 14599
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33818.40020045638,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10249,
+      "output_tokens": 4350,
+      "reasoning_tokens": 3264,
+      "total_tokens": 14599
+    },
+    "total_duration_ms": 33818.40020045638
+  }
+}

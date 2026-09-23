@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 301",
+    "action_number": "DCPI 23/2012",
+    "case_name": "TSANG CHI CHEONG v. THE INCORPORATED OWNERS OF MEI KING MANSION (STAGE 1)",
+    "judgment_date": "2015-03-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "registered electrician (sole proprietor of Chiu Man Water, Electrical & Air-conditioning Engineering)",
+    "occupation_after": null,
+    "expected_occupation_after": "registered electrician",
+    "salary_before": 18000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Superficial burn of the anterior part of the neck resulting in a slightly pigmented scar",
+        "injury_type": "Residual disability",
+        "body_part": "anterior neck",
+        "laterality": null,
+        "source": [
+          "he had sustained a \"superficial burn\" over the front part of his neck only.",
+          "The clinical diagnosis was neck burn injury.",
+          "As shown in the photo taken by the experts at the examination in April 2013, the scar is not obvious. The experts described it as a slightly pigmented scar over the anterior part of the neck measuring 110 mm x 90 mm."
+        ],
+        "icd_code": "NA20.Y",
+        "icd_description": "Other specified superficial injury of neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "electrical shock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "superficial burn",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly pigmented scar over the anterior part of the neck measuring 110 mm x 90 mm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "itchiness of the scar (worse in hot weather / when sweating)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain (attended A&E again on 16 January 2009 for neck pain)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck movement not affected",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Attendance at Accident and Emergency Department, Queen Elizabeth Hospital (20:46 on date of Accident)",
+      "Anti-tetanus injections (3)",
+      "Follow-up at Kwun Tong General Out-patient Clinic on multiple occasions"
+    ],
+    "treatments_future": [
+      "Laser treatment (15 sessions) - recommended by Dr Chow (not accepted by court)"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 9,
+    "sick_leave_days_expected": 15
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly scar over the anterior neck (slightly pigmented) with intermittent itchiness, causing cosmetic concern",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Ka Yee v L & Y Beauty Centre Ltd",
+        "neutral_citation": "DCPI 196/2003",
+        "action_number": null,
+        "injury_description": "four columns of rectangular hyper pigmented scars on her back covering most of her upper and lower back which caused her much embarrassment and distress",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 75000.0
+      },
+      {
+        "case_name": "Chan Tsz Sing v Lo Ching Pong & Ors",
+        "neutral_citation": null,
+        "action_number": "CACV 176/2004 (unreported)",
+        "injury_description": "multiple abrasions and lacerations on the forehead and eyebrow with an obvious 5 x 25 mm scar under the right eyebrow",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17666,
+      "output_tokens": 4330,
+      "reasoning_tokens": 3072,
+      "total_tokens": 21996
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33848.4143614769,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17666,
+      "output_tokens": 4330,
+      "reasoning_tokens": 3072,
+      "total_tokens": 21996
+    },
+    "total_duration_ms": 33848.4143614769
+  }
+}

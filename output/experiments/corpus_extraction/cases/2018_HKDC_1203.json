@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1203",
+    "action_number": "DCPI 1982/2016",
+    "case_name": "LAU TAT WING v. LO OI MING AND ANOTHER",
+    "judgment_date": "2018-10-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "audiovisual business (had to urgently return home to send out a work quotation for his audiovisual business)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "On 10 December 2013, the day of the Alleged Collision, P visited the A&E department of the Hospital and was provisionally diagnosed with a sprained neck."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to the right upper limb",
+        "injury_type": "Temporary injury",
+        "body_part": "right upper limb",
+        "laterality": "right",
+        "source": [
+          "On 13 December 2013, P visited the A&E department of the Hospital and was provisionally diagnosed with an injury to the right upper limb."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right hand pain",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "On 18 December 2013, P visited the A&E department of the Hospital and was provisionally diagnosed with right hand pain."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Intermittent needle prick sensations to his neck and right hand, especially upon exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Occasional neck pain and soreness, with intermittent pain radiating to his upper limbs causing numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Difficulty in sleeping",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Easy fatigue and inability to move heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Limited range of body movements",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Right arm immediately felt numb and painful after alleged impact",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E treatment at Pok Oi Hospital (three visits: 10 December 2013, 13 December 2013, 18 December 2013)",
+      "Chinese bone-setting treatment (跌打)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 11,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 0.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Pou Yin Kennie v Maxim’s Caterers Ltd (Unreported, HCPI 753/2009, 11 May 2012)",
+        "neutral_citation": null,
+        "action_number": "HCPI 753/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15738,
+      "output_tokens": 4845,
+      "reasoning_tokens": 3584,
+      "total_tokens": 20583
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23744.194831699133,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15738,
+      "output_tokens": 4845,
+      "reasoning_tokens": 3584,
+      "total_tokens": 20583
+    },
+    "total_duration_ms": 23744.194831699133
+  }
+}

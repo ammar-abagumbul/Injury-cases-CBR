@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 304",
+    "action_number": "DCPI 1660/2010",
+    "case_name": "GURUNG KAMALA v. HONG WEI LTD",
+    "judgment_date": "2012-03-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Cleaner (employed by the defendant at the Beauty Centre)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7756.25,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "this was a minor soft tissue injury which should have recovered within a short period of times in terms of a few weeks, and a reasonable sick leave would be 4 weeks."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left buttock pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left ankle swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and tenderness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Positive Waddell's simulation tests and distraction tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No incontinence",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "back physiotherapy",
+      "analgesics"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 28
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Yuen Hoi v Chan Muk Sing & Ors",
+        "neutral_citation": "[2003] HKLRDK16",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12255,
+      "output_tokens": 3485,
+      "reasoning_tokens": 2624,
+      "total_tokens": 15740
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24369.056776165962,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12255,
+      "output_tokens": 3485,
+      "reasoning_tokens": 2624,
+      "total_tokens": 15740
+    },
+    "total_duration_ms": 24369.056776165962
+  }
+}

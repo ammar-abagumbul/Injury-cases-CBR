@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 23",
+    "action_number": "DCPI 1960/2011",
+    "case_name": "YUEN PUI MAN ELLEN v. MAJESTIC FURNITURE & INTERIOR DESIGN LIMITED",
+    "judgment_date": "2016-01-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 47,
+    "occupation_before": "Full-time course instructor teaching arts in tertiary institutions",
+    "occupation_after": "part-time tutor",
+    "expected_occupation_after": null,
+    "salary_before": 36549.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "allergic symptoms in the eyes, throat, nose, lung and skin which persisted up to June 2009 and which has since recurred intermittently when she is exposed to odours from substances such as fresh paints, certain perfumes and shampoos.",
+        "injury_type": "Temporary injury",
+        "body_part": "eyes, throat, nose, lung and skin",
+        "laterality": null,
+        "source": [
+          "Ellen has as a result suffered personal injury in that she had allergic symptoms in the eyes, throat, nose, lung and skin which persisted up to June 2009 and which has since recurred intermittently when she is exposed to odours from substances such as fresh paints, certain perfumes and shampoos."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "allergic symptoms in the eyes, throat, nose, lung and skin",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "shortness of breath",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "feeling of reduced lung capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intolerance to offensive odour and environment of a poor quality; uncomfortable whenever she smells strong or chemical-like odour including smell from fragrance, shampoos, detergent, bathing soap and cigarette smoke",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressive mood and a lack of interest in previous hobbies",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sleeping problems",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "daily activities at her residence including dining, reading, resting and other leisure activities were seriously affected",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot withstand strong or chemical-like odour at workplace and cannot take up as many teaching tasks as before or resume full-time working other than working as a part-time tutor",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "symptomatic treatment",
+      "removal of the Furniture (February 2009)",
+      "EMD (Environmental Management Division) indoor air quality tests (27 October 2008; 20 February 2009; 7 March 2009)",
+      "inspection and testing by Professor Christopher Y.H. Chao (2 May 2014 and 2 May 2015)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Daily activities at her residence including dining, reading, resting and other leisure activities were seriously affected during the period of symptoms.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "She cannot take up as many teaching tasks as before or resume full-time working other than working as a part-time tutor.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "She has displayed a depressive mood and a lack of interest in previous hobbies.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Andrew William Maxwell v Keliston Marine (Far East) Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 945/2003",
+        "injury_description": "The plaintiff developed asthma due to exposure to a certain substance used for repair works inside tunnels between September 2000 and February 2001; he developed persistent cough, dry and worse at night and in early morning, with audible wheeze and chest tightness and continued to have intermittent symptoms and became short of breath easily on walking and swimming and had to give up sports altogether.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9697,
+      "output_tokens": 4800,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14497
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48138.12502473593,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9697,
+      "output_tokens": 4800,
+      "reasoning_tokens": 3392,
+      "total_tokens": 14497
+    },
+    "total_duration_ms": 48138.12502473593
+  }
+}

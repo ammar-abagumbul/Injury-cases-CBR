@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 135",
+    "action_number": "HCA011970/1983",
+    "case_name": "CHAN CHUN KEUNG v. CHIU KWOK KEUNG AND OTHERS",
+    "judgment_date": "1985-06-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": null,
+    "occupation_after": "moulding machine operator",
+    "expected_occupation_after": null,
+    "salary_before": 1700.0,
+    "salary_after": 2496.53,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "torn anterior cruciate and medical collateral ligaments of left knee",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "torn anterior cruciate and medical collateral ligaments of left knee"
+        ],
+        "icd_code": "NC93.8",
+        "icd_description": "Injury to multiple structures of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of transverse process of 1st lumbar vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "1st lumbar vertebra",
+        "laterality": null,
+        "source": [
+          "fracture of transverse process of 1st lumbar vertebra"
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left upper abdominal pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left loin pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "scar which commences on inside of the left knee and curves forward for about 3\" and then continues down the medial side of the lower leg for a further 3\"",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "gross wasting of the thigh and slight wasting of the calf muscles of the left leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severe knee pain and prolonged convalescence requiring physiotherapy and operation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "remains unfit to resume any form of work which requires prolonged standing, walking or carrying heavy weights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "permanent disability of 2% of whole man",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital (shortly after 1981-11-02)",
+      "immobilisation of left knee in plaster cast",
+      "use of crutches",
+      "outpatient physiotherapy (3 times a week for a period of 6 months)",
+      "readmissions to hospital (3/12/1981 to 9/12/1981; 4/2/1982 to 6/2/1982)",
+      "operation to repair torn ligaments of the left knee (10/07/1982)",
+      "transfer to Caritas Hospital (16/07/1982 to 31/08/1982)",
+      "use of walking stick and continued physiotherapy until end of May 1983"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent injury to left knee with torn anterior cruciate and medial collateral ligaments; fracture of transverse process of 1st lumbar vertebra; gross wasting of thigh and slight wasting of calf muscles; resulting in 2% whole person permanent disability.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar on inside of left knee extending approximately 6 inches down medial side of lower leg.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Remains unfit to resume any form of work which requires prolonged standing, walking or carrying heavy weights.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yu Man Chui v. Chow Chi Fun",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No. 2518 of 1981",
+        "injury_description": "Described by the judge as the nearest case to the present case; earlier award was $20,000 (judge adjusted for inflation in comparison).",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 20000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19850,
+      "output_tokens": 5775,
+      "reasoning_tokens": 4288,
+      "total_tokens": 25625
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37772.797893732786,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19850,
+      "output_tokens": 5775,
+      "reasoning_tokens": 4288,
+      "total_tokens": 25625
+    },
+    "total_duration_ms": 37772.797893732786
+  }
+}

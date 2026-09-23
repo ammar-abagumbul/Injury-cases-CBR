@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 78",
+    "action_number": "HCA000810/1982",
+    "case_name": "LI PING SUM v. CHAN WAI TONG AND OTHERS",
+    "judgment_date": "1983-03-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "accountant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1950.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "she suffered from compression fractures of the T11, T12 r L1 vertebrae.",
+        "injury_type": "Permanent injury",
+        "body_part": "T11, T12 r L1 vertebrae",
+        "laterality": null,
+        "source": [
+          "she suffered from compression fractures of the T11, T12 r L1 vertebrae."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "she still suffered from pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not sit in the same position for long",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty sitting for long periods required by her employment as an accountant",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Treatment at Queen Elizabeth Hospital",
+      "Physiotherapy at Kowloon Hospital",
+      "Consultations with no fewer than 5 different doctors",
+      "Consultation with a bone setter"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from compression fractures of the T11, T12 r L1 vertebrae (general damages awarded).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 27500.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Yui Kin v Lai Ping-sum",
+        "neutral_citation": null,
+        "action_number": "HCA 2579/76",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Yu Kam So v Leung Hee",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Lawrence v China Motor Bus",
+        "neutral_citation": null,
+        "action_number": "HCA 885/80",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 40000.0
+      },
+      {
+        "case_name": "Lee Ting-lam v Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7857,
+      "output_tokens": 5089,
+      "reasoning_tokens": 3968,
+      "total_tokens": 12946
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26969.985105097294,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7857,
+      "output_tokens": 5089,
+      "reasoning_tokens": 3968,
+      "total_tokens": 12946
+    },
+    "total_duration_ms": 26969.985105097294
+  }
+}

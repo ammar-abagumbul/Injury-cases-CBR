@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[1990] HKCFI 121",
+    "action_number": "HCA002703/1988",
+    "case_name": "TSANG KWUN CHIU v. YUEN HOI SANG AND ANOTHER",
+    "judgment_date": "1990-06-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "employed as a plumber",
+    "occupation_after": "worked at Hop Loon Grocery store (1987), later worked at a cooked food store; later employed as a construction site general help by his younger brother",
+    "expected_occupation_after": null,
+    "salary_before": 4200.0,
+    "salary_after": 9360.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound depressed fracture of the skull bone",
+        "injury_type": "Permanent injury",
+        "body_part": "skull",
+        "laterality": null,
+        "source": [
+          "An emergency craniectomy was performed on him and a burr holes operation was carried out for compound depressed fracture of the skull bone that he had sustained."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "cerebral lacerations and some loss of brain substance from the right anterior lobe",
+        "injury_type": "Permanent injury",
+        "body_part": "right anterior lobe (brain)",
+        "laterality": "right",
+        "source": [
+          "He sustained cerebral lacerations and some loss of brain substance from the right anterior lobe."
+        ],
+        "icd_code": "NA07.42",
+        "icd_description": "Focal laceration of cerebrum"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to his left leg",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "There was also an injury to his left leg."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "knocked unconscious and taken to the Princess Margaret Hospital where he did not regain consciousness for 10 days",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "post traumatic amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "weakness and a feeling of fatigue in the right leg, resulting in cramp or numbness if he does not stretch or move it frequently",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "inability to squat for long",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "only able to climb stairs very slowly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "persistent feeling of fatigue, of heaviness on the right side of his head",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "impairment of memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "inability to lift heavy weights and to stand vibration e.g. of a drill",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency craniectomy",
+      "Burr holes operation",
+      "Physiotherapy",
+      "Brain operation (April 1987)",
+      "Follow-up treatment at Princess Margaret Hospital",
+      "Convalescence at Caritas Medical Centre"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "weakness and a feeling of fatigue in the right leg; inability to squat for long; only able to climb stairs very slowly",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "impairment of memory; post traumatic amnesia",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The effects are quite serious in terms of the Plaintiff's employability.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Che-ping v. Hoi Kong Ironwares Godown Co. Ltd.",
+        "neutral_citation": "(1988) 2 HKLR 650",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Ting-Lam v. Leung Kam-ming",
+        "neutral_citation": "1980 HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15290,
+      "output_tokens": 6926,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22216
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38027.34597399831,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15290,
+      "output_tokens": 6926,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22216
+    },
+    "total_duration_ms": 38027.34597399831
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 866",
+    "action_number": "HCPI 1455/2000",
+    "case_name": "LEUNG BON KAU v. LAU KONG",
+    "judgment_date": "2003-09-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 53,
+    "occupation_before": "casual general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": "watchman",
+    "salary_before": 3760.0,
+    "salary_after": null,
+    "expected_salary_after": 7207.5,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the posterior cruciate ligament, lateral ligaments complex and attenuated anterior cruciate ligament of the left knee were torn. These were all repaired.",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "the posterior cruciate ligament, lateral ligaments complex and attenuated anterior cruciate ligament of the left knee were torn. These were all repaired."
+        ],
+        "icd_code": "NC93.8",
+        "icd_description": "Injury to multiple structures of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "5% permanent impairment for the cosmetic impairment psychologically and another 5% for the mild depressive reaction to the physical disabilities as directly caused by the accident.",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "She assessed the Plaintiff to be suffering from 5% permanent impairment for the cosmetic impairment psychologically and another 5% for the mild depressive reaction to the physical disabilities as directly caused by the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "In October 1988 the range of movement was 20 - 60 degrees and the Plaintiff was able to walk with a walking stick.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he was not able to walk even one to two steps without the assistance of a walking stick unless he was holding onto something.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The disability on his left knee also disturbed his sleep.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "I accept that he still suffers from residual pain and stiffness of the knee with post-traumatic degeneration.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "I am satisfied that the Plaintiff did walk with a limp and did need a walking stick though he has grossly exaggerated his disability.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild depressive reaction to the physical disabilities as directly caused by the accident (assessed at 5% permanent impairment).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical repair of torn posterior cruciate ligament, lateral ligament complex and attenuated anterior cruciate ligament",
+      "re-admissions for limitation of knee movements"
+    ],
+    "treatments_future": [
+      "possible knee fusion surgery (less than 50% chance)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Residual pain and stiffness of the knee with post-traumatic degeneration; limitation of knee movement; needs a walking stick; walks with a limp; cannot walk long distances; disturbed sleep.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Attorney General v Chun Yat Nam",
+        "neutral_citation": "[1995] 1 HKC 218",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12024,
+      "output_tokens": 5162,
+      "reasoning_tokens": 3904,
+      "total_tokens": 17186
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33637.224074453115,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12024,
+      "output_tokens": 5162,
+      "reasoning_tokens": 3904,
+      "total_tokens": 17186
+    },
+    "total_duration_ms": 33637.224074453115
+  }
+}

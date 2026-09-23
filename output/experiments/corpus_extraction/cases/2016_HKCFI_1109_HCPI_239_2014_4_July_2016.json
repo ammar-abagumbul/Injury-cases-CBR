@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1109; HCPI 239/2014 (4 July 2016)",
+    "action_number": "HCPI 239/2014",
+    "case_name": "GURUNG RUDRA BAHADUR v. WILL PLAN CONSTRUCTION CO LTD AND ANOTHER",
+    "judgment_date": "2016-07-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction labourer / slope maintenance worker",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 12034.17,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right humerus.",
+        "injury_type": "Temporary injury",
+        "body_part": "right humerus",
+        "laterality": "right",
+        "source": [
+          "It is common ground that the Plaintiff suffered a fracture of the right humerus."
+        ],
+        "icd_code": "NC12.Z",
+        "icd_description": "Fracture of shoulder or upper arm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unconscious after the fall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild pain upon movement of arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild stiffness at right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "frozen shoulder (post surgical capsulitis)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced ability to lift heavy weights (claimed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital treatment at Prince of Wales Hospital",
+      "surgery (operation)"
+    ],
+    "treatments_future": [
+      "surgery to remove implants (optional)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from the fracture of the right humerus and associated residual symptoms (frozen shoulder, stiffness, pain).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Wing Sun v High Link Technology Ltd & Ors",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Limbu Jas Maya v HK Scafframe System Ltd",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12429,
+      "output_tokens": 3368,
+      "reasoning_tokens": 2624,
+      "total_tokens": 15797
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30185.647178441286,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12429,
+      "output_tokens": 3368,
+      "reasoning_tokens": 2624,
+      "total_tokens": 15797
+    },
+    "total_duration_ms": 30185.647178441286
+  }
+}

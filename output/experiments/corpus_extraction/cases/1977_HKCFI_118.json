@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[1977] HKCFI 118",
+    "action_number": "HCA000538/1977",
+    "case_name": "FUNG SIU FUN v. LI LUNG AND ANOTHER",
+    "judgment_date": "1977-07-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 55,
+    "age_at_trial": 57,
+    "occupation_before": "school teacher",
+    "occupation_after": null,
+    "expected_occupation_after": "clerical capacity at former school (offer mentioned)",
+    "salary_before": 1020.0,
+    "salary_after": null,
+    "expected_salary_after": 550.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injuries to the skull.",
+        "injury_type": "Residual disability",
+        "body_part": "skull",
+        "laterality": null,
+        "source": [
+          "Injuries to the skull."
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractures of the left pelvic bone.",
+        "injury_type": "Permanent injury",
+        "body_part": "left pelvic bone",
+        "laterality": "left",
+        "source": [
+          "Fractures of the left pelvic bone."
+        ],
+        "icd_code": "NB52.1Z",
+        "icd_description": "Fracture of unspecified pelvic bone without disruption of posterior arch of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture of the shaft of the right femur.",
+        "injury_type": "Permanent injury",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "Fracture of the shaft of the right femur."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Occasional headaches and a loss of concentration with some lapses of memory (described as \"mild post-concussion syndrome\").",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Some slight tenderness reported by Dr. R.G.M. Wedderburn when pressure is applied to the scar.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Inability to read for any longer period than thirty minutes and confinement to the house; boredom.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent discomfort and pain if she should walk or stand for too long (displacement after pelvic fractures).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Expected osteo-arthritic changes which will further deteriorate her condition.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Permanent stiffness particularly to the right knee (resulting from fracture of the right femur fixed with a plate and screws).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Unable to stand for any lengthy period without feeling discomfort; injuries to the lower part of her body restrict her ability to undertake many simple household tasks.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Initially admitted to Tang Shiu Kin Hospital",
+      "Referred to Queen Mary Hospital where she remained for three months",
+      "Transferred to Sandy Bay Convalescent Home",
+      "Lengthy period of skeletal traction",
+      "Open reduction and internal fixation by a long metal plate secured by six screws"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Will be a partial cripple for the rest of her life; permanent discomfort and pain on walking or standing for long periods.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Inability to perform numerous household tasks; requires future employment of a part-time amah at $300 per month.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to full-time teaching; has advertised as a private tutor without success; offered clerical employment at former school on a salary of $550 p.m.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Confinement to the house and boredom resulting from inability to read for more than thirty minutes and other restrictions.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11265,
+      "output_tokens": 5926,
+      "reasoning_tokens": 4416,
+      "total_tokens": 17191
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37752.9491558671,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11265,
+      "output_tokens": 5926,
+      "reasoning_tokens": 4416,
+      "total_tokens": 17191
+    },
+    "total_duration_ms": 37752.9491558671
+  }
+}

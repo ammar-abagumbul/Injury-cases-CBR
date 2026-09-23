@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1338",
+    "action_number": "HCPI 58/2012",
+    "case_name": "CHAN HANG YING VANESSA v. LO KA WAI",
+    "judgment_date": "2015-07-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 29,
+    "occupation_before": "Administrative clerk / human resources assistant; part-time ballet teacher/dancer",
+    "occupation_after": "Ballet teacher; proprietor of Nessa Dance Studio (owner/operator)",
+    "expected_occupation_after": null,
+    "salary_before": 9800.0,
+    "salary_after": 10080.0,
+    "expected_salary_after": null,
+    "education_level": "Educated up to Form 7; Advanced II level from the Royal Academy of Dance (2007); certificate in human resources management"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head injury and post-concussion syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The plaintiff was diagnosed to suffer minor head injury and post-concussion syndrome."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "neck sprain injury / soft tissue injury of neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The diagnosis was neck sprain injury.",
+          "The experts agreed that the plaintiff suffered soft tissue injury of neck and left shoulder."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left supraspinatus tendinosis (strain of supraspinatus tendon; tendinitis/tendinosis of supraspinatus and subscapularis)",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "MRI of the plaintiff\u0019s left shoulder was performed on 15 November 2010 which showed that the plaintiff suffered left supraspinatus tendinosis.",
+          "Dr Chien\u0019s diagnosis was soft tissue sprain of the neck and strained left shoulder supraspinatus tendon.",
+          "Further MRI of the plaintiff\u0019s left shoulder was performed on 17 June 2013. ... supraspinatus and subscapularis showed some minor signal changes consistent with tendinosis/tendinitis with no definite full thickness tear and no evidence of partial thickness tear over 50%."
+        ],
+        "icd_code": "NC16.00",
+        "icd_description": "Strain or sprain of muscle or tendon of the rotator cuff of shoulder"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "small haematoma with surrounding muscular oedema in the mid part of the deltoid muscle (post-injury change)",
+        "injury_type": "Residual disability",
+        "body_part": "left deltoid muscle / left shoulder",
+        "laterality": "left",
+        "source": [
+          "small haematoma with surrounding muscular oedema in the mid part of the deltoid muscle, consistent with small haematoma and oedema post injury."
+        ],
+        "icd_code": "NC16.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "fibrotic deltoid muscles with mild inflammation and congestion over the articular side of the cuff (intraoperative findings)",
+        "injury_type": "Residual disability",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "Intraoperative findings found fibrotic deltoid muscles with cracking wound on establishing surgical portals and mild signs of inflammation at the lateral rim of acromial.",
+          "There were features of congestion over the articular side of the cuff."
+        ],
+        "icd_code": "NC16.4Y",
+        "icd_description": "Other specified injury of multiple muscles or tendons at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left upper limb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "persistent left-sided headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reduced range of motion of neck (flexion 1/2 and extension 1/3 of normal at one point; later clinical limited neck flexion and poor extension)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reduced range of motion of left shoulder (narrower than right in flexion, abduction and internal rotation; painful arc)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "weakness of supraspinatus and subscapularis muscle power",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "wasting of infraspinatus and supraspinatus muscles of the left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "positive impingement sign on the left side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced sensation (decreased 10% to 20% over left lateral arm and left lateral forearm)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "scar hypertrophy particularly over the lateral aspect of the shoulder; residual congestion and dark pigmentation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "intermittent/on-and-off pain requiring occasional treatment and causing difficulty sleeping",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "limited ability in lifting objects by left hand / reduced functional use of left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance to Prince of Wales Hospital (A&E) with oxygen",
+      "In-patient admission at Prince of Wales Hospital for 3 days",
+      "Physiotherapy at Prince of Wales Hospital",
+      "Physiotherapy at Yan Chai Hospital (multiple sessions)",
+      "Neurosurgery follow-up at Prince of Wales Hospital (2010-2011)",
+      "Computed tomography (CT) scan of brain (March 2011)",
+      "MRI of cervical spine (6 March 2010)",
+      "MRI of left shoulder (15 Nov 2010; 10 Nov 2011; 17 June 2013)",
+      "Private consultations and treatment by Dr Eric Chien (Centre for Orthopaedic Surgery) since 16 June 2011",
+      "Arthroscopic decompression of the subacromial space (operation performed on 2013-12-18 by Dr Chien)",
+      "Post-operative private physiotherapy and clinic follow-up at the Centre",
+      "About 10 sessions of acupuncture therapy from Chinese medicine practitioners"
+    ],
+    "treatments_future": [
+      "ongoing physiotherapy (post-trial) and regular follow-up treatment by Dr Chien",
+      "serial steroid injection to scar (suggested as an option by Dr Chien but not accepted as necessary by the party experts)"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 671,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Injuries made it difficult, if not impossible, for the plaintiff's left arm to perform overhead movements, affecting her ability to perform certain postures for ballet dancing and reducing opportunities to participate in performances and concerts.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar hypertrophy particularly over the lateral aspect of the shoulder with residual congestion and dark pigmentation after surgery.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced range of motion of the neck and left shoulder and difficulty in overhead activities.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 25626,
+      "output_tokens": 8654,
+      "reasoning_tokens": 6080,
+      "total_tokens": 34280
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47022.480111569166,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 25626,
+      "output_tokens": 8654,
+      "reasoning_tokens": 6080,
+      "total_tokens": 34280
+    },
+    "total_duration_ms": 47022.480111569166
+  }
+}

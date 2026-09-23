@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[1988] HKCFI 121",
+    "action_number": "HCA003723/1984",
+    "case_name": "WONG MAN NGAI v. MULTI-BEST MANUFACTURES LIMITED",
+    "judgment_date": "1988-04-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 19,
+    "age_at_trial": 26,
+    "occupation_before": "plastic moulding press operator",
+    "occupation_after": "office boy/odd-job worker at a private primary school",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 2970.0,
+    "expected_salary_after": 3220.0,
+    "education_level": "Form 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crushing injuries to his left hand",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "suffered crushing injuries to his left hand from the moulding machine he was operating at the time.",
+          "Dr. David Lee in his report dated 25th June 1987 (Document 10) has described the limitation of movement in the four fingers of the Plaintiff's left hand which is not his preferred hand.",
+          "Dr. Lee reports that the left hand is markedly deformed with only 50% of function remaining in the left four fingers.",
+          "The Plaintiff received 3 operations to the fingers of his left hand on 13th June 1981, 15th April 1982 and 24th June 1982 at the Princess Margaret Hospital and also long periods of physiotherapy in the hand clinic."
+        ],
+        "icd_code": "NC58.2",
+        "icd_description": "Crushing injury of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intense pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of movement in the four fingers of the Plaintiff's left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hand is markedly deformed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "only 50% of function remaining in the left four fingers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "still feels pain in his left hand on occasions while working as a packager or whenever the weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Prior to the accident the Plaintiff played basket-ball which he cannot participate in now",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he is unable to drive a motor vehicle because of the injury to his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (hand clinic)",
+      "surgical operations to fingers of left hand (3 operations)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Prior to the accident the Plaintiff played basket-ball which he cannot participate in now",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "he is unable to drive a motor vehicle because of the injury to his left hand",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The Plaintiff says he restricted in trying to obtain atternative employment because of his injury",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "the left hand is markedly deformed",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9543,
+      "output_tokens": 4350,
+      "reasoning_tokens": 3136,
+      "total_tokens": 13893
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27622.599963098764,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9543,
+      "output_tokens": 4350,
+      "reasoning_tokens": 3136,
+      "total_tokens": 13893
+    },
+    "total_duration_ms": 27622.599963098764
+  }
+}

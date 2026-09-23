@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 179",
+    "action_number": "DCPI 2256/2006",
+    "case_name": "LAI KING YIU v. ACCIONA INFRAESTRUCTURAS, S.A. AND OTHERS",
+    "judgment_date": "2008-04-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "previous kind of metalwork job; worked at a construction site during the period from December 2003 to March 2004",
+    "occupation_after": "residential casual maintenance worker; also worked briefly as construction site worker from November 2005 to January 2006",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "noise-induced deafness",
+        "injury_type": "Permanent injury",
+        "body_part": "ears / auditory system",
+        "laterality": null,
+        "source": [
+          "the experts agree that the Plaintiff is suffering from noise-induced deafness and sensorial-neural hearing loss, and so it is possible that the Plaintiff will experience pain in his ears when exposed to loud noise."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sensorial-neural hearing loss",
+        "injury_type": "Permanent injury",
+        "body_part": "ears / auditory system",
+        "laterality": null,
+        "source": [
+          "the experts agree that the Plaintiff is suffering from noise-induced deafness and sensorial-neural hearing loss, and so it is possible that the Plaintiff will experience pain in his ears when exposed to loud noise."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "hearing impairment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain in his ears when exposed to loud noise",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his ears are now very sensitive to shrill tones",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "must wear hearing protection when the noise level is high",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "not able to resume his previous job as a construction site worker",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "suffering from noise-induced deafness and sensorial-neural hearing loss",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "he was not able to return to his pre-accident job and he could only work as residential casual maintenance worker earning a much lesser income.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "claim for pain, suffering and loss of amenities (PSLA)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8365,
+      "output_tokens": 5246,
+      "reasoning_tokens": 4160,
+      "total_tokens": 13611
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35258.902598172426,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8365,
+      "output_tokens": 5246,
+      "reasoning_tokens": 4160,
+      "total_tokens": 13611
+    },
+    "total_duration_ms": 35258.902598172426
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 161",
+    "action_number": "HCA002800/1981",
+    "case_name": "LEUNG WING KAI AND ANOTHER v. SHUN DIK INDUSTRIAL CO",
+    "judgment_date": "1982-04-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 16,
+    "age_at_trial": null,
+    "occupation_before": "apprenticed to the defendant, operating a plastic moulding machine",
+    "occupation_after": "student; returned to school",
+    "expected_occupation_after": "clerk possibly in a Bank",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "left school after reaching F3 level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "his right middle, index and ring fingers were amputated to proximal phaloux level.",
+        "injury_type": "Permanent injury",
+        "body_part": "right middle, index and ring fingers",
+        "laterality": "right",
+        "source": [
+          "his right middle, index and ring fingers were amputated to proximal phaloux level."
+        ],
+        "icd_code": "NC59.20",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, right hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "his right hand was caught by the machine and his fingers crushed.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has a permanent loss of grip.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "in two operations",
+      "follow up outpatient visits until 23 January 1979 (about 40 visits)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 175,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent loss of grip and amputation of right middle, index and ring fingers.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He decided that his future no longer lay in manual labour, so he went back to school.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 55000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7350,
+      "output_tokens": 5520,
+      "reasoning_tokens": 4736,
+      "total_tokens": 12870
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33093.225069344044,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7350,
+      "output_tokens": 5520,
+      "reasoning_tokens": 4736,
+      "total_tokens": 12870
+    },
+    "total_duration_ms": 33093.225069344044
+  }
+}

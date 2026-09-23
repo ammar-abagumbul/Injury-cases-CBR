@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1910",
+    "action_number": "HCPI 477/2013",
+    "case_name": "LI KWOK KEE v. CHINA HK WAH LEE LIMITED",
+    "judgment_date": "2014-10-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cross-border container truck driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13260.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures at the distal radius and ulnar styloid (left wrist)",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "As a result, the plaintiff suffered left wrist fracture injuries.",
+          "X‑ray of the wrist showed fractures at the distal radius and ulnar styloid."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain and stiffness in his left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduction of about 100 on dorsiflexion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some mild stiffness of the index finger at the metarcarpophalangeal joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "handgrip on the left side was slightly weaker on manual testing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There were two surgical scars of 2 cm and 1 cm in length respectively on the left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sensation was normal",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "temporary splintage",
+      "open reduction and internal fixation (surgery on 19 May 2011)",
+      "physiotherapy (sixty sessions between 30 May 2011 and 23 March 2012 and nine further sessions between July 2012 and October 2012)",
+      "occupational therapy (between 23 May 2011 and 23 December 2011)",
+      "implants removed"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and stiffness in the left wrist, reduction of dorsiflexion, mild stiffness of the index finger, slightly weaker left handgrip and two surgical scars on the left wrist.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 240000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yu Yixin v Leung Chi Tin Andy",
+        "neutral_citation": null,
+        "action_number": "DCPI 1306/2007",
+        "injury_description": "fell from a ladder and suffered right wrist and forearm injury with fractures of the right distal radius and ulnar styloid",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 170000.0
+      },
+      {
+        "case_name": "Mehmood Khalid v Million Harvest Wharves & Logistics Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 401/2006",
+        "injury_description": "fracture of the wrist as a result of falling from a height of some 13 to 16 feet",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 220000.0
+      },
+      {
+        "case_name": "Ho Bing Cheung v Lam Yin Tuk trading as Ocean Fast Food and Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 66/2004",
+        "injury_description": "slipped and fell upon stepping on an oily or slippery substance underfoot and suffered fractures of the distal radius and ulna bone of the right wrist",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 220000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13569,
+      "output_tokens": 5060,
+      "reasoning_tokens": 3712,
+      "total_tokens": 18629
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36225.160636007786,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13569,
+      "output_tokens": 5060,
+      "reasoning_tokens": 3712,
+      "total_tokens": 18629
+    },
+    "total_duration_ms": 36225.160636007786
+  }
+}

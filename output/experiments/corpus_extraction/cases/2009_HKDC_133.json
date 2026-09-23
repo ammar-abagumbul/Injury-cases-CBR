@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 133",
+    "action_number": "DCEC 71/2008",
+    "case_name": "ABID KHAN v. QUEEN WAN LTD",
+    "judgment_date": "2009-06-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "delivery man",
+    "occupation_after": null,
+    "expected_occupation_after": "less heavy work, such as security guard, watchman, messenger",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "central posterior disc extrusion at L4/5 causing spinal stenosis with crowding of cauda equina",
+        "injury_type": "Permanent injury",
+        "body_part": "L4/5 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "[central] posterior disc extrusion at L4/5 …… causing spinal stenosis with crowding of cauda equina",
+          "back and right knee injury resulting in prolapsed intervertebral disc at L4/5",
+          "back and right knee injury resulting in prolapsed intervertebral disc at L4/5 with back pain and numbness"
+        ],
+        "icd_code": "NB72",
+        "icd_description": "Injury of cauda equina"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right knee injury",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "back and right knee injury resulting in prolapsed intervertebral disc at L4/5",
+          "back and right knee injury resulting in prolapsed intervertebral disc at L4/5 with back pain and numbness"
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unable to walk without stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "always pain over my back and right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain radiates to both legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low back pain with left lower limb tightness sensation and bilateral lower limb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walking tolerance about 15-20 minutes (sitting/walking aggravates pain)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not sleep at night because of the pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pins and needles sensation over posterior aspect of right thigh and posterior aspect of right lower leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over entire low back on palpation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to bend right knee with more pain when straightening the leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced range of trunk movements restricted by pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "presence of positive Waddell's signs and inconsistent straight leg raising tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "accident and emergency department assessment at Prince of Wales Hospital",
+      "orthopaedics trauma clinic follow-up",
+      "22 sessions of physiotherapy at Kowloon Hospital",
+      "magnetic therapy",
+      "electrical nerve stimulation therapy",
+      "graded back exercises",
+      "inferential therapy (prescribed for pain relief)",
+      "disectomy of L4/5 by minimal invasive surgical technique (4th May 2007)",
+      "convalescence at Tai Po Hospital from 9th May to 2nd June 2007",
+      "8 sessions of physiotherapy at Kowloon Hospital (12th June to 6th July 2007)",
+      "referral to Pain Clinic at Queen Elizabeth Hospital",
+      "facet joint injection to bilateral L3/4, L4/5, L5/S1 (30th July 2008)"
+    ],
+    "treatments_future": [
+      "possible repeat facet joint injection (offered but refused on 2nd October 2008)",
+      "possible injection into the muscles around the spinal nerves (QEH Pain Clinic consideration)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Unable to walk without stick; limited walking and sitting tolerance (about 15-20 minutes); walk with stick and limping gait reported",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-Accident job of loading and unloading heavy goods",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14746,
+      "output_tokens": 4881,
+      "reasoning_tokens": 3328,
+      "total_tokens": 19627
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35166.82689264417,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14746,
+      "output_tokens": 4881,
+      "reasoning_tokens": 3328,
+      "total_tokens": 19627
+    },
+    "total_duration_ms": 35166.82689264417
+  }
+}

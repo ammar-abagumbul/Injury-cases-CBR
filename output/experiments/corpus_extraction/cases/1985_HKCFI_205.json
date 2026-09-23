@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 205",
+    "action_number": "HCA 6264/1984",
+    "case_name": "HUNG FUNG CHIN v. YU PING KUEN",
+    "judgment_date": "1985-02-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 58,
+    "age_at_trial": 62,
+    "occupation_before": "assistant in a mahjong school",
+    "occupation_after": "cashier at the mahjong school (for 2 months, per medical report)",
+    "expected_occupation_after": null,
+    "salary_before": 2000.0,
+    "salary_after": 1200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a laceration of her upper lip and fractures of her upper left incisor and nasal bone",
+        "injury_type": "Temporary injury",
+        "body_part": "upper lip; upper left incisor; nasal bone",
+        "laterality": "left",
+        "source": [
+          "(1) a laceration of her upper lip and fractures of her upper left incisor and nasal bone;"
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a haematoma on her left cheek and bruising on her elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "left cheek; elbow",
+        "laterality": "left",
+        "source": [
+          "(2) a haematoma on her left cheek and bruising on her elbow;"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractured left tibia and fibula",
+        "injury_type": "Residual disability",
+        "body_part": "left tibia and fibula / left knee-joint",
+        "laterality": "left",
+        "source": [
+          "(3) fractured left tibia and fibula.",
+          "The fractures of the Plaintiff's left tibia, in particular, and her left fibula have resulted in an abnormality in her left knee-joint. Dr Wedderburn concludes that the Plaintiff's mobility is restricted to a marked degree and that she will develop osteo-arthritis in her left knee in the form of aching and discomfort in humid weather but that this will not seriously affect her until she is nearly aged 70.",
+          "The Plaintiff's impairment of her left leg is assessed by Dr Wedderburn as being 5% which is 2% impairment of the whole man and that this total impairment will probably rise to 4% by age 70."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over her left cheek extending to her left forehead",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "a mild form of neuralgia which should eventually clear up",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mobility is restricted to a marked degree",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "will develop osteo-arthritis in her left knee in the form of aching and discomfort in humid weather but that this will not seriously affect her until she is nearly aged 70",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "walks with a limp and claims she can only walk for 20 minutes at a time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "The Plaintiff spent almost 3 months in hospital including 6 weeks with her left leg in plaster and received physiotherapy for her injured left knee for a further 6 months after her discharge.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Mary Hospital on 1981-09-29",
+      "Found to be conscious",
+      "Transferred to the Hospital's Orthopaedic Unit on 1981-10-03",
+      "Moved to the Sandy Bay Convalescent Hospital on 1981-10-13",
+      "Discharged home on 1981-12-18",
+      "6 weeks with her left leg in plaster",
+      "Out-patient physiotherapy treatment until July 1982"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "mobility is restricted to a marked degree",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "claims she can only do part-time housework for a few hours a day and has been unable to find such work",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 25000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10839,
+      "output_tokens": 6693,
+      "reasoning_tokens": 5120,
+      "total_tokens": 17532
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34488.629162311554,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10839,
+      "output_tokens": 6693,
+      "reasoning_tokens": 5120,
+      "total_tokens": 17532
+    },
+    "total_duration_ms": 34488.629162311554
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[1977] HKCFI 133; HCA 3088/1975",
+    "action_number": "ACTION NO. 3088 OF 1975",
+    "case_name": "CHAN CHI KEUNG v. CHAN SIU WAI AND ANOTHER",
+    "judgment_date": "1977-02-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "assistant manual worker by the Hip Hing Cheung Shipyard Ltd.",
+    "occupation_after": "labourer with the Squatter Control branch of Government",
+    "expected_occupation_after": null,
+    "salary_before": 1000.0,
+    "salary_after": 885.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "degloved injury of both forearms and right wrist",
+        "injury_type": "Residual disability",
+        "body_part": "both forearms and right wrist",
+        "laterality": null,
+        "source": [
+          "The plaintiff had suffered a degloved injury of both forearms and right wrist."
+        ],
+        "icd_code": "NC31.Y",
+        "icd_description": "Other specified open wound of forearm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Involvement/injury to the tendon Extensor Pollicis Longus (the long extensor of the thumb) with resultant interference of movement of the thumb",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist / long extensor of the thumb (Extensor Pollicis Longus tendon)",
+        "laterality": "right",
+        "source": [
+          "The tendon, the Extensor Pollicis Longus (the long extensor of the thumb) was involved, so that the pull of the tendon on the thumb is slightly interferred with, giving him some slight difficulty with this hand."
+        ],
+        "icd_code": "NC57.2Z",
+        "icd_description": "Injury of extensor muscle, fascia or tendon of thumb at wrist or hand level, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He still gets occasional pain in the right wrist and this is likely to continue, although not severe pain.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "I saw the remaining scar in Chambers, and it is rather unsightly.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The centre of the scar was white in colour, with loss of sweat glands, which was of no consequence as it was over a limited area only.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The tendon ... was involved ... giving him some slight difficulty with this hand. The weakness is due to the effect of the interference of the movement of the long extensor to the thumb.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Whilst he can manage to handle small things such as writing and using chopsticks readily, he does not have the same dexterity when handling large items.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The grip of the left hand exercises a 45 lb pressure and of the right 50 lbs. Dr. Wedderburn assessed his right handed grip before the accident as at least 60 lbs and probably slightly more, as the right hand grip is normally about 30% greater than the left.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The cosmetic effect is minimal.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Elizabeth Hospital on 9th September 1973 and transferred to Kowloon Hospital on 12th September 1973 (specific medical procedures not detailed)",
+      "herbal tonics recommended by herbalist"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly scarring on the forearms and right wrist.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of earnings resulting from changed employment (plaintiff did not re-enter former shipyard employment and moved to less well-paid but more secure work).",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 12000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Wai-wan v. Lok Shek-shing etal.",
+        "neutral_citation": null,
+        "action_number": "O.J.A. No. 490 of 1970",
+        "injury_description": "The whole of the front of her left leg was scraped from just under the knee to the ankle, and there was a minor fracture of the fibula. There were no residual effects apart from most unsightly scarring.",
+        "hospitalisation_days": 40,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 10000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9479,
+      "output_tokens": 6210,
+      "reasoning_tokens": 4672,
+      "total_tokens": 15689
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36734.41493138671,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9479,
+      "output_tokens": 6210,
+      "reasoning_tokens": 4672,
+      "total_tokens": 15689
+    },
+    "total_duration_ms": 36734.41493138671
+  }
+}

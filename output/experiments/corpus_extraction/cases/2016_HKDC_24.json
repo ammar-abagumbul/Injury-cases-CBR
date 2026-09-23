@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 24",
+    "action_number": "DCPI 2259/2011",
+    "case_name": "CHEUNG WING YEE v. ANGEL KISS LTD",
+    "judgment_date": "2016-01-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "saleslady in a clothing chain shop",
+    "occupation_after": "office worker doing administrative work",
+    "expected_occupation_after": null,
+    "salary_before": 10190.01,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2% facial burn injury",
+        "injury_type": "Residual disability",
+        "body_part": "face",
+        "laterality": "bilateral",
+        "source": [
+          "the doctor diagnosed her with 2% facial burn injury."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-inflammatory hyperpigmentation of her skin of both mandibular areas",
+        "injury_type": "Residual disability",
+        "body_part": "both mandibular areas",
+        "laterality": "bilateral",
+        "source": [
+          "According to the medical report of Dr Otto Yum To Au dated 30 May 2014, Ms Cheung is suffering from post-inflammatory hyperpigmentation of her skin of both mandibular areas."
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post-inflammatory hypopigmentation of the skin of the right mandibular area",
+        "injury_type": "Residual disability",
+        "body_part": "right mandibular area",
+        "laterality": "right",
+        "source": [
+          "In addition, she also suffers post-inflammatory hypopigmentation of the skin of the right mandibular area."
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness and sharp pain when treatment applied",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "yelled and cried for the treatment to stop (indicative of acute pain)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "blisters and brown patch on right cheek; skin peeling off left cheek",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual irritation and itchiness during changes of the weather and when exposed to sunlight",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to wear make-up",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to resume former pastimes such as swimming or cycling because pool water causes irritation to facial skin",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "anxiety, embarrassment and acute self-consciousness while scars were visible; fear of permanent disfigurement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment and diagnosis at Caritas Medical Centre",
+      "treatment and diagnosis at Baptist Hospital",
+      "treatment and diagnosis at Precious Blood Hospital",
+      "homeopathy treatment",
+      "health supplements"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 16,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to resume former pastimes such as swimming or cycling because pool water causes irritation to her facial skin.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unable to wear make-up; psychological impact including anxiety, embarrassment and acute self-consciousness while scars were visible.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Ka Yee v L&Y Beauty Centre Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 196 of 2003",
+        "injury_description": "the plaintiff, a 27 year old lady, suffered scalded injuries on her back as a result of receiving “intense pulse light” treatment ... post-inflammatory hyperpigmentation and hypopigmentation on large areas of her back. She suffered pain for two months. Some scars persisted but her doctor opined that they would improve over a few months. The plaintiff was unable to wear swimwear and had to avoid exposure to the sun.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 75000.0
+      },
+      {
+        "case_name": "Shabbina Khokhar v Europe Beauty International Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 579 of 2007",
+        "injury_description": "the plaintiff, aged 28, suffered multiple burn wounds to her arms, with 80% being first-degree burns, and 20% being second-degree burns. By the time of trial, most of the scars improved to the point that they were only evident upon close inspection. She suffered great embarrassment during and after her wedding.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10975,
+      "output_tokens": 5729,
+      "reasoning_tokens": 4416,
+      "total_tokens": 16704
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30621.75051495433,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10975,
+      "output_tokens": 5729,
+      "reasoning_tokens": 4416,
+      "total_tokens": 16704
+    },
+    "total_duration_ms": 30621.75051495433
+  }
+}

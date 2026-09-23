@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1338",
+    "action_number": "HCPI 749/2015",
+    "case_name": "TANG TAK CHUNG,THE ADMINISTRATOR OF THE ESTATE OF TANG CHING TONG, DECEASED v. CHUNG FAN SHENG",
+    "judgment_date": "2017-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "trainee in a jewellery company from 1 December 2000 to June 2001; foreman in Po Leung Kuk from 15 October 2002 to 28 February 2003; relief worker in PLK in May 2004; assistant instructor in PLK from June 2004 to May 2006; casual odd jobs since May 2006",
+    "occupation_after": null,
+    "expected_occupation_after": "full-time work (expected to resume full‑time again in mid 2013)",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 10000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Thyrotoxicosis / hyperthyroidism",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "“15. In summary, after reading the defendant’s medical report, his hand written notes, it can be concluded that the patient was suffering from symptoms of thyrotoxicosis. The defendant has wrongly prescribed thyroxine which is the wrong and opposite treatment for this condition. The dosage used was 100 times more than usual.”",
+          "“The patient was wrongly diagnosed hypothyroidism when he had hyperthyroidism (thyrotoxicosis). This resulted in the wrong treatment and worse, wrong dose of thyroxine.”",
+          "“The usual symptoms of the Deceased’s hyperthyroidism. The usual symptoms are hyperthyroidism are palpitations, abnormal heart rhythm, shaky hands, weight loss, increased sweating, diarrhoea.”"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Thyroid storm resulting in death",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "“16. The use of thyroxine at the wrong dose of 100 mg daily from 9/8/2012 – 15/1/2013 have directly caused the deceased (who has a history of thyrotoxicosis and was having active symptoms) to develop thyroid storm resulting in this grave outcome.”"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Weight loss",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Frequent vomiting and diarrhoea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Palpitations / abnormal heart rhythm (atrial fibrillation)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced consciousness / semi-conscious state",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Renal failure requiring hemodialysis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to ICU",
+      "resuscitation including hemodialysis",
+      "cardioversion",
+      "tracheostomy",
+      "continuous mechanical ventilator support",
+      "extracorporeal membrane oxygenation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Rai Rane Magar Pabitra v Pacific Corst (HK) Co. Ltd",
+        "neutral_citation": "HCPI 398/2008",
+        "action_number": "HCPI 398/2008",
+        "injury_description": "The deceased worker was injured in a construction site accident. He died from his injuries 25 days later during which he had varying levels of consciousness. Whilst in this state of uncertainty and semi consciousness he was operated 6 times.",
+        "hospitalisation_days": 25,
+        "operations_count": 6,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9692,
+      "output_tokens": 4070,
+      "reasoning_tokens": 2752,
+      "total_tokens": 13762
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38704.870380461216,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9692,
+      "output_tokens": 4070,
+      "reasoning_tokens": 2752,
+      "total_tokens": 13762
+    },
+    "total_duration_ms": 38704.870380461216
+  }
+}

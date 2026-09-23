@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 53",
+    "action_number": "DCPI 115/2006",
+    "case_name": "CHIU PO LING, A MINOR SUING BY HIS MOTHER AND NEXT FRIEND, SHEK KAM KIU v. WONG YUET",
+    "judgment_date": "2007-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "wound with tissue loss over left infra-orbital area",
+        "injury_type": "Temporary injury",
+        "body_part": "left infra-orbital area",
+        "laterality": "left",
+        "source": [
+          "Physical examination showed wound with tissue loss over left infra-orbital area."
+        ],
+        "icd_code": "NA06.04",
+        "icd_description": "Open wound of eyelid or periocular area"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "33 mm x 2mm pale, atrophic scar over the medial aspect of the Plaintiff’s infra-orbital area causing mal-functioning of his left lower eyelid",
+        "injury_type": "Permanent injury",
+        "body_part": "medial infra-orbital area / left lower eyelid",
+        "laterality": "left",
+        "source": [
+          "Dr. Ho found a 33 mm x 2mm pale, atrophic scar over the medial aspect of the Plaintiff’s infra-orbital area causing mal-functioning of his left lower eyelid."
+        ],
+        "icd_code": "NA06.0Y",
+        "icd_description": "Other specified eyelid trauma"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left lower eyelid cannot close tight with the result that some light can still filter through",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left eye often too dry",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "itchiness of left eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "patient often rubs left eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pale, atrophic scar over infra-orbital area (visible scarring)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "development of a certain degree of cynophobia (fear of dogs)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "schoolmates made fun of him, accusing him of being a rabies-carrier or a monster",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "dressing",
+      "injection of first dose of anti-rabies vaccination",
+      "daily dressing at PWH",
+      "attendance at outpatient clinic at PWH"
+    ],
+    "treatments_future": [
+      "scar revision surgery",
+      "follow-up treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 18,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "minimal scarring below left eye (33 mm x 2mm pale, atrophic scar) with cosmetic injury",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "development of cynophobia and teasing by schoolmates (accused of being a rabies-carrier or a monster)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Susi Yanti and Lo Ka-ying etc. v Chu Shiu-chuen",
+        "neutral_citation": "HCPI 1176 of 2006",
+        "action_number": null,
+        "injury_description": "Lo Ka-ying, a girl aged 4 when attacked by a pack of dogs ... she suffered 3 laceration wounds over both thighs and multiple minor bite and scratch marks over her thighs and left arm ... faint pale scar over her left shoulder, a slightly noticeable pale scar on her right thigh near the knee region, a raised pale scar on the front of the left upper thigh as well as several barely perceptible bite marks and a slightly pigmented raised irregular laceration scar with 2 noticeable pairs of stitch marks on the back of her upper thigh. Plastic surgery was not indicated.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 130000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10925,
+      "output_tokens": 5562,
+      "reasoning_tokens": 4416,
+      "total_tokens": 16487
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37174.90618303418,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10925,
+      "output_tokens": 5562,
+      "reasoning_tokens": 4416,
+      "total_tokens": 16487
+    },
+    "total_duration_ms": 37174.90618303418
+  }
+}

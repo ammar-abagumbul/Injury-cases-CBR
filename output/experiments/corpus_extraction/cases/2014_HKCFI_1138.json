@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1138",
+    "action_number": "HCPI 167/2012",
+    "case_name": "CHAN WING v. CHAN WAI HUNG T/A HOLLY ENGINEERING CO",
+    "judgment_date": "2014-06-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 65,
+    "occupation_before": "plastering and painting worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury with ASDH, cerebral contusion and skull fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": "right",
+        "source": [
+          "CT brain showed right acute subdural haemorrhage (ASDH), cerebral contusion and skull fracture.",
+          "The neurosurgical diagnosis was head injury with ASDH, cerebral contusion and skull fracture."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left sided hemiparesis with total paralysis of left upper limb",
+        "injury_type": "Permanent injury",
+        "body_part": "left arm and hand",
+        "laterality": "left",
+        "source": [
+          "He gradually recovered to GCS 15/15 and remained left side hemiparesis.",
+          "This amounts to a complete paralysis of his left arm and hand and what is now a mild weakness of his left leg.",
+          "(4) Left upper limb: This has remained totally paralysed but sensation is intact."
+        ],
+        "icd_code": "NA07.4",
+        "icd_description": "Focal brain injury"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left lower limb weakness",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "At his last follow up at the neurosurgical outpatient clinic on 2 February 2011, his left limb power was about grade 1/5 to 2/5.",
+          "(5) Left lower limb: His left leg has improved to the point that he can walk using a quadripod device, although he still sometimes scuffs his left foot and he has tripped a few times going to the bathroom at home."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post‑traumatic epilepsy (generalised convulsions)",
+        "injury_type": "Residual disability",
+        "body_part": "neurological system",
+        "laterality": null,
+        "source": [
+          "Shortly after going home, the plaintiff suffered his first epileptic fit.",
+          "Between February 2011 and May 2012, he had frequent generalised convulsions that showed no particular pattern, except that they never occurred during sleep;"
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "kept complaining of a severe headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "GCS dropped from 15/15 to 8/15",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "complete paralysis of his left arm and hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild weakness of his left leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "generalised convulsions (epileptic seizures) occurring approximately twice per month before medication",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "His speech is also slightly slurred",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "remains dependant on his family for dressing, baths, shopping and cooking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He walks slowly with a quadripod walking stick and cannot climb steps without help; he cannot go out on his own",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Craniotomy for clot evacuation on 14 October 2010",
+      "Tracheostomy on 20 October 2010",
+      "Physiotherapy treatments at Shatin Hospital (Geriatric Day Hospital) and the neurological out-patient clinic of PMH",
+      "Antiepileptic medication (started about June 2012)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 90,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of independence",
+        "description": "remains dependant on his family for dressing, baths, shopping and cooking",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "He walks slowly with a quadripod walking stick and cannot climb steps without help; he cannot go out on his own",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "He never goes out on his own",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Dr Choa considered he would not be fit to do work of any kind. His loss of earning capacity is 100%.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "his life expectancy is reduced by 27% by reason of his injuries",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1000000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+        "neutral_citation": null,
+        "action_number": "HCPI 668/2005",
+        "injury_description": "severe head injuries and had to undergo two successive craniotomies; left hemiparesis, cognitive impairment and risk of post-traumatic epilepsy",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1000000.0
+      },
+      {
+        "case_name": "Law Ping Leung v Ng Sze Pong",
+        "neutral_citation": "[2009] 5 HKLRD",
+        "action_number": null,
+        "injury_description": "serious head injuries including skull fracture and contusion over the right temporal region; permanent impairment assessed at 35%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1100000.0
+      },
+      {
+        "case_name": "Leung Kai Sun v Triple Luck Ltd trading as Golden Jade Seafood City",
+        "neutral_citation": null,
+        "action_number": "HCPI 914/2006",
+        "injury_description": "head injury with 50% impairment of the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 850000.0
+      },
+      {
+        "case_name": "Yeung Tung Sang v Jamsart Cleaning Service Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 826/2001",
+        "injury_description": "head injury that left the plaintiff with mild cognitive impairment while retaining most of his pre-accident functions",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 450000.0
+      },
+      {
+        "case_name": "Chan Wai Ming v Leung Shing Wah",
+        "neutral_citation": null,
+        "action_number": "HCPI 591/2012",
+        "injury_description": "residual weakness in right arm and leg after serious injuries; plaintiff able to conduct his life independently with the use of a stick",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 850000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 25758,
+      "output_tokens": 8846,
+      "reasoning_tokens": 6400,
+      "total_tokens": 34604
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 55859.00178551674,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 25758,
+      "output_tokens": 8846,
+      "reasoning_tokens": 6400,
+      "total_tokens": 34604
+    },
+    "total_duration_ms": 55859.00178551674
+  }
+}

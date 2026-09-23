@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 1035",
+    "action_number": "DCPI 611/2015",
+    "case_name": "LEUNG YUNG CHEUNG v. FLY KING TRANSPORTATION CO LTD",
+    "judgment_date": "2017-08-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 59,
+    "age_at_trial": null,
+    "occupation_before": "team leader / warehouseman",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "limited education; illiterate; grew up as a fisherman; cannot read or write Chinese except his Chinese name"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injuries to both ankles",
+        "injury_type": "Temporary injury",
+        "body_part": "both ankles",
+        "laterality": "bilateral",
+        "source": [
+          "plaintiff suffered only “soft tissue” injuries to “both ankles” in the alleged accident as a result of defendant’s breaches of its duties."
+        ],
+        "icd_code": "ND14.7",
+        "icd_description": "Strain or sprain of ankle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right ankle stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right ankle weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasional left ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasional left ankle weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasional right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right lower limb weakness requiring use of a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "poor sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "cannot stand for long or push heavy objects as before",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended Accident & Emergency Department of North Lantau Hospital (first on 2013-10-10) with a total of 68 A&E attendances between 2013-10-10 and 2014-09-08",
+      "attended North Lantau Community Health Centre (first on 2013-11-02) with follow-ups until 2014-08-01",
+      "physiotherapy (9 sessions at NLH between 2014-02-25 and 2014-06-10)",
+      "occupational therapy at NLH (from 2014-05-02 to 2014-09-29)",
+      "MRI scan of right ankle and right knee in China on 2014-07-25",
+      "private MRI scan of right ankle and knee in Hong Kong on 2015-04-10",
+      "consultations with private orthopaedic specialist Dr Lau (no less than 19 consultations up to 2015-09-22)",
+      "referral to Department of Orthopaedics & Traumatology of Princess Margaret Hospital (first appointment 2015-02-24; last follow-up 2015-06-30)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 630,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "can no longer enjoy hiking",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "cannot return to his pre-accident job as he can no longer stand for long or push heavy objects as he used to",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kam Pui v Wong Siu Hung",
+        "neutral_citation": null,
+        "action_number": "DCPI 1920/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheung Man Fu v Grate Vantage Development Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1165/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Wai Hung v Loo Kin",
+        "neutral_citation": null,
+        "action_number": "DCPI 643/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15096,
+      "output_tokens": 5894,
+      "reasoning_tokens": 4352,
+      "total_tokens": 20990
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42606.8565659225,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15096,
+      "output_tokens": 5894,
+      "reasoning_tokens": 4352,
+      "total_tokens": 20990
+    },
+    "total_duration_ms": 42606.8565659225
+  }
+}

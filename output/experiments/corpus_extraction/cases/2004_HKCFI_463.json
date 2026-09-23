@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 463",
+    "action_number": "HCPI 839/2001",
+    "case_name": "MA KAM SANG v. SHOUGANG CONCORD MANAGEMENT CO LTD AND OTHERS",
+    "judgment_date": "2004-06-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "senior godown assistant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured left femur",
+        "injury_type": "Residual disability",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "the plaintiff ... suffered a fractured left femur when the two ton load finally came to rest upon his leg.",
+          "it came to rest on the plaintiff's left thigh and broke his femur."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "lower left leg laceration",
+        "injury_type": "Temporary injury",
+        "body_part": "lower left leg",
+        "laterality": "left",
+        "source": [
+          "struck the plaintiff on the lower left leg, which was badly lacerated."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "some slight discomfort or pain in the course of his work",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his leg still bothers him on certain occasions such as when he has been standing or walking for a period of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "incapacity characterised as \"mild\" whereby significant exercise or activity could cause him some minor discomfort in his leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "claim that the disability prevented him comfortably standing or walking after 30 minutes (judge found this claim exaggerated)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sick leave for two years"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity: $100,000.00 (represents about one year's wages)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12589,
+      "output_tokens": 4479,
+      "reasoning_tokens": 3520,
+      "total_tokens": 17068
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26898.875575512648,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12589,
+      "output_tokens": 4479,
+      "reasoning_tokens": 3520,
+      "total_tokens": 17068
+    },
+    "total_duration_ms": 26898.875575512648
+  }
+}

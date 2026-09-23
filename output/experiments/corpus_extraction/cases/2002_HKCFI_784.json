@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 784",
+    "action_number": "HCPI 290/2000",
+    "case_name": "TO WEI KEI v. VICKCORE ENGINEERING LTD. AND ANOTHER",
+    "judgment_date": "2002-11-11",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "welder",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 45500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He suffered from prolapsed C3/C4 disc with residual spinal cord compression. Initially, he suffered from paralysis of the four limbs. Decompression and anterior spinal fusion was done on 5 April 1997.",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C3/C4)",
+        "laterality": null,
+        "source": [
+          "He suffered from prolapsed C3/C4 disc with residual spinal cord compression. Initially, he suffered from paralysis of the four limbs. Decompression and anterior spinal fusion was done on 5 April 1997."
+        ],
+        "icd_code": "NA31",
+        "icd_description": "Certain specified injuries of cervical spinal cord"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Paralysis of the four limbs (initially)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness of the limbs (improved gradually)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual spasticity",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness of the limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Able to walk without support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Decompression and anterior spinal fusion (5 April 1997)",
+      "Hospitalisation from 25 March to 25 June 1997"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 92,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 730,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 1247
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10369,
+      "output_tokens": 4865,
+      "reasoning_tokens": 3968,
+      "total_tokens": 15234
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43549.83238130808,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10369,
+      "output_tokens": 4865,
+      "reasoning_tokens": 3968,
+      "total_tokens": 15234
+    },
+    "total_duration_ms": 43549.83238130808
+  }
+}

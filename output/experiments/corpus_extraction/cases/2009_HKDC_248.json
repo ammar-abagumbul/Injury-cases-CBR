@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 248",
+    "action_number": "DCPI 2367/2008",
+    "case_name": "NG CHEUNG SOU CHUN CECILIA v. SAVILLS PROPERTY MANAGEMENT LTD AND ANOTHER",
+    "judgment_date": "2009-10-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 61,
+    "age_at_trial": null,
+    "occupation_before": "Regional Office Manager of an Italian company",
+    "occupation_after": null,
+    "expected_occupation_after": "General Manager at an education consultancy company",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 35000.0,
+    "education_level": "MBA"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "small haematoma on occipital region (1 cm)",
+        "injury_type": "Temporary injury",
+        "body_part": "occipital region",
+        "laterality": null,
+        "source": [
+          "she was found to have suffered from a small haematoma (1 cm) on her occipital region and right elbow dislocation."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right elbow dislocation",
+        "injury_type": "Permanent injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "she was found to have suffered from a small haematoma (1 cm) on her occipital region and right elbow dislocation.",
+          "Closed reduction of her elbow dislocation was performed. The elbow was put in plaster for immobilisation for a week.",
+          "In the opinion of Dr Yip, the treatment received by Ng for her elbow dislocation was standard and appropriate. She has achieved maximal medical improvement. Her loss of some terminal extension of the right elbow and terminal flexion will not be of any clinical significance due to the compensatory dexterity of the adjacent joint of the elbow. The impairments are likely to be permanent."
+        ],
+        "icd_code": "NC33.1",
+        "icd_description": "Dislocation of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in her buttock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Pain in right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Small haematoma (1 cm) on occipital region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Occasional numbness in the right arm and hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Difficulty in getting to sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Loss of some terminal extension of the right elbow and terminal flexion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Mild decrease in efficiency in certain types of household chores",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance transport to hospital",
+      "Closed reduction of elbow dislocation",
+      "Plaster immobilisation for a week",
+      "Physiotherapy (26 sessions)",
+      "Bonesetter's treatment (33 sessions)",
+      "Acupuncture (5 sessions)",
+      "Chiropractic (12 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 56
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Ceased her pre-accident yoga and aerobic exercises.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Inability to handle household work such as lifting the mattress or moving heavy furniture; could do house cleaning but needed temporary part-time domestic help.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of the job opportunity as General Manager at Chan's education consultancy company (employment due to commence on 2006-11-01; salary HK$35,000 per month plus one month's bonus).",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Moon Chai v Leung Shu Man & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 48/2007",
+        "injury_description": "Dislocated elbow without fracture",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Ho Bing Cheung v Lam Yin Yuk trading as Ocean Fast Food & Ors",
+        "neutral_citation": null,
+        "action_number": "DCPI 66/2004",
+        "injury_description": "Displaced fractures of the right wrist",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 220000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12070,
+      "output_tokens": 6937,
+      "reasoning_tokens": 5312,
+      "total_tokens": 19007
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 57034.018237143755,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12070,
+      "output_tokens": 6937,
+      "reasoning_tokens": 5312,
+      "total_tokens": 19007
+    },
+    "total_duration_ms": 57034.018237143755
+  }
+}

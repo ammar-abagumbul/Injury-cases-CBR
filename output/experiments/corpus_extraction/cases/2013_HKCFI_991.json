@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 991",
+    "action_number": "HCPI 552/2010",
+    "case_name": "LAU KWAI SHEUNG v. TRADE EASY DEVELOPMENT LTD",
+    "judgment_date": "2013-06-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "waitress",
+    "occupation_after": "cashier",
+    "expected_occupation_after": "waitress",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "I am of the view that for a case of a relatively non-violent accident with only soft tissue injury, even if there was some psychological/psychiatric element, a claim of HK$500,000 would be wildly optimistic."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing spine degeneration",
+        "injury_type": "Permanent injury",
+        "body_part": "spine",
+        "laterality": null,
+        "source": [
+          "There was also some indication of an “egg skull rule”-type argument regarding the MRI findings of pre-existing spine degeneration, as well as some indication of a psychological/psychiatric explanation of the abnormal “pain behaviour”."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased sensation",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abnormal \"pain behaviour\"",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inconsistent performance during work capacity evaluation by the occupational therapist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive Waddell's Tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "orthopaedic assessment by treating orthopaedics doctors",
+      "occupational therapy work capacity evaluation",
+      "psychiatric/psychological assessment",
+      "MRI"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Claim that the plaintiff could not work as a waitress but needed to take up her current (allegedly lower paid) job as a cashier (claim for loss of future earnings).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Claim under PSLA in respect of the soft tissue injury with possible psychological/psychiatric element (judge notes a claim of HK$500,000 would be wildly optimistic and a reasonable prospect no more than HK$200,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8071,
+      "output_tokens": 4593,
+      "reasoning_tokens": 3520,
+      "total_tokens": 12664
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29795.20171880722,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8071,
+      "output_tokens": 4593,
+      "reasoning_tokens": 3520,
+      "total_tokens": 12664
+    },
+    "total_duration_ms": 29795.20171880722
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 41",
+    "action_number": "HCA001426/1983",
+    "case_name": "TSE FUK LIN v. LEE KAI AND ANOTHER",
+    "judgment_date": "1984-05-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": "Workman II",
+    "expected_occupation_after": null,
+    "salary_before": 2447.12,
+    "salary_after": 1910.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "as a result of the accident the plaintiff's left hand suffered amputation of the index, middle and ring finger.",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand (index, middle and ring finger)",
+        "laterality": "left",
+        "source": [
+          "Mr Wedderburn's report reveals that as a result of the accident the plaintiff's left hand suffered amputation of the index, middle and ring finger. The 5th finger also suffered crushing injuries. Revision amputation of the three fingers was performed at Queen Mary Hospital and the plaintiff was discharged after 2 days."
+        ],
+        "icd_code": "NC59.21",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, left hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The 5th finger also suffered crushing injuries.",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand (5th finger)",
+        "laterality": "left",
+        "source": [
+          "Mr Wedderburn's report reveals that as a result of the accident the plaintiff's left hand suffered amputation of the index, middle and ring finger. The 5th finger also suffered crushing injuries. Revision amputation of the three fingers was performed at Queen Mary Hospital and the plaintiff was discharged after 2 days."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He assessed his total impairment at 26%.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Revision amputation of the three fingers",
+      "Physiotherapy (60 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain Suffering and Loss of Amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mak Kwok Ping v Lui Nam trading as Nam Ying Creasing Paper Box Factory",
+        "neutral_citation": null,
+        "action_number": "HCA 7084/83",
+        "injury_description": "The injuries were similar and the impairment of the whole man was said to be 28%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 75000.0
+      },
+      {
+        "case_name": "Ng Wing Wah v Chun Hing Metal and Plastic Mould Factory",
+        "neutral_citation": null,
+        "action_number": "HCA 5389/83",
+        "injury_description": "A 34% impairment of the whole man; the hand injuries were more serious in that case.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9925,
+      "output_tokens": 5115,
+      "reasoning_tokens": 3968,
+      "total_tokens": 15040
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30176.29788443446,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9925,
+      "output_tokens": 5115,
+      "reasoning_tokens": 3968,
+      "total_tokens": 15040
+    },
+    "total_duration_ms": 30176.29788443446
+  }
+}

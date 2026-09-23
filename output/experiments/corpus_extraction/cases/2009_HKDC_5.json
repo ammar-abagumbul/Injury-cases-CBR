@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 5",
+    "action_number": "DCPI 525/2007",
+    "case_name": "TSANG KA HUNG BARRY v. 鄧玉玲",
+    "judgment_date": "2009-01-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": null,
+    "occupation_before": "medical doctor in private practice (clinic in Mongkok)",
+    "occupation_after": "now in private practice",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "penetrating wound on the back of the left hand deep down to the subcutaneous layer",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "physical examination revealed a penetrating wound and an abrasion wound on the back of the left hand. The penetrating wound was about 5mm in diameter, round in shape and deep down to the subcutaneous layer. The abrasion wound was about 2cm long but rather shallow in depth."
+        ],
+        "icd_code": "NC52.13",
+        "icd_description": "Puncture wound without foreign body of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasion wound on the back of the left hand",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "physical examination revealed a penetrating wound and an abrasion wound on the back of the left hand. The penetrating wound was about 5mm in diameter, round in shape and deep down to the subcutaneous layer. The abrasion wound was about 2cm long but rather shallow in depth."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "restricted movement of left hand and fingers (active movement limited by pain, passive range not affected)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "oozing from the bite wounds / bleeding",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "prevented use of the computer keyboard or wearing of gloves during work as a physician",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "wounds cleansed and dressed",
+      "booster injection of anti-tetanus toxoid vaccine",
+      "course of antibiotics",
+      "follow-up consultations with Dr Jonathan K C Wong"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 0,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, stiffness and other symptoms from injuries to his left hand",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Susi Yanti & anor v Chu Shiu-chuen",
+        "neutral_citation": null,
+        "action_number": "HCPI176/2000",
+        "injury_description": "4-year old girl attacked by a pack of dogs, suffered three laceration wounds over both thighs with multiple minor bite/scratch marks over her thighs and left arm; treated with analgesics, dressings and antibiotics and anti-rabies vaccinations; suffered nightmares and fear of dogs; later various scars and stitch marks",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Chiu Oi Lung by his mother and next friend Shek Kam Kiu v Wong Yuet",
+        "neutral_citation": null,
+        "action_number": "DCPI115/2006",
+        "injury_description": "10-year old boy bitten by a dog below the left eye with a 1.5cm x 1cm wound with tissue loss over left infra-orbital area; required daily dressing and anti-rabies vaccination; developed a 33mm x 2mm pale atrophic scar causing malfunction of left lower eyelid, recommended revision surgery; developed some degree of cynophobia",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 18,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14572,
+      "output_tokens": 5255,
+      "reasoning_tokens": 3776,
+      "total_tokens": 19827
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30629.56929206848,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14572,
+      "output_tokens": 5255,
+      "reasoning_tokens": 3776,
+      "total_tokens": 19827
+    },
+    "total_duration_ms": 30629.56929206848
+  }
+}

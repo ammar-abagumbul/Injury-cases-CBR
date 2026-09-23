@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 289",
+    "action_number": "DCPI 1696/2008",
+    "case_name": "AMAR NAZIA ALSO KNOWN AS AMIR NAZIR v. WONG CHUI YI FORMERLY T/A SINO CONSTRUCTION ENGINEERING CO AND OTHERS",
+    "judgment_date": "2009-12-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 29,
+    "age_at_trial": 33,
+    "occupation_before": "casual labourer / demolition worker",
+    "occupation_after": null,
+    "expected_occupation_after": "office assistant or cashier",
+    "salary_before": 9100.0,
+    "salary_after": null,
+    "expected_salary_after": 550.0,
+    "education_level": "secondary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right forearm laceration with complete cut FCR and partial cut FDS",
+        "injury_type": "Residual disability",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "diagnosis was right forearm laceration with complete cut FCR and partial cut FDS.",
+          "there was laceration measured 8.5 cm in length, and had healed with some scar hypertrophy.",
+          "There was some thickening and firmness beneath the scar consistent with scarring/fibrotic changes. There was no significant scar adhesion but there was scar tenderness."
+        ],
+        "icd_code": "NC36.6",
+        "icd_description": "Injury of multiple muscles or tendons at forearm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain in right forearm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of right forearm / difficulty with heavy lifting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "marked reduction in right hand grip strength (right hand recorded 6 kgf vs left 46 kgf)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot make a full fist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness in his fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain along the whole right upper limb when trying to straighten right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in forearm during change of cold weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot play cricket any more",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "encountered a lot of difficulties in his daily life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation for exploration and repair",
+      "occupational therapy (around 7 sessions)",
+      "physiotherapy (around 4 sessions)",
+      "wrist cock-down splint (kept for 3 weeks)",
+      "anti-tetanus immunization (2nd and 3rd not attended)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 156
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "residual pain and weakness in dominant right forearm; reduced grip strength; inability to make full fist; stiffness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "cannot play cricket any more",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "encountered a lot of difficulties in his daily life",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Kam Po v. Yim Sui Hong",
+        "neutral_citation": null,
+        "action_number": "DCPI 1628 of 2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10012,
+      "output_tokens": 4705,
+      "reasoning_tokens": 3712,
+      "total_tokens": 14717
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35094.32125091553,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10012,
+      "output_tokens": 4705,
+      "reasoning_tokens": 3712,
+      "total_tokens": 14717
+    },
+    "total_duration_ms": 35094.32125091553
+  }
+}

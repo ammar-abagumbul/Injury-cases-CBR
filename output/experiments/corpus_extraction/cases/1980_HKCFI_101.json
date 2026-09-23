@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 101",
+    "action_number": "HCA 3033/1979",
+    "case_name": "LEE HAU MAN v. HON PING WAN",
+    "judgment_date": "1980-03-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 74,
+    "occupation_before": "odd job worker in a shop",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 900.0,
+    "salary_after": null,
+    "expected_salary_after": 1200.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "One was of the femoral neck",
+        "injury_type": "Residual disability",
+        "body_part": "right femoral neck",
+        "laterality": "right",
+        "source": [
+          "He had two fractures of the right Femur (bone of the thigh). One was of the femoral neck and the other of the shaft of the bone."
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the shaft of the right femur",
+        "injury_type": "Residual disability",
+        "body_part": "right femoral shaft",
+        "laterality": "right",
+        "source": [
+          "He had two fractures of the right Femur (bone of the thigh). One was of the femoral neck and the other of the shaft of the bone.",
+          "On 30.5.78 the fracture of the shaft was treated by operation and the insertion of a bone plate and bone screw."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Possibility of osteo-arthritis in the right hip joint (post-traumatic)",
+        "injury_type": "Residual disability",
+        "body_part": "right hip joint",
+        "laterality": "right",
+        "source": [
+          "there is a possibility of osteo-arthritis in the plaintiff's hip joint which is slightly disorganized by the presence of abnormal bone."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and aching in the region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "3/8ths of an inch of shortening of the leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Severe muscle wasting of the thigh muscles; the circumference of the right thigh is 12¼ and of the left, 14ins.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "A neat, 8ins. operation scar on the outside of the right thigh.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Movements of the leg at the hip are severely restricted; can only bend the leg at the hip through 110° (normal 150°); deficit of 10° of internal rotation and limit of external rotation is 30° so instead of 75° of the combined movements he only has 20°.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to completely straighten the leg at the knee joint, there being a deficit of 10° (reduced to 2–3° on later examination).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Used two sticks for four months and still uses one stick when outside the house but when inside he has to support himself on articles of furniture.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Takes 10 to 15 minutes to climb the stairs and he has to rest three or four times on the way up.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He is totally incapable of any form of work.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Impairment figures: a 4% Impairment of the leg from the knee; a 7% from loss of flexion of the hip and 15% from loss of rotation of the hip, making a 26% Impairment of the leg which is a 10% Impairment of the Whole Man (first report).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Overall Impairment is now 23% of the leg and a 9% Impairment of the Whole Man (second report).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Possibility of osteo-arthritis in the hip; pain and aching in the region would increase over 5–6 years.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Taken to Tang Shiu Kin Hospital and transferred to the Queen Mary Hospital",
+      "Traction with pin through the tibia below the knee",
+      "Operation on 30.5.78 for fracture of the shaft with insertion of a bone plate and bone screw",
+      "Traction re-applied with another pin through the tibia",
+      "Transferred to Sandy Bay Hospital for two months",
+      "Use of walking sticks"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "It takes him 10 to 15 minutes to climb the stairs and he has to rest three or four times on the way up.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "When inside he has to support himself on articles of furniture.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is totally incapable of any form of work.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "There is a neat, 8ins. operation scar on the outside of the right thigh.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He has undergone a good deal of pain and suffering and loss of amenities.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 25000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Shau-chun v. Yuen Chuk-leung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "71 year old woman fractured her tibia, fibula and wrist, she remained in hospital for 101 days during which time her leg and wrist were in plaster, and she finally suffered a permanent disability of a slight limp.",
+        "hospitalisation_days": 101,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 15000.0
+      },
+      {
+        "case_name": "Chow Chui-kwong v. Kwok Kwong",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Compound fracture of the right knee cap, fractures of the right ankle, left hand, and 7th right rib, and lacerations of the left knee; operation for removal of bone fragments from the right knee and open reduction and screwing of the ankle; knee could not be straightened and had only 65° of movement instead of the normal 165°; ankle limited.",
+        "hospitalisation_days": 90,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 25000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16238,
+      "output_tokens": 7586,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23824
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50596.33291885257,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16238,
+      "output_tokens": 7586,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23824
+    },
+    "total_duration_ms": 50596.33291885257
+  }
+}

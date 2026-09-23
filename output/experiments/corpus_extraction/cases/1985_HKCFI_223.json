@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 223",
+    "action_number": "HCA010812/1983",
+    "case_name": "TANG SIU KIT v. LAM PO AND ANOTHER",
+    "judgment_date": "1985-07-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 7,
+    "age_at_trial": 11,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "suffered severe injuries including a fractured left thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "suffered severe injuries including a fractured left thigh"
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "was unconscious for about 10 hours",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left leg still shows 3/8ths of an inch of shortening in comparison with his right leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "suffers pain from his left leg when he partakes in physical activity for any extended period of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "deficiencies in intellectual ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "deficiencies in spatial-perceptual ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "skeletal traction",
+      "skin traction",
+      "follow-up out-patient treatment for 6 weeks",
+      "use of 2 crutches"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 79,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from the fractured left thigh",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Suffers pain in left leg when partaking in physical activity for any extended period of time",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Deficiencies in intellectual ability",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Deficiencies in spatial-perceptual ability",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Chances of obtaining reasonably paid employment prejudiced and restricted by his learning disability",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LEE Ting-lam",
+        "neutral_citation": "[1980] H.K.L.R. 657",
+        "action_number": null,
+        "injury_description": "serious injury classification used as benchmark",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8212,
+      "output_tokens": 4408,
+      "reasoning_tokens": 3328,
+      "total_tokens": 12620
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28876.27337500453,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8212,
+      "output_tokens": 4408,
+      "reasoning_tokens": 3328,
+      "total_tokens": 12620
+    },
+    "total_duration_ms": 28876.27337500453
+  }
+}

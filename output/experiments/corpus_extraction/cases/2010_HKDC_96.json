@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 96",
+    "action_number": "DCCJ 2447/2009",
+    "case_name": "CHINA PANG AN INSURANCE (HONG KONG) CO LTD v. CHUI LAU WAH AND ANOTHER",
+    "judgment_date": "2010-05-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Insurer (China Pang An Insurance (Hong Kong) Co. Ltd.)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "approximately 4cm right elbow laceration",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "approximately 4cm right elbow laceration"
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild abrasions over right elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "mild abrasions over right elbow, right hand and left knee"
+        ],
+        "icd_code": "NC30.0",
+        "icd_description": "Abrasion of elbow"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild abrasions over right hand",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "mild abrasions over right elbow, right hand and left knee"
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "mild abrasions over left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "mild abrasions over right elbow, right hand and left knee"
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Injured was granted 19 days sick leave during the period from 21 July 2007 to 8 August 2007.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The Injured had produced receipts showing medical expenses incurred by him.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 19,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Tsz Sing v Lo Ching Pong & Another",
+        "neutral_citation": "CACV 176/2004",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Singh Jagdeep v VSC Engineering Products Co, Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 391/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12274,
+      "output_tokens": 5333,
+      "reasoning_tokens": 4352,
+      "total_tokens": 17607
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35688.11375647783,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12274,
+      "output_tokens": 5333,
+      "reasoning_tokens": 4352,
+      "total_tokens": 17607
+    },
+    "total_duration_ms": 35688.11375647783
+  }
+}

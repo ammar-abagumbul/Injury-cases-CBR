@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 95",
+    "action_number": "HCA005466/1982",
+    "case_name": "SUEN KAM WAI v. CHEUNG YAM",
+    "judgment_date": "1983-01-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 57,
+    "age_at_trial": null,
+    "occupation_before": "Welder (with Kwong Ngai Steel Works)",
+    "occupation_after": "Welder (returned to former employment with Kwong Ngai Steel Works)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right kidney lacerated beyond repair; nephrectomy performed.",
+        "injury_type": "Permanent injury",
+        "body_part": "right kidney",
+        "laterality": "right",
+        "source": [
+          "The right kidney was found to be lacerated beyond repair and nephrectomy was done."
+        ],
+        "icd_code": "NB92.04",
+        "icd_description": "Laceration of kidney, major"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Adhesion over the intra-abdominal organs resulting from the operation which could give rise to an operation within the next 10-20 years (chance around 10%).",
+        "injury_type": "Residual disability",
+        "body_part": "intra-abdominal organs",
+        "laterality": null,
+        "source": [
+          "He also stated that the adhesion over the intra-abdominal organs resulting from the operation could give rise to an operation some time within the next 10-20 years. He put the chance of such an operation eventuating at around 10%."
+        ],
+        "icd_code": "NB91.B",
+        "icd_description": "Injury of multiple intra-abdominal organs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Renal function tests revealing marginal impairment",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tires more readily (increased fatigue)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sometimes feels nauseous",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Finds work much more tiring; leaves much more tired and sleepy at the end of the working day",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation (nephrectomy) at QEH",
+      "Out-patient clinic attendances during convalescence and after return to work",
+      "Convalesced at home"
+    ],
+    "treatments_future": [
+      "Possible operation for intra-abdominal adhesions (chance around 10% within 10-20 years)"
+    ],
+    "hospitalisation_days": 20,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 118,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of the right kidney (nephrectomy) with resulting marginal impairment of renal function and increased fatigue, and the possibility of future surgery for intra-abdominal adhesions.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chuen v Cheng Ka Kui and Chow Keung Kwong v Cheng Ka Kui",
+        "neutral_citation": null,
+        "action_number": "HCA 2455/78",
+        "injury_description": "In that case Mr Chow lost a kidney and the spleen.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 30000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9667,
+      "output_tokens": 4514,
+      "reasoning_tokens": 3328,
+      "total_tokens": 14181
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26080.01260459423,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9667,
+      "output_tokens": 4514,
+      "reasoning_tokens": 3328,
+      "total_tokens": 14181
+    },
+    "total_duration_ms": 26080.01260459423
+  }
+}

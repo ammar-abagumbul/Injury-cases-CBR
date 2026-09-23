@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 142",
+    "action_number": "HCPI 441/2000",
+    "case_name": "TO YING WA v. CARGO-LAND (WAREHOUSE) DEVELOPMENT LTD.",
+    "judgment_date": "2001-01-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 22,
+    "occupation_before": "driver cum delivery worker",
+    "occupation_after": "self-employed (in a partnership), running own business",
+    "expected_occupation_after": null,
+    "salary_before": 17000.0,
+    "salary_after": 20000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures to his fourth and fifth metacarpals of the right foot",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "the fractures that he sustained to his fourth and fifth metacarpals of the right foot",
+          "close reduction and K-wire fixation was carried out on his right fourth and fifth metacarpals"
+        ],
+        "icd_code": "NC53.4",
+        "icd_description": "Multiple fractures of metacarpal bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractures to his lower limb",
+        "injury_type": "Temporary injury",
+        "body_part": "lower limb / ankle",
+        "laterality": null,
+        "source": [
+          "ran over his right foot and collided with his ankle causing him fractures to his lower limb"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "swelling and tenderness over the fractured sites",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "accompanying pain in the right foot (described as at most a mild sensation)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulties with prolonged walking, standing and driving",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasional discomfort at the site of his injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping and need to take rest periodically on long working trips",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "may have difficulties working for many hours at a stretch / may be unable to work for many hours at a stretch",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and K-wire fixation",
+      "plaster cast",
+      "use of crutches",
+      "follow-up outpatient treatment",
+      "removal of plaster and K-wire"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from the fractures to the right fourth and fifth metacarpals and associated pain, swelling and tenderness; PSLA awarded $200,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Past loss of earnings between the date of the accident and assessment, quantified in the judgment as $154,120.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity: an award for potential future financial loss of $80,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Special damages for medical, travelling expenses and tonic food totalling $21,348.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "So Kwok-kwong v Cheng Chi-kwong & Others",
+        "neutral_citation": null,
+        "action_number": "PI No. 1098 of 1997",
+        "injury_description": "injuries to the knee and arm where an 8% disability of the whole person with significant loss of amenities",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 320000.0
+      },
+      {
+        "case_name": "Lam Pik-kuen & Lee Fai-ming & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 7 of 1998",
+        "injury_description": "injury to the pelvis",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Yee Ting-lam v Leung Kam-ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9959,
+      "output_tokens": 6363,
+      "reasoning_tokens": 4800,
+      "total_tokens": 16322
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37461.52676641941,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9959,
+      "output_tokens": 6363,
+      "reasoning_tokens": 4800,
+      "total_tokens": 16322
+    },
+    "total_duration_ms": 37461.52676641941
+  }
+}

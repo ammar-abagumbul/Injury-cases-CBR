@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 279",
+    "action_number": "DCPI 932/2007",
+    "case_name": "CHENG MUK PING v. CHAN'S MACHINE ENGINEERING CO LTD",
+    "judgment_date": "2008-10-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "to service the Respondent’s machines hired out at various construction sites",
+    "occupation_after": "worked at recycling companies and as a gardener; also worked as a driver and casual labourer in recycling companies",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Lisfranc fracture on his right foot second metatarsal.",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot (second metatarsal)",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff sustained a Lisfranc fracture on his right foot second metatarsal."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuous pain in the right foot when he began walking or pushing the pedal with his foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could no longer run or squat down",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty walking up and downstairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right ankle stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked into the doctor’s clinic in a normal gait, he was able to walk on his heels but not on tiptoe, he could only stand on his left leg, and he could only do - of a normal squat.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness on his right leg due to the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation of open reduction and internal fixation",
+      "foot put in a cast for 6 weeks",
+      "discharged with a pair of crutches",
+      "removal of all the screws inserted (admitted 29/1/05)",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "the injury and disabilities had prevented him from taking part in sports that he used to enjoy such as swimming, jogging, social dancing and mountaineering.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "continuous pain and right ankle stiffness causing difficulty walking up and downstairs; could no longer run or squat down; weakness on right leg and limitation of movements of his right ankle.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yau Sung Bik Yu v. Lie Ching Man",
+        "neutral_citation": "[2008] HKEC 581",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Ho For Sang v. Lau Sun Choi",
+        "neutral_citation": "[2003] 1 HKLRD, A15",
+        "action_number": null,
+        "injury_description": "compound fracture to two metatarsal bones and dislocation of 3 interphalangeal joints resulting in 30% loss of earning capacity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 460000.0
+      },
+      {
+        "case_name": "Yeung Kin Chung v. HK Scafform Supplies Ltd. & anor.",
+        "neutral_citation": null,
+        "action_number": "DCPI 1332/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Chan Chan Ping v. Colliers Jardine Management Ltd.",
+        "neutral_citation": "[2003] HKLRD 433",
+        "action_number": null,
+        "injury_description": "crushed injury to his left big toe resulting in 8.4% impairment of the whole person and 15.4% loss of earning capacity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10244,
+      "output_tokens": 5051,
+      "reasoning_tokens": 3520,
+      "total_tokens": 15295
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43946.53603434563,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10244,
+      "output_tokens": 5051,
+      "reasoning_tokens": 3520,
+      "total_tokens": 15295
+    },
+    "total_duration_ms": 43946.53603434563
+  }
+}

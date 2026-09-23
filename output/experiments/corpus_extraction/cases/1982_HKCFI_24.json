@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 24",
+    "action_number": "HCA006593/1981",
+    "case_name": "CHIU SHING WAI v. FUNG PING TONG AND ANOTHER",
+    "judgment_date": "1982-05-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 56,
+    "occupation_before": "general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Multiple laceration on the right upper limb and forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "right upper limb and forehead",
+        "laterality": null,
+        "source": [
+          "1. Multiple laceration on the right upper limb and forehead;"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "quadriplegia (partial quadriplegic)",
+        "injury_type": "Permanent injury",
+        "body_part": "quadriplegia / all four limbs",
+        "laterality": null,
+        "source": [
+          "the plaintiff was discovered to have quadriplegia.",
+          "\"partial quadriplegic\""
+        ],
+        "icd_code": "NA3Z",
+        "icd_description": "Injury of cervical spinal cord, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "haematoma on right knee; fracture of the right patella",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "2. haematoma on right knee;",
+          "X-rays showed a fracture of the right patella"
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "tenderness and deformity of the left leg; fracture of the left tibia and fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "3. tenderness and deformity of the left leg.",
+          "X-rays showed a fracture of the left tibia and fibula."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "At first he could not move his limbs at all but gradually improvement took place and he achieved a considerable degree of movement in both the arms and legs. He was taught to walk with a tripod frame and he can get out of bed himself, stand up, hold the frame with both hands, move the frame forwards and even take a step with each leg, moving 1' forwards with each combined manipulation. In the ward at Pok Oi he can walk the length of the ward (about 60') and he does this several times in the morning and afternoon",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He can only raise his right arm slowly to shoulder level and he has only a trace of movement in the fingers and hand and the movement is useless for any delicate manoeuvre although he can use the arm to push the wheels of the wheel chair. He can raise the left arm to slightly above shoulder level, he can hold a bowl in the left hand or hold a spoon",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "possible mild deterioration in his control of urine and bowels",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pneumonia and high fever (post-operative complication)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Princess Margaret Hospital (10 September 1979)",
+      "Open reduction and internal fixation (11 September 1979)",
+      "Treatment for pneumonia and high fever (post-operative complication)",
+      "Transferred to Rehabilitation Centre at Kwun Tong for six months of intensive physiotherapy and rehabilitation",
+      "Use of wheelchair"
+    ],
+    "treatments_future": [
+      "Residence in a Care and Attention Home (Kam Tin Home mentioned as example)",
+      "Nursing care two or three times a week for 2 or 3 hours (advised by Dr. Wedderburn)",
+      "Medical supervision once a quarter (opinion of Dr. Tse Chor Fat)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "This comprises injuries which leave the victim with very restricted mobility; plaintiff taught to walk with a tripod frame and can walk the length of the ward (about 60') only",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "He would require somebody to come in, clean the room, cook his food, do the marketing etc.; assistance required for personal care and supervision",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Requires help for domestic tasks: clean the room, cook his food, do the marketing",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Because of the risks of infection and disease, his life is likely to be shortened by at least 30% and he is unlikely to live after the age of 70",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 145000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LEE Ting-lam and LEUNG Kam-ming",
+        "neutral_citation": "1980 H.K.L.J. (10) 364",
+        "action_number": null,
+        "injury_description": "Court of Appeal decision describing 'Disaster' and 'Gross Disability' categories",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "WONG Tak-hing v Lai Seng Industrial Co., Ltd.",
+        "neutral_citation": null,
+        "action_number": "Action No.1489 of 1973",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11932,
+      "output_tokens": 8017,
+      "reasoning_tokens": 6144,
+      "total_tokens": 19949
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44672.54017293453,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11932,
+      "output_tokens": 8017,
+      "reasoning_tokens": 6144,
+      "total_tokens": 19949
+    },
+    "total_duration_ms": 44672.54017293453
+  }
+}

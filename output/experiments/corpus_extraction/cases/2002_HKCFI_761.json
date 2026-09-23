@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 761",
+    "action_number": "HCPI 166/2001",
+    "case_name": "HO NI FUK v. YIP WING KIN AND ANOTHER",
+    "judgment_date": "2002-11-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 55,
+    "age_at_trial": 59,
+    "occupation_before": "building labourer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 10800.0,
+    "salary_after": 6650.0,
+    "expected_salary_after": null,
+    "education_level": "limited education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "scalp laceration at his forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "he sustained a fracture of the odontoid process of the C2 vertebrae, a bilateral Colles' fracture and a scalp laceration at his forehead."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the odontoid process of the C2 vertebrae",
+        "injury_type": "Residual disability",
+        "body_part": "C2 vertebra (odontoid process)",
+        "laterality": null,
+        "source": [
+          "he sustained a fracture of the odontoid process of the C2 vertebrae, a bilateral Colles' fracture and a scalp laceration at his forehead."
+        ],
+        "icd_code": "NA22.12",
+        "icd_description": "Fracture of odontoid process"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "bilateral Colles' fracture",
+        "injury_type": "Residual disability",
+        "body_part": "both wrists",
+        "laterality": "bilateral",
+        "source": [
+          "he sustained a fracture of the odontoid process of the C2 vertebrae, a bilateral Colles' fracture and a scalp laceration at his forehead."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "scalp laceration at his forehead",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he still suffers mild stiffness, particularly during weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "required to wear the halo jacket for some three months, during which time he could not take a proper shower and was only able to sleep in a sitting position in a chair",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The wrist fractures have repaired reasonably well and he has a reasonable range of motion in both wrists but there is limitation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Prior to the accident, he could lift weights in excess of 100 pounds. Now he can only lift around 50 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "The wrist fractures have severely limited him",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction",
+      "application of plastercast",
+      "halo body jacket immobilisation",
+      "surgery",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "a general loss of ability and amenity of life",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11948,
+      "output_tokens": 6599,
+      "reasoning_tokens": 5312,
+      "total_tokens": 18547
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37762.197483330965,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11948,
+      "output_tokens": 6599,
+      "reasoning_tokens": 5312,
+      "total_tokens": 18547
+    },
+    "total_duration_ms": 37762.197483330965
+  }
+}

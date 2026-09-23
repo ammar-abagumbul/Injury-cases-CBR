@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 987",
+    "action_number": "HCPI 373/2009",
+    "case_name": "TSANG TSUN KEUNG v. KO WANG INTERNATIONAL TRADING LTD T/A KO WANG DESIGN ENGINEERING CO AND ANOTHER",
+    "judgment_date": "2010-12-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 48,
+    "age_at_trial": 51,
+    "occupation_before": "plumber",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": null,
+    "expected_salary_after": 8000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the L2 vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "L2 vertebra",
+        "laterality": null,
+        "source": [
+          "X-ray over the lumbar spine region revealed collapsed second lumbar vertebral body. He was diagnosed to have fracture of the L2 vertebra and left ankle soft tissue injury."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left ankle soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "X-ray over the lumbar spine region revealed collapsed second lumbar vertebral body. He was diagnosed to have fracture of the L2 vertebra and left ankle soft tissue injury."
+        ],
+        "icd_code": "ND17.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at the left ankle region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "swelling at the left ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased active range of movement of the left ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "decreased trunk flexibility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "twitching of the left thigh (alleged)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "30% decrease in touch sensation circumferentially for the entire left lower limb (alleged)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needed to hold onto the rail when climbing stairs (alleged)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked with the help of a stick when going out (alleged)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "needed support when changing from sitting to standing positions (alleged)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could only squat to half full (alleged)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "accident and emergency treatment",
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "thoracolumbar orthosis"
+    ],
+    "treatments_future": [
+      "physiotherapy (approximately once every 2 weeks)",
+      "orthopaedic follow-up (approximately once every 6 months)",
+      "accident and emergency attendances (regular)"
+    ],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 270
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual back injury and pain from fracture of the L2 vertebra with permanent wedge deformity (33% collapse on the front side) resulting in reduced physical function.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Sun Ming v Chung Kam Tim trading as Viking Contractors Company",
+        "neutral_citation": null,
+        "action_number": "HCMP 117/99",
+        "injury_description": "wedge fracture of the L2 vertebra; plaintiff also suffered injury to his right wrist and complaints included discomfort over the left shoulder, the right elbow and wrist and defective sexual activity on account of the back pain.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 330000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15763,
+      "output_tokens": 6081,
+      "reasoning_tokens": 4480,
+      "total_tokens": 21844
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51921.18998244405,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15763,
+      "output_tokens": 6081,
+      "reasoning_tokens": 4480,
+      "total_tokens": 21844
+    },
+    "total_duration_ms": 51921.18998244405
+  }
+}

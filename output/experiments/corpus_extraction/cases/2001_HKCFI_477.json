@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 477",
+    "action_number": "HCPI000336/1998",
+    "case_name": "BUAPHAN WANLAYAPHOL AND ANOTHER v. THE INCORPORATED OWNERS OF THE FOREMOST BUILDING",
+    "judgment_date": "2001-12-03",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": 61,
+    "occupation_before": "restaurant cook / chef",
+    "occupation_after": "pensioner",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right acute subdural haematoma and high parietal depressed skull fracture; 13 cm laceration on the right scalp; comatose on admission (Glasgow coma scale 3/15).",
+        "injury_type": "Permanent injury",
+        "body_part": "head/brain",
+        "laterality": "right",
+        "source": [
+          "the deceased was comatose on admission (Glasgow coma scale 3/15) with a 13 cm laceration on the right scalp. Urgent CT brain scan was conducted, revealing a right acute subdural haematoma and high parietal depressed skull fracture."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "extensive brain damage causing severe disability, leading to profound cognitive and motor impairment, incontinence and dependence on others; expected to be wheelchair bound for life.",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "He was satisfied that the deceased's extensive brain damage would cause severe disability requiring years of rehabilitation."
+        ],
+        "icd_code": "NA07.33",
+        "icd_description": "Diffuse injury of multiple parts of brain"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "one ½ inch laceration, a 2 ½ inch laceration and an abrasion wound over the parietal-occipital region of the scalp (2nd plaintiff).",
+        "injury_type": "Permanent injury",
+        "body_part": "scalp/head",
+        "laterality": null,
+        "source": [
+          "the 2nd plaintiff had sustained a one ½ inch laceration, a 2 ½ inch laceration and an abrasion wound over the parietal-occipital region of the scalp. There was no skull fracture or any history of loss of consciousness."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "comatose on admission (Glasgow coma scale 3/15)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "13 cm laceration on the right scalp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "incontinent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "lacking voluntary muscle function",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to speak, eat or drink and had to be fed artificially",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "increased muscle tone in the extremities, but decreased muscle tone in the trunk",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "clonus in the wrists and short adductors and flexors at the hip",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "spasticity in both the upper and lower extremities and flexion contractures especially in the right arm at the shoulder and elbow and in both legs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "general hypertonus and rigidity in the muscles, and difficulty in activating reflexes; right side Babinski positive",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "marginal cognition; little or no meaningful communication; 'yes' and 'no' expressed non-verbally; little voluntary muscle control; could sit in a wheelchair and move body forward",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could feel pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "frequent chest infection and increasing susceptibility to opportunistic infections (leading to eventual death from suppurative bronchitis)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "occasional dizziness, headaches and neck pain; pain and stiffness in the neck; occasional pain in the right leg and sensation of loss of strength in the right arm (2nd plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reactive depression, mood swings, moderate signs of depression and reduced minor cognitive abilities (assessed at 10% under Swedish Insurance Federation guidelines); psychosomatic illness, sleep disturbance, anxiety (2nd plaintiff)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "fatigue and reduced ability to work; episodes of crying several times a week (2nd plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency brain surgery",
+      "elective tracheostomy",
+      "physiotherapy",
+      "occupational therapy",
+      "rehabilitation",
+      "antibiotics (for chest infection)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities of the deceased (PSLA) awarded HK$1,000,000.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Loss of motor function assessed at 95%; expected to be wheelchair bound for the rest of her life.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Wholly dependent upon others for all her daily needs; required 24-hour care.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Unable to speak; could not communicate meaningfully in Swedish; 'yes' and 'no' expressed non-verbally.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Unable to perform ordinary household activities; required husband and hired helpers for all daily needs and home adaptation.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "2nd plaintiff: depression, reduced minor cognitive abilities, mood swings and other psychiatric sequelae for which HK$600,000 awarded.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "2nd plaintiff forced to retire early and stop working as a chef; loss of earnings and pension diminution awarded.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20052,
+      "output_tokens": 8510,
+      "reasoning_tokens": 6208,
+      "total_tokens": 28562
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50121.476002037525,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20052,
+      "output_tokens": 8510,
+      "reasoning_tokens": 6208,
+      "total_tokens": 28562
+    },
+    "total_duration_ms": 50121.476002037525
+  }
+}

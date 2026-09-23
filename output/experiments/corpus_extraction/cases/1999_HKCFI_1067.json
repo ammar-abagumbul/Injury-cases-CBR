@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1067",
+    "action_number": "HCPI No.664 of 1998",
+    "case_name": "YAN FAI WAH v. KONG SEUNG CHUEN AND ANOTHER",
+    "judgment_date": "1999-07-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 41,
+    "age_at_trial": 44,
+    "occupation_before": "Carpenter",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": "waiter, cleaner or messenger",
+    "salary_before": 13600.0,
+    "salary_after": 8750.0,
+    "expected_salary_after": 8750.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Amputation of left thumb at the middle position of distal phalanx",
+        "injury_type": "Permanent injury",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "his left thumb was amputated by the saw at the middle position of distal phalanx."
+        ],
+        "icd_code": "NC59.0Y",
+        "icd_description": "Other specified traumatic amputation of thumb"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Degenerative changes and mild subluxation over the metacarpal joint",
+        "injury_type": "Permanent injury",
+        "body_part": "left metacarpal joint",
+        "laterality": "left",
+        "source": [
+          "Degenerative changes and mild subluxation were subsequently found over the metacarpal joint."
+        ],
+        "icd_code": "NC54.20",
+        "icd_description": "Dislocation of metacarpophalangeal joint of finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of distal to interphalangeal joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of active motion of the said joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hyperaesthesia on touching and percussing stump end",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in handling and picking up fine objects such as screws and pins",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of the remaining stump of the thumb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness over stump end",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakened left hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain when thumb accidentally hits against any object (pain lasting a few minutes)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the thumb when there is a drop in temperature",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation (attempt to replant failed) and stump closure",
+      "Out-patient occupational therapy until July 1997"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of left thumb resulting in loss of distal interphalangeal joint, loss of active motion, hyperaesthesia, stiffness, numbness and weakened left hand grip.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty in holding a newspaper or a book for very long, difficulty in holding a bowl of rice close to mouth, and difficulty in picking up a glass of water with the left hand.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsang Chin Keung v. Lo Tat Kong trading as Hung Kwong Glass Works & Another",
+        "neutral_citation": "[1996] HKLY 669",
+        "action_number": "P.I. No.806 of 1995",
+        "injury_description": "plaintiff sustained injury to the upper part of his left (preferred) hand from an electric saw... large deep cut to the thumb at an angle across the inside of the fleshy part of the hand. He suffered from loss of sensation and numbness in left hand, loss of strength in the hand, constant pain, occasional throbbing and loss of sensation in the left forearm at the site of the nerve graft.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 365000.0
+      },
+      {
+        "case_name": "Ma Kam Yeung v. Fu Hay Kin & Others",
+        "neutral_citation": "[1998] 2 HKLRP 615",
+        "action_number": "P.I. No.769 of 1997",
+        "injury_description": "left thumb almost amputated by bench-mounted circular saw, re-attached in emergency operation; 60% impairment of thumb and 13% disability of whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12196,
+      "output_tokens": 7342,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19538
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39760.1061090827,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12196,
+      "output_tokens": 7342,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19538
+    },
+    "total_duration_ms": 39760.1061090827
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 387",
+    "action_number": "HCA 3362/1984",
+    "case_name": "LEE KWAN FONG v. LEUNG CHI HUNG",
+    "judgment_date": "1984-12-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "licensed ice-cream vendor (using a mobile cart supplied by Watsons)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 3000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "broken ankle",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "She was struck by a private car driven by the Defendant and suffered a broken ankle which required surgery. She was in plaster for some time and has now lost 10o of the normal flexion of her left ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "she undoubtedly did suffer some pain and inconvenience for a period of one year.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has now lost 10o of the normal flexion of her left ankle.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgery",
+      "plaster immobilisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities; she undoubtedly did suffer some pain and inconvenience for a period of one year.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 10000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 6905,
+      "output_tokens": 3823,
+      "reasoning_tokens": 3136,
+      "total_tokens": 10728
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26124.53357130289,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 6905,
+      "output_tokens": 3823,
+      "reasoning_tokens": 3136,
+      "total_tokens": 10728
+    },
+    "total_duration_ms": 26124.53357130289
+  }
+}

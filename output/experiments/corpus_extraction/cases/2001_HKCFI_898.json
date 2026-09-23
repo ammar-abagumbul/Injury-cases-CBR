@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 898",
+    "action_number": "HCPI 879/2000",
+    "case_name": "CHAN CHEUK YIU v. CHAN HO KWAN",
+    "judgment_date": "2001-06-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 22,
+    "age_at_trial": 24,
+    "occupation_before": "wielder; part time delivery worker for Pizza Hut",
+    "occupation_after": "wielder at K. Wah Construction Company",
+    "expected_occupation_after": null,
+    "salary_before": 18200.0,
+    "salary_after": 12850.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He sustained head ... injuries.",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He sustained head, right wrist and right knee injuries."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A fracture was discovered on the distal radius of his right wrist.",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "A fracture was discovered on the distal radius of his right wrist.",
+          "He was given close reduction and short arm plaster for his fractured radius."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "A 5cm laceration was found at the antero-lateral joints of his right knee to the level of the surface of the joint; marginal osteophyte present medially at his right knee joint, with slight compartment narrowing; reduced mobility of right knee.",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "A 5cm laceration was found at the antero-lateral joints of his right knee to the level of the surface of the joint.",
+          "The residuary effect the injuries had on the plaintiff was a mild limitation on the flexion and exertion of his right knee. A marginal osteophyte was present medially at his right knee joint, with slight compartment narrowing."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Disfiguring scar on the lateral aspect of his right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Residual stiffness in his right wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced degree of mobility of his right knee",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Mild limitation on the flexion and exertion of his right knee",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Marginal osteophyte present medially at his right knee joint, with slight compartment narrowing",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Grinding pain on his patello-femoral joint",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Reservation in climbing scaffold and stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and short arm plaster for his fractured radius",
+      "Debridement, irrigation and sutures were carried out on his knee"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 97,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "The knee injuries resulted in reduced mobility in the plaintiff's right knee.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Disfiguring scar on the lateral aspect of his right knee.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He used to play football once or twice a week. After the accident he no longer played football.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 145000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chung Lop",
+        "neutral_citation": null,
+        "action_number": "HCPI-327/96",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Mak Ping",
+        "neutral_citation": "[1995] 3 HKC 558",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "SO Chung Kwong",
+        "neutral_citation": null,
+        "action_number": "HCPI-527/98",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11572,
+      "output_tokens": 5175,
+      "reasoning_tokens": 3904,
+      "total_tokens": 16747
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35504.37277555466,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11572,
+      "output_tokens": 5175,
+      "reasoning_tokens": 3904,
+      "total_tokens": 16747
+    },
+    "total_duration_ms": 35504.37277555466
+  }
+}

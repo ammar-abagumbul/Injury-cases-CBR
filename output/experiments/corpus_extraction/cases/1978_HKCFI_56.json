@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 56",
+    "action_number": "HCA003172/1977",
+    "case_name": "JOHN FRANCIS GOUDEY AND ANOTHER v. KWOK MAN WAH AND ANOTHER",
+    "judgment_date": "1978-11-15",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 55,
+    "age_at_trial": null,
+    "occupation_before": "director of a multi-national Company",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "cervical spondylosis at C5-6-7 in the neck (aggravated by the accident)",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C5-6-7)",
+        "laterality": null,
+        "source": [
+          "cervical spondylosis at C5-6-7 in the neck"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "osteo-arthritis of the left hip",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "the accident did cause the osteo-arthritis in the left hip"
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the left humerus",
+        "injury_type": "Temporary injury",
+        "body_part": "left humerus",
+        "laterality": "left",
+        "source": [
+          "fracture of the left humerus"
+        ],
+        "icd_code": "NC12.Z",
+        "icd_description": "Fracture of shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a ruptured left arm bicepts tendon",
+        "injury_type": "Permanent injury",
+        "body_part": "left upper arm (biceps tendon)",
+        "laterality": "left",
+        "source": [
+          "a ruptured left arm bicepts tendon"
+        ],
+        "icd_code": "NC16.2Y",
+        "icd_description": "Other specified injury of muscle, fascia or tendon of other parts of biceps"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "deformed and stiff ring finger distal 1-P",
+        "injury_type": "Residual disability",
+        "body_part": "ring finger distal 1-P (left hand)",
+        "laterality": "left",
+        "source": [
+          "deformed and stiff ring finger distal 1-P"
+        ],
+        "icd_code": "NC54.Z",
+        "icd_description": "Dislocation or strain or sprain of joints or ligaments at wrist or hand level, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "abrasions, bruising and tenderness of the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "abrasions, bruising and tenderness of both knees",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness of the left side of the chest about ribs 6 and 7",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "bruises on the left forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in his left hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "sensitivity and poor co-ordination of the index and middle fingers of the left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "finds increased difficulty in doing things with his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tires more easily than before",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "interference with his working efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital treatment",
+      "regular medical treatment",
+      "treatment in Casualty Department (second plaintiff)"
+    ],
+    "treatments_future": [
+      "physiotherapy (for left hip)",
+      "cortisone injections (one injection each year for a maximum of 3 years) for left hip",
+      "surgical repair of left arm biceps tendon"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "No longer plays tennis because of the arm injury; sporting involvement substantially reduced",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Reduction in golf (from two rounds weekly to at most one; severe pain by the 13th or 14th hole)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Longer working hours and reduced resilience have had an upsetting effect on his family life",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 34000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13693,
+      "output_tokens": 10056,
+      "reasoning_tokens": 8256,
+      "total_tokens": 23749
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49753.85404005647,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13693,
+      "output_tokens": 10056,
+      "reasoning_tokens": 8256,
+      "total_tokens": 23749
+    },
+    "total_duration_ms": 49753.85404005647
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 378",
+    "action_number": "DCPI 417/2006",
+    "case_name": "FUNG SIU LING v. PROSPERITY LAND ESTATE MANAGEMENT LTD",
+    "judgment_date": "2007-11-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "civil servant working as a clerical assistant",
+    "occupation_after": "returned to pre-accident occupation (clerical assistant) on 2004-03-01",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractured right radial head",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray examination of the right elbow showed fractured right radial head and displaced fracture of lateral epicondyle."
+        ],
+        "icd_code": "NC32.1",
+        "icd_description": "Fracture of upper end of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Displaced fracture of lateral epicondyle",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray examination of the right elbow showed fractured right radial head and displaced fracture of lateral epicondyle."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain over posterior aspect of the right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and internal fixation",
+      "Put on a brace for 9 weeks",
+      "Follow-up therapy sessions",
+      "Hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 314,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain Suffering and Loss of Amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 140000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9229,
+      "output_tokens": 4177,
+      "reasoning_tokens": 3392,
+      "total_tokens": 13406
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31107.069354504347,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9229,
+      "output_tokens": 4177,
+      "reasoning_tokens": 3392,
+      "total_tokens": 13406
+    },
+    "total_duration_ms": 31107.069354504347
+  }
+}

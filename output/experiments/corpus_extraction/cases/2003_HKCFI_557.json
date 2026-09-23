@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 557",
+    "action_number": "HCPI 742/2001",
+    "case_name": "CHONG YIU TAT v. FONG MAN CHI &AMP; OTHERS",
+    "judgment_date": "2003-12-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 48,
+    "occupation_before": "installing air-conditioners at construction sites",
+    "occupation_after": null,
+    "expected_occupation_after": "indoor cleaner and a car-park attendant",
+    "salary_before": 10000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "By the accident Chong sustained a pilon (distal end) fracture of the left tibia involving the ankle joint.",
+        "injury_type": "Residual disability",
+        "body_part": "left tibia / left ankle",
+        "laterality": "left",
+        "source": [
+          "By the accident Chong sustained a pilon (distal end) fracture of the left tibia involving the ankle joint."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He initially suffered from post-traumatic oedema.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Chong still suffers from residual pain and stiffness of the left ankle, with a chance of degenerative arthritis.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The pain and stiffness are aggravated when Chong walks on uneven surfaces or goes for prolonged walks.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He will have to minimise strenuous use of his left ankle in the future.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Chong cannot return to his pre-injury occupation of installing air-conditioners at construction sites.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and external fixation (operation on 17 September 1998)",
+      "wire removal (11 November 1998)",
+      "removal of external fixator (December 1998)",
+      "regular treatment",
+      "physiotherapy"
+    ],
+    "treatments_future": [
+      "possible future surgical treatment for degenerative arthritis"
+    ],
+    "hospitalisation_days": 27,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Residual pain and stiffness of the left ankle, aggravated on uneven surfaces or prolonged walks; will have to minimise strenuous use of left ankle.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Cannot return to his pre-injury occupation of installing air-conditioners at construction sites.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Kin Wah v. Lam Shu Kan",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19807,
+      "output_tokens": 4314,
+      "reasoning_tokens": 3264,
+      "total_tokens": 24121
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31958.51269364357,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19807,
+      "output_tokens": 4314,
+      "reasoning_tokens": 3264,
+      "total_tokens": 24121
+    },
+    "total_duration_ms": 31958.51269364357
+  }
+}

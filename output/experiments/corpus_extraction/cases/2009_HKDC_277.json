@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 277",
+    "action_number": "DCPI 494/2009",
+    "case_name": "SINGH HARPEL v. NAJIB TRANSPORT",
+    "judgment_date": "2009-11-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 20,
+    "age_at_trial": null,
+    "occupation_before": "packer or labourer",
+    "occupation_after": "delivery worker for a textile company",
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": "primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Serious crush injuries to right hand and forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand and forearm",
+        "laterality": "right",
+        "source": [
+          "causing the lever to close trapping [the Plaintiff’s] right hand and forearm in the machine resulting in serious crush injuries.",
+          "After the accident, Singh was sent to hospital. According to the medical records of the hospital, there was swelling in his right hand. X-ray showed no fracture or dislocation. In view of the swelling and impending compartment syndrome, an emergency operation of fasciotomy was performed."
+        ],
+        "icd_code": "NC37.Z",
+        "icd_description": "Crushing injury of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Impending compartment syndrome of right hand treated by emergency fasciotomy",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "In view of the swelling and impending compartment syndrome, an emergency operation of fasciotomy was performed."
+        ],
+        "icd_code": "NC57.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Mild median nerve entrapment with electrophysiological evidence without supporting physical deficits",
+        "injury_type": "Residual disability",
+        "body_part": "median nerve / right hand (median distribution)",
+        "laterality": "right",
+        "source": [
+          "There had probably been some compression on the median nerve of the Plaintiff shortly after the accident, but it had probably recovered. There is now only \"mild electrophysiological evidence of a median nerve entrapment without supporting physical deficits\"."
+        ],
+        "icd_code": "NC55.1",
+        "icd_description": "Injury of median nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "hand gets tired easily",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hand is weak",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness in right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain in right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some sensory discomfort in the median three and a half fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency fasciotomy",
+      "analgesics",
+      "dressing care",
+      "suturing of the surgical wounds",
+      "physiotherapy (mobilisation exercise)",
+      "outpatient follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and numbness in right hand and sensory discomfort in median three and a half fingers.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yu Yixin v Leung Chi Tin Andy",
+        "neutral_citation": null,
+        "action_number": "DCPI 1306 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Mehmood Khalid v Million Harvest Wharves & Logistics Ltd. & ors.",
+        "neutral_citation": null,
+        "action_number": "HCPI 401 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsang Ka Hung Barry v Tang Yuk Ling",
+        "neutral_citation": null,
+        "action_number": "DCPI 525 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15437,
+      "output_tokens": 6820,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22257
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40867.34813079238,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15437,
+      "output_tokens": 6820,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22257
+    },
+    "total_duration_ms": 40867.34813079238
+  }
+}

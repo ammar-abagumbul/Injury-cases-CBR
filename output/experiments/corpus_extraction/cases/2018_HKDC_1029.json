@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1029",
+    "action_number": "DCPI 1725/2015",
+    "case_name": "WONG SHUI MING v. YEUNG KAM SHING",
+    "judgment_date": "2018-08-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "plasterer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "At L4-5: Circumferential round disc protrusion of L4-5...but no significant lateral recess or neural foremen is found. Central canal remains capacious and the cauda equine is not impinged.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4-5)",
+        "laterality": "left",
+        "source": [
+          "At L4-5: Circumferential round disc protrusion of L4-5...but no significant lateral recess or neural foremen is found. Central canal remains capacious and the cauda equine is not impinged."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "At L5-S1: Similar circumferential round disc protrusion is noted, causing mild left lateral assess recess stenosis. Condition is further aggravated by degenerative hypertrophy of the L5-S1 facet. However, no overt impingement of left S1 descending nerve root is seen.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L5-S1)",
+        "laterality": "left",
+        "source": [
+          "At L5-S1: Similar circumferential round disc protrusion is noted, causing mild left lateral assess recess stenosis. Condition is further aggravated by degenerative hypertrophy of the L5-S1 facet. However, no overt impingement of left S1 descending nerve root is seen."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "back and left elbow contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "Major complaint was back and left elbow pain…\n\nMedical examination revealed…\n\n-left upper back tenderness, no bruise / wound\n\n-left elbow tenderness, range of movement normal\n\nX-ray of chest and ribs showed no fracture or pneumothorax.\n\nThe clinical diagnosis was back and left elbow contusion."
+        ],
+        "icd_code": "NC30.1",
+        "icd_description": "Contusion of elbow"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "back and left elbow contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "Major complaint was back and left elbow pain…\n\nMedical examination revealed…\n\n-left upper back tenderness, no bruise / wound\n\n-left elbow tenderness, range of movement normal\n\nX-ray of chest and ribs showed no fracture or pneumothorax.\n\nThe clinical diagnosis was back and left elbow contusion."
+        ],
+        "icd_code": "NC30.1",
+        "icd_description": "Contusion of elbow"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left upper back tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left elbow tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "mild tenderness over L4-5 spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle spasm (reported by physiotherapist on 6 December 2013)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance (Queen Elizabeth Hospital)",
+      "General Outpatient Clinic attendances (Tseung Kwan O GOPC)",
+      "Orthopaedic consultation (Tseung Kwan O Department of Orthopaedics and Traumatology)",
+      "X-ray",
+      "MRI scan",
+      "physiotherapy",
+      "ambulance attendance"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenities resulting from the assault (PSLA awarded).",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 5000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18292,
+      "output_tokens": 7261,
+      "reasoning_tokens": 5696,
+      "total_tokens": 25553
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42679.271802306175,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18292,
+      "output_tokens": 7261,
+      "reasoning_tokens": 5696,
+      "total_tokens": 25553
+    },
+    "total_duration_ms": 42679.271802306175
+  }
+}

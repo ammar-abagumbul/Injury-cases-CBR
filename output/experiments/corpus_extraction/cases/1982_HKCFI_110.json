@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 110",
+    "action_number": "HCA 4770/1980",
+    "case_name": "CHEUNG LUK v. LO KWOK HUNG",
+    "judgment_date": "1982-03-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 72,
+    "age_at_trial": 75,
+    "occupation_before": "cook",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 640.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured wrist resulting in radial displacement of left hand.",
+        "injury_type": "Residual disability",
+        "body_part": "left forearm / left wrist",
+        "laterality": "left",
+        "source": [
+          "man of 75 - fractured wrist resulting in radial displacement of left hand.",
+          "Dr. Wedderburn examined him early in May 1980 and again in February 1982. He found that there was evidence of a fracture of the left forearm which had obviously been treated by a plaster-cast, and hospital records showed that he was discharged after three days and that he had to wear the plaster for about 40 days.",
+          "The hand was displaced towards the thumb side slightly at the wrist. He described this at a radial displacement.",
+          "The fracture went up the radius and its closest point to the wrist was one inch; and the fracture was oblique across the bone. The distal fragment was tilted forward by 10°. The other bone of the forearm was dislocated so that the normal mechanism of the right wrist joint was severely affected."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lost 40° of the movement of extending the left hand at the wrist (May 1980).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Flexion (bending) was normal.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Radial deviation normal but ulnar deviation reduced to 15° (May 1980); later ulnar deviation improved to 20° (Feb 1982).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Area of the wrist on the left hand appeared more swollen than that on the right.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Grip strength initially 25 lb in left hand and 70 lb in right hand (May 1980); later 40 lb left and 55 lb right (Feb 1982).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Distal fragment tilted forward by 10°; other bone of the forearm dislocated affecting wrist mechanism.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to return to work because of weakness of the wrist; doctor considered that at his age he was not fit for work.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impairment estimates: initially 10% impairment of the arm (6% of the whole man) based on 5% impairment from loss of ulnar deviation; later impairment of the arm decreased to 8% (5% of the whole man).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "plaster-cast (worn for about 40 days)",
+      "physiotherapy (three times a week for some time after the accident, later monthly)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function of the left wrist and left hand including loss of extension, reduced ulnar deviation, reduced grip strength and residual anatomical abnormality after fracture and displacement.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to work as a cook due to weakness of the wrist; doctors considered at his age he could not seek or undertake other lower paid work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9355,
+      "output_tokens": 4591,
+      "reasoning_tokens": 3264,
+      "total_tokens": 13946
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26665.300756692886,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9355,
+      "output_tokens": 4591,
+      "reasoning_tokens": 3264,
+      "total_tokens": 13946
+    },
+    "total_duration_ms": 26665.300756692886
+  }
+}

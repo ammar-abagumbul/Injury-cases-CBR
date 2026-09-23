@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 396",
+    "action_number": "DCPI 2301/2009",
+    "case_name": "CHUNG PAK CHEONG RIGO v. CHEUNG WAI CHUNG AND ANOTHER",
+    "judgment_date": "2012-04-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "skilled worker attached to the Company's team responsible for the maintenance of the metal parts of the bridges",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Wounding / strike to the head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Cheung struck the head of Chung with a spanner.",
+          "Cheung was subsequently arrested and charged with wounding."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of amenities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [
+      "Future medical expenses HK$1,600.00"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities HK$200,000.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10359,
+      "output_tokens": 2777,
+      "reasoning_tokens": 2112,
+      "total_tokens": 13136
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25116.533648222685,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10359,
+      "output_tokens": 2777,
+      "reasoning_tokens": 2112,
+      "total_tokens": 13136
+    },
+    "total_duration_ms": 25116.533648222685
+  }
+}

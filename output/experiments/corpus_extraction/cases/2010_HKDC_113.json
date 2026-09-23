@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 113",
+    "action_number": "DCPI 2790/2008",
+    "case_name": "LIMBU JAS MAYA v. H K SCAFFRAME SYSTEM LTD",
+    "judgment_date": "2010-05-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 57,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A 3-cm laceration was found over her right forehead with bruising.",
+        "injury_type": "Temporary injury",
+        "body_part": "right forehead",
+        "laterality": "right",
+        "source": [
+          "A 3-cm laceration was found over her right forehead with bruising."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Anterior dislocation of her right shoulder with fracture at greater tuberosity of humerus.",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Examination revealed anterior dislocation of her right shoulder.",
+          "After closed reduction, Limbu was discharged the following day.",
+          "Examination during follow-up a week later revealed fracture at greater tuberosity without intra-articular involvement."
+        ],
+        "icd_code": "NC19",
+        "icd_description": "Multiple injuries of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Post-traumatic constrictive capsulitis (frozen shoulder).",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Clinically Limbu was complicated with post-traumatic constrictive capsulitis (frozen shoulder)."
+        ],
+        "icd_code": "NC1Y",
+        "icd_description": "Other specified injuries to the shoulder or upper arm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "she still complained about soreness at right forehead, right shoulder; right-sided weakness and numbness; low back pain and diabetes mellitus.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Her condition was said to be static with residual shoulder stiffness.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "The experts agree that the shoulder condition should not significantly affect Limbu’s daily activities except for overhead activities with her right upper limb.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "bruising",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion of the right shoulder (stiffness)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Limbu was sent by the ambulance to the hospital.",
+      "After closed reduction, Limbu was discharged the following day.",
+      "She was given a shoulder immobiliser that she had eventually worn for 4 months.",
+      "15 sessions of physiotherapy",
+      "7 sessions of occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 148,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Right shoulder residual stiffness and reduced range of motion affecting overhead activities with her right upper limb.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 160000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Kwok Chiu v Senfield Ltd t/a Tsui Wah Restaurant",
+        "neutral_citation": null,
+        "action_number": "HCPI 246/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Limbu Muni Parsad v Hyundai Engineering and Construction Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1167/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Ching Yuk v Otis Elevator Company (HK) Limited & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 248/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14746,
+      "output_tokens": 5906,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20652
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37325.51300898194,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14746,
+      "output_tokens": 5906,
+      "reasoning_tokens": 4416,
+      "total_tokens": 20652
+    },
+    "total_duration_ms": 37325.51300898194
+  }
+}

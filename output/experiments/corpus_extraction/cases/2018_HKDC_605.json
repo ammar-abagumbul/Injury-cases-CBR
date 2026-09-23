@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 605",
+    "action_number": "DCPI 1447/2016",
+    "case_name": "DING KWOK KEUNG v. MORETIDE INVESTMENTS LTD",
+    "judgment_date": "2018-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 57,
+    "occupation_before": "lorry driver cum delivery worker",
+    "occupation_after": "construction site driver",
+    "expected_occupation_after": null,
+    "salary_before": 15663.0,
+    "salary_after": 14000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the plaintiff suffered a mild sprain back without neurological complication.",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered a mild sprain back without neurological complication."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "MRI of the lumbar spine was performed on 10 December 2014 which showed mild posterior disc bulging at L4/5 level, with mild compression at the anterior thecal sac. The clinical impression was PID at L4/5.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "MRI of the lumbar spine was performed on 10 December 2014 which showed mild posterior disc bulging at L4/5 level, with mild compression at the anterior thecal sac. The clinical impression was PID at L4/5."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "his pain was located at the lower lumbar region without local swelling. But there was marked decrease in lumbar flexion movement.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain in his low back, usually with a sense of tightness requiring stretching",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited tolerance (about an hour) in walking, standing and sitting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He now only has impaired capacity in handling heavy weight.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He experienced some shaking of the lower limbs on climbing stairs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on and off back pain that requires symptomatic treatment on a need to basis",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance at Princess Margaret Hospital (initial and subsequent attendances)",
+      "PMH physiotherapy: attended from 9 October 2013 to 26 February 2014 for a total of 11 sessions",
+      "Occupational therapy at CMC: attended from 24 March 2014 to 31 October 2014 for a total of 90 sessions",
+      "Outpatient physiotherapy at CMC: attended from 28 August 2014 to 28 October 2014 for a total of 9 sessions",
+      "MRI of the lumbar spine on 2014-12-10",
+      "Functional Capacity Evaluation conducted on 9 December 2014",
+      "Joint orthopedic examination on 28 July 2015"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He now only has impaired capacity in handling heavy weight.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "limited tolerance (about an hour) in walking, standing and sitting",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "the plaintiff is unfit for heaving manual lifting and his working capacity does not meet his pre-accident work demand as lorry driver cum delivery worker",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Luo Xiao Rong v Full Trend Development Ltd t/a Banquet Delicious",
+        "neutral_citation": null,
+        "action_number": "DCPI 2418 of 2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22717,
+      "output_tokens": 5781,
+      "reasoning_tokens": 4352,
+      "total_tokens": 28498
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32347.93857112527,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22717,
+      "output_tokens": 5781,
+      "reasoning_tokens": 4352,
+      "total_tokens": 28498
+    },
+    "total_duration_ms": 32347.93857112527
+  }
+}

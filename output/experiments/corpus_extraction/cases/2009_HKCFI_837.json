@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 837",
+    "action_number": "HCPI 601/2008",
+    "case_name": "LAW PING LEUNG v. NG SZE PONG",
+    "judgment_date": "2009-09-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "lorry driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Contusion over the right temporal region with traumatic subarachnoid hemorrhage",
+        "injury_type": "Permanent injury",
+        "body_part": "right temporal region / brain",
+        "laterality": "right",
+        "source": [
+          "Computed tomography showed contusion over the right temporal region with traumatic subarachnoid hemorrhage."
+        ],
+        "icd_code": "NA07.7",
+        "icd_description": "Traumatic subarachnoid haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Skull base fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "skull base",
+        "laterality": null,
+        "source": [
+          "He had skull base fracture."
+        ],
+        "icd_code": "NA02.1Z",
+        "icd_description": "Fracture of base of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Area of 8 cm x 12 cm depression on his skull (cosmetic/depressive defect)",
+        "injury_type": "Permanent injury",
+        "body_part": "skull (depressed area)",
+        "laterality": null,
+        "source": [
+          "Cosmetically, there is an area of 8 cm x 12 cm depression on his skull and he was described by Dr C.K. Lam as having a “weird” and “angry” appearance."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Fractured right clavicle",
+        "injury_type": "Temporary injury",
+        "body_part": "right clavicle",
+        "laterality": "right",
+        "source": [
+          "He had fractured right clavicle together with bilateral lung contusion with pneumothorax."
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Bilateral lung contusion with pneumothorax",
+        "injury_type": "Temporary injury",
+        "body_part": "lungs / thorax",
+        "laterality": "bilateral",
+        "source": [
+          "He had fractured right clavicle together with bilateral lung contusion with pneumothorax."
+        ],
+        "icd_code": "NB32.7",
+        "icd_description": "Multiple injuries of intrathoracic organs"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Multiple lacerations over the limbs, his left eye and left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "limbs; left eye; left knee",
+        "laterality": "left",
+        "source": [
+          "He had multiple lacerations over the limbs, his left eye and left knee."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Mild left hemiparesis",
+        "injury_type": "Residual disability",
+        "body_part": "left side of body",
+        "laterality": "left",
+        "source": [
+          "He also has mild dysphagia (difficulty of swallowing) and mild left hemiparesis (weakness of one side of his body)."
+        ],
+        "icd_code": "NA07.4",
+        "icd_description": "Focal brain injury"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "Post-traumatic seizures (three episodes of grand mal seizures)",
+        "injury_type": "Residual disability",
+        "body_part": "central nervous system",
+        "laterality": null,
+        "source": [
+          "He has suffered three episodes of grand mal seizures with loss of consciousness, generalized convulsive movements and uprolling of the eyeballs."
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Unconscious on admission with a Glasgow Coma Scale score of 7/15",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor cognition and memory; thinking process and memory substantially impaired; slow and sometimes irrelevant responses; difficulty learning and retaining new information; recent memory poor",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Needs to be reminded of appointments; often forgets what he has done a moment ago or where he has placed his belongings",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Has to be accompanied when going outdoors because his sense of direction is poor",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intermittent headaches of a dragging character, mild intensity, occur once or twice a week, each attack about 2 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intermittent dizziness of mild intensity, occurs once a week, brief, brought on by riding on buses",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Personality change: became easily irritable and no longer sociable",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild dysphagia (difficulty of swallowing)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness of limbs, especially left leg; cannot squat down; needs to hold on to furniture for support when putting on his trousers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Three episodes of grand mal seizures with loss of consciousness and generalized convulsive movements",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_008"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency burr hole operation for intracranial pressure monitoring and clot evacuation",
+      "Intensive care unit care (including mechanically assisted ventilation) for 2 weeks",
+      "Tracheostomy (performed on 12 September 2006) with tracheostomy weaned off on 16 October 2006",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Shoulder immobilizer for right clavicle fracture",
+      "Transfer to Shatin Hospital for rehabilitation"
+    ],
+    "treatments_future": [
+      "Cranioplasty (recommended)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Area of 8 cm x 12 cm depression on skull causing a 'weird' and 'angry' appearance",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "Became easily irritable and no longer sociable",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Has to be accompanied when going outdoors because his sense of direction is poor",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Needs to hold on to furniture for support when putting on his trousers; cannot squat down",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "The parties no longer had sex after the accident (wife's evidence)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "No longer sociable; wife's social life greatly affected; family life altered",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Wai Ping v Chan Yuen Yee",
+        "neutral_citation": null,
+        "action_number": "HCPI 668/2005",
+        "injury_description": "Left parietal epidural haematoma and traumatic sub-arachnoid haemorrhage with fracture of the left parietal bone; two successive craniotomies; tracheostomy; cognitive impairment and left hemiparesis; risk of post-traumatic epilepsy",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1000000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24687,
+      "output_tokens": 11895,
+      "reasoning_tokens": 9088,
+      "total_tokens": 36582
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47274.75440874696,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24687,
+      "output_tokens": 11895,
+      "reasoning_tokens": 9088,
+      "total_tokens": 36582
+    },
+    "total_duration_ms": 47274.75440874696
+  }
+}

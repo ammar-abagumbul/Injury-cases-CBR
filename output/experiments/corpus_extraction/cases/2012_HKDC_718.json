@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 718",
+    "action_number": "DCPI 1223/2011",
+    "case_name": "KO FUNG v. PHYSICAL BEAUTY CENTRE (CENTRAL) LTD AND ANOTHER",
+    "judgment_date": "2012-06-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "one of its customers (customer of the 1st Defendant's Centre)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "scald injury",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of her face",
+        "laterality": "left",
+        "source": [
+          "Examination by Dr. Wong revealed rectangular erythematous area with blister on the left side of her face. Dr. Wong diagnosed the Plaintiff to have suffered from scald injury."
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left mid cheek rectangular patch of permanent scarring due to burning injury",
+        "injury_type": "Permanent injury",
+        "body_part": "left mid cheek",
+        "laterality": "left",
+        "source": [
+          "Dr. King considered that she suffered from left mid cheek rectangular patch of permanent scarring due to burning injury. Dr. King took the view that her scar is permanent although further treatment may improve the appearance of the scar or improve the degree of scarring."
+        ],
+        "icd_code": "NA0A.Y",
+        "icd_description": "Other specified injuries of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rectangular erythematous area with blister on the left side of her face.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "After 8 sessions of treatment, the Plaintiff’s skin lesion was healed leaving a superfacial, pigmented scar.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left mid cheek rectangular patch of permanent scarring due to burning injury.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "3% cosmetic disability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "3% loss of earning capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "1% permanent impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Consulted a private dermatologist, Dr. Wong Kwok On; Examination revealed rectangular erythematous area with blister on the left side of her face.",
+      "After 8 sessions of treatment, the Plaintiff’s skin lesion was healed leaving a superfacial, pigmented scar.",
+      "Consulted another dermatologist, Dr. Tinny Ho for treatment of her scar.",
+      "Examined by medical expert Dr. Walter King, plastic surgeon."
+    ],
+    "treatments_future": [
+      "various treatments recommended by Dr. Walter King (The estimated costs are in the region of $99,000)."
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "left mid cheek rectangular patch of permanent scarring due to burning injury; 3% cosmetic disability.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "3% loss of earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Shabbina Khokhar v. Europe Beauty International Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 579 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Yuk Kwan v. Maple Professional Beauty Centre Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 274 of 2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Ka Yee v. L&Y Beauty Centre Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 196 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11933,
+      "output_tokens": 6618,
+      "reasoning_tokens": 5120,
+      "total_tokens": 18551
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53537.06690296531,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11933,
+      "output_tokens": 6618,
+      "reasoning_tokens": 5120,
+      "total_tokens": 18551
+    },
+    "total_duration_ms": 53537.06690296531
+  }
+}

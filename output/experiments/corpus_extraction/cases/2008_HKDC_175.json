@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 175",
+    "action_number": "DCPI 835/2005",
+    "case_name": "LEE KA KUEN v. HUNG SHING ENVIRONMENTAL RECYCLE LTD",
+    "judgment_date": "2008-06-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "labourer",
+    "occupation_after": "electric apprentice (with effect from 2007-04-01)",
+    "expected_occupation_after": null,
+    "salary_before": 4780.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "3 broken incisors",
+        "injury_type": "Temporary injury",
+        "body_part": "incisors (teeth)",
+        "laterality": null,
+        "source": [
+          "3 broken incisors"
+        ],
+        "icd_code": "NA0D.02",
+        "icd_description": "Enamel-dentin fracture"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the 2nd, 3rd, 4th and 5th metatarsals of his right foot",
+        "injury_type": "Residual disability",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "fracture of the 2nd, 3rd, 4th and 5th metatarsals of his right foot",
+          "open reduction and internal fixation for his fractured 2nd, 3rd and 5th metatarsals",
+          "re-admitted to the hospital on 23 March 2005 for removal of the hardware from his 2nd and 3rd metatarsals"
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "abrasion over both knees",
+        "injury_type": "Temporary injury",
+        "body_part": "both knees",
+        "laterality": "bilateral",
+        "source": [
+          "abrasion over both knees"
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his right foot, particularly after long periods of standing, walking up steps or squatting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness of the lumbar region of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the lateral border of Mr. Lee's right foot was more prominent at the base of the 5th metatarsal",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There was mild swelling on the dorsum of his right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There were 2 surgical scars on his right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The movement of the right ankle joint was limited",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Motor power of the legs was normal, as was sensation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "stiffness of movement of the 2nd and 3rd toes on the right side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness of right toe extension except for the right big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Dr. Au considered that Mr. Lee suffered 2% total body impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation for his fractured 2nd, 3rd and 5th metatarsals",
+      "short leg POP applied after surgery",
+      "removal of the hardware from his 2nd and 3rd metatarsals",
+      "physiotherapy (10 courses) from 28 December 2004 to 11 March 2005",
+      "occupational therapy (7 courses) from 8 February 2005 to 11 March 2005",
+      "follow up treatment until 8 April 2005"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 199,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from ongoing pain in his right foot, particularly after long periods of standing, walking up steps or squatting",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Tai Loi v. Leung Kam Hung",
+        "neutral_citation": null,
+        "action_number": "HCPI 584 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10466,
+      "output_tokens": 6906,
+      "reasoning_tokens": 5248,
+      "total_tokens": 17372
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38781.130004674196,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10466,
+      "output_tokens": 6906,
+      "reasoning_tokens": 5248,
+      "total_tokens": 17372
+    },
+    "total_duration_ms": 38781.130004674196
+  }
+}

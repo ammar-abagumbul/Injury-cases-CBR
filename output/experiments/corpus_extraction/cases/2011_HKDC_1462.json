@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 1462",
+    "action_number": "DCPI 1465/2009",
+    "case_name": "KHAN IRRAM v. WAI HING ENGINEERING COMPANY LIMITED",
+    "judgment_date": "2011-11-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 22,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": "labourer (returned to work for Wai Hing one month after the injury)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture at the distal phalange of his left ring finger",
+        "injury_type": "Temporary injury",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "X-ray of the left ring finger detected a fracture at the distal phalange.",
+          "According to the Hospital Report, the distal phalange of his left ring finger was swollen with bruises. Bruise was found underneath the fingernail of his left ring finger."
+        ],
+        "icd_code": "NC53.62",
+        "icd_description": "Fracture of ring finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Injury to left middle finger (swelling/scratch reported)",
+        "injury_type": "Temporary injury",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "he sustained injuries to three ulnar fingers of his left hand as a result.",
+          "his left middle finger had scratches below the fingernail; the swell of all 3 ulnar fingers had become prominent the following day after the accident"
+        ],
+        "icd_code": "NC51.00",
+        "icd_description": "Abrasion of finger or thumb"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Injury to left little finger (part of three ulnar fingers injured)",
+        "injury_type": "Temporary injury",
+        "body_part": "left little finger",
+        "laterality": "left",
+        "source": [
+          "he sustained injuries to three ulnar fingers of his left hand as a result."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the distal phalange of his left ring finger was swollen with bruises.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bruise was found underneath the fingernail of his left ring finger.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The pain and tender at the tip of the ring finger with hard contact",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "His grip power has reduced.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He can no longer play cricket and volleyball after the accident.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his left middle finger had scratches below the fingernail",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the swell of all 3 ulnar fingers had become prominent the following day after the accident",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A & E attendance at Ruttonjee Hospital",
+      "Analgesic drug (discharged same day)",
+      "X-ray of the left ring finger",
+      "Follow-up advised but patient did not turn up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 15,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Injury to left ring finger including fracture at the distal phalange",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Can no longer play cricket and volleyball after the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Disadvantage on the labour market; may suffer longer periods of unemployment as a result of the injury",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 85000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Khan Zubair v Hung Kee Cleaning Envirnment Recycle Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 1514/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Shah Junaid Ali v Yau Lee Galvanizers (Hot-Dip) Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 517/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20845,
+      "output_tokens": 6794,
+      "reasoning_tokens": 5120,
+      "total_tokens": 27639
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52072.872780263424,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20845,
+      "output_tokens": 6794,
+      "reasoning_tokens": 5120,
+      "total_tokens": 27639
+    },
+    "total_duration_ms": 52072.872780263424
+  }
+}

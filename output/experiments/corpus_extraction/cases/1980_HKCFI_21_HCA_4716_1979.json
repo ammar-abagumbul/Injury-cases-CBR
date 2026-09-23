@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 21; HCA 4716/1979",
+    "action_number": "HCA004716/1979",
+    "case_name": "LAU CHOW LAM v. FUNG MONG YAN AND ANOTHER",
+    "judgment_date": "1980-10-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 44,
+    "age_at_trial": null,
+    "occupation_before": "ironing worker in a garment factory",
+    "occupation_after": "worked at home \"disintegrating\" woollen garments for about eight weeks (piecework)",
+    "expected_occupation_after": "watchman",
+    "salary_before": 2000.0,
+    "salary_after": null,
+    "expected_salary_after": 850.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The plaintiff had had a subtrochanteric fracture of the left femur. This had been operated on by the insertion of a nail in the neck of the femur secured by a plate on the shaft which was fixed with six bone screws. The fracture had firmly united but there had been over-riding of the two fragments resulting in a 3/4 inch shortening of the left leg. There was a loss of internal and external rotation of the legs of 20% each.",
+        "injury_type": "Permanent injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "The plaintiff had had a subtrochanteric fracture of the left femur. This had been operated on by the insertion of a nail in the neck of the femur secured by a plate on the shaft which was fixed with six bone screws. The fracture had firmly united but there had been over-riding of the two fragments resulting in a 3/4 inch shortening of the left leg. There was a loss of internal and external rotation of the legs of 20% each."
+        ],
+        "icd_code": "NC72.4",
+        "icd_description": "Subtrochanteric fracture of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a number of laceration scars on the face.",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "he saw a number of laceration scars on the face."
+        ],
+        "icd_code": "NA01",
+        "icd_description": "Open wound of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "a number of laceration scars on the face.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "3/4 inch shortening of the left leg.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of internal and external rotation of the legs of 20% each.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walks with a limp.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "would occasionally suffer from aches in the left hip and thigh especially in wet weather and during climatic changes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "used two crutches for two months and ever since then a walking stick.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "7% impairment of the whole man (as assessed by Mr. R.G.M. Wedderburn, F.R.C.S.).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "12% permanent disability (estimated by Mr. R.G.M. Wedderburn, F.R.C.S.).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "detained in hospital for 2\u00012 months",
+      "insertion of a nail in the neck of the femur secured by a plate on the shaft which was fixed with six bone screws",
+      "use of two crutches for two months and thereafter a walking stick",
+      "attendance at a bonesetter"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) - award under this head $35,000.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of future earnings assessed at $138,000 due to inability to resume his job as an ironing worker (estimated loss of $1,150 per month for 10 years; potential earning capacity reduced to $850 per month from $2,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10347,
+      "output_tokens": 6132,
+      "reasoning_tokens": 4672,
+      "total_tokens": 16479
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37779.0542319417,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10347,
+      "output_tokens": 6132,
+      "reasoning_tokens": 4672,
+      "total_tokens": 16479
+    },
+    "total_duration_ms": 37779.0542319417
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1444",
+    "action_number": "HCPI 287/2012",
+    "case_name": "ABBAS TAHIR v. LAM KWOK WO",
+    "judgment_date": "2016-09-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "security guard",
+    "occupation_after": "security guard",
+    "expected_occupation_after": "security guard",
+    "salary_before": 6000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "1 cm laceration on the top of the head",
+        "injury_type": "Temporary injury",
+        "body_part": "top of the head",
+        "laterality": null,
+        "source": [
+          "He attended the A&E at Prince of Wales Hospital and examination showed a 1 cm laceration on the top of the head."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "In the joint neurology expert report, both experts agreed that Mr Tahir sustained a mild head injury with no radiological evidence of any skull fracture or parenchymal brain damage."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post‑concussional syndrome",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "A diagnosis of \"post‑concussional syndrome\" was made.",
+          "the psychiatric experts... agreed that Mr Tahir has postconcussional syndrome."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "adjustment disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "One psychiatric expert also diagnosed adjustment disorder in addition but both agreed that \"the impairment due to the mental problem is mild.\""
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of consciousness for several minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pains",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "memory loss",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "1 cm laceration on the top of the head (observed sign)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no focal neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the impairment due to the mental problem is mild",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance at Prince of Wales Hospital",
+      "CT brain scan",
+      "observation for a few hours and discharge",
+      "attended A&E departments of various hospitals over the next few months",
+      "neurology consultations",
+      "psychiatric consultations",
+      "medical consultations (invoices and appointment slips produced)"
+    ],
+    "treatments_future": [
+      "further psychiatric / psychological treatment for a few months"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Mild head injury with associated symptoms including headaches, dizziness, neck pain, memory loss, pains and weakness and a 1 cm laceration on the top of the head",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Mild impairment due to mental problem (postconcussional syndrome/adjustment disorder) resulting in mild psychiatric/psychological impairment",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 275000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Ka Kat v. Yiu Hsing Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 495 of 2010",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yan Kwok Yue v. Dong Shu Kei Beau",
+        "neutral_citation": null,
+        "action_number": "HCPI 923 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11944,
+      "output_tokens": 7416,
+      "reasoning_tokens": 5632,
+      "total_tokens": 19360
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38617.52459406853,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11944,
+      "output_tokens": 7416,
+      "reasoning_tokens": 5632,
+      "total_tokens": 19360
+    },
+    "total_duration_ms": 38617.52459406853
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 395",
+    "action_number": "HCPI000005/1994",
+    "case_name": "CHENG WAH MING v. TAI SHING ENGINEERING CO. LTD. AND CHINA LIGHT & POWER CO. LTD. (THIRD PARTY)",
+    "judgment_date": "1998-10-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "pneumatic drill operator",
+    "occupation_after": "construction work (not as a pneumatic drill operator)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "first degree burns mainly on the face and left arm, less than 10% of total body area",
+        "injury_type": "Temporary injury",
+        "body_part": "face and left arm",
+        "laterality": "left",
+        "source": [
+          "The medical report of Dr. Ada Wong shows that the Plaintiff suffered first degree burns mainly on the face and left arm, less than 10% of total body area."
+        ],
+        "icd_code": "NA00.5",
+        "icd_description": "Multiple superficial injuries of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "concussional brain injury causing grossly constricted visual fields and permanent ophthalmic disability assessed at 78% in each eye",
+        "injury_type": "Permanent injury",
+        "body_part": "both eyes / visual pathway (concussional brain injury)",
+        "laterality": "bilateral",
+        "source": [
+          "Examination revealed grossly constricted visual field affecting both eyes ... Dr. Yu ... came to the conclusion that his visual disability was due to concussional brain injury.",
+          "I accept the evidence of Dr. Chow Pak Chin that the Plaintiff's ophthalmic disability would take about half a year to stabilise, and then it would be permanent for the rest of his life. He now suffers a visual disability of 78% in each eye."
+        ],
+        "icd_code": "NA07.09",
+        "icd_description": "Concussion with loss of consciousness, duration unspecified or unknown due to lack of information"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "poor vision of the left eye / blurring of the left eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "visual acuity on 9 December 1991: 6/36 right eye and 2/60 left eye; corrected visual acuity on 10 October 1992: 6/12 right eye and 6/24 left eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "grossly constricted visual field affecting both eyes (visual field constricted to about 15-20 degrees in the right eye and to 5 degree in the left)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "78% ophthalmic disability in each eye (court accepted)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "responded well to conservative treatment for first degree burns",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Queen Elizabeth Hospital",
+      "regular dressing",
+      "conservative treatment",
+      "referral to ophthalmologist",
+      "ophthalmic assessments (Argyle Street Ophthalmic Centre, examinations by Dr. Yu and Dr. Chow Pak Chin)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 7,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "visual disability in both his eyes which no doubt will result in long term discomfort and inconvenience to him although it may not be so serious as to mar his general activities and enjoyment of life.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kwok Ping v. Hop Yick Engineering Co.",
+        "neutral_citation": null,
+        "action_number": "PI No. 1230 of 1995",
+        "injury_description": "whitewash sprayed into the plaintiff's right eye resulting in a large corneal ulcer and vascularised corneal scar; visual disability assessed at 90%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 420000.0
+      },
+      {
+        "case_name": "Ho Yam Pan v. Tse Tak Ming",
+        "neutral_citation": null,
+        "action_number": "PI No. 91 of 1996",
+        "injury_description": "serious injuries to right eye; permanent disability 100% and eyeball removed",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 450000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17231,
+      "output_tokens": 4874,
+      "reasoning_tokens": 3392,
+      "total_tokens": 22105
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25860.967453569174,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17231,
+      "output_tokens": 4874,
+      "reasoning_tokens": 3392,
+      "total_tokens": 22105
+    },
+    "total_duration_ms": 25860.967453569174
+  }
+}

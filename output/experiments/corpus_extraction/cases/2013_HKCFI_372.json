@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 372",
+    "action_number": "HCPI 200/2011",
+    "case_name": "LAM TUEN MING v. PERFECT LOGISTICS (HK) LTD AND OTHERS",
+    "judgment_date": "2013-03-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 52,
+    "occupation_before": "delivery man",
+    "occupation_after": "short term delivery jobs (delivery worker)",
+    "expected_occupation_after": "part-time delivery worker",
+    "salary_before": 9463.2,
+    "salary_after": null,
+    "expected_salary_after": 4000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right lateral malleolus fracture",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "He suffered a right lateral malleolus fracture along with soft tissue crush injury of the right foot."
+        ],
+        "icd_code": "ND1A",
+        "icd_description": "Multiple injuries of ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue crush injury of the right foot",
+        "injury_type": "Residual disability",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "He suffered a right lateral malleolus fracture along with soft tissue crush injury of the right foot."
+        ],
+        "icd_code": "ND18.2",
+        "icd_description": "Crushing injury of other parts of foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Mild to moderate degree of residual pain in his right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness in his right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness and stiffness over his right ankle (treated with 22 sessions of physiotherapy)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Required crutches to walk for around 6 to 8 months after completion of treatment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Used a walking stick for another 6 months or so",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Some restrictions on activities which required increased physical demand on his right ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and plating of the right ankle operation on 17 April 2008",
+      "Two further operations for removal of screw and implants (the last operation was performed on 25 June 2009)",
+      "Physiotherapy (22 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 566,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Fractured right ankle requiring three surgical treatments over more than one year.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Mild to moderate residual pain and stiffness in the right ankle with need for crutches for around 6 to 8 months and a walking stick for another 6 months, and restrictions on activities requiring increased physical demand on the right ankle.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chi Shing v Chan Shu Kuen & Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 229 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Ka Kuen v Hung Shing Environmental Recycle Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 835 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Woon Hei v Dickson Construction Co. Limited & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 521 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Chung Man v Secretary for Justice",
+        "neutral_citation": null,
+        "action_number": "HCPI 485 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8592,
+      "output_tokens": 5590,
+      "reasoning_tokens": 4096,
+      "total_tokens": 14182
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34515.87965711951,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8592,
+      "output_tokens": 5590,
+      "reasoning_tokens": 4096,
+      "total_tokens": 14182
+    },
+    "total_duration_ms": 34515.87965711951
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "neutral_citation": "HKCFI 300; HCPI 153/2003 (10 May 2004)",
+    "action_number": "HCPI 153/2003",
+    "case_name": "CHAN WAI LUN ROBIN v. KAI SHING MANAGEMENT SERVICES LTD AND OTHERS",
+    "judgment_date": "2004-05-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "Ran his own transportation business; removed and delivered goods (owner/operator of a light goods vehicle)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 22172.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "100% cut of the ulnar artery, nerve, flexor digitorum superficialis to the little finger and flexor carpi ulnaris as well as the dorsal sensory branch of the ulnar nerve.",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "injuries to his right wrist caused by broken glass. There was a 100% cut of the ulnar artery, nerve and other injuries as set out in the medical reports.",
+          "the plaintiff had a 100% cut of the ulnar artery, nerve, flexor digitorum superficialis to the little finger and flexor carpi ulnaris as well as the dorsal sensory branch of the ulnar nerve."
+        ],
+        "icd_code": "NC5A.1",
+        "icd_description": "Injury of multiple sites of wrist"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Bleeding profusely from right hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Felt dizzy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Would only be able to carry 20-30 kgs of weight as his upper limit (reduced lifting capacity)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "first aid",
+      "ambulance transport to hospital",
+      "hospital treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Injuries to his right wrist caused by broken glass including 100% cut of the ulnar artery, nerve, flexor digitorum superficialis to the little finger and flexor carpi ulnaris as well as the dorsal sensory branch of the ulnar nerve.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12671,
+      "output_tokens": 4225,
+      "reasoning_tokens": 3328,
+      "total_tokens": 16896
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25936.52356415987,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12671,
+      "output_tokens": 4225,
+      "reasoning_tokens": 3328,
+      "total_tokens": 16896
+    },
+    "total_duration_ms": 25936.52356415987
+  }
+}

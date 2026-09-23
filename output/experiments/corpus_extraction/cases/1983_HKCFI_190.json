@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 190",
+    "action_number": "HCA000986/1982",
+    "case_name": "WONG YUK TIN v. CHUNG CHUEN LAM",
+    "judgment_date": "1983-04-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 43,
+    "age_at_trial": null,
+    "occupation_before": "road roller driver",
+    "occupation_after": "worked with an interior decorator",
+    "expected_occupation_after": "watchman or a janitor",
+    "salary_before": null,
+    "salary_after": 2200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "partial degloving of hand; fractures of three fingers of the right hand",
+        "injury_type": "Residual disability",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "partial degloving of hand; fractures of three fingers of the right hand and injuries to his left ankle."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injuries to his left ankle",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "partial degloving of hand; fractures of three fingers of the right hand and injuries to his left ankle."
+        ],
+        "icd_code": "ND1Z",
+        "icd_description": "Injuries to the ankle or foot, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "power of the Plaintiff's right hand was only 70% of that of the left one",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "injuries to his left ankle caused him to limp and he suffered considerable pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Plaintiff could no longer follow his earlier work as a road roller driver",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Colonel Craig in his report put the plaintiff's disability at 25%",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chen Hseuh Chen v Tam Wai Chun and another",
+        "neutral_citation": null,
+        "action_number": "HCA No. 3256/78",
+        "injury_description": "degloving injuries of the left ankel, a fracture of the right febula, a fracture of the medial malleolus of the right ankle and fractures of the second and third metatarsals of the right foot",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 40000.0
+      },
+      {
+        "case_name": "Chan Wai Man v Luk Shuet King",
+        "neutral_citation": null,
+        "action_number": "HCA No. 5088/79",
+        "injury_description": "crushing injuries to his. right and preferred hand. The injuries were more serious than this case and revision amputation was required.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 40000.0
+      },
+      {
+        "case_name": "Mak Leung Yan v China Motor Bus and Chan Yick Yee",
+        "neutral_citation": null,
+        "action_number": "HCA 227/80",
+        "injury_description": "fractured hip and a permanent limp",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 20000.0
+      },
+      {
+        "case_name": "Lo Mai Li v Fong Yin",
+        "neutral_citation": null,
+        "action_number": "HCA 2463/80",
+        "injury_description": "fractured ankle",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Leung Wing Kai v Shun Dik Industrial Co",
+        "neutral_citation": null,
+        "action_number": "HCA 2800/81",
+        "injury_description": "crushing injuries which necessitated amputation of one finger; Disability was assed as 30%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 55000.0
+      },
+      {
+        "case_name": "Cheng Mok Kai and another v Lee Hing Chuen and another",
+        "neutral_citation": null,
+        "action_number": "HCA 4989/79",
+        "injury_description": "fractured ulna. There was no permanent disability or loss of dexterity.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 6000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8416,
+      "output_tokens": 5616,
+      "reasoning_tokens": 4416,
+      "total_tokens": 14032
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31241.13528057933,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8416,
+      "output_tokens": 5616,
+      "reasoning_tokens": 4416,
+      "total_tokens": 14032
+    },
+    "total_duration_ms": 31241.13528057933
+  }
+}

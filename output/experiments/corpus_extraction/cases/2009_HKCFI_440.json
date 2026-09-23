@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 440",
+    "action_number": "HCPI 483/2008",
+    "case_name": "PANG TAI SAN v. WAN TAK SHING T/A KEN KIN SCOFFLODING CO",
+    "judgment_date": "2009-05-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "unemployed",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the deceased, Pang Tung-ming, was a scaffolding worker when he fell from a height to his death on 13 July 2005.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the deceased, Pang Tung-ming, was a scaffolding worker when he fell from a height to his death on 13 July 2005."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Pre-trial loss of dependency $184,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Post-trial loss of dependency $584,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement $150,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of accumulation of wealth $1,200,800",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Funeral expenses $33,318",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8034,
+      "output_tokens": 2798,
+      "reasoning_tokens": 2048,
+      "total_tokens": 10832
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 21694.969590753317,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8034,
+      "output_tokens": 2798,
+      "reasoning_tokens": 2048,
+      "total_tokens": 10832
+    },
+    "total_duration_ms": 21694.969590753317
+  }
+}

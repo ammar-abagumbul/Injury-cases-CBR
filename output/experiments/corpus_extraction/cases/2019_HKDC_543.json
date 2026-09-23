@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 543",
+    "action_number": "DCPI 1985/2013",
+    "case_name": "CHAN KWOK KUEN v. ACTIONSPORTS INTERNATIONAL LIMITED",
+    "judgment_date": "2019-04-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 25,
+    "age_at_trial": 32,
+    "occupation_before": "Junior Sports sales/project trainee",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10833.33,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Higher Diploma from the Institute of Vocational Education (2009); Bachelor of Arts Degree (2011)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a complex tear involving the anterior horn, body and posterior horn of the medial meniscus",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The MRI revealed a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL close to the femoral insertion."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a complete tear of the ACL close to the femoral insertion",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The MRI revealed a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL close to the femoral insertion.",
+          "the plaintiff suffered from a complex tear involving the anterior horn, body and posterior horn of the medial meniscus and a complete tear of the ACL of the left knee;"
+        ],
+        "icd_code": "NC93.8",
+        "icd_description": "Injury to multiple structures of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over medial side of left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "effusion on his left knee with clicking sensation, Lochman’s test and pivot shift test were positive",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "swelling of left knee and intense pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual wasting of his left lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a sense of uneasiness with jogging, difficulty in full squat, walking downstairs and playing football",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "limping on two occasions when going down the stairs (as observed on surveillance video)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance to Accident and Emergency Department of Tuen Mun Hospital",
+      "examination and sick leave at A&E",
+      "consultation with Dr Raymond Lai",
+      "MRI (3 April 2012)",
+      "ACL reconstruction",
+      "partial medial meniscectomy with left knee arthroscopy (4-hour surgery)",
+      "hospitalisation (5 days)",
+      "physiotherapy (31 sessions at North District Hospital from 14 June 2012 to 23 January 2013)",
+      "follow-up visits with Dr Raymond Lai (25 visits, last seen 14 January 2013)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 309,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "the plaintiff has a sense of uneasiness with jogging, difficulty in full squat, walking downstairs and playing football; enjoyment of sports should be reduced",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yip Leung Hoi v Ting Wo Engineering Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1026/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Rukhar Begum v Native English Center Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 2245/2015",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Frances Christine Keeling v The Hebe Haven Yacht Club Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 579/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16452,
+      "output_tokens": 5320,
+      "reasoning_tokens": 3840,
+      "total_tokens": 21772
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37945.42918354273,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16452,
+      "output_tokens": 5320,
+      "reasoning_tokens": 3840,
+      "total_tokens": 21772
+    },
+    "total_duration_ms": 37945.42918354273
+  }
+}

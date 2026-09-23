@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 94",
+    "action_number": "DCPI 638/2004",
+    "case_name": "MADAM KWAN TING v. LAU WAI FONG T/A SUNY ELDERLY HOME",
+    "judgment_date": "2005-07-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 97,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "second degree scald (or burns) over the perineum region with broken blister",
+        "injury_type": "Temporary injury",
+        "body_part": "perineum region",
+        "laterality": null,
+        "source": [
+          "second degree scald (or burns) over the perineum region with broken blister. The scalded area was observed to be pink, mostly blanching and painful. The total area scalded was about 3 per cent of the total body area."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "broken blister",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "scalded area was pink, mostly blanching",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment at Ruttonjee and Tang Shiu Kin Hospitals",
+      "Admission to Ruttonjee Hospital",
+      "Daily wound dressing",
+      "Outpatient follow-ups",
+      "Ambulance transport arranged by the new home for outpatient visits",
+      "Traveling expenses claimed and allowed: $242"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from second degree scald over the perineum",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Pui Yin (an infant suing by her father and next friend Leung Chi Ming) v. Wong Yin Kuen & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 453/2000",
+        "injury_description": "The total surface of her body scalded was 3 per cent. There were first to second degree burns to her forehead, right cheek and a small area over her right shoulder, arm and back.",
+        "hospitalisation_days": 20,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 225000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8231,
+      "output_tokens": 4001,
+      "reasoning_tokens": 3072,
+      "total_tokens": 12232
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36465.3213173151,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8231,
+      "output_tokens": 4001,
+      "reasoning_tokens": 3072,
+      "total_tokens": 12232
+    },
+    "total_duration_ms": 36465.3213173151
+  }
+}

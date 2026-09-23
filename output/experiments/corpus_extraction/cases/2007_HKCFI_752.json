@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 752",
+    "action_number": "HCPI 747/2005",
+    "case_name": "SZE CHIU PAN v. ABLE ENGINEERING CO LTD",
+    "judgment_date": "2007-07-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 55,
+    "age_at_trial": 57,
+    "occupation_before": "construction site labourer",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard or the like",
+    "salary_before": 14500.0,
+    "salary_after": null,
+    "expected_salary_after": 7000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "Mr Sze suffered a back injury.",
+          "He was diagnosed to have suffered a sprained back.",
+          "In September 2003, Mr Sze underwent a laminectomy."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He would have gone back to work, if he could have got work as a security guard or the like, but he could not have gone back to work as a construction work.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "In September 2003, Mr Sze underwent a laminectomy."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He could not have gone back to work as a construction work and said he would have worked as a security guard or the like (at about $7,000 per month).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7576,
+      "output_tokens": 3566,
+      "reasoning_tokens": 2880,
+      "total_tokens": 11142
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31681.87216669321,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7576,
+      "output_tokens": 3566,
+      "reasoning_tokens": 2880,
+      "total_tokens": 11142
+    },
+    "total_duration_ms": 31681.87216669321
+  }
+}

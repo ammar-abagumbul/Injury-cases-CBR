@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "TSANG LOY FUK v. KONG AND HALVORSEM MARINE AND ENGINEERING CO LTD [1983] HKCFI 161; HCA 1393/1981 (18 March 1983)",
+    "action_number": "HCA 1393/1981",
+    "case_name": "TSANG LOY FUK v. KONG & HALVORSEN MARINE & ENGINEERING CO. LTD.",
+    "judgment_date": "1983-03-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 57,
+    "age_at_trial": null,
+    "occupation_before": "general labourer at a boatyard",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "dislocation of the right shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "\"dislocation of the right shoulder\""
+        ],
+        "icd_code": "NC13.0",
+        "icd_description": "Dislocation of shoulder joint"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "abrasions behind his right scapula region and on the right upper-arm",
+        "injury_type": "Temporary injury",
+        "body_part": "right scapula region and right upper-arm",
+        "laterality": "right",
+        "source": [
+          "\"abrasions behind his right scapula region and on the right upper-arm.\""
+        ],
+        "icd_code": "NC10.2",
+        "icd_description": "Multiple superficial injuries of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "prolapsed intervertebral disc (lumbar)",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "\"the operation, described as a fenestration, was intended to deal with the prolapsed intervertebral disc, which was diagnosed by Dr. Chan\""
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "damage to the right sciatic nerve",
+        "injury_type": "Permanent injury",
+        "body_part": "right sciatic nerve",
+        "laterality": "right",
+        "source": [
+          "\"residual low back pain and damage to the right sciatic nerve.\""
+        ],
+        "icd_code": "NB75",
+        "icd_description": "Injury of peripheral nerve of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness after fall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Pain on moving the right shoulder and elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Abrasions behind his right scapula region and on the right upper-arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Low back pain and sciatica",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Greatly reduced movement in his right leg during the straight leg raising test",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Pain on pressure over the lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Residual low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "No longer capable of work except in a sedentary occupation (unable to obtain and hold a job)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "fenestration (operation on 24th March 1980)",
+      "laminectomy (March 1981)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Plaintiff is no longer capable of work except in a sedentary occupation and is unable to obtain and hold a job.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities including residual low back pain, sciatica and limitation in movement; two operations undergone.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15459,
+      "output_tokens": 6738,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22197
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42330.229356884956,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15459,
+      "output_tokens": 6738,
+      "reasoning_tokens": 5248,
+      "total_tokens": 22197
+    },
+    "total_duration_ms": 42330.229356884956
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 639",
+    "action_number": "HCPI 168/2004",
+    "case_name": "YAU SHING TSAN v. FAI-TO ELDERLY AFFAIRS LTD T/A KA-TO HOME FOR THE AGED",
+    "judgment_date": "2005-08-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 58,
+    "age_at_trial": 62,
+    "occupation_before": "supervisor at an elderly home",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "prolapsed intervertebral disc at L4/5",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "(a) back pain with the prolapsed intervertebral disc at L4/5 with the MRI scans of the lumbar spine showing that the nerve roots were slightly impinged but not compressed;"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "depressive reaction to the physical symptoms arising from the accident",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the plaintiff was diagnosed to be suffering from depressive reaction to the physical symptoms arising from the accident in question."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain with the prolapsed intervertebral disc at L4/5 with the MRI scans of the lumbar spine showing that the nerve roots were slightly impinged but not compressed;",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in both legs but the pain in the left leg is more intense",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychiatric impairment arising from the injuries sustained as a result of the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the MRI scans of the lumbar spine showing that the nerve roots were slightly impinged but not compressed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to walk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment at Yan Chai Hospital",
+      "inpatient treatment at Princess Margaret Hospital",
+      "orthopaedics follow-up",
+      "physiotherapy",
+      "occupational therapy",
+      "psychiatric treatment",
+      "outpatient orthopaedic treatment at South Kwai Chung Polyclinic",
+      "outpatient orthopaedic treatment at Cannossa Hospital"
+    ],
+    "treatments_future": [
+      "psychiatric treatment"
+    ],
+    "hospitalisation_days": 65,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, prolapsed intervertebral disc at L4/5, pain in both legs and associated physical incapacity (including inability to walk) resulting from the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Depressive reaction to the physical symptoms arising from the accident.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14591,
+      "output_tokens": 4960,
+      "reasoning_tokens": 3840,
+      "total_tokens": 19551
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29070.76182588935,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14591,
+      "output_tokens": 4960,
+      "reasoning_tokens": 3840,
+      "total_tokens": 19551
+    },
+    "total_duration_ms": 29070.76182588935
+  }
+}

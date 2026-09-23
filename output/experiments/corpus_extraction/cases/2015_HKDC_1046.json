@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 1046",
+    "action_number": "DCPI 400/2014",
+    "case_name": "唐光明 對 愉景樓業主立案法團",
+    "judgment_date": "2015-09-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "supervisor of the management office of the defendant’s building",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "depressive disorder / depression",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "經常澈夜難眠，寢食不安，精神和身體都受到極大傷害，不能再過正常人的生活，已患精神抑鬱症，達到 “傷殘” 程度。",
+          "I first received treatment at Lady Trench General out-patient Clinic on 17th November 2009 for my insomnia, depressed mood, headache and dizziness. I was diagnosed as suffering from depression. I was given medication for two weeks.",
+          "the plaintiff was in substance seeking damages for his depression which falls within the meaning of \"personal injuries\" as defined in the Ordinance in that depression is a disease or impairment of his mental condition."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "經常澈夜難眠",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "寢食不安 (loss of appetite)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot lead a normal life / disability to an extent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "consultations at Lady Trench General Out Patient Clinic",
+      "consultations at Yan Chai Hospital",
+      "consultations at West Kowloon Psychiatric Centre",
+      "given medication for two weeks",
+      "sought treatment in Shenzhen between July and September 2010 for five times",
+      "between 20 January 2010 and the date of the writ he had received consultation from Yan Chai Hospital and West Kowloon Psychiatric Centre for 10 odd times"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "general damages for pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "pre-trial loss of earnings",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "future loss of earnings and loss of earning capacity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17305,
+      "output_tokens": 3333,
+      "reasoning_tokens": 2240,
+      "total_tokens": 20638
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28112.612292170525,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17305,
+      "output_tokens": 3333,
+      "reasoning_tokens": 2240,
+      "total_tokens": 20638
+    },
+    "total_duration_ms": 28112.612292170525
+  }
+}

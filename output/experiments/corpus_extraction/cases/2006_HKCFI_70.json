@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 70",
+    "action_number": "HCPI 1176/2003",
+    "case_name": "TAM HON LEUNG v. NG WAI HING AND OTHERS",
+    "judgment_date": "2006-01-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 40,
+    "occupation_before": "repair of sea-going containers",
+    "occupation_after": "watchman",
+    "expected_occupation_after": "watchman",
+    "salary_before": 17342.25,
+    "salary_after": 5296.0,
+    "expected_salary_after": 5296.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "serious hip injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "hip",
+        "laterality": null,
+        "source": [
+          "resulting in serious hip and knee injuries.",
+          "Dr Lam, the Plaintiff’s medical expert, has drawn attention to the intermittent hip pain which gets worse with squatting and prolonged walking.",
+          "There is also moderate weakness of the hip and knee muscles and the Plaintiff is unable to fully squat."
+        ],
+        "icd_code": "NC76.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at hip or thigh level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "serious knee injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "knee",
+        "laterality": "left",
+        "source": [
+          "resulting in serious hip and knee injuries.",
+          "There is also left knee pain if he were to walk from more than 30 minutes",
+          "There is also moderate weakness of the hip and knee muscles and the Plaintiff is unable to fully squat."
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture (unspecified)",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "It is fortunate that the fracture has united in a satisfactory position."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent hip pain which gets worse with squatting and prolonged walking.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left knee pain if he were to walk from more than 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness over the left inside thigh.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "moderate weakness of the hip muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "moderate weakness of the knee muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the Plaintiff is unable to fully squat.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "it would not be possible for the Plaintiff to resume his pre-accident employment.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "medical treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "it would not be possible for the Plaintiff to resume his pre-accident employment.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16503,
+      "output_tokens": 6846,
+      "reasoning_tokens": 5632,
+      "total_tokens": 23349
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33962.12097257376,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16503,
+      "output_tokens": 6846,
+      "reasoning_tokens": 5632,
+      "total_tokens": 23349
+    },
+    "total_duration_ms": 33962.12097257376
+  }
+}

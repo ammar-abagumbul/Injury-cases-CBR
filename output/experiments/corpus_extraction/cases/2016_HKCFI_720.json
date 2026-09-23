@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 720",
+    "action_number": "HCPI 1380/2014",
+    "case_name": "CHAND LOK KUMAR v. LEIGHTON - LNS JOINT VENTURE",
+    "judgment_date": "2016-04-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "miner and leader of a team of 10 to 15 workers (tunnel worker); duties included connecting and installing pipe works, concrete plastering and setting up metal forms inside tunnels",
+    "occupation_after": "security guard (part-time from 2014-2015; full-time from January 2016)",
+    "expected_occupation_after": null,
+    "salary_before": 40897.5,
+    "salary_after": 13000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Comminute fracture in the middle phalanx of the right index finger; fractured shaft of right index finger middle phalanx with ulnar deviation of distal fragment with a butterfly fragment.",
+        "injury_type": "Residual disability",
+        "body_part": "right index finger middle phalanx",
+        "laterality": "right",
+        "source": [
+          "comminute fracture in the middle phalanx of the right index finger.",
+          "fractured shaft of right index finger middle phalanx with ulnar deviation of distal fragment with a butterfly fragment."
+        ],
+        "icd_code": "NC53.60",
+        "icd_description": "Fracture of index finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual right index finger numbness (noted by plaintiff; judge noted numbness had gone except perhaps for some time after he wakes up in the morning)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weak hand-grip / reduced power grip strength of right hand (measured over time)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain in the right index finger, including pain upon exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness in the scar of the right index finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced pincer / pinch grip strength of the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Adhesion causing reduced range of movement of the right index finger (addressed by tenolysis)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation with plates and screws (performed on 2014-01-13)",
+      "physiotherapy",
+      "occupational therapy",
+      "follow-up appointments at Queen Mary Hospital and David Trench Rehabilitation Centre",
+      "removal of implant and tenolysis (December 2014)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 225,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Small degree of physical impairment of whole person (experts assessed 2% to 4%); residual impairment to right index finger including numbness, weak hand-grip and pain.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11044,
+      "output_tokens": 3588,
+      "reasoning_tokens": 2496,
+      "total_tokens": 14632
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35162.86430507898,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11044,
+      "output_tokens": 3588,
+      "reasoning_tokens": 2496,
+      "total_tokens": 14632
+    },
+    "total_duration_ms": 35162.86430507898
+  }
+}

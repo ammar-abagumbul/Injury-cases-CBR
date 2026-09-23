@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 136",
+    "action_number": "DCPI 1389/2007",
+    "case_name": "LAU CHU WING v. LAW WAI SHING AND OTHERS",
+    "judgment_date": "2008-05-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 48,
+    "age_at_trial": null,
+    "occupation_before": "Security guard / traffic controller supervisor at Underwriter Security",
+    "occupation_after": "Security guard with Group 4 Falck (HK) Ltd",
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": 6450.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "simple musculo-tendinous strain to his neck and back",
+        "injury_type": "Temporary injury",
+        "body_part": "neck and back",
+        "laterality": null,
+        "source": [
+          "that Mr Lau is suffering from simple musculo-tendinous strain to his neck and back because of the accident."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Mild neck and back pain, which occasionally affects his daily activities such as (a) hair washing activity, in that he needs to take rests after bending forward from a stooping position in washing his hair, and (b) prolonged sitting. The pain however could be relived by simple analgesics.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Occasional mild dizziness with apparently no organic neurological origin, which could be relieved by simple medications.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Occasional mild limitation in performing daily activities (hair washing and prolonged sitting) due to neck and back pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E assessment at Princess Margaret Hospital",
+      "Admission to orthopaedic ward",
+      "Oral analgesics",
+      "Anti-dizziness medications"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 16,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual neck and back pain and stiffness occasionally affecting daily activities (e.g. hair washing, prolonged sitting).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Intermittent/occasional mild dizziness (relievable by medication).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Youn v Ng Kam Man",
+        "neutral_citation": null,
+        "action_number": "HCPI 533/1999",
+        "injury_description": "mild sprain neck injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Chiu Wing Size Karby v Chan Ying Wai",
+        "neutral_citation": null,
+        "action_number": "HCPI 616/1999",
+        "injury_description": "neck whiplash injury and lumbar injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21528,
+      "output_tokens": 5000,
+      "reasoning_tokens": 3904,
+      "total_tokens": 26528
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36889.73678648472,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21528,
+      "output_tokens": 5000,
+      "reasoning_tokens": 3904,
+      "total_tokens": 26528
+    },
+    "total_duration_ms": 36889.73678648472
+  }
+}

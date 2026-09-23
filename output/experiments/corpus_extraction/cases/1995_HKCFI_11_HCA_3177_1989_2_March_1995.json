@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 11; HCA 3177/1989 (2 March 1995)",
+    "action_number": "HCA003177/1989",
+    "case_name": "CHUI WING LAI v. CHUNG DOK RESTAURANT LTD. AND PANG HEUNG LIN (THIRD PARTY)",
+    "judgment_date": "1995-03-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 2,
+    "age_at_trial": 8,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Wing Lai had first to second degree burns over 40% of her body",
+        "injury_type": "Permanent injury",
+        "body_part": "trunk, thighs, lower abdomen, buttocks, groin, genitalia",
+        "laterality": null,
+        "source": [
+          "Wing Lai had first to second degree burns over 40% of her body"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "circumferential burn over her left forearm and hand",
+        "injury_type": "Permanent injury",
+        "body_part": "left forearm and hand",
+        "laterality": "left",
+        "source": [
+          "circumferential burn over her left forearm and hand"
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Wing Lai was found to have electrolyte disturbance resulting in generalised convulsion during her period in hospital",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "conspicuous scarring on her trunk, thighs and left hand caused by scold and chemical burns to 40% of her body",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and itchiness in the vagina during the summer months",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychological harm: embarrassment, shy, quiet, more withdrawn than other girls of her age, concern about disfigurement, avoidance (wants to wear trousers to cover up), and predicted adverse effect on heterosexual relationships and marriage prospects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Conservative treatment including dressing, analgesia, antibiotic and intravenous fluid replacement were given to the victim.",
+      "A split skin graft from her right thigh to her right lip region was performed on the burn area",
+      "wore pressure garments to her left hand for one month, to her chest area for six months, and to her lower abdomen, buttocks, groin and thighs for nearly 6 years"
+    ],
+    "treatments_future": [
+      "may later require an operation to relieve the contractures of the scars",
+      "psychological counselling as recommended by Dr. David Y.H. Ho for Wing Lai and her parents",
+      "follow-up treatment to continue until she is 18 years, including visits to a doctor and an occupational therapist at Princess Margaret Hospital"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Conspicuous scarring on her trunk, thighs and left hand; ugly red raised hypertrophic scarring causing permanent cosmetic disability",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Shy, too quiet and more withdrawn than other girls of her age; tends to hold back in making friends at school or outside her immediate family",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "Scars could be a source of considerable embarrassment when she grows older and may interfere with her marriage prospects; future heterosexual relationships and prospects of marriage would be adversely affected",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Embarrassment during physical education classes leading to wearing trousers to cover up and avoidance of activities where scars may be visible",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "CHUN YAT NAM",
+        "neutral_citation": null,
+        "action_number": "Appeal No.92/1994",
+        "injury_description": "serious injury category range $250,000.00 to $335,000.00",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9966,
+      "output_tokens": 5828,
+      "reasoning_tokens": 4416,
+      "total_tokens": 15794
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41925.509952008724,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9966,
+      "output_tokens": 5828,
+      "reasoning_tokens": 4416,
+      "total_tokens": 15794
+    },
+    "total_duration_ms": 41925.509952008724
+  }
+}

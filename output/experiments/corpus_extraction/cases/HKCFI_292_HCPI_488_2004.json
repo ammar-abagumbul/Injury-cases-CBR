@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "HKCFI 292; HCPI 488/2004",
+    "action_number": "HCPI 488/2004",
+    "case_name": "LAM FUK PAU v. CANTON CURTAIN WALL ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2005-04-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "plasterer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 17250.0,
+    "salary_after": 5982.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He was later found to have suffered a small subdural haematoma, but this did not require surgery.",
+        "injury_type": "Residual disability",
+        "body_part": "brain (subdural)",
+        "laterality": null,
+        "source": [
+          "He was later found to have suffered a small subdural haematoma, but this did not require surgery."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the plaintiff was found to have suffered a fracture of the right transverse processes at the L2, L3 and L4 vertebrae.",
+        "injury_type": "Residual disability",
+        "body_part": "L2, L3 and L4 vertebrae (right transverse processes)",
+        "laterality": "right",
+        "source": [
+          "the plaintiff was found to have suffered a fracture of the right transverse processes at the L2, L3 and L4 vertebrae."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "He was also diagnosed with blepharadenitis.",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He was also diagnosed with blepharadenitis."
+        ],
+        "icd_code": "NA06",
+        "icd_description": "Injury of eye or orbit"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness in the thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain at the waist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "forgetfulness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "bad temper",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "cannot lift heavy weights such as a bag of concrete",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "did not return to his pre-accident work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment",
+      "hospitalisation until 2002-02-04"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He did not return to his pre-accident work.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 330000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14043,
+      "output_tokens": 5123,
+      "reasoning_tokens": 3904,
+      "total_tokens": 19166
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30136.113844811916,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14043,
+      "output_tokens": 5123,
+      "reasoning_tokens": 3904,
+      "total_tokens": 19166
+    },
+    "total_duration_ms": 30136.113844811916
+  }
+}

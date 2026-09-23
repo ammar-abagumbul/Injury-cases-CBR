@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKDC 131",
+    "action_number": "DCPI 429/2004",
+    "case_name": "WONG HEI CHUN v. CHONG MING SHIH",
+    "judgment_date": "2004-09-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 58,
+    "age_at_trial": 61,
+    "occupation_before": "cashier at Vinci Park Services HK Ltd.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6550.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right peri-orbital bruise",
+        "injury_type": "Residual disability",
+        "body_part": "right peri-orbital area",
+        "laterality": "right",
+        "source": [
+          "right peri-orbital bruise;"
+        ],
+        "icd_code": "NA00.11",
+        "icd_description": "Contusion of eyelid or periocular area"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the visual acuity of the right eye was light perception",
+        "injury_type": "Residual disability",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "the visual acuity of the right eye was light perception;"
+        ],
+        "icd_code": "NA06.Z",
+        "icd_description": "Injury of eye or orbit, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "hyphaema (blood in the anterior chamber of the eye)",
+        "injury_type": "Residual disability",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "hyphaema (blood in the anterior chamber of the eye);"
+        ],
+        "icd_code": "NA06.9",
+        "icd_description": "Contusion of eyeball or orbital tissues"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "raised intra-ocular pressure",
+        "injury_type": "Residual disability",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "raised intra-ocular pressure."
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "blurring of vision in the right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "photophobia (undue sensitivity to light), occasional discomfort and discharge from the right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the visual acuity was 6/18 (70% of normal)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "overall visual impairment of the right eye: 50%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "13% impairment of the whole visual system",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "12% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 67,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Blurring of vision in the right eye; photophobia; visual acuity 6/18; overall visual impairment of the right eye 50%; 13% impairment of the whole visual system; 12% impairment of the whole person.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Kwan Shek Sang v. Chan Kam Wah",
+        "neutral_citation": "[2003] 2 HKLRD 967",
+        "action_number": null,
+        "injury_description": "the Plaintiff was found to have a metallic foreign body embedded in the left half of the right cornea. Examination revealed a right corneal paraxial scar, and the vision of the right eye was 6/12. The permanent visual impairment of the eye was 15%. Further, it was noted that Plaintiff suffered a corneal opacity in the right eye. The best corrected central vision of that eye was 20/80, the impaired peripheral vision suggested that half of the left visual field was missing, and there was also impaired colour vision.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 280000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11253,
+      "output_tokens": 6945,
+      "reasoning_tokens": 5440,
+      "total_tokens": 18198
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36078.7683352828,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11253,
+      "output_tokens": 6945,
+      "reasoning_tokens": 5440,
+      "total_tokens": 18198
+    },
+    "total_duration_ms": 36078.7683352828
+  }
+}

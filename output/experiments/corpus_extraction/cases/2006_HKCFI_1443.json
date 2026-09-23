@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1443",
+    "action_number": "HCPI 777/2005",
+    "case_name": "O LAI KAM v. LAW TIN WAN AND OTHERS",
+    "judgment_date": "2006-12-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "plumber (employed by the 1st or alternatively 3rd defendant)",
+    "occupation_after": "contract worker with the Hong Kong Post",
+    "expected_occupation_after": null,
+    "salary_before": 14179.0,
+    "salary_after": 7540.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "injured his back",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "fell from a ladder while carrying a heavy metal pipe of about 60 lbs to be fitted, and in the process injured his back."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain suffering and loss of amenities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "advised not to carry heavy pipes or objects over 20 kg in weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sick leave up to January 2005",
+      "orthopaedic assessment by Dr. Richard Poon (June 2005)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "award for pain suffering and loss of amenities would be in the region of $350,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8341,
+      "output_tokens": 2607,
+      "reasoning_tokens": 1920,
+      "total_tokens": 10948
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 17260.62337681651,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8341,
+      "output_tokens": 2607,
+      "reasoning_tokens": 1920,
+      "total_tokens": 10948
+    },
+    "total_duration_ms": 17260.62337681651
+  }
+}

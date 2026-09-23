@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 196",
+    "action_number": "HCPI 266/2015",
+    "case_name": "KU, SUET YU AMY v. J.V. FITNESS LTD T/A CALIFORNIA FITNESS",
+    "judgment_date": "2016-02-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Retired banker",
+    "occupation_after": "Voluntary work",
+    "expected_occupation_after": "Security guard",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 10000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "un-displaced fracture over the left distal radius",
+        "injury_type": "Temporary injury",
+        "body_part": "left distal radius",
+        "laterality": "left",
+        "source": [
+          "X-ray showed that there was an un-displaced fracture over the left distal radius."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness and swelling over the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in her range of wrist motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in her hand grip power",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain and suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in daily life and social life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Kwong Wah Hospital",
+      "Closed reduction under local anesthesia",
+      "POP cast",
+      "Physiotherapy (19 sessions)",
+      "Occupational therapy"
+    ],
+    "treatments_future": [
+      "Further physiotherapy treatment arranged"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 86,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Significant reduction in left wrist active range and strength",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Difficulty in daily life and social life",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Nga Yin formerly known as Chan Mei Yi Sicely v MTR Corporation Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1675/2012",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13337,
+      "output_tokens": 3903,
+      "reasoning_tokens": 2944,
+      "total_tokens": 17240
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28632.080283015966,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13337,
+      "output_tokens": 3903,
+      "reasoning_tokens": 2944,
+      "total_tokens": 17240
+    },
+    "total_duration_ms": 28632.080283015966
+  }
+}

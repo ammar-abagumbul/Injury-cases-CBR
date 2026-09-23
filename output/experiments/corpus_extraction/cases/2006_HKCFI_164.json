@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 164",
+    "action_number": "HCPI 573/2004",
+    "case_name": "YEUNG YUK YIU v. CHEUNG TUNG HO AND ANOTHER",
+    "judgment_date": "2006-02-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "painter",
+    "occupation_after": "painter",
+    "expected_occupation_after": null,
+    "salary_before": 9680.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left femur",
+        "injury_type": "Temporary injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "a fracture of the left femur, a fracture of the left fibula and a laceration of the left popliteal fossa."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the left fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "left fibula",
+        "laterality": "left",
+        "source": [
+          "a fracture of the left femur, a fracture of the left fibula and a laceration of the left popliteal fossa."
+        ],
+        "icd_code": "NC92.4",
+        "icd_description": "Fracture of fibula"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "laceration of the left popliteal fossa",
+        "injury_type": "Temporary injury",
+        "body_part": "left popliteal fossa",
+        "laterality": "left",
+        "source": [
+          "a fracture of the left femur, a fracture of the left fibula and a laceration of the left popliteal fossa."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left knee stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual left ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impairment of activities of daily living and working capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "embarrassment by scarring on his legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation on 5 July 2001",
+      "skin graft on 12 July 2001",
+      "implants removed on 19 December 2002",
+      "physiotherapy",
+      "occupational therapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 318,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Impairment of activities of daily living and working capacity due to left knee stiffness, left ankle stiffness and residual left ankle pain.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Embarrassment by scarring on his legs.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Resumed pre-accident occupation as a painter but with reduced efficiency.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13980,
+      "output_tokens": 6025,
+      "reasoning_tokens": 5056,
+      "total_tokens": 20005
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37137.1751986444,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13980,
+      "output_tokens": 6025,
+      "reasoning_tokens": 5056,
+      "total_tokens": 20005
+    },
+    "total_duration_ms": 37137.1751986444
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 97",
+    "action_number": "HCA006575/1982",
+    "case_name": "CHEUNG CHI YOUNG v. TSANG CHO YIU AND ANOTHER",
+    "judgment_date": "1983-08-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 40,
+    "age_at_trial": 44,
+    "occupation_before": "engineer in a textile factory",
+    "occupation_after": "caretaker",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "superficial laceration (4 cms long) over the left side of the chest",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of the chest",
+        "laterality": "left",
+        "source": [
+          "superficial laceration (4 cms long) over the left side of the chest"
+        ],
+        "icd_code": "NA80.3",
+        "icd_description": "Other superficial injuries of front wall of thorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "superficial abrasions over the left elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "superficial abrasions over the left elbow"
+        ],
+        "icd_code": "NC30.0",
+        "icd_description": "Abrasion of elbow"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a colles fracture of the left wrist",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "a colles fracture of the left wrist"
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "some weakness of the left hand",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "discomfort in the wrist when the weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "slight swelling of the hand at the wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "limitation in bending the hand forward limited to 30° as compared with the normal of 80°",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "extension is reduced to 60% as compared with the normal of 80%",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "does have some difficulty lifting heavy weights / cannot now pick up heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital",
+      "chest wound sutured",
+      "fracture reduced and a plaster applied"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "cannot now pick up heavy objects",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain suffering and loss of amenities (general damages awarded $25,000)",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 25000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Yiu Keung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Ng Kwok Leung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 18000.0
+      },
+      {
+        "case_name": "Cheung Luk",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 15000.0
+      },
+      {
+        "case_name": "Tse Po Chi v Fung Hon Tung",
+        "neutral_citation": null,
+        "action_number": "HCA 3254/78",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Lo Chun v Ng Kwok Ming",
+        "neutral_citation": "1978 H.K.L.J. 104",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 23000.0
+      },
+      {
+        "case_name": "Chu Sun-kwok v Lee San-king",
+        "neutral_citation": "1976 H.K.L.J. 604",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 30000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11990,
+      "output_tokens": 6792,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18782
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31678.925212472677,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11990,
+      "output_tokens": 6792,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18782
+    },
+    "total_duration_ms": 31678.925212472677
+  }
+}

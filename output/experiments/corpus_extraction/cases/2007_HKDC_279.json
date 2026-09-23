@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 279",
+    "action_number": "DCPI 97/2006",
+    "case_name": "TSUI KWAN FAI v. GOLDFIELD N & W CONSTRUCTION CO LTD",
+    "judgment_date": "2007-08-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "electrical works subcontractor / electrical worker",
+    "occupation_after": "taxi driver",
+    "expected_occupation_after": null,
+    "salary_before": 16800.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple injuries to his face",
+        "injury_type": "Temporary injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "The Plaintiff sustained multiple injuries to his face, right upper limb and right shoulder."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "closed fracture of the head of the right radius (fractured right radial head)",
+        "injury_type": "Permanent injury",
+        "body_part": "right radial head",
+        "laterality": "right",
+        "source": [
+          "X-ray examination showed that the Plaintiff had a fractured right radial head.",
+          "The Plaintiff has a closed fracture of the head of the right radius and sustained soft tissue injury to his right wrist and right shoulder."
+        ],
+        "icd_code": "NC32.1",
+        "icd_description": "Fracture of upper end of radius"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to the right wrist",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff has a closed fracture of the head of the right radius and sustained soft tissue injury to his right wrist and right shoulder.",
+          "Medical report dated 12 July 2005 by Dr Poon shows that the Plaintiff was diagnosed to have suffered from closed fracture of the head of the right radius and soft tissue injury to the right wrist and right shoulder."
+        ],
+        "icd_code": "NC57.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "soft tissue injury to the right shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff has a closed fracture of the head of the right radius and sustained soft tissue injury to his right wrist and right shoulder.",
+          "Medical report dated 12 July 2005 by Dr Poon shows that the Plaintiff was diagnosed to have suffered from closed fracture of the head of the right radius and soft tissue injury to the right wrist and right shoulder."
+        ],
+        "icd_code": "NC16",
+        "icd_description": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "swelling and pain in his right elbow and right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild pain on forearm rotation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "full right wrist motion despite mild pain over distal radius",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "transient loss of consciousness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "progressive pain and stiffness of the right elbow (possible development of post-traumatic arthritis)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "went to see a bonesetter",
+      "treated with plaster immobilization of his right hand",
+      "Orthopaedic Department follow-up",
+      "received 9 sessions of treatment up to 25 October 2005",
+      "physiotherapy treatments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 289,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Subsequent to the accident, the Plaintiff ceased to play basketball (at least once or twice a week) and ceased rock climbing.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17681,
+      "output_tokens": 7264,
+      "reasoning_tokens": 5824,
+      "total_tokens": 24945
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37528.0725620687,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17681,
+      "output_tokens": 7264,
+      "reasoning_tokens": 5824,
+      "total_tokens": 24945
+    },
+    "total_duration_ms": 37528.0725620687
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 31",
+    "action_number": "DCPI 874/2007",
+    "case_name": "CHAN SHUI FONG v. THE EXECUTIVE COMMITTEE OF THE ALICE HO MIU LING NETHERSOLE HOSPITAL AND ANOTHER",
+    "judgment_date": "2008-01-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 44,
+    "age_at_trial": 48,
+    "occupation_before": "Personal Care Worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor soft tissue sprain of her lower back on 4 June 2004.",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "minor soft tissue sprain of her lower back on 4 June 2004."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multiple degenerative lumbar discs with narrowing of L4-5 disk space",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "multiple degenerative lumbar discs with narrowing of L4-5 disk space"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "having sustained an injury in her left knee many years ago before the accident.",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "having sustained an injury in her left knee many years ago before the accident."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "local tenderness over lower lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in left calf, left leg, left foot and low back pain radiating to left lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "lower abdomen, pubic area contusion / pubic area contusion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tinnitus, dizziness, urinary frequency/incontinence (complaints)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no lower limb neurological deficit (as recorded on examination)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended Accident and Emergency Department on 4 June 2004",
+      "physiotherapy (Tseung Kwan O Hospital)",
+      "MRI scan on 22 April 2005",
+      "Chinese medical treatment at the Center (Kwong Wah Hospital)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 23,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities caused as a result of the minor tissue sprain of her lower back",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 70000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15066,
+      "output_tokens": 5665,
+      "reasoning_tokens": 4736,
+      "total_tokens": 20731
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32452.03584805131,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15066,
+      "output_tokens": 5665,
+      "reasoning_tokens": 4736,
+      "total_tokens": 20731
+    },
+    "total_duration_ms": 32452.03584805131
+  }
+}

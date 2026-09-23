@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1877",
+    "action_number": "HCPI 755/2013",
+    "case_name": "KONG KAN YING v. LI MAN KWONG",
+    "judgment_date": "2014-10-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "Hair stylist; owner and manager of a hair salon (the Salon)",
+    "occupation_after": null,
+    "expected_occupation_after": "hair stylist",
+    "salary_before": 66143.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Secondary Form 1"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "X‑ray examination showed fracture of the pubic ramus superior and inferior.",
+        "injury_type": "Residual disability",
+        "body_part": "pubic ramus / pelvis",
+        "laterality": null,
+        "source": [
+          "X‑ray examination showed fracture of the pubic ramus superior and inferior."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Distending pain at the pelvis, at bilateral groin, buttocks, bilaterally down the medial thighs and the upper legs, day and night continuously",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Knife cutting pain both buttocks intermittently",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decreased range of motion of the right hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left hip pain on prolonged standing, walking and sitting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Active Range of Movement of hip (right/left), flexion: 120/115 degrees; abduction: 45/40 degrees",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Normal gait, able to walk on tiptoes and heels bilaterally, to perform stable unilateral standing bilaterally, and to squat fully",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to the Accident and Emergency ward of the Queen Elizabeth Hospital",
+      "Treated at the Intensive Care Unit for around three days",
+      "Treated conservatively (no surgery)",
+      "On wheelchair on discharge",
+      "Taught walking exercise with frame during hospitalization",
+      "Four sessions of physiotherapy at the Our Lady of Maryknoll Hospital (March to June 2011)",
+      "Twelve sessions of physiotherapy at the Queen Elizabeth Hospital (July to September 2011)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 9,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 232,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Ha v Lee Hon Ming",
+        "neutral_citation": null,
+        "action_number": "HCPI 414/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Kwok Wah v Tsoi Leung Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI 412/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Ho Mimi v Morning Corporation Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 440/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10772,
+      "output_tokens": 3871,
+      "reasoning_tokens": 2624,
+      "total_tokens": 14643
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34953.28472182155,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10772,
+      "output_tokens": 3871,
+      "reasoning_tokens": 2624,
+      "total_tokens": 14643
+    },
+    "total_duration_ms": 34953.28472182155
+  }
+}

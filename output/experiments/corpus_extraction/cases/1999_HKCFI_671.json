@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 671",
+    "action_number": "HCPI156/96",
+    "case_name": "HO AH LOOK v. NAM KIN SCAFFOLDING LTD. AND ANOTHER",
+    "judgment_date": "1999-05-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 67,
+    "occupation_before": "skilled scaffolder",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "poor education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injury (laceration on the forehead, abrasion on the nasal bridge)",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "he fell from the scaffold at a height of about 4.6 metres to the ground and thereby sustained head injury, fracture of the right femur and fracture of the superior pubic ramus of the pelvis.",
+          "As a result of the accident, he suffered a laceration on the forehead, abrasion on the nasal bridge, subtrochanteric fracture of the right femur and fracture of the superior pubic ramus of the pelvis."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the superior pubic ramus of the pelvis",
+        "injury_type": "Permanent injury",
+        "body_part": "pelvis",
+        "laterality": null,
+        "source": [
+          "he fell from the scaffold at a height of about 4.6 metres to the ground and thereby sustained head injury, fracture of the right femur and fracture of the superior pubic ramus of the pelvis.",
+          "The fracture of the superior and inferior pubic ramus of the pelvis is now reasonably healed."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "subtrochanteric / comminuted fracture of the right femur (right thigh bone) with mal-union and right lower limb shortened by 3 cm",
+        "injury_type": "Permanent injury",
+        "body_part": "right thigh / right femur",
+        "laterality": "right",
+        "source": [
+          "he fell from the scaffold at a height of about 4.6 metres to the ground and thereby sustained head injury, fracture of the right femur and fracture of the superior pubic ramus of the pelvis.",
+          "By way of a summary of the injuries suffered by the Plaintiff, Dr Chiang said that the Plaintiff suffered a comminuted fracture of the right thigh bone (femur) and that this was initially fixed by an implant of a nail into the whole femur.",
+          "A mal-union resulted in the right leg being shortened by 3 cm.",
+          "The range of movement at the right hip was restricted to just 30(. His right lower limb was shortened by 3 cm and he has to wear special shoes and walk with a mild limp."
+        ],
+        "icd_code": "NC72.4",
+        "icd_description": "Subtrochanteric fracture of femur"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "infection in the wound, in the hip joint and inside the cavity of the femur bone",
+        "injury_type": "Temporary injury",
+        "body_part": "right hip / femur (infection)",
+        "laterality": "right",
+        "source": [
+          "Complications arose because of infection in the wound, in the hip joint and inside the cavity of the femur bone.",
+          "Two further operations were performed on 17th and 24th March 1993 due to wound infection.",
+          "He had five operations but these did not include the operation he had in January 1999 which was necessitated by the infection of his wound."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain whilst walking; pain after walking for a long period and in bad weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "range of movement at the right hip was restricted to just 30(",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right lower limb shortened by 3 cm",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "has to wear special shoes and walk with a mild limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Plaintiff's capacity for daily activities and his endurance has been much decreased",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "possibility of the infection recurring",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "reduction and fixation of the right femoral fracture with intra-medullary nail (operation on 26th February 1993)",
+      "revision of screws used for fixation (operation on 5th March 1993)",
+      "operations for wound infection (operations on 17th and 24th March 1993)",
+      "removal of the intra-medullary nail, debridement of the wound, reaming of the femur and insertion of gentamycin beads (operation on 20th December 1993)",
+      "follow-up treatment at specialist clinic",
+      "physiotherapy (Southern Centre and private physiotherapy)",
+      "wound cleansing at Violet Peel Health Centre"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 6,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "35% whole person impairment; mal-union of the right femur; right lower limb shortened by 3 cm; narrowing of the hip joint space",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "restricted range of movement at the right hip, pain whilst walking, wearing special shoes and walking with a mild limp",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "capacity for daily activities and endurance much decreased; pain on prolonged walking limits daily activities",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "unable to return to pre-injury job as a scaffolder; handicapped on the labour market; assessed 50% loss of earning capacity",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 564000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v. Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": "serious injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 470000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15058,
+      "output_tokens": 9658,
+      "reasoning_tokens": 7552,
+      "total_tokens": 24716
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 55034.23327207565,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15058,
+      "output_tokens": 9658,
+      "reasoning_tokens": 7552,
+      "total_tokens": 24716
+    },
+    "total_duration_ms": 55034.23327207565
+  }
+}

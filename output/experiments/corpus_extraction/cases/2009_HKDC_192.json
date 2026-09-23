@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 192",
+    "action_number": "DCPI 798/2008",
+    "case_name": "CHAN LAI PO v. AU WAI KIT",
+    "judgment_date": "2009-08-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 49,
+    "age_at_trial": 53,
+    "occupation_before": "Cleaning worker employed by the Food and Environmental Hygiene Department (FEHD)",
+    "occupation_after": "Indoor duty with FEHD (transferred to indoor duty upon expiry of sick leave)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left traumatic 3rd nerve palsy",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye / cranial nerve III",
+        "laterality": "left",
+        "source": [
+          "As a result of the head injury caused by the accident, Mdm. Chan suffers from left traumatic 3rd nerve palsy."
+        ],
+        "icd_code": "NA04.2",
+        "icd_description": "Injury of oculomotor nerve"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-concussion syndrome",
+        "injury_type": "Permanent injury",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "has been diagnosed to have suffered from post-concussion syndrome."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to the left parietal region of her scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal scalp",
+        "laterality": "left",
+        "source": [
+          "injury to the left parietal region of her scalp."
+        ],
+        "icd_code": "NA00.0",
+        "icd_description": "Superficial injury of scalp"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "dislocation of the left acromio-clavicular joint",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder (acromio-clavicular joint)",
+        "laterality": "left",
+        "source": [
+          "dislocation of the left acromio-clavicular joint"
+        ],
+        "icd_code": "NC13.1",
+        "icd_description": "Dislocation of acromioclavicular joint"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "fractured left fibula",
+        "injury_type": "Temporary injury",
+        "body_part": "left fibula",
+        "laterality": "left",
+        "source": [
+          "a fractured left fibula"
+        ],
+        "icd_code": "NC92.4",
+        "icd_description": "Fracture of fibula"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "nausea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "ptosis and phthalmoplegia of the left eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "double vision",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "photophobia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "restricted extra-ocular movements of her left eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent left shoulder pain, weakness and stiffness of the left shoulder, and a decreased range of left shoulder movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "continuous low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness at her left shoulder and left hip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "medical treatment",
+      "bonesetter treatment"
+    ],
+    "treatments_future": [
+      "future medical treatment (future medical expenses agreed $1,360)"
+    ],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 914,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Double vision, photophobia and restricted extra-ocular movements caused by left traumatic 3rd nerve palsy",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Her shoulder and back pain affected her performance in doing heavy lifting and other manual work",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15121,
+      "output_tokens": 7985,
+      "reasoning_tokens": 6656,
+      "total_tokens": 23106
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49155.619874596596,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15121,
+      "output_tokens": 7985,
+      "reasoning_tokens": 6656,
+      "total_tokens": 23106
+    },
+    "total_duration_ms": 49155.619874596596
+  }
+}

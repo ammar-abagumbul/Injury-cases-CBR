@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 134",
+    "action_number": "HCA002279/1984",
+    "case_name": "FOHG PAK LAM v. CHAN TAT TRADING AS TAI YUEN AND THE OFFICIAL RECEIVER AND TRUSTEE OF CHAN TAI TRADING AS TAI YUEN, A BANKRUPT",
+    "judgment_date": "1987-04-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 25,
+    "age_at_trial": 30,
+    "occupation_before": "stone mason",
+    "occupation_after": "relieving or odd-job worker; employed by elder brother doing masonry work in decorating premises",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "perforating injury to his left eye; 100% visual disability to the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "These medical reports confirmed that the Plaintiff, following a perforating injury to his left eye, had suffered a 100% visual disability to the left eye.",
+          "Dr. W.J. Heffernan, in his second report dated 17th June 1986, stated that the eye defect was permanent and constituted a 25% defect in the visual system and a 24% defect in the Whole Man."
+        ],
+        "icd_code": "NA06.84",
+        "icd_description": "Penetrating wound of eyeball without foreign body, unilateral"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intense pain to his left eye overnight following the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The Plaintiff gave evidence that he cannot see at all with his left eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Because his field of vision is restricted",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Queen Elizabeth Hospital",
+      "Operation to his left eye (April 1982)",
+      "Recuperation at Kowloon Hospital (approximately 40 days)",
+      "Follow-up outpatient treatment at Yaumati Eye Clinic",
+      "Purchase of contact lens and sunglasses"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 60,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 96,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The Plaintiff gave evidence that he cannot see at all with his left eye and this causes inconvenience in his work as a stone mason or decoration worker making it difficult for him to retain a job.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He says he is only employed as a relieving or odd-job worker because of his sight defect. An employer soon becomes aware of his sight disability.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "He considers his prospects of getting married have been reduced because of his eye injury and its effect on his earning capacity in the future.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 130000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8956,
+      "output_tokens": 4591,
+      "reasoning_tokens": 3776,
+      "total_tokens": 13547
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30384.425971657038,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8956,
+      "output_tokens": 4591,
+      "reasoning_tokens": 3776,
+      "total_tokens": 13547
+    },
+    "total_duration_ms": 30384.425971657038
+  }
+}

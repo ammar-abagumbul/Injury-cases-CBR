@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 249",
+    "action_number": "HCPI 1092/2003",
+    "case_name": "SHAH NISAR v. WAI KIT ENGINEERING CO LTD AND OTHERS",
+    "judgment_date": "2005-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 28,
+    "age_at_trial": 30,
+    "occupation_before": "steel bender",
+    "occupation_after": "kitchen worker",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": 4750.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "neck and back injury",
+        "injury_type": "Residual disability",
+        "body_part": "cervical, thoracic and lumbar spine",
+        "laterality": null,
+        "source": [
+          "He was diagnosed with neck and back injury and admitted to Orthopaedic and Traumatology Department."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "3 disc protrusions at L3/4, L4/5 and L5/SI levels with mild compression of the anterior thecal sac",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "the 1st set of MRI scans taken on 7 April 2004, about 9 months after the injury, revealed 3 disc protrusions at L3/4, L4/5 and L5/SI levels with mild compression of the anterior thecal sac."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "degeneration of the discs as evidenced by spurs at L2, L4 and L5 vertebral bodies",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine / vertebral bodies L2, L4 and L5",
+        "laterality": null,
+        "source": [
+          "spurs were found at L2, L4 and L5 vertebral bodies as shown in the report of the MRI scans by Dr. Gladys Lo dated 21 October 2004.",
+          "degeneration of the discs as evidenced by the presence of spurs at L2, L4 and L5 vertebral bodies."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and tenderness along the spine, cervical, thoracic and lumbar areas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in his back in the lower lumbar region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "required a stick for walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficit on both lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not pass urine on admission and had a Foley's catheter inserted to drain out the urine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "guarding and spasm over the lumbar region and mild guarding over the thoracic region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in the range of motion of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain when he walks for more than 30 to 45 minutes and when he stands for more than 45 minutes or sits for more than 2 hours",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in having sexual intercourse (improved later)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to lift heavy objects and unable to lift his daughter who is now 2 years old",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "analgesics",
+      "Foley catheter insertion to drain urine",
+      "admitted to Orthopaedic and Traumatology Department"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Because of his back injury he can no longer enjoy these [football, hockey and cricket].",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "He feels pain when he walks for more than 30 to 45 minutes and when he stands for more than 45 minutes or sits for more than 2 hours; required a stick for walking shortly after the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Because of his back injury he had difficulty in having sexual intercourse but his condition has improved.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "He is unable to lift his daughter who is now 2 years old.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He should not be able to return to his pre-accident occupation as a steel bender.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16615,
+      "output_tokens": 6210,
+      "reasoning_tokens": 4480,
+      "total_tokens": 22825
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43274.884447455406,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16615,
+      "output_tokens": 6210,
+      "reasoning_tokens": 4480,
+      "total_tokens": 22825
+    },
+    "total_duration_ms": 43274.884447455406
+  }
+}

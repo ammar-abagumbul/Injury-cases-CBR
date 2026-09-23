@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCFI 524",
+    "action_number": "HCPI000504/1995",
+    "case_name": "LI YUEN HUNG v. YAU YUK LAN",
+    "judgment_date": "1996-04-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 51,
+    "age_at_trial": 57,
+    "occupation_before": "sewing worker (in Defendant's factory)",
+    "occupation_after": "dish washing worker (fast food restaurant) for one month in early 1991",
+    "expected_occupation_after": null,
+    "salary_before": 1888.0,
+    "salary_after": 3300.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Degenerative changes / spondylosis of the lumbar spine",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "X-ray examination showed that she had a quite advanced spondylolytic changes of her whole lumbar spine. There was a severe degree of wear and tear. She had multiple traction spur formations which indicated that she had degenerative discs in her lumbar spine.",
+          "Dr David Lee said that the accident on 16th May 1989 was a triggering factor which made her severe spondylosis to be symptomatic."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Disc prolapse / posterior disc bulging at multiple lumbar levels (L2/3, L3/4, L4/5) with possible nerve root compression",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L2/3, L3/4, L4/5)",
+        "laterality": null,
+        "source": [
+          "MRI performed on 12th October 1994 showed that degenerative changes in multiple disc levels with osteophytosis. Mild posterior disc bulging was at the L2/3 and L3/4 levels causing flattening anterior borders of the thecal sac. At L4/5 level, there was mild central posterior disc focal bulge suggestive of herniation. The anterior border of thecal sac was indented and both lateral recess became stenotic. The corresponding nerve roots might be compressed in this disregard.",
+          "According to Dr Y.Y. Lam, a disc prolapse at three levels was equivalent to 15% loss of earning capacity in accordance with the Employee's Compensation Ordinance."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "constant low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "attack of severe back pain together with weakness of both lower limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "transient paralysis of the lower limbs after prolonged standing",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left leg radiation pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "spasm of sacro spinalis muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "spasm of the paraspinal muscles on the left side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight decrease power of the dorsiflexor muscle of the left big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "trunk flexion slightly limited; extension of the back was painful; left rotation painful",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "medication",
+      "in-patient non-operative physiotherapy (Kowloon Hospital, Dec 1992 - Jan 1993)",
+      "out-patient orthopaedic follow-up (Chinese University / Queen's Elizabeth Hospital)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 210000.0,
+    "comparable_cases": [
+      {
+        "case_name": "A G v. Chun Yat Nam",
+        "neutral_citation": "[1995] 1 HKC 218",
+        "action_number": null,
+        "injury_description": "Range of awards for serious injury; Court of Appeal revised the level to a starting point of $250,000 and the Judge in this case adopted $280,000 to reflect inflation.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 280000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12725,
+      "output_tokens": 5827,
+      "reasoning_tokens": 4352,
+      "total_tokens": 18552
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43593.687046319246,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12725,
+      "output_tokens": 5827,
+      "reasoning_tokens": 4352,
+      "total_tokens": 18552
+    },
+    "total_duration_ms": 43593.687046319246
+  }
+}

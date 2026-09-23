@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 216",
+    "action_number": "HCPI 910/1997",
+    "case_name": "FONG KAM CHI v. WONG WAI SHING",
+    "judgment_date": "1999-12-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": null,
+    "occupation_before": "caretaker at residential premises in Tsuen Wan",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "swelling and bruising over the nasal bridge region",
+        "injury_type": "Temporary injury",
+        "body_part": "nasal bridge / nose",
+        "laterality": null,
+        "source": [
+          "swelling and bruising over the nasal bridge region"
+        ],
+        "icd_code": "NA00.3",
+        "icd_description": "Superficial injury of nose"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a minor injury to the back of his head which hit a letter box",
+        "injury_type": "Temporary injury",
+        "body_part": "back of head (occiput)",
+        "laterality": null,
+        "source": [
+          "a minor injury to the back of his head which hit a letter box"
+        ],
+        "icd_code": "NA00.01",
+        "icd_description": "Contusion of scalp"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "tinnitus to his left side",
+        "injury_type": "Residual disability",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "tinnitus to his left side and hearing loss"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "some hearing loss",
+        "injury_type": "Temporary injury",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "some hearing loss"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "some loss of balance which made him subject to occasional spells of dizziness",
+        "injury_type": "Residual disability",
+        "body_part": "vestibular / balance",
+        "laterality": null,
+        "source": [
+          "some loss of balance which made him subject to occasional spells of dizziness"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "symptoms of post-concussion syndrome",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "symptoms of post concussion syndrome"
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "hearing loss / deafness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "occasional spells of dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "vomited once",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "amnesia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department examination",
+      "Referral to Ear, Nose and Throat Department",
+      "X-ray to investigate suspected nasal bone fracture",
+      "injection which relieved his symptoms",
+      "Chinese herbal medicine and consultation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 2,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18546,
+      "output_tokens": 7545,
+      "reasoning_tokens": 6016,
+      "total_tokens": 26091
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35878.74099239707,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18546,
+      "output_tokens": 7545,
+      "reasoning_tokens": 6016,
+      "total_tokens": 26091
+    },
+    "total_duration_ms": 35878.74099239707
+  }
+}

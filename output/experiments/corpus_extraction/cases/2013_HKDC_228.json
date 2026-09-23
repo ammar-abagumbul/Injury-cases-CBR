@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 228",
+    "action_number": "DCPI 1930/2011",
+    "case_name": "LI CHI SING v. EQUAL LINK LIMITED",
+    "judgment_date": "2013-03-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 47,
+    "age_at_trial": 50,
+    "occupation_before": "bartender",
+    "occupation_after": "bartender",
+    "expected_occupation_after": null,
+    "salary_before": 9500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "F.1"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "distal fibula fracture at his left ankle.",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "it was found that the plaintiff suffered distal fibula fracture at his left ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The accident left him with an 11 cm scar at his left malleolus.",
+        "injury_type": "Permanent injury",
+        "body_part": "left malleolus",
+        "laterality": "left",
+        "source": [
+          "The accident left him with an 11 cm scar at his left malleolus."
+        ],
+        "icd_code": "ND11.Y",
+        "icd_description": "Other specified superficial injury of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent left ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "occasional left ankle wound numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild left ankle weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle muscle wasting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "11 cm scar at his left malleolus",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation with plate and screws",
+      "hospitalisation and follow-up at the Department of Orthopaedics & Traumatology, Queen Elizabeth Hospital",
+      "14 sessions of physiotherapy from 15 June 2010 to 12 August 2010"
+    ],
+    "treatments_future": [
+      "removal of implant (plate and screws)"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": 3,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 166,
+    "sick_leave_days_expected": 14
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "mild residual left ankle pain and stiffness and mild left ankle weakness and left ankle muscle wasting",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "11 cm scar at his left malleolus",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Sik Pan v Wylam’s Service Limited & 2 Ors",
+        "neutral_citation": "HCPI 648/1995 (unreported)",
+        "action_number": "HCPI 648/1995",
+        "injury_description": "range of awards for ankle fracture could vary from $150,000 to $400,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Hau Kit HO v Starway International Development Limited trading as Tao Heung Super 88",
+        "neutral_citation": null,
+        "action_number": "DCPI 329/2002",
+        "injury_description": "injuries similar in nature and extent to the plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Chan Ming and Wayfine Investment Limited (trading as Wayfair Warehousing Company)",
+        "neutral_citation": null,
+        "action_number": "HCPI 148/1997",
+        "injury_description": "injuries similar in nature and extent to the plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "To Ying-wa v Cargo-Land (Warehouse) Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 441/2000",
+        "injury_description": "injuries similar in nature and extent to the plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9984,
+      "output_tokens": 4406,
+      "reasoning_tokens": 3264,
+      "total_tokens": 14390
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34072.289668023586,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9984,
+      "output_tokens": 4406,
+      "reasoning_tokens": 3264,
+      "total_tokens": 14390
+    },
+    "total_duration_ms": 34072.289668023586
+  }
+}

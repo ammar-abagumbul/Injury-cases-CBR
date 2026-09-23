@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 42",
+    "action_number": "HCA 8170/1982",
+    "case_name": "CHAN HONG v. FOO YEE NUI",
+    "judgment_date": "1983-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 76,
+    "age_at_trial": null,
+    "occupation_before": "used to look after the household including her grandchildren",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left femur",
+        "injury_type": "Temporary injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "as a result of which her left femur was fractured."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "as a result of the accident she moves very slowly, cautiously and requires support.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "If she attempted to walk without such support she would fall.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There is a half inch shortening of the left leg and limited rotation.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He assessed her impairment of the leg as 5% from shortening and 17% from loss of hip joint movement. This is a 22% impairment of the leg and is a 9% impairment of the whole person.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She is now incapable of any house work and an amah has to be hired for two to three hours morning and evening.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She however can dress herself but obviously is now limited as to her independent movement.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "she has to take pills for the Diabetes and she also takes pills because of pain and discomfort resulting from her hip injury.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at Caritas Medical Centre (maintenance charges)",
+      "follow-up treatment at Caritas Medical Centre",
+      "private medical attendance after discharge",
+      "oral medication (pills) for pain"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "independence of movement has now been considerably reduced.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "She is now incapable of any house work and an amah has to be hired for two to three hours morning and evening.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Incable of doing household work; an amah has to be hired for two to three hours morning and evening.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "There is a half inch shortening of the left leg and limited rotation; assessed impairment of the leg 22% and whole person 9%.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "her life expectation is probably reduced by about half.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7214,
+      "output_tokens": 4652,
+      "reasoning_tokens": 3456,
+      "total_tokens": 11866
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32203.67855578661,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7214,
+      "output_tokens": 4652,
+      "reasoning_tokens": 3456,
+      "total_tokens": 11866
+    },
+    "total_duration_ms": 32203.67855578661
+  }
+}

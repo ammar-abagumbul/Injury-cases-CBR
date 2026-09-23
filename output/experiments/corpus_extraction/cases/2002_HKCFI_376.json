@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 376",
+    "action_number": "HCPI 923/2001",
+    "case_name": "NG SHING KWAI v. CHAN YU CHUEN T/A SHEUNG MOON CIVIL ENGINEERING CO. AND ANOTHER",
+    "judgment_date": "2002-09-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 44,
+    "age_at_trial": 48,
+    "occupation_before": "concreter",
+    "occupation_after": null,
+    "expected_occupation_after": "unskilled construction site work",
+    "salary_before": 33020.0,
+    "salary_after": 7500.0,
+    "expected_salary_after": null,
+    "education_level": "illiteracy"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Moderate to advanced degenerative changes of the back at L4 and facet joints of L5-S1, i.e. the lumbar spine.",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "2) Moderate to advanced degenerative changes of the back at L4 and facet joints of L5-S1, i.e. the lumbar spine."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Contusion of the right shoulder muscle with residual inflammation of the muscle.",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Diagnosis was multiple contusions of the right shoulder, elbow and back with bruising.",
+          "Dr Tsoi found that the contusion of the shoulder muscle with residual inflammation of the muscle accounted for 5 per cent impairment of the right upper limb or 3 per cent permanent impairment of the whole person."
+        ],
+        "icd_code": "NC16.Z",
+        "icd_description": "Injury of unspecified muscle, fascia or tendon at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Advanced osteoarthritic changes at the right elbow, exacerbated by the accident.",
+        "injury_type": "Permanent injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "1) Advanced osteoarthritic changes at the right elbow.",
+          "I find that the accident had caused the shoulder impairment, aggravated the plaintiff's hitherto asymptomatic but degenerative spine and exacerbated the right elbow condition, the AMA guide produced by defence counsel notwithstanding."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and discomfort persisted",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "he continues to experience aches at the waist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has difficulty climbing stairs or squatting for long periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pains and aches in the shoulder area",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness of the right elbow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "tenderness over the right paraspinal muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "referral to orthopaedic clinic for follow-up",
+      "physiotherapy",
+      "occupational therapy",
+      "visits to bonesetters in Hong Kong and in the PRC",
+      "admitted to and discharged from the Pok Oi Hospital on the same day"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 369,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "continues to experience aches at the waist and has difficulty climbing stairs or squatting for long periods",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "previous employment involving strenuous manual labour was now without the capacity of the plaintiff to undertake",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 320000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fu Chee-kong",
+        "neutral_citation": "(1998) HKLD D32",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Wah-wai",
+        "neutral_citation": "(1996) HKLY 663",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Law King-sang",
+        "neutral_citation": "(1997) HKLRD 437",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13102,
+      "output_tokens": 6029,
+      "reasoning_tokens": 4800,
+      "total_tokens": 19131
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36566.346410661936,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13102,
+      "output_tokens": 6029,
+      "reasoning_tokens": 4800,
+      "total_tokens": 19131
+    },
+    "total_duration_ms": 36566.346410661936
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 2",
+    "action_number": "DCPI 453/2008",
+    "case_name": "LAI KA YIN v. CHAN YIU KEI",
+    "judgment_date": "2009-01-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 32,
+    "age_at_trial": null,
+    "occupation_before": "attendant of a school bus for children attending kindergarten",
+    "occupation_after": "attendant of a school bus for primary school children",
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": 4000.0,
+    "expected_salary_after": null,
+    "education_level": "secondary school graduate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "whiplash injury / soft tissue injury of the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "She was diagnosed with a whiplash injury, and received physiotherapy treatment from October 2006 to November 2006.",
+          "Both doctors agree that Madam Lai suffered from soft tissue injury of the neck, and soft tissue injury of the back."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury of the back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "Madam Lai sustained injuries to her neck and the back as a result, and was hospitalized for 3 days.",
+          "Both doctors agree that Madam Lai suffered from soft tissue injury of the neck, and soft tissue injury of the back."
+        ],
+        "icd_code": "NB94.Z",
+        "icd_description": "Injury of muscle, fascia or tendon of abdomen, lower back or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "congenital abnormality of the left forearm, without the part of her limb from the forearm downwards",
+        "injury_type": "Permanent injury",
+        "body_part": "left forearm",
+        "laterality": "left",
+        "source": [
+          "Madam Lai has congenital abnormality of the left forearm, without the part of her limb from the forearm downwards."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the elbow or forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild tenderness over her neck region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the bilateral trapezius muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the L3/L4 region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limb numbness (complained but no actual neurological deficit was found)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "good range of neck movement and back movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "on and off pain in the neck and back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "was hospitalized for 3 days.",
+      "physiotherapy treatment from October 2006 to November 2006",
+      "physiotherapy treatment from Kowloon Hospital on 20 November 2006, 22 November 2006, 27 November 2006 and 1 December 2006",
+      "attended the clinic of a general practitioner, Dr. Chu, on a weekly basis from 21 November 2006 with a total of 27 visits",
+      "Dr. Chu prescribed medication on each visit and gave 7 days sick leave on each occasion",
+      "sick leave by the Hospital from 25 September 2006 to 1 November 2006",
+      "Medical expenses have been agreed at $1,721.",
+      "Towing fees and the motor survey report fee, totaling $1,050, are also agreed."
+    ],
+    "treatments_future": [
+      "no further physiotherapy or other surgery is required for Madam Lai"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 42,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fung Yuet Hing v. Mok Sun",
+        "neutral_citation": null,
+        "action_number": "DCPI 1706 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tai Yuk Wong v. Chong Kwok Fung & Ors",
+        "neutral_citation": null,
+        "action_number": "DCPI 1405 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12332,
+      "output_tokens": 8301,
+      "reasoning_tokens": 6592,
+      "total_tokens": 20633
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50207.95867964625,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12332,
+      "output_tokens": 8301,
+      "reasoning_tokens": 6592,
+      "total_tokens": 20633
+    },
+    "total_duration_ms": 50207.95867964625
+  }
+}

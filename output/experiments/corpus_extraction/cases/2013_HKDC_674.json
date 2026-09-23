@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 674",
+    "action_number": "DCPI 118/2012",
+    "case_name": "DAYAWON FE BATIANCILA v. TOEPKER CHIEN CHI",
+    "judgment_date": "2013-06-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 37,
+    "age_at_trial": null,
+    "occupation_before": "domestic helper",
+    "occupation_after": "domestic helper",
+    "expected_occupation_after": null,
+    "salary_before": 3580.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Back contusion / lower back injury",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Physical examination noted redness and tenderness, pain and limitation on motion of her shoulder and back.",
+          "Diagnosis was shoulder and back contusion.",
+          "There was bruise over the lower back and the right upper back, both with tenderness."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Right shoulder contusion / right shoulder injury",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Diagnosis was right shoulder and back injuries.",
+          "Diagnosis was shoulder and back contusion.",
+          "Physical examination revealed tenderness over the right shoulder with decrease in range of movement."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness in right shoulder radiating to her neck",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Difficulty in prolonged walking and standing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty changing position in bed and getting up from bed",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty holding pen or pencil to write",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced range of motion of right shoulder (limitation in active flexion and extension due to pain; forward flexion limited to 140 degrees)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Bruise over the lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bruise over the right upper back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Required walking frame / walking stick for support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Analgesics",
+      "Hospitalisation",
+      "Physiotherapy",
+      "Orthopaedics outpatient follow-up",
+      "Interferential Therapy",
+      "Hot Pack",
+      "Walking frame / walking stick prescription"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 210,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Limbu Dharamaraj v ISS Adams Secuforce Ltd & Anor",
+        "neutral_citation": "DCPI 1568/2011",
+        "action_number": "DCPI 1568/2011",
+        "injury_description": "soft tissue injury to his right shoulder, back and ankle",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 365,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Ahmed Masood v Chung Kau Engineering Company Ltd",
+        "neutral_citation": "DCPI 517/2003",
+        "action_number": "DCPI 517/2003",
+        "injury_description": "mild back sprain as a result of slip and fall",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Wong Kin Hing v Chan Wai Ming",
+        "neutral_citation": "DCPI 1223/2006",
+        "action_number": "DCPI 1223/2006",
+        "injury_description": "injuries to head, neck and right leg; simple contusion to right leg, neck pain and headache ceased after 2 months",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 70000.0
+      },
+      {
+        "case_name": "Ng Lai Fan Fanny v The Hong Kong Golf Club",
+        "neutral_citation": "HCPI 511/2005",
+        "action_number": "HCPI 511/2005",
+        "injury_description": "soft tissue injury with persistent back pain; hospitalised for 8 days",
+        "hospitalisation_days": 8,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Chan Sau Lan v Chesterton Petty Ltd",
+        "neutral_citation": "HCPI 1123/2002",
+        "action_number": "HCPI 1123/2002",
+        "injury_description": "minor soft tissue back injury; no residual disability",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 30000.0
+      },
+      {
+        "case_name": "Li Kam Wah v Ng Ying Tuen and Anor",
+        "neutral_citation": "DCPI 386/2001",
+        "action_number": "DCPI 386/2001",
+        "injury_description": "minor injury to neck, back and waist; stiffness after sitting",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22165,
+      "output_tokens": 5647,
+      "reasoning_tokens": 3776,
+      "total_tokens": 27812
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40185.279071331024,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22165,
+      "output_tokens": 5647,
+      "reasoning_tokens": 3776,
+      "total_tokens": 27812
+    },
+    "total_duration_ms": 40185.279071331024
+  }
+}

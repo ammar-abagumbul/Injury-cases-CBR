@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 131",
+    "action_number": "HCPI 1165/2004",
+    "case_name": "WONG CHING WA BANGI v. EAST ASIA ENTERTAINMENT LTD AND OTHERS",
+    "judgment_date": "2006-02-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 35,
+    "occupation_before": "audio-visual technician",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 10100.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "secondary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Concussion / brief loss of consciousness after impact to the head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Having fallen to the ground, the Plaintiff landed on his back and hit his head, briefly losing consciousness."
+        ],
+        "icd_code": "NA07.02",
+        "icd_description": "Concussion with loss of consciousness, short duration of less than 30 minutes"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Soft tissue injury to the cervical spine (mild whiplash-like injury)",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "Dr Poon comments that the main injuries relating to the accident were the soft tissue injury to the cervical spine and the SLAP lesion to the right shoulder."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Injury to the superior labrum / SLAP lesion of the right shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "An MRI examination of the right shoulder confirmed an injury to the superior labrum and a SLAP lesion of the right shoulder was diagnosed.",
+          "On the 23rd February 2003, he underwent arthroscopic surgery on the right shoulder to repair the SLAP lesion. After the operation, physiotherapy was resumed as from the 13th March 2003 and he received 46 sessions of physiotherapy and was finally discharged on the 19th December 2003.",
+          "Dr Poon ... has come to the view that the right shoulder injury has properly reached maximum medical improvement and that physiotherapy is unlikely to significantly improve the present range of movement, pain and weakness, the Plaintiff having complained to him (page 268) of stiffness and feeling of heat in the neck, an inability to relax the muscles of his shoulders, tightness in the right shoulder muscle on trying to reach out with his right arm and a decreased power of the right shoulder. He is not able to vertically lift loads of more than 30 pounds nor to push loads more than 25 pounds."
+        ],
+        "icd_code": "NC13",
+        "icd_description": "Dislocation or strain or sprain of joints or ligaments of shoulder girdle"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Abrasion on left fore-arm",
+        "injury_type": "Temporary injury",
+        "body_part": "left fore-arm",
+        "laterality": "left",
+        "source": [
+          "There was an abrasion on his left fore-arm and a 2-centimetre laceration on the left knee."
+        ],
+        "icd_code": "NC30.2",
+        "icd_description": "Abrasion of other or unspecified parts of forearm"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "2-centimetre laceration on the left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "There was an abrasion on his left fore-arm and a 2-centimetre laceration on the left knee."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "SLAP lesion of the left shoulder (surgically treated in Feb 2004) - agreed to be unrelated to this accident",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "In February 2004, he underwent arthroscopic surgery to his left shoulder for a similar SLAP lesion to the left shoulder, but that falls to be ignored for the purposes of the assessment because the agreed medical evidence is that the left shoulder damage is wholly unrelated to this accident."
+        ],
+        "icd_code": "NC1Y",
+        "icd_description": "Other specified injuries to the shoulder or upper arm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Briefly losing consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain in the right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Full range of movement of the right shoulder at initial A&E assessment",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Abrasion on left fore-arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "2-centimetre laceration on the left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Stiffness and feeling of heat in the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Inability to relax the muscles of his shoulders",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tightness in the right shoulder muscle on trying to reach out with his right arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Decreased power of the right shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Not able to vertically lift loads of more than 30 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Not able to push loads more than 25 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Inability to play drums for more than about 30 minutes because of shoulder pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department attendance (anti-tetanus injection and wound suturing)",
+      "MRI of right shoulder",
+      "19 sessions of physiotherapy from 13 June to 28 August 2002",
+      "Arthroscopic surgery on right shoulder on 2003-02-23",
+      "Physiotherapy resumed from 2003-03-13 with 46 sessions to 2003-12-19",
+      "Occupational therapy from 2003-06-05 to 2003-11-27"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to continue rifle shooting because of recoil and can only play drums for about 30 minutes before shoulder pain prevents continuation; inability to play saxophone/drums as before.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced power, stiffness and weakness of the right shoulder with limitation lifting and pushing capacities.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 225000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21068,
+      "output_tokens": 9067,
+      "reasoning_tokens": 7168,
+      "total_tokens": 30135
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32518.55830848217,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21068,
+      "output_tokens": 9067,
+      "reasoning_tokens": 7168,
+      "total_tokens": 30135
+    },
+    "total_duration_ms": 32518.55830848217
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 137",
+    "action_number": "DCPI 2095/2008",
+    "case_name": "FAN JIAN HUI v. CHAN HAK MAN AND ANOTHER",
+    "judgment_date": "2009-06-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "minor head injury"
+        ],
+        "icd_code": "NA00",
+        "icd_description": "Superficial injury of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "neck injury",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "tenderness over neck and both lower legs, as well as minor head injury",
+          "He has residual neck pain, and the range of movement of his neck was reduced."
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to both lower legs (tenderness)",
+        "injury_type": "Temporary injury",
+        "body_part": "both lower legs",
+        "laterality": "bilateral",
+        "source": [
+          "tenderness over neck and both lower legs, as well as minor head injury"
+        ],
+        "icd_code": "NC90.3",
+        "icd_description": "Contusion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over both lower legs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the range of movement of his neck was reduced",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "blurred vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment from Dr. Tsoi Wing Sang on 13 occasions",
+      "17 sessions of physiotherapy treatment at the Princess Margaret Hospital",
+      "hospitalisation until 28.9.2007",
+      "Medical expenses agreed $3,215",
+      "Travelling expenses agreed $100",
+      "Maintenance fee agreed $5,640",
+      "Tonic food $3,000",
+      "Loss of past earnings awarded $54,041"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from residual neck pain, reduced range of movement of the neck, minor head injury and tenderness of both lower legs",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Youn v. Ng Kam Man and Others",
+        "neutral_citation": "HCPI 533/1999",
+        "action_number": null,
+        "injury_description": "sprain neck injury; physiotherapy for 3 months; some but incomplete recovery; on-and-off residual neck pain; could not perform long hours of overhead ceiling work due to neck pain on prolonged neck extension",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Tai Yuk Wong v. Phong Kwok Fung and Another",
+        "neutral_citation": null,
+        "action_number": "DCPI 1405/2005",
+        "injury_description": "whiplash injury to muscle and soft tissue; persistent neck pain and weakness on upper limbs for about a year; residuary neck pain and upper limb numbness held to be permanent by Dr. Lau; subjective neck and shoulder pain of a mild nature remained about a year and 4 months after the accident",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Li Ting Fai",
+        "neutral_citation": null,
+        "action_number": "DCPI 807/2007",
+        "injury_description": "M/37 injured when taxi hit from behind; sustained neck injury in the form of paraspinal muscular tenderness; given 48 sessions of physiotherapy; mild case of whiplash neck injury affecting soft tissue only",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Wong Kin Hung",
+        "neutral_citation": null,
+        "action_number": "DCPI 1233/2006",
+        "injury_description": "sprained neck injury; hospitalized the same day and treated with physiotherapy, analgesic and neck collar; discharged 2 days later; received physiotherapy for more than 3 months; intermittent residual neck pain",
+        "hospitalisation_days": 2,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10810,
+      "output_tokens": 9286,
+      "reasoning_tokens": 7552,
+      "total_tokens": 20096
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47902.44825556874,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10810,
+      "output_tokens": 9286,
+      "reasoning_tokens": 7552,
+      "total_tokens": 20096
+    },
+    "total_duration_ms": 47902.44825556874
+  }
+}

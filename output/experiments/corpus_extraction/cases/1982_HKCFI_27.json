@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 27",
+    "action_number": "HCA002384/1979",
+    "case_name": "CHE CHE v. LEUNG SIU TONG AND ANOTHER",
+    "judgment_date": "1982-04-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 64,
+    "age_at_trial": 68,
+    "occupation_before": "self employed blacksmith making small knives by hand",
+    "occupation_after": "self employed blacksmith making small knives by hand",
+    "expected_occupation_after": null,
+    "salary_before": 1560.0,
+    "salary_after": 1400.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He suffered an intertrochanteric fracture of the right femur.",
+        "injury_type": "Residual disability",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "He suffered an intertrochanteric fracture of the right femur."
+        ],
+        "icd_code": "NC72.30",
+        "icd_description": "Intertrochanteric fracture of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the Plaintiff's right knee was also injured in the accident and that on admission to hospital it was swollen to about twice its normal size; pain from the right knee which is still experiencing a degree of crepitus with the possible development of osteoarthritis.",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "the Plaintiff's right knee was also injured in the accident and that on admission to hospital it was swollen to about twice its normal size.",
+          "the Plaintiff's continuing limp and difficulty in standing for long periods are due not to the fracture of the femur but to pain from the right knee which is still experiencing a degree of crepitus with the possible development of osteoarthritis."
+        ],
+        "icd_code": "NC93.0",
+        "icd_description": "Acute internal damage of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the Plaintiff's continuing limp and difficulty in standing for long periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain from the right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "still experiencing a degree of crepitus with the possible development of osteoarthritis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right knee ... on admission to hospital it was swollen to about twice its normal size",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "admitted to hospital for eight weeks",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "used crutches for a period of one month",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "insertion of a nail attached to a bone plate secured to the shaft by four bone screws",
+      "admitted to hospital for eight weeks",
+      "use of crutches for a period of one month"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 56,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "continuing limp and difficulty in standing for long periods",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "reduction in output from 40-50 a day to 24-25 pieces a day and a 20% reduction in earning capacity",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 25000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9494,
+      "output_tokens": 5955,
+      "reasoning_tokens": 4736,
+      "total_tokens": 15449
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42717.67299622297,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9494,
+      "output_tokens": 5955,
+      "reasoning_tokens": 4736,
+      "total_tokens": 15449
+    },
+    "total_duration_ms": 42717.67299622297
+  }
+}

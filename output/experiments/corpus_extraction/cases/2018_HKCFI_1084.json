@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1084",
+    "action_number": "HCPI 913/2016",
+    "case_name": "CHAN MOK YAU v. 黃吉利 AND ANOTHER",
+    "judgment_date": "2018-05-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 53,
+    "age_at_trial": 56,
+    "occupation_before": "general labourer in a plastic recycling business",
+    "occupation_after": null,
+    "expected_occupation_after": "watchman or a caretaker",
+    "salary_before": 14560.0,
+    "salary_after": null,
+    "expected_salary_after": 11000.0,
+    "education_level": "Primary 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "distal fibula fracture at his right ankle / bimalleolar fracture",
+        "injury_type": "Permanent injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "His right ankle x-ray showed a bimalleolar fracture.",
+          "his x-ray showed he suffered a distal fibula fracture at his right ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swollen right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruises over his right toes / bruises over the lateral side of his right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at right distal fibula",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion of the right ankle (stiffness; specific ROM reduced compared to left)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle strength initially graded 4/5, later 5/5",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not perform squatting initially; later could squat with mild pain or adapted posture",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild limping gait",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain increases with prolonged walking for more than 1 hour and with weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced walking tolerance on stairs (could only walk on stairs at a reduced speed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment with a cast",
+      "out-patient physiotherapy",
+      "pulsed electromagnetic field therapy",
+      "exercise therapy",
+      "work hardening training under a work rehabilitation programme at the Occupational Therapy Department",
+      "admission to Department of Orthopaedics and Traumatology of Tuen Mun Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 424,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He used to jog and hike at least twice a month and exercised almost every morning. Due to the residual pain in his right ankle, he has lost interest in taking part in these activities after the Accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Residual right ankle pain, stiffness and reduced range of motion; mild limping gait; pain increases with prolonged walking for more than 1 hour; earlier could only walk on stairs at a reduced speed.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He would not be able to resume his pre-accident employment which required him to climb ladders and lift heavy objects of about 50 kgs and may need to change to a more sedentary job such as a watchman.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Chi Sing v Equal Link Limited",
+        "neutral_citation": "[2013] HKDC 228",
+        "action_number": "DCPI 1930/2011",
+        "injury_description": "distal fibula fracture at his left ankle which healed with plate and screws; mild residual ankle pain and stiffness, mild ankle weakness and ankle muscle wasting",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 220000.0
+      },
+      {
+        "case_name": "Cheung Hei Kwong v Kwong Key Construction & Engineering Limited",
+        "neutral_citation": "[2003] HKCFI 811",
+        "action_number": "HCPI 1260/1999",
+        "injury_description": "distal fibula fracture at left ankle; inversion injury with significant pain, stiffness and weakness on squatting",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10494,
+      "output_tokens": 4112,
+      "reasoning_tokens": 2560,
+      "total_tokens": 14606
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36646.139305084944,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10494,
+      "output_tokens": 4112,
+      "reasoning_tokens": 2560,
+      "total_tokens": 14606
+    },
+    "total_duration_ms": 36646.139305084944
+  }
+}

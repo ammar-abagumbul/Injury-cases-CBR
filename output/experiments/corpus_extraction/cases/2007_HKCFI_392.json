@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 392",
+    "action_number": "HCPI 1089/2005",
+    "case_name": "FUNG CHEUK LAU v. CHAN HON CHIU AND OTHERS",
+    "judgment_date": "2007-04-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "serious head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered from serious head injury and was admitted in the intensive care unit of the hospital."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain may affect his concentration span during driving",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in lifting and carrying heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "it is difficult for him to turn his neck to watch the road condition during driving",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted in the intensive care unit of the hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": [
+      {
+        "case_name": "null",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "head injury of less severity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "null",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "head injury of less severity",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7146,
+      "output_tokens": 3861,
+      "reasoning_tokens": 3008,
+      "total_tokens": 11007
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26391.102023422718,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7146,
+      "output_tokens": 3861,
+      "reasoning_tokens": 3008,
+      "total_tokens": 11007
+    },
+    "total_duration_ms": 26391.102023422718
+  }
+}

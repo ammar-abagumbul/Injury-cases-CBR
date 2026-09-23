@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 24",
+    "action_number": "HCA005903/1989",
+    "case_name": "TSE HOI CHEUNG v. HIP HING CONSTRUCTION CO. LTD. AND OTHERS",
+    "judgment_date": "1995-02-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 41,
+    "occupation_before": "plumber",
+    "occupation_after": "Boiler room technician",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 10500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He received a cut on the chin which was stitched.",
+        "injury_type": "Temporary injury",
+        "body_part": "chin",
+        "laterality": null,
+        "source": [
+          "He received a cut on the chin which was stitched."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "he had a fracture of the left femur",
+        "injury_type": "Permanent injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "He had a fracture of the left femur"
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a fracture of the left ankle bone",
+        "injury_type": "Permanent injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "a fracture of the left ankle bone"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "dislocation of the right ankle",
+        "injury_type": "Permanent injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "dislocation of the right ankle"
+        ],
+        "icd_code": "ND14.0",
+        "icd_description": "Dislocation of ankle joint"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "a compression fracture of the fifth lumbar vertebra",
+        "injury_type": "Permanent injury",
+        "body_part": "fifth lumbar vertebra",
+        "laterality": null,
+        "source": [
+          "a compression fracture of the fifth lumbar vertebra"
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unconscious for some minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "walking with a stick (in July 1986)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain from time to time and has to consult a doctor",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to return to work as a plumber",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "ulceration of the stomach caused by pain killers",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "treatment at MacLehose Rehabilitation Centre",
+      "plaster of Paris for dislocation",
+      "insertion of plates, pins and screws in left leg",
+      "removal of plates and screws",
+      "pain killers"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Before the accident, the plaintiff was an active man who enjoyed basketball, swimming, cycling, jogging and other such activities. He is now unable to take part in these",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is now unable to return to work as a plumber.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He is called unkind names, such as \"Crippled Cheung\" which embarrasses and upsets him.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 335000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v. Leung Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Yat Nam v. A.G.",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20054,
+      "output_tokens": 6086,
+      "reasoning_tokens": 4416,
+      "total_tokens": 26140
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36612.89523541927,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20054,
+      "output_tokens": 6086,
+      "reasoning_tokens": 4416,
+      "total_tokens": 26140
+    },
+    "total_duration_ms": 36612.89523541927
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 745",
+    "action_number": "HCPI 1266/1997",
+    "case_name": "ESPIRITU MARCELINO N AND ANOTHER v. LO KIT",
+    "judgment_date": "2000-06-09",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "professional free-lance musician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "10 centimetre laceration of the vertex of his skull",
+        "injury_type": "Temporary injury",
+        "body_part": "vertex of skull (head)",
+        "laterality": null,
+        "source": [
+          "Mr Espiritu suffered nonetheless a head injury involving a 10 centimetre laceration of the vertex of his skull and a 2 centimetre injury to his left cubital fossa when a metal rod entered the fleshy region of his elbow. There was a 2 centimetre cut over his right loin which also required sutures."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "2 centimetre injury to his left cubital fossa when a metal rod entered the fleshy region of his elbow",
+        "injury_type": "Temporary injury",
+        "body_part": "left cubital fossa (left elbow/forearm)",
+        "laterality": "left",
+        "source": [
+          "Mr Espiritu suffered nonetheless a head injury involving a 10 centimetre laceration of the vertex of his skull and a 2 centimetre injury to his left cubital fossa when a metal rod entered the fleshy region of his elbow. There was a 2 centimetre cut over his right loin which also required sutures."
+        ],
+        "icd_code": "NC31.3",
+        "icd_description": "Puncture wound with foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "2 centimetre cut over his right loin which required sutures",
+        "injury_type": "Temporary injury",
+        "body_part": "right loin (right flank/abdomen)",
+        "laterality": "right",
+        "source": [
+          "Mr Espiritu suffered nonetheless a head injury involving a 10 centimetre laceration of the vertex of his skull and a 2 centimetre injury to his left cubital fossa when a metal rod entered the fleshy region of his elbow. There was a 2 centimetre cut over his right loin which also required sutures."
+        ],
+        "icd_code": "NB51.0",
+        "icd_description": "Laceration without foreign body of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Injury to his left little finger (no permanent disability)",
+        "injury_type": "Temporary injury",
+        "body_part": "left little finger (hand)",
+        "laterality": "left",
+        "source": [
+          "His physical injuries have by now resolved and the injury to his left little finger - potentially of some significance to a pianist - has not left any permanent disability."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "attacks of nervousness and anxiety",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "bouts of forgetfulness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "discomfort in his back, left side of his chest and occasional headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "minor anxiety disorder which has affected many aspects of his life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "lack of confidence and consequent withdrawal from the musical scene",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of lacerations",
+      "psychotherapy (5 sessions) recommended"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Affected his confidence in his career as a musician, gave it up for a while and withdrawal from the musical scene making it more difficult to adjust to the economic downturn in the musical entertainment industry.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Minor anxiety disorder, lack of confidence and consequent withdrawal from the musical scene.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Personality change",
+        "description": "Acute stress disorder and over two years of anxiety suffered by Mrs Espiritu after seeing the hole in the balcony and hearing her husband's voice calling for help.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of half her salary for the months in which she worked part-time to look after her husband and keep matters going at home (loss of earnings claimed and allowed).",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13228,
+      "output_tokens": 6624,
+      "reasoning_tokens": 4992,
+      "total_tokens": 19852
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38376.70200318098,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13228,
+      "output_tokens": 6624,
+      "reasoning_tokens": 4992,
+      "total_tokens": 19852
+    },
+    "total_duration_ms": 38376.70200318098
+  }
+}

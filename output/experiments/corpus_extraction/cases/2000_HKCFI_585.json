@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 585",
+    "action_number": "HCPI 143/1998",
+    "case_name": "CHEANG KAM IAN v. HONG KONG PRIME PRINTING CO.",
+    "judgment_date": "2000-01-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 17,
+    "age_at_trial": null,
+    "occupation_before": "delivery boy",
+    "occupation_after": "delivery boy",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Circumferential first to second degree burn on his right calf; about 5% of the total body surface area involved; no neurovascular injury.",
+        "injury_type": "Residual disability",
+        "body_part": "right calf",
+        "laterality": "right",
+        "source": [
+          "he was found to be suffering from a circumferential first to second degree burn on his right calf. About 5% of the total body surface area was involved. No neurovascular injury was found."
+        ],
+        "icd_code": "NC90.Y",
+        "icd_description": "Other specified superficial injury of knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent scars with pigmentation; cosmetic disability; plaintiff somewhat embarrassed about these scars",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Pamela Youde Nethersole Eastern Hospital on 1995-02-21 and discharged after seven days of hospitalization",
+      "Debridement of the necrotic skin done on 1995-02-23",
+      "Daily dressings at out-patient",
+      "Readmitted on 1995-03-23 for management of right leg wound and discharged five days later"
+    ],
+    "treatments_future": [
+      "Bleaching cream treatment (cost HKD 12000.0)"
+    ],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 113,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent scars with pigmentation causing cosmetic disability and embarrassment.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13291,
+      "output_tokens": 4313,
+      "reasoning_tokens": 3520,
+      "total_tokens": 17604
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34946.107756346464,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13291,
+      "output_tokens": 4313,
+      "reasoning_tokens": 3520,
+      "total_tokens": 17604
+    },
+    "total_duration_ms": 34946.107756346464
+  }
+}

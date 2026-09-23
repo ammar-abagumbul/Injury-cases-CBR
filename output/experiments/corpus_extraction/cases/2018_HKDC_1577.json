@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1577",
+    "action_number": "DCPI 1187/2017",
+    "case_name": "SHIU WING SIK v. DICKSON YOGA CO LTD T/A DICKSON YOGA",
+    "judgment_date": "2018-12-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "general worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture at the left big toe",
+        "injury_type": "Residual disability",
+        "body_part": "left big toe",
+        "laterality": "left",
+        "source": [
+          "causing personal injuries to the plaintiff, including a fracture at the left big toe.",
+          "The clinical diagnosis was open fracture of left big toe.",
+          "X-ray of left big toe showed fracture of distal phalanx."
+        ],
+        "icd_code": "ND13.4",
+        "icd_description": "Fracture of great toe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left big toe pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "nail deformity",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced sensation over medial side of left big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "3 cm laceration over the left big toe nail",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "oozing from the wound",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild bruise at left big toe",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation of repair of nail bed, and surgical toilet and suturing",
+      "physiotherapy treatments from 7 May 2015 to 8 June 2015 for a total of 4 sessions",
+      "occupational therapy for work rehabilitation from 5 May 2015 to 10 June 2015 for two sessions per week"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 164,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "left big toe pain",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "nail deformity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Singh Chamkaur v Ricahrd Ethan Latker",
+        "neutral_citation": "DCPI 1323/2009",
+        "action_number": "DCPI 1323/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15554,
+      "output_tokens": 4315,
+      "reasoning_tokens": 3264,
+      "total_tokens": 19869
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30139.701195061207,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15554,
+      "output_tokens": 4315,
+      "reasoning_tokens": 3264,
+      "total_tokens": 19869
+    },
+    "total_duration_ms": 30139.701195061207
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 1464",
+    "action_number": "DCPI 1819/2010",
+    "case_name": "YU KA KI v. CHAN WING SUM",
+    "judgment_date": "2011-11-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 30,
+    "occupation_before": "executive director of an estate agency",
+    "occupation_after": "executive director of an estate agency",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "4.5 cm laceration over his forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "he was found to have suffered a 4.5 cm laceration over his forehead and dried blood staining opening of nostrils."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Scar on forehead with small patchy loss of hair",
+        "injury_type": "Permanent injury",
+        "body_part": "forehead",
+        "laterality": "left",
+        "source": [
+          "The laceration caused the Plaintiff to be scarred on his forehead. The scar runs backwards from the hairline in the middle of his forehead to the left, slightly in the shape of a crescent. He complains that the scar resulted in small patchy loss of hair and it made the scar noticeable especially when he was wearing short hair-style."
+        ],
+        "icd_code": "NA00.0Y",
+        "icd_description": "Other specified superficial injury of scalp"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent headache, sometimes very severe",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wound very itchy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "noticeable scar affecting appearance and self-esteem",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suture of laceration",
+      "follow-up outpatient treatment at public hospital",
+      "MRI examination",
+      "consultations with dermatologists and plastic surgeons",
+      "scar revision operation by Dr. Chang, a plastic surgeon, in Taiwan"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Noticeable scar on forehead causing small patchy loss of hair and affecting appearance and self-esteem",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": [
+      {
+        "case_name": "So Sau Man v. Leung Ming Kwong & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 376/2002",
+        "injury_description": "the plaintiff, a lady aged 62, suffered right lip laceration and lost 3 teeth as a result of a traffic accident. Suturing was performed on the laceration wound over the upper lip and she was discharged on the same day. The wound healed without much complication, and she suffered no permanent disability apart from (i) numbness in the wound area; and (ii) a small but quite unnoticeable scar near the upper right lip. The teeth were replaced by artificial ones. She was granted sick leave for a period of about 2.4 months.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Lau Choi Chung v. Xie Renlan, the Administratrix of the estate of CHAN Wai Kin, deceased & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 468/2004",
+        "injury_description": "the plaintiff, a young man aged 22 at the time of the traffic accident, suffered from \"multiple frontal lacerations\" to his forehead and face; intermittent headache and dizziness compatible with post-concussion syndrome and had headaches for 2 to 3 years after the accident. The accident left him with 5 sets of scars on the forehead. Though he suffered no functional disability, the scars caused him loss of a bit of self-esteem.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10874,
+      "output_tokens": 4856,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15730
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37206.97307959199,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10874,
+      "output_tokens": 4856,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15730
+    },
+    "total_duration_ms": 37206.97307959199
+  }
+}

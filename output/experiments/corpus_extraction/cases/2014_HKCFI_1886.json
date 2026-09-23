@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1886",
+    "action_number": "HCPI 505/2011",
+    "case_name": "CHAN KAI SING v. YIP CHEUNG SHING AND ANOTHER",
+    "judgment_date": "2014-10-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 49,
+    "age_at_trial": 55,
+    "occupation_before": "self-employed delivery van driver",
+    "occupation_after": "delivery worker on a motorbike",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": 10956.62,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "cervical spondylosis / multilevel degenerating disc disease",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "he was diagnosed as suffering with cervical degenerative spondylosis.",
+          "An MRI scan of the cervical spine showed cervical spondylosis and multilevel degenerating disc disease."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "minor neck sprain (whiplash)",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "(i) If the traffic accident occurred as described, I agree that there could be minor neck sprain or conventionally called whiplash injury.",
+          "I find that the injury the plaintiff sustained as a result of the present accident was very slight, being a minor sprain with good recovery"
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain to the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness to the upper limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "feeling weak and unable to carry more than a few cans of canned food",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness to the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severely limited neck movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "neck physiotherapy",
+      "trigger point injection steroid therapy",
+      "referral to pain specialist",
+      "MRI scan",
+      "ambulance transfer (October 2010 incident)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 476,
+    "sick_leave_days_expected": 28
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from neck injury (pain, stiffness, limited neck movement, numbness and weakness to arms).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Prevented him from sleeping normally and engaging in his visual recreational activities.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15703,
+      "output_tokens": 5671,
+      "reasoning_tokens": 4544,
+      "total_tokens": 21374
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31436.399448662996,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15703,
+      "output_tokens": 5671,
+      "reasoning_tokens": 4544,
+      "total_tokens": 21374
+    },
+    "total_duration_ms": 31436.399448662996
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1200",
+    "action_number": "HCPI 632/2014",
+    "case_name": "LIU KIN PONG v. KEE WAH FOOD PRODUCTION LIMITED",
+    "judgment_date": "2017-07-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "food production assistant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "muscle sprain over his left calf",
+        "injury_type": "Temporary injury",
+        "body_part": "left calf",
+        "laterality": "left",
+        "source": [
+          "Dr Chen’s examination showed tenderness and swelling over his left calf and the diagnosis was muscle sprain over his left calf."
+        ],
+        "icd_code": "NC96.10",
+        "icd_description": "Strain or sprain of other muscle, fascia or tendon of posterior muscle group at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "constant pulling pain over his left calf, which was worsened upon walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to bend his left ankle when bearing weight on his left leg as he felt serious pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over left calf region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling over his left calf",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left ankle was stiff, and he felt pain when standing on his left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited tolerance for prolonged sitting and walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked with heavy limps and had to walk with a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right leg difficult to control",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tremor and feebleness over his four limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "legs felt numb and overly sensitive; could not bend his legs at times (as complained by plaintiff)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E consultations",
+      "X-ray films (showed no fracture)",
+      "MRI scan",
+      "analgesics",
+      "physiotherapy (6 sessions)",
+      "psychiatric outpatient clinic follow-up (no psychiatric diagnosis recorded)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 633,
+    "sick_leave_days_expected": 28
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities due to sprain of left calf (PSLA awarded)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fazal Ahmed v MTR Corp Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 29/2011",
+        "injury_description": "back and neck injuries with contusion of the back and a pain in the neck",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Fu Chuen Sing v Ryan (HK) Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 2135/2009",
+        "injury_description": "back sprain injury with tenderness on paraspinal muscles, residual pain in the back, right shoulder and neck as well as right arm cramp",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Lo Yin Fong v Maxim’s Caterers Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1424/2009",
+        "injury_description": "multiple injuries to the knees, hips, and shoulder with pain; mild contusions with no complication",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22432,
+      "output_tokens": 4585,
+      "reasoning_tokens": 3136,
+      "total_tokens": 27017
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42405.23776784539,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22432,
+      "output_tokens": 4585,
+      "reasoning_tokens": 3136,
+      "total_tokens": 27017
+    },
+    "total_duration_ms": 42405.23776784539
+  }
+}

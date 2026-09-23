@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 286",
+    "action_number": "DCPI 1850/2007",
+    "case_name": "SIT SAI KIT v. NG TAK WAH T/A WAH KEE PLUMBING ENGINEERING CO AND ANOTHER",
+    "judgment_date": "2008-10-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 25,
+    "occupation_before": "plumber",
+    "occupation_after": "delivery driver/worker job",
+    "expected_occupation_after": null,
+    "salary_before": 11700.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crush injury resulting in a fracture on its left little finger",
+        "injury_type": "Permanent injury",
+        "body_part": "left little finger",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff suffered crush injury resulting in a fracture on its left little finger.",
+          "At the end the Plaintiff suffered permanent impairment of his little finger resulting in some loss of the power of hand grip."
+        ],
+        "icd_code": "NC53.63",
+        "icd_description": "Fracture of little finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some loss of the power of hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "four operations",
+      "15 sessions of various kinds of physiotherapy treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of his little finger resulting in some loss of the power of hand grip.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering arising from the injury.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his old trade and loss of earning capacity resulting from the impairment of his little finger.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 190000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9603,
+      "output_tokens": 4465,
+      "reasoning_tokens": 3648,
+      "total_tokens": 14068
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28362.88907378912,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9603,
+      "output_tokens": 4465,
+      "reasoning_tokens": 3648,
+      "total_tokens": 14068
+    },
+    "total_duration_ms": 28362.88907378912
+  }
+}

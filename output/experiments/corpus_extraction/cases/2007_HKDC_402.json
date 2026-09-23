@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 402",
+    "action_number": "DCPI 355/2007",
+    "case_name": "CHAN KWOK CHU v. MORNING SPRING LIMITED trading as EDO RESTAURANT (江戶料理)",
+    "judgment_date": "2007-12-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 43,
+    "age_at_trial": 47,
+    "occupation_before": "Deputy Manager at the Edo Restaurant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back with likely prolapsed intervertebral disc",
+        "injury_type": "Permanent injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "he slipped and fell, sustaining back injuries as a result.",
+          "The clinical diagnosis was back injury.",
+          "when examined by his own orthopedic expert on 19 July 2006, Mr. Chan was diagnosed with a sprained back with likely prolapsed intervertebral disc.",
+          "the employer's expert ... was of the opinion that Mr. Chan had sustained a sprained back injury which was compatible with the circumstances of the accident, and which caused soft tissue injury to his back."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness over the lumber spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diffuse tenderness of Mr. Chan's lower back and right buttock",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness of the spine",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diminished sensation of the right lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diminished power of the right lower limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diminished right ankle reflex",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Acute pain (could not get up after fall); ongoing back pain likely to be permanent",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "occupational therapy",
+      "hospital treatment",
+      "ambulance attendance"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 782,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Sze v. Win Art Design & Decoration Company Ltd.",
+        "neutral_citation": "HCPI 6/2000",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Wai Tan Peter v. Secretary for Justice acting for Hong Kong Police Force",
+        "neutral_citation": "DCPI 1469/2006",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12208,
+      "output_tokens": 3987,
+      "reasoning_tokens": 2816,
+      "total_tokens": 16195
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29106.717854738235,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12208,
+      "output_tokens": 3987,
+      "reasoning_tokens": 2816,
+      "total_tokens": 16195
+    },
+    "total_duration_ms": 29106.717854738235
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 1106",
+    "action_number": "HCPI 1241/2003",
+    "case_name": "SIU HIN SIU v. DURA DUCT INTERNATIONAL LTD",
+    "judgment_date": "2007-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": "watchman",
+    "salary_before": 8580.0,
+    "salary_after": null,
+    "expected_salary_after": 6250.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "persistent pain in his lower back. This back sprain has affected him physically and to a certain extent psychologically.",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "persistent pain in his lower back. This back sprain has affected him physically and to a certain extent psychologically."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain in his lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "physical impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychological impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "intensive back rehabilitation",
+      "medical treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity: $300,000.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7817,
+      "output_tokens": 2882,
+      "reasoning_tokens": 2176,
+      "total_tokens": 10699
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 20743.30161884427,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7817,
+      "output_tokens": 2882,
+      "reasoning_tokens": 2176,
+      "total_tokens": 10699
+    },
+    "total_duration_ms": 20743.30161884427
+  }
+}

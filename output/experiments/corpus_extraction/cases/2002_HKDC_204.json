@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 204",
+    "action_number": "DCPI 317/2001",
+    "case_name": "LEUNG PAK KI v. NG TING MING",
+    "judgment_date": "2002-06-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction worker (including scaffolding worker)",
+    "occupation_after": "general worker in the construction field",
+    "expected_occupation_after": null,
+    "salary_before": 18200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "he was found to have the following injury: (a) minor head injury; (b) back injury; and (c) fracture of left talus and calcanum (heel bone).",
+          "His head injury was treated by five stitches."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back injury",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "he was found to have the following injury: (a) minor head injury; (b) back injury; and (c) fracture of left talus and calcanum (heel bone)."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of left talus and calcanum (heel bone)",
+        "injury_type": "Residual disability",
+        "body_part": "left talus and calcanum (heel bone)",
+        "laterality": "left",
+        "source": [
+          "he was found to have the following injury: (a) minor head injury; (b) back injury; and (c) fracture of left talus and calcanum (heel bone).",
+          "He received treatment including open reduction by K-wire fixture and bone graft performed.",
+          "He had to be hospitalised for 21 days and while he was discharged from hospital, he was required to put on an ankle splint for six weeks.",
+          "Thereafter he had attended 13 follow-up treatment and 15 sessions of physiotherapy. He was given another 23 sessions of occupational treatment and currently he is still experiencing pain and numbness after prolonged walking, and he cannot squat for too long and surely he cannot run fast."
+        ],
+        "icd_code": "ND1A",
+        "icd_description": "Multiple injuries of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "currently he is still experiencing pain and numbness after prolonged walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "he cannot squat for too long",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "he cannot run fast",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "head injury treated by five stitches",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction by K-wire fixture",
+      "bone graft",
+      "five stitches to head",
+      "ankle splint for six weeks",
+      "13 follow-up treatment",
+      "15 sessions of physiotherapy",
+      "23 sessions of occupational treatment",
+      "inpatient treatment",
+      "outpatient treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA claim and award).",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The plaintiff used to be able to work as a scaffolding worker ... now, because of his injury, he cannot go back to work as a scaffolding worker and can now only work as a general worker in the construction field.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "currently he is still experiencing pain and numbness after prolonged walking, and he cannot squat for too long and surely he cannot run fast.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Bing-kai v Tsui Kam-hung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "injuries were quite similar to the plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      },
+      {
+        "case_name": "Wong Woon-hei v Dickson Construction Limited",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "injuries were quite similar to the plaintiff",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 400000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9770,
+      "output_tokens": 6503,
+      "reasoning_tokens": 4928,
+      "total_tokens": 16273
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40148.07237312198,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9770,
+      "output_tokens": 6503,
+      "reasoning_tokens": 4928,
+      "total_tokens": 16273
+    },
+    "total_duration_ms": 40148.07237312198
+  }
+}

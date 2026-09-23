@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 129",
+    "action_number": "DCPI 129/2005",
+    "case_name": "LEUNG MOON SING v. YU HON KUEN",
+    "judgment_date": "2006-05-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 47,
+    "age_at_trial": 50,
+    "occupation_before": "doing decoration work",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 19500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "impaired tear secretion (Dry Eye Syndrome)",
+        "injury_type": "Residual disability",
+        "body_part": "both eyes",
+        "laterality": "bilateral",
+        "source": [
+          "He now has impaired tear secretion which means having dry eyes and has to apply solutions to his eyes 6 times a day."
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Removal of unhealthy epithelium / epithelial defect of both eyes (healed)",
+        "injury_type": "Temporary injury",
+        "body_part": "both eyes",
+        "laterality": "bilateral",
+        "source": [
+          "Removal of unhealthy epithelium was done and both eyes were padded with antibiotic and lubricant eye medication for one day. The epithelial effect was healed with no scar."
+        ],
+        "icd_code": "NA06.4",
+        "icd_description": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "impaired tear secretion which means having dry eyes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has to apply solutions to his eyes 6 times a day",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "sent to Queen Elizabeth Hospital where saline irrigation was done to both eyes",
+      "referred to the Eye Hospital for further treatment",
+      "Removal of unhealthy epithelium",
+      "both eyes were padded with antibiotic and lubricant eye medication for one day",
+      "11 occasions to Eye Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 22,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Plaintiff\u0002s only residual disability was dry eyes; has to apply solutions to his eyes 6 times a day.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 65000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Wai Hung v. King Rise Engineering Ltd. & another",
+        "neutral_citation": null,
+        "action_number": "DCPI 964/2004",
+        "injury_description": "the Plaintiff\u0002s right eye was injured by a fragment of nail. He suffered right corneal abrasion which was healed after 2 days. There was no permanent visual disability though he still complained of pain and could not take accurate measurements. There was no epithelial defects.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8485,
+      "output_tokens": 4584,
+      "reasoning_tokens": 3520,
+      "total_tokens": 13069
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30787.754349410534,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8485,
+      "output_tokens": 4584,
+      "reasoning_tokens": 3520,
+      "total_tokens": 13069
+    },
+    "total_duration_ms": 30787.754349410534
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "TSO CHUN CHEONG v. MAK CHI MING T/A LIK WANG INTERNATIONAL SOFA CO [2008] HKDC 7; DCPI 766/2007 (8 January 2008)",
+    "action_number": "DCPI 766/2007",
+    "case_name": "TSO CHUN CHEONG v. MAK CHI MING T/A LIK WANG INTERNATIONAL SOFA CO",
+    "judgment_date": "2008-01-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 36,
+    "age_at_trial": 39,
+    "occupation_before": "furniture salesperson",
+    "occupation_after": "self-employed cross-border lorry driver",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": null,
+    "expected_salary_after": 8000.0,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain injury to the neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Dr Lam's diagnosis was “sprain injury to the neck”."
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "cervical injury to C4/5 level with compression of cervical spinal cord and myelomalacia causing mild T2 signal changes",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (C4/5)",
+        "laterality": null,
+        "source": [
+          "the trauma of the Accident caused cervical injury to C4/5 level with compression of cervical spinal cord and myelomalacia causing mild T2 signal changes."
+        ],
+        "icd_code": "NA31.5",
+        "icd_description": "Other incomplete cord syndrome of cervical spinal cord"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "degenerative changes in the lumbar spine with slight decrease in lumbar lordosis",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "Degenerative changes were noted in the lumbar spine with slight decrease in lumbar lordosis."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "discectomy and anterior spinal fusion (ASF) at C5/6 performed in 1992 (post-operative status)",
+        "injury_type": "Residual disability",
+        "body_part": "cervical spine (C5/6)",
+        "laterality": null,
+        "source": [
+          "discectomy and ASF were performed by a team of surgeons including Dr Y F Ho. The diagnosis was “cervical PID C5/6 with myelopathy”."
+        ],
+        "icd_code": "NA31.5",
+        "icd_description": "Other incomplete cord syndrome of cervical spinal cord"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over his right neck and right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness over his hands",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness and occasional cramps of the right lower limb; frequent tripping of right foot (drop-foot)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduction in the range of motion of the neck",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in climbing and descending stairs and diminished balancing ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain radiating to the back/trapezius",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impaired/reduced hand grip strength",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation (admitted to PWH AED and ward care)",
+      "physiotherapy",
+      "conservative treatment",
+      "MRI scans",
+      "outpatient follow-up at Clinic/OTD"
+    ],
+    "treatments_future": [
+      "possible future spinal surgery"
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 79,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty walking, climbing and descending stairs, diminished balancing ability and limited movement of limbs",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23426,
+      "output_tokens": 8348,
+      "reasoning_tokens": 6784,
+      "total_tokens": 31774
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41119.66957896948,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23426,
+      "output_tokens": 8348,
+      "reasoning_tokens": 6784,
+      "total_tokens": 31774
+    },
+    "total_duration_ms": 41119.66957896948
+  }
+}

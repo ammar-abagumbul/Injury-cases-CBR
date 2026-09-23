@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 221",
+    "action_number": "HCPI001227/1995",
+    "case_name": "LAI KA WAI v. LO TAK CHEUNG T/A LUEN FAT CONSTRUCTION CO. AND OTHERS",
+    "judgment_date": "1998-01-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 22,
+    "age_at_trial": null,
+    "occupation_before": "plumber and electrician",
+    "occupation_after": "casual electrician and plumber, working 10-15 days per month",
+    "expected_occupation_after": null,
+    "salary_before": 7000.0,
+    "salary_after": 9100.0,
+    "expected_salary_after": null,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Total blindness in the left eye.",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "some fragments entered the Plaintiff's left eye.",
+          "The Plaintiff's left eye became blind as a result of the accident.",
+          "he became totally blind in the left eye. This is a 24% permanent impairment of the whole visual system."
+        ],
+        "icd_code": "NA06.81",
+        "icd_description": "Retained intraocular nonmagnetic foreign body, unilateral"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "totally blind in the left eye",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "had an operation",
+      "hospitalized for about 1 month"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Total blindness in the left eye; 24% permanent impairment of the whole visual system.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kwok Ping v. Hop Yick Engineering Co.",
+        "neutral_citation": null,
+        "action_number": "P.I. No. 1230/95",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8450,
+      "output_tokens": 4189,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12639
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22606.03319108486,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8450,
+      "output_tokens": 4189,
+      "reasoning_tokens": 3392,
+      "total_tokens": 12639
+    },
+    "total_duration_ms": 22606.03319108486
+  }
+}

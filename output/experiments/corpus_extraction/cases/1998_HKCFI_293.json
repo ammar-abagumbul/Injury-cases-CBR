@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 293",
+    "action_number": "HCPI 645/1998",
+    "case_name": "TSUI CHING CHEE v. SIU KWOK CHEE",
+    "judgment_date": "1998-12-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "dish washer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 4000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the neck of the right femur",
+        "injury_type": "Residual disability",
+        "body_part": "neck of right femur",
+        "laterality": "right",
+        "source": [
+          "fracture of the neck of her right femur.",
+          "fractured neck of the right femur",
+          "Consequently, her falling to her right side resulted in the fracture to the neck of her right femur."
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "inability to walk steadily",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild pain and weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "complaining of pain in her right buttock region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to walk properly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "three A.O. screws were inserted on 15th March 1991 in Grantham Hospital",
+      "hospitalisation",
+      "discharged from hospital on 14th April 1991"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Resultant disability manifested in the Plaintiff's inability to walk steadily; mild pain and weakness",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12212,
+      "output_tokens": 3692,
+      "reasoning_tokens": 2880,
+      "total_tokens": 15904
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24607.369791716337,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12212,
+      "output_tokens": 3692,
+      "reasoning_tokens": 2880,
+      "total_tokens": 15904
+    },
+    "total_duration_ms": 24607.369791716337
+  }
+}

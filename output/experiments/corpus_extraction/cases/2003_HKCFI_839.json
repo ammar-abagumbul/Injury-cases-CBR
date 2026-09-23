@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 839",
+    "action_number": "HCPI 566/2001",
+    "case_name": "TSANG TAI FAT v. KINGLAND CONCRETE DRILLING CO LTD",
+    "judgment_date": "2003-08-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 49,
+    "age_at_trial": 54,
+    "occupation_before": "concrete breaker / construction worker",
+    "occupation_after": "some form of light or sedentary work",
+    "expected_occupation_after": "some form of light or sedentary work",
+    "salary_before": 20800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "low level of education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain to the lower back with persistent back pain",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbo-sacral spine / lower back",
+        "laterality": null,
+        "source": [
+          "\"He sprained his back while drilling ground with a machine.\"",
+          "\"sprained lower back with persistent back pain.\"",
+          "\"tenderness on the 5th lumbar spine\""
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing degenerative changes at L4, L5 and S1",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbo-sacral spine (L4, L5, S1)",
+        "laterality": null,
+        "source": [
+          "\"pre-existing degenerative changes at L4, L5 and S1 level\"",
+          "\"degenerative changes in the lumbo-sacral spine\""
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness in his lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in his lower limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness on the 5th lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "degenerative changes in the lumbo-sacral spine (L4, L5, S1)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "20% impairment of the whole person (agreed by experts)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "injection and medication at A&E (Queen Elizabeth Hospital)",
+      "physiotherapy at North District Hospital (two months)",
+      "MRI performed on 1999-06-25",
+      "anterior spinal fusion on L5/S1 performed on 1999-09-24",
+      "post-operative physiotherapy and home exercise"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent low back pain and disability (pain, suffering and loss of amenities assessed at $450,000 reduced by 50% to $225,000).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Will not be able to return to pre-accident work at construction sites; able to take up some form of light or sedentary work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 225000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12776,
+      "output_tokens": 4135,
+      "reasoning_tokens": 2944,
+      "total_tokens": 16911
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40459.861885756254,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12776,
+      "output_tokens": 4135,
+      "reasoning_tokens": 2944,
+      "total_tokens": 16911
+    },
+    "total_duration_ms": 40459.861885756254
+  }
+}

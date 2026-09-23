@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 54; HCA 3634/1978 (17 October 1979)",
+    "action_number": "HCA003634/1978",
+    "case_name": "CAO HAO v. LIONG PENG FONG AND ANOTHER",
+    "judgment_date": "1979-10-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 73,
+    "age_at_trial": 75,
+    "occupation_before": "domestic amah (employed by Mrs Mabel Kwok)",
+    "occupation_after": "no longer employable",
+    "expected_occupation_after": null,
+    "salary_before": 800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of left Olecranon process of ulna bone",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow",
+        "laterality": "left",
+        "source": [
+          "fracture of left Olecranon process of ulna bone, crack fracture of her left femoral condyle and crack fracture of her left tibia."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "crack fracture of her left femoral condyle",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "fracture of left Olecranon process of ulna bone, crack fracture of her left femoral condyle and crack fracture of her left tibia."
+        ],
+        "icd_code": "NC92",
+        "icd_description": "Fracture of lower leg, including ankle"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "crack fracture of her left tibia",
+        "injury_type": "Temporary injury",
+        "body_part": "left tibia",
+        "laterality": "left",
+        "source": [
+          "fracture of left Olecranon process of ulna bone, crack fracture of her left femoral condyle and crack fracture of her left tibia."
+        ],
+        "icd_code": "NC92.Z",
+        "icd_description": "Fracture of lower leg, including ankle, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "multiple abrasions over left side of the body",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of the body",
+        "laterality": "left",
+        "source": [
+          "multiple abrasions over left side of the body"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "acute pain and acute discomfort during initial hospitalisation; 'suffered pain. My leg and arm were in plaster casts and I could not move. I suffered very slight pain'.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "multiple abrasions over left side of the body",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "restriction of knee flexion: 'She can only bend the knee through a straight position through 100o instead of 150o and she cannot bring the leg into the straight position. There is a deficit of 10o.'",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "improvement of knee flexion: 'The Flexion or bending of the knee has improved from 90o to 115o.'",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "muscle wasting of the left thigh: 'There is still muscle wasting of the left thigh; the measurement round the thigh is 13 ½\" and round the right at the same level 15\".'",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limited walking distance: 'the limit of distance without severe discomfort is about two bus stops.'",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "uses a crutch for many months after discharge",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to squat down",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no longer employable given age and present disability: 'I am satisfied ... that the plaintiff, given her age and present disability, is no longer employable.'",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "long leg plaster of Paris cast immobilization",
+      "long arm plaster of Paris cast immobilization",
+      "physiotherapy",
+      "admission to Queen Mary Hospital",
+      "transfer to Sandy Bay Convalescent Home"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 126,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Limited walking distance (about two bus stops), seldom walks, used a crutch for many months, unable to squat down.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Seldom goes out and usually asks neighbours to do the marketing; some limitations in performing domestic-related errands.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Had to give up employment as a domestic amah and 'is no longer employable'.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Seldom goes out since the injury.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Shau-Chun v. Yuen Chuk-Leung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "71 year old woman suffered fractures of her tibia, fibula and wrist; 101 days in hospital; slightly limited movement of leg and walked with a limp.",
+        "hospitalisation_days": 101,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 15000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13967,
+      "output_tokens": 7746,
+      "reasoning_tokens": 5824,
+      "total_tokens": 21713
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36043.956730514765,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13967,
+      "output_tokens": 7746,
+      "reasoning_tokens": 5824,
+      "total_tokens": 21713
+    },
+    "total_duration_ms": 36043.956730514765
+  }
+}

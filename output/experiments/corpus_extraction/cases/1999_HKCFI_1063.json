@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1063",
+    "action_number": "HCPI 963/1997",
+    "case_name": "CHEUNG PING v. PAK KEE TRANSPORTATION CO. LTD. AND ANOTHER",
+    "judgment_date": "1999-07-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 55,
+    "age_at_trial": 60,
+    "occupation_before": "casual labourer at construction sites",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left distal tibia and fibula",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "he was diagnosed to be suffering a fracture of the left distal tibia and fibula."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "chronic varicose veins with pigmentation of both ankles",
+        "injury_type": "Permanent injury",
+        "body_part": "both ankles",
+        "laterality": "bilateral",
+        "source": [
+          "the Plaintiff had been wearing for the last six months elastic supporters on both his lower legs due to chronic varicose veins with pigmentation of both ankles."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "loss of dorsi-flexion of his left side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness and inability to use his ankles",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "dull ache on both legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left thigh prosthesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left leg was full weight bearing but walking with mild left leg pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Steinmann pin insertion through the left celcaneum",
+      "IM interlocking nail fixation for fractured tibia",
+      "Rush pin fixation for fractured fibula"
+    ],
+    "treatments_future": [
+      "Removal of intramedullary nail, screws and rush pins (further operation to remove the implants)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced function of left leg including loss of dorsi-flexion, stiffness, inability to use ankles and mild pain following fracture of the left distal tibia and fibula.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chau Kui",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "fractured tibia; disability assessed at 8%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Lee Kwan Tong",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "fractured femur and tibia; disability assessed at 12% (increasing later)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 440000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15599,
+      "output_tokens": 5742,
+      "reasoning_tokens": 4544,
+      "total_tokens": 21341
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41629.94410842657,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15599,
+      "output_tokens": 5742,
+      "reasoning_tokens": 4544,
+      "total_tokens": 21341
+    },
+    "total_duration_ms": 41629.94410842657
+  }
+}

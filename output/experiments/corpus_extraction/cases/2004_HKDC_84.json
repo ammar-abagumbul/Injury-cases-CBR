@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKDC 84",
+    "action_number": "DCPI 361/2003",
+    "case_name": "WONG CHEUK LAM v. LAM WING SHAN T/A NATURAL HAIR TREATMENT CENTRE AND ANOTHER",
+    "judgment_date": "2004-06-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "make-up designer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe contact dermatitis of the scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "dermatitis after hair dye.",
+          "He diagnosed severe contact dermatitis, most probably caused by strong irritants applied locally."
+        ],
+        "icd_code": "NA00.0Y",
+        "icd_description": "Other specified superficial injury of scalp"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "marked redness of the skin on the whole scalp with extension onto the forehead, sideburns and the back of the neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "extensive scab formation along the hairline from front to back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "burn wounds stained with dye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "itching constantly for three months",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "continued sensitivity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his hairline has receded",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "ointment (applied at the shop)",
+      "A&E treatment at Queen Elizabeth Hospital",
+      "consultation at Sky One Clinic",
+      "consultation with dermatologist Dr. Peter Cheung",
+      "medicated shampoo",
+      "oral medications",
+      "topical cream"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "He was embarrassed, lost sleep, and could not give lectures or meet customers for a while.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11909,
+      "output_tokens": 3792,
+      "reasoning_tokens": 2880,
+      "total_tokens": 15701
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24551.863946020603,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11909,
+      "output_tokens": 3792,
+      "reasoning_tokens": 2880,
+      "total_tokens": 15701
+    },
+    "total_duration_ms": 24551.863946020603
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 603",
+    "action_number": "HCPI 986/2006",
+    "case_name": "CHIU KAM SANG v. TAO KEE ENG COMPANY LIMITED AND NISHIMATSU CONSTRUCTION COMPANY LIMITED",
+    "judgment_date": "2008-07-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 42,
+    "age_at_trial": 47,
+    "occupation_before": "steel bending and fixing worker / steel binder",
+    "occupation_after": null,
+    "expected_occupation_after": "light and sedentary work such as a cashier, operator or messenger",
+    "salary_before": 18260.0,
+    "salary_after": null,
+    "expected_salary_after": 8000.0,
+    "education_level": "completed secondary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "brachial plexus injury of the right shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder / right upper limb",
+        "laterality": "right",
+        "source": [
+          "He was diagnosed to have suffered a brachial plexus injury of the right shoulder and given conservative treatment with physiotherapy.",
+          "It is common ground that the Plaintiff suffered a brachial plexus injury on his right side as a result of which he suffers right upper limb sensory and motor deficit as well as neck pain and impaired neck movement."
+        ],
+        "icd_code": "NC14.6",
+        "icd_description": "Injury of multiple nerves at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right upper limb sensory and motor deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Neck pain and impaired neck movement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Loss of consciousness for a short time at the time of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Posttraumatic stress disorder (PTSD)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Adjustment disorder with depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Limited / tentative physical mobility observed (uses walking stick)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admission to Prince of Wales Hospital Accident and Emergency Department and Orthopaedics and Traumatology Department",
+      "Physiotherapy",
+      "Pain clinic treatment and Comprehensive Outpatient Pain Engagement program at Alice Ho Miu Ling Nethersole Hospital",
+      "Psychiatric treatment at Castle Peak Hospital",
+      "MRI investigations at Guangdong Province Clinic Medical Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident employment as a steel binder; limited to light and sedentary work such as cashier, operator or messenger.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Reduced ability to engage in sports and hobbies which he previously enjoyed as an active man.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 460000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki v. Leung On",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chi Shing v. Tsang Fook Metal Engineering & Anor.",
+        "neutral_citation": "CACV 238/1999",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15195,
+      "output_tokens": 5451,
+      "reasoning_tokens": 4224,
+      "total_tokens": 20646
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45132.46652111411,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15195,
+      "output_tokens": 5451,
+      "reasoning_tokens": 4224,
+      "total_tokens": 20646
+    },
+    "total_duration_ms": 45132.46652111411
+  }
+}

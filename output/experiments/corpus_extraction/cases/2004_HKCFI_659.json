@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 659",
+    "action_number": "HCPI 486/2003",
+    "case_name": "LIMBU MAN BAHADUR v. TSANG CHAN FAI AND ANOTHER",
+    "judgment_date": "2004-07-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "labourer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 13526.0,
+    "salary_after": 8913.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "pre-existing bilateral L5/S1 facet joint lesions",
+        "injury_type": "Permanent injury",
+        "body_part": "L5/S1 facet joint",
+        "laterality": "bilateral",
+        "source": [
+          "The joint opinion was that the plaintiff had pre-existing bilateral L5/S1 facet joint lesions at the time of the captioned accident."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "low back contusion injury",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the plaintiff sustained low back contusion injury during the accident, resulting in essentially soft tissue injuries with or without minor left L5/S1 facet joint fracture (on top of the pre-existing lesion)."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "chronic intra-articular comminuted fracture left side L5/S1 facet joint",
+        "injury_type": "Permanent injury",
+        "body_part": "L5/S1 facet joint",
+        "laterality": "left",
+        "source": [
+          "CT scan lumbar spine taken on 28 May 2001 showed chronic intra-articular comminuted fracture left side L5/S1 facet joint."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "large patch of bruise over his left gluteal region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over lower lumbar spine and sacrum, para-spinal muscles as well as left upper buttock",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to fully squat down because of back pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could walk but with difficulty using one stick on his discharge on 6 May 2001",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "complained of increased back pain on walking on tiptoes and heels",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent low back pain; some residual low back pain from time to time would be expected to be permanent",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There was no neurological deficit as a result.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "rigid thoraco-lumbar orthosis (to be worn for 6 weeks or more to protect his back)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13165,
+      "output_tokens": 7098,
+      "reasoning_tokens": 5824,
+      "total_tokens": 20263
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50527.18796953559,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13165,
+      "output_tokens": 7098,
+      "reasoning_tokens": 5824,
+      "total_tokens": 20263
+    },
+    "total_duration_ms": 50527.18796953559
+  }
+}

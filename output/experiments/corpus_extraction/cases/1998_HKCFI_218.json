@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 218",
+    "action_number": "HCPI000339/1995",
+    "case_name": "CHAN OI MING v. CHRISTIAN FAMILY SERVICE CENTRE AND ANOTHER",
+    "judgment_date": "1998-04-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "employed by the 1st Defendant as a domestic work helper",
+    "occupation_after": "not working",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to left shoulder and left upper arm (pain, bruising, weakness and numbness)",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder and left upper arm",
+        "laterality": "left",
+        "source": [
+          "she felt very painful on the joint and also at the back of her left upper arm and that her left upper arm was bruised.",
+          "she still felt pain in the neck and the left shoulder and also weakness in the left arm and also numbness."
+        ],
+        "icd_code": "NC14.Z",
+        "icd_description": "Injury of unspecified nerve at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Long standing psychiatric disorder (including diagnosis of schizophrenia / severe personality disorder / paranoid personality features)",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Diagnosis of schizophrenia was made.",
+          "long standing and severe personality disorder"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in the left shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain in the left upper arm and bruising",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness in the left arm / left hand (no strength; unable to pick up a bowl of rice with left hand)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness in the left arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Observed inability to move left upper limb during examination (as reported by Dr Wong)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Complete change of personality / personality change",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Distrust of people",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "La belle indifference (detached indifferent attitude to physical handicaps)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Suicidal ideas / expressed suicidal thoughts on admission",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "x-ray",
+      "pain-killers and ointment",
+      "MRI of cervical spine",
+      "psychiatric treatment",
+      "hospitalisation at United Christian Hospital and Castle Peak Hospital"
+    ],
+    "treatments_future": [
+      "orthopaedic follow-up appointment (appointment produced for 9th December 1997)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Personality change",
+        "description": "Complete change of personality after dismissal and the incident",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Did not have the required strength to do the chores required of her",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to find any work up to the trial / loss of earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ip Ah-chiu v. Wong Chun-fai and another",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No 7100 of 1984",
+        "injury_description": "dislocation of the right shoulder and a Pott's fracture of the left ankle and was hospitalised for 2 months",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 37000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16076,
+      "output_tokens": 5703,
+      "reasoning_tokens": 4288,
+      "total_tokens": 21779
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31843.638636171818,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16076,
+      "output_tokens": 5703,
+      "reasoning_tokens": 4288,
+      "total_tokens": 21779
+    },
+    "total_duration_ms": 31843.638636171818
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 270",
+    "action_number": "HCPI 355/2002",
+    "case_name": "KEI YIU FUK v. WONG CHING NAM",
+    "judgment_date": "2003-12-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "dog trainer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 15000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured ethmoid plate",
+        "injury_type": "Permanent injury",
+        "body_part": "left ethmoid plate",
+        "laterality": "left",
+        "source": [
+          "fractured ethmoid plate"
+        ],
+        "icd_code": "NA02.Y",
+        "icd_description": "Fracture of other specified skull or facial bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the medial wall and floor of the left orbit",
+        "injury_type": "Permanent injury",
+        "body_part": "left orbit (medial wall and floor)",
+        "laterality": "left",
+        "source": [
+          "fracture of the medial wall and floor of the left orbit"
+        ],
+        "icd_code": "NA02.2Y",
+        "icd_description": "Other specified orbital fracture"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "enopthalmos of the left eye",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "He has an obvious enopthalmos of the left eye still"
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "oedema of the left eye muscle",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye muscle",
+        "laterality": "left",
+        "source": [
+          "oedema of the left eye muscle"
+        ],
+        "icd_code": "NA06.9",
+        "icd_description": "Contusion of eyeball or orbital tissues"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild diplopia (double vision)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "numbness of left cheek",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "sunken left eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "nose area pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty with crossing roads and sports and general living",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "loss of eye movement / reduced eye movement",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "inability to drive (referred to in medical reports as a result of his injuries)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "eye operation",
+      "eye operation"
+    ],
+    "treatments_future": [
+      "special glasses (medical advice that special glasses may well help with the diplopia)"
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 267,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain suffering and loss of amenity from injury to left eye (award made: HK$300,000)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "inability to resume previous employment as a dog trainer / loss of pre-trial income and future earnings (lump sum awarded HK$605,000)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "difficulty with sports and general living",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "difficulty with crossing roads",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12678,
+      "output_tokens": 6601,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19279
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29968.13862770796,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12678,
+      "output_tokens": 6601,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19279
+    },
+    "total_duration_ms": 29968.13862770796
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 625",
+    "action_number": "DCPI 1062/2013",
+    "case_name": "YAU YUK LAN v. INTERNATIONAL NATURAL THERAPY RESEARCH CENTRE LIMITED",
+    "judgment_date": "2015-06-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 57,
+    "age_at_trial": null,
+    "occupation_before": "assistant in a mahjong parlor",
+    "occupation_after": "assistant in a mahjong parlor",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "First degree burn on abdomen with resultant scarring / post-inflammatory hyperpigmentation measuring 90 x 100 mm",
+        "injury_type": "Permanent injury",
+        "body_part": "abdomen",
+        "laterality": null,
+        "source": [
+          "the hot part of the device burned [the plaintiff’s] abdomen.",
+          "“… as the result of the treatment [the plaintiff] suffered first degree burn on her abdomen and left some scarring over the skin of the treated area measured 90 x 100 mm.”"
+        ],
+        "icd_code": "NB50.Y",
+        "icd_description": "Other specified superficial injury of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain initially when lamp fell (awoke from trance and screamed)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "multiple parallel lines of post-inflammatory hyperpigmentation and scarring (area described as 8 cm x 8 cm by Dr TS Au; later described as 90 x 100 mm by Dr Otto Au)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "many vertical fine linear pigmentation adjacent and lateral to the level of the umbilicus, flat and smooth, no pain on palpation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "emotional disturbance (advised to consult a psychologist)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "deterrence from swimming and playing badminton for fear others might see her scars",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "soothing / anti-inflammatory agent applied by defendant's staff immediately after accident",
+      "consultation and treatment by Dr TS Au between September 2010 and February 2011",
+      "moisturizer",
+      "bleaching medicated cream",
+      "follow-up treatments"
+    ],
+    "treatments_future": [
+      "laser treatment (about 10 treatments at 3-4 week intervals as recommended by Dr Otto Au)",
+      "consultation with a psychologist (advised by Dr Otto Au)",
+      "frequent proper wound dressings (as initially suggested by Dr Otto Au)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 10
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent cosmetic impairment / hyperpigmentation / scarring of abdomen (measuring 90 x 100 mm) causing cosmetic deformity and self-consciousness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Deterrence from swimming and playing badminton for fear others might see her scars",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Disharmonious relationship with her boyfriend since the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Wearing longer clothing since the accident to avoid revealing the scars",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Shabbina Khokhar v Europe Beauty International Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 579/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Ka-yee v L & Y Beauty Centre Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 196/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsang Chi Cheong v The Incorporated Owners of Mei King Mansion (Stage 1)",
+        "neutral_citation": null,
+        "action_number": "DCPI 23/2012",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Tsz Sing v Lo Ching Pong",
+        "neutral_citation": null,
+        "action_number": "CACV 176/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11758,
+      "output_tokens": 4238,
+      "reasoning_tokens": 2688,
+      "total_tokens": 15996
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30724.341820925474,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11758,
+      "output_tokens": 4238,
+      "reasoning_tokens": 2688,
+      "total_tokens": 15996
+    },
+    "total_duration_ms": 30724.341820925474
+  }
+}

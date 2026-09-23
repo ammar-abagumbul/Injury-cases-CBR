@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 181",
+    "action_number": "HCPI000397/1996",
+    "case_name": "NG KIN MING v. WAH WAY HONG LTD. AND ANOTHER",
+    "judgment_date": "1997-06-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 15373.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "this lady was in a coma.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "As for the claim for pain, suffering and loss of amenities, this lady was in a coma."
+        ],
+        "icd_code": "NA07.3Z",
+        "icd_description": "Unspecified diffuse traumatic brain injury"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "this lady was in a coma.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital treatment",
+      "hospital expenses (agreed)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "bereavement",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "loss of services",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities - award $10,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "loss of dependency: pre-trial loss 40 months x $6,000 = $240,000; post-trial dependency: husband 60 months x $2,000 = $120,000; other son 2 years = $24,000; total loss of dependency $384,000 (gross)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 10000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8181,
+      "output_tokens": 4767,
+      "reasoning_tokens": 3968,
+      "total_tokens": 12948
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34908.26639905572,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8181,
+      "output_tokens": 4767,
+      "reasoning_tokens": 3968,
+      "total_tokens": 12948
+    },
+    "total_duration_ms": 34908.26639905572
+  }
+}

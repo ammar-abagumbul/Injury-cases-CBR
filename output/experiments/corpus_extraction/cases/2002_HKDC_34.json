@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 34",
+    "action_number": "DCPI309/2001",
+    "case_name": "WOO WAI KUEN v. LI SIU KEUNG T/A ALEX'S KITCHEN",
+    "judgment_date": "2002-06-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 39,
+    "age_at_trial": null,
+    "occupation_before": "waitress",
+    "occupation_after": "foot massage therapist",
+    "expected_occupation_after": null,
+    "salary_before": 5500.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crack fracture of the sacrum with no displacement",
+        "injury_type": "Residual disability",
+        "body_part": "sacrum",
+        "laterality": null,
+        "source": [
+          "she slipped and suffered injury to her sacrum.",
+          "An X-ray was taken by the hospital showing that the plaintiff had a crack fracture of the sacrum with no displacement."
+        ],
+        "icd_code": "NB52.10",
+        "icd_description": "Fracture of sacrum without disruption of pelvic ring"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "local tenderness at the sacrum",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness at the tip of her toes",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain at the lower back and sacral region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain intensifies when the weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not lie flat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness of both big toes",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "consultation at Kwong Wah Hospital",
+      "medicine",
+      "X-ray",
+      "physiotherapy (noted as curative possibility)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 44,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent pain at the lower back and sacral region, numbness of both big toes and 5 per cent impairment of the whole person.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Yuk-lan v Royaltelle International Limited",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chair Sai-sui v International Country Club Limited",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yeung Sze v Win Art Design and Decoration Company Limited",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9295,
+      "output_tokens": 3902,
+      "reasoning_tokens": 2752,
+      "total_tokens": 13197
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38491.9869415462,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9295,
+      "output_tokens": 3902,
+      "reasoning_tokens": 2752,
+      "total_tokens": 13197
+    },
+    "total_duration_ms": 38491.9869415462
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 530",
+    "action_number": "HCPI 260/2007",
+    "case_name": "LAI HON CHIU v. CHOY KAM TIM",
+    "judgment_date": "2008-06-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "dim sum si-fu (master)",
+    "occupation_after": "dim sum si-fu",
+    "expected_occupation_after": null,
+    "salary_before": 18727.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": "limited literacy"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injuries to his neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "soft tissue injuries to his neck and chest, and contusion to his lower back."
+        ],
+        "icd_code": "NA61.Z",
+        "icd_description": "Injury of muscle, fascia or tendon at neck level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injuries to his chest",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "soft tissue injuries to his neck and chest, and contusion to his lower back."
+        ],
+        "icd_code": "NB34.Z",
+        "icd_description": "Injury of muscle, fascia or tendon at thorax level, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusion to his lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "soft tissue injuries to his neck and chest, and contusion to his lower back."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain at his neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain at the left chest wall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain at his lower back / waist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "numbness at his left upper limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild wasting of the muscles of his right lower limb (more severe in the calf)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "weakness of lower limb(s)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced ability to sit for long periods (could sit for less than one hour)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced ability to walk for long periods (could walk for less than 45 minutes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced ability to stand for long periods (could stand for only 20 to 25 minutes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "intramuscular injection",
+      "analgesic",
+      "physiotherapy",
+      "occupational therapy",
+      "hydrotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity (court awarded $100,000 for disadvantage in the open labour market).",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Muhammad Saddiq v Cheung Chi Keung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1018 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yuen Pak Cheong v Chan Ka Leung",
+        "neutral_citation": null,
+        "action_number": "HCPI 254 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20120,
+      "output_tokens": 6999,
+      "reasoning_tokens": 5504,
+      "total_tokens": 27119
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37003.604006022215,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20120,
+      "output_tokens": 6999,
+      "reasoning_tokens": 5504,
+      "total_tokens": 27119
+    },
+    "total_duration_ms": 37003.604006022215
+  }
+}

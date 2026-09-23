@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 1358",
+    "action_number": "HCPI 633/2004",
+    "case_name": "WONG KWUN SANG v. YIU WOON MING AND OTHERS",
+    "judgment_date": "2006-11-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 54,
+    "age_at_trial": 59,
+    "occupation_before": "formwork carpenter",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 19950.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a fractured skull",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "(a) a fractured skull;"
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "thick left epidural haematoma in the vicinity of the skull fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal region (epidural)",
+        "laterality": "left",
+        "source": [
+          "(b) thick left epidural haematoma in the vicinity of the skull fracture;",
+          "CT performed at around 20:00 h on 12.1.2002 showed ... (c) left epidural haematoma, elliptical in shape (2.5 x 4 x 5.5 cm) and exerting prominent mass effect."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "intracerebral haematoma to the right side of the right ventricle with intraventricular extension",
+        "injury_type": "Permanent injury",
+        "body_part": "right basal ganglia / caudate nucleus and right lateral ventricle",
+        "laterality": "right",
+        "source": [
+          "(c) intracerebral haematoma to the right side of the right ventricle with intraventricular extension, i.e. blood flowing into the ventricle.",
+          "CT performed at around 20:00 h on 12.1.2002 showed three sites of intracranial haemorrhage: (a) a large right basal ganglia haemorrhage especially at the caudate neucleus ...; (b) intraventricular haemorrhage with blood in the right lateral ventricle;"
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "left frontal tract haematoma / small haemorrhagic contusion at the left frontal lobe",
+        "injury_type": "Temporary injury",
+        "body_part": "left frontal lobe",
+        "laterality": "left",
+        "source": [
+          "two emergency neurosurgical operations were carried out. The first one for the evacuation of the epidural haematoma, followed by another surgical evacuation of left frontal tract haematoma the next day.",
+          "CT ... There was also a small haemorrhagic contusion at the left frontal lobe."
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "diffuse brain damage",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "he was found to be deeply comatose having sustained a fracture of the skull with epidural haematoma, intracerebral bleeding and diffuse brain damage.",
+          "The brain damage has also resulted in loss of urinary and bowel functions."
+        ],
+        "icd_code": "NA07.33",
+        "icd_description": "Diffuse injury of multiple parts of brain"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "hydrocephalus (developed post-accident)",
+        "injury_type": "Temporary injury",
+        "body_part": "brain (ventricular system)",
+        "laterality": null,
+        "source": [
+          "There was some slow but positive progress up to December 2003 when his condition deteriorated due to development of hydrocephalus which was managed conservatively."
+        ],
+        "icd_code": "NA07.Y",
+        "icd_description": "Other specified intracranial injury"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "spastic tetraplegia from the brain damage",
+        "injury_type": "Residual disability",
+        "body_part": "all four limbs (spastic tetraplegia)",
+        "laterality": "bilateral",
+        "source": [
+          "remained severely demented, aphasic, devoid of cognitive power and weakened by spastic tetraplegia from the brain damage.",
+          "weakened by spastic tetraplegia from the brain damage."
+        ],
+        "icd_code": "NA07.30",
+        "icd_description": "Diffuse injury of cerebrum"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lying there unconscious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "deeply comatose",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "vegetative state / almost total vegetative state with slight awareness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "severely demented",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "aphasic",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "devoid of cognitive power",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "weakened by spastic tetraplegia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "convulsive attacks requiring medication",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "bed and wheelchair bound for life and wholly dependent on others for all activities of daily living",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "loss of urinary and bowel functions",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "evacuation of the epidural haematoma (emergency neurosurgical operation)",
+      "surgical evacuation of left frontal tract haematoma (emergency neurosurgical operation)",
+      "tracheostomy for breathing",
+      "Ryle's tube inserted for feeding",
+      "long term care at the infirmary unit of Princess Margaret Hospital (Lai King)",
+      "personal care assistant engaged",
+      "suppository insertion every two to three days for bowel opening",
+      "daily bodily cleaning and twice-weekly showering"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "The brain damage has also resulted in loss of urinary and bowel functions.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "bed and wheelchair bound for life and wholly dependent on others for all activities of daily living.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "bed and wheelchair bound for life",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "remained severely demented and devoid of cognitive power",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "aphasic",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of Society claim allowed at a slightly reduced figure of $140,000 (ceiling figure for such claim provided by statute).",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 2250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26295,
+      "output_tokens": 10785,
+      "reasoning_tokens": 8704,
+      "total_tokens": 37080
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 55144.35660466552,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26295,
+      "output_tokens": 10785,
+      "reasoning_tokens": 8704,
+      "total_tokens": 37080
+    },
+    "total_duration_ms": 55144.35660466552
+  }
+}

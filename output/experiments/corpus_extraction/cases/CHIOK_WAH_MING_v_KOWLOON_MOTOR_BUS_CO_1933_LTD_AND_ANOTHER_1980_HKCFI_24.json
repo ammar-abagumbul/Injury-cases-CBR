@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "neutral_citation": "CHIOK WAH MING v. KOWLOON MOTOR BUS CO (1933) LTD AND ANOTHER [1980] HKCFI 24",
+    "action_number": "HCA005109/1979",
+    "case_name": "CHIOK WAH MING v. KOWLOON MOTOR BUS CO (1933) LTD AND ANOTHER",
+    "judgment_date": "1980-12-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "waiter (restaurant worker)",
+    "occupation_after": "disabled from obtaining work",
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff sustained a fracture of the left parietal bone",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal bone",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff sustained a fracture of the left parietal bone, and that as late as the 5th July 1978 he appeared to suffer from retrograde amnesia, that is amnesia for events before the accident."
+        ],
+        "icd_code": "NA02.01",
+        "icd_description": "Fracture of parietal bone of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "brain contusion/lesion in the left parieto-occipital area",
+        "injury_type": "Residual disability",
+        "body_part": "left parieto-occipital area",
+        "laterality": "left",
+        "source": [
+          "It is the Plaintiff's case that as a result of these injuries, (a) he sustained brain damage in the left occipito-parietal region, which is permanent and which has led to the development of a rare symptom known as prosopagnosia-an inability to recognise faces,",
+          "\"the location of this abnormality coincides well with the hypothetical site of lesion, i.e. left parieto-occipital area in a right-handed person, that would give rise to a visual agnosis as in his case.\"",
+          "He accepts that there was a fracture of the parietal bone, and that there was a brain lesion, albeit very small 1 - 2 mm's across, but is of the view that this has healed with some scarring"
+        ],
+        "icd_code": "NA07.4E",
+        "icd_description": "Contusion of parietal lobe"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "prosopagnosia - an inability to recognise faces",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "retrograde amnesia (amnesia for events before the accident)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "memory impairment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "frequent giddiness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "post-traumatic depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "virtually unemployable / inability to hold down previous employment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [
+      "psychiatric treatment including medications (antidepressant and other symptomatic chemotherapy) and supportive psychotherapy twice a week for the first month then once a week for a further five months (as assessed by the Court)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "general damages for pain, suffering and loss of amenity assessed by the Court at $30,000",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "special damage - loss of wages to date assessed by the Court (net) at $42,500",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "future loss of earnings assessed by the Court at $10,000 (for six months from receipt of award)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "cost of psychiatric treatment to be undergone (assessed by Court at $5,600)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12668,
+      "output_tokens": 5731,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18399
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37142.408434301615,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12668,
+      "output_tokens": 5731,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18399
+    },
+    "total_duration_ms": 37142.408434301615
+  }
+}

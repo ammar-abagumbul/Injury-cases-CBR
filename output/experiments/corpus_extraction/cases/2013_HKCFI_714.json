@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 714",
+    "action_number": "HCPI 686/2010",
+    "case_name": "WONG SHU KEUNG v. KAM LUEN CONSOLIDATOR LTD AND ANOTHER",
+    "judgment_date": "2013-05-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Carpenter until arrival in Hong Kong in 1997; thereafter a casual worker in construction sites (commenced working for the 1st Defendant on 2010-01-01).",
+    "occupation_after": null,
+    "expected_occupation_after": "suitable for sedentary occupations such as cashier or theatre ticketing staff",
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": 8899.0,
+    "education_level": "educated until secondary 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Trochanteric fracture of right femur.",
+        "injury_type": "Permanent injury",
+        "body_part": "right proximal femur",
+        "laterality": "right",
+        "source": [
+          "¨ Trochanteric fracture of right femur."
+        ],
+        "icd_code": "NC72.3",
+        "icd_description": "Fracture of trochanteric section of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Dislocation of left hip.",
+        "injury_type": "Permanent injury",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "Dislocation of left hip."
+        ],
+        "icd_code": "NC73.0Z",
+        "icd_description": "Dislocation of hip, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture left zygoma.",
+        "injury_type": "Temporary injury",
+        "body_part": "left zygoma",
+        "laterality": "left",
+        "source": [
+          "Fracture left zygoma."
+        ],
+        "icd_code": "NA02.5",
+        "icd_description": "Fracture of zygoma"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Abrasion over left side of face, right shin and left knee; laceration over left knee.",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of face; right shin; left knee",
+        "laterality": null,
+        "source": [
+          "Abrasion would ~3cm over right shin and left side of face. Laceration would ~2cm over left knee."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Minor head injury.",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "minor head injury."
+        ],
+        "icd_code": "NA00.Z",
+        "icd_description": "Superficial injury of unspecified part of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent left temporal headaches up to three times a week, sometimes associated with light-headedness.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Bilateral hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Walking tolerance around 15 minutes only (required stick); later able to walk without a stick but tolerance still around 15 minutes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Gait: walked unaided (reported at discharge on 13 April 2011)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Active range of movement of right hip: flexion 115° (report 13 April 2011); muscle power Grade 5/5",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No neurosensory deficit over the left infra-orbital area (oral & maxillofacial report)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Urgent close reduction of left hip",
+      "Right dynamic hip screw performed on same day",
+      "Physiotherapy (about 45–60 sessions)",
+      "Rehabilitation at Tai Po Hospital",
+      "Transferred to Tai Po Hospital then to Pok Oi Hospital for continued physiotherapy"
+    ],
+    "treatments_future": [
+      "Implant removal surgery (mentioned as requiring recovery)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General damages (pain, suffering and loss of amenities) — PSLA awarded $500,000",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity awarded $53,394",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced walking tolerance to around 15 minutes; difficulty with prolonged weight bearing and squatting",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16590,
+      "output_tokens": 8198,
+      "reasoning_tokens": 6848,
+      "total_tokens": 24788
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37713.03850412369,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16590,
+      "output_tokens": 8198,
+      "reasoning_tokens": 6848,
+      "total_tokens": 24788
+    },
+    "total_duration_ms": 37713.03850412369
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 628",
+    "action_number": "HCPI 202/2010",
+    "case_name": "SUKHDEEP SINGH v. CHOW KIN HUNG AND ANOTHER",
+    "judgment_date": "2011-09-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "delivery worker for Dial-a-Dinner",
+    "occupation_after": "delivery driver with Dial-a Dinner",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured distal tibia and fibula of his right leg",
+        "injury_type": "Residual disability",
+        "body_part": "right lower leg",
+        "laterality": "right",
+        "source": [
+          "Mr. Singh suffered fractured distal tibia and fibula of his right leg as a result of the accident."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bone was taken from Mr. Singh's right knee",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "To repair the fractures, bone was taken from Mr. Singh's right knee."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "some girth discrepancy in the muscle bulk between Mr. Singh's two limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle wasting in the right leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no gross external deformity, except multiple scars on the right ankle and slightly limited ankle motion with less than 10° difference in dorsiflexion and plantarflexion between the two ankles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly weaker power in the right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain, reduced ankle joint movement and weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain would still develop in his right ankle and right knee after walking for 15 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "after exertion such as walking or standing for a long time, his right ankle would swell",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has a large scar over the right ankle and smaller scars on the left side of his knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can no longer run for fitness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can no longer play Kabbadi, an Indian sport which involves running, tagging and wrestling",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "continued pain and discomfort over the right knee area from where the bone graft had been taken",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction and internal fixation of the fibula",
+      "nailing of the tibia",
+      "bone graft from right knee",
+      "removal of the surgical implant",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 338,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain, reduced ankle joint movement and weakness affecting daily activities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty walking long distances and up and down staircases",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Multiple scars on the right ankle",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Smaller scars on the left side of his knee from the bone graft donor site",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Can no longer run for fitness or play Kabbadi",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10619,
+      "output_tokens": 5202,
+      "reasoning_tokens": 3712,
+      "total_tokens": 15821
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29851.09321027994,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10619,
+      "output_tokens": 5202,
+      "reasoning_tokens": 3712,
+      "total_tokens": 15821
+    },
+    "total_duration_ms": 29851.09321027994
+  }
+}

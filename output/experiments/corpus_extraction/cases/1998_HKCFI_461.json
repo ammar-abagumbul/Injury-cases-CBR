@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 461",
+    "action_number": "HCPI000910/1995",
+    "case_name": "LEUNG BIU v. MOK SEK CHEUNG",
+    "judgment_date": "1998-03-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 56,
+    "occupation_before": "Carpenter, welder, plumber and part-time lorry driver; casual worker at time of accident",
+    "occupation_after": null,
+    "expected_occupation_after": "indoor sedentary jobs (as suggested by Dr. Lo Siu-sing)",
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Completed primary education in mainland China"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Deep laceration of the anterior aspect of the neck below the thyroid cartilage resulting in a transverse scar and adhesion of skin to laryngeal cartilage",
+        "injury_type": "Permanent injury",
+        "body_part": "neck / larynx",
+        "laterality": null,
+        "source": [
+          "there was a deep laceration of about 5cm in the anterior aspect of the Plaintiff's neck below the thyroid cartilage.",
+          "there was a transverse scar of about 7.5cm long in the Plaintiff's neck just below the thyroid eminence.",
+          "there was no keloid formation but the skin stuck to the underlying cartilage of the larynx and it moved with the cartilage upon swallowing.",
+          "the adhesion between the skin and laryngeal cartilage caused the Plaintiff to suffer the following disabilities: (i) limitation of neck movement; (ii) reduction of voice; and (iii) residual pain and discomfort."
+        ],
+        "icd_code": "NA21.0",
+        "icd_description": "Laceration without foreign body of neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "transverse scar of about 7.5cm long in the Plaintiff's neck just below the thyroid eminence",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "skin stuck to the underlying cartilage of the larynx and it moved with the cartilage upon swallowing",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of neck movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduction of voice",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "exploration and suture",
+      "regular out-patient treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Limitation of neck movement and residual pain and discomfort caused by adhesion between the skin and laryngeal cartilage",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Transverse scar of about 7.5cm in the anterior neck with cosmetic impairment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Reduction of voice affecting ability to shout or raise larynx",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 135000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ip Lam Yuk-lin v. Yeung Fat",
+        "neutral_citation": null,
+        "action_number": "HCA No. 1266 of 1991",
+        "injury_description": "minor injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Hong Kong Macau Hydrofoil Co. Ltd. v. Ng Chan-wai; Claimant: Yeung Leung-yam",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "minor injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Wai-yau v. Ha Hing-yiu",
+        "neutral_citation": null,
+        "action_number": "HCA No. A5302 of 1988",
+        "injury_description": "minor injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui-ki v. Leung On",
+        "neutral_citation": "[1995] 3 HKC 732; [1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9730,
+      "output_tokens": 4296,
+      "reasoning_tokens": 2816,
+      "total_tokens": 14026
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29337.281931191683,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9730,
+      "output_tokens": 4296,
+      "reasoning_tokens": 2816,
+      "total_tokens": 14026
+    },
+    "total_duration_ms": 29337.281931191683
+  }
+}

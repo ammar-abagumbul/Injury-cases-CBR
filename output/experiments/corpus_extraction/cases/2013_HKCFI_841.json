@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 841",
+    "action_number": "HCPI 5/2011",
+    "case_name": "SO YUK KAM v. LAU KAM YUEN T/A NGAI SHING CONSTRUCTION AND ANOTHER",
+    "judgment_date": "2013-05-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 42,
+    "age_at_trial": 49,
+    "occupation_before": "Welder",
+    "occupation_after": "Security guard (also worked as cleaning worker temporarily)",
+    "expected_occupation_after": null,
+    "salary_before": 18200.0,
+    "salary_after": 8510.13,
+    "expected_salary_after": null,
+    "education_level": "limited education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "avulsion fracture of his greater tuberosity on top of a dislocated shoulder",
+        "injury_type": "Permanent injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "right shoulder dislocation with fracture",
+          "avulsion fracture of his greater tuberosity on top of a dislocated shoulder.",
+          "X-ray of the shoulder revealed a congruent glenohumeral joint with a mal-united fracture at greater tuberosity.",
+          "the fracture in greater tuberosity of the right humerus had healed but the union was not anatomical."
+        ],
+        "icd_code": "NC12.23",
+        "icd_description": "Fracture of greater tuberosity of humerus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bruising to face and knee",
+        "injury_type": "Temporary injury",
+        "body_part": "face and knee",
+        "laterality": null,
+        "source": [
+          "much associated pain and bruising to his face and knee."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continual right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness in the right shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "active abduction of up to 100 degrees (reduced range of motion)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impingement sign was positive",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to work with his right hand over his head / inability to lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "reduction of the shoulder joint",
+      "analgesics",
+      "arm sling (worn for over 6 weeks)",
+      "out-patient follow up at North District Hospital",
+      "occupational therapy (42 sessions)",
+      "physiotherapy (47 sessions)",
+      "work rehabilitation",
+      "attendance at orthopaedic clinic of North District Hospital"
+    ],
+    "treatments_future": [
+      "subacromial decompression surgery",
+      "physiotherapy"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "significant impairment, continual right shoulder pain and stiffness",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "inability to lift heavy objects; decreased range of movement in the right shoulder",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "lost his ability to return to work as a welder",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chung Chi Wing",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "very painful sprain to his right shoulder and underwent shoulder arthroscopy which revealed an impinged tendon. He received decompression surgery and manipulation of shoulder joint under general anaesthesia; attended 85 sessions of physiotherapy.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 85,
+        "comparison": "similar or same",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10572,
+      "output_tokens": 5349,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15921
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31951.022524386644,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10572,
+      "output_tokens": 5349,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15921
+    },
+    "total_duration_ms": 31951.022524386644
+  }
+}

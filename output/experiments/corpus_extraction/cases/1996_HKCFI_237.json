@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCFI 237",
+    "action_number": "HCPI 1093/1995",
+    "case_name": "PANG WAI HUNG v. MPC EXPRESS SERVICES COMPANY",
+    "judgment_date": "1996-05-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 22,
+    "age_at_trial": 27,
+    "occupation_before": "courier",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form five"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The Plaintiff lost the upper right central, lateral incisors and canine and the lower right central incisor.",
+        "injury_type": "Permanent injury",
+        "body_part": "upper right central, lateral incisors and canine; lower right central incisor",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff lost the upper right central, lateral incisors and canine and the lower right central incisor."
+        ],
+        "icd_code": "NA0D.0",
+        "icd_description": "Injury of hard dental tissues and pulp"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Pulpal death of the upper left central incisor.",
+        "injury_type": "Permanent injury",
+        "body_part": "upper left central incisor",
+        "laterality": "left",
+        "source": [
+          "Another tooth, namely, the upper left central incisor has, according to Dr Bong, suffered pulpal death."
+        ],
+        "icd_code": "NA0D.0Y",
+        "icd_description": "Other specified injury of hard dental tissues and pulp"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Laceration on the lower chin which has healed with a scar noticeable at close distance.",
+        "injury_type": "Residual disability",
+        "body_part": "lower chin",
+        "laterality": null,
+        "source": [
+          "There is a laceration on the lower chin which has healed and there is a scar which is noticeable at close distance."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of multiple teeth (upper right central, lateral incisors and canine; lower right central incisor)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Two other teeth were chipped",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pulpal death of the upper left central incisor",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Scar on the lower chin noticeable at close distance",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Root canal therapy of the tooth No.21 (recommended by Dr Bong)",
+      "Gold-bonded porcelain 8-unit bridge for teeth Nos.15 to 23 (recommended by Dr Bong)"
+    ],
+    "treatments_future": [
+      "Replacement of the bridge; costs for 3 sets of bridge allowed by the Court (\"costs I would allow is $90,750 x 3 = $272,250\")"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of multiple front teeth including upper right central, lateral incisors and canine and the lower right central incisor; two other teeth chipped; pulpal death of the upper left central incisor.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar on the lower chin which is noticeable at close distance.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Lap Yan v. Siu Ching Kee",
+        "neutral_citation": null,
+        "action_number": "High Court Action No.A1462 of 1979",
+        "injury_description": "A woman had 4 teeth with fracture crowns and 2 had cracked crowns. Two teeth were extracted and reconstructed with porcelain crowns. She also suffered facial injuries.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 45000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11816,
+      "output_tokens": 5958,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17774
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40087.58208528161,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11816,
+      "output_tokens": 5958,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17774
+    },
+    "total_duration_ms": 40087.58208528161
+  }
+}

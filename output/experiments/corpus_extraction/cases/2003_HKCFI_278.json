@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 278",
+    "action_number": "HCPI 173/2001",
+    "case_name": "TSANG SIU HONG v. KONG HOI FOR AND ANOTHER",
+    "judgment_date": "2003-03-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 19,
+    "age_at_trial": 24,
+    "occupation_before": "machine maintenance mechanic in a factory where umbrellas were manufactured",
+    "occupation_after": null,
+    "expected_occupation_after": "mechanic",
+    "salary_before": 1000.0,
+    "salary_after": null,
+    "expected_salary_after": 1050.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration to the vertex region of his head which was sutured.",
+        "injury_type": "Temporary injury",
+        "body_part": "vertex region of head",
+        "laterality": null,
+        "source": [
+          "he had sustained a laceration to the vertex region of his head which was sutured."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fracture of the skull.",
+        "injury_type": "Temporary injury",
+        "body_part": "skull",
+        "laterality": null,
+        "source": [
+          "examination revealed a fracture of the skull."
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "acute epidural haematoma at both frontal regions.",
+        "injury_type": "Temporary injury",
+        "body_part": "both frontal regions (brain)",
+        "laterality": "bilateral",
+        "source": [
+          "A brain scan revealed acute epidural haematoma at both frontal regions."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "a headache \"present most of the day\" which is aggravated by physical exertion and which, when severe, may spread forward from the vertex to the temples, with associated nausea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "memory impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "irritability and short temper",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "a feeling of generalized weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "\"mild impairment in test of memory only\"",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of the laceration",
+      "brain scan",
+      "transfer to Pok Oi Hospital and Tuen Mun Hospital",
+      "right craniotomy",
+      "administration of anti-convulsants",
+      "hospitalisation until 1998-03-14"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and persistent headaches affecting enjoyment of life (headache \"present most of the day\" ... aggravated by physical exertion)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "memory impairment",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "irritability and short temper",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "minimal, if any, loss of social amenities consequent upon the injury",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LEUNG On & Another v CHAN Pui-ki",
+        "neutral_citation": "[1996] 2 HKC 565",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "IP Shuk-hing v YUEN Yuk-wai & Another",
+        "neutral_citation": "HCPI216/1999",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Courbet v Mandarin Divers Marine Services Limited & Others",
+        "neutral_citation": "HCPI677/2000",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15475,
+      "output_tokens": 7022,
+      "reasoning_tokens": 5440,
+      "total_tokens": 22497
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33376.36835128069,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15475,
+      "output_tokens": 7022,
+      "reasoning_tokens": 5440,
+      "total_tokens": 22497
+    },
+    "total_duration_ms": 33376.36835128069
+  }
+}

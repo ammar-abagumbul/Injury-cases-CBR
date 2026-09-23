@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 772",
+    "action_number": "HCPI 393/2006",
+    "case_name": "WAI MEI LING v. HEEP HONG SOCIETY",
+    "judgment_date": "2008-09-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "enrolled nurse",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 21160.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "acute back strain with sciatica",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "diagnosed to be suffering from acute back strain with sciatica."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "chronic low back pain",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "chronic low back pain"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "depression and pain disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "depression and pain disorder"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over her lower back and right buttock region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness going down her right leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "chronic low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right leg weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limited in her movements requiring both a walking stick as well as assistance from her husband to move about",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressed mood of a mild and periodically moderate intensity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "in-patient physiotherapy and occupational therapy at Duchess of Kent Children\u0019s Hospital (mid-April 2004)",
+      "out-patient physiotherapy",
+      "physiotherapy at the Rehabilitation Clinic of Hong Kong Polytechnic University (Nov 2003 to May 2007)",
+      "consultation at Pain Clinic of Alice Ho Mui Ling Nethersole Hospital (from 7 March 2006)",
+      "seen by clinical psychologist",
+      "seen by psychiatrist",
+      "weekly physiotherapy at Hong Kong Polytechnic University (at time of trial)"
+    ],
+    "treatments_future": [
+      "20 sessions of psychotherapy by a clinical psychologist in the private sector (recommended by Professor Peter Lee)",
+      "multi-disciplinary rehabilitation (recommended)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities (assessed at $350,000)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Limited in her movements requiring both a walking stick as well as assistance from her husband to move about",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17140,
+      "output_tokens": 5434,
+      "reasoning_tokens": 4480,
+      "total_tokens": 22574
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31124.463595449924,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17140,
+      "output_tokens": 5434,
+      "reasoning_tokens": 4480,
+      "total_tokens": 22574
+    },
+    "total_duration_ms": 31124.463595449924
+  }
+}

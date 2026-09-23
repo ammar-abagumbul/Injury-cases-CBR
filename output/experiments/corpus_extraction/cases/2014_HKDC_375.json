@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 375",
+    "action_number": "DCPI 2514/2012",
+    "case_name": "YEUNG KAI YUEN v. CINERENT LTD",
+    "judgment_date": "2014-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 61,
+    "age_at_trial": 65,
+    "occupation_before": "driver employed by Cine Mobile",
+    "occupation_after": "retired",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "electrocuted (electrical shock)",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "On Saturday, 24 July 2010, at approximately 12:00 noon, on the pavement outside of Chater House, at the junction between Chater Road and Pedder Street in Central, the plaintiff was electrocuted (“the Accident”).",
+          "It was concluded by the Board that he suffered electrical shock resulting in (i) atrial fibrillation; and (ii) right shoulder tendinitis with pain."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "atrial fibrillation",
+        "injury_type": "Temporary injury",
+        "body_part": "heart",
+        "laterality": null,
+        "source": [
+          "It was concluded by the Board that he suffered electrical shock resulting in (i) atrial fibrillation; and (ii) right shoulder tendinitis with pain.",
+          "While in hospital, the treatments given to him mainly concentrating on the cardiac condition. The cardiac condition was managed by antiarrhythmic drug following by a short period of oral anticoagulant for the atrial fibrillation."
+        ],
+        "icd_code": "NB31.Y",
+        "icd_description": "Other specified injury of heart"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right shoulder tendinitis with partial thickness tear of supraspinatous tendon; partial tear of subscapularis and partial tear of the long head of biceps with subluxation (arthroscopic rotator cuff repair and tenotomy performed)",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "It was concluded by the Board that he suffered electrical shock resulting in (i) atrial fibrillation; and (ii) right shoulder tendinitis with pain.",
+          "MRI of the right shoulder was performed which revealed partial thickness tear of supraaspinatous tendon of the right shoulder.",
+          "On 19 April 2012, an operation was carried out to repair a partial tear of the subscapularis and partial tear of the long head of biceps with subluxation noted. Arthroscopic rotator cuff repair was performed and tenotomy of the right biceps tendons was also performed.",
+          "He considers that he has recovered 90% in the functions of his arms but still have around 10% disability due to the injury sustained in the Accident."
+        ],
+        "icd_code": "NC16.4Y",
+        "icd_description": "Other specified injury of multiple muscles or tendons at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "bilateral calf pain",
+        "injury_type": "Temporary injury",
+        "body_part": "bilateral calves",
+        "laterality": "bilateral",
+        "source": [
+          "He also had bilateral calf pain after the Accident.",
+          "While in hospital, the treatments given to him mainly concentrating on the cardiac condition. ... to a lesser extent the bilateral calf pain."
+        ],
+        "icd_code": "NC96.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost his consciousness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he felt pain everywhere",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he felt his heart was beating very fast",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "bilateral calf pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "flexion range had been restored; abduction, internal and external rotation were mildly limited; mild weakness in the supraspinatus muscle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "antiarrhythmic drug",
+      "short period of oral anticoagulant for the atrial fibrillation",
+      "short course of physiotherapy",
+      "MRI of the right shoulder",
+      "operation on 19 April 2012: arthroscopic rotator cuff repair and tenotomy of the right biceps tendons (repair of partial tear of subscapularis and partial tear of the long head of biceps with subluxation noted)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "He considers that he has recovered 90% in the functions of his arms but still have around 10% disability due to the injury sustained in the Accident.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21812,
+      "output_tokens": 7316,
+      "reasoning_tokens": 5632,
+      "total_tokens": 29128
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35194.67540830374,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21812,
+      "output_tokens": 7316,
+      "reasoning_tokens": 5632,
+      "total_tokens": 29128
+    },
+    "total_duration_ms": 35194.67540830374
+  }
+}

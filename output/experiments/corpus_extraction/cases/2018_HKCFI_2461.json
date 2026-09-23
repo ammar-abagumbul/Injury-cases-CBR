@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 2461",
+    "action_number": "HCPI 455/2016",
+    "case_name": "LAM TAK WA v. EVERBEST PORT SERVICES LTD (IN LIQUIDATION) AND ANOTHER",
+    "judgment_date": "2018-11-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 43,
+    "age_at_trial": 50,
+    "occupation_before": "stevedore cum signalman",
+    "occupation_after": "crane operator",
+    "expected_occupation_after": null,
+    "salary_before": 21789.9,
+    "salary_after": 18397.93,
+    "expected_salary_after": 22997.41,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to cervical spine",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "soft tissue injury to his lumbar spine and cervical spine."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to lumbar spine",
+        "injury_type": "Temporary injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "soft tissue injury to his lumbar spine and cervical spine."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "personal injuries at his buttocks and/or back",
+        "injury_type": "Temporary injury",
+        "body_part": "buttocks",
+        "laterality": null,
+        "source": [
+          "the plaintiff sustained personal injuries at his buttocks and/or back."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain at his back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "transient loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over his neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over lumbo-sacral spine region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over right hip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "soft tissue swelling over the upper cervical spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no intracranial haemorrhage",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "discharged home with walking frame",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Intensive Care Unit for monitoring",
+      "transfer to general ward of the Orthopaedic and Traumatology Department",
+      "in-patient physiotherapy treatments for pain relief and mobilization exercise",
+      "follow-up physiotherapy treatments",
+      "consultations with private doctor Dr Kuan Ying Fatt"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 180
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Wa Ying v Caritas-HK",
+        "neutral_citation": null,
+        "action_number": "DCPI 2885/2014",
+        "injury_description": "slip and fall in the toilet; lower back and left foot sprain with soft tissue injury; agreed diagnosis of Major Depressive Disorder, Single Episode",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Ng Ting Chun v Chung Man Chun, Philip",
+        "neutral_citation": null,
+        "action_number": "DCPI 1070/2007",
+        "injury_description": "traffic accident; mild sprain of the back; tenderness on the left side of the back at level L4-5; mildly limited range of movement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Chan Kin Man v Cheuk Siu Tong",
+        "neutral_citation": null,
+        "action_number": "DCPI 1970/2008",
+        "injury_description": "sprain injuries to the neck and back as a result of a traffic collision; X-rays normal; injuries not serious",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15490,
+      "output_tokens": 6273,
+      "reasoning_tokens": 4672,
+      "total_tokens": 21763
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37220.94851732254,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15490,
+      "output_tokens": 6273,
+      "reasoning_tokens": 4672,
+      "total_tokens": 21763
+    },
+    "total_duration_ms": 37220.94851732254
+  }
+}

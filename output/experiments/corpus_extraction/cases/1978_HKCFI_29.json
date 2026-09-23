@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 29",
+    "action_number": "HCA001886/1977",
+    "case_name": "CHOY FOR SANG v. TONG KWOK MING",
+    "judgment_date": "1978-01-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "driver",
+    "occupation_after": "unfit for any employment",
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "intracranial haematoma",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "arteriography was performed which revealed an intracranial haematoma."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "5 lacerations of his face measuring from 2 c.m. to 6 c.m.",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "taken to Queen Elizabeth Hospital in an unconscious state with 5 lacerations of his face measuring from 2 c.m. to 6 c.m. and multiple abrasions of the forearms."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to his upper jaw which resulted in the replacing of a number of teeth",
+        "injury_type": "Permanent injury",
+        "body_part": "upper jaw",
+        "laterality": null,
+        "source": [
+          "it is plain that the Plaintiff also suffered injury to his upper jaw which resulted in the replacing of a number of teeth."
+        ],
+        "icd_code": "NA0D.Y",
+        "icd_description": "Other specified injury of teeth or supporting structures"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "multiple abrasions of the forearms",
+        "injury_type": "Temporary injury",
+        "body_part": "forearms",
+        "laterality": null,
+        "source": [
+          "taken to Queen Elizabeth Hospital in an unconscious state with 5 lacerations of his face measuring from 2 c.m. to 6 c.m. and multiple abrasions of the forearms."
+        ],
+        "icd_code": "NC30.4",
+        "icd_description": "Multiple superficial injuries of forearm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe double vision in all gaze positions except looking up to the left.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unfit for any employment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "greatest difficulty in doing anything or going anywhere. His activities are almost completely curtailed.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "badly scarred face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to Queen Elizabeth Hospital in an unconscious state",
+      "arteriography was performed",
+      "on 22nd June, the Plaintiff underwent a craniotomy to remove the haematoma",
+      "placed in the intensive care unit",
+      "discharged from hospital on 28th July 1976",
+      "replacing of a number of teeth"
+    ],
+    "treatments_future": [
+      "lengthy and complex surgery and treatment required to afford some measure of correction to his double vision",
+      "the course of treatment would last about 12 months and take 2 or 3 operations",
+      "recommended that the Plaintiff should go to London or Australia where there are special clinics dealing with eye problems"
+    ],
+    "hospitalisation_days": 45,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "severe double vision in all gaze positions except looking up to the left.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "badly scarred face",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "greatest difficulty in doing anything or going anywhere. His activities are almost completely curtailed.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "unfit for any employment; total loss of earnings for at least another 12 months; permanent reduction of earnings likely of not less than $500 per month.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Shui Kai-ling v. Lim Sai-hung",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "double vision; vision had returned very nearly to normal and there was no loss of earnings",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 14500.0
+      },
+      {
+        "case_name": "Phillips v. Gordon",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "double vision; the injured person was able to do copy typing and the degree of disability appears to have been comparable with the instant case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 5000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10884,
+      "output_tokens": 6995,
+      "reasoning_tokens": 5248,
+      "total_tokens": 17879
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40227.99225524068,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10884,
+      "output_tokens": 6995,
+      "reasoning_tokens": 5248,
+      "total_tokens": 17879
+    },
+    "total_duration_ms": 40227.99225524068
+  }
+}

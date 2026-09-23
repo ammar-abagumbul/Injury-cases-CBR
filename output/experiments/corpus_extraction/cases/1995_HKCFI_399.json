@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 399",
+    "action_number": "HCPI 769/1995",
+    "case_name": "LEE WONG SIN v. THE ESTATE OF WONG SHEK MEI, DECEASED AND OTHERS",
+    "judgment_date": "1995-10-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 60,
+    "age_at_trial": null,
+    "occupation_before": "dim sum waitress",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2105.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a Colles fracture of the right wrist, which was treated by closed reduction and plaster of paris cast.",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "a Colles fracture of the right wrist, which was treated by closed reduction and plaster of paris cast.",
+          "the bone of the forearm was fractured transversely 3/4\" above the wrist, the fragment was split, and had united with 15o of clockwise rotation and distortion of the wrist joint surface of the fragment."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bruising to the right side of the face",
+        "injury_type": "Temporary injury",
+        "body_part": "right side of the face",
+        "laterality": "right",
+        "source": [
+          "bruising to the right side of the face"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dinnerfork deformity of the wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "radial displacement of the hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduction in movement of the wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "grip of only 8lbs (compared to left hand 40lbs)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in her right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruising to the right side of the face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "closed reduction and plaster of paris cast",
+      "attended the outpatients' clinic seven times over the next four months",
+      "attended the physiotherapy clinic three times a week for three weeks"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities $60,000.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Chi Young v. Tsang Cho Yiu",
+        "neutral_citation": null,
+        "action_number": "HCA No.6575 of 1982",
+        "injury_description": "40 year old man with a 7% impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Chan Yung v. Hung Ping Shun",
+        "neutral_citation": null,
+        "action_number": "HCA No.3803 of 1983",
+        "injury_description": "55 year old woman fractured her left wrist and a sustained number of other injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 55000.0
+      },
+      {
+        "case_name": "Cheung Sze Kuen v. Wong Chi Cheung",
+        "neutral_citation": null,
+        "action_number": "HCA No.2486 of 1984",
+        "injury_description": "28 year old man with a 4% impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 30000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9272,
+      "output_tokens": 6147,
+      "reasoning_tokens": 4736,
+      "total_tokens": 15419
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34176.235519349575,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9272,
+      "output_tokens": 6147,
+      "reasoning_tokens": 4736,
+      "total_tokens": 15419
+    },
+    "total_duration_ms": 34176.235519349575
+  }
+}

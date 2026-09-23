@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 235",
+    "action_number": "HCPI 43/2006",
+    "case_name": "SIU LEUNG SHANG PETER v. CHUNG WAI MING",
+    "judgment_date": "2007-03-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 47,
+    "age_at_trial": null,
+    "occupation_before": "Nursing Officer (psychiatric nurse) at Castle Peak Hospital",
+    "occupation_after": "menial work",
+    "expected_occupation_after": "return to nursing profession",
+    "salary_before": 47500.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": 35000.0,
+    "education_level": "Psychiatric Nursing Certificate; post-registration diploma in nursing administration; Certificate of Mental Handicap Nursing; Degree in Nursing (Chinese University in Hong Kong and La Trobe University of Australia)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his neck (sprain)",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "I accept the proposition put forward by the defence; namely, Mr Siu suffered a soft tissue injury to his neck, the effects of which were mild and of short duration."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative cervical spine / cervical spondylosis with multiple posterior/postero-lateral disc herniations at C3/4, C4/5, C5/6 and C6/7 and calcification of anterior longitudinal ligament (C4-C7)",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (neck)",
+        "laterality": null,
+        "source": [
+          "X Ray of the cervical spine revealed calcification of anterior longitudinal ligament. This is a radiological feature suggesting cervical spondylosis (degeneration)",
+          "the MRI report noting that there was postero-lateral and posterior herniation at various levels of the C6/7, C5/6, C4/5 and C3/4 discs",
+          "calcification in the anterior spinal ligaments between C4 and C7",
+          "cervical spondylosis (i.e. degenerative cervical spine)"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "severe neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dull-aching neck pain, activity related, long-standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "muscle spasms / tightness of paraspinal neck muscles; muscle spasm of the neck muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limitation / reduced range of neck movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "interruption of sleep",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "curtailing of activities previously enjoyed",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "affected relationships in his family",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "damaged self-image and loss of confidence",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right thigh pain (transitory, fully recovered)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended by ambulance to Tuen Mun Hospital (A&E) and given analgesics",
+      "treatment by a local bonesetter (Master Tam)",
+      "anti-inflammatories",
+      "physical therapy (conservative treatment) administered by Dr Kuan since August 2004"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 2,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Prevented his return to the nursing profession (unable to return to his chosen profession)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "loss of enjoyment of life; curtailing of activity he had hitherto enjoyed",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "affected relationships in his family",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "damaged self-image and caused a loss of confidence",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12875,
+      "output_tokens": 5363,
+      "reasoning_tokens": 3840,
+      "total_tokens": 18238
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31504.814013838768,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12875,
+      "output_tokens": 5363,
+      "reasoning_tokens": 3840,
+      "total_tokens": 18238
+    },
+    "total_duration_ms": 31504.814013838768
+  }
+}

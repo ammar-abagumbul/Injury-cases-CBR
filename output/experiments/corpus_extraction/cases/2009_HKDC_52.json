@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 52",
+    "action_number": "DCPI 1145/2008",
+    "case_name": "KHAN HAMID v. PROFIT IN (HK) CO LTD AND ANOTHER",
+    "judgment_date": "2009-03-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": "resume work in construction sites",
+    "salary_before": 9100.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "minor head injury"
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "neck contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "neck and back contusion"
+        ],
+        "icd_code": "NA20.1",
+        "icd_description": "Contusion of throat"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "back contusion with soft tissue involvement",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "back contusion with soft tissue involvement."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "minor head injury (recovered)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck contusion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced working efficiency and endurance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "sick leave"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 120,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "loss of earning capacity",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13097,
+      "output_tokens": 6820,
+      "reasoning_tokens": 5824,
+      "total_tokens": 19917
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44801.41656473279,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13097,
+      "output_tokens": 6820,
+      "reasoning_tokens": 5824,
+      "total_tokens": 19917
+    },
+    "total_duration_ms": 44801.41656473279
+  }
+}

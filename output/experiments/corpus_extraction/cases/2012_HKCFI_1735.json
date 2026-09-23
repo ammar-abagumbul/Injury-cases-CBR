@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKCFI 1735",
+    "action_number": "HCPI 443/2010",
+    "case_name": "YANG YEE MAN, THE ADMINISTRATRIX OF THE ESTATE OF LAM LOK KIN, DECEASED v. LEUNG HING HUNG",
+    "judgment_date": "2012-11-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Senior Audit Manager",
+    "occupation_after": "Senior Manager at a bank",
+    "expected_occupation_after": null,
+    "salary_before": 53500.0,
+    "salary_after": 55000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "major depressive disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The Plaintiff was diagnosed of suffering from major depressive disorder by Registered Clinical Psychologist Dr Tommy Chan."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "required psychotherapy treatment since January 2009",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had no alternative but to resign as Senior Audit Manager from 5 January 2010",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had to take a 3-year break before she would be psychologically fit to return to employment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "psychotherapy treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "At the time of the Accident, both the Deceased and the Plaintiff had assumed the responsibility of taking care of the Daughter (who was then 3 months’ old). However, after the Accident, the services previously provided by the Deceased to the Daughter had to be, and could only be, replaced by the services of the Plaintiff. The Plaintiff has since then shouldered the sole burden of taking care of the infant Daughter.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9520,
+      "output_tokens": 3550,
+      "reasoning_tokens": 2752,
+      "total_tokens": 13070
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23254.94998320937,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9520,
+      "output_tokens": 3550,
+      "reasoning_tokens": 2752,
+      "total_tokens": 13070
+    },
+    "total_duration_ms": 23254.94998320937
+  }
+}

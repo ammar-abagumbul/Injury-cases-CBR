@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 331",
+    "action_number": "DCPI 1547/2012",
+    "case_name": "LAI YIU FONG v. FANCY EFFORT LTD",
+    "judgment_date": "2014-03-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 43,
+    "age_at_trial": 48,
+    "occupation_before": "casual labour",
+    "occupation_after": "janitor (various companies until August 2013)",
+    "expected_occupation_after": null,
+    "salary_before": 8320.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of distal tibia and fibula",
+        "injury_type": "Residual disability",
+        "body_part": "left lower leg",
+        "laterality": "left",
+        "source": [
+          "X-ray of left lower leg revealed fracture of distal tibia and fibula (“the Injuries”).",
+          "The plaintiff sustained lower left leg and foot injury."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruise over the left lower leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in dorsiflexion of left ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in eversion of left ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in inversion of left ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild swelling in the lower left leg and ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual stiffness of his left leg/left ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "leg pain (lessened by 8 March 2010)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "less endurance on prolonged, heavy manual work and prolonged squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "sent to Tuen Mun Hospital Accident & Emergency Department",
+      "admitted to orthopaedic ward",
+      "long leg cast applied",
+      "new cast applied after displacement discovered",
+      "physiotherapy (19 sessions)",
+      "occupational therapy (9 sessions)",
+      "non weight bearing exercise",
+      "magnetic field therapy",
+      "pressure therapy",
+      "exercise therapy",
+      "follow up at orthopaedic clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 209,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Residual stiffness and mild decrease in left ankle movements (dorsiflexion, eversion and inversion); mild swelling and reduced endurance affecting prolonged heavy work and squatting.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Work performance affected by residual symptoms; disadvantaged/handicapped in the labour market; assessed loss of earning capacity (award of 6 months' pre-trial salary).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sukhdeep-Singh v Chow Kin Hung and Hang On Motors Co Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI No 202 of 2010",
+        "injury_description": "The plaintiff suffered fractured distal tibia and fibula of his right leg and had undergone surgery.",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Ma Yuet Pong v Chan Kar Wai, Pace Logistics Solutions International Ltd. and Meering Development Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI No 577 of 2010",
+        "injury_description": "fractured left distal tibia, fibula, left 2nd – 4th metatarsals and underwent surgery.",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 330000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9579,
+      "output_tokens": 4912,
+      "reasoning_tokens": 3456,
+      "total_tokens": 14491
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32122.899994254112,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9579,
+      "output_tokens": 4912,
+      "reasoning_tokens": 3456,
+      "total_tokens": 14491
+    },
+    "total_duration_ms": 32122.899994254112
+  }
+}

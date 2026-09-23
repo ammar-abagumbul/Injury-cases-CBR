@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 139",
+    "action_number": "DCPI 2273/2008",
+    "case_name": "LIMBU PRYA v. HEI YUET PALACE RESTAURANT O/B KENBERG INVESTMENTS LTD",
+    "judgment_date": "2010-06-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 49,
+    "age_at_trial": 54,
+    "occupation_before": "kitchen helper/cleaner at the Defendant's restaurant premises",
+    "occupation_after": "part-time cleaner at a residential public housing block (3.8.2006 to end 2007); later part-time kitchen worker for about 4 to 5 months",
+    "expected_occupation_after": null,
+    "salary_before": 7800.0,
+    "salary_after": null,
+    "expected_salary_after": 4500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "second degree burns all over her back and buttocks with blistering. Estimated body surface area involvement is about 18%",
+        "injury_type": "Temporary injury",
+        "body_part": "back and buttocks",
+        "laterality": null,
+        "source": [
+          "On 14.11.2005 her back was severely scalded by very hot water.",
+          "She was examined by Dr. Wong Man Fung (\"Dr. Wong\") Dr. Wong found her to have second degree burns all over her back and buttocks with blistering. Estimated body surface area involvement is about 18%."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "areas of hypo-pigmented skin and at least one area of hyper-trophic scar on her back",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "On her back there are areas of hypo-pigmented skin and at least one area of hyper-trophic scar.",
+          "She said that if she touches the area of her back with the hypo-pigmentation and hyper-trophic scar it is painful."
+        ],
+        "icd_code": "NB50.Y",
+        "icd_description": "Other specified superficial injury of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain when touching the area of her back with the hypo-pigmentation and hyper-trophic scar",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "restrictions of the injured skin to normal movements were minimal",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "her ability to tolerate full movements in order to work full-time (8 hours per day) might be hampered significantly by lack of rehabilitation support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain at her back causing her to give up part-time work",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "went to the accident and emergency department at Queen Mary Hospital (QMH) on 14.11.2005",
+      "examined by Dr. Wong Man Fung",
+      "transferred from QMH to the Tung Wah Hospital on 18.11.2005",
+      "discharged from Tung Wah Hospital on 26.11.2005",
+      "examined by Dr. James Kong, a specialist in plastic surgery, in July 2008"
+    ],
+    "treatments_future": [
+      "counselling and support (recommended by Dr. James Kong)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Areas of hypo-pigmented skin and at least one area of hyper-trophic scar on her back; painful on touch",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Did not return to former full-time work at the Defendant's kitchen and later gave up part-time jobs because of pain and limitation of movement",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Yuk Kwan v. Maple Professional Beauty Centre Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 274 of 2002",
+        "injury_description": "the Plaintiff\u0019s right leg was \"severely scalded\" in the course of beauty treatment. ... One year later there an \"ugly\" scar on her right lower thigh. The size of the scar was about 4 x 5 cm. She suffered 3% cosmetic disability of the whole person.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9333,
+      "output_tokens": 5205,
+      "reasoning_tokens": 3776,
+      "total_tokens": 14538
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40861.85386404395,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9333,
+      "output_tokens": 5205,
+      "reasoning_tokens": 3776,
+      "total_tokens": 14538
+    },
+    "total_duration_ms": 40861.85386404395
+  }
+}

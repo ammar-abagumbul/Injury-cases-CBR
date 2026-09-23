@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 4; HCPI 1186/2004 (4 January 2006)",
+    "action_number": "HCPI 1186/2004",
+    "case_name": "TSANG YIP KWONG v. NG KWONG YUI T/A NG YIU KEE TRANSPORTATION CO",
+    "judgment_date": "2006-01-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "Employed unloading cotton bales and driving forklift for the Defendant company",
+    "occupation_after": null,
+    "expected_occupation_after": "Driver (forklift driver or other driving work)",
+    "salary_before": 20908.0,
+    "salary_after": 10908.0,
+    "expected_salary_after": 10908.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the trolley “flipped” and he sprained his neck as a result of the unexpected movement of the trolley."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing degeneration of his neck and shoulders",
+        "injury_type": "Residual disability",
+        "body_part": "neck and shoulders",
+        "laterality": null,
+        "source": [
+          "pre-existing degeneration of his neck and shoulders, which up to that point had been symptomless",
+          "pre-existing degenerative changes to his neck and shoulders"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "sharp pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain when turning to look around",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of neck mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Attendance at A & E department of Princess Margaret Hospital",
+      "Seen at orthopaedic clinic",
+      "Certificated sick leave",
+      "Medical assessment board assessment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 527,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11976,
+      "output_tokens": 4755,
+      "reasoning_tokens": 3840,
+      "total_tokens": 16731
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36763.436291366816,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11976,
+      "output_tokens": 4755,
+      "reasoning_tokens": 3840,
+      "total_tokens": 16731
+    },
+    "total_duration_ms": 36763.436291366816
+  }
+}

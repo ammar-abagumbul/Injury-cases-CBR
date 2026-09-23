@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKDC 204",
+    "action_number": "DCPI 1158/2005",
+    "case_name": "CHAN WAI NGA v. TAM CHI WAI AND ANOTHER",
+    "judgment_date": "2006-07-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 2,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Wai-Nga suffered scalds to her right trunk, right upper limb, right lower limb, a small area of her left thigh and left forearm, all together equal to about 15 percent of her body surface area. Approximately 11% of Wai-Nga's body suffered second degree burns.",
+        "injury_type": "Residual disability",
+        "body_part": "right trunk, right upper limb, right lower limb, left thigh, left forearm",
+        "laterality": null,
+        "source": [
+          "Wai-Nga suffered scalds to her right trunk, right upper limb, right lower limb, a small area of her left thigh and left forearm, all together equal to about 15 percent of her body surface area. Approximately 11% of Wai-Nga's body suffered second degree burns."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the scars were all well healed, soft and pliable",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the plaintiff has permanent cosmetic disability due to colour discrepancy which is accentuated by mild hyperpigmentation of the junctional area between normal skin and pale scald scars.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Approximately 11% of Wai-Nga's body suffered second degree burns.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "generalized anxiety, increased arousal and irritability after the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diagnosed with Childhood Emotional Disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the accident does not appear to have a lasting psychological impact on Wai-Nga",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "as she grows up, she may become conscious of the scars and bother by them",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "dressing",
+      "analgesics",
+      "pressure garment therapy",
+      "physiotherapy",
+      "occupational therapy",
+      "treatment at Yaumatei Child Psychiatric Centre"
+    ],
+    "treatments_future": [
+      "laser treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "permanent cosmetic disability due to colour discrepancy which is accentuated by mild hyperpigmentation of the junctional area between normal skin and pale scald scars.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8976,
+      "output_tokens": 4433,
+      "reasoning_tokens": 3648,
+      "total_tokens": 13409
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38355.7544387877,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8976,
+      "output_tokens": 4433,
+      "reasoning_tokens": 3648,
+      "total_tokens": 13409
+    },
+    "total_duration_ms": 38355.7544387877
+  }
+}

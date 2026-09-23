@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "LEE CHUNG AND ANOTHER v. PANG LAP HUNG AND ANOTHER [1985] HKCFI 207; HCA 2764/1985 (6 November 1985)",
+    "action_number": "HCA002764/1985",
+    "case_name": "LEE CHUNG AND ANOTHER v. PANG LAP HUNG AND ANOTHER",
+    "judgment_date": "1985-11-06",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Taxi driver (owns his own taxi). 2nd Plaintiff rents the taxi from the 1st Plaintiff for the night shifts.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "1 cm. cut over his forehead",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead",
+        "laterality": null,
+        "source": [
+          "He had a 1 cm. cut over his forehead and his left shoulder was tender."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Tenderness of left shoulder (soft tissue injury)",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "He had a 1 cm. cut over his forehead and his left shoulder was tender."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Brief loss of consciousness following the accident; observed for possible post-concussional syndrome",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He was unconscious after the accident and regained consciousness immediately upon admission.",
+          "He was discharged 2 days later but attended the Neurosurgical Unit for a further month in order to detect any post-concussional syndrome, should one develop."
+        ],
+        "icd_code": "NA07.02",
+        "icd_description": "Concussion with loss of consciousness, short duration of less than 30 minutes"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "1 cm. cut over his forehead",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left shoulder tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Unconscious after the accident, regained consciousness immediately upon admission",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Attended the Neurosurgical Unit for a further month to detect any post-concussional syndrome (none developed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Returned to the health he enjoyed before the accident (no post-concussional syndrome developed)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to hospital immediately following the accident",
+      "Observation/attendance at the Neurosurgical Unit for a further month",
+      "Outpatient treatment (5 visits)",
+      "Traditional medicine: 6 prescriptions (Yan Wo Tong Dispensary)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities (general damages awarded $4,000.00)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 4000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10159,
+      "output_tokens": 5605,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15764
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30707.676876336336,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10159,
+      "output_tokens": 5605,
+      "reasoning_tokens": 4352,
+      "total_tokens": 15764
+    },
+    "total_duration_ms": 30707.676876336336
+  }
+}

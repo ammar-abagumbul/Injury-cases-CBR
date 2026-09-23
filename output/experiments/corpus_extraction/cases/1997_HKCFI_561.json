@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 561",
+    "action_number": "P.I. 1045 of 1995",
+    "case_name": "KWAN WING SANG v. CHI CHIU ENGINEERING CO LTD",
+    "judgment_date": "1997-06-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 37,
+    "occupation_before": "driver and delivery worker employed by Yin Hing Construction Ltd.",
+    "occupation_after": "still holds the same position he had before the accident but now rarely drives vehicles",
+    "expected_occupation_after": null,
+    "salary_before": 5033.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a chip fracture of a vertebrae",
+        "injury_type": "Temporary injury",
+        "body_part": "spine",
+        "laterality": null,
+        "source": [
+          "At the Hospital an X-ray showed a chip fracture of a vertebrae and he was admitted for a week."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative changes of the spine",
+        "injury_type": "Residual disability",
+        "body_part": "spine",
+        "laterality": null,
+        "source": [
+          "The X-rays and MRI scans show that he has degenerative changes of the spine which would have caused him trouble eventually anyway."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain in the legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to sit or stand in the same position for long periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "periodic exacerbation of pain (can expect periodic exacerbation and only temporary relief)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to carry heavy weights or drive for long periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital admission",
+      "out-patient physiotherapy",
+      "more intensive treatment at Margaret Trench Rehabilitation Centre"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Persistent back and leg pain; unable to sit or stand in the same position for long periods; periodic exacerbations.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "At a disadvantage in the labour market; unable to carry heavy weights or drive for long periods and therefore disadvantaged should he lose his present job.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7871,
+      "output_tokens": 4738,
+      "reasoning_tokens": 3776,
+      "total_tokens": 12609
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27685.36463007331,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7871,
+      "output_tokens": 4738,
+      "reasoning_tokens": 3776,
+      "total_tokens": 12609
+    },
+    "total_duration_ms": 27685.36463007331
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 907",
+    "action_number": "HCPI 309/2003",
+    "case_name": "CHAN KWAI SUM v. ULTIMATE ENGINEERING LTD",
+    "judgment_date": "2004-10-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "painter",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 15600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "peroneal nerve palsy which in turn caused the plaintiff to suffer a right drop foot",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "The prolonged squatting by the plaintiff in carrying out this work and similar work on the following day resulted in the plaintiff suffering a peroneal nerve palsy which in turn caused the plaintiff to suffer a right drop foot."
+        ],
+        "icd_code": "NC94.1",
+        "icd_description": "Injury of peroneal nerve at lower leg level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "chronic compartment syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "Ultimately the plaintiff was diagnosed to be suffering from chronic compartment syndrome."
+        ],
+        "icd_code": "NC96.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness in his legs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right drop foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased power of the right ankle dorsiflexion at grade 3/5",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased sensation over the medial side of the right foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right sole very painful and could not lift up his right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right leg compartment pressure was measured and was found to be on the high side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital admission",
+      "drugs (conservative treatment)",
+      "physiotherapy",
+      "support in a drop foot splint",
+      "parathyroid adenoma excision (June 2001)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from residual stiffness and weakness in the right ankle and inability to squat for prolonged periods",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15971,
+      "output_tokens": 5342,
+      "reasoning_tokens": 4288,
+      "total_tokens": 21313
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37188.5258667171,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15971,
+      "output_tokens": 5342,
+      "reasoning_tokens": 4288,
+      "total_tokens": 21313
+    },
+    "total_duration_ms": 37188.5258667171
+  }
+}

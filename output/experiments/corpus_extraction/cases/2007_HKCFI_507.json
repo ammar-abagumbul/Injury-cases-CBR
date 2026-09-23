@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 507",
+    "action_number": "HCPI 879/2005",
+    "case_name": "LEUNG SHIU MAN FORMERLY T/A HONG LIK CLEANING SERVICING CO v. CHU WAI MING T/A MING SHUN CLEANING SERVICE CO AND ANOTHER",
+    "judgment_date": "2007-05-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Driver / operator of his own refuse collection business (Hong Lik Cleaning Servicing Company)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": 10721.91,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injuries",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "the Plaintiff sustained head injuries"
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fragment of glass remains lodged in front of his right ear",
+        "injury_type": "Residual disability",
+        "body_part": "right ear",
+        "laterality": "right",
+        "source": [
+          "a fragment of glass remains lodged in front of his right ear"
+        ],
+        "icd_code": "NA01.3",
+        "icd_description": "Laceration with foreign body of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual disabilities which are likely to be permanent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a fragment of glass remains lodged in front of his right ear",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operations"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 119,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity $300,000.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15052,
+      "output_tokens": 3945,
+      "reasoning_tokens": 3136,
+      "total_tokens": 18997
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34176.34269967675,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15052,
+      "output_tokens": 3945,
+      "reasoning_tokens": 3136,
+      "total_tokens": 18997
+    },
+    "total_duration_ms": 34176.34269967675
+  }
+}

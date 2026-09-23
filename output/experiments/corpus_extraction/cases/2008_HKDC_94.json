@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 94",
+    "action_number": "DCPI 1069/2006",
+    "case_name": "SO CHO YIN v. MTR CORPORATION LTD",
+    "judgment_date": "2008-04-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 46,
+    "age_at_trial": 50,
+    "occupation_before": "security guard in a building",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5327.4,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Local tenderness at the left parietal area of her head",
+        "injury_type": "Residual disability",
+        "body_part": "left parietal area of head",
+        "laterality": "left",
+        "source": [
+          "She was found to have local tenderness at the left parietal area of her head, nasal bridge, back, buttock and the right ankle."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Tenderness of the nasal bridge",
+        "injury_type": "Residual disability",
+        "body_part": "nasal bridge",
+        "laterality": null,
+        "source": [
+          "She was found to have local tenderness at the left parietal area of her head, nasal bridge, back, buttock and the right ankle."
+        ],
+        "icd_code": "NA00.3",
+        "icd_description": "Superficial injury of nose"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Residual pain in the low back and buttock",
+        "injury_type": "Residual disability",
+        "body_part": "low back and buttock",
+        "laterality": null,
+        "source": [
+          "This consisted of 5% for residual pain in the low back and buttock; 1% for the residual pain in the ankle and hand; and 2% for residual pain in the neck due to possible sprain injury."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Decrease in sensation and power diffusely over the left side of the body",
+        "injury_type": "Residual disability",
+        "body_part": "left side of body",
+        "laterality": "left",
+        "source": [
+          "There was decrease in sensation and power diffusely over the left side of the body."
+        ],
+        "icd_code": "NA07.4",
+        "icd_description": "Focal brain injury"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Mild tenderness over the mid-dorsal aspect of the left wrist; pain in the left wrist",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "During her subsequent visits to the hospital, So complained about decrease in sensation over the left side of her body and pain in the left wrist, neck and right ankle. Regarding the left wrist, examination revealed mild tenderness over the mid-dorsal aspect but no associated external wound, bruising, deformity or ligamental laxity."
+        ],
+        "icd_code": "NC51.1Z",
+        "icd_description": "Superficial injury of other parts of wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Tenderness over the right ankle (some tenderness over both medial and lateral region)",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "She was found to have local tenderness at the left parietal area of her head, nasal bridge, back, buttock and the right ankle.",
+          "Regarding the ankle, there was some tenderness over both medial and lateral region, yet the motion range was good."
+        ],
+        "icd_code": "ND11",
+        "icd_description": "Superficial injury of ankle or foot"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Pain in the neck due to possible sprain injury; percussion tenderness at the cervical thorax junction with decreased neck and trunk movement range",
+        "injury_type": "Residual disability",
+        "body_part": "neck (cervical thorax junction)",
+        "laterality": null,
+        "source": [
+          "Examination of the neck revealed percussion tenderness at the cervical thorax junction, thoracolumbar junction and lumbosacral junction with decreased neck and trunk movement range.",
+          "This consisted of 5% for residual pain in the low back and buttock; 1% for the residual pain in the ankle and hand; and 2% for residual pain in the neck due to possible sprain injury."
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Local tenderness at the left parietal area of her head",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness of the nasal bridge",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Residual pain in the low back and buttock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Decrease in sensation over the left side of the body",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Weakness over left side of body (diffuse weakness)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Mild tenderness over the mid-dorsal aspect of the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Tenderness over the right ankle with good range of motion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Decreased neck and trunk movement range; percussion tenderness at the cervical thorax junction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_007"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (taken up until early July 2005)",
+      "painkillers",
+      "hospital admission"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earnings (pre-trial) HK$106,281.63",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity HK$30,000.00",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Shing Kwai v Chan Yu Chuen & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 923/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Asok GC v Kam Kee Construction Works Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 691/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Yuk Lan v Royaltelle International Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 187/1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Shing Kam & Anor v Leung Ming Kwong",
+        "neutral_citation": null,
+        "action_number": "DCPI 171/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Tung Fung & Ors v Pun Chi Leung",
+        "neutral_citation": null,
+        "action_number": "DCPI 2149/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheung Yu Tin Alvin v Ho Hon Ka",
+        "neutral_citation": null,
+        "action_number": "DCPI 853/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tam Yuen Hoi v Chan Muk Sing & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 983/2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20808,
+      "output_tokens": 11971,
+      "reasoning_tokens": 9088,
+      "total_tokens": 32779
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 58496.849194169044,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20808,
+      "output_tokens": 11971,
+      "reasoning_tokens": 9088,
+      "total_tokens": 32779
+    },
+    "total_duration_ms": 58496.849194169044
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 317",
+    "action_number": "DCPI 1134/2009",
+    "case_name": "LUNG SIU WING v. LO WAI MING AND OTHERS",
+    "judgment_date": "2009-12-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "studied up to the second year in secondary school in China"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "4 cm laceration over his right lower back / back contusion",
+        "injury_type": "Residual disability",
+        "body_part": "right lower back",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered from a 4 cm laceration over his right lower back, bruised and tenderness over his left forearm and fracture over his right 4th metatarsal bone on his right foot."
+        ],
+        "icd_code": "NB51.0",
+        "icd_description": "Laceration without foreign body of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Bruised and tenderness over his left forearm",
+        "injury_type": "Temporary injury",
+        "body_part": "left forearm",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered from a 4 cm laceration over his right lower back, bruised and tenderness over his left forearm and fracture over his right 4th metatarsal bone on his right foot."
+        ],
+        "icd_code": "NC30.3",
+        "icd_description": "Contusion of other or unspecified parts of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fracture of the right 4th metatarsal bone",
+        "injury_type": "Residual disability",
+        "body_part": "right fourth metatarsal (right foot)",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered from a 4 cm laceration over his right lower back, bruised and tenderness over his left forearm and fracture over his right 4th metatarsal bone on his right foot."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "4 to 5 cm laceration was found over the right lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain after prolonged walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cramps in his right foot every two to three days",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right back soreness and discomfort after sitting for two to three hours",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruised and tenderness over his left forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "had to walk with the aid of two crutches until the cast was removed 2 months later",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "difficulty in balancing on the ladder when exerting body weight on right foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual right foot pain and residual right back pain and scar",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "7 stitches to the laceration",
+      "short cast on right foot",
+      "use of two crutches for walking until cast removed (2 months)",
+      "physiotherapy treatments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 112,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "loss of enjoyment of his sporting activities",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "residual scar on right lower back",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "reduced work efficiency and capacity; loss of earning capacity; likely suitable only for light duties",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "To Ying Wa v Cargo-land (Warehouse) Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI441/2000",
+        "injury_description": "fractures in both the fourth and fifth metatarsals on the right foot; 1% permanent impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 77,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Chow Tai Loi v Leung Kam Hung",
+        "neutral_citation": null,
+        "action_number": "HCPI320/2002",
+        "injury_description": "fractures on the second and the base of the first metatarsals on the left foot with minor injuries to chest; 2% impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 225000.0
+      },
+      {
+        "case_name": "Yeung Kin Chung v Hong Kong Scafform Suppliers Limited and another",
+        "neutral_citation": null,
+        "action_number": "DCPI1332/2005",
+        "injury_description": "fracture to the base of his fifth metatarsal; 1% impairment of whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Sin Fu Yau v Cheung Kwok Leung Keith and others",
+        "neutral_citation": null,
+        "action_number": "DCPI1081/2005",
+        "injury_description": "fracture to the base proximal phalanx of the left first toe and a crack to the base of the distal phalanx",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 160000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14439,
+      "output_tokens": 5928,
+      "reasoning_tokens": 3968,
+      "total_tokens": 20367
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38398.557998239994,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14439,
+      "output_tokens": 5928,
+      "reasoning_tokens": 3968,
+      "total_tokens": 20367
+    },
+    "total_duration_ms": 38398.557998239994
+  }
+}

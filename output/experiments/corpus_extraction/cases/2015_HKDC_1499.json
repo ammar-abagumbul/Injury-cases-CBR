@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 1499",
+    "action_number": "DCPI 1567/2012",
+    "case_name": "XIE QIUYUN v. ARCHE BEAUTY THERAPY LTD",
+    "judgment_date": "2015-12-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "Public Relations lady in (a) nightclub(s)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Middle 3 in the Mainland"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post-inflammatory hyperpigmentation",
+        "injury_type": "Temporary injury",
+        "body_part": "face (cheeks, forehead and temples)",
+        "laterality": "bilateral",
+        "source": [
+          "On 31 July 2010, Dr Chan Kin Yip examined the plaintiff and found clinical signs of post-inflammatory hyperpigmentation and hypopigmentation."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "punctate facial depigmentation / hypopigmentation with white spots (2 mm to 6 mm)",
+        "injury_type": "Temporary injury",
+        "body_part": "face (cheeks, forehead and temples)",
+        "laterality": "bilateral",
+        "source": [
+          "On 30 August 2012, physical examination by Dr Yeung Chi Keung showed that there were background symmetrical brownish flat patches on cheeks forehead and temples. There was overlying punctuate facial depigmentation with white spots of various sizes and shades on the face. It demonstrates round milky white patches corresponding to the focal loss of skin pigment. The individual white spot measured 2 mm to 6 mm in diameter."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mottled hypopigmentation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "large area of hyperpigmentation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "large number of whitish circular confetti-like spots on her face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "background symmetrical brownish flat patches on cheeks forehead and temples",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depression for 3 years",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Laser treatment (QX / Q-switched Nd:YAG laser)",
+      "AHA chemical peel treatment"
+    ],
+    "treatments_future": [
+      "Further QS Nd:YAG laser sessions",
+      "QS Ruby fractional laser or pulsed dye vascular laser sessions",
+      "Additional AHA chemical peel sessions"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Difficulties in working in public relation service; plaintiff said she could not go to work and was not ready for the nightclub job; impact on ability to undertake public-facing work.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Embarrassment, discomfort and inconvenience associated with facial appearance; impairment of quality of life and negative psychological effect.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Ka-yee v L & Y Beauty Centre Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 196 of 2003",
+        "injury_description": "post-inflammatory hyperpigmentation and hypopigmentation and scars due to burn",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 75000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 29203,
+      "output_tokens": 4687,
+      "reasoning_tokens": 3456,
+      "total_tokens": 33890
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35905.14896064997,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 29203,
+      "output_tokens": 4687,
+      "reasoning_tokens": 3456,
+      "total_tokens": 33890
+    },
+    "total_duration_ms": 35905.14896064997
+  }
+}

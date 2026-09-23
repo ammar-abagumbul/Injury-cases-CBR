@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "CHAN PUI KI v. LEUNG ON AND ANOTHER [1995] HKCFI 267; [1995] 3 HKC 732; HCA 2006/1992 (30 October 1995)",
+    "action_number": "1992 No. A2006",
+    "case_name": "CHAN PUI KI v. LEUNG ON AND ANOTHER",
+    "judgment_date": "1995-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 10,
+    "age_at_trial": 16,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 9300.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe head injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "On 22nd April 1989, the Plaintiff, Chan Pui Ki was seriously injured in a road accident.",
+          "Severe head injuries"
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Restricted walking mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Restricted mobility of her hands",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Face and the body",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Speech",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe head injuries",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Psychological",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Physical and neurological impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cognitive impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Totally unemployable",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [
+      "psychotherapy",
+      "family therapy",
+      "occupational therapy",
+      "long term psychiatric treatment",
+      "domestic assistance"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Totally unemployable",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Restricted walking mobility; Restricted mobility of her hands",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 35673,
+      "output_tokens": 5332,
+      "reasoning_tokens": 4288,
+      "total_tokens": 41005
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36588.47903087735,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 35673,
+      "output_tokens": 5332,
+      "reasoning_tokens": 4288,
+      "total_tokens": 41005
+    },
+    "total_duration_ms": 36588.47903087735
+  }
+}

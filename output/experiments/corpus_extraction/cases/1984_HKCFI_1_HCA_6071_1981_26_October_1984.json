@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 1; HCA 6071/1981 (26 October 1984)",
+    "action_number": "HCA006071/1981",
+    "case_name": "YIP PUN LEUNG v. CHI SHING INDUSTRIAL CO. LTD",
+    "judgment_date": "1984-10-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 20,
+    "age_at_trial": null,
+    "occupation_before": "plastic moulding machine operator",
+    "occupation_after": "operating two moulding machines (moulding machine operator)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Amputation of the three middle fingers of the right hand",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand (three middle fingers)",
+        "laterality": "right",
+        "source": [
+          "Shortly after the start of the night shift, his right hand became trapped in the mould, as a result of which the three middle fingers were amputated."
+        ],
+        "icd_code": "NC59.2",
+        "icd_description": "Traumatic amputation of two or more fingers alone"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Toe amputated and transplanted to replace a middle finger (toe transplantation)",
+        "injury_type": "Permanent injury",
+        "body_part": "toe (transplanted to middle finger)",
+        "laterality": null,
+        "source": [
+          "In February, 1979, one of his toes was transplanted in place of his middle finger, but this operation has not proved very successful, because it is acutely bent and cannot be straightened.",
+          "There is no real disability, or suffering, from the toe amputation."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "very little use of his hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can flex his thumb only through 45%, instead of the normal 80%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can hold a pen, writing is a laborious business",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hand serves really only as a steadying influence or fulcrum",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "disfigurement is very unsightly",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "acutely bent transplanted toe which cannot be straightened",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "can walk for an hour and run inefficiently",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "gets cramp in the calf muscles occasionally and discomfort when he stands for a long time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Disability assessed at 45% (Dr. Wedderburn)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "amputation of three fingers",
+      "toe transplantation (February 1979)",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Very limited use of the right hand (can flex thumb only to 45%, writing laborious, hand serves mainly as steadying influence); overall disability assessed at 45%.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly disfigurement of the hand and an acutely bent transplanted toe that cannot be straightened.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Can walk for an hour and runs inefficiently; occasional calf cramps and discomfort on prolonged standing.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 115000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v Leung kam-ming",
+        "neutral_citation": "1980 HKLR 657",
+        "action_number": null,
+        "injury_description": "Defined 'serious injury' category; Court held that the general range of awards in this category should be from $60,000 to $80,000.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Li Ping-sum v Chan Wai-tong and other",
+        "neutral_citation": "1984 HKLR 262",
+        "action_number": null,
+        "injury_description": "Court held that the figures in Lee Ting-lam should be increased by about 50%.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11753,
+      "output_tokens": 6552,
+      "reasoning_tokens": 4928,
+      "total_tokens": 18305
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45533.673603087664,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11753,
+      "output_tokens": 6552,
+      "reasoning_tokens": 4928,
+      "total_tokens": 18305
+    },
+    "total_duration_ms": 45533.673603087664
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 702",
+    "action_number": "DCPI 1675/2012",
+    "case_name": "CHAN NGA YIN FORMERLY KNOWN AS CHAN MEI YI SICELY v. MTR CORPORATION LTD",
+    "judgment_date": "2014-06-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 46,
+    "age_at_trial": 48,
+    "occupation_before": "Computer clerk",
+    "occupation_after": "Cashier (until end 2012); baby-sitter (from end 2013 occasionally)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "F.1"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of left distal radius",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "There was fracture of left distal radius confirmed by radiographs.",
+          "Open reduction and internal fixation were performed on 1 December 2010 under general anesthesia."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "periodical persistent pain in left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "felt numb and without energy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not lift heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty performing household chores",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain more intense when the weather changed or when she attempted to lift heavy objects",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild limitation of range of movement of left wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "handgrip was 28 kg and left hand grip was 20 kg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to orthopaedic ward at Yan Chai Hospital",
+      "open reduction and internal fixation with metallic implant in situ",
+      "out-patient follow-up at orthopaedics clinic",
+      "physiotherapy (5 sessions between 20 January and 24 February 2011)"
+    ],
+    "treatments_future": [
+      "physiotherapy for strengthening exercise for 3 months, two sessions per week (as recommended by Dr Chak)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 107,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Had difficulty performing household chores after the accident (periodical persistent pain, could not lift heavy objects)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Changed job from computer clerk to cashier because her duties included lifting heavy objects and she felt left wrist pain",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tang Shu Shek v Leung Chi Kit (t/a Leung Pui Form Mould Works) & Anor",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Hop Bing Cheung v Lam Yin Tuk trading as Ocean Fast Food & Ors",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Mehmood Khalid v Million Harvest Wharves & Logistics Limited & Ors",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yu Yixin v Leung Chi Tin Andy",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19418,
+      "output_tokens": 3613,
+      "reasoning_tokens": 2560,
+      "total_tokens": 23031
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24151.544716209173,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19418,
+      "output_tokens": 3613,
+      "reasoning_tokens": 2560,
+      "total_tokens": 23031
+    },
+    "total_duration_ms": 24151.544716209173
+  }
+}

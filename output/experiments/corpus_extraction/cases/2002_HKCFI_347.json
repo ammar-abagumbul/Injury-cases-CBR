@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 347",
+    "action_number": "HCPI 831/2000",
+    "case_name": "LEUNG SIU PING v. MAK SIN YEE AND ANOTHER",
+    "judgment_date": "2002-08-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 47,
+    "age_at_trial": 51,
+    "occupation_before": "receptionist/clerk",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": "receptionist or secretary",
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": 7000.0,
+    "education_level": "secondary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A deep lacerated wound over her right forehead and another two small lacerated wounds over her mid-forehead;",
+        "injury_type": "Temporary injury",
+        "body_part": "right forehead",
+        "laterality": "right",
+        "source": [
+          "A deep lacerated wound over her right forehead and another two small lacerated wounds over her mid-forehead;"
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Right eye was swollen and at the time of admission she was unable to open her eyelids due to periorbital haematoma;",
+        "injury_type": "Temporary injury",
+        "body_part": "right eye / periorbital area",
+        "laterality": "right",
+        "source": [
+          "Right eye was swollen and at the time of admission she was unable to open her eyelids due to periorbital haematoma;"
+        ],
+        "icd_code": "NA06.9",
+        "icd_description": "Contusion of eyeball or orbital tissues"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Whiplash injury with residual neck pain and muscle spasm;",
+        "injury_type": "Permanent injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Whiplash injury with residual neck pain and muscle spasm;"
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Cosmetic injury (scarring) reported and photographed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right eye swollen; unable to open eyelids due to periorbital haematoma",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Residual neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Muscle spasm (neck)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Hospitalisation at Caritas Medical Centre from 1999-03-07 to 1999-03-13",
+      "Further treatment at St. Paul's Hospital",
+      "Chiropractic treatment (Dr Matty Wong)",
+      "Consultation with a Chinese medical practitioner"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA awarded)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12472,
+      "output_tokens": 6975,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19447
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 55682.487059384584,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12472,
+      "output_tokens": 6975,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19447
+    },
+    "total_duration_ms": 55682.487059384584
+  }
+}

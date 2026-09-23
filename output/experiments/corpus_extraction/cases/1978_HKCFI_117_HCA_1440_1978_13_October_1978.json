@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 117; HCA 1440/1978 (13 October 1978)",
+    "action_number": "HCA001440/1978",
+    "case_name": "YIP PING KWUN T/A PING KEE AND ANOTHER v. CHOW CHI KEUNG AND ANOTHER",
+    "judgment_date": "1978-10-13",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 63,
+    "occupation_before": "bicycle repairer (fixed pitch hawker)",
+    "occupation_after": "bicycle repairer",
+    "expected_occupation_after": null,
+    "salary_before": 1300.0,
+    "salary_after": null,
+    "expected_salary_after": 1500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "abrasions and burns caused by the car exhaust pipe; healed but left scars",
+        "injury_type": "Permanent injury",
+        "body_part": "various parts of the body",
+        "laterality": null,
+        "source": [
+          "he suffered abrasions and burns caused by the car exhaust pipe. These wounds have now healed but have left a number of large and unsightly scars on various parts of the plaintiff's body. Fortunately, the scars are all covered by clothing and, in view of the fact that the plaintiff is a male who is now aged 63, there is no cosmetic injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractures of the 7th and 8th ribs on the left side of the chest",
+        "injury_type": "Permanent injury",
+        "body_part": "left side of the chest",
+        "laterality": "left",
+        "source": [
+          "the plaintiff received injury to his chest which was subsequently diagnosed as fractures of the 7th and 8th ribs on the left side of the chest. This injury has resulted in permanent disability to the plaintiff in that the expansion of his chest is now 2 inches which is about 1 inch short of the normal for a person of his age and build. This leads to shortness of breath and causes pain if ever the plaintiff takes a deep breath. Consequently, the plaintiff cannot exert himself or handle heavy labour."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "wedge fracture (crushing in the form of a wedge) to vertebra L3 with displacement of L4 and consequent instability of L2, 3 and 4",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (vertebra L3, displacement of L4, instability of L2-4)",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered a wedge fracture, that is crushing in the form of a wedge, to vertebra L3. This has led to displacement of L4 and there is a consequent instability of L2, 3 and 4. The protective mechanism of the back muscles tends to hold the plaintiff back in forward movement and restrict him slightly in other directions. There is still a 1/3 restriction of forward movement."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "large and unsightly scars on various parts of the plaintiff's body (scars covered by clothing)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "expansion of chest is now 2 inches which is about 1 inch short of the normal for a person of his age and build",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "shortness of breath and pain on taking a deep breath",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "cannot exert himself or handle heavy labour",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "protective mechanism of the back muscles tends to hold the plaintiff back in forward movement and restrict him slightly in other directions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "1/3 restriction of forward movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "plaintiff says he cannot walk or stand for more than a few minutes without feeling pain and having to take a rest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "future increasing pain and deterioration of the spine with need for spinal fusion operation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation at Tang Shiu Kin Hospital (detained for 19 days; re-admitted for 6 days)",
+      "painkillers",
+      "bonesetter treatment"
+    ],
+    "treatments_future": [
+      "operation for spinal fusion"
+    ],
+    "hospitalisation_days": 25,
+    "expected_hospitalisation_days": 30,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent disability of the chest with reduced chest expansion, shortness of breath and pain on deep breath leading to inability to exert himself or handle heavy labour",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Restriction of forward movement (1/3) and reduced ability to walk or stand for more than a few minutes without pain and needing to rest",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tseng Tien-pei v. Chan Shun-kwong and Anr.",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "circumstances similar, an operation being likely to improve the condition (whiplash nature)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 23000.0
+      },
+      {
+        "case_name": "Irene Mary Piper and Anr. v. Nancy Francis Tang",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "whiplash nature, substantial part of award for loss of amenities",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 55000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10821,
+      "output_tokens": 6693,
+      "reasoning_tokens": 4800,
+      "total_tokens": 17514
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40883.135072886944,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10821,
+      "output_tokens": 6693,
+      "reasoning_tokens": 4800,
+      "total_tokens": 17514
+    },
+    "total_duration_ms": 40883.135072886944
+  }
+}

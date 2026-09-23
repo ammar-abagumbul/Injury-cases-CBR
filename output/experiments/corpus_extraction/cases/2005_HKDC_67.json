@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 67",
+    "action_number": "DCPI 869/2004",
+    "case_name": "KAM CHI FUNG v. GLORY SUCCESS TRANSPORTATION LTD AND ANOTHER",
+    "judgment_date": "2005-05-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild tenderness at the left side of neck",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of neck",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff was upon admission to A&E Dept of Ruttonjee / Tang Shiu Kin Hospital found to have mild tenderness at the left side of neck and right shin."
+        ],
+        "icd_code": "NA20.Z",
+        "icd_description": "Superficial injury of neck, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild tenderness at the right shin",
+        "injury_type": "Temporary injury",
+        "body_part": "right shin",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff was upon admission to A&E Dept of Ruttonjee / Tang Shiu Kin Hospital found to have mild tenderness at the left side of neck and right shin."
+        ],
+        "icd_code": "NC90.Z",
+        "icd_description": "Superficial injury of knee or lower leg, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "bruising and tenderness at the scafnoid area of his right wrist and pain maximum on adduction of his right wrist",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "“There was tenderness at the left side of his neck and pain on moving the neck. There was bruising and tenderness at the scafnoid area of his right wrist and pain maximum on adduction of his right wrist”."
+        ],
+        "icd_code": "NC51.10",
+        "icd_description": "Contusion of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Mild tenderness at the left side of neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain on moving the neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild tenderness at the right shin",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Bruising at the scafnoid area of right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Tenderness at the scafnoid area of right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Pain maximum on adduction of right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Improving symptoms and signs / gradual improvement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to A&E Dept of Ruttonjee / Tang Shiu Kin Hospital; treated and discharged",
+      "Consultations with private physician Dr. Liu Lai Hang, Julian (visits on 15 Sep 2003, 22 Sep 2003, 30 Sep 2003 and 10 Oct 2003)",
+      "Sick leave recommended/issued on multiple occasions (initially \"Sick leave of 5 days was recommended that is from 9 – 15 September 2003\", then seven further days on 15 September 2003, one week on 22 September 2003, one week on 30 September 2003, and one week on 10 October 2003)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Chan San Clement v. Opex Limited trading as Dragon Food snacks Shop & Another",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12372,
+      "output_tokens": 6499,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18871
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38690.22041559219,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12372,
+      "output_tokens": 6499,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18871
+    },
+    "total_duration_ms": 38690.22041559219
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 813",
+    "action_number": "HCPI 924/2004",
+    "case_name": "LAM HUNG YUI v. MUCK YUN CHUNG FORMERLY KNOWN AS CHUNG KEE ELECTRICAL WORKS",
+    "judgment_date": "2007-08-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 29,
+    "age_at_trial": 35,
+    "occupation_before": "painting/decoration worker",
+    "occupation_after": "car park attendant",
+    "expected_occupation_after": null,
+    "salary_before": 7800.0,
+    "salary_after": 7200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of right radial head (right elbow fracture); open fracture reduction and internal fixation was done for the right elbow fracture; post-traumatic degeneration of the elbow joint; calcification of medial side soft tissue; 2 screws were left inside radial head.",
+        "injury_type": "Permanent injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray showed fracture of right radial head (right elbow fracture) and left distal radius (left wrist fracture). Open fracture reduction and internal fixation was done for the right elbow fracture while close reduction and external fixator was applied to the fracture left distal radius on 28 November 2002.",
+          "Fracture radial head healed up with good alignment.",
+          "Degenerative changes of elbow joint were noticed.",
+          "Calcification of medial side soft tissue was detected.",
+          "2 screws were left inside radial head.",
+          "In relation to the left wrist fracture, Dr. Tsoi observed that was a solid union. The wrist has recovered to a maximal medical improvement and no further treatment is required."
+        ],
+        "icd_code": "NC32.1",
+        "icd_description": "Fracture of upper end of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of left distal radius (left wrist fracture); closed reduction and external fixator was applied; mildly deformed distal radius; deformed ulnar styloid suggestive of previous trauma; 4 stab scars for external fixator pin insertion.",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "X-ray showed fracture of right radial head (right elbow fracture) and left distal radius (left wrist fracture). Open fracture reduction and internal fixation was done for the right elbow fracture while close reduction and external fixator was applied to the fracture left distal radius on 28 November 2002.",
+          "Mildly deformed distal radius.",
+          "Alignment and length were preserved.",
+          "Distal Radio-Ulnar Joint was unremarkable.",
+          "Deformed ulnar styloid suggestive of previous trauma.",
+          "4 stab scars along distal radius and 2nd metacarpal for external fixator pin insertion.",
+          "In relation to the left wrist fracture, Dr. Tsoi observed that was a solid union. The wrist has recovered to a maximal medical improvement and no further treatment is required."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain during change of weather.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Deformed elbow joint.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Soreness over forearm muscle.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness over ulnar side of right forearm and little finger.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakened strength of elbow.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness (left wrist).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Soreness upon change of weather (left wrist).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Weakened grip strength.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tenderness over Distal Radio-Ulnar Joint.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Subjective impaired sensation over ulnar side of distal forearm and little finger; motor function of ulnar nerve was unaffected.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "7 cm surgical scar over lateral side, tender.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Absence of soft tissues swelling (right elbow).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Absence of residual soft tissue swelling (left wrist).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "2 screws were left inside radial head.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Degenerative changes of elbow joint were noticed.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital treatment at Pamela Youde Nethersole Eastern Hospital",
+      "open fracture reduction and internal fixation (right elbow)",
+      "closed reduction and external fixator (left distal radius)",
+      "removal of external fixator",
+      "outpatient treatments",
+      "physiotherapy (attended twice)",
+      "bone setter treatments (Mainland)"
+    ],
+    "treatments_future": [
+      "transposing the ulnar nerve (possible future operation if sensory disturbance progressed or ulnar nerve motor dysfunction developed)"
+    ],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 180
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Soreness, pain, stiffness and numbness at the right elbow and left wrist.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "May encounter some difficulty in resuming his pre-injury job as he may have inconvenience in lifting up heavy objects and performing drilling/hammering work; lighter duty work like carpark attendant and restaurant waiter etc are more suitable for the Plaintiff.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Shing Kwai v Chan Yu Chuen",
+        "neutral_citation": "HCPI 923/2001",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11738,
+      "output_tokens": 6244,
+      "reasoning_tokens": 4224,
+      "total_tokens": 17982
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45672.43993282318,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11738,
+      "output_tokens": 6244,
+      "reasoning_tokens": 4224,
+      "total_tokens": 17982
+    },
+    "total_duration_ms": 45672.43993282318
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 54",
+    "action_number": "HCPI 304/2006",
+    "case_name": "TANG HUNG ON v. CROWN RICH TRANSPORTATION LTD AND OTHERS",
+    "judgment_date": "2010-01-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "articulated cement tanker truck driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13268.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mr Tang’s right leg was struck by a pressurised rubber hose which had become detached from his cement tanker in the course of discharging a load of dry cement from the tanker into a silo at a concrete batching plant in Tuen Mun.",
+        "injury_type": "Residual disability",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "Mr Tang’s right leg was struck by a pressurised rubber hose which had become detached from his cement tanker in the course of discharging a load of dry cement from the tanker into a silo at a concrete batching plant in Tuen Mun.",
+          "the delivery hose struck Mr Tang’s right leg causing him the injury, the subject of these proceedings."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "real risk of osteoarthritis",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "medical treatment",
+      "rehabilitation"
+    ],
+    "treatments_future": [
+      "fusion of the ankle joint (surgery)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earnings of $752,309.30",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of MPF contribution of $37,615.46",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of earnings of $430,584.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of MPF contribution of $21,529.20",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity for 12 months of $132,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Allowance for future medical expenses for fusion of the ankle joint of $75,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Rehabilitation period loss of earnings of $42,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Hospitalisation fee, medical expenses, and travelling expenses totalling $12,840.00",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10601,
+      "output_tokens": 4255,
+      "reasoning_tokens": 3200,
+      "total_tokens": 14856
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27934.00252982974,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10601,
+      "output_tokens": 4255,
+      "reasoning_tokens": 3200,
+      "total_tokens": 14856
+    },
+    "total_duration_ms": 27934.00252982974
+  }
+}

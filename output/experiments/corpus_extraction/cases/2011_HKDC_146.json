@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 146",
+    "action_number": "DCPI 2398/2009",
+    "case_name": "GAUCHAN SOM PRASAD v. HIN WAH CONSTRUCTION CO LTD AND ANOTHER",
+    "judgment_date": "2011-07-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 64,
+    "occupation_before": "general labourer / construction site worker",
+    "occupation_after": "cleaner",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 5500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "spondylolisthesis of L5/S1 level",
+        "injury_type": "Permanent injury",
+        "body_part": "L5/S1 / lumbar spine",
+        "laterality": null,
+        "source": [
+          "X-ray examination showed that the Plaintiff suffered from spondylolisthesis of L5/S1 level and degenerative changes in the lumbar spine."
+        ],
+        "icd_code": "NB53.1",
+        "icd_description": "Dislocation of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative changes in the lumbar spine",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "X-ray examination showed that the Plaintiff suffered from spondylolisthesis of L5/S1 level and degenerative changes in the lumbar spine."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "constant back pain which is worse in the morning and better after some movement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain when the Plaintiff walks on uneven ground or on a slope",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty in walking for long distance without a walking stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain radiating down to the front and the back of the right leg 2 to 3 times a day and lasting from 5 to 10 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty in squatting and inability to run",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "inability to lift weights of more than 10-12 kilograms",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The Plaintiff is still taking painkiller twice a day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medical treatment at Government clinic",
+      "painkillers"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Constant back pain, difficulty walking on uneven ground or slopes, need for a walking stick for long distances, difficulty squatting, inability to run and inability to lift more than 10-12 kilograms.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Inability to run and restriction from physical recreational activities due to back pain and functional limitation.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 220000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mohammed Shakil v Lam Siu Kwong",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 610 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chung Keung v Greenroll Ltd. t/a Conrad Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 275 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15608,
+      "output_tokens": 5822,
+      "reasoning_tokens": 4480,
+      "total_tokens": 21430
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47417.131308466196,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15608,
+      "output_tokens": 5822,
+      "reasoning_tokens": 4480,
+      "total_tokens": 21430
+    },
+    "total_duration_ms": 47417.131308466196
+  }
+}

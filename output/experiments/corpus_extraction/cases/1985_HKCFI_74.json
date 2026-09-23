@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 74",
+    "action_number": "HCA 8498/1983",
+    "case_name": "LAW SAI LEUNG v. HO CHAI MAN AND ANOTHER",
+    "judgment_date": "1985-02-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Jobbing carpenter (carpentry)",
+    "occupation_after": "Hawker (vegetable hawker) from November 1984",
+    "expected_occupation_after": null,
+    "salary_before": 3000.0,
+    "salary_after": 750.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The tyre crushed the outer half of the plaintiff's right foot. He underwent three operations. The first was to remove the damaged tissue. This included the whole of the fourth and fifth toes, and the metatarsal of the third toe. The second and third operations were skin grafts. Visually it looks as though a large bite has been taken out of this foot. It is much narrowed leaving only two effective toes. There is very little movement in the foot or the ankle.",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "The tyre crushed the outer half of the plaintiff's right foot. He underwent three operations. The first was to remove the damaged tissue. This included the whole of the fourth and fifth toes, and the metatarsal of the third toe. The second and third operations were skin grafts. Visually it looks as though a large bite has been taken out of this foot. It is much narrowed leaving only two effective toes. There is very little movement in the foot or the ankle."
+        ],
+        "icd_code": "ND19.7",
+        "icd_description": "Traumatic amputation of two or more toes"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "There is very little movement in the foot or the ankle.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He can walk, but with a limp consistent with the weakness and lack of flexibility in the foot.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Running, and the pre-accident games the plaintiff enjoyed, are out.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He is liable to get pain and cramps after prolonged use.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He cannot do the sort of things which involve putting a particular strain on the foot, for example climbing ladders or carrying heavy weights.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dr. Wedderburn puts the impairment of the whole man at 16%; Dr. Horsfall at 18%.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Surgical removal of damaged tissue including amputation of whole of fourth and fifth toes and the metatarsal of the third toe",
+      "Skin grafts (two operations)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of the whole of the fourth and fifth toes and the metatarsal of the third toe; foot much narrowed leaving only two effective toes.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Very little movement in the foot or the ankle; walks with a limp.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Running and the pre-accident games the plaintiff enjoyed are out.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-accident employment involving climbing ladders and carrying weights is not open to him; competitive market likely to force him to accept a discount from the basic monthly rate.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 95000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v. Leung Kam Ming",
+        "neutral_citation": "(1980) HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10025,
+      "output_tokens": 4447,
+      "reasoning_tokens": 3072,
+      "total_tokens": 14472
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23638.32549750805,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10025,
+      "output_tokens": 4447,
+      "reasoning_tokens": 3072,
+      "total_tokens": 14472
+    },
+    "total_duration_ms": 23638.32549750805
+  }
+}

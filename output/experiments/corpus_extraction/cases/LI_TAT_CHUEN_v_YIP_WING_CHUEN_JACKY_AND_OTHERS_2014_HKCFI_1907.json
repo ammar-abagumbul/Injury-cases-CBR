@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "LI TAT CHUEN v. YIP WING CHUEN JACKY AND OTHERS [2014] HKCFI 1907",
+    "action_number": "HCPI 581/2011",
+    "case_name": "LI TAT CHUEN v. YIP WING CHUEN JACKY AND OTHERS",
+    "judgment_date": "2014-10-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 56,
+    "occupation_before": "taxi driver",
+    "occupation_after": "property guard",
+    "expected_occupation_after": null,
+    "salary_before": 15000.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "neck sprain injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the diagnosis was neck sprain injury with prolapsed intervertebral disc at C4/5 and C5/6."
+        ],
+        "icd_code": "NA23.4Y",
+        "icd_description": "Other specified strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "disc protrusion at C4/5 and C5/6",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "MRI scan on 28 December 2010 which showed disc protrusion at C4/5 and C5/6 and narrowing of the disc at C4/5."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild pre‑existing degenerative condition of cervical spondylosis",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "both experts agreed that there was mild pre‑existing degenerative condition of cervical spondylosis."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post‑traumatic stress disorder and depression",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The diagnosis was that he suffered from post‑traumatic stress disorder and depression."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness to his limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of the range of motion of his neck",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reoccurring nightmares",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "avoiding going to the scene of the accident and a high degree of anxiety when asked to drive",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "social withdrawal",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "poor concentration and memory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "unable to drive due to neck pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion in rotation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "hospitalisation",
+      "MRI scan",
+      "driving assessment",
+      "pain clinic attendance",
+      "psychiatric and psychological treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 715,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities awarded for neck sprain and associated psychological effects",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 175000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16573,
+      "output_tokens": 6520,
+      "reasoning_tokens": 4992,
+      "total_tokens": 23093
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33053.187660872936,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16573,
+      "output_tokens": 6520,
+      "reasoning_tokens": 4992,
+      "total_tokens": 23093
+    },
+    "total_duration_ms": 33053.187660872936
+  }
+}

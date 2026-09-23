@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 184",
+    "action_number": "DCPI 158/2007",
+    "case_name": "CHEUNG YIU KWONG v. YU WING HONG",
+    "judgment_date": "2008-06-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "daytime decoration worker and night time pizza deliveryman (self-employed since October 2004)",
+    "occupation_after": "resumed work as pizza deliveryman and occasional courier contractor after the sick leave",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Left knee laceration/soft tissue injury with tenderness and swelling; residual mild soft tissue residue",
+        "injury_type": "Residual disability",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "Upon admission to the Prince of Wales Hospital (PWH), he was found to have injured his left knee. There was tenderness, swelling and a 2-cm laceration. There was no effusion or fracture. Range of movement was normal. He was discharged after the wound was sutured.",
+          "the experts agreed that Cheung has made a remarkable recovery with only a mild soft tissue residue of left knee laceration secondary to the accident."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Right shoulder contusion (fully recovered)",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The experts considered that Cheung has fully recovered from his right shoulder contusion."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his left knee, especially when walking along staircases.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness and swelling of left knee with a 2-cm laceration",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild intermittent residual symptoms in the left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to resume soccer game or fitness training, his favourite pastime before the accident.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has become unable to resume his alleged pre-accident daytime job at all and was only able to resume work as pizza deliveryman and occasional courier contractor after the sick leave.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right shoulder pain (contusion) - resolved",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "wound suturing",
+      "analgesics",
+      "physiotherapy",
+      "quadriceps exercise recommended"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 184,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "pain in his left knee, especially when walking along staircases.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "he has become unable to resume soccer game or fitness training, his favourite pastime before the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "he has become unable to resume his alleged pre-accident daytime job at all and was only able to resume work as pizza deliveryman and occasional courier contractor after the sick leave.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Kwok Wing Ming v Wong Lin Lung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1341/1996",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Man Ying Chu v Leung Kwok Wing",
+        "neutral_citation": null,
+        "action_number": "HCPI 1062/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Po Chun v Yat Lee Booth-Construction Co Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 1099/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ko Kam Wai v Sze Hak Fung t/s Chung Fung Company & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 292/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12450,
+      "output_tokens": 5227,
+      "reasoning_tokens": 3584,
+      "total_tokens": 17677
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32800.68118870258,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12450,
+      "output_tokens": 5227,
+      "reasoning_tokens": 3584,
+      "total_tokens": 17677
+    },
+    "total_duration_ms": 32800.68118870258
+  }
+}

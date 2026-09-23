@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 646",
+    "action_number": "HCPI 566/2006",
+    "case_name": "SO MAN v. SO TING T/A FUNG KEE WASTE WOODEN & METAL COLLECTION CO",
+    "judgment_date": "2007-06-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 47,
+    "age_at_trial": null,
+    "occupation_before": "foreman (at a scrapyard)",
+    "occupation_after": null,
+    "expected_occupation_after": "lighter work (messenger, car park attendant or security guard)",
+    "salary_before": 31250.0,
+    "salary_after": null,
+    "expected_salary_after": 15000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The Plaintiff suffered a sprain injury to his back. The MRI scan showed a disc prolapse with bilateral nerve root compression at L4/5. Both Dr Lau and Dr Wong ... agreed that unsurprisingly for a 47-year old, the Plaintiff suffers from a pre-existing degeneration of the spine.",
+        "injury_type": "Residual disability",
+        "body_part": "back (L4/5)",
+        "laterality": null,
+        "source": [
+          "The Plaintiff suffered a sprain injury to his back. The MRI scan showed a disc prolapse with bilateral nerve root compression at L4/5. In 2000 and 2002, he had also sprained his back but on each occasion it recovered following a period of rest. Both Dr Lau and Dr Wong, the orthopaedic specialists retained by the parties, agreed that unsurprisingly for a 47-year old, the Plaintiff suffers from a pre-existing degeneration of the spine."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain described as mild to moderate (4 to 5 on a scale of 10)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to return to pre-accident employment / cannot be recommended to return to pre-accident employment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "painkillers"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Intermittent pain and reduced function of his back following the sprain and disc prolapse with nerve root compression at L4/5.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his pre-accident employment as a foreman and forced to consider lighter work such as messenger, car park attendant or security guard.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10174,
+      "output_tokens": 2920,
+      "reasoning_tokens": 2176,
+      "total_tokens": 13094
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23599.549554288387,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10174,
+      "output_tokens": 2920,
+      "reasoning_tokens": 2176,
+      "total_tokens": 13094
+    },
+    "total_duration_ms": 23599.549554288387
+  }
+}

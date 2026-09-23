@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 343",
+    "action_number": "DCPI 2318/2006",
+    "case_name": "MA CHAK YAU v. CHAN WAI MAN AND ANOTHER",
+    "judgment_date": "2007-10-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to his low back as a result of the Accident on 20 October 2004.",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "By reason of the Accident, the Plaintiff has suffered injury to his low back."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Back injury in 1999 from slipping and falling at the Racecourse (pre-existing).",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "The Plaintiff suffered a back injury in 1999, when he slipped and fell at the Racecourse."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He feels pain in his low back from time to time on a daily basis.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He feels stiffness and pain in his low back when he tries to bend down when standing.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He could not bend down much.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He feels pain when the weather changes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He feels pain if he sleeps in a bad position, and needs to change position to ease the pain.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "If he walks for more than an hour, his legs would feel tired with ache.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He cannot lift heavy things because of the back pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "After the Accident, the Plaintiff has also stopped going for morning exercise and swimming as he used to do.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Hospitalisation at Prince of Wales Hospital for 4 days",
+      "Painkillers",
+      "Walking frame (used after initial days)",
+      "Physiotherapy assessment on 25 October 2004 (no follow-up sessions attended)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (general damages) awarded at HK$80,000. The Plaintiff's pain and disabilities are about 20% more than those he had been suffering from before the Accident; that 20% increase is a result of the back injury suffered by reason of the Accident.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kwei Duen v East Country Company Ltd t/a Gold River Vietnamese Food Shop",
+        "neutral_citation": null,
+        "action_number": "DCPI 665/2005",
+        "injury_description": "Mild displaced fracture of the coccygeal spur; back pain for over 9 months and still had discomfort at the injured area.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Fung Yuet Hing v Mok Sun",
+        "neutral_citation": null,
+        "action_number": "DCPI 1706/2006",
+        "injury_description": "Injured in left forehead, left neck and occiput; sick leave for 6 weeks and attended 10 physiotherapy sessions.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 42,
+        "comparison": "more serious",
+        "psla_amount": 160000.0
+      },
+      {
+        "case_name": "Wong Shuk Lei v Leung Ming Kwong",
+        "neutral_citation": null,
+        "action_number": "DCPI 560/2005",
+        "injury_description": "Low back pain and injury to face; substantial decrease in range of motion of lumbar spine.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Yau Shui Ming v Excellent Development Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 147/2002",
+        "injury_description": "Chef suffered injury to his back with persistent back pain, limited range of motion and numbness.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v The Kwoloon Motor Bus Company (1933) Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 755/2001",
+        "injury_description": "Plaintiff injured his low back with tenderness at lumbar and sacral region and reduced movement of the back.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10280,
+      "output_tokens": 5292,
+      "reasoning_tokens": 3520,
+      "total_tokens": 15572
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34354.10011932254,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10280,
+      "output_tokens": 5292,
+      "reasoning_tokens": 3520,
+      "total_tokens": 15572
+    },
+    "total_duration_ms": 34354.10011932254
+  }
+}

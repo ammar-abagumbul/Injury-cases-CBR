@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 1426",
+    "action_number": "HCPI 233/2000",
+    "case_name": "CHIU AH TUNG v. TANG CHUNG CHUEN AND OTHERS",
+    "judgment_date": "2002-02-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Managing a joint venture business named Shenzhen Natural Cosmetic Beauty Co. Ltd.; Legal Representative of the Shenzhen Co.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "posterior dislocation of the left hip associated with fracture of the posterior lip of the acetabulum and the antero-inferior part of the femoral head.",
+        "injury_type": "Permanent injury",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "The plaintiff suffered from a posterior dislocation of the left hip associated with fracture of the posterior lip of the acetabulum and the antero-inferior part of the femoral head."
+        ],
+        "icd_code": "NC79",
+        "icd_description": "Multiple injuries of hip or thigh"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "undisplaced crack fracture at the neck of the right humerus.",
+        "injury_type": "Temporary injury",
+        "body_part": "neck of right humerus",
+        "laterality": "right",
+        "source": [
+          "There was also an undisplaced crack fracture at the neck of the right humerus."
+        ],
+        "icd_code": "NC12.21",
+        "icd_description": "Fracture of surgical neck of humerus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Physical handicap reducing ability to travel in and out of Hong Kong to the Mainland and to various parts of the Mainland with the same agility as before.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Hospitalised and incapacitated for a long time; unable to travel to the Mainland to oversee the company during convalescence.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Closed reduction of the hip dislocation (26 November 1998)",
+      "Insertion of Steinmann pin into the left proximal tibia to facilitate skeletal traction (26 November 1998)",
+      "Open reduction and internal fixation of the acetabular hip fracture (1 December 1998)",
+      "Excision of the femoral head fragment (1 December 1998)",
+      "In-patient and out-patient medical treatment",
+      "Acupuncture",
+      "Bonesetter treatment",
+      "Herbal medicine"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 250,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Not able to travel in and out of Hong Kong to the Mainland and to various parts of the Mainland with the same agility as before.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Handicap in the employment market (assessed at $100,000).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12551,
+      "output_tokens": 5391,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17942
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30599.201526492834,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12551,
+      "output_tokens": 5391,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17942
+    },
+    "total_duration_ms": 30599.201526492834
+  }
+}

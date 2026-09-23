@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 139",
+    "action_number": "HCPI 628/2002",
+    "case_name": "NG KOON KI PETER v. HILTI (HONG KONG) LTD AND ANOTHER",
+    "judgment_date": "2004-03-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 40,
+    "age_at_trial": 45,
+    "occupation_before": "Anchor testing technician (Hilti); previously collected accounts",
+    "occupation_after": "Unable to undertake work on construction sites; able to undertake indoor office work such as assistant messenger or office assistant",
+    "expected_occupation_after": "Indoor office work (assistant messenger/office assistant)",
+    "salary_before": 12491.0,
+    "salary_after": 9000.0,
+    "expected_salary_after": 9000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Prolapse of intervertebral disc at L4/5 (disc prolapse) with nerve root impression",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "sprained back causing a prolapse of his intervertebral disc at L4/5.",
+          "acute prolapsed disc with nerve root impression."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "When he sits or walks for more than 20 minutes, or sits up from a lying position, he feels pain over his back.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Feelings of stiffness and numbness radiate from his back down his buttock to his left leg.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has weakness in his back and left lower limb.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The pain radiates down from his left buttock to his heel and associates with numbness over the back of the calf and the sole of his foot.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Will be unable to perform heavy manual work; back pain will be triggered by frequent bending which will prevent him from climbing activities.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency treatment at United Christian Hospital",
+      "physiotherapy",
+      "medical treatment by doctors",
+      "sick leave"
+    ],
+    "treatments_future": [
+      "spinal surgery to relieve symptoms"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "will be unable to perform heavy manual work; his back pain will be triggered by frequent bending which will prevent him from climbing activities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "pain and suffering and loss of enjoyment of life",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12112,
+      "output_tokens": 3899,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16011
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37067.07354635,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12112,
+      "output_tokens": 3899,
+      "reasoning_tokens": 3136,
+      "total_tokens": 16011
+    },
+    "total_duration_ms": 37067.07354635
+  }
+}

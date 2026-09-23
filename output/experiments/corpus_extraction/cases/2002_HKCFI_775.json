@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 775",
+    "action_number": "HCPI 804/2001",
+    "case_name": "LI KWOK LO v. CAFÉ DE CORAL HOLDINGS LIMITED",
+    "judgment_date": "2002-11-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 47,
+    "age_at_trial": 51,
+    "occupation_before": "supervisor",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9340.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "superior labrum lesion and small tear of rotator cuffs of right shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "superior labrum lesion and small tear of rotator cuffs of right shoulder"
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to her right shoulder and neck area which had led to reflex sympathetic dystrophy",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder and neck area",
+        "laterality": "right",
+        "source": [
+          "injury to her right shoulder and neck area which had led to reflex sympathetic dystrophy"
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "some oedema of supra-spinatus tendon which might be due to tendinitis",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "some oedema of supra-spinatus tendon which might be due to tendinitis"
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right shoulder pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right hand tremor",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Constant tremors in her right index finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tenderness when the arm was palpated",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Severe pain at the end range of her right shoulder movement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild end range shoulder movement limitation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness along the spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department visit on the day of the accident",
+      "right shoulder arthroscopic surgery, including debridement, carried out at the Prince of Wales Hospital on 1999-12-02",
+      "physiotherapy (ongoing, weekly)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "she might not be able to return to her former job",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "unable to perform most household duties",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 360000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung On & Anor v. Chan Pui Ki (an infant)",
+        "neutral_citation": "[1996] 2 HKC",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15580,
+      "output_tokens": 7592,
+      "reasoning_tokens": 6208,
+      "total_tokens": 23172
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48984.28114876151,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15580,
+      "output_tokens": 7592,
+      "reasoning_tokens": 6208,
+      "total_tokens": 23172
+    },
+    "total_duration_ms": 48984.28114876151
+  }
+}

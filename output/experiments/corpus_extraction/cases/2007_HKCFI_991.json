@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 991",
+    "action_number": "HCPI 582/2005",
+    "case_name": "TONG KAI WING v. CHENG WAI LUN ALAN AND ANOTHER",
+    "judgment_date": "2007-09-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 58,
+    "age_at_trial": 62,
+    "occupation_before": "casual manual labour (sand spraying/unloading)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "His occipital bone sustained a fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "occipital bone",
+        "laterality": null,
+        "source": [
+          "His occipital bone sustained a fracture"
+        ],
+        "icd_code": "NA02.Y",
+        "icd_description": "Fracture of other specified skull or facial bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-concussion syndrome",
+        "injury_type": "Temporary injury",
+        "body_part": "head (concussion)",
+        "laterality": null,
+        "source": [
+          "he suffered post-concussion syndrome"
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusions of the left shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "He also injured his left shoulder. As a result he suffered contusions"
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "decrease in neck movement and tenderness in the upper spine",
+        "injury_type": "Temporary injury",
+        "body_part": "neck / upper spine",
+        "laterality": null,
+        "source": [
+          "some decrease in neck movement and tenderness in the upper spine"
+        ],
+        "icd_code": "NA23.41",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "\"frozen shoulder\" (diagnosed over a year after the accident)",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "one year after the accident the plaintiff was diagnosed with a “frozen shoulder”"
+        ],
+        "icd_code": "NC16",
+        "icd_description": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "momentary loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "post-traumatic amnesia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "some decrease in neck movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "tenderness in the upper spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "extreme pain on even slight movement of the arm and shoulder (frozen shoulder)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "unable to work / unfit to work because of frozen shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity (PSLA awarded)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13646,
+      "output_tokens": 7293,
+      "reasoning_tokens": 6080,
+      "total_tokens": 20939
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45013.951640576124,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13646,
+      "output_tokens": 7293,
+      "reasoning_tokens": 6080,
+      "total_tokens": 20939
+    },
+    "total_duration_ms": 45013.951640576124
+  }
+}

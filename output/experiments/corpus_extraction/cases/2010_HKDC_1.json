@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 1",
+    "action_number": "DCPI 2342/2008",
+    "case_name": "LEE PO FOON v. AU CHI KIN",
+    "judgment_date": "2010-01-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "clerk at the dental clinic of North District Hospital (civil servant)",
+    "occupation_after": null,
+    "expected_occupation_after": "clerk at the dental clinic of North District Hospital",
+    "salary_before": 14990.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head injury",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The doctor recorded a diagnosis of minor head injury, she was given symptomatic treatment and the prognosis was ‘good with minimal permanent disability’."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right forehead haematoma",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": "right",
+        "source": [
+          "The record of finding on admission revealed she suffered from right forehead haematoma."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "retrograde amnesia",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "she was found to have retrograde amnesia on arrival to the Accident and Emergency Department."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post concussional disorder",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "post concussional disorder with impairment in cognitive functioning accompanied by specific neuro behavioural symptoms that occurred as a consequence of closed head injury concussion."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "minor neck sprain with soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "had a neck injury at the accident which should be a minor neck sprain with soft tissue injury which had recovered at the time of examination;"
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "scapular pain due to a sprain or contusion of the region",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "scapular pain due to a sprain or contusion of the region during the accident. No sign of shoulder joint involvement found."
+        ],
+        "icd_code": "NC13.8",
+        "icd_description": "Strain or sprain of other or unspecified parts of shoulder girdle"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "contusion in the right shoulder and thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder and right thigh",
+        "laterality": "right",
+        "source": [
+          "Madam Lee complained that she had suffered contusion in the right shoulder and thigh and whiplash in the cervical spine at the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "post-traumatic temporomandibular disorders (TMD); TMJ derangement with anterior disc displacement on the right side",
+        "injury_type": "Residual disability",
+        "body_part": "temporomandibular joint / lower jaw",
+        "laterality": "right",
+        "source": [
+          "Dr. Chow diagnosed she was suffering from post-traumatic temporomandibular disorders (TMD).",
+          "TMJ derangement with anterior disc displacement on the right side. Diagnostic arthroscopy was suggested ….… preferred to continue with the conservative treatment."
+        ],
+        "icd_code": "NA03.Y",
+        "icd_description": "Dislocation or sprain of other specified joints or ligaments of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "retrograde amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "depression / relapse of dysthymic disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "sleep problems / insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "poor memory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "difficulty in concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "anxiety when traveling in motor vehicles",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "TMJ clicking and recurrent facial pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Prince of Wales Hospital neurological ward",
+      "accident and emergency examination",
+      "physiotherapy (29 sessions recorded orthopaedically; additional physiotherapy at Union Hospital and hydrotherapy)",
+      "acupuncture (20 sessions)",
+      "bonesetter's treatments (15 sessions)",
+      "botox injection to the right and left masseter muscles",
+      "MRI scan of TMJ",
+      "orthopaedic consultations",
+      "psychiatric consultations",
+      "private psychiatric consultation",
+      "hydrotherapy"
+    ],
+    "treatments_future": [
+      "monthly psychological treatment for 12 months (recommended by Dr. Chung)"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 387,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "she developed poor marital relationship with her husband.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "had to hire a helper on Sundays, the day her domestic helper was on leave.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain and suffering caused by the traffic accident and the post-concussional disorder which had triggered a relapse of the dysthymic disorder indicated her suffering and loss of amenities to be of a more serious nature.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsoi Wing Tak v. Lau Sze Ni",
+        "neutral_citation": null,
+        "action_number": "HCPI 926 of 2005",
+        "injury_description": "27 year old plaintiff suffered chest contusion and a whiplash injury; wore a neck brace for 6 months; pain over chest, back and neck.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Chan Ka Ming v. Lee Wai Kong",
+        "neutral_citation": null,
+        "action_number": "DCPI 1478 of 2005",
+        "injury_description": "tenderness over right knee, neck and cervical spine; persistent pain on neck and lower back and weakness of the right limb; 14 months sick leave.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 420,
+        "comparison": null,
+        "psla_amount": 160000.0
+      },
+      {
+        "case_name": "Yau Kwok Yue v. Dong Shu Kei Beau",
+        "neutral_citation": null,
+        "action_number": "HCPI 923/2000",
+        "injury_description": "35 year old plaintiff sustained injuries to his head and back; 19 months after attack still suffering from depressed mood, poor sleep, lacking in concentration and interests; diagnosed with post-traumatic disorder, post concussional syndrome and depressive disorder.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 570,
+        "comparison": null,
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "Joan Carol Boivin v. Wong King Yin and anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 195/2000",
+        "injury_description": "35 year old plaintiff received a severe 'whiplash' injury to her neck and back; psychiatrist diagnosed post-traumatic disorder, post-concussional syndrome and depressive disorder.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 475000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18550,
+      "output_tokens": 12694,
+      "reasoning_tokens": 9792,
+      "total_tokens": 31244
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 68372.5927323103,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18550,
+      "output_tokens": 12694,
+      "reasoning_tokens": 9792,
+      "total_tokens": 31244
+    },
+    "total_duration_ms": 68372.5927323103
+  }
+}

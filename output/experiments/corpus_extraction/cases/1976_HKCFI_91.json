@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "neutral_citation": "[1976] HKCFI 91",
+    "action_number": "HCPI 2957/1975",
+    "case_name": "YEUNG YUK KEE v. KONG TSING BOR",
+    "judgment_date": "1976-07-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "night-club hostess",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The proximal phalanx (i.e. the bone of the finger nearest the hand) of each finger of the plaintiff's right hand was fractured.",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand (proximal phalanges of each finger)",
+        "laterality": "right",
+        "source": [
+          "The proximal phalanx (i.e. the bone of the finger nearest the hand) of each finger of the plaintiff's right hand was fractured."
+        ],
+        "icd_code": "NC53.7",
+        "icd_description": "Multiple fractures of fingers"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A 1\" wound on the index finger was also repaired.",
+        "injury_type": "Temporary injury",
+        "body_part": "index finger (right)",
+        "laterality": "right",
+        "source": [
+          "A 1\" wound on the index finger was also repaired."
+        ],
+        "icd_code": "NC52.0Z",
+        "icd_description": "Open wound of finger or thumb, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the plaintiff has stiffness of all 3 joints of all 4 fingers. Her fingers cannot be straightened or clenched into a full grip.",
+        "injury_type": "Residual disability",
+        "body_part": "right hand (all 4 fingers)",
+        "laterality": "right",
+        "source": [
+          "the plaintiff has stiffness of all 3 joints of all 4 fingers. Her fingers cannot be straightened or clenched into a full grip."
+        ],
+        "icd_code": "NC57.6",
+        "icd_description": "Injury of multiple flexor muscles or tendons at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "hand remained painful and swollen for a month or two",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of all 3 joints of all 4 fingers",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "fingers cannot be straightened or clenched into a full grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "she still had pain ... to ease the pain she was still suffering after the K-wires were removed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation and fractures fixed by K-wire",
+      "repair of 1\" wound on the index finger",
+      "bandaging until wire removal",
+      "K-wire removal",
+      "follow-up hospital attendances (3 occasions)",
+      "consultation with a bonesetter (from 2nd May to 2nd December, 1975)"
+    ],
+    "treatments_future": [
+      "regular and persistent physiotherapy over a period of 6 months (recommended by Dr. Fu)"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10524,
+      "output_tokens": 6109,
+      "reasoning_tokens": 4864,
+      "total_tokens": 16633
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30388.112727552652,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10524,
+      "output_tokens": 6109,
+      "reasoning_tokens": 4864,
+      "total_tokens": 16633
+    },
+    "total_duration_ms": 30388.112727552652
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 330",
+    "action_number": "HCPI 269/2004",
+    "case_name": "LAU KWAI KWONG v. YIU WING CONSTRUCTION CO LTD AND ANOTHER",
+    "judgment_date": "2005-04-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "plasterer",
+    "occupation_after": "toll-collector, security guard or a worker in a gas filing station",
+    "expected_occupation_after": "toll-collector, security guard or a worker in a gas filing station",
+    "salary_before": 15400.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": 8000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the right distal radius (fixed with open reduction and plating).",
+        "injury_type": "Permanent injury",
+        "body_part": "right distal radius",
+        "laterality": "right",
+        "source": [
+          "he suffered an injury to his right distal radius when struck by a falling object on a building site.",
+          "The radius fracture was fixed with an open reduction and plating."
+        ],
+        "icd_code": "NC32.5",
+        "icd_description": "Fracture of lower end of radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Dislocation of the distal radio-ulnar joint (transfixed with a metal wire).",
+        "injury_type": "Permanent injury",
+        "body_part": "distal radio-ulnar joint / forearm",
+        "laterality": "right",
+        "source": [
+          "The distal radio-ulnar joint was dislocated in the accident.",
+          "The dislocated distal radio-ulnar joint was transfixed with a metal wire and his forearm was put into a cast for mobilization."
+        ],
+        "icd_code": "NC54.Y",
+        "icd_description": "Dislocation or sprain of other specified joints or ligaments at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Non-union of the ulnar styloid and the site of the fracture at the base of the ulnar styloid.",
+        "injury_type": "Permanent injury",
+        "body_part": "ulnar styloid",
+        "laterality": "right",
+        "source": [
+          "Radiologically there has been non-union of the ulnar styloid and the site of the fracture at the base of the ulnar styloid."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Significant pain in exertion such as lifting heavy objects and twisting activities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness in exertion such as lifting heavy objects and twisting activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain on resisted pronation of the wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Pain on ulnar impaction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "an emergency operation was performed.",
+      "The radius fracture was fixed with an open reduction and plating.",
+      "The dislocated distal radio-ulnar joint was transfixed with a metal wire",
+      "his forearm was put into a cast for mobilization.",
+      "he received a course of physiotherapy and later occupational therapy."
+    ],
+    "treatments_future": [
+      "medical advisors have recommended further surgery to him which would cost about $40,000, but he has elected not to undertake that surgery."
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity for which PSLA of $200,000 was awarded.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "His total loss of earning capacity has been assessed at 8%.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10526,
+      "output_tokens": 6541,
+      "reasoning_tokens": 5184,
+      "total_tokens": 17067
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42654.16367352009,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10526,
+      "output_tokens": 6541,
+      "reasoning_tokens": 5184,
+      "total_tokens": 17067
+    },
+    "total_duration_ms": 42654.16367352009
+  }
+}

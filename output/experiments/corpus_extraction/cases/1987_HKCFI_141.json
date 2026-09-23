@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 141",
+    "action_number": "HCA007340/1986",
+    "case_name": "CHAN (OR TSANG) HING LUN BY HIS LAWFUL ATTORNEY CHANG YEE CHOR LUEN v. CHUNG KWOK HUNG",
+    "judgment_date": "1987-08-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "assistant cook at a restaurant in the Netherlands",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "two deep cut wounds to the head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered two deep cut wounds to the head, two deep cut wounds to his left arm and one cut wound to his left thigh."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "two deep cut wounds to his left arm",
+        "injury_type": "Temporary injury",
+        "body_part": "left arm",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered two deep cut wounds to the head, two deep cut wounds to his left arm and one cut wound to his left thigh."
+        ],
+        "icd_code": "NC11.5",
+        "icd_description": "Multiple open wounds of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "one cut wound to his left thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered two deep cut wounds to the head, two deep cut wounds to his left arm and one cut wound to his left thigh."
+        ],
+        "icd_code": "NC71.0",
+        "icd_description": "Laceration without foreign body of hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he was severely wounded by the defendant.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the plaintiff was hospitalized for 5 days after the assault.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "he was granted sick leave from the 24th April 1985 - 15th July 1985",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the plaintiff's wounds had healed by the 15th July 1985 and that when he was examined on that date, the plaintiff's condition was \"satisfactory\".",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "he will suffer from no permanent disability.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the plaintiff's wounds were still tender after the 15th July and he was not fit enough to carry heavy articles for a further two months.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "the long post-operative care he required",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "post-operative care"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Se-tuen and Lam Chun v. Sin Pak-tong and Ors",
+        "neutral_citation": null,
+        "action_number": "HCA No. 1527 of 1982",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 20000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9977,
+      "output_tokens": 7457,
+      "reasoning_tokens": 6144,
+      "total_tokens": 17434
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36897.78745919466,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9977,
+      "output_tokens": 7457,
+      "reasoning_tokens": 6144,
+      "total_tokens": 17434
+    },
+    "total_duration_ms": 36897.78745919466
+  }
+}

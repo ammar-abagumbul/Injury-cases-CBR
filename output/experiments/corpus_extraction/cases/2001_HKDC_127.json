@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKDC 127",
+    "action_number": "DCPI 48/2000",
+    "case_name": "WONG SHEK HUNG v. PENTECOSTAL LAM HON KWONG SCHOOL",
+    "judgment_date": "2001-07-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 17,
+    "age_at_trial": null,
+    "occupation_before": "Form 6 student",
+    "occupation_after": "University student studying marketing",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "University student (studying marketing)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Amputation/severance of right middle fingertip including the fingernail",
+        "injury_type": "Permanent injury",
+        "body_part": "right middle finger tip",
+        "laterality": "right",
+        "source": [
+          "As a result of the incident, the right middle finger tip of the Plaintiff, including the fingernail, was severed.",
+          "The Plaintiff was hospitalized for 3 days, during which time an operation was carried out to reattach the fingertip. Unfortunately the reattachment was not successful.",
+          "Ms. Chiu gave evidence that she saw bone from the Plaintiff's wound."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      }
+    ],
+    "manifestations": [],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Operation to reattach the fingertip (reattachment unsuccessful)",
+      "Hospitalisation"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of right middle fingertip including fingernail",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10392,
+      "output_tokens": 3021,
+      "reasoning_tokens": 2368,
+      "total_tokens": 13413
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30015.823431313038,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10392,
+      "output_tokens": 3021,
+      "reasoning_tokens": 2368,
+      "total_tokens": 13413
+    },
+    "total_duration_ms": 30015.823431313038
+  }
+}

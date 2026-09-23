@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 164",
+    "action_number": "HCA008165/1984",
+    "case_name": "TAM SIU KEUNG V SUM CHEE HON TRSDING AS CHEE HON LUEN NGAI METAL MANUFACTORY",
+    "judgment_date": "1987-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 17,
+    "age_at_trial": 22,
+    "occupation_before": "attending school in Form 4 and part-time worker (piece rates of $6.00 for 100 pieces)",
+    "occupation_after": "maintenance technician for fire equipment (in training)",
+    "expected_occupation_after": "fully trained maintenance technician of fire equipment",
+    "salary_before": null,
+    "salary_after": 2400.0,
+    "expected_salary_after": 3200.0,
+    "education_level": "Form 4 (attended evening school to complete Form 4)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A fracture of the distal phalanx of the right index finger",
+        "injury_type": "Permanent injury",
+        "body_part": "right index finger",
+        "laterality": "right",
+        "source": [
+          "A fracture of the distal phalanx of the right index finger and also the\nright middle finger;"
+        ],
+        "icd_code": "NC53.7",
+        "icd_description": "Multiple fractures of fingers"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A fracture of the distal phalanx of the right middle finger",
+        "injury_type": "Permanent injury",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "A fracture of the distal phalanx of the right index finger and also the\nright middle finger;"
+        ],
+        "icd_code": "NC53.7",
+        "icd_description": "Multiple fractures of fingers"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "A partial amputation of the right ring finger",
+        "injury_type": "Permanent injury",
+        "body_part": "right ring finger",
+        "laterality": "right",
+        "source": [
+          "A partial amputation of the right ring finger."
+        ],
+        "icd_code": "NC59.1",
+        "icd_description": "Traumatic amputation of other single finger"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Ankylosis of the right middle finger (resulting in impairment)",
+        "injury_type": "Residual disability",
+        "body_part": "right middle finger",
+        "laterality": "right",
+        "source": [
+          "the impairment of the right middle finger due to ankylosis was also assessed at 3%."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "distal phalanx of the Plaintiff's right index finger could only flex to 30° (normal flex 80°)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "suffered considerable pain from the injuries and during treatment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "only able to hold light objects with his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "able to write with his right hand but doing so causes pain after a short time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "difficulty using chopsticks which cause pain to his right middle finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cannot participate in playing basketball or doing gymnastics as well as other activities such as rowing boats",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation for one week",
+      "fractures treated with a wire through the fingers (pins)",
+      "pins removed after one month",
+      "out-patient treatment (3 times initially and later twice a week for about 5 months)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could not participate in playing basketball or doing gymnastics as well as other activities such as rowing boats.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "uses a knife and fork to eat food as he has difficulty using chopsticks which cause pain to his right middle finger.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "now only able to hold light objects with his right hand.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "intended to continue schooling to Form 5 but completed only Form 4; prospects reduced by only completing education to Form 4.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "disadvantaged in the labour market throughout his working life and prospects of employment and advancement have been reduced.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11551,
+      "output_tokens": 6952,
+      "reasoning_tokens": 5312,
+      "total_tokens": 18503
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43004.61494550109,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11551,
+      "output_tokens": 6952,
+      "reasoning_tokens": 5312,
+      "total_tokens": 18503
+    },
+    "total_duration_ms": 43004.61494550109
+  }
+}

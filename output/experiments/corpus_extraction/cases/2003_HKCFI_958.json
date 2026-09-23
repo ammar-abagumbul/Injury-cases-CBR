@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 958",
+    "action_number": "HCPI 305/2002",
+    "case_name": "CHEUNG KAM KWONG v. MAN LEE DECORATION AND DESIGN LIMITED",
+    "judgment_date": "2003-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "welder",
+    "occupation_after": "resumed work with the same employer but doing duty of a much lighter nature which did not require him to carry out heavy welding work",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back injury",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "The ladder moved and the plaintiff fell and suffered back injury."
+        ],
+        "icd_code": "NB9Z",
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "hand injury",
+        "injury_type": "Temporary injury",
+        "body_part": "hand",
+        "laterality": null,
+        "source": [
+          "The tragic part of working for the new employer was that he suffered another injury - he fell down from the roof. He injured his hand and his shoulder and he was off work for a year."
+        ],
+        "icd_code": "NC5Z",
+        "icd_description": "Injuries to the wrist or hand, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "shoulder injury",
+        "injury_type": "Temporary injury",
+        "body_part": "shoulder",
+        "laterality": null,
+        "source": [
+          "The tragic part of working for the new employer was that he suffered another injury - he fell down from the roof. He injured his hand and his shoulder and he was off work for a year."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he was off work for some time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "resumed work with the same employer but doing duty of a much lighter nature which did not require him to carry out heavy welding work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the injury suffered by the plaintiff was such as to cause him not being able to undertake that kind of work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he was on and off working until when he ceased to receive further work from the defendant in 2000",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he was off work for a year",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "he had not worked since April 2001",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "resumed work with the same employer but doing duty of a much lighter nature which did not require him to carry out heavy welding work; the injury suffered by the plaintiff was such as to cause him not being able to undertake that kind of work; he was on and off working until when he ceased to receive further work from the defendant in 2000; he worked for a short period of time in April 2000 with a new employer; he had not worked since April 2001",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9122,
+      "output_tokens": 5047,
+      "reasoning_tokens": 3776,
+      "total_tokens": 14169
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29905.41933476925,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9122,
+      "output_tokens": 5047,
+      "reasoning_tokens": 3776,
+      "total_tokens": 14169
+    },
+    "total_duration_ms": 29905.41933476925
+  }
+}

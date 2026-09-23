@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKDC 70",
+    "action_number": "DCPI 267/2007",
+    "case_name": "JACKSON IVAN O'NEIL AMROL v. MARISOL RIVERA",
+    "judgment_date": "2008-03-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 4,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right temporal bone",
+        "injury_type": "Temporary injury",
+        "body_part": "right temporal bone",
+        "laterality": "right",
+        "source": [
+          "He suffered a fracture of the right temporal bone and a traumatic perforation in his right ear as a result.",
+          "CT scan of the brain and skull showed right temporal bone fracture.",
+          "CT scans and Electroencephalograph (EEG) showed that the temporal bone fracture was in the process of healing."
+        ],
+        "icd_code": "NA02.Y",
+        "icd_description": "Fracture of other specified skull or facial bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "traumatic perforation of the right ear (traumatic drum perforation of the right ear)",
+        "injury_type": "Temporary injury",
+        "body_part": "right ear",
+        "laterality": "right",
+        "source": [
+          "He suffered a fracture of the right temporal bone and a traumatic perforation in his right ear as a result.",
+          "Examination by ENT surgeon Dr. Martin Pak revealed small traumatic perforation in Jack’s right ear and continuous oozing of fresh blood from the perforation.",
+          "The diagnosis was traumatic drum perforation of the right ear and right temporal bone fracture."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "screaming for pain; holding his head and ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "blood gushing out from his ear / continuous oozing of fresh blood from the perforation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "drowsy and nauseating (drowsy and nausea observed when examined at Canossa Hospital)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "retained blood clot in the middle ear",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impaired registration of memory (noticed and referred to neurologist)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in sleeping (reported by Jack's mother)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "lethargic body condition (reported by Jack's mother)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "fears dogs (reported by Jack's mother)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "packed right ear canal with normal saline soaked gauze (Discovery Bay Medical Centre)",
+      "referral to Canossa Hospital for further treatment",
+      "CT scan of the brain and skull",
+      "examination and cleansing by ENT surgeon; ear gently cleansed",
+      "oral antibiotics",
+      "analgesics",
+      "pure tone audiometry (22nd May 2006)",
+      "Electroencephalograph (EEG)",
+      "neurologist assessment (Dr. Chan Chok-Wan)",
+      "follow-up consultations and monitoring until discharge"
+    ],
+    "treatments_future": [
+      "advised to attend follow-up with CT scan of the temporal bone at regular intervals until full recovery",
+      "seeking consultation from a private paediatric psychologist (as reported)"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Fun Hing",
+        "neutral_citation": null,
+        "action_number": "HCPI 57/2001",
+        "injury_description": "sustained a severe blow on the side of his head with his right eardrum damaged; resulted in tinnitus and moderate right-sided deafness",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Ng Ka Ho",
+        "neutral_citation": null,
+        "action_number": "DCPI 28/2004",
+        "injury_description": "diagnosed to have suffered from Post Traumatic Distress Symptoms and subjective memory loss; aggravation of \"Pervasive Developmental Disorders Not Otherwise Specified\"",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18610,
+      "output_tokens": 4577,
+      "reasoning_tokens": 3072,
+      "total_tokens": 23187
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33388.47083970904,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18610,
+      "output_tokens": 4577,
+      "reasoning_tokens": 3072,
+      "total_tokens": 23187
+    },
+    "total_duration_ms": 33388.47083970904
+  }
+}

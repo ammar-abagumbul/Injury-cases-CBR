@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 50",
+    "action_number": "HCA005073/1982",
+    "case_name": "WONG SHUN CHI v. THAI EAST TEXTILE CO. LTD. AND ANOTHER",
+    "judgment_date": "1984-11-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "chamber maid at the Miramar Hotel",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of both tibiae and fibulae bones of the lower leg",
+        "injury_type": "Residual disability",
+        "body_part": "lower legs",
+        "laterality": "bilateral",
+        "source": [
+          "The first report revealed that the plaintiff suffered a fracture of both tibiae and fibulae bones of the lower leg.",
+          "After three weeks the fracture of the right tibiae was secured by a bone plate and screws and of the tibiae by insertion of an intramedullary nail."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "arterial damage to the foot resulting in numbness on walking",
+        "injury_type": "Residual disability",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "However, the report of May 1984 reveals that the numbness in the left foot following five to ten minutes of walking still persisted.",
+          "Dr. Wedderburn said that this was because of arterial damage. Consequently, upon the muscles of the foot being used for walking there was insufficient blood to supply the oxygen required by the muscles."
+        ],
+        "icd_code": "ND16.Z",
+        "icd_description": "Injury of unspecified blood vessel at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "discomfort in her right calf",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in her left foot after walking for five to ten minutes",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "very mild limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "gripping pains in her leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked with great difficulty for up to a month after the operation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "fixation of right tibia with a bone plate and screws",
+      "insertion of an intramedullary nail",
+      "removal of metal plates (operation in February 1983)",
+      "use of crutches for 6 months",
+      "use of a stick for 1 month",
+      "hospitalisation until discharged at the end of January"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities were agreed at $50,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Required the use of crutches for 6 months and a stick for one month; had a very mild limp and difficulty walking.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "She was no longer capable of working as a maid in an hotel.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9715,
+      "output_tokens": 5440,
+      "reasoning_tokens": 4224,
+      "total_tokens": 15155
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34085.2617174387,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9715,
+      "output_tokens": 5440,
+      "reasoning_tokens": 4224,
+      "total_tokens": 15155
+    },
+    "total_duration_ms": 34085.2617174387
+  }
+}

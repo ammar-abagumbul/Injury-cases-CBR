@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[2020] HKDC 69",
+    "action_number": "DCPI 2016/2015",
+    "case_name": "YEUNG KIU YING v. FAIRWOOD FAST FOOD LTD T/A FAIRWOOD",
+    "judgment_date": "2020-01-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 54,
+    "age_at_trial": 62,
+    "occupation_before": "concourse group leader",
+    "occupation_after": "server",
+    "expected_occupation_after": null,
+    "salary_before": 10799.4,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "educated in the PRC up to secondary school F4 level and can read and write simple Chinese."
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right trigger thumb",
+        "injury_type": "Residual disability",
+        "body_part": "right thumb",
+        "laterality": "right",
+        "source": [
+          "her right thumb was injured (the “Accident”).",
+          "first attended on 26/10/2012 … History of injury at work: yes, right thumb sprain when a stack of plates fell onto her… Right thumb sprained while at work … pain and swelling and ↙ motion.",
+          "She was diagnosed as right trigger thumb.",
+          "She complained of right thumb pain for three months with no definite history of acute trauma."
+        ],
+        "icd_code": "NC57.0Y",
+        "icd_description": "Other specified injury of long flexor muscle, fascia or tendon of thumb at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "diffuse tenderness of the whole right thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness over right thumb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sensation much reduced over whole right thumb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Complete loss of right hand grip strength",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Active 45° of right thumb, passive 60° of right thumb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild residual pain and stiffness over the right thumb and mild tenderness over the MCP joint",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended A&E department of Kwong Wah Hospital on 19 October 2012",
+      "injection to right thumb in July 2012",
+      "injection given on 22 October 2012 and referred to orthopaedics specialist clinic and occupational therapy",
+      "right thumb operation on 2 November 2012 (release)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 4,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 42000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ting Siu Ki v Wun Che Ming & Anor",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Singh Harpel v Najib Transport",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14974,
+      "output_tokens": 5232,
+      "reasoning_tokens": 4096,
+      "total_tokens": 20206
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36284.12902355194,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14974,
+      "output_tokens": 5232,
+      "reasoning_tokens": 4096,
+      "total_tokens": 20206
+    },
+    "total_duration_ms": 36284.12902355194
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 335",
+    "action_number": "HCPI 374/2006",
+    "case_name": "NG LAI PING CAROL v. TUNG WAH GROUP OF HOSPITALS",
+    "judgment_date": "2007-04-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 30,
+    "age_at_trial": null,
+    "occupation_before": "childcare worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "slipped invertebral disc at L4/5",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "The plaintiff’s family doctor, Dr Angela Ng, had diagnosed a slipped invertebral disc at L4/5."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "narrowing of the L4/5 disc space which triggered off subsequent degenerative changes",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "However later examination revealed narrowing of the L4/5 disc space which triggered off subsequent degenerative changes."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "hurt her ankles on a skiing holiday in Korea about four months earlier; plaintiff had said at the time that her ankle had \"given way\"",
+        "injury_type": "Residual disability",
+        "body_part": "ankles",
+        "laterality": null,
+        "source": [
+          "Ms Young Mei Wan, the school’s supervisor. She gave evidence that the plaintiff had hurt her ankles on a skiing holiday in Korea about four months earlier and that the plaintiff had said at the time that her ankle had “given way”."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has not engaged in various sporting activities since the accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot carry out heavy lifting at home / partial loss of housekeeping capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "off work for over 28 months (period of incapacity from work)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (30 sessions)",
+      "occupational therapy (33 sessions)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Loss of amenity; she had been an enthusiastic sportslady and has not engaged in various sporting activities since the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Partial loss of housekeeping capacity; cannot carry out heavy lifting at home; awarded for help at home.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity / concern about future employment and earning capacity; award made for loss of earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 225000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13063,
+      "output_tokens": 5155,
+      "reasoning_tokens": 3904,
+      "total_tokens": 18218
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33535.240080207586,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13063,
+      "output_tokens": 5155,
+      "reasoning_tokens": 3904,
+      "total_tokens": 18218
+    },
+    "total_duration_ms": 33535.240080207586
+  }
+}

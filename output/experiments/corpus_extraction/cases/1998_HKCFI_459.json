@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 459",
+    "action_number": "HCPI000488/1996",
+    "case_name": "WONG KING TAI v. LAU KA KUI AND ANOTHER",
+    "judgment_date": "1998-11-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Serious injuries leading to semi-consciousness; underwent neuro and orthopaedic surgery and subsequently never regained consciousness and died on 6 June 1993.",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "When the deceased was admitted to Queen Elizabeth Hospital on 25 March 1993, he was observed to have been semi-conscious. Following diagnosis, neuro and orthopaedic surgery was performed. According to the memorandum dated 30 July 1993 from Dr. Liang Chang-chung of the Department of Neurosurgery, QEH, post-operatively, the deceased had never regained consciousness and eventually died on 6 June 1993."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Semi-conscious on admission",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Never regained consciousness post-operatively",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and suffering prior to operation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Fall after being struck by vehicle (lying on the ground after collision)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Neurosurgery",
+      "Orthopaedic surgery",
+      "Admission to Queen Elizabeth Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities; awarded $30,000 (reduced to $15,000 for contributory negligence).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Bereavement; damages for bereavement agreed at $70,000 (reduced to $35,000 for contributory negligence).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 12
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14434,
+      "output_tokens": 4073,
+      "reasoning_tokens": 3136,
+      "total_tokens": 18507
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26331.82644098997,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14434,
+      "output_tokens": 4073,
+      "reasoning_tokens": 3136,
+      "total_tokens": 18507
+    },
+    "total_duration_ms": 26331.82644098997
+  }
+}

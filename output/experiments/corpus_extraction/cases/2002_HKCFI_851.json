@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 851",
+    "action_number": "HCPI 684/2001",
+    "case_name": "YUSAF EDNAN v. LEIGHTON KUMUGAI JOINT VENTURE",
+    "judgment_date": "2002-10-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "tunnel boring machine mechanic/fitter",
+    "occupation_after": "security guard; drilling rig operator",
+    "expected_occupation_after": null,
+    "salary_before": 25595.0,
+    "salary_after": 12070.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left tibia and fibula",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "He was there diagnosed with a fracture of the left tibia and fibula, with local tenderness and deformity of left tibia."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "residual impairment of the function of the left tibia as a result of soft tissue scarring around the fracture site",
+        "injury_type": "Permanent injury",
+        "body_part": "left tibia",
+        "laterality": "left",
+        "source": [
+          "There was a residual impairment of the function of the left tibia as a result of soft tissue scarring around the fracture site."
+        ],
+        "icd_code": "NC92.Z",
+        "icd_description": "Fracture of lower leg, including ankle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in the left knee especially when he sits with his arm resting on the left knee.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he can only squat for a very short period of time",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and tingling sensation in the left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the left leg when running",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "7 cm longitudinal scars over the left infra-patella area with four stab scars at the medical side of the shin",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness at the junction between the lower third and middle third of the tibia",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight tenderness in the Gerdy's tubercle and mild pain in the patellofemoral joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a slight bony protruberance at the anterior aspect of the tibio-plateu corresponding to the insertion point of the tibial intramedullary nail",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "1.5cm muscle atrophy of the left calf and slight left thigh muscle atrophy",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "calcification around the site of insertion, suggesting irritation of the patella tendon",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "walks with a limp which becomes more pronounced the further he walked",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "close reduction and implant of intramedullary nail to his left leg",
+      "removal of the intramedullary nail",
+      "physiotherapy",
+      "occupational therapy",
+      "outpatient follow-up at Orthopaedics & Traumatology Department"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Continues to suffer pain exacerbated by walking and squatting and walks with a limp which becomes more pronounced the further he walks.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "His pre-accident sporting activities have necessarily had to be curtailed.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Not able to return to the specific type of employment (tunnel boring machine mechanic/fitter) which entails lifting and manoeuvring very heavy weights in confined spaces and over uneven surfaces.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14182,
+      "output_tokens": 6316,
+      "reasoning_tokens": 4800,
+      "total_tokens": 20498
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41672.07860201597,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14182,
+      "output_tokens": 6316,
+      "reasoning_tokens": 4800,
+      "total_tokens": 20498
+    },
+    "total_duration_ms": 41672.07860201597
+  }
+}

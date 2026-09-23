@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 434",
+    "action_number": "HCPI 1027/2004",
+    "case_name": "MUHAMMAD ASGHAR v. TAK SHING METAL CO",
+    "judgment_date": "2009-06-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 24,
+    "age_at_trial": 31,
+    "occupation_before": "general worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 14500.0,
+    "salary_after": 4800.0,
+    "expected_salary_after": null,
+    "education_level": "6 years of primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "X-ray showed spondylolisthesis of L5/S1 but no other bony lesion was found.",
+        "injury_type": "Residual disability",
+        "body_part": "L5/S1",
+        "laterality": null,
+        "source": [
+          "X-ray showed spondylolisthesis of L5/S1 but no other bony lesion was found."
+        ],
+        "icd_code": "NB53.1",
+        "icd_description": "Dislocation of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A CT myelogram ... revealed Grade 1 retrolisthesis at L4/5 level",
+        "injury_type": "Residual disability",
+        "body_part": "L4/5",
+        "laterality": null,
+        "source": [
+          "A CT myelogram was performed on 9 August which revealed Grade 1 retrolisthesis at L4/5 level and spondylosis at L5 but with no significant disc prolapse."
+        ],
+        "icd_code": "NB53.1",
+        "icd_description": "Dislocation of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "spondylosis at L5",
+        "injury_type": "Residual disability",
+        "body_part": "L5",
+        "laterality": null,
+        "source": [
+          "A CT myelogram was performed on 9 August which revealed Grade 1 retrolisthesis at L4/5 level and spondylosis at L5 but with no significant disc prolapse."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "An MRI ... revealed slight posterior displacement of L4 onto L5 with mild to moderate protrusion of the disc but without compressing the anterior thecal sac.",
+        "injury_type": "Residual disability",
+        "body_part": "L4/L5",
+        "laterality": null,
+        "source": [
+          "An MRI was performed on 21 May 2003 which revealed slight posterior displacement of L4 onto L5 with mild to moderate protrusion of the disc but without compressing the anterior thecal sac."
+        ],
+        "icd_code": "NB53.1",
+        "icd_description": "Dislocation of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "At the UCH, the plaintiff was diagnosed to have tenderness of lower lumbar spine.",
+        "injury_type": "Temporary injury",
+        "body_part": "lower lumbar spine",
+        "laterality": null,
+        "source": [
+          "At the UCH, the plaintiff was diagnosed to have tenderness of lower lumbar spine."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Conversion Disorder (psychogenic gait disorder)",
+        "injury_type": "Temporary injury",
+        "body_part": "neurological / functional (gait)",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffers from a Conversion Disorder",
+          "the plaintiff was genuinely suffering from Conversion Disorder and was not malingering."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "mild to moderate depressive episode",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "referred to South Kwai Chung Psychiatric Centre on 1 April 2004 and diagnosed to be suffering from mild to moderate depressive episode."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "soft tissue injury (opinion of Dr Woo)",
+        "injury_type": "Temporary injury",
+        "body_part": "unspecified",
+        "laterality": null,
+        "source": [
+          "Dr Woo on the other hand opined that the plaintiff suffered a soft tissue injury"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "knocked unconscious",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness of lower lumbar spine",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness of the left lower leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "bizarre gait with left leg stretched out and spine tilted to one side",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "total loss of motor control in left leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "inability to walk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "psychological distress and depressive symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Ambulance transport to United Christian Hospital Emergency Department",
+      "Admission to United Christian Hospital (19 July 2002 to 25 July 2002)",
+      "Re-admission to United Christian Hospital (7 August 2002 to 13 August 2002)",
+      "Outpatient physiotherapy at United Christian Hospital and Princess Margaret Hospital",
+      "CT myelogram (9 August 2002)",
+      "MRI (21 May 2003)",
+      "Manipulation under anaesthetic was offered but the patient later refused",
+      "Psychiatric assessment and treatment at South Kwai Chung Psychiatric Centre and PMH outpatient clinic",
+      "Hypnotherapy with Mr Kelvin Tang (about 9 sessions between January and November 2007 and a further three consultations in 2008)"
+    ],
+    "treatments_future": [
+      "Further six sessions of hypnotherapy with Mr Kelvin Tang (recommended)"
+    ],
+    "hospitalisation_days": 13,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 860,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Lengthy discomfort of the bizarre gait and posture and low back pain since the time of the accident.",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Psychological distress and depressive disorder attendant with his incapacity.",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced ability to return to pre-accident heavy manual work and loss of earnings capacity.",
+        "caused_by_injury_id": "inj_006"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23607,
+      "output_tokens": 10595,
+      "reasoning_tokens": 8320,
+      "total_tokens": 34202
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49855.69312795997,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23607,
+      "output_tokens": 10595,
+      "reasoning_tokens": 8320,
+      "total_tokens": 34202
+    },
+    "total_duration_ms": 49855.69312795997
+  }
+}

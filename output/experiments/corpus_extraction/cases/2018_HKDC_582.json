@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 582",
+    "action_number": "DCPI 1838/2015",
+    "case_name": "CHENG SAI KAM v. TUTTI LTD (IN LIQUIDATION)",
+    "judgment_date": "2018-05-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 52,
+    "age_at_trial": 57,
+    "occupation_before": "Casual decoration worker (specialised in painting); previously worked as barber",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 21600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Laceration on dorsum of left foot with cut extensor tendon of left 4th toe",
+        "injury_type": "Residual disability",
+        "body_part": "left 4th toe / left foot",
+        "laterality": "left",
+        "source": [
+          "the diagnosis at A&E department of the hospital was laceration left foot with cut tendon.",
+          "As a result of the Accident, the plaintiff, opined Dr Wong, suffered from laceration on dorsum of his left foot with cut extensor tendon of his left 4th toe."
+        ],
+        "icd_code": "ND17.11",
+        "icd_description": "Laceration of muscle, fascia or tendon of long extensor muscle of toe at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual stiffness in his left 4th toe",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent pain in his left foot after prolonged walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited ability to stand on rung-ladder and cannot climb ladder due to pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness at metatarsophalangeal joint of left 4th toe; flexion was 2/3 of normal range",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Power over 4th toe flexion was grade 3- (at hospital) and grade 4/5 (on 4 Aug 2017)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness reported over the scar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unstable to walk on tip-toes and complained of left foot pain on tip-toe standing / single-legged standing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Wound exploration and repair of extensor digitorum communis tendon to the left 4th toe under local anaesthesia",
+      "Re-repair of tendon under local anaesthesia on 14 Sept 2012",
+      "Short leg cast and heel walking",
+      "Antibiotics prescribed",
+      "Physiotherapy (9 sessions from 17 Jan 2013 to 12 Apr 2013)",
+      "Referral to occupational therapist for work assessment",
+      "Outpatient orthopaedic follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 469,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering & loss of amenities (PSLA) awarded $200,000",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Persistent pain and limited ability to stand on rung-ladder and to climb ladders; residual stiffness in left 4th toe",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity award $86,400",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kam Fai v李志傑經營之惠林運輸公司",
+        "neutral_citation": null,
+        "action_number": "DCPI 352/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Lau Yuk Sang Jimmy v Victoria Sight Ltd trading as Windsor Spa",
+        "neutral_citation": null,
+        "action_number": "DCPI 579/2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10915,
+      "output_tokens": 3860,
+      "reasoning_tokens": 2432,
+      "total_tokens": 14775
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29240.736547857523,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10915,
+      "output_tokens": 3860,
+      "reasoning_tokens": 2432,
+      "total_tokens": 14775
+    },
+    "total_duration_ms": 29240.736547857523
+  }
+}

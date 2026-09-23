@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 20",
+    "action_number": "HCPI 504/2009",
+    "case_name": "LAI CHEONG MING v. CHENG CHUNG YU ERIC T/A HUI FUNG METAL WORK FACTORY AND ANOTHER",
+    "judgment_date": "2013-01-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "steel installation worker",
+    "occupation_after": "painting worker",
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": 6350.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain with prolapsed intervertebral disc at L4/5",
+        "injury_type": "Residual disability",
+        "body_part": "L4/5 (lower back)",
+        "laterality": null,
+        "source": [
+          "both experts agree that as a result of the accident, the Plaintiff suffered back sprain with prolapsed intervertebral disc at L4/5, for which he received an operation of fenestration and diskectomy"
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "sudden sharp pain over his waist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severe back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impairment of lifting ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty resuming pre-injury occupation as a steel installation worker",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation of fenestration and diskectomy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities (PSLA awarded)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 270000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17552,
+      "output_tokens": 4332,
+      "reasoning_tokens": 3520,
+      "total_tokens": 21884
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22731.907803565264,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17552,
+      "output_tokens": 4332,
+      "reasoning_tokens": 3520,
+      "total_tokens": 21884
+    },
+    "total_duration_ms": 22731.907803565264
+  }
+}

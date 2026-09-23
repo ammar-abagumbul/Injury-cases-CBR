@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 858",
+    "action_number": "HCPI 407/1997",
+    "case_name": "TSOI KWONG MING v. GREEN VALLEY LANDFILL LTD.",
+    "judgment_date": "1999-09-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": null,
+    "occupation_before": "labourer",
+    "occupation_after": "watchman",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": 14000.0,
+    "expected_salary_after": null,
+    "education_level": "did not continue his education beyond P1 and is therefore effectively illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The blow to his head caused comparatively mild damage",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The blow to his head caused comparatively mild damage"
+        ],
+        "icd_code": "NA00",
+        "icd_description": "Superficial injury of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bulging of the disc at L4/5 and has left him with continuing lower back pain",
+        "injury_type": "Residual disability",
+        "body_part": "lower back (L4/5)",
+        "laterality": null,
+        "source": [
+          "the blow to his back resulted in bulging of the disc at L4/5 and has left him with continuing lower back pain."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "psychiatric problems resulting in depression; severe depressive episode requiring admission to Castle Peak Hospital from 30th May 1997 to 27th June 1997; condition controlled by medication and regular psychiatric follow up",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric (depression)",
+        "laterality": null,
+        "source": [
+          "A further unfortunate consequence of the accident and his injuries, and his subsequent inability to secure employment, was the development of psychiatric problems resulting in depression.",
+          "This progressed to such an extent that he suffered a severe depressive episode when he lost control of himself, and he had to be admitted to Castle Peak Hospital on 30th May 1997 where he remained until 27th June 1997.",
+          "His condition has since been controlled by medication and regular psychiatric follow up treatment. This will have to continue for some two or three years."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuing lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "can no longer cope with the strenuous work of a labourer",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "development of psychiatric problems resulting in depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "severe depressive episode requiring admission to Castle Peak Hospital from 30th May 1997 to 27th June 1997",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "self-consciousness of the way he walked because of his back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Castle Peak Hospital on 30th May 1997 where he remained until 27th June 1997",
+      "medication",
+      "regular psychiatric follow up treatment",
+      "painkillers"
+    ],
+    "treatments_future": [
+      "psychiatric follow up treatment (assessed by court as to continue for 2 years)",
+      "possible further hospitalisation for depressive episode (court assessed risk and cost of one 20-day stay)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": 20,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "Pain, suffering and loss of amenities $560000.00",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 560000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11862,
+      "output_tokens": 5841,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17703
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41564.32681158185,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11862,
+      "output_tokens": 5841,
+      "reasoning_tokens": 4544,
+      "total_tokens": 17703
+    },
+    "total_duration_ms": 41564.32681158185
+  }
+}

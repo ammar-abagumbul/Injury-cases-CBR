@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 70",
+    "action_number": "DCPI 517/2008",
+    "case_name": "SHAH JUNAID ALI v. YAU LEE GALVANIZERS (HOT-DIP) CO LTD",
+    "judgment_date": "2009-04-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 28,
+    "age_at_trial": null,
+    "occupation_before": "general labourer (employed by Yau Lee)",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 8411.83,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "crush injury to the left middle finger; 1.5 cm laceration over the distal pulp region of the finger; crack fracture of the distal phalanx",
+        "injury_type": "Permanent injury",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "the diagnosis was crush injury to the left middle finger. There was a 1.5 cm laceration over the distal pulp region of the finger. X-ray showed crack fracture of the distal phalanx."
+        ],
+        "icd_code": "NC58.1",
+        "icd_description": "Crushing injury of other finger"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in the tip of his left finger on touch",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not use a drill",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not carry weight heavier than 5 to 10 kg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had difficulty in using a hammer with his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "an oblique scar at the tip of his injured finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at tip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "grip strength slightly weakened on the left side with slight pain during power grip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of movement was full",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sensation was normal",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing",
+      "irrigation",
+      "antibiotics",
+      "followed up by the orthopaedic and traumatology fracture clinic",
+      "32 sessions of occupational therapy",
+      "sick leave until July 2006 (a total of 9 months)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain in the tip of his left finger on touch; could not use a drill or carry weight heavier than 5 to 10 kg; had difficulty in using a hammer with his left hand.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Kai Kit v International Paper Manufacturing & Distribution Limited & Ors, DCPI 1415/2006, 3 December 2007",
+        "neutral_citation": null,
+        "action_number": "DCPI 1415/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Ming Yat v Youth Eng Lai Michael t/a Prime Industrial Co, DCPI 201/2003, 5 June 2004",
+        "neutral_citation": null,
+        "action_number": "DCPI 201/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Yin Wa v Chan Shing, HCPI 1125/2000, Master Yuen, 31 January 2002",
+        "neutral_citation": null,
+        "action_number": "HCPI 1125/2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11208,
+      "output_tokens": 4299,
+      "reasoning_tokens": 2880,
+      "total_tokens": 15507
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42690.9112483263,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11208,
+      "output_tokens": 4299,
+      "reasoning_tokens": 2880,
+      "total_tokens": 15507
+    },
+    "total_duration_ms": 42690.9112483263
+  }
+}

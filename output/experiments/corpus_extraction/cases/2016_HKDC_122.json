@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 122",
+    "action_number": "DCPI 1254/2014",
+    "case_name": "KHAN SABZ ALI v. KO KIM DEVELOPMENT CO LTD",
+    "judgment_date": "2016-02-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction site general labourer",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 12600.0,
+    "salary_after": 16000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion or sprain injury to the back",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "Having conducted physical and radiological examinations, reviewed the medical records and considered the plaintiff’s complaints, Dr Lee diagnosed the plaintiff of suffering from a contusion injury of the right thigh, right calf and contusion or sprain injury to the back which was consistent with the mechanism of injury; and that the plaintiff probably suffered from a contusion injury to the soft tissue of right thigh and low back."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion injury of the right thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "Having conducted physical and radiological examinations, reviewed the medical records and considered the plaintiff’s complaints, Dr Lee diagnosed the plaintiff of suffering from a contusion injury of the right thigh, right calf and contusion or sprain injury to the back which was consistent with the mechanism of injury; and that the plaintiff probably suffered from a contusion injury to the soft tissue of right thigh and low back."
+        ],
+        "icd_code": "NC70.3",
+        "icd_description": "Contusion of thigh"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusion injury of the right calf",
+        "injury_type": "Temporary injury",
+        "body_part": "right calf",
+        "laterality": "right",
+        "source": [
+          "Having conducted physical and radiological examinations, reviewed the medical records and considered the plaintiff’s complaints, Dr Lee diagnosed the plaintiff of suffering from a contusion injury of the right thigh, right calf and contusion or sprain injury to the back which was consistent with the mechanism of injury; and that the plaintiff probably suffered from a contusion injury to the soft tissue of right thigh and low back."
+        ],
+        "icd_code": "NC90.3",
+        "icd_description": "Contusion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mildly tender lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling on thigh and calf",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "swelling on thigh and calf",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "constant pain and burning feeling in the lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness on knees and left leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "non-dermatomal impaired sensation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive flip tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive simulation tests",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "falls on getting up from sitting; fell five to six times during the six-month period prior to this hearing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual back pain (assessed as mild)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics injection",
+      "medication",
+      "physiotherapy (13 sessions)",
+      "follow-up at government hospitals",
+      "examination at Accident and Emergency Department of Tuen Mun Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 438,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual mild back pain; inability to lift weight over 20 - 25 kg and impaired efficiency if working as a construction labourer.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 140000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ping v Hong Kong Kartingsport Association Limited",
+        "neutral_citation": "HCPI 436/2008",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Gurung Lachhoman v Gurung Chandra Prakash & Ors",
+        "neutral_citation": "HCPI 672/2008",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12097,
+      "output_tokens": 5610,
+      "reasoning_tokens": 3904,
+      "total_tokens": 17707
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33453.87947931886,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12097,
+      "output_tokens": 5610,
+      "reasoning_tokens": 3904,
+      "total_tokens": 17707
+    },
+    "total_duration_ms": 33453.87947931886
+  }
+}

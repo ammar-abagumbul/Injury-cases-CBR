@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 332",
+    "action_number": "DCPI 2275/2014",
+    "case_name": "CHEUNG MAU FA v. REGENT CONSTRUCTION CO LTD",
+    "judgment_date": "2018-03-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 51,
+    "age_at_trial": 57,
+    "occupation_before": "general labourer (construction site)",
+    "occupation_after": "dish washer",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": 5720.0,
+    "expected_salary_after": null,
+    "education_level": "little education in China without completing primary one"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue sprain of the right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "soft tissue sprain of the right ankle which was consistent with the mechanism of injury as described by her."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "adjustment disorder with mixed anxiety and depressed mood",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "adjustment disorder with mixed anxiety and depressed mood"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in the right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased range of motion in the right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping gait / antalgic gait",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to tip toe or perform heel walking",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "extensive tenderness of right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain radiating up to the right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in right ankle/right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "fearful with vivid flashback of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "afraid of cars when crossing roads / avoidance of going out",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "palpitation with shortness of breath",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor memory / forgetfulness / inability to recall details",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "interrupted sleep and nightmares of falling from height",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "accident and emergency treatment (Tseung Kwan O Hospital)",
+      "physiotherapy",
+      "occupational therapy",
+      "psychiatric follow-up (East Kowloon Psychiatric Centre)",
+      "pain clinic treatment (Queen Elizabeth Hospital)",
+      "clinical psychology care",
+      "anxiety management training",
+      "medication (including Fluoxetine)"
+    ],
+    "treatments_future": [
+      "psychiatric follow up consultations (Dr Hung: two monthly intervals for one year)",
+      "follow up treatments as advised by psychiatrists",
+      "medication (as required)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 1229,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent right ankle pain, decreased range of motion and limping gait",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Afraid of cars when crossing roads and avoidance of going out",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor memory and forgetfulness with inability to recall personal details",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19115,
+      "output_tokens": 4983,
+      "reasoning_tokens": 3520,
+      "total_tokens": 24098
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33785.1039879024,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19115,
+      "output_tokens": 4983,
+      "reasoning_tokens": 3520,
+      "total_tokens": 24098
+    },
+    "total_duration_ms": 33785.1039879024
+  }
+}

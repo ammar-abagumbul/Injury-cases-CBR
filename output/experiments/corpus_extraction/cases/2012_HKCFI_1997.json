@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKCFI 1997",
+    "action_number": "HCPI 284/2010",
+    "case_name": "LAU YUK HUNG v. TSANG KWONG MING AND OTHERS",
+    "judgment_date": "2012-09-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "fire extinguishing system technician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right distal radius and ulna fracture",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "right distal radius and ulna fracture"
+        ],
+        "icd_code": "NC32.6",
+        "icd_description": "Fracture of lower end of both ulna and radius"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right 11th rib fracture",
+        "injury_type": "Residual disability",
+        "body_part": "right 11th rib",
+        "laterality": "right",
+        "source": [
+          "right 11th rib fracture"
+        ],
+        "icd_code": "NA82.3Y",
+        "icd_description": "Other specified fracture of rib"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent attacks of right wrist pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent attacks of right chest pain and rib pain upon deep breathing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "impairment of the whole person, of about 5 to 6% according to Dr Wong, and about 4% according to Dr Tsoi",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduction in work efficiency and capacity; a real handicap in the labour market",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9686,
+      "output_tokens": 4228,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13914
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24579.106509685516,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9686,
+      "output_tokens": 4228,
+      "reasoning_tokens": 3328,
+      "total_tokens": 13914
+    },
+    "total_duration_ms": 24579.106509685516
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "POON ON LAM v. CHAN SHU CHOI [1984] HKCFI 51; HCA 6764/1981 (19 July 1984)",
+    "action_number": "HCA006764/1981",
+    "case_name": "POON ON LAM v. CHAN SHU CHOI",
+    "judgment_date": "1984-07-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 55,
+    "occupation_before": "nightwatchman",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "degloving injury of the right foot. Debridement and split thickness skin graft was done.",
+        "injury_type": "Residual disability",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "the plaintiff suffered a degloving injury of the right foot. Debridement and split thickness skin graft was done."
+        ],
+        "icd_code": "ND12.Y",
+        "icd_description": "Other specified open wound of ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The normal pad of soft tissue is absent and the undersurface of the calcaneus is only covered by a layer of inefficient skin.",
+        "injury_type": "Residual disability",
+        "body_part": "right heel / undersurface of the calcaneus",
+        "laterality": "right",
+        "source": [
+          "The problem today is the situation under the heel. The normal pad of soft tissue is absent and the undersurface of the calcaneus is only covered by a layer of inefficient skin."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "8\" x 6\" flat scar on the right thigh, this being the donor site for skin grafts.",
+        "injury_type": "Residual disability",
+        "body_part": "right thigh (donor site)",
+        "laterality": "right",
+        "source": [
+          "there is a 8\" x 6\" flat scar on the right thigh, this being the donor site for skin grafts."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "If the plaintiff walks any distance the skin breaks down, and indeed, Mr Wedderburn observed obvious healing areas.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Some restriction of movement of the left ankle but this is due to his spastic situation.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "On the right inversion is 10° and eversion is non-existent.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has also lost 50% of the movement of his right toes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Considering the matter overall Mr Wedderburn considered there was a 12% impairment of the leg which gave a 5% impairment of the whole man.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "debridement",
+      "split thickness skin graft",
+      "treatment at Princess Margaret Hospital",
+      "transfer to Caritas Hospital",
+      "follow-up at South Kwai Chung Clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "the effect of this plaintiff's disability meant there was a no longer reasonable mobility and there was a general marring of the general activities and enjoyment of life.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "scarring and impairment of the right foot and donor site scarring on the right thigh with resulting functional impairment.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "As a result of the accident he has lost the source of income. \"Although the impairment is relatively slight, it resulted in him losing his work, and such a man could only perform very simple forms of work of the type he was doing.\"",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v Tsang Kam Ming",
+        "neutral_citation": "[1980] HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9438,
+      "output_tokens": 5976,
+      "reasoning_tokens": 4480,
+      "total_tokens": 15414
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34046.18875309825,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9438,
+      "output_tokens": 5976,
+      "reasoning_tokens": 4480,
+      "total_tokens": 15414
+    },
+    "total_duration_ms": 34046.18875309825
+  }
+}

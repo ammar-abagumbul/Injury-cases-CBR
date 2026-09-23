@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 315",
+    "action_number": "HCPI 496/1997",
+    "case_name": "LUK CHI YIN v. WONG FUNG SHING",
+    "judgment_date": "1998-11-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 44,
+    "occupation_before": "buying and selling fruit and vegetables and transporting them for the purpose of sale",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20000.0,
+    "salary_after": 5500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff sustained a fracture of the tibia plateau of the right knee which required surgery on 2nd June 1992 in the form of open reduction, bone grafting and internal fixation with screws, and that the Plaintiff was discharged from hospital after some weeks.",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "the Plaintiff sustained a fracture of the tibia plateau of the right knee which required surgery on 2nd June 1992 in the form of open reduction, bone grafting and internal fixation with screws, and that the Plaintiff was discharged from hospital after some weeks."
+        ],
+        "icd_code": "NC92.1Z",
+        "icd_description": "Fracture of upper end of tibia, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Arthritis in right knee joint - 5%",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "3. Arthritis in right knee joint - 5% and"
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Knee instability with pain - 5%",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "4. Knee instability with pain - 5%"
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "wasting of muscles",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wasting of thigh muscle of more than 3 cm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wasting of calf muscle of 2 cm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Knee flexion deficit of about 5°",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walks with a limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can no larger lift weights as he could previously",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot easily and with confidence drive his vehicle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Standing and walking for long periods causes him pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "carrying heavy objects or climbing stairs causes him particular difficulty",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his right knee is weak so that it gives way suddenly, especially on stairs or slopes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction, bone grafting and internal fixation with screws"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Can no longer continue his pre-accident employment buying and selling fruit and vegetables and transporting them for sale",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "walks with a limp; standing and walking for long periods causes pain; carrying heavy objects or climbing stairs causes particular difficulty",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 475000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12504,
+      "output_tokens": 6443,
+      "reasoning_tokens": 4864,
+      "total_tokens": 18947
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45487.04016953707,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12504,
+      "output_tokens": 6443,
+      "reasoning_tokens": 4864,
+      "total_tokens": 18947
+    },
+    "total_duration_ms": 45487.04016953707
+  }
+}

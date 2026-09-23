@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKCFI 514",
+    "action_number": "HCPI 180/2005",
+    "case_name": "KOAH MING MING v. SECRETARY FOR JUSTICE ACTING ON BEHALF OF TRANSPORT DEPARTMENT AND OTHERS",
+    "judgment_date": "2010-06-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 40,
+    "age_at_trial": 47,
+    "occupation_before": "installation worker",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": 7500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "L3 compression fracture / collapse of L3 with anterior wedging",
+        "injury_type": "Permanent injury",
+        "body_part": "L3 (lumbar spine)",
+        "laterality": null,
+        "source": [
+          "X-ray and CT scan showed collapse of L3 with anterior wedging.",
+          "It is agreed that the L3 compression facture would have caused impairment to the pre-accident job of installation worker."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness over L3",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Full power in all 4 limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Intact sensation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Increased lower back pain upon fast walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to walk or sit for more than 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness in lower limb upon sitting for over 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Straight leg raising of 60° on both legs with buttock pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Sent to the A&E of United Christian Hospital",
+      "thoraco-lumbrosacral orthosis (braces)",
+      "follow-up",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 18,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13744,
+      "output_tokens": 2924,
+      "reasoning_tokens": 2240,
+      "total_tokens": 16668
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 21587.913926690817,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13744,
+      "output_tokens": 2924,
+      "reasoning_tokens": 2240,
+      "total_tokens": 16668
+    },
+    "total_duration_ms": 21587.913926690817
+  }
+}

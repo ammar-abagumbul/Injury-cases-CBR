@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1208",
+    "action_number": "HCPI 644/98",
+    "case_name": "WONG KA PANG JAMES v. WONG CHUN WANG",
+    "judgment_date": "1999-10-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 39,
+    "occupation_before": "light goods vehicle driver and delivery worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The Plaintiff sustained injuries to the right ankle.",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff sustained injuries to the right ankle.",
+          "The Plaintiff was treated in a short leg cast for a period of about one and half months from 21st August 1995 to 6th October 1995.",
+          "He was found to be \"able to fully weight bear on his right ankle\".",
+          "He has regained all range of movement and walking ability. There is only some residual pain on stress. Such pain is expected after fracture and torn ligament around major joints.",
+          "The present loss in earning capacity is assessed to be 1%."
+        ],
+        "icd_code": "ND1A",
+        "icd_description": "Multiple injuries of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "some residual pain on stress in right ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain on his right ankle when he lifted heavy articles for a long period of time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "able to fully weight bear on his right ankle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "regained all range of movement and walking ability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "short leg cast (21st August 1995 to 6th October 1995)",
+      "attended a bone-setter the day after the accident"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and reduced function of right ankle limiting ability under stress",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He can no longer play football, his favourite game which he used to play before the injury",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Kwai Yip v. Yuen Yun Kui",
+        "neutral_citation": null,
+        "action_number": "High Court Action 1994, No. A12617 (unreported)",
+        "injury_description": "In that case the Plaintiff was hospitalised for 8 days. His right foot was swollen with a fracture in the calcis. The fracture was treated with plaster. He had to walk with the aid of crutches for several months. There was the possibility of developing accelerated arthritis in future. Having taken all these factors into consideration, Ms. Registrar Chu awarded a sum of $250,000.00 for PSLA.",
+        "hospitalisation_days": 8,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Lobo v. Kripalani",
+        "neutral_citation": null,
+        "action_number": "HCA PI 321 of 1996 (unreported)",
+        "injury_description": "The Plaintiff's Archilles tendon was deeply cut by the broken glass door. She was hospitalised for 8 days and had painful memory of the whole incident. At the time of hearing, about 3 years after the injury, she still had difficulty in climbing steps and getting up from squatting. She had weakness of the foot and some swelling; otherwise, she had fully recovered. On 23rd January 1998 Mr. Justice Seagroatt assessed PSLA at $150,000.",
+        "hospitalisation_days": 8,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9371,
+      "output_tokens": 4636,
+      "reasoning_tokens": 3328,
+      "total_tokens": 14007
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31460.79322695732,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9371,
+      "output_tokens": 4636,
+      "reasoning_tokens": 3328,
+      "total_tokens": 14007
+    },
+    "total_duration_ms": 31460.79322695732
+  }
+}
