@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 23",
+    "action_number": "DCPI 229/2007",
+    "case_name": "CHAN CHI SHING v. CHAN SHU KUEN AND OTHERS",
+    "judgment_date": "2009-02-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 45,
+    "age_at_trial": null,
+    "occupation_before": "painter",
+    "occupation_after": "painter",
+    "expected_occupation_after": null,
+    "salary_before": 19500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "not well educated"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "collapse and compression fracture of L4 vertebra",
+        "injury_type": "Residual disability",
+        "body_part": "L4 vertebra",
+        "laterality": null,
+        "source": [
+          "X-ray revealed collapse and compression fracture of L4 vertebra and comminuted intra-articular fracture of calcaneum of the right ankle."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "comminuted intra-articular fracture of calcaneum of the right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "X-ray revealed collapse and compression fracture of L4 vertebra and comminuted intra-articular fracture of calcaneum of the right ankle."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Shing now complained about persistent right ankle pain particularly on weight bearing.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He is unable to sit for more than 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "or squat for more than 5 minutes.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He has difficulty in balancing his body due to the pain in his right leg.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He is unable to lift heavy objects.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Shing is expected to have residual back and right heel soreness on prolonged walking and manual activities.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Shing may encounter right heel discomfort when walking on uneven surface for long period of time.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Frequent weight lifting would also trigger back pain and should be avoided.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Less fit to climb ladder, scaffold or working on uneven surface.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and internal fixation of the calcaneum fracture were performed.",
+      "Physiotherapy commenced in the following month. He had 20 such sessions over a period of 4 months.",
+      "41 sessions of occupational therapy that lasted until the end of the year.",
+      "In March 2005, Shing was re-admitted for the removal of the metal implants.",
+      "He was followed up 11 times afterwards."
+    ],
+    "treatments_future": [
+      "Both experts considered that the treatment has been appropriate and recommended no further treatment."
+    ],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Combined impairment of the back and ankle assessed by experts (Dr Lam: 14%; Dr Tsoi: 12%) with residual joint pain and limitation of movement.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Less fit to climb ladder, scaffold or working on uneven surface; right heel discomfort when walking on uneven surface; difficulty in balancing.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Dr Lam opined that Shing could continue to work as a painter but his working efficiency and endurance would be much affected.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Woon Hei v Sickson Construction Co Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 521/2000",
+        "injury_description": "It also involved a painter of a similar age falling from the platform in the course of painting the ceiling. The painter suffered fracture of the left calcaneum and received similar treatment to the ankle as Shing’s.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13175,
+      "output_tokens": 6685,
+      "reasoning_tokens": 5120,
+      "total_tokens": 19860
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48704.81348782778,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13175,
+      "output_tokens": 6685,
+      "reasoning_tokens": 5120,
+      "total_tokens": 19860
+    },
+    "total_duration_ms": 48704.81348782778
+  }
+}

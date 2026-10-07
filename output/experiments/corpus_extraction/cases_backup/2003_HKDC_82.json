@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKDC 82",
+    "action_number": "DCPI 229/2002",
+    "case_name": "X v. Y",
+    "judgment_date": "2003-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Administrator at Winon Telecom Limited",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor chemical burn on the face",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "As a result of the attack, the Plaintiff sustained minor chemical burn on the face and stab wound of about 3 cm. long in the right thigh.",
+          "In respect of the facial injury, there are still a few small scars left on the face. These facial scars are not ugly and are only noticeable at short distance."
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "stab wound of about 3 cm. long in the right thigh",
+        "injury_type": "Permanent injury",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "As a result of the attack, the Plaintiff sustained minor chemical burn on the face and stab wound of about 3 cm. long in the right thigh.",
+          "The latter wound healed properly with a small residual scar."
+        ],
+        "icd_code": "NC71.2",
+        "icd_description": "Puncture wound without foreign body of hip or thigh"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "posttraumatic stress disorder and depression caused by the incident on 25 April 1997",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "23.1 She is suffering from posttraumatic stress disorder. ... The disorder is caused by the trauma of the incident on 25 April 1997 and the resultant scars over her face and thigh, and is consistent with the injury.",
+          "23.2 She is displaying symptoms of depression. ... The depression is caused by the problems with her husband and child care, and the aftermath of the incident.",
+          "29. I estimate the degree of permanent impairment to the whole person, due to posttraumatic stress disorder and depression caused by the incident on 25 April 1997, at 3%."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "distressful re-experience of the traumatic event",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "avoidance of stimuli associated with the trauma",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "lack of confidence",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "insecurity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "displeased with the scar of her face and thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "sleep problems",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "suicidal attempt on 7 March 2003",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "social functioning is affected by lack of confidence in dealing with people and decreased interest in activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment as a psychiatric clinic of Pamela Youde Nethersole Eastern Hospital",
+      "medical treatment in the public sector"
+    ],
+    "treatments_future": [
+      "further psychiatric treatment in the private sector (recommended)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Embarrassment and displeasure caused by small facial scars; facial scars noticeable only at short distance; scar on thigh",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Social functioning affected by lack of confidence in dealing with people and decreased interest in activities",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Lack of confidence and insecurity following the incident",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Siu-shan v. Tsang Hin-sum",
+        "neutral_citation": null,
+        "action_number": "DCPI 181/2002",
+        "injury_description": "post-concussional syndromes including headaches, dizziness, fatigue, irritability, difficulty in concentrating and performing mental tasks, impairment of memory, insomnia and reduced tolerance to stress and emotional excitement",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11146,
+      "output_tokens": 6786,
+      "reasoning_tokens": 5120,
+      "total_tokens": 17932
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49025.12288838625,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11146,
+      "output_tokens": 6786,
+      "reasoning_tokens": 5120,
+      "total_tokens": 17932
+    },
+    "total_duration_ms": 49025.12288838625
+  }
+}

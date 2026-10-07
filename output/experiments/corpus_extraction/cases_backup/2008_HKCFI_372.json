@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 372",
+    "action_number": "HCPI 316/2005",
+    "case_name": "GURUNG SANTOSH KUMAR v. PACIFIC CROWN ENGINEERING LTD AND OTHERS",
+    "judgment_date": "2008-04-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "welder or a scaffolder",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a piece of metallic object about the size of 0.5 cm by 1 cm was found at the left interior part of his chest.",
+        "injury_type": "Temporary injury",
+        "body_part": "left chest / left chest wall",
+        "laterality": "left",
+        "source": [
+          "a piece of metallic object about the size of 0.5 cm by 1 cm was found at the left interior part of his chest.",
+          "On the same day, the Plaintiff had an operation to have that metallic object removed.",
+          "I therefore find that the Plaintiff did suffer an injury to his chest which healed completely"
+        ],
+        "icd_code": "NB3Y",
+        "icd_description": "Other specified injuries to the thorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild adjustment disorder with depressive symptom",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric / mental",
+        "laterality": null,
+        "source": [
+          "I accept the opinion of Dr Chung that at the most the Plaintiff is suffering from a mild adjustment disorder with depression",
+          "I therefore find that ... his psychiatric condition was that he had a mild adjustment disorder with depressive symptom."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent left-sided chest pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Disturbed sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Depressive symptoms / adjustment disorder with depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Poor memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "chest x-ray on arrival at Tuen Mun Hospital",
+      "operation to remove metallic object (same day as admission)",
+      "follow-up reviews at Pok Oi Hospital, Tuen Mun Hospital, Yuen Long Jockey Club Clinic (for 45 times) and Yuen Long Government Out-patient Clinic",
+      "physiotherapy referral in 2004 (did not finish course due to non-compliance)"
+    ],
+    "treatments_future": [
+      "psychological counselling 4 sessions (as conceded by defence, at $2,500 x 4 sessions = $10,000)"
+    ],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "minor chest injury from a metallic foreign body which required operative removal and subsequently healed completely",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "mild adjustment disorder with depressive symptom affecting memory and causing disturbed sleep and anxiety",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13235,
+      "output_tokens": 4804,
+      "reasoning_tokens": 3712,
+      "total_tokens": 18039
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39329.254016280174,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13235,
+      "output_tokens": 4804,
+      "reasoning_tokens": 3712,
+      "total_tokens": 18039
+    },
+    "total_duration_ms": 39329.254016280174
+  }
+}

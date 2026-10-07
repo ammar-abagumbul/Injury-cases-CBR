@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 90",
+    "action_number": "HCPI 1241/2000",
+    "case_name": "CHAN KIN HUNG AND ANOTHER v. CHEUNG SUK YEE POLLY AND ANOTHER",
+    "judgment_date": "2001-10-04",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "breast cancer",
+        "injury_type": "Permanent injury",
+        "body_part": "breast",
+        "laterality": null,
+        "source": [
+          "The deceased, a female, died in February 2000 from breast cancer."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "metastatic breast cancer in her liver",
+        "injury_type": "Permanent injury",
+        "body_part": "liver",
+        "laterality": null,
+        "source": [
+          "it was diagnosed that the cancer had spread to her liver in December 1996.",
+          "had no effect to her metastatic breast cancer in her liver"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Took three months to recover from the operation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Unable to properly enjoy time spent with her husband and daughters",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Suffered mental depression and mental injury after learning that the hepatic resection had no effect to her metastatic breast cancer in her liver",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hepatic resection (i.e. a surgical operation to remove a part of the liver) in October 1997",
+      "chemotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Unable to properly enjoy time spent with her husband and daughters",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Suffered mental depression and mental injury",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8254,
+      "output_tokens": 4202,
+      "reasoning_tokens": 3264,
+      "total_tokens": 12456
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31569.100700318813,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8254,
+      "output_tokens": 4202,
+      "reasoning_tokens": 3264,
+      "total_tokens": 12456
+    },
+    "total_duration_ms": 31569.100700318813
+  }
+}

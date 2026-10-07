@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 147",
+    "action_number": "HCPI 1039/2001",
+    "case_name": "CHU MAN TING v. KWAN KAM KEI & ANOTHER",
+    "judgment_date": "2003-01-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 12,
+    "age_at_trial": 16,
+    "occupation_before": "Student",
+    "occupation_after": "Student",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 3 student"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Depressed skull fracture which caused swelling of the brain.",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The severity of the collision caused Man Ting to lose consciousness. On arrival at hospital, the Glasgow Coma Scale was 7/15, her blood pressure was elevated 136/178 and her pulse was 150/min. She sustained a depressed skull fracture which caused swelling of the brain."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Diffuse cerebral oedema with traumatic subarachnoid haemorrhage.",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The CT scan of the brain showed diffuse cerebral oedema with traumatic subarachnoid haemorrhage."
+        ],
+        "icd_code": "NA07.20",
+        "icd_description": "Diffuse traumatic cerebral oedema"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Left sided haemothorax (a collection of blood in the chest cavity).",
+        "injury_type": "Temporary injury",
+        "body_part": "thorax",
+        "laterality": "left",
+        "source": [
+          "There was left sided haemothorax (a collection of blood in the chest cavity)."
+        ],
+        "icd_code": "NB32.1",
+        "icd_description": "Traumatic haemothorax"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Fractured left clavicle.",
+        "injury_type": "Temporary injury",
+        "body_part": "left clavicle",
+        "laterality": "left",
+        "source": [
+          "X-ray examination showed a fractured left clavicle,"
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "A comminuted fracture of the right forearm (distal radius and ulna).",
+        "injury_type": "Temporary injury",
+        "body_part": "right forearm",
+        "laterality": "right",
+        "source": [
+          "X-ray examination showed ... a comminuted fracture of the right forearm (distal radius and ulna)"
+        ],
+        "icd_code": "NC32.6",
+        "icd_description": "Fracture of lower end of both ulna and radius"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Fracture of the 1st, 2nd and 3rd metacarpals of the right hand.",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "X-ray examination showed ... a fracture of the 1st, 2nd and 3rd metacarpals of the right hand."
+        ],
+        "icd_code": "NC53.4",
+        "icd_description": "Multiple fractures of metacarpal bones"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "A crack fracture of C3 and C4 of the vertebral body.",
+        "injury_type": "Temporary injury",
+        "body_part": "cervical spine (C3 and C4)",
+        "laterality": null,
+        "source": [
+          "A scan of the cervical spine revealed a crack fracture of C3 and C4 of the vertebral body."
+        ],
+        "icd_code": "NA22.3",
+        "icd_description": "Multiple fractures of cervical spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Headaches associated with dizziness, occurring daily and lasting from one to two hours brought on by mental tasks.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Dizziness occurring daily and lasting for up to three or four hours; dizziness caused loss of balance on two occasions leading to further falls and fractures.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Poor short term (recent) memory; difficulty retaining study material.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Slow speech noted on discharge.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Change in personality including irritability, lack of inhibition and socially inappropriate behaviour (for example singing during class).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor sense of direction; needs to be accompanied by an adult when visiting unfamiliar places.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Obesity resulting from excessive over-eating (weight rose to 93.6 kg); described as 'comfort eating'.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diminished intellectual functioning; present IQ measured at 119 and an expert's conservative estimate of pre-accident IQ at 138; overall diminution in intellectual capacities affecting school performance.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "An increased risk of post-traumatic epilepsy compared to the normal population (experts provided differing statistical presentations).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced social functioning; poor personal relations at school, victim of bullying and loss of good friends.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Managed in Intensive Care Unit for about two weeks",
+      "Intubation and mechanical ventilation",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Speech therapy",
+      "Counselling",
+      "Orthopaedic surgery on 9 April 1999",
+      "Removal of implants (re-admitted 6 to 10 July 2000)"
+    ],
+    "treatments_future": [
+      "Psychological counselling (recommended by experts)"
+    ],
+    "hospitalisation_days": 70,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Diminution in overall intellectual capacities, reduction in IQ and academic performance; diminished intellectual 'amenity' for which the plaintiff was compensated.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "Forced to repeat Form 1 and Form 2, two years behind her chronological age, reduced prospects of obtaining a university place (including medical school).",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Poor personal relations at school, victim of bullying, loss of good friends and reduced social functioning.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Poor sense of direction and need to be accompanied when visiting unfamiliar places.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Change in personality including irritability, lack of inhibition and socially inappropriate behaviour (for example singing during class).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 630000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24598,
+      "output_tokens": 9584,
+      "reasoning_tokens": 7104,
+      "total_tokens": 34182
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51058.724239468575,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24598,
+      "output_tokens": 9584,
+      "reasoning_tokens": 7104,
+      "total_tokens": 34182
+    },
+    "total_duration_ms": 51058.724239468575
+  }
+}

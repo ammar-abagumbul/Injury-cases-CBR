@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "neutral_citation": "[1976] HKCFI 86",
+    "action_number": "HCPI000863/1976",
+    "case_name": "CHUI FAI v. CHAN YUE HING AND ANOTHER",
+    "judgment_date": "1976-11-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 50,
+    "occupation_before": "junior controller employed by Hong Kong Security Limited",
+    "occupation_after": null,
+    "expected_occupation_after": "obtain employment as a cashier or some other such sedentary post",
+    "salary_before": 1075.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "His left leg was amputated through the knee.",
+        "injury_type": "Permanent injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "His left leg was amputated through the knee."
+        ],
+        "icd_code": "NC98.1",
+        "icd_description": "Traumatic amputation of left lower leg at knee level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the right leg failed to survive and a below-knee amputation was carried out on 7th July, followed by skin grafting on 19th August.",
+        "injury_type": "Permanent injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "the right leg failed to survive and a below-knee amputation was carried out on 7th July, followed by skin grafting on 19th August."
+        ],
+        "icd_code": "NC98.3",
+        "icd_description": "Traumatic amputation at level between right knee and ankle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "for the time being the plaintiff still has tenderness, particularly in the left stump.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he has experienced great difficulty and discomfort with the prostheses with which he has been fitted and which are of a modern pattern. He has lost confidence in them to such a degree that he has achieved little mobility and spends a great deal of time in his wheel chair.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The plaintiff has been unable to resume sexual relations with his wife. The reason is a matter of temperament, rather than physical. Dr. Ma said such a situation can be permanent. I take the view that this loss will probably be permanent.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The plaintiff can no longer play tennis which previously he played once a week.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He will be relieved of most of the present pain and discomfort.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "resuscitation by blood transfusion",
+      "McKee's traction",
+      "left leg amputation through the knee",
+      "below-knee amputation of right leg on 7th July",
+      "skin grafting on 19th August",
+      "fitted with prostheses"
+    ],
+    "treatments_future": [
+      "replacement prostheses (conventional type) if plaintiff agrees",
+      "full time training at a government rehabilitation centre (if referred)"
+    ],
+    "hospitalisation_days": 173,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of left leg through the knee.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Below-knee amputation of right leg (and subsequent skin grafting).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Achieved little mobility and spends a great deal of time in his wheel chair; will require prostheses and may walk with one or two canes if fitted.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Has been unable to resume sexual relations with his wife; the loss will probably be permanent.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Can no longer play tennis which previously he played once a week.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 190000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Koon-keung v. Ng Chi-yat",
+        "neutral_citation": null,
+        "action_number": "O.J.A. 1297 of 1974",
+        "injury_description": "loss of one leg",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 55000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10520,
+      "output_tokens": 5238,
+      "reasoning_tokens": 3776,
+      "total_tokens": 15758
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42599.80448335409,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10520,
+      "output_tokens": 5238,
+      "reasoning_tokens": 3776,
+      "total_tokens": 15758
+    },
+    "total_duration_ms": 42599.80448335409
+  }
+}

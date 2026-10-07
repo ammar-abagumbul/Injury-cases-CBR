@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 507",
+    "action_number": "HCPI 760/2003",
+    "case_name": "WONG MING KWAN v. WING MING ELECTRICAL CO. LTD. AND OTHERS",
+    "judgment_date": "2005-06-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "lorry driver cum delivery worker employed by the 1st defendant since 1995",
+    "occupation_after": null,
+    "expected_occupation_after": "should be able to work as a driver or as a light delivery worker",
+    "salary_before": 9000.0,
+    "salary_after": 5000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right leg lacerations with complete cut of right anterior tibial artery, deep peroneal nerve, anterior tibial tendon, extensor hallux longus tendon and extensor digitorum longus tendon.",
+        "injury_type": "Permanent injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was right leg lacerations with complete cut of right anterior tibial artery, deep peroneal nerve, anterior tibial tendon, extensor hallux longus tendon and extensor digitorum longus tendon. There was also about 40% cut of the right patella tendon."
+        ],
+        "icd_code": "NC99",
+        "icd_description": "Multiple injuries of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "About 40% cut of the right patella tendon.",
+        "injury_type": "Permanent injury",
+        "body_part": "right patella tendon",
+        "laterality": "right",
+        "source": [
+          "There was also about 40% cut of the right patella tendon."
+        ],
+        "icd_code": "NC96.21",
+        "icd_description": "Laceration of muscle, fascia or tendon of anterior muscle group at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness over the right lower limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent right lower limb weakness",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right knee and ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited range of movement in the right knee and ankle",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had to walk with elbow crutches (post-operatively) and later walked with a cane outdoors",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty mounting and descending stairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "partial numbness along the surgical scars; poor sensation over the right foot dorsum and sole",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "marked stiffness in the right big toe",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "frequent night pain in the lower leg scars",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased endurance with prolonged walking, standing, and repetitive lifting of heavy objects",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency operation (arterial anastomosis, nerve and tendon repair)",
+      "Long knee hinge brace",
+      "Use of elbow crutches and later cane",
+      "Ankle-foot orthosis",
+      "Transfer to Kowloon Hospital for convalescence",
+      "Intensive physiotherapy",
+      "Out-patient physiotherapy",
+      "Occupational therapy (pressure stocking for right knee scars)",
+      "Out-patient follow-up consultations"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain in his right leg, stiffness and numbness, limited movement and weakness of the right lower limb leading to decreased endurance and need for walking aid (cane/elbow crutches).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18716,
+      "output_tokens": 5185,
+      "reasoning_tokens": 4096,
+      "total_tokens": 23901
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41742.32945218682,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18716,
+      "output_tokens": 5185,
+      "reasoning_tokens": 4096,
+      "total_tokens": 23901
+    },
+    "total_duration_ms": 41742.32945218682
+  }
+}

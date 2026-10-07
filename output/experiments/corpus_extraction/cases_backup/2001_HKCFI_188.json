@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 188",
+    "action_number": "HCPI 195/2000",
+    "case_name": "JOAN CAROL BOIVIN v. WONG KING YIN AND YANWIDE INTERNATIONAL LIMITED",
+    "judgment_date": "2001-02-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "professional photographer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe \"whiplash injury\" to her cervical spine",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "severe \"whiplash injury\" to her cervical spine",
+          "Dr Hsu further assessed that, assuming her condition did not improve, the plaintiff's permanent incapacity from the orthopaedic injury is 5% of the whole person."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "post-traumatic stress disorder",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Evidence given by Dr Singer, the plaintiff's psychiatrist, suggests that the plaintiff is suffering from post-traumatic stress disorder",
+          "this is agreed to by the doctors, both for the plaintiff and the defendants."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "depressive disorder or an adjustment disorder with depressive moods",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Evidence given by Dr Singer, the plaintiff's psychiatrist, suggests that the plaintiff is suffering from ... depressive disorder.",
+          "the difference between Dr Singer and Dr Chung is really one of degree.",
+          "I find that the plaintiff did, for a period of time after the accident, feel very depressed.",
+          "That she still suffers from some depression is accepted by Dr Chung who states that in his opinion she would require some 10 sessions of psychological treatment."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck and back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of neck movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in the 4th and 5th fingers of her left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain radiating down her left leg from her buttock region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severe moods of depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduced ability to carry out work as a professional photographer",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "drugs"
+    ],
+    "treatments_future": [
+      "physiotherapy",
+      "spinal fusion surgery",
+      "psychiatric treatment"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pain has prevented her from carrying out her work as a professional photographer as effectively and affected the business and growth of Goldphoto",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Pain has interfered with her social and personal life and she is more withdrawn socially",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 475000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12740,
+      "output_tokens": 5874,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18614
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35236.01757362485,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12740,
+      "output_tokens": 5874,
+      "reasoning_tokens": 4544,
+      "total_tokens": 18614
+    },
+    "total_duration_ms": 35236.01757362485
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 160",
+    "action_number": "HCA 2190/1982",
+    "case_name": "CHEN YAU HING v. CHEUNG YUK WING T/A WING FUNG METAL MANUFACTORY",
+    "judgment_date": "1982-11-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 26,
+    "occupation_before": "power press operator",
+    "occupation_after": "works in a factory operating a machine calling for the pushing of buttons",
+    "expected_occupation_after": null,
+    "salary_before": 1300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration over dorsum and palm of right hand;",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "laceration over dorsum and palm of right hand;"
+        ],
+        "icd_code": "NC52.2",
+        "icd_description": "Multiple open wounds of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of 2nd to 5th metacarpal bones;",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "Fracture of 2nd to 5th metacarpal bones;"
+        ],
+        "icd_code": "NC53.4",
+        "icd_description": "Multiple fractures of metacarpal bones"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Rupture of extensor tendon to index and middle fingers.",
+        "injury_type": "Permanent injury",
+        "body_part": "index and middle fingers of right hand",
+        "laterality": "right",
+        "source": [
+          "Rupture of extensor tendon to index and middle fingers."
+        ],
+        "icd_code": "NC57.7",
+        "icd_description": "Injury of multiple extensor muscles or tendons at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness of the fingers",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "resulting loss of the grip and pinching function of the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "considerable pain and suffering",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "limited use of right hand; now uses left hand for functions requiring dexterity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital on same day as accident",
+      "fixation of the fracture",
+      "repair of the tendons",
+      "wounds sutured",
+      "physiotherapy",
+      "occupational therapy",
+      "debridement and skin grafting (13 November 1979)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Stiffness of the fingers with resulting loss of the grip and pinching function of the right hand; limited use of the right hand; uses left hand for functions requiring dexterity.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "CHAN WAI MAN and LUK SHUET KING",
+        "neutral_citation": "H.C.A. 1979 No. 5088",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 40000.0
+      },
+      {
+        "case_name": "LEUNG YIU KEUNG and TSE FUNG PING",
+        "neutral_citation": "(1981) H.K.L.J. 268",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Ty Kwei-sang also known as Cheng Kwai-sing and tong Sui-hoi trading as Wey Hing Industrial Company",
+        "neutral_citation": "H.C.A. 6191 of 1980",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 65000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10324,
+      "output_tokens": 6202,
+      "reasoning_tokens": 4736,
+      "total_tokens": 16526
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25647.03268557787,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10324,
+      "output_tokens": 6202,
+      "reasoning_tokens": 4736,
+      "total_tokens": 16526
+    },
+    "total_duration_ms": 25647.03268557787
+  }
+}

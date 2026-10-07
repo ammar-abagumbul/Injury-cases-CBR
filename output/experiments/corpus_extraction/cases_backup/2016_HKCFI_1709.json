@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKCFI 1709",
+    "action_number": "HCPI 347/2012",
+    "case_name": "HEUNG WING YAN v. HANGWAY HOUSING MANAGEMENT LTD AND OTHERS",
+    "judgment_date": "2016-10-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 23,
+    "age_at_trial": 29,
+    "occupation_before": "property officer",
+    "occupation_after": "part-time clerical work (4 hours a day)",
+    "expected_occupation_after": null,
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain / contusion with soft tissue involvement",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "back sprain / contusion with soft tissue involvement"
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing left foot condition / pain (including accessory navicular bone (\"ANB\") pain and PTTD)",
+        "injury_type": "Residual disability",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "pre-existing left foot condition / pain (including accessory navicular bone (“ANB”) pain and PTTD)"
+        ],
+        "icd_code": "ND17.Y",
+        "icd_description": "Injury of other specified muscle, fascia or tendon at ankle or foot level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "posterior tibial tendon (PTT) rupture; closed Rupture with repair done; reconstruction of PTT with harvest and transfer of flexor halluces longus (FHL)",
+        "injury_type": "Residual disability",
+        "body_part": "left posterior tibial tendon / left ankle",
+        "laterality": "left",
+        "source": [
+          "posterior tibial tendon (“PTT”) rupture",
+          "closed Rupture with repair done",
+          "operative reconstruction of PTT excision with harvest and transfer of flexor halluces longus (“FHL”)"
+        ],
+        "icd_code": "ND17.Y",
+        "icd_description": "Injury of other specified muscle, fascia or tendon at ankle or foot level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "depressive psychiatric condition",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "depressive psychiatric condition"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "dysfunction of distal posterior tibial nerve / axonal neuropathy over left tibial nerve",
+        "injury_type": "Residual disability",
+        "body_part": "left posterior tibial nerve / left foot",
+        "laterality": "left",
+        "source": [
+          "dysfunction of distal posterior tibial nerve",
+          "axonal neuropathy over left tibial nerve"
+        ],
+        "icd_code": "ND15.Y",
+        "icd_description": "Injury of other specified nerves at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced lumbar range of motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left ankle / foot pain (persistent, worsened after rupture)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Left foot numbness / decreased sensation of medial plantar surface",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Limping gait and reduced walking tolerance (difficulty walking more than 1-2 hours; walking tolerance 15 minutes at times)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Depressed mood with auditory and visual hallucinations",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Weakness of three toes of left foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "operative reconstruction of PTT with FHL transfer (28 September 2011)",
+      "ankle foot orthosis (AFO)",
+      "steroid injection (admitted 13 January 2011 for 1 day)",
+      "analgesics / pain control",
+      "psychiatric outpatient treatment and medication",
+      "acupuncture and Chinese medicine",
+      "post-operative physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 15,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Limitation to standing / sitting tolerance and reduced walking tolerance (difficulty walking / standing for over 1-2 hours; limp; walking tolerance sometimes 15 minutes)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Stopped cycling; only swam occasionally; could not run; difficulty negotiating slopes and stairs",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulty getting up from bed and inability to carry heavy objects",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Decreased outdoor activities and social engagement due to pain and low mood",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 39193,
+      "output_tokens": 7568,
+      "reasoning_tokens": 5760,
+      "total_tokens": 46761
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34133.95670428872,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 39193,
+      "output_tokens": 7568,
+      "reasoning_tokens": 5760,
+      "total_tokens": 46761
+    },
+    "total_duration_ms": 34133.95670428872
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 767",
+    "action_number": "HCPI 923/1995",
+    "case_name": "LAW KING SANG AND ANOTHER v. LAW YIN SANG AND OTHERS",
+    "judgment_date": "1997-02-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 31,
+    "age_at_trial": 39,
+    "occupation_before": "fire services installation worker",
+    "occupation_after": "fruit market worker (part-time)",
+    "expected_occupation_after": "suited to much lighter work such as watchman, lift operator, messenger, clerk, cashier or indoor salesman",
+    "salary_before": 9000.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "disc prolapse of L4-5 and L5-S1",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "The Plaintiff sprained and injured his back between the 4th and 5th floor levels of the building.",
+          "The Plaintiff was 31 years of age at the date of the accident and sustained a disc prolapse of L4-5 and L5-S1."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unable to sit or stand for any lengthy period without getting pain over the lower lumber spine region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "His sex life is affected by the back pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "His lower grip is reduced",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he cannot lift heaving objects as he had been able to previously",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He can no longer swim which he used to enjoy",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "assessed to have suffered a 20% loss of earning capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "not mentally fit to work at present because of depressive disorder (psychiatric report by Dr S.Y. CHUNG)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "pain-killing medicine",
+      "physiotherapy",
+      "treatment at Kwong Wah Hospital",
+      "treatment at Queen Elizabeth Hospital (quarterly check-ups)"
+    ],
+    "treatments_future": [
+      "psychiatric out-patient treatment every 2 weeks for one year (recommended by Dr S.Y. CHUNG)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Plaintiff is unable to sit or stand for any lengthy period without getting pain over the lower lumber spine region.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "His sex life is affected by the back pain.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "His lower grip is reduced and he cannot lift heaving objects as he had been able to previously.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He can no longer swim which he used to enjoy.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "The Plaintiff has been assessed to have suffered a 20% loss of earning capacity.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 375000.0,
+    "comparable_cases": [
+      {
+        "case_name": "CHAN Pui-ki",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8652,
+      "output_tokens": 5469,
+      "reasoning_tokens": 4160,
+      "total_tokens": 14121
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40573.09054210782,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8652,
+      "output_tokens": 5469,
+      "reasoning_tokens": 4160,
+      "total_tokens": 14121
+    },
+    "total_duration_ms": 40573.09054210782
+  }
+}

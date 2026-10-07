@@ -75,6 +75,7 @@ class SinglePassExtractor(BaseExtractor):
             result.error = (
                 f"Stage 2 ICD-11 classification failed: {exc}"
             )
+            result.error_stage = "stage2"
 
         self._attach_metadata(result)
         return result
@@ -107,6 +108,7 @@ class SinglePassExtractor(BaseExtractor):
             result.error = (
                 f"Stage 2 ICD-11 classification failed: {exc}"
             )
+            result.error_stage = "stage2"
 
         self._attach_metadata(result)
         return result
@@ -203,6 +205,7 @@ class SinglePassExtractor(BaseExtractor):
                 prompt_style=prompt_style,
                 duration_ms=duration_ms,
                 error=error,
+                error_stage="stage1",
                 debug=str(result)
             )
 
@@ -234,6 +237,7 @@ class SinglePassExtractor(BaseExtractor):
             duration_ms=duration_ms,
             token_count=token_count,
             error=error,
+            error_stage="stage1",
             debug=result.get('raw'),
         )
 
@@ -283,6 +287,7 @@ class SinglePassExtractor(BaseExtractor):
                 prompt_style=prompt_style,
                 duration_ms=duration_ms,
                 error=error,
+                error_stage="stage1",
                 debug=str(result)
             )
 
@@ -314,6 +319,7 @@ class SinglePassExtractor(BaseExtractor):
             duration_ms=duration_ms,
             token_count=token_count,
             error=error,
+            error_stage="stage1",
             debug=result.get('raw'),
         )
 

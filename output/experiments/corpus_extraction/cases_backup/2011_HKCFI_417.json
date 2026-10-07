@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 417",
+    "action_number": "HCPI 445/2007",
+    "case_name": "LAU KOON LOI v. WONG WAI SING AND ANOTHER",
+    "judgment_date": "2011-06-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 44,
+    "age_at_trial": 52,
+    "occupation_before": "aircraft tractor driver",
+    "occupation_after": "security guard (casual/part-time) employed by SA Security",
+    "expected_occupation_after": "tractor driver",
+    "salary_before": 20000.0,
+    "salary_after": 7049.0,
+    "expected_salary_after": null,
+    "education_level": "schooling to secondary level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "head injuries",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The plaintiff was then taken to the Accident and Emergency Department (“A&E Dept.”) Princess Margaret Hospital (“PMH”) where he was diagnosed to have suffered head injuries and some mild swelling on over his right leg."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "neck sprain / whiplash injury",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Dr Leung diagnosed the plaintiff as suffering from neck sprain resulting in brachial plexus injury.",
+          "Dr Yuen opined that the plaintiff had suffered a whiplash injury and noted that the plaintiff expressed thinking that he could not go back to his pre-accident job.",
+          "The real injury to plaintiff is a whiplash injury to his neck and which has resulted in some disability in the form of pain to his neck and shoulders."
+        ],
+        "icd_code": "NA23.42",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain with neurological signs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "brachial plexus injury",
+        "injury_type": "Temporary injury",
+        "body_part": "left upper limb / brachial plexus",
+        "laterality": "left",
+        "source": [
+          "Dr Leung diagnosed the plaintiff as suffering from neck sprain resulting in brachial plexus injury.",
+          "To Dr Leung, the plaintiff complained of neck stiffness with tenderness of the left trapezius and sternomastoid muscle upon tilting to the left, tenderness along the lower cervical spine, pain and numbness and reduced grip power in the left hand."
+        ],
+        "icd_code": "NC14.6",
+        "icd_description": "Injury of multiple nerves at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "C5/6 disc protrusion (cervical disc herniation) causing slight narrowing of the spinal canal and slight indentation on the anterior surface of the cervical cord",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (C5/6)",
+        "laterality": null,
+        "source": [
+          "That MRI findings showed : (i) A disc protrusion at only the C5/6 level. It was a postero-central protrusion measuring about 3 mm which caused a slight narrowing of the spinal canal and a slight compression of the anterior aspect of the cervical cord at C5/6 level;",
+          "Dr Tsoi further opined that the protruded C5/6 disc could be related to the accident given that the plaintiff had no pre-existing neck problem and that could explain the plaintiff’s symptoms of persistent neck pain since the accident.",
+          "I find on the opinion of Dr Tsoi and for the reason given by Dr Tsoi that the protruded disc at C5/6 level was caused by a combination of the degenerative changes to the cervical spine but which was aggravated by the soft tissue muscle sprain when the accident happened. I further accept the opinion of Dr Tsoi that the protruded disc at C5/6 level was the reason for the persistent neck and shoulder pain of the plaintiff."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "degenerative changes at C5/6 end-plates",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine (C5/6)",
+        "laterality": null,
+        "source": [
+          "From that MRI study, it was seen that there was disc protrusion at C5/6 level causing slight narrowing of the spinal canal and slight indentation on the anterior surface of the cervical cord. Degenerative changes were also identified at C5/6 junction endplates.",
+          "That MRI findings showed : (ii) some degenerative marrow signal changes at the C5/6 end-plates; and (iii) no other abnormality."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "continuous neck pain radiating to the right shoulder and to the right forearm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "neck stiffness with tenderness of the left trapezius and sternomastoid muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain and numbness and reduced grip power in the left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "limited range of motion of the neck in all directions",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headache and dizziness (post-concussional headache and dizziness)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "episodic daily mild neck pain, occurring morning and night, radiating to right shoulder (of mild intensity)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of normal cervical lordosis (radiological finding)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "erectile dysfunction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "adjustment disorder with symptoms of depressed mood, worries about physical symptoms, problems at work, financial difficulty, relationship problems with family members, pessimistic ideas, sexual problems, suicidal idea and sleep problem",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reliance on painkillers occasionally for neck pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "inability or reduced ability to turn the head",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance to A&E",
+      "A&E Department assessment and discharge",
+      "consultation with panel doctor Dr Yan",
+      "orthopaedic specialist follow-up (Dr Leung)",
+      "MRI investigations (29 December 2004 and 17 October 2007)",
+      "out-patient orthopaedics clinic (TMOPC)",
+      "physiotherapy (12 sessions at Pok Oi Hospital)",
+      "occupational therapy (work capacity training 11 sessions)"
+    ],
+    "treatments_future": [
+      "10 sessions of psychological treatment by a clinical psychologist (recommended)"
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "the plaintiff started to experience problems of erectile dysfunction which had caused him further stress in his relationship with his wife.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of family life",
+        "description": "adjustment disorder with ... relationship problems with family members",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "the plaintiff enjoyed his driving work, in particular with heavy vehicles, and which was the only work that he really knew how to do well; he was less fit to resume his pre-accident job and was not reinstated as a tractor driver",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Boivin v Wong King Yin & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 195/2000",
+        "injury_description": "severe whiplash injury with neck and back pain, limitation of neck movement, headaches, numbness in two fingers and possible future cervical fusion, PTSD and depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 475000.0
+      },
+      {
+        "case_name": "Luk Yee Lam v Orasa Livasiri",
+        "neutral_citation": null,
+        "action_number": "HCPI 394/2002",
+        "injury_description": "extension-flexion injury of the neck with a disc herniation at C5/6 resulting in neck and back pain with numbness and weakness in upper limbs and reduced sexual desire",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 400000.0
+      },
+      {
+        "case_name": "Chan So Kwan v Mak Siu Kwan",
+        "neutral_citation": null,
+        "action_number": "HCPI 1487/2000",
+        "injury_description": "whiplash injury with persistent neck pain, limitation in neck movement, occasional spasm and anxiety disorder preventing return to pre-accident work",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Tang Wai Tak v Chiu Hing Contstruction & Transportation Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 188/2006",
+        "injury_description": "whiplash injury with persistent on and off neck pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Tsoi Wing Tak v Lau Sze Ni",
+        "neutral_citation": null,
+        "action_number": "HCPI 926/2005",
+        "injury_description": "whiplash injury, wore a neck brace for six months, initial stiffness then residual pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21846,
+      "output_tokens": 8832,
+      "reasoning_tokens": 5824,
+      "total_tokens": 30678
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46021.3864184916,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21846,
+      "output_tokens": 8832,
+      "reasoning_tokens": 5824,
+      "total_tokens": 30678
+    },
+    "total_duration_ms": 46021.3864184916
+  }
+}

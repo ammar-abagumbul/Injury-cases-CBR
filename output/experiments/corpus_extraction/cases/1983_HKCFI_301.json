@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 301",
+    "action_number": "HCA004930/1981",
+    "case_name": "NG LING AND OTHERS v. MAK WAI AND OTHERS",
+    "judgment_date": "1983-03-18",
+    "plaintiff_count": 3,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 30,
+    "age_at_trial": null,
+    "occupation_before": "operating his goods vehicle",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "As a result of an accident that occurred at Tuen Mun Road at about 2 p.m. on the 4th of December 1979 Cheung Hong Hung was fatally injured",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "As a result of an accident that occurred at Tuen Mun Road at about 2 p.m. on the 4th of December 1979 Cheung Hong Hung was fatally injured and LI KIN HONG suffered injuries to his left leg and hand."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "laceration of the left hand",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "he suffered a broken left femur, and laceration of the left hand, the left thigh and the left calf."
+        ],
+        "icd_code": "NC52.10",
+        "icd_description": "Laceration without foreign body of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "broken left femur",
+        "injury_type": "Residual disability",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "he suffered a broken left femur, and laceration of the left hand, the left thigh and the left calf.",
+          "The broken thigh was treated with an intramedullary nail."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "laceration of the left thigh and the left calf; the two lacerations on the leg required skin grafts",
+        "injury_type": "Temporary injury",
+        "body_part": "left thigh and left calf",
+        "laterality": "left",
+        "source": [
+          "he suffered a broken left femur, and laceration of the left hand, the left thigh and the left calf.",
+          "The two lacerations on the leg required skin grafts."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "small piece of foreign body in inner thigh (removed under local anaesthesia)",
+        "injury_type": "Temporary injury",
+        "body_part": "inner thigh",
+        "laterality": "left",
+        "source": [
+          "Later a small piece of foreign body was removed from his inner thigh under local anaesthesia."
+        ],
+        "icd_code": "NC71.1",
+        "icd_description": "Laceration with foreign body of hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The extent of the deceased's injuries were such that he died shortly after the accident.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "used 2 walking sticks for six weeks after discharge",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "The two lacerations on the leg required skin grafts.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Dr Wedderburn found a 4% impairment of the leg.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He stated if the nail is removed all symptoms will disappear and he felt a 1% permanent disability would be fair.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "some foreign body discomfort (presence of the nail caused some foreign body discomfort and recommended its removal)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admitted to Princess Margaret Hospital",
+      "The broken thigh was treated with an intramedullary nail.",
+      "The two lacerations on the leg required skin grafts.",
+      "Transferred to Pok Oi Hospital for a further 3 weeks",
+      "Used 2 walking sticks for six weeks after discharge",
+      "A small piece of foreign body was removed from his inner thigh under local anaesthesia"
+    ],
+    "treatments_future": [
+      "Removal of the intramedullary nail (recommended by Dr Wedderburn)"
+    ],
+    "hospitalisation_days": 42,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 183,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "General damages (future loss of dependency) calculated as 2,000 x 12 x 15 = $360,000 (award for benefit of deceased's family)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities awarded to 3rd Plaintiff for injuries to left leg and hand (award $15,600)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Temporary reduced mobility (used two walking sticks for six weeks) and 4% impairment of the leg",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11594,
+      "output_tokens": 8235,
+      "reasoning_tokens": 6400,
+      "total_tokens": 19829
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38227.7345508337,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11594,
+      "output_tokens": 8235,
+      "reasoning_tokens": 6400,
+      "total_tokens": 19829
+    },
+    "total_duration_ms": 38227.7345508337
+  }
+}

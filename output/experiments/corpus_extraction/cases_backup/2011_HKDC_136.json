@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 136",
+    "action_number": "DCPI 1618/2010",
+    "case_name": "TSE SIN YEE v. WING WAH CAKE SHOP LTD",
+    "judgment_date": "2011-07-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "shop assistant and cashier",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "injury to her right thigh and back sustained in the course of her employment on 16 April 2006.",
+          "diagnosed with a sprained back and right thigh."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sprained right thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "injury to her right thigh and back sustained in the course of her employment on 16 April 2006.",
+          "diagnosed with a sprained back and right thigh."
+        ],
+        "icd_code": "NC73.1Z",
+        "icd_description": "Strain or sprain of hip, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness over thigh and calf",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness on her leg and pain around the back of the waist",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "fatigue of back discomfort / occasional fatigue and back discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "adjustment disorder with mixed anxiety and depressed mood (depressive disorder and phobia)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "1% to 2% whole person impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident and Emergency Department treatment at Princess Margaret Hospital",
+      "Accident and Emergency Department treatment at Prince of Wales Hospital",
+      "Physiotherapy at Prince of Wales Hospital",
+      "Treatments at Pok Oi Hospital (Yuen Long)",
+      "Shatin Hospital",
+      "Shatin Lek Yuen Health Centre",
+      "Nethersole Hospital (Tai Po)",
+      "Union Hospital (private)",
+      "General medical practitioners",
+      "Chinese herbalists"
+    ],
+    "treatments_future": [
+      "psychiatric and psychological treatment (one year) as recommended by Dr. Chung"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 609,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 175000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chung Keung v. Greenroll Ltd. t/a Conrad Hong Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 275 of 2005",
+        "injury_description": "soft tissue contusion of the lower back; PSLA $180,000 (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Fung Lee Hung v. The Spastics Association of Hong Kong",
+        "neutral_citation": null,
+        "action_number": "DCPI 1112 of 2005",
+        "injury_description": "mild form of depression caused/exacerbated by pre-existing physical symptoms; PSLA $200,000 (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Tam Kwok Man v. The Kowloon Motorbus Company (1993) Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 775 of 2001",
+        "injury_description": "minor contusion of the back leading to residual pain for some months; PSLA $150,000 (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Cheng Liu Nei Su v. Clare Environmental Services Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 842 of 2008",
+        "injury_description": "soft tissue contusion injury of the back with residual pain; PSLA $175,000 (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 175000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19529,
+      "output_tokens": 4472,
+      "reasoning_tokens": 3264,
+      "total_tokens": 24001
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36366.22803285718,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19529,
+      "output_tokens": 4472,
+      "reasoning_tokens": 3264,
+      "total_tokens": 24001
+    },
+    "total_duration_ms": 36366.22803285718
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 678",
+    "action_number": "DCPI 1665/2011",
+    "case_name": "LEE CHUI YING AND ANOTHER v. CHAN YEE LING ELAINE",
+    "judgment_date": "2015-06-23",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "principal partner (of Messrs Christine M Koo & Ip)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the defendant punched the 2nd plaintiff’s mouth",
+        "injury_type": "Temporary injury",
+        "body_part": "mouth",
+        "laterality": null,
+        "source": [
+          "The defendant punched the 2nd plaintiff’s mouth and bit the 1st plaintiff’s right wrist."
+        ],
+        "icd_code": "NA0D.Z",
+        "icd_description": "Injury of teeth or supporting structures, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "bit the 1st plaintiff’s right wrist",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The defendant punched the 2nd plaintiff’s mouth and bit the 1st plaintiff’s right wrist."
+        ],
+        "icd_code": "NC52.14",
+        "icd_description": "Open bite of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "The defendant complained of shoulder pain after the incident (“the Incident”).",
+        "injury_type": "Temporary injury",
+        "body_part": "shoulder",
+        "laterality": null,
+        "source": [
+          "The defendant complained of shoulder pain after the incident (“the Incident”)."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post traumatic stress disorder and depressive disorder (moderate to severe)",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr. Li diagnosed the defendant was suffered from post traumatic stress disorder and depressive disorder (moderate to severe)."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "poor concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "poor memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "cognitive impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "could not perform her duties as a lawyer",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "in fear when going near Admiralty",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "nightmares",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "low mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of appetite",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of interest in leisure activity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of desire to work",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "the long term symptoms and disturbance created much distress and impairment in her occupational, emotional and social functioning",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "antidepressant",
+      "psychological treatments",
+      "psychiatric / psychological consultations (treating doctors: Dr. Li Derek Seung Yau, Dr. Jenny Tsang, Dr. Rhoda Yuen)"
+    ],
+    "treatments_future": [
+      "further treatment (as recommended by Dr. Li Derek Seung Yau)",
+      "treatment plan suggested by Dr. Rhoda Yuen"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "could not perform her duties as a lawyer",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "in fear when going near Admiralty",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "impairment in her ... social functioning (as pleaded by Dr. Rhoda Yuen)",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11125,
+      "output_tokens": 5335,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16460
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41955.110251903534,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11125,
+      "output_tokens": 5335,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16460
+    },
+    "total_duration_ms": 41955.110251903534
+  }
+}

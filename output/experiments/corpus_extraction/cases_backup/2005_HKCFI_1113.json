@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 1113",
+    "action_number": "HCPI 37/2004",
+    "case_name": "MAK KAM BO v. EVER GAIN ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2005-11-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 47,
+    "age_at_trial": 52,
+    "occupation_before": "carpenter",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 17945.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "six cm laceration to the back of the right hand with a fracture of the second metacarpal head.",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "The hospital reports show that Mr Mak suffered a six cm laceration to the back of the right hand with a fracture of the second metacarpal head."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A second stage operation of osteochondral autograft head of right second metacarpal, using the head of the third metatarsal of the left foot was done on 26 February 2002.",
+        "injury_type": "Residual disability",
+        "body_part": "left foot (donor site, third metatarsal)",
+        "laterality": "left",
+        "source": [
+          "A second stage operation of osteochondral autograft head of right second metacarpal, using the head of the third metatarsal of the left foot was done on 26 February 2002."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post-traumatic stress disorder and depression.",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He was diagnosed as suffering from post-traumatic stress disorder and depression.",
+          "They agreed that he was suffering from post-traumatic stress disorder in relation to the accident and also a depressive reaction in consequence of the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "stiffness in the right index finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the skin was dark and cold",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "there was no movement at the joints",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not bend the finger; it stuck out when he made a fist; and it was discoloured",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to lift more than a catty with his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some sensory deficit (left foot)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "recurrent numbness and some soreness after walking for half an hour; pain on climbing a ladder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "post-traumatic stress disorder",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressive reaction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "significant fear when exposed to cues that would remind him of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "lack of concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "voluntary restriction of motion in bending the index finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency debridement and extensor tendon repair",
+      "osteochondral autograft head of right second metacarpal, using the head of the third metatarsal of the left foot",
+      "occupational therapy (83 sessions)",
+      "physiotherapy",
+      "treatment at pain clinic"
+    ],
+    "treatments_future": [
+      "psychiatric and psychological treatment for two years",
+      "continuation of pain clinic treatment"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "index finger which will never allow him to do any kind of fine manual work, and will always get in the way of any manual work he has to do.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He obviously cannot return to his pre-accident employment.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "significant fear when exposed to cues that would remind him of the accident, as well as other psychological difficulties such as lack of concentration.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15342,
+      "output_tokens": 6861,
+      "reasoning_tokens": 5184,
+      "total_tokens": 22203
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43303.73465269804,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15342,
+      "output_tokens": 6861,
+      "reasoning_tokens": 5184,
+      "total_tokens": 22203
+    },
+    "total_duration_ms": 43303.73465269804
+  }
+}

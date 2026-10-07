@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 72",
+    "action_number": "HCA 7007/1983",
+    "case_name": "CHI YUK KAU v. CHAN KAI MING T/A KAI CHEONG PAPER PRODUCTS FACTORY",
+    "judgment_date": "1985-05-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "operating a machine which staples together paper or cardboard cartons; employed for approximately two weeks",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to left eye resulting in practical blindness",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "it flew up and struck his left eye.",
+          "an operation was performed which most unhappily failed to save the sight of the injured eye. I think he can still detect light with that eye but for all practical purposes it is blind."
+        ],
+        "icd_code": "NA06.82",
+        "icd_description": "Closed eyeball trauma, unilateral"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Practical blindness of the left eye (can still detect light)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "clinic treatment",
+      "ophthalmological specialist consultation at Yaumatei Clinic with Dr. Yau",
+      "operation at Queen Elizabeth Hospital"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He might find it harder in the future to find a job; the scope of future employment has been somewhat narrowed; prospective employers may hesitate where it is known he has only one eye",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8573,
+      "output_tokens": 2959,
+      "reasoning_tokens": 2176,
+      "total_tokens": 11532
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 20188.55692818761,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8573,
+      "output_tokens": 2959,
+      "reasoning_tokens": 2176,
+      "total_tokens": 11532
+    },
+    "total_duration_ms": 20188.55692818761
+  }
+}

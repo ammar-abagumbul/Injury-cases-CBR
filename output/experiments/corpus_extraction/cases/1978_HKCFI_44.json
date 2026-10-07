@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 44",
+    "action_number": "HCA002579/1976",
+    "case_name": "LEUNG YUI KIN v. LAI PING SUN AND ANOTHER",
+    "judgment_date": "1978-10-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 53,
+    "occupation_before": "employed by an engineering company",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "abrasions over the forehead, chest, elbows, left hand and left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "forehead; chest; elbows; left hand; left knee",
+        "laterality": "left",
+        "source": [
+          "suffering from abrasions over the forehead, chest, elbows, left hand and left knee."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "compressed fracture of T12 spine",
+        "injury_type": "Permanent injury",
+        "body_part": "T12 vertebra / lower thoracic spine",
+        "laterality": null,
+        "source": [
+          "X-rays revealed a compressed fracture of T12 spine",
+          "fracture of the body of the 12th or last vertebra in the chest"
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and tenderness in the lower spinal region",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "steady and moderate degree of pain which became severe if he sat for a period of one hour",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "discomfort returned after [spinal brace] was removed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "spinal injury will obviously hamper his ability to move freely",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "necessity to wear the spinal brace in the future will be a cause of annoyance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Queen Elizabeth Hosptial on the date of the accident",
+      "conservative treatment",
+      "transferred to the Buddhist Hospital",
+      "attended Queen Elizabeth Hospital as an outpatient for some considerable time",
+      "Myelogram performed",
+      "spinal brace fitted in June 1977"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "the spinal injury will obviously hamper his ability to move freely and the probable necessity to wear the spinal brace in the future will be a cause of annoyance",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8307,
+      "output_tokens": 4316,
+      "reasoning_tokens": 3264,
+      "total_tokens": 12623
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30396.555062383413,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8307,
+      "output_tokens": 4316,
+      "reasoning_tokens": 3264,
+      "total_tokens": 12623
+    },
+    "total_duration_ms": 30396.555062383413
+  }
+}

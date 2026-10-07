@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 240",
+    "action_number": "HCA004314/1982",
+    "case_name": "LAI PO WAH v. CHAN WOON SUM AND ANOTHER",
+    "judgment_date": "1983-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "operating a scraper in a construction site",
+    "occupation_after": "works for a flat letting agent",
+    "expected_occupation_after": null,
+    "salary_before": 3000.0,
+    "salary_after": 1700.0,
+    "expected_salary_after": null,
+    "education_level": "educational standard not high"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "After two days the wound became gangrenous and the leg was amputated five inches below the knee.",
+        "injury_type": "Permanent injury",
+        "body_part": "left lower leg",
+        "laterality": "left",
+        "source": [
+          "After two days the wound became gangrenous and the leg was amputated five inches below the knee."
+        ],
+        "icd_code": "NC98.Y",
+        "icd_description": "Other specified traumatic amputation of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The left tibia and fibula were fractured.",
+        "injury_type": "Temporary injury",
+        "body_part": "left lower leg",
+        "laterality": "left",
+        "source": [
+          "The left tibia and fibula were fractured."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Exploratory surgery was carried out the same day shooing that all nevrovascular bundles were completely torn and thrombosed and all muscles were severed.",
+        "injury_type": "Permanent injury",
+        "body_part": "distal lower limb",
+        "laterality": "left",
+        "source": [
+          "Exploratory surgery was carried out the same day shooing that all nevrovascular bundles were completely torn and thrombosed and all muscles were severed."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "near circumferential laceration, exposing fractured bone ends and tendons",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "there was no circulation to, or movement of, the toes",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "the distal lower limb was not viable",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "wound became gangrenous",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can walk for anything up to four hours",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Martial Arts and football are no longer available to him",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "activities are inevitably going to be limited for the rest of his life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Princess Margaret Hospital",
+      "exploratory surgery",
+      "debridgement",
+      "temporary immobilisation in a plaster cast",
+      "amputation five inches below the knee",
+      "transfer to the Rehabilitation Centre in Kwun Tong",
+      "prosthesis supplied and rehabilitation (learned to cope with his handicap)",
+      "prosthesis adjustments"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Amputation of the left lower leg five inches below the knee leading to permanent loss and lifelong limitation of activities.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Martial Arts and football are no longer available to him.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 75000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsang Sun-keung v Chan Pui-ching",
+        "neutral_citation": null,
+        "action_number": "Action 1979 No. 3543",
+        "injury_description": "amputation above the knee in a man aged 22",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Chui Kit v Tong Yiu-kay",
+        "neutral_citation": null,
+        "action_number": "1982 No. 7692",
+        "injury_description": "plaintiff aged 59 and there was no amputation; prolonged and painful treatment for a wound which refused to heal",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 60000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9073,
+      "output_tokens": 6125,
+      "reasoning_tokens": 4544,
+      "total_tokens": 15198
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38439.29547071457,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9073,
+      "output_tokens": 6125,
+      "reasoning_tokens": 4544,
+      "total_tokens": 15198
+    },
+    "total_duration_ms": 38439.29547071457
+  }
+}

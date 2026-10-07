@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 823",
+    "action_number": "DCPI 2795/2014",
+    "case_name": "TSANG YUET SHAN v. TSUEN KING HOME FOR THE AGED LTD AND ANOTHER",
+    "judgment_date": "2019-06-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 36,
+    "age_at_trial": null,
+    "occupation_before": "Registered Nurse employed by the Hospital Authority working at the premises of the 1st defendant",
+    "occupation_after": "Registered Nurse",
+    "expected_occupation_after": null,
+    "salary_before": 42848.95,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue contusion to the lower back and coccyx region",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back and coccyx region",
+        "laterality": null,
+        "source": [
+          "the plaintiff only suffered from a soft tissue contusion to the lower back and coccyx region."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent coccyx region pain spreading to the lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness on the coccyx",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild reduction of motion",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive Waddell's sign (one manoeuvre \"positive\" and two \"mildly positive\")",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "flare-up episodes when the pain was so bad that she had difficulties getting out of bed, putting on trousers or going to the bathroom",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain would wake her up 1-2 times a week requiring stretching before going back to sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to perform household tasks (could not change sheets on a bed, move a bed mattress, clean the floor, wash the dishes)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "requires regular pain-killers with intermittent relief",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "pain-killers",
+      "physiotherapy",
+      "clinical psychology sessions",
+      "three caudal block injections",
+      "attendance at pain clinic",
+      "MRI scans (2)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 62,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "the pain prevented her to perform even the simplest of house work",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "regular disturbance of sleep",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 60000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fazal Ahmed v MTR Corporation Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 29/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10199,
+      "output_tokens": 4275,
+      "reasoning_tokens": 3072,
+      "total_tokens": 14474
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33502.669494599104,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10199,
+      "output_tokens": 4275,
+      "reasoning_tokens": 3072,
+      "total_tokens": 14474
+    },
+    "total_duration_ms": 33502.669494599104
+  }
+}

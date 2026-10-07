@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "neutral_citation": "[1987] HKCFI 140",
+    "action_number": "HCA007337/1986",
+    "case_name": "YIP KAM HUNG BY HIS FATHER AND NEXT FRIEND YIP FUNG LOI v. LEUNG SAM NGA",
+    "judgment_date": "1987-07-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 16,
+    "age_at_trial": null,
+    "occupation_before": "apprentice poultry worker",
+    "occupation_after": "daily worker at a poultry shop in Yaumatei",
+    "expected_occupation_after": null,
+    "salary_before": 1700.0,
+    "salary_after": 4200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "his right eye ruptured",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "As a result of the accident he was rendered unconscious, suffered numerous lacerations to the eye-lids and his right eye ruptured."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "ruptured right eye was noted to be phthisical (shrunken)",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "Subsequently his ruptured right eye was noted to be phthisical (shrunken) and an artificial eye was fitted."
+        ],
+        "icd_code": "NA06.87",
+        "icd_description": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "total loss of vision in the right eye",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "As disclosed by Dr. William J. Heffernan's report dated 19th March 1987, there is a total loss of vision in the right eye."
+        ],
+        "icd_code": "NA06.8",
+        "icd_description": "Traumatic injury to eyeball"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rendered unconscious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numerous lacerations to the eye-lids",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "prosthesis is sometimes uncomfortable",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right eye waters occasionally",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "prosthesis ... too large causing it to have a large, immobile, staring appearance",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "loss of 3-dimensional vision with the disability to judge distance and depth",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "visual field defect i.e. narrowing of the field of vision",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation for 14 days",
+      "repair of ruptured eyeball",
+      "suturing of lacerations to eye-lids",
+      "fitting of an artificial eye (prosthesis)",
+      "follow-up ophthalmic clinic visits (11 visits at Yaumatei Eye Clinic between February 1984 and November 1985)"
+    ],
+    "treatments_future": [
+      "replacement prosthesis (estimated cost $6,000; replacement every 8 to 10 years)",
+      "annual ophthalmological examination"
+    ],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Total loss of vision in the right eye.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Prosthesis is too large causing a large, immobile, staring appearance; lacerations to the eye-lids.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Handicap in the labour market / loss of earning capacity resulting from loss of an eye.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 110000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Nai Wing v. Hsing Kieng Shing",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No. 8451 of 1985",
+        "injury_description": "sustained multiple facial lacerations and loss of the right eye and the said award was agreed by the parties",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Young Wing Yin v. Motor Electric Manufacturing Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No. 2676 of 1981",
+        "injury_description": "1 of his eyes was rendered virtually useless with the remaining eye having a 6/18 vision when best corrected due to high degree of corneal astigmatism. He had to stop work for 8 months.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13047,
+      "output_tokens": 6454,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19501
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38499.870367348194,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13047,
+      "output_tokens": 6454,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19501
+    },
+    "total_duration_ms": 38499.870367348194
+  }
+}

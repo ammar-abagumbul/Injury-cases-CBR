@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 190",
+    "action_number": "HCPI 1168/1999",
+    "case_name": "YIP PIU v. CHUNG KAM FEI CATHERINE AND ANOTHER",
+    "judgment_date": "2000-11-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 22,
+    "age_at_trial": 25,
+    "occupation_before": "Master brick-layer (previously chef)",
+    "occupation_after": "Painter (painting lines on tennis courts) from July 1999",
+    "expected_occupation_after": null,
+    "salary_before": 25000.0,
+    "salary_after": 13160.0,
+    "expected_salary_after": null,
+    "education_level": "Left school at Form 3"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor head injuries (transient loss of consciousness without skull fracture; normal CT scan of the brain)",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "(i) minor head injuries (transient loss of consciousness without skull fracture; normal CT scan of the brain);"
+        ],
+        "icd_code": "NA07.02",
+        "icd_description": "Concussion with loss of consciousness, short duration of less than 30 minutes"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "dorsal back pain (probable thoracic T9 fracture)",
+        "injury_type": "Temporary injury",
+        "body_part": "thoracic spine (dorsal back)",
+        "laterality": null,
+        "source": [
+          "(ii) dorsal back pain (probable thoracic T9 fracture, followed up in the orthopaedics clinic)."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "disc herniation",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff had a disc herniation as a result of the accident."
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "scarring of the nerve (nerve root scarring/impingement) resulting from healed disc herniation",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar nerve roots / right leg nerves",
+        "laterality": "right",
+        "source": [
+          "The herniation had been healed but had caused scarring of the nerve. The current complaint of the plaintiff of pain at the back and the leg is caused by the scarring of the nerve which had been impinged because of the disc herniation."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "dorsal spondylosis involving T9 and T11 vertebra with anterior marginal osteophytosis; decreased lumbar lordosis with scoliosis convex to right",
+        "injury_type": "Residual disability",
+        "body_part": "dorsal and lumbosacral spine",
+        "laterality": null,
+        "source": [
+          "x-rays were taken of the dorsal spine of the plaintiff which revealed dorsal spondylosis involving T9 and T11 vertebra with anterior marginal osteophytosis.",
+          "x-ray was taken also of the lumbosacral spine on the same day which revealed decreased lumbar lordosis with scoliosis convex to right."
+        ],
+        "icd_code": "NB3Y",
+        "icd_description": "Other specified injuries to the thorax"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "fainted after the collision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "nose bleeding",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "injury to the back and chest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "weakness of the right leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "pins and needles sensation of his right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "tenderness and muscle spasm of the lumbar spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "limitation of the lumbar spine movement (flexion reduced to 40 degrees from normal 60 degrees)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impairment of Straight Leg Raising test",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impairment of the sensation of the right foot / subjective numbness over the whole right leg with extension into the dorsum of the right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "occasional back pain waking him up at night",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "reduced standing, walking and sitting tolerance (could stand for an hour, walk for 20 minutes and sit for half an hour at one point; later standing tolerance half an hour, needed rest after walking 15 minutes; prolonged sitting for half an hour causes discomfort)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "full range of back motion observed by Dr Chan; subjective numbness unlikely to have significant pathology",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to hospital (discharged on 8 December 1997)",
+      "admitted to the Queen Elizabeth Hospital on 26 March 1998",
+      "CT scan of the brain (normal)",
+      "MRI spine (16 September 1998 for dorsal and lumbar; 10 February 1999 for lumbar)",
+      "X-rays of dorsal and lumbosacral spine (15 May 2000)",
+      "physiotherapy (stopped June 1998)",
+      "oral analgesic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15954,
+      "output_tokens": 8582,
+      "reasoning_tokens": 6464,
+      "total_tokens": 24536
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39570.790972560644,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15954,
+      "output_tokens": 8582,
+      "reasoning_tokens": 6464,
+      "total_tokens": 24536
+    },
+    "total_duration_ms": 39570.790972560644
+  }
+}

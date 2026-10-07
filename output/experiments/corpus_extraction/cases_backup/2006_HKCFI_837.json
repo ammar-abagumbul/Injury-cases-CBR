@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 837",
+    "action_number": "HCPI 686/2004",
+    "case_name": "YEUNG TAI HUNG v. HONG KONG BAPTIST HOSPITAL AU SHUE HUNG HEALTH CENTRE",
+    "judgment_date": "2006-07-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 55,
+    "age_at_trial": 59,
+    "occupation_before": "assistant chef",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16509.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion and soft tissue injury to his back from the accident.",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "contusion and soft tissue injury to his back from the accident."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing degeneration of his lumbar spine prior to the accident on 4 December 2001",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "pre-existing degeneration of his lumbar spine prior to the accident on 4 December 2001",
+          "an MRI taken at the Duchess of Kent Children Hospital (DKCH) showed degenerative changes particularly to L4/5 and L5/S1."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "cervical spondylosis (diagnosed as early as 2000)",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine / neck",
+        "laterality": null,
+        "source": [
+          "diagnosed to have cervical spondylosis as early as 2000"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "immediate pain to his lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bilateral lower limb numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tenderness at the right paraspinal region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased light touch sensation of the right lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "persistent lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Adjustment disorder with depressive mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "suicidal ideation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "sick leave granted",
+      "regular physiotherapy",
+      "three-month Special Rehabilitation Programme at DKCH (November 2002 to March 2003)",
+      "regular follow up at DKCH and Kwun Tong Occupational Health Clinic",
+      "psychiatric admission to QMH for two days (February 2004)"
+    ],
+    "treatments_future": [
+      "public hospital treatment for two years (agreed future medical expenses)",
+      "regular follow up at DKCH and Kwun Tong Occupational Health Clinic (ongoing)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities assessed at $300,000.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16219,
+      "output_tokens": 5379,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21598
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35956.04623481631,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16219,
+      "output_tokens": 5379,
+      "reasoning_tokens": 4096,
+      "total_tokens": 21598
+    },
+    "total_duration_ms": 35956.04623481631
+  }
+}

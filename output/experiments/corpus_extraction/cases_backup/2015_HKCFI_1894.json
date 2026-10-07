@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1894",
+    "action_number": "HCPI 15/2014",
+    "case_name": "LAU CHO YU v. CHAU CHUNG SANG",
+    "judgment_date": "2015-10-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 20,
+    "age_at_trial": null,
+    "occupation_before": "university student; part-time private tutor",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "university degree in marketing"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple lacerations on her face (6-8 cm over the nasal bridge, 2cm over the right upper lip)",
+        "injury_type": "Temporary injury",
+        "body_part": "face",
+        "laterality": null,
+        "source": [
+          "multiple lacerations on her face (6-8 cm over the nasal bridge, 2cm over the right upper lip)"
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "nasal bone fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "nasal bone",
+        "laterality": null,
+        "source": [
+          "nasal bone fracture"
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "various soft tissues injuries to her legs, back and neck",
+        "injury_type": "Temporary injury",
+        "body_part": "legs, back and neck",
+        "laterality": null,
+        "source": [
+          "various soft tissues injuries to her legs, back and neck"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "she is left with “a 3.5 cm vertical scar extending from her forehead, between the eyebrows, to the right side of her bony nasal bridge”, “a 1.5 cm faint scar, involving both the skin and the mucosa, over the right side of her upper lip”, “a mild depression…over her left nasal bone” and “a quite inconspicuous hump…over the nasal bridge”. (see Joint ENT expert report).",
+        "injury_type": "Residual disability",
+        "body_part": "face / nasal bridge / upper lip",
+        "laterality": null,
+        "source": [
+          "she is left with “a 3.5 cm vertical scar extending from her forehead, between the eyebrows, to the right side of her bony nasal bridge”, “a 1.5 cm faint scar, involving both the skin and the mucosa, over the right side of her upper lip”, “a mild depression…over her left nasal bone” and “a quite inconspicuous hump…over the nasal bridge”. (see Joint ENT expert report)."
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "PTSD and Adjustment Disorder with depressive features",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "She was diagnosed as suffering from PTSD and Adjustment Disorder with depressive features."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "a 3.5 cm vertical scar extending from her forehead, between the eyebrows, to the right side of her bony nasal bridge; a 1.5 cm faint scar, involving both the skin and the mucosa, over the right side of her upper lip; a mild depression over her left nasal bone; a quite inconspicuous hump over the nasal bridge",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "PTSD",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Adjustment Disorder with depressive features",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "closed reduction (treatment of nasal bone fracture)",
+      "psychiatric consultation (referred January 2013)",
+      "psychologist sessions"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent facial scarring including a 3.5 cm vertical scar, a 1.5 cm faint scar over the right upper lip, a mild depression over the left nasal bone and a hump over the nasal bridge",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "likely effect of permanent facial scars on her social life",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "extent of the plaintiff’s facial scars may conceivably directly affect her career prospects",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "claim for loss of society (HK$100,000) as pleaded in the Statement of Damages",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11629,
+      "output_tokens": 7750,
+      "reasoning_tokens": 5888,
+      "total_tokens": 19379
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36721.27829119563,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11629,
+      "output_tokens": 7750,
+      "reasoning_tokens": 5888,
+      "total_tokens": 19379
+    },
+    "total_duration_ms": 36721.27829119563
+  }
+}

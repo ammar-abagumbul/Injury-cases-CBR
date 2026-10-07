@@ -1,0 +1,675 @@
+{
+  "mode": "leave_one_out_benchmark",
+  "id": "feature-query-retrieval",
+  "config": {
+    "id": "feature-query-retrieval",
+    "output_dir": "output/experiments/feature_query_retrieval",
+    "case_base_dir": "output/experiments/corpus_extraction/cases",
+    "k": 10,
+    "psla_tolerance": 0.5,
+    "weights": null,
+    "attributes": null,
+    "missing_policy": "available",
+    "clinical_alpha": 0.7,
+    "clinical_threshold": 0.15,
+    "clinical_injury_weight": 0.75,
+    "min_injury_similarity": 0.1,
+    "tune": true,
+    "tune_trials": 40,
+    "tune_objective": "clinical_ndcg",
+    "train_fraction": 0.6,
+    "seed": 42,
+    "max_queries": null,
+    "query_file": null,
+    "weights_file": null,
+    "price_index_path": null,
+    "base_year": null,
+    "band_low": null,
+    "band_high": null,
+    "require_psla_candidates": true
+  },
+  "corpus": {
+    "n_cases": 1480,
+    "n_with_psla": 1336,
+    "n_with_year": 1480,
+    "median_real_psla": 306629.83425414364,
+    "min_real_psla": 5196.629213483146,
+    "max_real_psla": 3338903.7433155086
+  },
+  "attribute_names": [
+    "injuries",
+    "losses",
+    "age_at_accident",
+    "age_at_trial",
+    "operations_count",
+    "hospitalisation_days",
+    "n_injuries",
+    "n_losses"
+  ],
+  "default_weights": {
+    "injuries": 1.0,
+    "losses": 1.0,
+    "age_at_accident": 1.0,
+    "age_at_trial": 1.0,
+    "operations_count": 1.0,
+    "hospitalisation_days": 1.0,
+    "n_injuries": 1.0,
+    "n_losses": 1.0
+  },
+  "benchmark": {
+    "n_queries": 1336,
+    "n_pool": 1336,
+    "default": {
+      "n_queries": 1336,
+      "mean_within_tolerance_rate": 0.3775449101796407,
+      "mean_precision_at_k": 0.3775449101796407,
+      "mean_recall_at_k": 0.012339254540778735,
+      "mean_ndcg_at_k": 0.20700475534746354,
+      "mean_random_precision_at_k": 0.288873937518222,
+      "mean_random_recall_at_k": 0.00749063670411985,
+      "mean_random_ndcg_at_k": 0.14765893834275737,
+      "mean_clinical_precision_at_k": 0.9763473053892217,
+      "mean_clinical_recall_at_k": 0.046625346705569524,
+      "mean_clinical_ndcg_at_k": 0.914555273746269,
+      "mean_injury_similarity_at_k": 0.5165533423022239,
+      "mean_min_injury_similarity_at_k": 0.30691893177921187,
+      "mean_loss_similarity_at_k": 0.6418347337835295,
+      "mean_injury_overlap_at_k": 0.5333198085700892,
+      "mean_loss_overlap_at_k": 0.7751058300066533,
+      "median_psla_mae": 188951.50834510312,
+      "median_psla_median_abs_error": 161535.35887734406,
+      "median_psla_mape": 0.5432649220765864,
+      "median_psla_median_log_ratio": 0.5483592612278074,
+      "median_spearman_similarity_psla": 0.019724751503795348,
+      "mean_n_relevant": 385.6467065868263
+    },
+    "tuning": {
+      "objective": "clinical_ndcg",
+      "objective_metric": "mean_clinical_ndcg_at_k",
+      "trials": 40,
+      "n_train": 801,
+      "n_test": 535,
+      "best_weights": {
+        "injuries": 1.1698408074064404,
+        "losses": 0.37561508255696546,
+        "age_at_accident": 0.2074436170577941,
+        "age_at_trial": 0.6778527731194621,
+        "operations_count": 1.3062416189672812,
+        "hospitalisation_days": 0.24001812726929583,
+        "n_injuries": 1.664442926200337,
+        "n_losses": 2.3444293085156716
+      },
+      "default_train_objective": 0.8174564538771746,
+      "best_train_objective": 0.8777925463799294,
+      "test_default": {
+        "mean_precision_at_k": 0.38242990654205605,
+        "mean_recall_at_k": 0.011225745929167724,
+        "mean_ndcg_at_k": 0.21484176819017842,
+        "mean_within_tolerance_rate": 0.38242990654205605,
+        "mean_random_precision_at_k": 0.29976635514018696,
+        "mean_random_recall_at_k": 0.007485029940119764,
+        "mean_random_ndcg_at_k": 0.1534630093270615,
+        "mean_n_relevant": 400.4878504672897,
+        "mean_clinical_precision_at_k": 0.9702803738317756,
+        "mean_clinical_recall_at_k": 0.0441557111273558,
+        "mean_clinical_ndcg_at_k": 0.8149785782215337,
+        "mean_injury_similarity_at_k": 0.5051011759947951,
+        "mean_min_injury_similarity_at_k": 0.2909088983296234,
+        "mean_loss_similarity_at_k": 0.6397300495318721,
+        "mean_n_clinical_relevant": 376.39065420560746
+      },
+      "test_best": {
+        "mean_precision_at_k": 0.37046728971962617,
+        "mean_recall_at_k": 0.010492694696625506,
+        "mean_ndcg_at_k": 0.20731706795580618,
+        "mean_within_tolerance_rate": 0.37046728971962617,
+        "mean_random_precision_at_k": 0.29976635514018696,
+        "mean_random_recall_at_k": 0.007485029940119764,
+        "mean_random_ndcg_at_k": 0.1534630093270615,
+        "mean_n_relevant": 400.4878504672897,
+        "mean_clinical_precision_at_k": 0.9697196261682243,
+        "mean_clinical_recall_at_k": 0.04362611611177947,
+        "mean_clinical_ndcg_at_k": 0.8751848576827033,
+        "mean_injury_similarity_at_k": 0.6242219086200277,
+        "mean_min_injury_similarity_at_k": 0.48581717024061166,
+        "mean_loss_similarity_at_k": 0.4491808859600085,
+        "mean_n_clinical_relevant": 376.39065420560746
+      },
+      "history": [
+        {
+          "weights": {
+            "injuries": 1.0,
+            "losses": 1.0,
+            "age_at_accident": 1.0,
+            "age_at_trial": 1.0,
+            "operations_count": 1.0,
+            "hospitalisation_days": 1.0,
+            "n_injuries": 1.0,
+            "n_losses": 1.0
+          },
+          "train_objective": 0.8174564538771746
+        },
+        {
+          "weights": {
+            "injuries": 0.9436872642752329,
+            "losses": 0.7688166104027974,
+            "age_at_accident": 0.4992973430925963,
+            "age_at_trial": 2.5313688768446627,
+            "operations_count": 0.32079648866874383,
+            "hospitalisation_days": 0.18272514954370714,
+            "n_injuries": 1.0037536788631625,
+            "n_losses": 1.7768703907383387
+          },
+          "train_objective": 0.8347737082555515
+        },
+        {
+          "weights": {
+            "injuries": 0.1146725987754364,
+            "losses": 0.46148968772147936,
+            "age_at_accident": 2.08119386026548,
+            "age_at_trial": 1.280199328158701,
+            "operations_count": 2.91756310705777,
+            "hospitalisation_days": 0.6094844589540653,
+            "n_injuries": 0.9438298409649096,
+            "n_losses": 0.27976929754271035
+          },
+          "train_objective": 0.7109969892072813
+        },
+        {
+          "weights": {
+            "injuries": 2.509718279550792,
+            "losses": 0.3476337525854529,
+            "age_at_accident": 1.2327354082749435,
+            "age_at_trial": 0.3939916013423098,
+            "operations_count": 0.6758879175710923,
+            "hospitalisation_days": 1.1566609703249087,
+            "n_injuries": 0.5646215537588624,
+            "n_losses": 2.187139546724947
+          },
+          "train_objective": 0.8673032094984913
+        },
+        {
+          "weights": {
+            "injuries": 0.41625398226692367,
+            "losses": 0.903240716040317,
+            "age_at_accident": 0.3204135155623886,
+            "age_at_trial": 0.40077155523650276,
+            "operations_count": 0.4466911704158927,
+            "hospitalisation_days": 0.1534024234834875,
+            "n_injuries": 0.136611416945477,
+            "n_losses": 0.9681965990825678
+          },
+          "train_objective": 0.7497386262973094
+        },
+        {
+          "weights": {
+            "injuries": 0.9295637604139478,
+            "losses": 0.9532307173775972,
+            "age_at_accident": 0.10695409975057522,
+            "age_at_trial": 0.30363321770696994,
+            "operations_count": 0.19596979114745505,
+            "hospitalisation_days": 1.410665371691402,
+            "n_injuries": 1.8674778455839096,
+            "n_losses": 0.23140717914769382
+          },
+          "train_objective": 0.817738545441675
+        },
+        {
+          "weights": {
+            "injuries": 0.9693802952024568,
+            "losses": 0.1552689251318936,
+            "age_at_accident": 0.2549374537402158,
+            "age_at_trial": 0.1602542306129129,
+            "operations_count": 0.2622977411134476,
+            "hospitalisation_days": 0.9923564468286211,
+            "n_injuries": 2.2113792378344472,
+            "n_losses": 0.19913617148821885
+          },
+          "train_objective": 0.8692119217900433
+        },
+        {
+          "weights": {
+            "injuries": 0.6319991064597986,
+            "losses": 1.0865249499791763,
+            "age_at_accident": 2.55612467253039,
+            "age_at_trial": 0.7964037676574188,
+            "operations_count": 0.23813535055698645,
+            "hospitalisation_days": 0.8392803979425342,
+            "n_injuries": 0.29744337952060773,
+            "n_losses": 2.766049789416537
+          },
+          "train_objective": 0.7633963000823908
+        },
+        {
+          "weights": {
+            "injuries": 0.38937683819612656,
+            "losses": 1.0291053948826334,
+            "age_at_accident": 0.10822060452224892,
+            "age_at_trial": 0.3898874583262524,
+            "operations_count": 1.9617337137871336,
+            "hospitalisation_days": 0.7968561492412232,
+            "n_injuries": 0.45264473520604026,
+            "n_losses": 2.412643608952226
+          },
+          "train_objective": 0.7398835648705157
+        },
+        {
+          "weights": {
+            "injuries": 1.8257380771980418,
+            "losses": 0.2991931322494577,
+            "age_at_accident": 0.6373294967614795,
+            "age_at_trial": 0.5290903246348087,
+            "operations_count": 0.8586966136206903,
+            "hospitalisation_days": 0.3115464836677143,
+            "n_injuries": 0.2294670841845287,
+            "n_losses": 2.2290867298263093
+          },
+          "train_objective": 0.8701810148916002
+        },
+        {
+          "weights": {
+            "injuries": 2.315659285819925,
+            "losses": 1.7607194394767978,
+            "age_at_accident": 2.7856500454831594,
+            "age_at_trial": 1.2602096976827366,
+            "operations_count": 1.34743001109496,
+            "hospitalisation_days": 1.3379442993694748,
+            "n_injuries": 0.5127618985035585,
+            "n_losses": 0.47231880637892903
+          },
+          "train_objective": 0.8375508212253233
+        },
+        {
+          "weights": {
+            "injuries": 0.22638275375474143,
+            "losses": 0.896346934297825,
+            "age_at_accident": 0.26752287464228247,
+            "age_at_trial": 0.24033348364298635,
+            "operations_count": 0.7337295331924168,
+            "hospitalisation_days": 0.40326794274233674,
+            "n_injuries": 0.21051243200398523,
+            "n_losses": 1.6047732903319498
+          },
+          "train_objective": 0.7210134512294889
+        },
+        {
+          "weights": {
+            "injuries": 1.8670937233021463,
+            "losses": 0.17689376474867152,
+            "age_at_accident": 0.10258616568750085,
+            "age_at_trial": 0.31369292289858447,
+            "operations_count": 1.5066771651482855,
+            "hospitalisation_days": 1.7360473020670935,
+            "n_injuries": 0.1600769531941922,
+            "n_losses": 1.3924769596314168
+          },
+          "train_objective": 0.8624272136898965
+        },
+        {
+          "weights": {
+            "injuries": 0.1482207767289518,
+            "losses": 0.3768510612198967,
+            "age_at_accident": 2.985845555086406,
+            "age_at_trial": 0.19252183766190073,
+            "operations_count": 0.1688196051924159,
+            "hospitalisation_days": 0.42123782114162456,
+            "n_injuries": 0.8228592406358597,
+            "n_losses": 2.387852927537819
+          },
+          "train_objective": 0.7367463385416707
+        },
+        {
+          "weights": {
+            "injuries": 2.810552881774445,
+            "losses": 0.12672656537536633,
+            "age_at_accident": 0.15989653993379488,
+            "age_at_trial": 1.4723662984441133,
+            "operations_count": 0.2510478488131367,
+            "hospitalisation_days": 2.027819770799356,
+            "n_injuries": 0.9549945821572703,
+            "n_losses": 0.1462878761783346
+          },
+          "train_objective": 0.8478940416583561
+        },
+        {
+          "weights": {
+            "injuries": 1.6972534570419802,
+            "losses": 0.18217960550681875,
+            "age_at_accident": 0.4222348236917079,
+            "age_at_trial": 0.6540999177339932,
+            "operations_count": 0.5491516874475273,
+            "hospitalisation_days": 1.0316819370159485,
+            "n_injuries": 0.9206561291168552,
+            "n_losses": 2.919888932398224
+          },
+          "train_objective": 0.8650012148421016
+        },
+        {
+          "weights": {
+            "injuries": 2.9941071926206617,
+            "losses": 0.5792594943645725,
+            "age_at_accident": 0.13823582054823474,
+            "age_at_trial": 1.1888109783064487,
+            "operations_count": 2.771094067954597,
+            "hospitalisation_days": 0.29526139894517817,
+            "n_injuries": 0.4800223382779649,
+            "n_losses": 0.4240792509826655
+          },
+          "train_objective": 0.8714713749185526
+        },
+        {
+          "weights": {
+            "injuries": 0.11911112487319458,
+            "losses": 0.9840475403508351,
+            "age_at_accident": 0.332600286880488,
+            "age_at_trial": 1.4560611908238859,
+            "operations_count": 1.6948928581160863,
+            "hospitalisation_days": 1.6332679877087577,
+            "n_injuries": 0.4125401306838364,
+            "n_losses": 0.2985121150707167
+          },
+          "train_objective": 0.6890652817617399
+        },
+        {
+          "weights": {
+            "injuries": 1.2767300772353654,
+            "losses": 1.5266847449887213,
+            "age_at_accident": 0.5316757049841059,
+            "age_at_trial": 2.085043404199409,
+            "operations_count": 0.16314380747369206,
+            "hospitalisation_days": 1.988342423618804,
+            "n_injuries": 0.13865780187482044,
+            "n_losses": 0.1685682630343957
+          },
+          "train_objective": 0.7954341106655429
+        },
+        {
+          "weights": {
+            "injuries": 0.6145347278239583,
+            "losses": 0.12581516229808345,
+            "age_at_accident": 0.11967473979389139,
+            "age_at_trial": 0.10017659086816913,
+            "operations_count": 0.4410548598733757,
+            "hospitalisation_days": 1.3938415272279092,
+            "n_injuries": 0.11257979867400651,
+            "n_losses": 0.9193133652476074
+          },
+          "train_objective": 0.8741345029410166
+        },
+        {
+          "weights": {
+            "injuries": 1.6438373953042396,
+            "losses": 0.17707515239939534,
+            "age_at_accident": 0.16479177979123566,
+            "age_at_trial": 1.8685615768210315,
+            "operations_count": 1.6438222578892012,
+            "hospitalisation_days": 0.6252912306673079,
+            "n_injuries": 1.6220250371019882,
+            "n_losses": 0.13709195617991793
+          },
+          "train_objective": 0.8613940846186361
+        },
+        {
+          "weights": {
+            "injuries": 0.38255777664634966,
+            "losses": 1.2297489256150855,
+            "age_at_accident": 0.24004228995009222,
+            "age_at_trial": 1.2920550863251627,
+            "operations_count": 0.5555625117392098,
+            "hospitalisation_days": 1.2830212147499491,
+            "n_injuries": 0.4857224419122148,
+            "n_losses": 0.34949367514832663
+          },
+          "train_objective": 0.7250545374319813
+        },
+        {
+          "weights": {
+            "injuries": 0.21075071197409836,
+            "losses": 0.20314285615994557,
+            "age_at_accident": 1.2883772545161631,
+            "age_at_trial": 0.14984594760296305,
+            "operations_count": 0.13396962967604298,
+            "hospitalisation_days": 0.1821393248030505,
+            "n_injuries": 0.18155493528023592,
+            "n_losses": 1.6437272861274248
+          },
+          "train_objective": 0.8167237788160702
+        },
+        {
+          "weights": {
+            "injuries": 0.38783107469529177,
+            "losses": 2.9035134408519903,
+            "age_at_accident": 0.15946951201620171,
+            "age_at_trial": 0.9233313199480815,
+            "operations_count": 0.4600742138632849,
+            "hospitalisation_days": 0.3805290265891786,
+            "n_injuries": 1.9615774943056128,
+            "n_losses": 2.7610423270356006
+          },
+          "train_objective": 0.7021046695974423
+        },
+        {
+          "weights": {
+            "injuries": 1.946787371483983,
+            "losses": 0.19233194357120198,
+            "age_at_accident": 0.21190699964008117,
+            "age_at_trial": 0.9313237356149984,
+            "operations_count": 0.2673077207492513,
+            "hospitalisation_days": 1.2169650531940948,
+            "n_injuries": 0.6865497011266345,
+            "n_losses": 0.6512669677874603
+          },
+          "train_objective": 0.8620037221621499
+        },
+        {
+          "weights": {
+            "injuries": 1.674419500514534,
+            "losses": 1.1208385492358062,
+            "age_at_accident": 0.10946079085043094,
+            "age_at_trial": 0.11831972258084564,
+            "operations_count": 0.7737038823147312,
+            "hospitalisation_days": 0.5225942762511612,
+            "n_injuries": 0.24228374867640248,
+            "n_losses": 0.4153419571138063
+          },
+          "train_objective": 0.852520319107627
+        },
+        {
+          "weights": {
+            "injuries": 1.31681704960779,
+            "losses": 1.663433307962188,
+            "age_at_accident": 0.6745195198917605,
+            "age_at_trial": 0.3708834473828535,
+            "operations_count": 0.2511030223195932,
+            "hospitalisation_days": 0.5901152885952803,
+            "n_injuries": 0.29169121636113937,
+            "n_losses": 0.681140833764407
+          },
+          "train_objective": 0.7930657504425586
+        },
+        {
+          "weights": {
+            "injuries": 0.998843887506774,
+            "losses": 0.1252007720461071,
+            "age_at_accident": 0.10036372580672577,
+            "age_at_trial": 0.20585388784003988,
+            "operations_count": 2.095568906476145,
+            "hospitalisation_days": 0.9008444828617789,
+            "n_injuries": 0.17947596239840247,
+            "n_losses": 2.0655124655241512
+          },
+          "train_objective": 0.8667268824894114
+        },
+        {
+          "weights": {
+            "injuries": 0.49451777686622544,
+            "losses": 0.5049463682924427,
+            "age_at_accident": 2.409399910823531,
+            "age_at_trial": 0.1224247025195392,
+            "operations_count": 0.2078951716579658,
+            "hospitalisation_days": 0.7332554081049842,
+            "n_injuries": 0.19442731482765596,
+            "n_losses": 1.0086576540666377
+          },
+          "train_objective": 0.8103751604438398
+        },
+        {
+          "weights": {
+            "injuries": 0.20712869600616401,
+            "losses": 0.14010926952149255,
+            "age_at_accident": 0.20218185587444393,
+            "age_at_trial": 0.42114284545184544,
+            "operations_count": 0.18204452644402125,
+            "hospitalisation_days": 0.1581089493888027,
+            "n_injuries": 1.8652655068869408,
+            "n_losses": 0.29734834073291144
+          },
+          "train_objective": 0.8524762539611654
+        },
+        {
+          "weights": {
+            "injuries": 0.3411020454331765,
+            "losses": 0.12068161033765602,
+            "age_at_accident": 0.3371927798164148,
+            "age_at_trial": 0.24612306230988007,
+            "operations_count": 0.7975546815974434,
+            "hospitalisation_days": 0.20108810164140123,
+            "n_injuries": 2.052218000902877,
+            "n_losses": 2.3617304311617477
+          },
+          "train_objective": 0.8773063288983506
+        },
+        {
+          "weights": {
+            "injuries": 0.1404308667768354,
+            "losses": 0.1440944287253223,
+            "age_at_accident": 0.14803047508857087,
+            "age_at_trial": 0.8225814608719177,
+            "operations_count": 0.15141292506983905,
+            "hospitalisation_days": 1.815816837936949,
+            "n_injuries": 1.3006201753526065,
+            "n_losses": 1.6253881505059438
+          },
+          "train_objective": 0.8159849086434035
+        },
+        {
+          "weights": {
+            "injuries": 0.5984876396845564,
+            "losses": 2.9662864863434457,
+            "age_at_accident": 0.11621226974543294,
+            "age_at_trial": 0.3914866955291422,
+            "operations_count": 0.3009495781314027,
+            "hospitalisation_days": 2.5192103351608788,
+            "n_injuries": 0.711366784156998,
+            "n_losses": 1.5518216637735065
+          },
+          "train_objective": 0.7143372976899435
+        },
+        {
+          "weights": {
+            "injuries": 0.17849029104732278,
+            "losses": 2.7897243588606178,
+            "age_at_accident": 0.5451940068644983,
+            "age_at_trial": 0.5360601415708218,
+            "operations_count": 2.717155343990551,
+            "hospitalisation_days": 0.3650798497423097,
+            "n_injuries": 0.3865384163845786,
+            "n_losses": 0.7307194141465135
+          },
+          "train_objective": 0.6740252223786599
+        },
+        {
+          "weights": {
+            "injuries": 0.15457855128604348,
+            "losses": 0.2980453862704441,
+            "age_at_accident": 0.19292660399672043,
+            "age_at_trial": 0.14208957728940963,
+            "operations_count": 1.9028327067945126,
+            "hospitalisation_days": 0.742187424660333,
+            "n_injuries": 0.33869064712594843,
+            "n_losses": 0.4014710403943336
+          },
+          "train_objective": 0.7595484418690879
+        },
+        {
+          "weights": {
+            "injuries": 0.4339162275831795,
+            "losses": 0.8614659460365861,
+            "age_at_accident": 2.3385721124053997,
+            "age_at_trial": 2.3868690997798967,
+            "operations_count": 0.3786876344357185,
+            "hospitalisation_days": 0.30645067159201717,
+            "n_injuries": 0.4637141755389547,
+            "n_losses": 0.690093160350132
+          },
+          "train_objective": 0.7491057259911098
+        },
+        {
+          "weights": {
+            "injuries": 0.48101769492533203,
+            "losses": 0.9398502542812142,
+            "age_at_accident": 0.6590442587405402,
+            "age_at_trial": 0.2976704683270659,
+            "operations_count": 0.324105440764354,
+            "hospitalisation_days": 0.3624327659142509,
+            "n_injuries": 0.1379730971493232,
+            "n_losses": 0.17591166691973056
+          },
+          "train_objective": 0.7529652568213445
+        },
+        {
+          "weights": {
+            "injuries": 1.1698408074064404,
+            "losses": 0.37561508255696546,
+            "age_at_accident": 0.2074436170577941,
+            "age_at_trial": 0.6778527731194621,
+            "operations_count": 1.3062416189672812,
+            "hospitalisation_days": 0.24001812726929583,
+            "n_injuries": 1.664442926200337,
+            "n_losses": 2.3444293085156716
+          },
+          "train_objective": 0.8777925463799294
+        },
+        {
+          "weights": {
+            "injuries": 0.7628236627030126,
+            "losses": 0.9730088835629304,
+            "age_at_accident": 0.11958070590200462,
+            "age_at_trial": 2.492570942059257,
+            "operations_count": 0.3799684551503274,
+            "hospitalisation_days": 2.3158632918216533,
+            "n_injuries": 0.7165062908557914,
+            "n_losses": 0.1015833488580279
+          },
+          "train_objective": 0.7935020398115938
+        },
+        {
+          "weights": {
+            "injuries": 0.11400691827443472,
+            "losses": 1.011721734639676,
+            "age_at_accident": 0.6778426364557403,
+            "age_at_trial": 0.10944391671627657,
+            "operations_count": 1.2536621405195574,
+            "hospitalisation_days": 1.81435384531734,
+            "n_injuries": 0.5410891363487416,
+            "n_losses": 0.48750628010464003
+          },
+          "train_objective": 0.6918566662188008
+        },
+        {
+          "weights": {
+            "injuries": 0.10187894649643091,
+            "losses": 1.4520347511635996,
+            "age_at_accident": 0.3079695166865267,
+            "age_at_trial": 1.9862797757821051,
+            "operations_count": 0.3556769516135191,
+            "hospitalisation_days": 0.6834214292855003,
+            "n_injuries": 0.25080003997921446,
+            "n_losses": 0.17266662879846856
+          },
+          "train_objective": 0.6692274703039873
+        }
+      ]
+    }
+  }
+}

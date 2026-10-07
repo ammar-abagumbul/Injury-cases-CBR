@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 569",
+    "action_number": "HCPI 1458/1999",
+    "case_name": "TAM KING CHIU v. HON MING KUEN",
+    "judgment_date": "2001-03-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "Dim sum chef",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post concussional syndrome (PCS)",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "But by virtue of the symptoms complained of the plaintiff was diagnosed to have post concussional syndrome (PCS), and prescribed an anti-emetic drug called Stemetil."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured the 9th rib on the right hand side",
+        "injury_type": "Temporary injury",
+        "body_part": "right rib / chest",
+        "laterality": "right",
+        "source": [
+          "He was X-rayed and found to have fractured the 9th rib on the right hand side and the radius and ulna bones in his right wrist."
+        ],
+        "icd_code": "NA82.3Y",
+        "icd_description": "Other specified fracture of rib"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractured the radius and ulna bones in his right wrist; required open reduction and plating (surgery performed on 6 August)",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "He was X-rayed and found to have fractured the 9th rib on the right hand side and the radius and ulna bones in his right wrist.",
+          "The wrist fracture required surgery for the purpose of open reduction and plating, which was performed on 6 August."
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Post truamatic osteoarthritis as a result of the intra-articular fracture of the right wrist. The fracture has healed but there was residual deformity of the distal radius and its articular surface. This has resulted in pain, weakness and limitation of movements of the right wrist.",
+        "injury_type": "Permanent injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "Mr Tam suffers from:-\n\n1. Post truamatic osteoarthritis as a result of the intra-articular fracture of the right wrist. The fracture has healed but there was residual deformity of the distal radius and its articular surface. This has resulted in pain, weakness and limitation of movements of the right wrist."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "occipital neuralgia, cervical spondylosis and depressive illness",
+        "injury_type": "Permanent injury",
+        "body_part": "head / neck / psychiatric",
+        "laterality": null,
+        "source": [
+          "He assessed the plaintiff's permanent neurological impairments as occipital neuralgia, cervical spondylosis and depressive illness."
+        ],
+        "icd_code": "NA42.Y",
+        "icd_description": "Injury of other specified peripheral nerves of neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Headache(s)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impaired memory / memory loss",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain and limitation of right wrist movements with muscle weakness of the wrist and grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Residual pain in the left chest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Loss of dexterity of the fingers of his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and plating surgery on right wrist (performed on 6 August)",
+      "Plates and screws removed in April 1998",
+      "Physiotherapy twice per week until August 1998",
+      "Prescribed Stemetil (anti-emetic)"
+    ],
+    "treatments_future": [
+      "Neurologist/neurosurgeon consultations and symptomatic treatments (Dr Yu recommended consultations for 6 months: weekly for 1 month, then 2-weekly for 1 month, and then monthly for 4 months)",
+      "Headache injections suggested by Dr Brian Choa as relief"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is prevented by them from returning to work as a dim sum chef because of the physical demands of that occupation.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Symptoms including difficulty in concentrating and performing mental tasks and impairment of memory arising from post-concussional syndrome.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19414,
+      "output_tokens": 9774,
+      "reasoning_tokens": 7936,
+      "total_tokens": 29188
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41218.292359262705,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19414,
+      "output_tokens": 9774,
+      "reasoning_tokens": 7936,
+      "total_tokens": 29188
+    },
+    "total_duration_ms": 41218.292359262705
+  }
+}

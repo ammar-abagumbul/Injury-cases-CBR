@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1771",
+    "action_number": "HCPI 633/2011",
+    "case_name": "NG CHI KWAN, DANNY SUMMER AND ANOTHER v. YEUNG YIU KWAN AND ANOTHER",
+    "judgment_date": "2014-09-30",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 55,
+    "age_at_trial": 60,
+    "occupation_before": "artiste singer; sole director and shareholder of the 2nd plaintiff (Tree Productions Limited)",
+    "occupation_after": "artiste singer",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "secondary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained ® neck",
+        "injury_type": "Temporary injury",
+        "body_part": "right neck",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was “sprained ® neck”",
+          "UCH Notes recorded that at triage assessment Ng complained of “sprained neck”",
+          "Moy Report provisional diagnosis was \"[traffic] accident, sprain injury to neck\""
+        ],
+        "icd_code": "NA23.4",
+        "icd_description": "Strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild contusion of right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "TKOH 7/12 Notes at triage assessment Ng complained of \"® knee pain+\"",
+          "I find it to be a mild contusion that did not take long to resolve"
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck pain / sprained neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness at posterior right shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased range of movement of neck (left lateral flexion less ~10°; rotation to left less ~10°)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "radiation to right shoulder/arm",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild numbness of right middle finger",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics (prescribed at UCH/TKOH/Moy Report)",
+      "physiotherapy (referred by TKOH but not attended / defaulted)",
+      "chiropractic treatment by Dr Alex Lik Chi Shiu (attended 20 Dec 2008; sessions on 22, 24 and 31 Dec 2008 and 1 Jan 2009; further visits 30 Mar 2009, 3 Apr 2009, 13 Apr 2009 and 9 May 2009)",
+      "x-rays (cervical spine, chest and lower ribs showed no bony lesion as per Moy Report)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 28,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Aches/soreness mainly over the neck and right shoulder with mild radiation and mild numbness of right middle finger causing some difficulty in playing the guitar and affecting performance (as alleged); judge found mild residual symptoms but overall recovery and awarded PSLA.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 85000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kin Man v Cheuk Siu Tong",
+        "neutral_citation": null,
+        "action_number": "DCPI1970/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Li Ting Fai v Woo Chi Keung",
+        "neutral_citation": null,
+        "action_number": "DCPI807/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Chan Chu Wa v Wong Chiu Yuen Andrew",
+        "neutral_citation": null,
+        "action_number": "DCPI235/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Chan Siu Youn v Ng Kam Man & ors",
+        "neutral_citation": null,
+        "action_number": "HCPI533/1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Chau Chi Wah v Wong Kwok Ming",
+        "neutral_citation": null,
+        "action_number": "DCPI1059/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Tse Tsz Keung Poco v Chan Yick Chun",
+        "neutral_citation": null,
+        "action_number": "HCPI214/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 80000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 35424,
+      "output_tokens": 6501,
+      "reasoning_tokens": 4736,
+      "total_tokens": 41925
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51068.09402629733,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 35424,
+      "output_tokens": 6501,
+      "reasoning_tokens": 4736,
+      "total_tokens": 41925
+    },
+    "total_duration_ms": 51068.09402629733
+  }
+}

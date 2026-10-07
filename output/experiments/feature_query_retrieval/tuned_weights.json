@@ -1,0 +1,19 @@
+{
+  "weights": {
+    "injuries": 1.1698408074064404,
+    "losses": 0.37561508255696546,
+    "age_at_accident": 0.2074436170577941,
+    "age_at_trial": 0.6778527731194621,
+    "operations_count": 1.3062416189672812,
+    "hospitalisation_days": 0.24001812726929583,
+    "n_injuries": 1.664442926200337,
+    "n_losses": 2.3444293085156716
+  },
+  "objective": "clinical_ndcg",
+  "clinical_alpha": 0.7,
+  "min_injury_similarity": 0.1,
+  "test_clinical_ndcg_at_k": 0.8751848576827033,
+  "test_default_clinical_ndcg_at_k": 0.8149785782215337,
+  "test_ndcg_at_k": 0.20731706795580618,
+  "test_default_ndcg_at_k": 0.21484176819017842
+}

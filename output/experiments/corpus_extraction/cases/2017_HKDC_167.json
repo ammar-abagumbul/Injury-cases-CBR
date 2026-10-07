@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 167",
+    "action_number": "DCPI 1622/2015",
+    "case_name": "WONG YAU SUI v. MORAL ACCORD LIMITED AND ANOTHER",
+    "judgment_date": "2017-02-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 59,
+    "age_at_trial": 61,
+    "occupation_before": "Container slinger (employed by 1st defendant)",
+    "occupation_after": "Container slinger (simpler work) with Fook Hing Company (after brief spell as electrician)",
+    "expected_occupation_after": null,
+    "salary_before": 14962.5,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Injury to left leg with tenderness over left proximal medial tibia and distal 1/3 tibia; residual on-and-off pain on exertion",
+        "injury_type": "Residual disability",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "In respect of left leg, according to the joint medical report, he suffered no deformity, swelling, or effusion over his left knee and left ankle. The sensation to touch was normal. The ranges of movement of the knee and ankle were normal. There was tenderness over left proximal medial tibia and distal 1/3 tibia.",
+          "Dr Wong for the plaintiff opined, consistently with the plaintiff’s complaint to the doctors during the examination, that the plaintiff would still suffer on and off pain in his left leg particularly on exertion, while Dr Chun for the defendants opined, but not denying the existence of such on and off pain, that his residual symptom with the left leg was compatible with the residual of the injury. Both of them opined that the plaintiff was able to return to his pre-injury duty, though Dr Wong added that it would be coupled with mild decrease in capacity and efficiency."
+        ],
+        "icd_code": "NC90.3",
+        "icd_description": "Contusion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "On and off pain in his left leg particularly on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild limping during tip-toe walking and heel walking",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left leg unstable during single leg standing test",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over left proximal medial tibia and distal 1/3 tibia",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild decrease in capacity and efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "A&E attendance at Queen Elizabeth Hospital (13 May 2014)",
+      "General Outpatient Clinic sessions",
+      "Physiotherapy (referred 28 June 2014; 11 sessions at Tuen Mun Hospital from 10 July 2014 to 25 September 2014)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 135,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity from left leg injury: on and off pain in left leg particularly on exertion, mild limping on tip-toe and heel walking, instability on single leg stand and mild decrease in capacity and efficiency.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Chi Kwan v Yeung Yiu Kwan",
+        "neutral_citation": null,
+        "action_number": "HCPI 633/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19667,
+      "output_tokens": 4238,
+      "reasoning_tokens": 3264,
+      "total_tokens": 23905
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31933.497574180365,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19667,
+      "output_tokens": 4238,
+      "reasoning_tokens": 3264,
+      "total_tokens": 23905
+    },
+    "total_duration_ms": 31933.497574180365
+  }
+}

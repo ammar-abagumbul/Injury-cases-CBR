@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 162",
+    "action_number": "DCPI 2277/2009",
+    "case_name": "MAN YUN FEI ANGELA v. TONG CHI MING AND OTHERS",
+    "judgment_date": "2011-08-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Schizoaffective disorder (pre-existing psychiatric condition)",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "“Firstly, Schizoaffective Disorder (DSM code 297.70): She has been diagnosed to be suffering from Schizoaffective disorder since 1996 which was well documented in medial notes of Castle Peak Hospital. It is a pre existing psychiatric condition present before the accident…..",
+          "In a medical report written by Dr. Yan Wing Shan of Tuen Mun Hospital, Department of Medicine & Geriatrics dated 17th June 2011, Dr Yan stated the Plaintiff was seen by psychiatrists who considered her to have suffered from “schizoaffective disorder to be in partial remission but there was no PTSD or acute psychiatric problem.”"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Adjustment Disorder with Depressed Mood (DSM code: 309.0) related to the 1st Accident",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "“Secondly, Adjustment Disorder with Depressed Mood (DSM code: 309.0): Her mood is mildly depressed and irritable. She worries about future work capacity and finance. Her sleep is disturbed by pain. She lacks energy. She has concentration and memory problems. Adjustment Disorder is defined as the development of emotional or behavior symptoms in response to an identifiable stressor. In her case, the physical injury due to the accident has been the cause of her Adjustment Disorder. The pain and physical disabilities and the subsequent employment and financial difficulties have played significant roles as continuing stressors. In her case, the physical pain and disabilities should be very mild given the injury was mild.”",
+          "In Dr. Nadasa Liu’s report dated 27th April 2010, she identified: “Ms Man had adjustment disorder with anxious mood secondary to the traffic accident. She also had history of schizoaffective disorder but she showed no insight and refused medication.”",
+          "“In her case, the physical injuries of the 1st Accident and the subsequent employment and financial difficulties are the main identifiable stressors that cause the Adjustment Disorder with Depressed Mood. The abovementioned symptoms have their onset occurred before the second accident happened. And the employment and financial difficulties have been present before the occurrence of the 2nd accident….. She has developed Adjustment Disorder with Depressed Mood mainly due to occurrence of [the] 1st Accident.”"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Minor soft tissue injury with tenderness over neck and lower back; residual pain",
+        "injury_type": "Temporary injury",
+        "body_part": "neck and lower back",
+        "laterality": null,
+        "source": [
+          "“Immediately after the accident, the Plaintiff was sent to the A&E Department of Pamela Youde Nethersole Eastern Hospital, she was found to suffer from tenderness over neck and lower back and was subsequently admitted to the Orthopaedic ward of the same hospital (\"PYNEH\").\"",
+          "“The kind of minor soft tissue injury, some residual pain is not uncommon but severity should not be as marked as that of Ms. Man. ... As for Ms Man, I believe she probably has some mild residual pain as a result of the minor soft tissue injury, however, the severe symptoms should be mainly the result of psychiatric problem.”"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness over neck and lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Mood mildly depressed and irritable",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Sleep disturbed by pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Lacks energy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Concentration and memory problems",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Admission to the Orthopaedic ward of Pamela Youde Nethersole Eastern Hospital",
+      "Supportive counselling (followed up once in outpatient clinic)"
+    ],
+    "treatments_future": [
+      "Psychiatric assessment",
+      "Psychiatric medication",
+      "Psychological treatment / psychotherapy"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain and tenderness over neck and lower back following minor soft tissue injury",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Concentration and memory problems",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-existing impaired occupational functioning and difficulty coping with unemployment and financial difficulties as a result of the 1st Accident",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 700000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11675,
+      "output_tokens": 6040,
+      "reasoning_tokens": 4352,
+      "total_tokens": 17715
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47196.56939059496,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11675,
+      "output_tokens": 6040,
+      "reasoning_tokens": 4352,
+      "total_tokens": 17715
+    },
+    "total_duration_ms": 47196.56939059496
+  }
+}

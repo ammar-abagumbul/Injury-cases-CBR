@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 725",
+    "action_number": "HCPI 869/2006",
+    "case_name": "WONG HAK MAN v. HARVEST ENGINEERING DEVELOPMENT LIMITED AND ANOTHER",
+    "judgment_date": "2008-08-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 50,
+    "occupation_before": "construction site worker",
+    "occupation_after": null,
+    "expected_occupation_after": "previous pre-accident occupation",
+    "salary_before": 14253.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A thin dense area over the left frontal lobe (subdural haematoma).",
+        "injury_type": "Temporary injury",
+        "body_part": "left frontal lobe (head)",
+        "laterality": null,
+        "source": [
+          "A Computerized Tomography scan revealed a thin dense area over the left frontal lobe. This subdural haematoma was conservatively treated and a further CT scan on the following day was normal."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Abrasions over the left side of his neck, abdominal wall, left elbow, right thigh and right ankle.",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of neck; abdominal wall; left elbow; right thigh; right ankle",
+        "laterality": null,
+        "source": [
+          "Examination revealed that he had suffered abrasions over the left side of his neck, abdominal wall, left elbow, right thigh and right ankle."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Fractured talus in the right ankle.",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "X-ray disclosed a fractured talus in the right ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Some hearing loss of a mild grade in both ears and tinnitus.",
+        "injury_type": "Residual disability",
+        "body_part": "both ears",
+        "laterality": "bilateral",
+        "source": [
+          "Two Ear, Nose & Throat experts, Drs. Lo Siu Sing and Henri KL Chu jointly examined him, diagnosing that he had suffered some hearing loss of a mild grade in both ears and tinnitus as a highly probable result of the accident."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Post concussional syndrome.",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "I also find that as a result of the accident, the Plaintiff has suffered post concussional syndrome and depressive episode of a mild to moderate nature."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Depressive episode.",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric",
+        "laterality": null,
+        "source": [
+          "I also find that as a result of the accident, the Plaintiff has suffered post concussional syndrome and depressive episode of a mild to moderate nature."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lost consciousness for several minutes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent headaches, sometimes debilitating and lasting for hours.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Poor memory.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Dizziness.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Tinnitus.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Mild hearing loss in both ears.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Swelling and tenderness over the right ankle.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Reduced range of movement of the right ankle joint (about half of left side).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Residual aches and pains and some stiffness in the ankle.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Moderate global impairment in higher mental function (as described by an expert).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Depressive symptoms (depressive episode): low motivation, fatigue, anxiety, distress and absenteeism.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Needed a walking stick at time of assessment; difficulty squatting and unsteady standing.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Multiple abrasions that healed uneventfully.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and screw fixation of the ankle (27 November 2003)",
+      "Physiotherapy (16 sessions spanning January to May 2004)",
+      "Conservative treatment for subdural haematoma (CT scan and observation)",
+      "Admission to Tuen Mun Hospital and transfer to orthopaedic ward (19 November 2003)",
+      "Admission to Pok Oi Hospital for physiotherapy and rehabilitation (3 December 2003 to 6 January 2004)"
+    ],
+    "treatments_future": [
+      "Psychiatric treatment recommended: 20 sessions of psychotherapy with medication at fortnightly intervals (course about 10 months)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual stiffness, minor aches and pain and tenderness in the right ankle following talar fracture.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "At assessment required walking stick, could only squat half-way and was unsteady standing on either foot or walking on toes or heels (reduced mobility demonstrated at assessment).",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "A small degree of bilateral hearing impairment and tinnitus.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Tender scar noted at right ankle.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor memory and cognitive difficulties associated with post concussional syndrome and depressive episode.",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lawati Bhawani Bikram v Tin Kau Contractors Joint Venture",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Mo Hee Yuk v Gammon Skanska Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 502/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chin Shun v Yau Sin Chung",
+        "neutral_citation": null,
+        "action_number": "HCPI 90/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Hok Fai v Chan Sai Kit",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17173,
+      "output_tokens": 8538,
+      "reasoning_tokens": 6528,
+      "total_tokens": 25711
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49386.11612468958,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17173,
+      "output_tokens": 8538,
+      "reasoning_tokens": 6528,
+      "total_tokens": 25711
+    },
+    "total_duration_ms": 49386.11612468958
+  }
+}

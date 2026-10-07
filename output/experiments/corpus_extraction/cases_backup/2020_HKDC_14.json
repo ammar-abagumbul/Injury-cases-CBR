@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "neutral_citation": "[2020] HKDC 14",
+    "action_number": "DCPI 62/2019",
+    "case_name": "NG SIK KAI v. LUI WING LOK T/A WING WAH OIL SHIP CO.",
+    "judgment_date": "2020-01-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 49,
+    "age_at_trial": 56,
+    "occupation_before": "deckhand on the defendant’s fuel barge (Yue Tai)",
+    "occupation_after": "service attendant at Tuen Mun Hospital",
+    "expected_occupation_after": null,
+    "salary_before": 11500.0,
+    "salary_after": 10253.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2cm laceration over near the right ear and a scalp haematoma at the back of the head",
+        "injury_type": "Temporary injury",
+        "body_part": "right ear; back of head; scalp",
+        "laterality": "right",
+        "source": [
+          "The plaintiff was taken to Queen Mary Hospital A&E with a 2cm laceration over near the right ear and a scalp haematoma at the back of the head, with tenderness on left shoulder. He was fully conscious with no neurological deficit. CT scan showed no intracranial lesion. He was treated with suturing of the laceration."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the right temporal bone and right lateral wall of the sphenoid sinus",
+        "injury_type": "Temporary injury",
+        "body_part": "right temporal bone; right lateral wall of the sphenoid sinus",
+        "laterality": "right",
+        "source": [
+          "CT performed on 28 October 2013 showed fracture of the right temporal bone and right lateral wall of the sphenoid sinus."
+        ],
+        "icd_code": "NA02.1A",
+        "icd_description": "Other fractures of base of skull"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Right facial nerve palsy causing incomplete right eye closure, treated with artificial tears and eye padding",
+        "injury_type": "Permanent injury",
+        "body_part": "right facial nerve / face / right eye",
+        "laterality": "right",
+        "source": [
+          "He later developed right facial nerve palsy and was transferred to the ENT department. The facial nerve palsy caused incomplete right eye closure so he was treated with artificial tears and eye padding.",
+          "the plaintiff still has mild right facial nerve palsy (with paresis and involuntary twitching of right facial muscles)...",
+          "blurred vision, dryness and irritation of the right eye."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Right and left hearing impairment (binaural hearing impairment of 2.8%), mild tinnitus and dizziness",
+        "injury_type": "Permanent injury",
+        "body_part": "ears / auditory system",
+        "laterality": "bilateral",
+        "source": [
+          "The ENT experts agreed that the accident caused his right and left hearing impairment (binaural hearing impairment of 2.8%), mild tinnitus, dizziness and mild facial nerve impairment.",
+          "the plaintiff still has ... right-sided hearing loss with intermittent tinnitus..."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Post-concussional syndrome (intermittent headaches, dizziness, subjective impairment of memory, irritability and insomnia)",
+        "injury_type": "Residual disability",
+        "body_part": "brain / head",
+        "laterality": null,
+        "source": [
+          "the plaintiff still has mild right facial nerve palsy (with paresis and involuntary twitching of right facial muscles), right-sided hearing loss with intermittent tinnitus and post-concussional syndrome (intermittent headaches, dizziness, subjective impairment of memory, irritability and insomnia), blurred vision, dryness and irritation of the right eye."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Mild head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The neurological experts agreed that he had suffered a mild head injury."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "2cm laceration near the right ear",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Scalp haematoma at the back of the head",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness on left shoulder",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Right hearing loss",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Incomplete right eye closure (exposure keratopathy treated with eye lubricants)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Mild right facial nerve palsy with paresis and involuntary twitching of right facial muscles",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Intermittent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Subjective impairment of memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Blurred vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Dryness and irritation of the right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Binaural hearing impairment of 2.8%",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of the laceration",
+      "CT scan",
+      "transfer to ENT department",
+      "artificial tears and eye padding",
+      "eye lubricants"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 561,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chin Shun v Yau Sin Chung",
+        "neutral_citation": null,
+        "action_number": "HCPI 90/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Leung Chi v Luen Fat Civil Engineering Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 975/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21241,
+      "output_tokens": 9720,
+      "reasoning_tokens": 7232,
+      "total_tokens": 30961
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44504.6044960618,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21241,
+      "output_tokens": 9720,
+      "reasoning_tokens": 7232,
+      "total_tokens": 30961
+    },
+    "total_duration_ms": 44504.6044960618
+  }
+}

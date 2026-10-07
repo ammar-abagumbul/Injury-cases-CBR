@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 556",
+    "action_number": "HCPI 320/2002",
+    "case_name": "CHOW TAI LOI v. LEUNG KAM HUNG & ANOTHER",
+    "judgment_date": "2003-12-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "self-employed, running a business hiring vehicles to transport goods",
+    "occupation_after": "taxi driver",
+    "expected_occupation_after": null,
+    "salary_before": 22309.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of 2nd metatarsal, and a chip fracture of the base of 1st metatarsal of his left foot",
+        "injury_type": "Permanent injury",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff has suffered a fracture of 2nd metatarsal, and a chip fracture of the base of 1st metatarsal of his left foot and minor injury to his chest. His foot injuries were treated conservatively by a short leg plaster cast, which he wore for about three weeks."
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "minor injury to chest",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "the Plaintiff has suffered a fracture of 2nd metatarsal, and a chip fracture of the base of 1st metatarsal of his left foot and minor injury to his chest. His foot injuries were treated conservatively by a short leg plaster cast, which he wore for about three weeks."
+        ],
+        "icd_code": "NA80.Z",
+        "icd_description": "Superficial injury of thorax, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over his left lower rib",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "swelling over his left foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain in his left foot from time to time, particularly after he stands for a long period",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot run or lift heavy objects which would exert pressure on his left foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia (referred to in the Plaintiff's statement but not pursued)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "short leg plaster cast (applied for about three weeks)",
+      "follow-up treatment at Accident & Emergency Follow-up Clinic of Princess Margaret Hospital",
+      "follow-up treatment at specialist clinic of Princess Margaret Hospital",
+      "physiotherapy at Prince of Wales Hospital",
+      "consultation with private practitioner Dr. Arnold Cheng",
+      "consultation with bonesetters"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 173,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity awarded by the Court",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 225000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kui v Lee Fai (trading as Fai Kee Timber)",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 126 of 1995",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Chung Ngar v Yeung Man Wai & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 63 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ho Sik Tung v Lau Kin-sun (trading as E & J Engineering Company)",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 408 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ho For San v Lau Sun Choi & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 584 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Sze Wai v Law Chi Kin",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 44 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11957,
+      "output_tokens": 4843,
+      "reasoning_tokens": 3584,
+      "total_tokens": 16800
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32608.340710401535,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11957,
+      "output_tokens": 4843,
+      "reasoning_tokens": 3584,
+      "total_tokens": 16800
+    },
+    "total_duration_ms": 32608.340710401535
+  }
+}

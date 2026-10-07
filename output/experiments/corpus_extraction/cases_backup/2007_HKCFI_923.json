@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 923",
+    "action_number": "HCPI 301/2004",
+    "case_name": "LO SIU NING v. CHAN KAI HING AND ANOTHER",
+    "judgment_date": "2007-08-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 40,
+    "age_at_trial": 45,
+    "occupation_before": "Health care worker (at Yi Lok Adult Training Centre, Fu Hong Society)",
+    "occupation_after": "Security guard",
+    "expected_occupation_after": null,
+    "salary_before": 11205.0,
+    "salary_after": 4500.0,
+    "expected_salary_after": null,
+    "education_level": "3 years full-time training in nursing care in Mainland (1979-1982)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Sacral plexus injury",
+        "injury_type": "Temporary injury",
+        "body_part": "sacral plexus",
+        "laterality": null,
+        "source": [
+          "The nerve conduction test on 7 December 2002 shown features suggestive of sacral plexus injury."
+        ],
+        "icd_code": "NB73",
+        "icd_description": "Injury of lumbosacral plexus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Crack fracture at distal one-third of the left clavicle",
+        "injury_type": "Temporary injury",
+        "body_part": "left clavicle",
+        "laterality": "left",
+        "source": [
+          "An X ray examination of the left clavicle shown suspected crack at distal one-third."
+        ],
+        "icd_code": "NC12.02",
+        "icd_description": "Fracture of acromial end of clavicle"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Severe soft tissue crushed injury of back and pelvis",
+        "injury_type": "Residual disability",
+        "body_part": "back and pelvis (lumbo-sacral region)",
+        "laterality": null,
+        "source": [
+          "Dr. Tsoi also formed the view that the Plaintiff suffered from rather severe soft tissue crushed injury of her back and pelvis during the accident."
+        ],
+        "icd_code": "NB93.1",
+        "icd_description": "Crushing injury of other or unspecified parts of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Neurofibroma involving the right T12 exiting nerve root at the right T12/L1 intervetebral foraman",
+        "injury_type": "Permanent injury",
+        "body_part": "right T12 nerve root (T12/L1 intervertebral foramen)",
+        "laterality": "right",
+        "source": [
+          "MRI performed on 12 July 2004 shown a neurofibroma involving the right T12 exiting nerve root at the right T12/L1 intervetebral foraman."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right lower limb weakness (power of right ankle dorsiflexion, plantiflexion, extensor and flexor hallicis longus (EHL & FHL) were about 1/5; later improved to 3/5; power about 3/5 below knee on 30 November 2002)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decrease in pinprick sensation over right lower limb especially at the L5/S1 dermatome",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Anal tone present but weak",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Problems in controlling the bowel opening and urination",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent low back pain (lumbo-sacral region)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Bilateral lower limb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Left shoulder pain and stiffness with reduced range of motion; residual inflammation and scarring of injured tissues around left shoulder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Unable to walk for 5 minutes; walked with mild limping when aided with a stick; more severe limping when walked unaided; could walk up to 30 minutes unaided (later report)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Post-traumatic stress disorder, anxiety, phobia towards vehicles, hyper-vigilance, flashbacks, vivid nightmares, hyper-arousal symptoms (palpitation, hand tremor, sweating); adjustment disorder; depression (including suicidal idea during one admission)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Loss of sexual interest and back pain during sexual intercourse",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Hyperaesthesia over right L5/S1 dermatome",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Generalized weakness of both lower limbs (4/5 involving all joints noted at one examination)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Accident & Emergency Department treatment (Queen Mary Hospital)",
+      "Admission to surgical intensive care unit",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Rehabilitation at MacLehose Medical Rehabilitation Centre (MMRC)",
+      "Psychiatric treatment / follow-up at Western Psychiatric Centre",
+      "Inpatient psychiatric admissions (Queen Mary Hospital psychiatric ward)",
+      "Nerve conduction tests",
+      "MRI imaging",
+      "Pain clinic assessment"
+    ],
+    "treatments_future": [
+      "Further psychiatric treatment (private sector) as estimated by treating psychiatrists"
+    ],
+    "hospitalisation_days": 71,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Developed phobia towards vehicles on the street and did not manage to go out alone; afraid of going out alone for a period",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Problems adversely affected her family; forced to sell matrimonial home; husband quit his job to care for her",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Back pain during sexual intercourse and loss of sexual interest",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Unable to walk for 5 minutes at one stage; required a walking stick for periods; limping",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume pre-injury work as a health care worker despite trying on four occasions; had to quit those jobs",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yan Kwok Yue v Dong Shu Kei Beau",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Post-traumatic Stress Disorder and Depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "Tsui Ho and Others v The Incorporated Owners of Albert House and Others",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Post-traumatic Stress Disorder and Depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 525000.0
+      },
+      {
+        "case_name": "Ng Pak Mui and Others v The Incorporated Owners of Albert House and Others",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Post-traumatic Stress Disorder and Depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 430000.0
+      },
+      {
+        "case_name": "Joan Carol Boivin v Wong King Yin and Another",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Post-traumatic Stress Disorder and Depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 475000.0
+      },
+      {
+        "case_name": "Yu Heung Yuk v Ho Man and Others",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Post-traumatic Stress Disorder and Depression",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 440000.0
+      },
+      {
+        "case_name": "Yu Pun Yuen v Ng Kwok Man trading as East Mountain Engineering Company (Bankrupt) and Others",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Orthopaedic injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 450000.0
+      },
+      {
+        "case_name": "Li Kwok Lo v Café de Coral Holdings Limited",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Orthopaedic injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 360000.0
+      },
+      {
+        "case_name": "Chow Wai Ming v Chan Yuk Charm",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Orthopaedic injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17860,
+      "output_tokens": 9902,
+      "reasoning_tokens": 7040,
+      "total_tokens": 27762
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52486.61733046174,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17860,
+      "output_tokens": 9902,
+      "reasoning_tokens": 7040,
+      "total_tokens": 27762
+    },
+    "total_duration_ms": 52486.61733046174
+  }
+}

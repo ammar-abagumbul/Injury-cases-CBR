@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 1159",
+    "action_number": "DCPI 2072/2012",
+    "case_name": "MOHAMMED SAYEED v. LEIGHTON ROAD HOTEL MANAGEMENT SERVICES LTD",
+    "judgment_date": "2014-10-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 38,
+    "occupation_before": "senior chef in the food and beverages section of Crowne Plaza Hong Kong",
+    "occupation_after": null,
+    "expected_occupation_after": "car park attendant, security guard or messenger (alternatively petrol station attendant, shop assistant or watchman)",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 11000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "left ring finger cut resulting in (i) pain, stiffness, weakness, numbness and hypersensitivity; and (ii) psychiatric impairment",
+        "injury_type": "Residual disability",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "left ring finger cut resulting in (i) pain, stiffness, weakness, numbness and hypersensitivity; and (ii) psychiatric impairment"
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "1 cm cut wound over the plaintiff’s left ring finger tip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "stiffness of left ring finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness of left ring finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness of left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "hypersensitivity of the injured site of left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "flexion stiffness at left middle, ring and little finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "palmar skin dryness of left middle, ring and little fingers",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "X-rays showed osteopaenia around the proximal interphanlangeal joints and metacarpophalangeal joints of the left ring and middle fingers",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diffuse pain over left ring finger and whole left upper limb",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychiatric impairment described as mild depressive episode (depressed mood, poor sleep, poor appetite, limited motivation, feeling uselessness, anxiety symptoms like chest discomfort, hand tremor and headache)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "suturing of cut wound",
+      "painkillers/medication",
+      "referral to pain clinic",
+      "occupational therapy",
+      "physiotherapy",
+      "psychiatric outpatient treatment and medication"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable or would have difficulty to return to his previous work as a chef when both hands are needed, especially if dexterity is required",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26260,
+      "output_tokens": 4616,
+      "reasoning_tokens": 3392,
+      "total_tokens": 30876
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41152.63305231929,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26260,
+      "output_tokens": 4616,
+      "reasoning_tokens": 3392,
+      "total_tokens": 30876
+    },
+    "total_duration_ms": 41152.63305231929
+  }
+}

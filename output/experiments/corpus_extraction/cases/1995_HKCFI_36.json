@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 36",
+    "action_number": "HCA007930/1988",
+    "case_name": "TSE HOI CHEUNG v. HIP HING CONSTRUCTION CO. LTD. AND OTHERS",
+    "judgment_date": "1995-02-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 41,
+    "occupation_before": "plumber",
+    "occupation_after": "boiler room technician",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 10500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He received a cut on the chin which was stitched.",
+        "injury_type": "Temporary injury",
+        "body_part": "chin",
+        "laterality": null,
+        "source": [
+          "He received a cut on the chin which was stitched."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a compression fracture of the fifth lumbar vertebra",
+        "injury_type": "Residual disability",
+        "body_part": "fifth lumbar vertebra",
+        "laterality": null,
+        "source": [
+          "He had a fracture of the left femur, a fracture of the left ankle bone, dislocation of the right ankle and a compression fracture of the fifth lumbar vertebra."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a fracture of the left femur",
+        "injury_type": "Residual disability",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "He had a fracture of the left femur, a fracture of the left ankle bone, dislocation of the right ankle and a compression fracture of the fifth lumbar vertebra."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a fracture of the left ankle bone",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "He had a fracture of the left femur, a fracture of the left ankle bone, dislocation of the right ankle and a compression fracture of the fifth lumbar vertebra."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "dislocation of the right ankle",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "He had a fracture of the left femur, a fracture of the left ankle bone, dislocation of the right ankle and a compression fracture of the fifth lumbar vertebra."
+        ],
+        "icd_code": "ND14.0",
+        "icd_description": "Dislocation of ankle joint"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "was rendered unconscious for some minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "walking with a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "still feels pain from time to time and has to consult a doctor",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "stomach ulceration caused by pain killers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "was and still is unable to return to work as a plumber",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "embarrassed and upset by being called unkind names such as 'Crippled Cheung'",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "plaster of Paris for dislocation",
+      "insertion of plates, pins and screws in left leg",
+      "physiotherapy (inpatient and outpatient)",
+      "pain killers"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Before the accident, the plaintiff enjoyed basketball, swimming, cycling, jogging and other such activities. He is now unable to take part in these.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He was and still is unable to return to work as a plumber.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He is called unkind names, such as 'Crippled Cheung' which embarrasses and upsets him.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 335000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20336,
+      "output_tokens": 6199,
+      "reasoning_tokens": 4544,
+      "total_tokens": 26535
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30259.4449557364,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20336,
+      "output_tokens": 6199,
+      "reasoning_tokens": 4544,
+      "total_tokens": 26535
+    },
+    "total_duration_ms": 30259.4449557364
+  }
+}

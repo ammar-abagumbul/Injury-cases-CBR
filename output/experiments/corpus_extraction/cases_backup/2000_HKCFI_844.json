@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 844",
+    "action_number": "HCPI 216/1999",
+    "case_name": "IP SHUK HING v. YUEN YUK WAI AND ANOTHER",
+    "judgment_date": "2000-08-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 42,
+    "age_at_trial": 45,
+    "occupation_before": "Babysitter (minding her 5-year-old nephew)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a contusion to her head.",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "a contusion to her head."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Post Concussion Syndrome (\"PCS\")",
+        "injury_type": "Residual disability",
+        "body_part": "brain / cognitive function",
+        "laterality": null,
+        "source": [
+          "Post Concussion Syndrome (\"PCS\")"
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Post Traumatic Stress Disorder (PTSD)",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric / mental",
+        "laterality": null,
+        "source": [
+          "Post Traumatic Stress Disorder (PTSD)"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "hairline fracture to the Gerdys tubercle, a small bone in her right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "hairline fracture to the Gerdys tubercle, a small bone in her right knee"
+        ],
+        "icd_code": "NC92.12",
+        "icd_description": "Metaphyseal fracture of upper end of tibia"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor memory / forgetfulness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor concentration / inability to concentrate",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "anxiety",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "nightmares",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "aversion to the scene of the accident and to crossing roads generally",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "disputed degree of loss of consciousness immediately after the collision",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "walking with a limp and with the use of a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "mild to moderate cognitive deficit (attention and repetition deficits; borderline memory deficit)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "rendered unfit for her work as a childminder (inability to work)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "occupational therapy",
+      "cognitive tests",
+      "psychiatric treatment",
+      "admission to Cheshire Home",
+      "hospital follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Mild to moderate cognitive impairment including attention, repetition and borderline memory deficits resulting in poor concentration and forgetfulness.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "A very minor permanent disability in the right knee with residual pain and need to use a stick when walking.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Required paid domestic help for tasks such as cooking, cleaning and shopping; partial assistance required after April 1997 and assessed need for assistance over next 12 years.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Effectively rendered unfit for her work as a babysitter/childminder due to cognitive disabilities (memory, concentration and repetition deficits).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Symptoms (headaches, dizziness, poor memory, poor concentration and irritability and PTSD symptoms) interfering to some extent with her ability to enjoy life.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 240000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Siu Lun v. Hui Cho Yee",
+        "neutral_citation": null,
+        "action_number": "PI No. 120/97",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Liu Jianhui v. May Ho Graham",
+        "neutral_citation": null,
+        "action_number": "C.A.25/95",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui Kee v. KMB",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18970,
+      "output_tokens": 7066,
+      "reasoning_tokens": 4928,
+      "total_tokens": 26036
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41216.83171018958,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18970,
+      "output_tokens": 7066,
+      "reasoning_tokens": 4928,
+      "total_tokens": 26036
+    },
+    "total_duration_ms": 41216.83171018958
+  }
+}

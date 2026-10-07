@@ -1,0 +1,30 @@
+# Example judge feature query for Experiment 7.
+#
+# Injuries may be given as ICD-11 codes (``injuries``) or as free text
+# (``injury_descriptions``), which is resolved against the ICD-11 descriptions.
+# Losses must be canonical loss-category names (see schemas.ALL_LOSS_CATEGORIES).
+#
+# Run with:
+#   uv run psla run-experiment feature-query-retrieval \
+#       src/hklii_psla/experiments/experiment7/query_example.yaml
+
+query_id: "example-judge-query"
+gender: "Male"
+age_at_accident: 45
+age_at_trial: 50
+injury_descriptions:
+  - "fracture of the left tibia"
+  - "head injury"
+injuries:
+  - "NC92.1"
+losses:
+  - "Loss of mobility"
+  - "Loss of ability to engage in sports and hobbies"
+  - "Loss of congenial employment"
+overall_category: "Serious injury"
+operations_count: 2
+# Optional: restrict retrieval to a real-HKD compensation band, or give a
+# target award and let the tolerance define the band.
+# psla_band: [150000, 400000]
+# psla_target_real: 250000
+k: 10

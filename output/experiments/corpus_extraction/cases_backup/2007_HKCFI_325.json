@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 325",
+    "action_number": "HCPI 511/2005",
+    "case_name": "NG LAI FAN FANNY v. THE HONG KONG GOLF CLUB",
+    "judgment_date": "2007-04-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "waitress",
+    "occupation_after": null,
+    "expected_occupation_after": "waitress",
+    "salary_before": 12923.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "X-rays of her spine revealed a scoliosis of the thoracic spine",
+        "injury_type": "Permanent injury",
+        "body_part": "thoracic spine",
+        "laterality": null,
+        "source": [
+          "X-rays of her spine revealed a scoliosis of the thoracic spine"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the thorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "she has suffered a soft tissue injury, there being no significant injury-related pathology such as disk prolapse.",
+        "injury_type": "Temporary injury",
+        "body_part": "mid-and low back regions",
+        "laterality": null,
+        "source": [
+          "she has suffered a soft tissue injury, there being no significant injury-related pathology such as disk prolapse."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Both are satisfied that Ms Ng has suffered a depressive disorder ... I am satisfied that the psychiatric condition from which she presently suffers has arisen directly from the injury she has suffered at work.",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Both are satisfied that Ms Ng has suffered a depressive disorder",
+          "I am satisfied that the psychiatric condition from which she presently suffers has arisen directly from the injury she has suffered at work."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in her mid-and low back regions",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the thoracic and low back regions, but with no neurological deficits",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent back pain extended into multiple areas including the head, neck, shoulders legs and feet",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "anxiety and depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "bed rest",
+      "analgesics",
+      "psychiatric assessment",
+      "psychological/psychiatric treatment"
+    ],
+    "treatments_future": [
+      "psychiatric treatment (approximately 9 months)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "I accept that she has been in some pain and discomfort for a considerable period of time. The unfortunate psychiatric overlay has aggravated this pain.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Collins v The Star Ferry Co",
+        "neutral_citation": "HCPI 491/2000",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yu Heung Yuk v Ho Man & Ors",
+        "neutral_citation": "HCPI 57/98",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10962,
+      "output_tokens": 4711,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15673
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30817.77696311474,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10962,
+      "output_tokens": 4711,
+      "reasoning_tokens": 3456,
+      "total_tokens": 15673
+    },
+    "total_duration_ms": 30817.77696311474
+  }
+}

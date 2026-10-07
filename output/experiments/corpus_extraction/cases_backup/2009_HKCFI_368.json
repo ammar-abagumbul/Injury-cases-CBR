@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 368",
+    "action_number": "HCPI 874/2007",
+    "case_name": "SINGH INDERJEET v. HO CHUN BONG AND ANOTHER",
+    "judgment_date": "2009-05-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Daytime construction worker (with \"Yuen Kwong\"); evening delivery worker of ready meals (pizza delivery)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 12500.0,
+    "salary_after": 7000.0,
+    "expected_salary_after": 11000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild posterior L4/5 disc bulge / prolapsed disc in the lumbar spine",
+        "injury_type": "Permanent injury",
+        "body_part": "L4/5 lower lumbar spine",
+        "laterality": null,
+        "source": [
+          "The worst feature of the back injury was a “mild posterior L4/5 disc bulge”.",
+          "the diagnosis of prolapsed disc in the lumbar spine and soft tissue injury in the neck is consistent with the type of injuries sustained … the permanent impairment of the whole person for the satisfactorily resolved lower lumbar disc prolapse is 5%."
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury of the neck",
+        "injury_type": "Permanent injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the diagnosis for the neck “remained at soft issue level”.",
+          "the diagnosis of prolapsed disc in the lumbar spine and soft tissue injury in the neck is consistent with the type of injuries sustained … the permanent impairment of the whole person for the satisfactorily resolved lower lumbar disc prolapse is 5%. The permanent impairment of the whole person for the soft tissue injury of the neck is 2%."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "abrasions to many parts of his body / multiple abrasions",
+        "injury_type": "Temporary injury",
+        "body_part": "multiple parts of his body",
+        "laterality": null,
+        "source": [
+          "He sustained abrasions to many parts of his body",
+          "multiple abrasions"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Post Traumatic Stress Disorder (PTSD) and Major Depressive Disorder (MDD)",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "Post Traumatic Stress Disorder (“PTSD”) and Major Depressive Disorder (“MDD”), both as a result of the accident.",
+          "His current psychiatric complaints are depressive mood, suicidal ideas, impairment of sleep, memory and concentration.",
+          "his “scooter phobia” may well be permanent."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "depressive mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "suicidal ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impairment of sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impairment of memory and concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "scooter phobia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "neck pain (worse when tired; sometimes radiates to the head causing headaches)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "probable short loss of consciousness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reduced ability to work / loss of earning capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impaired family and social relationships",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "detained overnight at the Queen Mary Hospital",
+      "attended by a doctor (not until 11 p.m.)"
+    ],
+    "treatments_future": [
+      "psychotherapy",
+      "medication"
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Impairment of sleep, memory and concentration",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Impaired family and social relationships",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident work; loss of evening employment due to scooter phobia; reduced earning capacity",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Prolapse of L4/5 lower back, soft tissue neck damage and multiple abrasions",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Anderson v. Wui Yip Co. Ltd & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 244/1998",
+        "injury_description": "In both cases I considered the injuries sustained to be more serious than the present case.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Geissler v. Troika International Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 1/2000",
+        "injury_description": "In both cases I considered the injuries sustained to be more serious than the present case.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13344,
+      "output_tokens": 9435,
+      "reasoning_tokens": 7424,
+      "total_tokens": 22779
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48978.63484919071,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13344,
+      "output_tokens": 9435,
+      "reasoning_tokens": 7424,
+      "total_tokens": 22779
+    },
+    "total_duration_ms": 48978.63484919071
+  }
+}

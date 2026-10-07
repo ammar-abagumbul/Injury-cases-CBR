@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 93",
+    "action_number": "HCA002500/1977",
+    "case_name": "LAU KAI TAI v. TSANG CHOR CHAU AND ANOTHER",
+    "judgment_date": "1978-10-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 14,
+    "age_at_trial": 16,
+    "occupation_before": "Form 1 student (Ng Wah College)",
+    "occupation_after": "Form 4 student",
+    "expected_occupation_after": "train to be a flight engineer (aspiration stated by Plaintiff)",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 4"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a linear fracture on the right occipital bone.",
+        "injury_type": "Temporary injury",
+        "body_part": "right occipital bone",
+        "laterality": "right",
+        "source": [
+          "a linear fracture on the right occipital bone."
+        ],
+        "icd_code": "NA02.03",
+        "icd_description": "Fracture of squama of occipital bone of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured incisor teeth and bruised upper lip",
+        "injury_type": "Temporary injury",
+        "body_part": "incisor teeth and upper lip",
+        "laterality": null,
+        "source": [
+          "fractured incisor teeth and bruised upper lip"
+        ],
+        "icd_code": "NA0D.0Z",
+        "icd_description": "Injury of hard dental tissues and pulp, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "total deafness of the right ear",
+        "injury_type": "Permanent injury",
+        "body_part": "right ear",
+        "laterality": "right",
+        "source": [
+          "total deafness of the right ear."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "one inch haematoma in the right occiput",
+        "injury_type": "Temporary injury",
+        "body_part": "right occiput",
+        "laterality": "right",
+        "source": [
+          "one inch haematoma in the right occiput,"
+        ],
+        "icd_code": "NA00.01",
+        "icd_description": "Contusion of scalp"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "unconscious (admitted unconscious; regained full consciousness about ten days later)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mixed type of deafness of right ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "total deafness of the right ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "slowness in speech",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "post traumatic amnesia for over twenty-four hours",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruised upper lip and fractured incisor teeth",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted into Queen Elizabeth Hospital on the same day",
+      "attended on a few occasions at the Yaumati Clinic"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of chances of certain careers or employment (award of $40,000 for this loss)",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (award of $12,000)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 12000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11854,
+      "output_tokens": 7163,
+      "reasoning_tokens": 5760,
+      "total_tokens": 19017
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33704.83943447471,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11854,
+      "output_tokens": 7163,
+      "reasoning_tokens": 5760,
+      "total_tokens": 19017
+    },
+    "total_duration_ms": 33704.83943447471
+  }
+}

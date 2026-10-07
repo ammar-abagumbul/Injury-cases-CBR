@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 1211",
+    "action_number": "HCPI 256/2006",
+    "case_name": "WU WAI WAH v. FUNG KWONG HUNG AND ANOTHER",
+    "judgment_date": "2007-11-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": 46,
+    "occupation_before": "Driving instructor",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11281.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "lacerations to his face, the scalp and left hand",
+        "injury_type": "Temporary injury",
+        "body_part": "face, scalp and left hand",
+        "laterality": "left",
+        "source": [
+          "he suffered lacerations to his face, the scalp and left hand, and bled heavily."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "thin blood clot in Mr. Wu’s skull (subdural heamatoma)",
+        "injury_type": "Temporary injury",
+        "body_part": "brain / skull",
+        "laterality": null,
+        "source": [
+          "A brain scan showed that there was a thin blood clot in Mr. Wu’s skull (subdural heamatoma)."
+        ],
+        "icd_code": "NA07.6Z",
+        "icd_description": "Traumatic subdural haemorrhage, unspecified whether acute or chronic"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "moderate concussion / neurosurgical impairment",
+        "injury_type": "Permanent injury",
+        "body_part": "brain / head",
+        "laterality": null,
+        "source": [
+          "moderate concussion",
+          "neurosurgical impairment Mr. Wu has suffered is mild but permanent"
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post-concussion syndrome (\"PC Syndrome\")",
+        "injury_type": "Residual disability",
+        "body_part": "brain / head",
+        "laterality": null,
+        "source": [
+          "post-concussion syndrome (\"PC Syndrome\")"
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Post-traumatic Stress Disorder (\"PTS Disorder\")",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric / psychological",
+        "laterality": null,
+        "source": [
+          "Post-traumatic Stress Disorder (\" PTS Disorder\")"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "moderate memory loss",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "frequent headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "fatigue",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "sleep disturbances",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "loss of libido",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "lack of physical strength",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "impaired concentration / poor attention span",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "flashbacks of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "less willing to go out / irrational fear of being hit by flying wheels of vehicles",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "wounds sutured at government hospital",
+      "conservative treatment of the blood clot (subdural heamatoma)",
+      "follow-up by government neurosurgeon",
+      "assessment and treatment by clinical psychologist",
+      "psychiatric treatment at government hospital",
+      "psychological treatment",
+      "occupational therapy (agreed)"
+    ],
+    "treatments_future": [
+      "psychiatric treatment (assessed for 4 years)",
+      "continuation of psychological treatment and occupational therapy"
+    ],
+    "hospitalisation_days": 5,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from neurological as well as psychiatric disabilities: recurrent attacks of headache, dizziness, loss of memory and poor sleep affecting him physically, mentally and psychologically.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of his job as a driving instructor which he enjoyed and which gave him satisfaction and status.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of society and loss of gratuitous services of the dependants affecting family life.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Less willing to go out because of an irrational fear of being hit by flying wheels of vehicles.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Impaired memory and concentration affecting work and daily life.",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Sin Kin Man v Hsin Cheong Construction Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCPI 740 of 2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Li Tak v Everbest Logistics Co. Ltd. & Ano",
+        "neutral_citation": null,
+        "action_number": "HCPI 425 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Wai Kin v Cheng Hon Kit Jacker",
+        "neutral_citation": null,
+        "action_number": "HCPI 1488 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17832,
+      "output_tokens": 8848,
+      "reasoning_tokens": 7104,
+      "total_tokens": 26680
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 57129.00723144412,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17832,
+      "output_tokens": 8848,
+      "reasoning_tokens": 7104,
+      "total_tokens": 26680
+    },
+    "total_duration_ms": 57129.00723144412
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 334",
+    "action_number": "HCPI 183/2003",
+    "case_name": "TONG CHUN CHUNG v. PUD CHI KEUNG",
+    "judgment_date": "2005-05-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cooked food hawker",
+    "occupation_after": "cooked food hawker",
+    "expected_occupation_after": null,
+    "salary_before": 15000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "4 cm laceration to the left side of his head",
+        "injury_type": "Temporary injury",
+        "body_part": "left side of head",
+        "laterality": "left",
+        "source": [
+          "the plaintiff was fully conscious and was diagnosed to have suffered a 4 cm laceration to the left side of his head as well as tenderness and bruising over the right shoulder."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "head contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The medical diagnosis was head contusion with scalp laceration and right shoulder contusion."
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post-concussional syndrome (\"PCS\")",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He was diagnosed to have post-concussional syndrome (\"PCS\")."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "right shoulder contusion",
+        "injury_type": "Temporary injury",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "The medical diagnosis was head contusion with scalp laceration and right shoulder contusion."
+        ],
+        "icd_code": "NC10.1",
+        "icd_description": "Contusion of shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "bilateral sensorineural hearing loss at 4 KHz to 60 dB",
+        "injury_type": "Permanent injury",
+        "body_part": "ears",
+        "laterality": "bilateral",
+        "source": [
+          "Hearing tests showed that he suffered from bilateral sensorineural hearing loss at 4 KHz to 60 dB. The hearing threshold at other range was around 30 dB. He was prescribed with hearing aid in the left ear."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Possible brief loss of consciousness for several minutes after impact",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Constant left sided headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Constant dizziness / disequilibrium; vertigo (vestibular symptoms)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Impaired memory and difficulty concentrating; poor performance in cognitive tasks and executive function",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Personality change: easily irritable and poor temper control",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Depressed mood, low self-esteem, insomnia, decreased appetite and fleeting suicidal ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Paraesthesiae and dull aches in his limbs; complaints of numbness and weakness in all four limbs",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Bilateral sensorineural hearing loss (worse in the left ear); required a hearing aid in the left ear",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Walked with a stick and required the assistance of his wife; needs to be accompanied when venturing out",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Tenderness and decreased sensation and slight reduction of power (4/5) of the right upper limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suture of the left scalp",
+      "admission to Department of Surgery",
+      "X-ray",
+      "CT scan",
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "Epley’s Manoeuvre",
+      "hearing aid (left ear)",
+      "pain clinic treatment",
+      "psychiatric treatment",
+      "neurosurgery outpatient follow-up"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of independence",
+        "description": "Daily activity was partially dependant on his wife; needs to be accompanied by his wife when he ventures out of the home.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Bilateral sensorineural hearing loss at 4 KHz to 60 dB; was prescribed a hearing aid in the left ear.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Loss of sexual desire.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Tenderness, bruising and contusion of the right shoulder with decreased sensation and slight reduction of power of the right upper limb.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Needs to be accompanied by his wife when he ventures out of the home.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Impaired concentration, registering and memorising information and executive function as found on clinical cognitive tests.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19030,
+      "output_tokens": 9068,
+      "reasoning_tokens": 6976,
+      "total_tokens": 28098
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 48193.89673694968,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19030,
+      "output_tokens": 9068,
+      "reasoning_tokens": 6976,
+      "total_tokens": 28098
+    },
+    "total_duration_ms": 48193.89673694968
+  }
+}

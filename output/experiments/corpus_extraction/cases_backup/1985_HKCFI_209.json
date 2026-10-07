@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 209",
+    "action_number": "HCA008591/1981",
+    "case_name": "LAI CHI FAI v. LAM BOR AND OTHERS",
+    "judgment_date": "1985-06-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 40,
+    "age_at_trial": null,
+    "occupation_before": "unskilled iron worker",
+    "occupation_after": null,
+    "expected_occupation_after": "unlikely to be gainfully employed for the rest of his life",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "concussion, severe head injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "concussion, severe head injuries"
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured right ulna",
+        "injury_type": "Residual disability",
+        "body_part": "right ulna",
+        "laterality": "right",
+        "source": [
+          "fractured right ulna"
+        ],
+        "icd_code": "NC32.Z",
+        "icd_description": "Fracture of forearm, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractured 1st and 2nd lumbar vertebrae on the right side",
+        "injury_type": "Residual disability",
+        "body_part": "1st and 2nd lumbar vertebrae on the right side",
+        "laterality": "right",
+        "source": [
+          "fractured 1st and 2nd lumbar vertebrae on the right side"
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "multiple abrasions and lacerations",
+        "injury_type": "Temporary injury",
+        "body_part": "multiple (skin)",
+        "laterality": null,
+        "source": [
+          "multiple abrasions and lacerations"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "organic brain damage",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "organic brain damage"
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "post traumatic dementia with reactive depression",
+        "injury_type": "Permanent injury",
+        "body_part": "psychiatric/brain",
+        "laterality": null,
+        "source": [
+          "post traumatic dementia with reactive depression"
+        ],
+        "icd_code": "NA07.Y",
+        "icd_description": "Other specified intracranial injury"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "post-traumatic amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "speech difficulties",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in passing urine and in control of his bladder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "15º restricted movement when his right hand is held with the thumb to the front and turned to expose the back of the hand to the front",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "functioning at a moderate grade mental deficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "permanent psychiatric disability assessed at 40%",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "working ability in open employment is very limited and unlikely to be gainfully employed for the rest of his life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital inpatient care (Princess Margaret Hospital, 38 days)",
+      "occupational therapy at Kowloon Hospital for 4 months",
+      "plaster cast",
+      "operation to insert a bone plate and bone screws",
+      "physiotherapy",
+      "supportive psychotherapy",
+      "medication"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 38,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "moderate grade mental deficiency; poor memory and speech difficulties; permanent psychiatric disability assessed at 40%",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "working ability in open employment is very limited and unlikely to be gainfully employed for the rest of his life",
+        "caused_by_injury_id": "inj_006"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 44000.0,
+    "comparable_cases": [
+      {
+        "case_name": "LI Ting-chun v. LI Ting-fai",
+        "neutral_citation": null,
+        "action_number": "HCA No. 1257 of 1980",
+        "injury_description": "Plaintiff suffered more serious head injuries and was awarded $180,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "LEE Ting-lam v. LEUNG Kam-ming",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Case outlining 4 categories of disablement; used for classification of 'substantial injury'",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "LI Ping-sum v. CHAN Wai-tong",
+        "neutral_citation": null,
+        "action_number": "C.A. 53 (1983)",
+        "injury_description": "Authority relied on to increase earlier awards by 50%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14283,
+      "output_tokens": 12358,
+      "reasoning_tokens": 10176,
+      "total_tokens": 26641
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52350.24027898908,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14283,
+      "output_tokens": 12358,
+      "reasoning_tokens": 10176,
+      "total_tokens": 26641
+    },
+    "total_duration_ms": 52350.24027898908
+  }
+}

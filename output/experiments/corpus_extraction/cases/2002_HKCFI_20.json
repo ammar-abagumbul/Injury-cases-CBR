@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 20",
+    "action_number": "HCPI 1460/1999",
+    "case_name": "LAM KAI v. NG KWOK LEUNG AND OTHERS",
+    "judgment_date": "2002-03-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "M.Phil student (Engineering) at the University of Hong Kong",
+    "occupation_after": "Information Technology Officer and full time temporary teacher at Lai King Catholic Secondary School",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 17100.0,
+    "expected_salary_after": null,
+    "education_level": "Bachelor degree in Engineering; M.Phil (research) studies (incomplete)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe head injury",
+        "injury_type": "Permanent injury",
+        "body_part": "head/brain",
+        "laterality": null,
+        "source": [
+          "The plaintiff was diagnosed to have suffered a severe head injury due to that collision."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "diffuse cerebral contusion",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "A CT brain scan taken of the plaintiff showed diffuse cerebral contusion."
+        ],
+        "icd_code": "NA07.4",
+        "icd_description": "Focal brain injury"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "diffuse axonal damage",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "An MRI of the plaintiff's brain taken some six weeks later showed diffuse axonal damage."
+        ],
+        "icd_code": "NA07.3Y",
+        "icd_description": "Other specified diffuse brain injury"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "truncal ataxia (failure of the muscles of the trunk)",
+        "injury_type": "Permanent injury",
+        "body_part": "trunk",
+        "laterality": null,
+        "source": [
+          "Resulting from such head injury, the plaintiff suffers from headache, impairment of higher mental functions and truncal ataxia (i.e. failure of the muscles of the trunk)."
+        ],
+        "icd_code": "NA07.31",
+        "icd_description": "Diffuse injury of cerebellum"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Lost consciousness at collision; remained unconscious for an unknown period but certainly for longer than the seven days when he was kept in the Intensive Care Unit of Tuen Mun Hospital.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impairment of higher cognitive functions including concentration span, abstract thinking and possibly analytic power.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Memory impairment / memory function affected.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Post traumatic amnesia for some two months.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Headache.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Truncal ataxia (failure of the muscles of the trunk).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Mild physical impairment (assessed as 3% of the whole person by Dr Brian Choa).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Depression and adjustment disorder with reduced self-confidence, social isolation and intermittent suicidal ideation related to losses from cognitive and functional impairments.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "An operation was performed and an ICP monitor was inserted to monitor the intracranial pressure.",
+      "Physiotherapy",
+      "Occupational therapy",
+      "Occupational rehabilitation programme (attended until discharge four months after the accident)",
+      "Follow-up at neurosurgical clinic of Tuen Mun Hospital",
+      "Clinical psychology / psychological treatment (sessions with Ms Ide S.F. Chan of the Clinical Psychology Service, Tuen Mun Hospital)"
+    ],
+    "treatments_future": [
+      "Continuation of psychological treatment with Dr Ide Chan (Clinical Psychology Service) for approximately one to two years"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to take part in volleyball and other sports at the level which the plaintiff used to and enjoyed before the accident.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Depression and adjustment disorder with reduced self-confidence, social isolation and intermittent suicidal ideation related to losses from cognitive and functional impairments.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18175,
+      "output_tokens": 7932,
+      "reasoning_tokens": 6272,
+      "total_tokens": 26107
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30747.165579348803,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18175,
+      "output_tokens": 7932,
+      "reasoning_tokens": 6272,
+      "total_tokens": 26107
+    },
+    "total_duration_ms": 30747.165579348803
+  }
+}

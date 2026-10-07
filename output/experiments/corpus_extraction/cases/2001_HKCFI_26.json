@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 26",
+    "action_number": "HCPI 521/2000",
+    "case_name": "WONG WOON HEI v. DICKSON CONSTRUCTION CO., LTD. AND OTHERS",
+    "judgment_date": "2001-07-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 47,
+    "occupation_before": "painter (master painter)",
+    "occupation_after": "watchman, shop assistant or car park attendant",
+    "expected_occupation_after": null,
+    "salary_before": 19500.0,
+    "salary_after": 5775.0,
+    "expected_salary_after": 5948.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the left calcaneum",
+        "injury_type": "Residual disability",
+        "body_part": "left calcaneum",
+        "laterality": "left",
+        "source": [
+          "the plaintiff suffered a fracture of the left calcaneum."
+        ],
+        "icd_code": "ND13.0",
+        "icd_description": "Fracture of calcaneus"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "he now has pain and swelling in the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "every step he takes is painful",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has to walk with a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the ankle is not strong enough to support him when he has to squat over a lavatory basin",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "restricted dorsiflexion and plantarflexion of the left foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "restricted inversion and eversion to less than five degrees",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some muscle wasting in the left leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walked with a limp",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the sub-talar joint during weight bearing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "open reduction",
+      "bone grafting",
+      "internal fixation",
+      "removal of the surgical implant from his left ankle",
+      "physiotherapy (twice weekly from October 1997 to October 1998)",
+      "out-patient treatment at the specialist clinic of Queen Mary Hospital (November 1997 to January 1999)",
+      "transfer to the Maclehose Medical Rehabilitation Centre (1 April 1999 to 2 July 1999)"
+    ],
+    "treatments_future": [
+      "fusion operation (20% chance)"
+    ],
+    "hospitalisation_days": 114,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "he now has pain and swelling in the left ankle, and that every step he takes is painful. He has to walk with a stick. The plaintiff would have problems in walking but particularly on inclines or ladders",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "the ankle is not strong enough to support him when he has to squat over a lavatory basin",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "the plaintiff cannot return to his work as a painter and would in future be restricted to working as a watchman, shop assistant or car park attendant",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11654,
+      "output_tokens": 6045,
+      "reasoning_tokens": 4800,
+      "total_tokens": 17699
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41162.784557789564,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11654,
+      "output_tokens": 6045,
+      "reasoning_tokens": 4800,
+      "total_tokens": 17699
+    },
+    "total_duration_ms": 41162.784557789564
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 282",
+    "action_number": "HCPI 568/2004",
+    "case_name": "YEUNG SZE HOI v. NEW TRADE GOOD FOOD CENTRE LTD",
+    "judgment_date": "2005-04-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "junior cook",
+    "occupation_after": "junior cook",
+    "expected_occupation_after": null,
+    "salary_before": 10500.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "prolapsed disc at L3/4 with displacement of L4 root on the left side",
+        "injury_type": "Residual disability",
+        "body_part": "lower back (L3/4)",
+        "laterality": "left",
+        "source": [
+          "Their diagnosis was a sprained back and complicated by a prolapsed disc at L3/4 with displacement of L4 root on the left side."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sprained back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Their diagnosis was a sprained back and complicated by a prolapsed disc at L3/4 with displacement of L4 root on the left side.",
+          "At the joint examination on 5 January 2004, the plaintiff complained of on and off low back pain, some weakness of the back and pain on bending and lifting of heavy objects."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left side became weak",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on and off low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "severe left leg pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "radiation to the left lower leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some weakness of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "poor sleep, persistent back pain, low mood, increased irritability, decreased energy level and poor volition, sense of worthlessness and helplessness and fleeting suicidal ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "psychiatric outpatient treatment",
+      "hospital admission",
+      "MRI scan"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 420,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lai Ching v. Wong Chiu Kwai",
+        "neutral_citation": "[1999] 1 HKLRD A12",
+        "action_number": null,
+        "injury_description": "prolapsed disc at L4-5 with compression of the nerve root",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13894,
+      "output_tokens": 6688,
+      "reasoning_tokens": 5568,
+      "total_tokens": 20582
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53557.11042881012,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13894,
+      "output_tokens": 6688,
+      "reasoning_tokens": 5568,
+      "total_tokens": 20582
+    },
+    "total_duration_ms": 53557.11042881012
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 568",
+    "action_number": "HCPI 1096/2003",
+    "case_name": "HO MAN FONG v. SIME DARBY MOTOR SERVICES LIMITED",
+    "judgment_date": "2005-07-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "repair mechanic",
+    "occupation_after": "car repair mechanic",
+    "expected_occupation_after": null,
+    "salary_before": 18755.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "ankylosing spondylitis",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / spine",
+        "laterality": null,
+        "source": [
+          "Radiological examination at the Department of Orthopaedic and Traumatology showed that the plaintiff had ankylosing spondylitis which was a condition pre-existing before his injury from this accident. That pre-existing condition had a history of intermittent back pain for some two years before this accident."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to his lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "(3) the persistent back pain of the plaintiff is compatible with soft tissue injury to his lower back;"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right frozen shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "Apart form the ankylosing spondylitis, the plaintiff was also diagnosed with right frozen shoulder.",
+          "(2) the pain and stiffness in his right shoulder is compatible with a frozen shoulder which is a complication of the injury he sustained in the accident;"
+        ],
+        "icd_code": "NC1Y",
+        "icd_description": "Other specified injuries to the shoulder or upper arm"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "depressive reaction / depression",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr Ho came to the opinion that the plaintiff was suffering from a depressive reaction to the physical symptoms arising from the accident in question.",
+          "As for the psychiatric condition complained of by the plaintiff, as early as December 2002, the plaintiff had been attending the North District Hospital psychiatric outpatient department due to his low or depressive mood and had been diagnosed to be suffering from depression."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "back pain radiating down to his right buttock and thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right lower limb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "subjective right lower limb weakness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "walked with a walking stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "muscle spasm at his lower back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limited spinal movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right shoulder pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "low mood / depression with weeping spells, irritability, sleep impairment and fleeting suicidal ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "attended Accident and Emergency Department of the Prince of Wales Hospital",
+      "admitted for three days and given conservative treatment",
+      "transferred to North District Hospital for further management",
+      "physiotherapy",
+      "oral analgesics",
+      "steroid injection (suggested by Dr Au Ka Kau)",
+      "inpatient psychiatric treatment at Shatin Hospital between 2003-03-04 and 2003-04-12",
+      "consultation with private doctor Dr Chau Yat Sang between November 2002 and June 2003",
+      "follow-up treatments at North District Hospital"
+    ],
+    "treatments_future": [
+      "intra articular steroid injection (suggested)",
+      "physiotherapy (suggested)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities assessed by the Court at HKD 250,000, injuries including aggravation of pre-existing ankylosing spondylitis and right frozen shoulder.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15411,
+      "output_tokens": 8075,
+      "reasoning_tokens": 6464,
+      "total_tokens": 23486
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44857.88432881236,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15411,
+      "output_tokens": 8075,
+      "reasoning_tokens": 6464,
+      "total_tokens": 23486
+    },
+    "total_duration_ms": 44857.88432881236
+  }
+}

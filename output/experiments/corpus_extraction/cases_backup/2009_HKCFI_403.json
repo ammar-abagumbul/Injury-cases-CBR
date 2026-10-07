@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 403",
+    "action_number": "HCPI 676/2007",
+    "case_name": "LAM WAH v. A.S. WATSON & CO LTD",
+    "judgment_date": "2009-05-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 47,
+    "occupation_before": "Senior cook (Park’n Shop at Olympian City, West Kowloon)",
+    "occupation_after": "Security guard",
+    "expected_occupation_after": null,
+    "salary_before": 14940.0,
+    "salary_after": 6359.0,
+    "expected_salary_after": null,
+    "education_level": "Form 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his back",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "On balance, I prefer to accept the evidence of the Plaintiff’s expert Dr. Lam. Hence, as a matter of findings at the accident, the Plaintiff suffered from soft tissue injury to his back, sprained right ankle and soft tissue to the knee. After treatment, the left knee recovered, but there was still significant back pain as well as residual pain at the right ankle.",
+          "the Employees’ Compensation Board certified that the Plaintiff suffered back injury resulting in residual back pain and right ankle pain.",
+          "He alleged that he had back sprain with bilateral lower limb numbness, right ankle pain, left elbow & left knee contusions while lifting a load on 21.12.05."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue to the knee (left knee contusion)",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "On balance, I prefer to accept the evidence of the Plaintiff’s expert Dr. Lam. Hence, as a matter of findings at the accident, the Plaintiff suffered from soft tissue injury to his back, sprained right ankle and soft tissue to the knee. After treatment, the left knee recovered, but there was still significant back pain as well as residual pain at the right ankle.",
+          "He alleged that he had back sprain with bilateral lower limb numbness, right ankle pain, left elbow & left knee contusions while lifting a load on 21.12.05."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "sprained right ankle (residual right ankle pain; mild tenosynovitis of the posterior tibialis tendon)",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "On balance, I prefer to accept the evidence of the Plaintiff’s expert Dr. Lam. Hence, as a matter of findings at the accident, the Plaintiff suffered from soft tissue injury to his back, sprained right ankle and soft tissue to the knee. After treatment, the left knee recovered, but there was still significant back pain as well as residual pain at the right ankle.",
+          "the Employees’ Compensation Board certified that the Plaintiff suffered back injury resulting in residual back pain and right ankle pain.",
+          "MRI of the right ankle in the private sector on 12.6.06 showed mild tenosynovitis of the posterior tibialis tendon only."
+        ],
+        "icd_code": "ND14.7Z",
+        "icd_description": "Strain or sprain of ankle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right sciatica",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual right ankle pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "bilateral lower limb numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decrease in lifting, pulling and pushing capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "reduced standing and walking tolerance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "depression (complication)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "physiotherapy",
+      "occupational therapy",
+      "work capacity rehabilitation",
+      "work hardening program",
+      "educational group of low back pain"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume job of a cook; permanently unfit for his then job as a cook",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Wan Kei v Hyundai Engineering & Construction Co. Ltd.",
+        "neutral_citation": "[2001] HKCU 402",
+        "action_number": "HCPI No. 577 of 2004",
+        "injury_description": "Plaintiff therein suffered a bit more serious injuries than the one in the present case.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14205,
+      "output_tokens": 7195,
+      "reasoning_tokens": 5504,
+      "total_tokens": 21400
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 32074.09179955721,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14205,
+      "output_tokens": 7195,
+      "reasoning_tokens": 5504,
+      "total_tokens": 21400
+    },
+    "total_duration_ms": 32074.09179955721
+  }
+}

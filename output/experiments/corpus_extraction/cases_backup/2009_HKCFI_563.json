@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 563",
+    "action_number": "HCPI 290/2007",
+    "case_name": "CHANG MAN SZE v. CHAN SIU WAI AND ANOTHER",
+    "judgment_date": "2009-07-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 28,
+    "age_at_trial": null,
+    "occupation_before": "cashier",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "obvious vertical scars on both left and right knees from adolescent operations",
+        "injury_type": "Permanent injury",
+        "body_part": "knees",
+        "laterality": "bilateral",
+        "source": [
+          "operation at Princess Margaret Hospital, resulting in obvious vertical scars on both left and right knees"
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured femur",
+        "injury_type": "Temporary injury",
+        "body_part": "femur",
+        "laterality": null,
+        "source": [
+          "the new scars are from operations done to fix the fractured femur."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "new scars on the right side of the torso (from operations after the accident)",
+        "injury_type": "Permanent injury",
+        "body_part": "right side of the torso",
+        "laterality": "right",
+        "source": [
+          "the new scars were situated on the right side of the torso, near or above the pantyline"
+        ],
+        "icd_code": "NB50.Y",
+        "icd_description": "Other specified superficial injury of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "major depressive disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "psychotic depression",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "on prescribed medication",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "further follow-up appointment arranged (requires further treatment)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "referred to a psychologist for jealousy delusion towards husband, anxious mood, irritability and depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "complaint of itchy scars",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "abstention from sex",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "slow on response",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "lots of inappropriate complaint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "anxiety",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "depression (depressed mood)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "paranoia / paranoid features",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "compulsive spending",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operations on both knees (when adolescent)",
+      "operations to fix fractured femur",
+      "prescribed medication",
+      "referral to psychologist / government psychiatric follow-up"
+    ],
+    "treatments_future": [
+      "dermabrasion",
+      "cell culture"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly new scars on the right side of the torso and existing vertical scars on both knees",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "abstention from sex",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11750,
+      "output_tokens": 6480,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18230
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41623.614974319935,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11750,
+      "output_tokens": 6480,
+      "reasoning_tokens": 5056,
+      "total_tokens": 18230
+    },
+    "total_duration_ms": 41623.614974319935
+  }
+}

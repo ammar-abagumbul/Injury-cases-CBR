@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[1976] HKCFI 63",
+    "action_number": "HCA 960/1974",
+    "case_name": "FUNG YUI FUN AND OTHERS v. LIU WING HON AND OTHERS",
+    "judgment_date": "1976-02-19",
+    "plaintiff_count": 5,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 9,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "linear fracture of the right frontal bone of her skull",
+        "injury_type": "Temporary injury",
+        "body_part": "right frontal bone of skull",
+        "laterality": "right",
+        "source": [
+          "she was admitted to Queen Elizabeth Hospital in an unconscious state and found to have a linear fracture of the right frontal bone of her skull.",
+          "In June, 1973, the plaintiff was examined by Dr. Fang who found complete healing of the fracture and that she was in all respects as good as new."
+        ],
+        "icd_code": "NA02.00",
+        "icd_description": "Fracture of squama of frontal bone of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a slight disruption of the symphysis pubis, the left pelvic bone being displaced upwards and slightly apart from the right pelvic bone",
+        "injury_type": "Permanent injury",
+        "body_part": "pelvis (symphysis pubis)",
+        "laterality": null,
+        "source": [
+          "An X-ray of the pelvis and right hip was taken and a slight disruption of the symphysis pubis was found, the left pelvic bone being displaced upwards and slightly apart from the right pelvic bone.",
+          "I find that this injury was caused by the accident."
+        ],
+        "icd_code": "NB53.4",
+        "icd_description": "Traumatic rupture of symphysis pubis without disruption of pelvic ring"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "admitted in an unconscious state; regained consciousness two days later",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "complained of an occasional headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "complained of discomfort in the right hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "the disruption of the pelvis will give the plaintiff difficulty in childbirth",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "if delivery was normal, the plaintiff would take some time to recover and would experience a lot of pain for a month or two, or even more; there would also be more discomfort than usual during the last three or four months of pregnancy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "throughout her pregnancy the plaintiff will have more worry and apprehension than normal",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to Queen Elizabeth Hospital",
+      "out-patient attendances (2)"
+    ],
+    "treatments_future": [
+      "Caesarian section (possible)"
+    ],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 10,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Disruption of the pelvis giving rise to difficulty in childbirth (left pelvic bone displaced upwards and slightly apart from the right)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to give natural childbirth",
+        "description": "Possibility of deprivation of natural childbirth and the need for Caesarian section; limit on number of children deliverable by section (being three, or at most four)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 25000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Yin-kam (an infant) v. Cheung Wing-chuen and Anr.",
+        "neutral_citation": null,
+        "action_number": "OJA No. 2366 of 1971",
+        "injury_description": "the plaintiff, a girl of 18, suffered a fractured pelvis and other minor abrasions. She was left with a permanent slight shortening of ¼\" of the right leg and a grossly distorted pelvis",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10470,
+      "output_tokens": 5846,
+      "reasoning_tokens": 4736,
+      "total_tokens": 16316
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42488.599352538586,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10470,
+      "output_tokens": 5846,
+      "reasoning_tokens": 4736,
+      "total_tokens": 16316
+    },
+    "total_duration_ms": 42488.599352538586
+  }
+}

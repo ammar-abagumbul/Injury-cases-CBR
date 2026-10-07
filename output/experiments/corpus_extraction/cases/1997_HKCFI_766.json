@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 766",
+    "action_number": "HCPI 750/1996",
+    "case_name": "LAM PO YUK AND ANOTHER v. MERCURY SHIPPING CO LTD (IN LIQUIDATION)",
+    "judgment_date": "1997-11-03",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 54,
+    "age_at_trial": null,
+    "occupation_before": "an electrician employed by the defendant to work on board the M. V. \"Acacia\"",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 9912.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Splenic contusion / splenectomy",
+        "injury_type": "Permanent injury",
+        "body_part": "spleen",
+        "laterality": null,
+        "source": [
+          "On 18th August, 1989, upon echography, the deceased was found to have splenic contusion with suspicions about the pancreas, and a splenectomy was performed."
+        ],
+        "icd_code": "NB91.01",
+        "icd_description": "Contusion of spleen, major"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Removal of part of the pancreas and the gall bladder",
+        "injury_type": "Permanent injury",
+        "body_part": "pancreas and gall bladder",
+        "laterality": null,
+        "source": [
+          "On 26th August, 1989, the deceased had a second operation to remove part of the pancreas and the gall bladder."
+        ],
+        "icd_code": "NB91.B",
+        "icd_description": "Injury of multiple intra-abdominal organs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Direct traumatism of the left hypocondrium",
+        "injury_type": "Temporary injury",
+        "body_part": "left hypocondrium (left lateral regions in the upper zone of the abdomen, below the level of the floating ribs)",
+        "laterality": "left",
+        "source": [
+          "According to the medical reports, the deceased had sustained direct traumatism of the left hypocondrium, ie, the left lateral regions in the upper zone of the abdomen, below the level of the floating ribs."
+        ],
+        "icd_code": "NB50.3",
+        "icd_description": "Contusion of abdominal wall"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Occlusive sydrome",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Later, the deceased was found to suffer occlusive sydrome."
+        ],
+        "icd_code": "NB90.Z",
+        "icd_description": "Injury of unspecified blood vessel at abdomen, lower back or pelvis level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Gastro-intestinal bleeding from duodenal ulcer (cause of death)",
+        "injury_type": "Temporary injury",
+        "body_part": "duodenum / gastrointestinal tract",
+        "laterality": null,
+        "source": [
+          "The cause of death on the post-mortem examination report was recorded as \"gastro-intestinal bleeding from duodenal ulcer.\""
+        ],
+        "icd_code": "NB91.6",
+        "icd_description": "Injury of duodenum"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The deceased's condition did not improve and his digestive system deteriorated further",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "A pleural effusion appeared on the left side",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The deceased was depressed whilst hospitalized",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Conscious from the time of the accident until his death nearly six weeks later",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Gabriel Martin Hospital in St. Paul, Reunion",
+      "splenectomy",
+      "second operation to remove part of the pancreas and the gall bladder",
+      "repatriation to Hong Kong",
+      "admitted to the Canossa Hospital",
+      "transferred to Queen Mary Hospital for further treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan kin fu v. Lee kam hung",
+        "neutral_citation": "1985 HKLJ 110",
+        "action_number": null,
+        "injury_description": "ruptured spleen, undergoing an emergency laparotomy and splenectomy, and being hospitalised for one week.",
+        "hospitalisation_days": 7,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18193,
+      "output_tokens": 8962,
+      "reasoning_tokens": 7296,
+      "total_tokens": 27155
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37845.46138346195,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18193,
+      "output_tokens": 8962,
+      "reasoning_tokens": 7296,
+      "total_tokens": 27155
+    },
+    "total_duration_ms": 37845.46138346195
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 688",
+    "action_number": "HCPI 975/2002",
+    "case_name": "WONG LEUNG CHI v. LUEN FAT CIVIL ENGINEERING LTD AND ANOTHER",
+    "judgment_date": "2004-08-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 61,
+    "age_at_trial": 66,
+    "occupation_before": "drainage worker / formworker in construction (employed by Leun Fat Civil Engineering Limited)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 18000.0,
+    "salary_after": null,
+    "expected_salary_after": 9000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head injury / post-concussional syndrome (permanent neurological impairment)",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He was diagnosed as, and treated as, a case of post-concussional syndrome until July 2000.",
+          "I am satisfied that Mr Wong has suffered a permanent neurological impairment and that he has developed a post-concussional syndrome which has prevented him from recovering for capacity.",
+          "Both concluded that he suffered a mild head injury, as shown by the short period of post-traumatic amnesia, and both concluded that he suffers from post-concussional syndrome."
+        ],
+        "icd_code": "NA07.00",
+        "icd_description": "Concussion with incomplete loss of consciousness with amnesia"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "skull laceration (sutured)",
+        "injury_type": "Temporary injury",
+        "body_part": "head (skull)",
+        "laterality": null,
+        "source": [
+          "a skull laceration was sutured."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "cervical spondylosis with cervical radiculopathy",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine / neck",
+        "laterality": null,
+        "source": [
+          "An x-ray of his cervical spine shows spondylosis features. He was diagnosed to be suffering from cervical spondylosis with cervical radiculopathy."
+        ],
+        "icd_code": "NA40",
+        "icd_description": "Injury of nerve root of cervical spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "rendered instantly unconscious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "short period of post-traumatic amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left upper limb numbness / paraesthesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "persistent dizziness / dizzy spells",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache / chronic pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depression (related to pain and inability to work)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "near total loss of earning capacity if not properly treated; inability to resume pre-accident high paid job in construction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "suture of skull laceration",
+      "consultations at Government hospitals",
+      "physiotherapy",
+      "treatment at Department of Neurosurgery, Kwong Wah Hospital (investigation and treatment)",
+      "treatment by bonesetters and Chinese herbalists in China"
+    ],
+    "treatments_future": [
+      "treatment from a neurologist in the private sector for a period of three to six months (consultations and medication) at a total cost of $12,000"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "PSLA $400,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earnings $780,500.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of MPF $28,800.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Future loss of earnings $324,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Agreed special damages $29,686.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Further special damages $5,000.00",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Future medical expenses $12,000.00 (private neurologist consultations and medication)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14247,
+      "output_tokens": 6818,
+      "reasoning_tokens": 5120,
+      "total_tokens": 21065
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38683.18331986666,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14247,
+      "output_tokens": 6818,
+      "reasoning_tokens": 5120,
+      "total_tokens": 21065
+    },
+    "total_duration_ms": 38683.18331986666
+  }
+}

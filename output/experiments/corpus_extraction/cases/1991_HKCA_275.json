@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "neutral_citation": "[1991] HKCA 275",
+    "action_number": "CACV 45/1990",
+    "case_name": "SHUM YUEN NIM v. UNITED FAIR AGENCIES LTD AND OTHERS",
+    "judgment_date": "1991-07-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Chief Engineer (serving on board the vessel 'BIAKH')",
+    "occupation_after": "became unemployed and unemployable",
+    "expected_occupation_after": "resume his career as a ship's first engineer",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured skull",
+        "injury_type": "Permanent injury",
+        "body_part": "skull",
+        "laterality": null,
+        "source": [
+          "it was found that the plaintiff had a fractured skull, some fractured ribs, a fractured left femur and a fracture of the 4th and 5th thoracic vertebrae."
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "some fractured ribs",
+        "injury_type": "Permanent injury",
+        "body_part": "ribs",
+        "laterality": null,
+        "source": [
+          "it was found that the plaintiff had a fractured skull, some fractured ribs, a fractured left femur and a fracture of the 4th and 5th thoracic vertebrae."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractured left femur",
+        "injury_type": "Permanent injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "it was found that the plaintiff had a fractured skull, some fractured ribs, a fractured left femur and a fracture of the 4th and 5th thoracic vertebrae."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "a fracture of the 4th and 5th thoracic vertebrae",
+        "injury_type": "Permanent injury",
+        "body_part": "4th and 5th thoracic vertebrae",
+        "laterality": null,
+        "source": [
+          "it was found that the plaintiff had a fractured skull, some fractured ribs, a fractured left femur and a fracture of the 4th and 5th thoracic vertebrae."
+        ],
+        "icd_code": "NA82.1",
+        "icd_description": "Multiple fractures of thoracic spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "post-traumatic amnesia for a period of about four weeks",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sudden attacks of vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sudden loss of strength with episodes of falling",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "became unemployed and unemployable",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "medical treatment in Spain",
+      "flown back to Hong Kong on 11th July 1982",
+      "neurosurgery (28th July 1982)",
+      "inpatient hospital treatment until final discharge on 27th January 1983",
+      "attendance at a rehabilitation centre for a further two months or so",
+      "paid two-thirds of his salary by the Company while under treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "became unemployed and unemployable",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20045,
+      "output_tokens": 4731,
+      "reasoning_tokens": 3328,
+      "total_tokens": 24776
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22051.014330238104,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20045,
+      "output_tokens": 4731,
+      "reasoning_tokens": 3328,
+      "total_tokens": 24776
+    },
+    "total_duration_ms": 22051.014330238104
+  }
+}

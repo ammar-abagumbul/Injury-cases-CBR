@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 186",
+    "action_number": "HCPI000784/1995",
+    "case_name": "CHOI MEI HO v. CHUNG CHIU YING T/A KIN KEE AND OTHERS",
+    "judgment_date": "1997-03-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 37,
+    "age_at_trial": 46,
+    "occupation_before": "labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5250.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Radiologically revealed a fractured dislocation of the 12 thoracic vertebra over the 1st lumbar vertebra.",
+        "injury_type": "Permanent injury",
+        "body_part": "T12-L1 (thoracic/lumbar vertebrae)",
+        "laterality": null,
+        "source": [
+          "g. Radiologically revealed a fractured dislocation of the 12 thoracic vertebra over the 1st lumbar vertebra."
+        ],
+        "icd_code": "NB52.Y",
+        "icd_description": "Other specified fracture of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The spinal cord was found to be crushed by the bony injury at the site of dislocation; complete paraplegia with complete loss of sensation from waist down and paralysis of the lower extremities. She is wheelchair-bound. Her deficits are permanent.",
+        "injury_type": "Permanent injury",
+        "body_part": "spinal cord / lower spinal cord (at T12/L1)",
+        "laterality": "bilateral",
+        "source": [
+          "Luque instrumentation was carried out to stabilize the reduced spine. The spinal cord was found to be crushed by the bony injury at the site of dislocation.",
+          "a. She is a complete paraplegia with complete loss of sensation from waist down and paralysis of the lower extremities. She is wheelchair-bound. Her deficits are permanent."
+        ],
+        "icd_code": "NB62.0",
+        "icd_description": "Complete lesion of lumbar spinal cord"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "One laceration over right parietal region of head.",
+        "injury_type": "Temporary injury",
+        "body_part": "right parietal region of head",
+        "laterality": "right",
+        "source": [
+          "a. One laceration over right parietal region of head."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Bruises over right forehead, right thigh, left shoulder and upper back.",
+        "injury_type": "Temporary injury",
+        "body_part": "right forehead; right thigh; left shoulder; upper back",
+        "laterality": null,
+        "source": [
+          "b. Bruises over right forehead, right thigh, left shoulder and upper back."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Marked angulation of lower thoracic spine with tenderness.",
+        "injury_type": "Residual disability",
+        "body_part": "lower thoracic spine",
+        "laterality": null,
+        "source": [
+          "c. Marked angulation of lower thoracic spine with tenderness."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Urinary retention on admission; subsequently described as double incontinence requiring intermittent self catheterization and rectal suppositories for bowel movements.",
+        "injury_type": "Permanent injury",
+        "body_part": "bladder / bowel (neurogenic bladder and bowel dysfunction)",
+        "laterality": null,
+        "source": [
+          "f. Urinary retention.",
+          "b. She suffers from double incontinence. Dr Woo says that she has to empty her bladder every 3 to 4 hours by intermittent self catheterization. She has no anrectal sensation and rectal suppositories are needed every few days for her bowel movements. Faecal soiling may still occur."
+        ],
+        "icd_code": "NB72",
+        "icd_description": "Injury of cauda equina"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of sensation from lower abdomen (at level of iliac crest) downwards involving both lower limbs.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Loss of muscular movement in both lower limbs.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Wheelchair-bound (very restricted mobility).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Double incontinence requiring intermittent self catheterization and rectal suppositories; faecal soiling may still occur.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Intermittent painful paresthesia in the proximal segment of both lower limbs, particularly around the groins and the hips.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Very painful and frequent spasm.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Needs assistance in getting upright and transferring from wheelchair to bed and vice versa; needs 24 hour care and attention.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Total loss of sexual function.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Depression characterized by depressive mood, loss of interest, energy and initiative, loss of self esteem, insomnia, poor appetite and impaired cognitive functioning; moderate to severe and likely permanent.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Luque instrumentation (25 December 1988)",
+      "Removal of Luque implant (6 February 1990)",
+      "Intermittent self catheterization",
+      "Rectal suppositories",
+      "Massage and acupuncture injections (prior to inability to afford)",
+      "Physiotherapy (various sessions)"
+    ],
+    "treatments_future": [
+      "Physiotherapy (maintenance sessions)",
+      "Occupational therapy",
+      "Psychiatric treatment (counselling and medication)",
+      "Nursing care",
+      "Full-time maid",
+      "Medical check-ups (6 monthly and yearly tests)",
+      "Hospitalisation as required for pressure sores",
+      "Provision and maintenance of special equipment (wheelchair, hospital bed, bath trolley, hoist, calipers, exercising machine, etc.)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Wheelchair-bound with complete loss of movement of lower limbs; very restricted mobility.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Needs assistance in getting upright, transferring and requires 24 hour care and attention.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Total loss of sexual function.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity assessed at 100%; unable to work.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Life expectancy substantially reduced; evidence suggests mean additional life expectancy of 29 years from the accident.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Depression moderate to severe with associated cognitive impairment.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "Depression characterized by depressive mood, loss of interest, energy and initiative, loss of self esteem, insomnia, poor appetite and impaired cognitive functioning; moderate to severe and likely permanent.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Kwok Wing v. Lau Ping Kwan & Others",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Paraplegia with injury to T12 and L1, paralysis from waist down with total loss of sensation, pain in lower limbs and psychiatric problems.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1500000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20940,
+      "output_tokens": 8240,
+      "reasoning_tokens": 5696,
+      "total_tokens": 29180
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37441.0953335464,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20940,
+      "output_tokens": 8240,
+      "reasoning_tokens": 5696,
+      "total_tokens": 29180
+    },
+    "total_duration_ms": 37441.0953335464
+  }
+}

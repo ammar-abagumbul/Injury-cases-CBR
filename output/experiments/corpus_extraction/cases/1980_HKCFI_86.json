@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 86",
+    "action_number": "HCA001732/1978",
+    "case_name": "YICK CHAM HING v. NG SAI CHU AND ANOTHER",
+    "judgment_date": "1980-01-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "casual worker",
+    "occupation_after": "caretaker",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 1240.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures of his right clavicle",
+        "injury_type": "Temporary injury",
+        "body_part": "right clavicle",
+        "laterality": "right",
+        "source": [
+          "This report stated that on admission on 12th March 1976 he was found to have fractures of his right clavicle, right humerus and right ankle."
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right humerus (severe supracondylar fracture involving the humerus at the elbow joint)",
+        "injury_type": "Permanent injury",
+        "body_part": "right humerus (elbow)",
+        "laterality": "right",
+        "source": [
+          "This report stated that on admission on 12th March 1976 he was found to have fractures of his right clavicle, right humerus and right ankle.",
+          "The fracture of the humerus is a severe supracondylar fracture involving the humerus at the elbow joint. He has had 3 operations on it and the treatment has been generally unsuccessful. Dr. Wedderburn reported that its condition on 22nd November 1979 was 5o deficit from 180o straightening and the elbow was able to bend through 60o. The movement of supination was 10o (normal 90o) and pronation 30o (normal 90o). His physical disability is 50% impairment of the right arm making 28% of the whole man and no further improvement can be expected."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of his right ankle (fibula) secured by a plate and screws",
+        "injury_type": "Temporary injury",
+        "body_part": "right ankle / fibula",
+        "laterality": "right",
+        "source": [
+          "This report stated that on admission on 12th March 1976 he was found to have fractures of his right clavicle, right humerus and right ankle.",
+          "The fracture of the fibula has been secured by a plate and screws. The plate will require surgical removal if it causes marked irritation."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lost consciousness when he reached the third lane; recovered consciousness in hospital",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "retrograde amnesia (could not remember what happened at the accident)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "50° deficit from 180° straightening of the right elbow; elbow able to bend through 60°; supination 10° (normal 90°) and pronation 30° (normal 90°)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "physical disability: 50% impairment of the right arm making 28% of the whole man",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable and will be unable to do any work requiring sustained strength and dexterity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "plate and screws in right fibula which may require surgical removal if it causes marked irritation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "fracture of the clavicle has healed satisfactorily with no residual impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "6 operations",
+      "plate and screws fixation of fibula",
+      "3 operations on humerus (elbow)"
+    ],
+    "treatments_future": [
+      "surgical removal of plate if it causes marked irritation"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 6,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 487,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from the injuries (award under this head $35,000).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity: risk of losing existing employment and restricted job opportunities because of disability; award equivalent of 6 months wages $7,440.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earnings while incapacitated from employment from 12/3/76 to 11/7/77 totalling $10,062 (special damages).",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10652,
+      "output_tokens": 7151,
+      "reasoning_tokens": 5504,
+      "total_tokens": 17803
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50638.181399554014,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10652,
+      "output_tokens": 7151,
+      "reasoning_tokens": 5504,
+      "total_tokens": 17803
+    },
+    "total_duration_ms": 50638.181399554014
+  }
+}

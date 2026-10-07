@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "neutral_citation": "[1983] HKCFI 86",
+    "action_number": "HCA003712/1981",
+    "case_name": "LEE KAI WAH v. LEE CHEUNG FOOK",
+    "judgment_date": "1983-08-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 45,
+    "age_at_trial": 50,
+    "occupation_before": "hawker (cooked food hawker)",
+    "occupation_after": "substitute part-time caretaker; later assisting a friend running a dumpling stall (receiving food and lodging, no pay)",
+    "expected_occupation_after": null,
+    "salary_before": 3600.0,
+    "salary_after": 200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured right hip (neck of right femur)",
+        "injury_type": "Permanent injury",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "found to have a fractured right hip (neck of right femur)"
+        ],
+        "icd_code": "NC72.2",
+        "icd_description": "Fracture of neck of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "marked decrease of hearing in the right ear / mild permanent loss of hearing on the right side",
+        "injury_type": "Permanent injury",
+        "body_part": "right ear",
+        "laterality": "right",
+        "source": [
+          "a marked decrease of hearing in the right ear",
+          "the Consultant E.N.T. Surgeon advises that there is a mild permanent loss of hearing on the right side."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Right hip flexion limited to 130o instead of the normal 150o",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Slight shortening of the neck of the femur",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Walks slowly carrying a walking stick in his left hand, but not using it for support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Nail in the hip region causes some discomfort and difficulty with stairs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of final degrees of flexion and some loss of external rotation amounting to 5% impairment of the leg (2% Whole Man)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No limp (on examination)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild permanent loss of hearing in the right ear (8% loss of hearing in the right ear; 2% loss of binaural hearing; 1% impairment of the Whole Man)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "If he sits or stands for a long time he feels pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operation on hip on 1978-09-14 when a nail was inserted",
+      "hospital admission at Queen Elizabeth Hospital (Neurosurgical Unit)",
+      "crutches provided"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Impairment of right hip including limited flexion, loss of external rotation and slight shortening of the femoral neck; surgical fixation with a nail and resulting discomfort.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Mild permanent loss of hearing in the right ear.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Difficulty with stairs and walks slowly; uses a walking stick/umbrella for support.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to former occupation as a cooked food hawker; subsequent lower-paid and irregular work.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 34000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Fat-sum v Li Chor & another",
+        "neutral_citation": "H.K.L.J. (1980) 110",
+        "action_number": null,
+        "injury_description": "fractured pelvis and femur",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 10000.0
+      },
+      {
+        "case_name": "Lee Hau-man v Hon Ping-wan",
+        "neutral_citation": "H.K.L.J. (1980) 363",
+        "action_number": null,
+        "injury_description": "fractures of the femoral neck and shaft of femur etc.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 25000.0
+      },
+      {
+        "case_name": "Lau Chow-lam v Fung Mong-yan & another",
+        "neutral_citation": "H.K.L.J. (1981) 127",
+        "action_number": null,
+        "injury_description": "fracture of femur etc.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 35000.0
+      },
+      {
+        "case_name": "Mak Leung-yau v CMB & Chan Yick-yee",
+        "neutral_citation": "H.K.L.J. (1982) 92",
+        "action_number": null,
+        "injury_description": "hip fracture",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 20000.0
+      },
+      {
+        "case_name": "Lau Kai-tai v Tsang Chor-chau & another",
+        "neutral_citation": "H.K.L.J. (1979) 195",
+        "action_number": null,
+        "injury_description": "facial fracture and other injuries including deafness in right ear",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 12000.0
+      },
+      {
+        "case_name": "Poon Sui-lu v Kwong Tai-choi",
+        "neutral_citation": "H.K.L.J. (1978) 102",
+        "action_number": null,
+        "injury_description": "number of fractures (both clavicles, 2nd and 3rd ribs) and other injuries, including loss of hearing",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 35000.0
+      },
+      {
+        "case_name": "Lee Man-leung v Choi Chun-fung",
+        "neutral_citation": "H.K.L.J. (1977) 389",
+        "action_number": null,
+        "injury_description": "fractured skull, loss of hearing in right ear, and other injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 20000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10491,
+      "output_tokens": 5880,
+      "reasoning_tokens": 3712,
+      "total_tokens": 16371
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45910.648580640554,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10491,
+      "output_tokens": 5880,
+      "reasoning_tokens": 3712,
+      "total_tokens": 16371
+    },
+    "total_duration_ms": 45910.648580640554
+  }
+}

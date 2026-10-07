@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 83",
+    "action_number": "HCA001947/1984",
+    "case_name": "LEE MIU LING v. WONG NIM CHEE AND ANOTHER",
+    "judgment_date": "1985-11-13",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Taxi driver (also part-owner of the taxi business)",
+    "occupation_after": "Delivery worker / employee of a transportation company (post-accident); previously attempted sewing, packaging and casual construction work",
+    "expected_occupation_after": null,
+    "salary_before": 3250.0,
+    "salary_after": 1800.0,
+    "expected_salary_after": 1800.0,
+    "education_level": "Left school at age 12 (primary level)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff suffered a fracture of the second cervical vertebra which has united in good position, with residual restriction of movement",
+        "injury_type": "Residual disability",
+        "body_part": "second cervical vertebra (neck)",
+        "laterality": null,
+        "source": [
+          "the Plaintiff suffered a fracture of the second cervical vertebra which has united in good position, with residual restriction of movement"
+        ],
+        "icd_code": "NA22.13",
+        "icd_description": "Other fracture of second cervical vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual restriction of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "prevents her from resuming her pre-accident occupation as a taxi driver",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospital treatment",
+      "follow-up medical consultations",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual restriction of movement of the neck (as a consequence of fracture of the second cervical vertebra)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Prevents her from resuming her pre-accident occupation as a taxi driver",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 35000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9659,
+      "output_tokens": 3257,
+      "reasoning_tokens": 2624,
+      "total_tokens": 12916
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25140.052028000355,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9659,
+      "output_tokens": 3257,
+      "reasoning_tokens": 2624,
+      "total_tokens": 12916
+    },
+    "total_duration_ms": 25140.052028000355
+  }
+}

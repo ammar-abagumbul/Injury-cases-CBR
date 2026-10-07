@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCA 549",
+    "action_number": "CACV 199/1996; 1996, No. 199 (Civil)",
+    "case_name": "CHUNG MAN YAU AND ANOTHER v. SIHON CO LTD",
+    "judgment_date": "1997-10-08",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "hawker (unlicensed)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "depressed fracture of the skull",
+        "injury_type": "Permanent injury",
+        "body_part": "skull / head",
+        "laterality": null,
+        "source": [
+          "the appellant sustained serious injuries which included a depressed fracture of the skull, fractures of two ribs and severe lacerations."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractures of two ribs",
+        "injury_type": "Temporary injury",
+        "body_part": "ribs / thorax",
+        "laterality": null,
+        "source": [
+          "the appellant sustained serious injuries which included a depressed fracture of the skull, fractures of two ribs and severe lacerations."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "severe lacerations",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the appellant sustained serious injuries which included a depressed fracture of the skull, fractures of two ribs and severe lacerations."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "area in his skull where bone had to be removed has now an acrylic cover",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness on his left side - particularly in his hand, arm and leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tinnitus in one ear",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depression and irritability affecting personal relationships",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "cannot drive",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "moderately severe disability after making such recovery as he will make",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "acrylic cover placed in skull",
+      "medication"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenity; judge awarded $470,000 for pain, suffering and loss of amenity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earnings from hawking (including period between the day of the accident - 4 October 1993 - and the day when he received his hawker's licence - 25 June 1997); future loss awarded at $3,000 per month with multiplier 12 totalling $432,000 (award by Court of Appeal)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 470000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14475,
+      "output_tokens": 5108,
+      "reasoning_tokens": 4096,
+      "total_tokens": 19583
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30713.304467499256,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14475,
+      "output_tokens": 5108,
+      "reasoning_tokens": 4096,
+      "total_tokens": 19583
+    },
+    "total_duration_ms": 30713.304467499256
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 70",
+    "action_number": "DCPI 2514/2015",
+    "case_name": "WONG ROCKY LOK KUN v. WU KWONG SUM",
+    "judgment_date": "2018-01-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 28,
+    "age_at_trial": null,
+    "occupation_before": "Ground services agent at the Hong Kong International Airport (customer services supervisor)",
+    "occupation_after": "Operations trainee at HACTL",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Major Depressive Disorder Single Episode, Mild",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr Hung\u0002s diagnosis was \u0002Major Depressive Disorder Single Episode, Mild\u0002."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "poor sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of interest in things he used to enjoy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tiredness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lack of motivation and low energy throughout the day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor concentration and attention affecting work performance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty remembering new information and materials in new job",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "psychiatric assessment by Dr Gabriel Hung (assessments in May 2015, 2016 and early 2017)",
+      "therapeutic treatment by Dr Cindy Chiu (specialist in psychiatry)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "The relationship became more and more distant; later the wife refused to sleep in the same room; the wife filed for divorce in 2015; he had limited access to his daughter and missed her a lot.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "The wife became sexually cold and uninterested; the couple did not have any sexual intercourse ever since their daughter was born.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He quit his job as customer services supervisor in March 2016 and took up a less stressful job as an operations trainee at HACTL; his concentration and attention became poor and this affected his work performance; he found it difficult at times to remember all the new information and materials.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "McFarlane v Tayside Health Board",
+        "neutral_citation": "[2000] 2 AC 59",
+        "action_number": null,
+        "injury_description": "Failed vasectomy leading to the wife becoming pregnant and giving birth to a child; wife claimed damages for pain and distress and was held entitled.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "BT v Oei",
+        "neutral_citation": "[1999] NSWSC 1082",
+        "action_number": null,
+        "injury_description": "General practitioner negligently failed to diagnose AT's HIV and to advise testing; BT, his sexual partner, contracted HIV and succeeded in claim against the doctor.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "W v Essex County Council",
+        "neutral_citation": "[2001] 2 AC 592",
+        "action_number": null,
+        "injury_description": "Foster parents alleged psychiatric illness (including severe depression and PTSD) after children in their care were sexually abusive; House of Lords held it was arguable that a duty of care was owed to the parents.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17053,
+      "output_tokens": 3922,
+      "reasoning_tokens": 2560,
+      "total_tokens": 20975
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30063.82778659463,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17053,
+      "output_tokens": 3922,
+      "reasoning_tokens": 2560,
+      "total_tokens": 20975
+    },
+    "total_duration_ms": 30063.82778659463
+  }
+}

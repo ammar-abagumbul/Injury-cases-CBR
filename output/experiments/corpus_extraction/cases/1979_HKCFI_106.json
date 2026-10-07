@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 106",
+    "action_number": "HCA003267/1978",
+    "case_name": "CHUNG TAI HAI v. LAU KAI SUN AND ANOTHER",
+    "judgment_date": "1979-08-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 67,
+    "age_at_trial": 70,
+    "occupation_before": "washing dishes in a restaurant",
+    "occupation_after": "not capable of any work except helping in the house",
+    "expected_occupation_after": null,
+    "salary_before": 790.0,
+    "salary_after": 0.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractures of both bones of both lower legs",
+        "injury_type": "Residual disability",
+        "body_part": "both lower legs",
+        "laterality": "bilateral",
+        "source": [
+          "fractures of both bones of both lower legs"
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fractured collar bone",
+        "injury_type": "Temporary injury",
+        "body_part": "collar bone",
+        "laterality": null,
+        "source": [
+          "a fractured collar bone"
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "hobbles rather unsteadily",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walk with some difficulty",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tends to clutch for support after a few paces",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She still uses a stick",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "can leave the house only with assistance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "not capable of any work except helping in the house",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "legs were kept in plaster for 14 weeks",
+      "treated with a sling (collar bone)",
+      "used two crutches for 6 weeks",
+      "uses a stick"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Hobbles rather unsteadily, walks with difficulty and uses a stick",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Can leave the house only with assistance",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Was a dish washer in a restaurant and never returned to work",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8525,
+      "output_tokens": 3866,
+      "reasoning_tokens": 2752,
+      "total_tokens": 12391
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29336.59725636244,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8525,
+      "output_tokens": 3866,
+      "reasoning_tokens": 2752,
+      "total_tokens": 12391
+    },
+    "total_duration_ms": 29336.59725636244
+  }
+}

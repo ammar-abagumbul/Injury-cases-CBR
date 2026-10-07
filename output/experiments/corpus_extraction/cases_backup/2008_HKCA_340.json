@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCA 340",
+    "action_number": "CACV 75/2008",
+    "case_name": "SUEN KUM FUNG KANDY v. TSANG CHAM KUEN AND ANOTHER",
+    "judgment_date": "2008-08-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 46,
+    "age_at_trial": null,
+    "occupation_before": "Sales manager",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 39734.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Whiplash injury with persistent neck pain",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered a whiplash injury during the collision which occurred on 16 March 2002.",
+          "She suffered persistent neck pain as a result of the accident."
+        ],
+        "icd_code": "NA23.40",
+        "icd_description": "Acute whiplash associated disorder with complaint of neck pain, stiffness or tenderness only"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Adjustment disorder with depressed mood",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "The master accepted the opinion of Dr Chung, the plaintiff\u0019s psychiatric expert, that the plaintiff suffered from \u001cadjustment disorder with depressed mood\u001d.",
+          "The symptoms consisted of \u001cdepressed mood, irritability, impatience, feelings of difficulty coping, pessimistic ideas, lack of interest and motivation in activities, tiredness, lack of energy, difficulty concentrating, and sleep problems\u001d."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Impatience",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Feelings of difficulty coping",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Pessimistic ideas",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Lack of interest and motivation in activities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Tiredness and lack of energy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Difficulty concentrating",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Sleep problems",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Character/personality change",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Withdrawal (has become withdrawn)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Deterioration of marital relationship leading to divorce",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Worsened relationship with son",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Orthopaedic outpatient treatment",
+      "Psychological treatment",
+      "Clinical psychologist sessions (13 attended, 3 defaulted)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Breakdown of marriage and worsened relationship with son; affected family life",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Has become withdrawn",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11536,
+      "output_tokens": 4082,
+      "reasoning_tokens": 2688,
+      "total_tokens": 15618
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31445.075809955597,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11536,
+      "output_tokens": 4082,
+      "reasoning_tokens": 2688,
+      "total_tokens": 15618
+    },
+    "total_duration_ms": 31445.075809955597
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKDC 202",
+    "action_number": "DCPI 376/2005",
+    "case_name": "SO SAU MAN v. LEUNG MING KWONG AND ANOTHER",
+    "judgment_date": "2005-10-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 62,
+    "age_at_trial": null,
+    "occupation_before": "dish cleaner in a restaurant",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right lip laceration",
+        "injury_type": "Temporary injury",
+        "body_part": "right upper lip",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff suffered right lip laceration and lost three teeth as a result of a traffic accident on 9 November 2003."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "lost three teeth",
+        "injury_type": "Permanent injury",
+        "body_part": "teeth",
+        "laterality": null,
+        "source": [
+          "The Plaintiff suffered right lip laceration and lost three teeth as a result of a traffic accident on 9 November 2003.",
+          "The teeth were also replaced by artificial ones."
+        ],
+        "icd_code": "NA0D.Y",
+        "icd_description": "Other specified injury of teeth or supporting structures"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "wound infection",
+        "injury_type": "Temporary injury",
+        "body_part": "wound area over upper lip",
+        "laterality": "right",
+        "source": [
+          "There was also wound infection after the accident, and resuturing of the wound was performed once on 13 November 2003."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness in the wound area",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a small but quite unnoticeable scar near the upper right lip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the wound",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Accident & Emergency Department of the United Christian Hospital",
+      "suturing of the laceration wound over the upper lip",
+      "resuturing of the wound on 13 November 2003",
+      "continued treatment from private doctor and public hospital",
+      "replacement of the lost teeth by artificial ones",
+      "discharged on the same day"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 73,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "a small but quite unnoticeable scar near the upper right lip of the Plaintiff",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "loss of three teeth",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chau Fung Yee v Lee Chi Ming",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 76 of 1999",
+        "injury_description": "oral laceration without loss of teeth. The inner laceration was sutured and she was left with some lumpiness and very faint scars.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 85000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8689,
+      "output_tokens": 5774,
+      "reasoning_tokens": 4544,
+      "total_tokens": 14463
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34194.182109087706,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8689,
+      "output_tokens": 5774,
+      "reasoning_tokens": 4544,
+      "total_tokens": 14463
+    },
+    "total_duration_ms": 34194.182109087706
+  }
+}

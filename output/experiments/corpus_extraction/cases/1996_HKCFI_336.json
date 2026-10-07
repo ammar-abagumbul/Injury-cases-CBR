@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCFI 336",
+    "action_number": "HCPI000199/1995",
+    "case_name": "LAU HO PUN BEN v. CHAN WING CHUEN AND ANOTHER",
+    "judgment_date": "1996-09-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 27,
+    "occupation_before": "Police constable",
+    "occupation_after": "Police constable",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "There is evidence of the fracture of the skull.",
+        "injury_type": "Residual disability",
+        "body_part": "skull / head",
+        "laterality": null,
+        "source": [
+          "There is evidence of the fracture of the skull."
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "There was concussion with lengthy retrograde and post-traumatic amnesia, and he is still suffering from post-concussional syndromes with recurrent headache and poor short-term memory.",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The injury consisted of head injuries. There was concussion with lengthy retrograde and post-traumatic amnesia, and he is still suffering from post-concussional syndromes with recurrent headache and poor short-term memory."
+        ],
+        "icd_code": "NA07.00",
+        "icd_description": "Concussion with incomplete loss of consciousness with amnesia"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "The knee injuries resulted in internal derangement of the knee.",
+        "injury_type": "Permanent injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "The knee injuries resulted in internal derangement of the knee. There is still pain and restricted knee movements. The injury is assessed to be permanent. He cannot kneel on his knee bone because of the pain and numbness."
+        ],
+        "icd_code": "NC93.0",
+        "icd_description": "Acute internal damage of knee"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "After the accident, the Plaintiff lost consciousness and did not regain consciousness again until he woke up in hospital.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He suffered headaches.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The headaches occur three to four times a month, ranging from 30 minutes to an hour. He has to take pain-killers to relieve the pain.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Lengthy retrograde and post-traumatic amnesia.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Poor short-term memory.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He also suffers from loss of smell and he could only smell occasionally.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There is still pain and restricted knee movements.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He cannot kneel on his knee bone because of the pain and numbness.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He walked with clutches for 6 months.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "His physical strength is lessened. He felt tired after one hour of walking.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "He cannot now engage in badminton or volley ball.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "operations of the left knee",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Loss of smell; could only smell occasionally.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Pain and restricted knee movements; cannot kneel; walked with clutches for 6 months; felt tired after one hour of walking.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Cannot engage in badminton or volley ball; physical strength is lessened.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor short-term memory and post-concussional syndromes.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11585,
+      "output_tokens": 7597,
+      "reasoning_tokens": 5952,
+      "total_tokens": 19182
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37742.774937301874,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11585,
+      "output_tokens": 7597,
+      "reasoning_tokens": 5952,
+      "total_tokens": 19182
+    },
+    "total_duration_ms": 37742.774937301874
+  }
+}

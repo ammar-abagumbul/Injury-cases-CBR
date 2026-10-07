@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 9",
+    "action_number": "HCA002413/1991",
+    "case_name": "MAK YIU KEUNG v. HO CHEUNG KAT",
+    "judgment_date": "1995-06-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 31,
+    "age_at_trial": 38,
+    "occupation_before": "carpenter",
+    "occupation_after": "stayed at home; assisted wife in preparing vegetables and did cutting threads for a clothing factory",
+    "expected_occupation_after": "watchman or caretaker",
+    "salary_before": 7280.0,
+    "salary_after": 1800.0,
+    "expected_salary_after": 4644.0,
+    "education_level": "limited education; lack of knowledge of English"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Near-complete amputation / severe traumatic injury to left wrist and hand resulting in a useless left hand",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "the saw, which had no guard, came into contact with his left wrist and hand, cutting it to such an extent that his left hand was almost completely amputated.",
+          "his left hand...is clawed and scarred, has no movement at all and with extensive sensory loss,"
+        ],
+        "icd_code": "NC59.Z",
+        "icd_description": "Traumatic amputation of wrist or hand, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Clawed and scarred left hand (cosmetic deformity)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No movement at all in left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Extensive sensory loss in left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Swelling in the hand in winter",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tendency for the hand to bruise easily",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to return to any employment requiring a degree of dexterity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Frustration and depression at not being able to secure regular employment and to provide for his family",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "revascularisation",
+      "Silastic rod insertion",
+      "re-amputation of the left little finger and fixation of fracture",
+      "subsequent removal of the Silastic rods",
+      "K-wire fixation",
+      "tenolysis",
+      "tendon prosthesis",
+      "vein and skin grafts",
+      "tendon grafting",
+      "extensive physiotherapy",
+      "treatment by bonesetters",
+      "first of a number of reconstructive operations over the next few years"
+    ],
+    "treatments_future": [
+      "suggested amputation and fitting of a prosthesis (patient rejected further operation)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 12,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 670,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Useless and almost amputated left hand causing severe functional impairment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Unsightly left hand and scarring causing embarrassment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Prevents him from performing simple day to day tasks that a person with both hands takes for granted",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Cannot return to skilled carpentry or any employment requiring dexterity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Can no longer play badminton with his children",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Unable to provide for his family as he had before his accident",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 340000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chun Yat Nam v. Attorney General",
+        "neutral_citation": null,
+        "action_number": "C.A. 92 of 1994",
+        "injury_description": "Revised the level of awards for pain suffering and loss of amenities raising the substantial injury category to $335,000.00 to $415,000.00",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9278,
+      "output_tokens": 5879,
+      "reasoning_tokens": 4416,
+      "total_tokens": 15157
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46664.20428827405,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9278,
+      "output_tokens": 5879,
+      "reasoning_tokens": 4416,
+      "total_tokens": 15157
+    },
+    "total_duration_ms": 46664.20428827405
+  }
+}

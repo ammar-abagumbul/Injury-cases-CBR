@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKDC 161",
+    "action_number": "DCPI 357/2001",
+    "case_name": "NAM CHEUK YIN v. NG YIM HING",
+    "judgment_date": "2003-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 22,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "corneal abrasion",
+        "injury_type": "Temporary injury",
+        "body_part": "both eyes",
+        "laterality": "bilateral",
+        "source": [
+          "she was diagnosed to have sustained corneal abrasion and infected conjunctiva (page 188-190 of the agreed bundle)."
+        ],
+        "icd_code": "NA06.4",
+        "icd_description": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "infected conjunctiva",
+        "injury_type": "Temporary injury",
+        "body_part": "both eyes",
+        "laterality": "bilateral",
+        "source": [
+          "she was diagnosed to have sustained corneal abrasion and infected conjunctiva (page 188-190 of the agreed bundle)."
+        ],
+        "icd_code": "NA06.4",
+        "icd_description": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "dry eye syndrome leading to corneal epithelial defect",
+        "injury_type": "Temporary injury",
+        "body_part": "both eyes",
+        "laterality": "bilateral",
+        "source": [
+          "Dr. Chan found Miss Nam suffers from dry eye syndrome leading to corneal epithelial defect."
+        ],
+        "icd_code": "NA06.4",
+        "icd_description": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in her eyes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "blurred vision in both her eyes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "eyes painful, red",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor tear secretion / dry eye symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "has to give up wearing contact lenses",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "irrigation by normal saline on both eyes at the Accident and Emergency Department of the Pamela Youde Nethersole Eastern Hospital",
+      "attendance at ophthalmology clinic"
+    ],
+    "treatments_future": [
+      "rely on eye drops to lubricate her eyes until her condition improves"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 4,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Deprivation of the option to wear contact lenses; need to rely on glasses and use eye drops",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 8000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fong Wai Mui v. Cheung Fung Lan",
+        "neutral_citation": null,
+        "action_number": "DCCJ No. 24639 of 1998",
+        "injury_description": "victim received 4 stitches to her cut lip as a result of being punched on the face and chest",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 13000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14013,
+      "output_tokens": 5164,
+      "reasoning_tokens": 3904,
+      "total_tokens": 19177
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38168.49137842655,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14013,
+      "output_tokens": 5164,
+      "reasoning_tokens": 3904,
+      "total_tokens": 19177
+    },
+    "total_duration_ms": 38168.49137842655
+  }
+}

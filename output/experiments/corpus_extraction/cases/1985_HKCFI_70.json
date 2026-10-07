@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 70",
+    "action_number": "HCA004882/1981",
+    "case_name": "NG KAM v. MAK HOI MING AND OTHERS",
+    "judgment_date": "1985-03-27",
+    "plaintiff_count": 3,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Total loss of sight in one eye",
+        "injury_type": "Permanent injury",
+        "body_part": "one eye",
+        "laterality": null,
+        "source": [
+          "Mr. Cheung lost an eye in this accident",
+          "he did lose the entire sight of one eye"
+        ],
+        "icd_code": "NA06.85",
+        "icd_description": "Avulsion of eye, unilateral"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Scarring",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "There was some scarring"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Total loss of the sight of one eye",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Disability assessed at 8% increasing to 11% by age 75 and to 15% by age 80",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Pain and general inconvenience",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Hospital treatment",
+      "Bone-setter's treatment",
+      "Herbalist treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Some scarring",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Total loss of the sight of one eye",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and general inconvenience, including headaches",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Choi v. Szeto Wai-hung",
+        "neutral_citation": "(1984) H.K.L.J. 265",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 20000.0
+      },
+      {
+        "case_name": "Tsang Kei-lung and Lee Wing-shun",
+        "neutral_citation": "(1980) H.K.L.R. 715",
+        "action_number": null,
+        "injury_description": "Total loss of an eye",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 60000.0
+      },
+      {
+        "case_name": "Chan Chi-lun v. Cheung Wai-chung",
+        "neutral_citation": "(1984) H.K.L.J. 259",
+        "action_number": null,
+        "injury_description": "90% loss of the sight of one eye but also other injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 65000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": true,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10059,
+      "output_tokens": 5968,
+      "reasoning_tokens": 4672,
+      "total_tokens": 16027
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41010.79276576638,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10059,
+      "output_tokens": 5968,
+      "reasoning_tokens": 4672,
+      "total_tokens": 16027
+    },
+    "total_duration_ms": 41010.79276576638
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 180",
+    "action_number": "HCPI 206/2001",
+    "case_name": "LUNG KWONG YING v. SO SAI LO AND OTHERS",
+    "judgment_date": "2002-08-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 52,
+    "occupation_before": "Steel fixer",
+    "occupation_after": "mapping worker on construction sites",
+    "expected_occupation_after": null,
+    "salary_before": 31200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion to his lumbar spine.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "it was diagnosed that he had suffered a contusion to his lumbar spine."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "back sprain on top of the degenerative change",
+        "injury_type": "Residual disability",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "Dr Cheng found residual back pain and confirmed his conclusion that there was a back sprain on top of the degenerative change."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Some pre-existing degenerative change at L 4/5 area",
+        "injury_type": "Permanent injury",
+        "body_part": "L4/5 lumbar spine",
+        "laterality": null,
+        "source": [
+          "Some pre-existing degenerative change at L 4/5 area was shown on the MR1 scan."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "decreased range of movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diminished trunk flexion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "diffuse lower back tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "paraspinal muscle spasm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "intermittent discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "restriction in lifting heavy weights",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "cannot return to pre-accident heavy work (cannot return to his pre-accident job)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "outpatient clinic follow-up until 1999-01-02"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "left with a degree of disability which continues to manifest itself in intermittent discomfort; the condition of a man's back is more often than not a barometer of his sense of well-being; he is also now more vulnerable.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He has been deprived at a relatively young age of a remunerative job requiring a degree of fitness. Although the periodic employment calls for more skill and responsibility it is more sedentary and it does not require a high level of physical fitness. To that extent it is less satisfying. It does not provide security either.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14340,
+      "output_tokens": 6030,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20370
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38470.37451341748,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14340,
+      "output_tokens": 6030,
+      "reasoning_tokens": 4608,
+      "total_tokens": 20370
+    },
+    "total_duration_ms": 38470.37451341748
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "neutral_citation": "[2006] HKCFI 369",
+    "action_number": "HCPI 90/2005",
+    "case_name": "CHAN CHIN SHUN v. YAU SIN CHUNG",
+    "judgment_date": "2006-03-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 54,
+    "occupation_before": "labourer on construction sites (installing guardrails)",
+    "occupation_after": "decoration worker (painting houses and sometimes clearing debris)",
+    "expected_occupation_after": "caretaker, shopkeeper or petrol station attendant",
+    "salary_before": 8000.0,
+    "salary_after": 4000.0,
+    "expected_salary_after": 4000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Mild bifrontal contusion and contusion in the frontal region of the brain",
+        "injury_type": "Residual disability",
+        "body_part": "brain (frontal / bifrontal region)",
+        "laterality": null,
+        "source": [
+          "A CT brain scan showed mild bifrontal contusion and a non-displaced fracture in the right mastoid bone.",
+          "There was a small patch of hyperdense opacity over the left frontal area of the brain which was compatible with brain contusion.",
+          "“blunt injury to his head with ... contusion frontal region of his brain as shown by CT scan.”"
+        ],
+        "icd_code": "NA07.40",
+        "icd_description": "Focal non-haemorrhagic contusion of cerebrum"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Non-displaced fracture in the right mastoid bone / fracture right temporal bone",
+        "injury_type": "Residual disability",
+        "body_part": "right mastoid / right temporal bone",
+        "laterality": "right",
+        "source": [
+          "A CT brain scan showed mild bifrontal contusion and a non-displaced fracture in the right mastoid bone.",
+          "“blunt injury to his head with fracture right temporal bone and contusion frontal region of his brain as shown by CT scan.”"
+        ],
+        "icd_code": "NA02.Y",
+        "icd_description": "Fracture of other specified skull or facial bones"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Scalp haematoma behind his right ear in the right occipital region",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp (right occipital region)",
+        "laterality": "right",
+        "source": [
+          "Behind his right ear in the right occipital region, there was a scalp haematoma."
+        ],
+        "icd_code": "NA00.01",
+        "icd_description": "Contusion of scalp"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Two small lacerations over his left lip and face",
+        "injury_type": "Temporary injury",
+        "body_part": "left lip and face",
+        "laterality": "left",
+        "source": [
+          "Two small lacerations were found over his left lip and face."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Abrasions to one knee",
+        "injury_type": "Temporary injury",
+        "body_part": "one knee",
+        "laterality": null,
+        "source": [
+          "One knee had suffered abrasions."
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Right facial weakness (facial nerve involvement) observed four days after the incident",
+        "injury_type": "Temporary injury",
+        "body_part": "facial nerve / muscles of the face",
+        "laterality": "right",
+        "source": [
+          "Four days after the incident he was found to be suffering from right facial weakness which responded to a short course of cortico steroids."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Severe hearing impairment in the right ear",
+        "injury_type": "Permanent injury",
+        "body_part": "right ear (hearing apparatus / cochlea and vestibule related to temporal bone)",
+        "laterality": "right",
+        "source": [
+          "He was assessed by the hospital's ear, nose and throat (“ENT”) surgeons to have sustained severe hearing impairment in the right ear.",
+          "“The organs for hearing and balance, cochlea and vestibule respectively are also situated in the temporal bone. Therefore fracture of the temporal bone can result in ... hearing loss, tinnitus and vertigo.”",
+          "“There is no effective treatment for his hearing loss, tinnitus, vertigo, loss of taste and smell because the pathology lies in the respective neural pathways. The damage to nerves is difficult to recover and therefore Mr Chan's present conditions are expected to be permanent.”"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "Complete loss of sense of smell and taste (anosmia and ageusia)",
+        "injury_type": "Permanent injury",
+        "body_part": "olfactory system / gustatory pathways",
+        "laterality": null,
+        "source": [
+          "He was found to have completely lost his sense of smell and taste.",
+          "“Injury to the frontal area of the brain could cause loss of smell because the delicate organ of the smell lies in this region.”",
+          "“There is no effective treatment for his ... loss of taste and smell ... Mr Chan's present conditions are expected to be permanent.”"
+        ],
+        "icd_code": "NA04.0",
+        "icd_description": "Injury of olfactory nerve"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Unconscious or at least semi-conscious after the blow",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Totally confused (receptive dysphasia) and talked incoherently on arrival at hospital",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bleeding from his right ear",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Post-traumatic amnesia for several days",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent headaches and dizziness (daily)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Complete loss of smell and taste (anosmia and ageusia)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "Irritability which affects his relationship with his family",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Impaired concentration and memory; very limited short-term memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Significant loss of hearing in the right ear",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Difficulty tolerating noise",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "Tinnitus and vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Attempts to concentrate cause physical pain in the head; reading leads to headaches and dizziness; difficulty tolerating heat and cold",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Tuen Mun Hospital",
+      "treated conservatively",
+      "assessed by ENT surgeons",
+      "short course of cortico steroids",
+      "physiotherapy (visits to Physiotherapy Department at Yan Chai Hospital)"
+    ],
+    "treatments_future": [
+      "visits to family physician (estimated five times a year over two years)"
+    ],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Significant loss of hearing in the right ear",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Complete loss of sense of smell and taste (anosmia and ageusia)",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Impaired concentration and memory; very limited short-term memory",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Irritability which affects his relationship with his family",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Handicap in the labour market; difficulty obtaining employment and diminished earning capacity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "Difficulty tolerating noise",
+        "caused_by_injury_id": "inj_007"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kwok Wai v. Secretary for Justice",
+        "neutral_citation": null,
+        "action_number": "HCPI 134/1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18780,
+      "output_tokens": 12418,
+      "reasoning_tokens": 9472,
+      "total_tokens": 31198
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 62554.10857126117,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18780,
+      "output_tokens": 12418,
+      "reasoning_tokens": 9472,
+      "total_tokens": 31198
+    },
+    "total_duration_ms": 62554.10857126117
+  }
+}

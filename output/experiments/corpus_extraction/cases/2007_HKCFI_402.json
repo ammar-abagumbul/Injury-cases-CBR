@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKCFI 402",
+    "action_number": "HCPI 234/2002",
+    "case_name": "LIMBU NETRA KUMAR v. YAU LEE CONSTRUCTION CO LTD AND ANOTHER",
+    "judgment_date": "2007-04-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 23,
+    "age_at_trial": 31,
+    "occupation_before": "formwork carpenter",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the skull base with loss of consciousness",
+        "injury_type": "Temporary injury",
+        "body_part": "skull / head",
+        "laterality": null,
+        "source": [
+          "At UCH, he was diagnosed to have sustained a fracture of the skull base with loss of consciousness.",
+          "X-rays taken showed a linear skull fracture of the left temporal bone with no intracranial haematoma."
+        ],
+        "icd_code": "NA02.11",
+        "icd_description": "Fracture of middle fossa of base of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Compression fracture of the 9th thoracic vertebra with post-traumatic degeneration",
+        "injury_type": "Permanent injury",
+        "body_part": "9th thoracic vertebra (T9)",
+        "laterality": null,
+        "source": [
+          "He also suffered a compression fracture of the 9th thoracic vertebra with post-traumatic degeneration."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Spondylolisthesis of 4th lumbar spine with minimal displacement; bilateral pars defect at 4th and 5th lumbar joints",
+        "injury_type": "Residual disability",
+        "body_part": "4th and 5th lumbar spine (L4-5)",
+        "laterality": null,
+        "source": [
+          "Initial X-ray revealed spondylolisthesis of 4th lumbar spine with minimal displacement.",
+          "CT scan of his spine showed bilateral pars defect at 4th and 5th lumbar joints."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Left sided hearing loss and tinnitus",
+        "injury_type": "Permanent injury",
+        "body_part": "left ear / auditory system",
+        "laterality": "left",
+        "source": [
+          "Serial pure tone audiograms demonstrated a left sided hearing loss, however, the true hearing threshold of the left ear could not be determined reliably.",
+          "Dr Chu stated that he concluded from his examination of the plaintiff that the plaintiff suffered residual left ear deafness and tinnitus as a result of his head injury, in particular the skull fracture."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild cognitive impairment / post concussional syndrome",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Left sided hearing loss",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Thoracic (upper back) pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Left knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "medication",
+      "physiotherapy",
+      "pain clinic treatment"
+    ],
+    "treatments_future": [
+      "psychotherapy (offered)"
+    ],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities (PSLA assessed at $280,000)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21616,
+      "output_tokens": 6444,
+      "reasoning_tokens": 5248,
+      "total_tokens": 28060
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37334.24950391054,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21616,
+      "output_tokens": 6444,
+      "reasoning_tokens": 5248,
+      "total_tokens": 28060
+    },
+    "total_duration_ms": 37334.24950391054
+  }
+}

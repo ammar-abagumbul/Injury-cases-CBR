@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKCFI 1114",
+    "action_number": "HCPI 544/2013",
+    "case_name": "CHOW KOON TUNG v. SZE KWOK YIU LARRY",
+    "judgment_date": "2014-06-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "freelance computer programmer who owns a computer programming company",
+    "occupation_after": null,
+    "expected_occupation_after": "able to resume previous work (dispute as to full or reduced capacity)",
+    "salary_before": 39000.0,
+    "salary_after": 12000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Both the plaintiff’s and the defendant’s Orthopaedics experts agreed that the neck complaint (which might cause some degree of left arm numbness) was the cumulative effect of all 3 accidents.",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Both the plaintiff’s and the defendant’s Orthopaedics experts agreed that the neck complaint (which might cause some degree of left arm numbness) was the cumulative effect of all 3 accidents."
+        ],
+        "icd_code": "NA40",
+        "icd_description": "Injury of nerve root of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The Orthopaedics experts also agreed that he only had soft tissue injury to his back.",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "The Orthopaedics experts also agreed that he only had soft tissue injury to his back."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "As for the parties’ Psychiatric experts, both diagnosed adjustment disorder and agreed that the plaintiff was capable of returning to pre-accident employment with efficiency and tolerance affected “to a very mild degree”.",
+        "injury_type": "Temporary injury",
+        "body_part": "psychiatric/mental",
+        "laterality": null,
+        "source": [
+          "As for the parties’ Psychiatric experts, both diagnosed adjustment disorder and agreed that the plaintiff was capable of returning to pre-accident employment with efficiency and tolerance affected “to a very mild degree”."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left arm numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort on prolonged sitting and computer work",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "efficiency and tolerance affected \"to a very mild degree\"",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "sick leave of 4 to 6 months (Orthopaedic opinion)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "sick leave 3 to 6 months is reasonable / might have required sick leave for 6 months (Psychiatric opinion)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10299,
+      "output_tokens": 5160,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15459
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35914.36596214771,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10299,
+      "output_tokens": 5160,
+      "reasoning_tokens": 4032,
+      "total_tokens": 15459
+    },
+    "total_duration_ms": 35914.36596214771
+  }
+}

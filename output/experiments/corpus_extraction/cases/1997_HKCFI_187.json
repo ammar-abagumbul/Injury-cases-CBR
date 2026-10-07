@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 187",
+    "action_number": "HCPI 797/1996",
+    "case_name": "CHAK HUNG v. MO TAK YAU AND ANOTHER",
+    "judgment_date": "1997-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "self-employed carpenter (described as a master carpenter); general handyman",
+    "occupation_after": "casual odd job worker",
+    "expected_occupation_after": null,
+    "salary_before": 5000.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Blindness of right eye",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "the nail struck him in the right eye.",
+          "To all intents and purposes, the Plaintiff is now blind in that eye."
+        ],
+        "icd_code": "NA06.8Z",
+        "icd_description": "Traumatic injury to eyeball, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the Plaintiff's three-dimensional vision is now markedly impaired.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There has been a diminution in the field and depth of his vision",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "he is not able to see things as acutely as he did",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has to wear glasses",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He cannot concentrate for long periods without feeling dizzy or getting a headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has to use eye-drops occasionally",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "As a result, he has been unable to work again as a master carpenter",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "glasses",
+      "eye-drops"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Loss of vision in right eye resulting in marked impairment of three-dimensional vision, diminution in field and depth of vision and reduced acuity.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to work again as a master carpenter; now working as a casual odd job worker.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 160000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lam Yau Yuk v. Attorney-General",
+        "neutral_citation": null,
+        "action_number": "HCA 5655/86",
+        "injury_description": "Similar case except that the injured eye had been replaced with a prosthesis; placed the injury at the top of the 'serious injury' category.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ho Shui Ching v. Chu Dim",
+        "neutral_citation": null,
+        "action_number": "HCA 7286/92",
+        "injury_description": "A not dissimilar case placed towards the top of the serious injury category.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung On v. Chan Pui Ki",
+        "neutral_citation": "[1996] 2 HKC 565",
+        "action_number": null,
+        "injury_description": "Provided the current range for injuries in the serious injury category as $400,000.00 - $540,000.00.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14793,
+      "output_tokens": 4421,
+      "reasoning_tokens": 3072,
+      "total_tokens": 19214
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 22316.79232046008,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14793,
+      "output_tokens": 4421,
+      "reasoning_tokens": 3072,
+      "total_tokens": 19214
+    },
+    "total_duration_ms": 22316.79232046008
+  }
+}

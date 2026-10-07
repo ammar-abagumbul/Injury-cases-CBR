@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "neutral_citation": "[2005] HKCFI 783",
+    "action_number": "HCPI 768/2003",
+    "case_name": "PHOON KA WAI v. WONG KA CHUNG AND ANOTHER",
+    "judgment_date": "2005-09-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": 38,
+    "occupation_before": "chief cook in a Chinese restaurant",
+    "occupation_after": "casual worker at Sunrise Kitchen (reduced duties, about two hours a day)",
+    "expected_occupation_after": "cashier or car park attendant",
+    "salary_before": 15000.0,
+    "salary_after": 3000.0,
+    "expected_salary_after": null,
+    "education_level": "limited education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "minor traumatic head injury",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "minor traumatic head injury"
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right first rib",
+        "injury_type": "Permanent injury",
+        "body_part": "right first rib",
+        "laterality": "right",
+        "source": [
+          "fracture of the right first rib"
+        ],
+        "icd_code": "NA82.3Y",
+        "icd_description": "Other specified fracture of rib"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the right clavicle",
+        "injury_type": "Permanent injury",
+        "body_part": "right clavicle",
+        "laterality": "right",
+        "source": [
+          "right clavicle"
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "fracture of right distal radius and ulna",
+        "injury_type": "Permanent injury",
+        "body_part": "right distal radius and ulna",
+        "laterality": "right",
+        "source": [
+          "right distal radius",
+          "open reduction of fracture of radius and ulna with internal fixation"
+        ],
+        "icd_code": "NC32.6",
+        "icd_description": "Fracture of lower end of both ulna and radius"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "fracture of patella (right knee) with residual knee injury",
+        "injury_type": "Permanent injury",
+        "body_part": "right patella / right knee",
+        "laterality": "right",
+        "source": [
+          "patella",
+          "C-sharp scar over patella 18 cm. Slightly swollen and increased in warmth of knee joint with tenderness around patella. Marked creptitation of patello-femoral joint on movement."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "right thigh deep laceration",
+        "injury_type": "Permanent injury",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "right thigh deep laceration",
+          "Laceration scar at medial thigh 18 cm, with local tenderness at middle. Depressed scar, with adhesion to deep muscles of right thigh"
+        ],
+        "icd_code": "NC71.0",
+        "icd_description": "Laceration without foreign body of hip or thigh"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "lip laceration",
+        "injury_type": "Permanent injury",
+        "body_part": "lip",
+        "laterality": null,
+        "source": [
+          "lip laceration"
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "postconcussional disorder and depression (acquired impairment in cognitive functioning and mood disorder)",
+        "injury_type": "Permanent injury",
+        "body_part": "brain / psychological",
+        "laterality": null,
+        "source": [
+          "He is suffering from postconcussional disorder.",
+          "He is depressed because of the physical and mental complaints."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "difficulty in attention, mildly to moderately impaired memory, mild intellectual impairment, difficulty expressing ideas, difficulty organising thought, slurred speech, slow response, becoming fatigued easily, headache, dizziness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "depressed mood; moderately to severely depressed reaching a clinical level; low self-esteem, lack of interest in activities and sex, sleep problems",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "reduced ability to squat (can only squat to one-quarter)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "walking in a slight limping gait; walks with a stick when on unfamiliar terrain; uses walking-stick for support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "cannot stand for more than two hours at a time; needs rest every 15 to 20 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "muscle wasting on right arm and mild muscle wasting on right side of lower limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "persistent right shoulder pain and stiffness with clicking sensation on movement",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "right wrist pain and tenderness at radial styloid; surgical scar 9 cm on volar site",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "depressed scar at medial thigh with adhesion to deep muscles of right thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "reduced enjoyment of pre-accident hobbies (no longer able to mountain bike, play sports, motorcycle, pursue outdoor activities with his son)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "difficulty concentrating; impaired concentration adversely affecting work and activities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "description": "difficulty using public transport, particularly getting on and off omnibuses",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "reduced job performance and inability to work as a full-time Chinese cook (cannot stand long periods or work heavy woks and ladles)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "surgical toilet and suturing (9 June 2001)",
+      "open reduction and internal fixation of the patella (10 June 2001)",
+      "excisional debridement of wound, infection and burn (10 June 2001)",
+      "open reduction of wound and open reduction of fracture of radius and ulna with internal fixation (12 June 2001)",
+      "arthroscopy of right knee (9 November 2001 and 15 September 2003)",
+      "physiotherapy (intermittent until 2003)",
+      "occupational therapy (until 2003)",
+      "out-patient treatment at Orthopaedic Clinic of United Christian Hospital",
+      "treatment at Psychology Clinic at Kowloon Hospital (since 26 June 2001)",
+      "out-patient visits to Neurosurgical Department of the Queen Elizabeth Hospital (until around August 2002)",
+      "psychiatric and psychological treatment (clinical psychologist, psychotherapy)"
+    ],
+    "treatments_future": [
+      "further treatment for knee (removal of loose bone fragments) suggested",
+      "possible future operations on knee including total patellectomy or total knee replacement"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": 3,
+    "sick_leave_days_actual": 365,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Can no longer enjoy the pre-accident hobby of mountain biking; no longer plays sports or pursues outdoor activities with his young son; no longer motorcycles.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Accident has left him depressed and irritable, and affected his relationship with his wife. Family life has become less harmonious.",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Decrease in sexual activity and lack of interest in sex.",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Restricted mobility requiring the use of a walking stick at times; limping gait; inability to squat fully; difficulty standing for prolonged periods.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Capacity to function as a full-time Chinese cook has been seriously compromised; cannot stand long periods or work heavy woks and ladles.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Deficits in several cognitive domains consistent with a mild decline in overall cognitive functioning, including impaired memory and concentration.",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Difficulty using public transport, particularly getting on and off omnibuses.",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting Lam v Leung Kam Ming",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22189,
+      "output_tokens": 12452,
+      "reasoning_tokens": 9344,
+      "total_tokens": 34641
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50967.56142005324,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22189,
+      "output_tokens": 12452,
+      "reasoning_tokens": 9344,
+      "total_tokens": 34641
+    },
+    "total_duration_ms": 50967.56142005324
+  }
+}

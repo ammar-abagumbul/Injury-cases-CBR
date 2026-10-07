@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKCFI 1336",
+    "action_number": "HCPI 420/2014",
+    "case_name": "CHU FUNG PING v. WONG WAI LEUNG",
+    "judgment_date": "2017-07-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 50,
+    "age_at_trial": 55,
+    "occupation_before": "bus driver",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 15400.0,
+    "salary_after": null,
+    "expected_salary_after": 8500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head injury (contusion with scalp swelling to the left temporal region)",
+        "injury_type": "Temporary injury",
+        "body_part": "left temporal region",
+        "laterality": "left",
+        "source": [
+          "mild head injury (contusion with scalp swelling to the left temporal region)"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue neck sprain injury; chronic neck pain (aggravated by the subject accident)",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "soft tissue neck sprain injury",
+          "neck sprain and chronic neck pain"
+        ],
+        "icd_code": "NA23.4Y",
+        "icd_description": "Other specified strain or sprain of cervical spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to the low back (likely mild and resolved spontaneously)",
+        "injury_type": "Temporary injury",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "may have sustained soft tissue injury to the low back and right hip but this was likely to be mild and resolved spontaneously."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "soft tissue injury to the right hip (likely mild and resolved spontaneously)",
+        "injury_type": "Temporary injury",
+        "body_part": "right hip",
+        "laterality": "right",
+        "source": [
+          "may have sustained soft tissue injury to the low back and right hip but this was likely to be mild and resolved spontaneously."
+        ],
+        "icd_code": "NC70.1",
+        "icd_description": "Contusion of hip"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "pre-existing degenerative C5-6 disc / pre-existing degeneration of the cervical spine",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical spine",
+        "laterality": null,
+        "source": [
+          "pre-existing degeneration",
+          "symptomatic pre-existing degenerative C5-6 disc."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the neck"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "adjustment disorder with anxiety and depressed mood (psychiatric disorder)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "psychiatric disorder, namely, adjustment disorder with anxiety and depressed mood.",
+          "Dr Law diagnosed adjustment disorder with mixed anxiety and depressed mood, which symptoms are reactive in origin to the physical pain and are consistent with the injury sustained in the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "chronic neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "restricted / moderately restricted neck movement (stiffness)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "upper limb numbness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "scalp swelling / contusion to left temporal region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild low back pain from soft tissue injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild right hip pain from soft tissue injury",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "mild anxiety and depressed mood (adjustment disorder)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy",
+      "analgesics / continuous medication as needed"
+    ],
+    "treatments_future": [
+      "analgesics as needed"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenity due to soft tissue neck sprain, chronic neck pain and mild contusion (PSLA awarded $180,000)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Inability to return to work as a bus driver (loss of congenial employment; award for loss of earning capacity / risk of unemployment $50,000)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Luk Shu Keung v Kwok Chi Shing",
+        "neutral_citation": null,
+        "action_number": "HCPI 848/2005",
+        "injury_description": "mild orthopaedic injuries and mild adjustment disorder",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18849,
+      "output_tokens": 8190,
+      "reasoning_tokens": 6720,
+      "total_tokens": 27039
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46159.24954414368,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18849,
+      "output_tokens": 8190,
+      "reasoning_tokens": 6720,
+      "total_tokens": 27039
+    },
+    "total_duration_ms": 46159.24954414368
+  }
+}

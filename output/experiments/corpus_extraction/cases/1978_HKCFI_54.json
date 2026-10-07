@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 54",
+    "action_number": "HCA 2887/1977",
+    "case_name": "CHAN YI-KEUNG v. CHU JAU-CHOY AND ANOTHER",
+    "judgment_date": "1978-06-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 46,
+    "occupation_before": "lorry driver",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 1300.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractures of 8th, 9th and 10th ribs",
+        "injury_type": "Temporary injury",
+        "body_part": "ribs / thorax",
+        "laterality": null,
+        "source": [
+          "He had fractures of 8th, 9th and 10th ribs and of the 11th thoracix vetebra and suffered from a crushed spinal cord resulting in total paralysis and loss of feeling from the waist down."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of the 11th thoracix vetebra",
+        "injury_type": "Temporary injury",
+        "body_part": "11th thoracix vetebra",
+        "laterality": null,
+        "source": [
+          "He had fractures of 8th, 9th and 10th ribs and of the 11th thoracix vetebra and suffered from a crushed spinal cord resulting in total paralysis and loss of feeling from the waist down."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Crushed spinal cord resulting in total paralysis and loss of feeling from the waist down",
+        "injury_type": "Permanent injury",
+        "body_part": "spinal cord / lower spine",
+        "laterality": null,
+        "source": [
+          "He had fractures of 8th, 9th and 10th ribs and of the 11th thoracix vetebra and suffered from a crushed spinal cord resulting in total paralysis and loss of feeling from the waist down."
+        ],
+        "icd_code": "NB62.0",
+        "icd_description": "Complete lesion of lumbar spinal cord"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "total paralysis and loss of feeling from the waist down",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "permanently confined to bed or a wheel chair",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot dress, bathe or clean himself",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "will always have to wear a urine bag and has no control over bladder or bowel function",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "will need constant attention",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "will probably suffer urinary infections and chest infections",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "permanently unfit for any work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      "He was in hospital for 10 months",
+      "help currently provided by his wife",
+      "will always have to wear a urine bag",
+      "medical appliances necessitated by his condition have been agreed at $200 per month"
+    ],
+    "treatments_future": [
+      "professional help of the kind required would probably be unobtainable and if obtainable be most expensive",
+      "will need constant attention"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "total paralysis and loss of feeling from the waist down",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "cannot dress, bathe or clean himself; will need constant attention",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "cannot dress, bathe or clean himself",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "is permanently unfit for any work; hitherto he has been a lorry driver",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "has lost his normal expectation of life of say 22 years (he is now 46) and has an expectation of about 15 years",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 125000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12366,
+      "output_tokens": 7285,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19651
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41180.56548014283,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12366,
+      "output_tokens": 7285,
+      "reasoning_tokens": 5696,
+      "total_tokens": 19651
+    },
+    "total_duration_ms": 41180.56548014283
+  }
+}

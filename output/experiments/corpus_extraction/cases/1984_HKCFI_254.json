@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "neutral_citation": "[1984] HKCFI 254",
+    "action_number": "HCA000864/1982",
+    "case_name": "CHOY PUI CHOR v. OR MAN CHEUNG T/A KENT MANUFACTURERS",
+    "judgment_date": "1984-01-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "Operator of a plastic injection moulding machine",
+    "occupation_after": "Hawker",
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "loss of the right hand",
+        "injury_type": "Permanent injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "Damages for loss of the right hand and the consequential pain, suffering and loss of amenity are agreed at $105,000.",
+          "the plaintiff's mutilated arm demonstrates the cost in other terms."
+        ],
+        "icd_code": "NC59",
+        "icd_description": "Traumatic amputation of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of amenity (consequential loss of enjoyment of life)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Follow-up treatment at Queen Elizabeth Hospital",
+      "Out-patient treatment at Tang Shiu Kin Clinic",
+      "2 visits to Queen Elizabeth Hospital",
+      "Tonic food",
+      "Travelling expenses (for treatment visits)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of the right hand and consequential pain, suffering and loss of amenity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 105000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9174,
+      "output_tokens": 3297,
+      "reasoning_tokens": 2560,
+      "total_tokens": 12471
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24039.781637489796,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9174,
+      "output_tokens": 3297,
+      "reasoning_tokens": 2560,
+      "total_tokens": 12471
+    },
+    "total_duration_ms": 24039.781637489796
+  }
+}

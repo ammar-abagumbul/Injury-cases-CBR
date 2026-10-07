@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2000] HKCFI 448",
+    "action_number": "HCPI 92/1998",
+    "case_name": "CHAN YIU PING v. MOK YUK KWONG AND OTHERS",
+    "judgment_date": "2000-07-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 36,
+    "age_at_trial": 41,
+    "occupation_before": "Deputy Chief Chef",
+    "occupation_after": "Assistant Cook in a coffee shop",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Spiral fracture of the distal tibia and fibula (right), just above the right ankle.",
+        "injury_type": "Permanent injury",
+        "body_part": "right distal tibia and fibula",
+        "laterality": "right",
+        "source": [
+          "He was later diagnosed to suffer from a fracture of the distal right tibia and fibula, just above the right ankle.",
+          "spiral fracture of the distal tibia and fibula"
+        ],
+        "icd_code": "ND1A",
+        "icd_description": "Multiple injuries of ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent pain on his right leg, particularly after prolonged walking or standing.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right ankle always stiff.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right ankle often swollen.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right leg weakness.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Difficulty squatting, kneeling or lifting heavy objects.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Feeling dizzy and getting tired easily.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Chronic pain syndrome with associated mild symptoms of anxiety and depression (psychological impairment / adjustment disorder with depressed mood).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Suicidal ideation (noted in evidence of Dr Law).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sexual impairment (assessed by Dr Law at 14%).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Open reduction and nail fixation and plating (operation on 7 February 1995)",
+      "Removal of metal implants (operation on 22 July 1996)",
+      "Physiotherapy twice a week for three months",
+      "Regular outpatient follow-up"
+    ],
+    "treatments_future": [
+      "Psychotherapy (15 sessions) as advised by Professor Peter Lee"
+    ],
+    "hospitalisation_days": 11,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 16,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities including stiffness of the right ankle, residual pain and psychological impairment (adjustment disorder) arising from the fracture of the right distal tibia and fibula.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kui v. Lee Fai trading as Fai Kee Timber, HCPI 126/1995",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Kwan Tong v. Liu Yee Lim, HCPI 1383/1996",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheung Ping v. Pak Kee Transportation Co.Ltd., HCPI 963/1997",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14026,
+      "output_tokens": 4878,
+      "reasoning_tokens": 3520,
+      "total_tokens": 18904
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40549.68185722828,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14026,
+      "output_tokens": 4878,
+      "reasoning_tokens": 3520,
+      "total_tokens": 18904
+    },
+    "total_duration_ms": 40549.68185722828
+  }
+}

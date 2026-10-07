@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[1998] HKCFI 458",
+    "action_number": "HCPI 374/1997",
+    "case_name": "WONG CHUN CHIN v. SUN SHING CONSTRUCTION CO (A FIRM) AND ANOTHER [1998]",
+    "judgment_date": "1998-09-23",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 49,
+    "occupation_before": "construction site worker / casual worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13200.0,
+    "salary_after": null,
+    "expected_salary_after": 15950.0,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Prolapsed disc at L4/5 and L5/S1",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "MRI scan at United Christian Hospital on 19 May 1995 revealed prolapsed disc L4/5 and L5/S1."
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Post-operative scarring and residual disc causing nerve root compression/irritation (extra dural compression at L4/5)",
+        "injury_type": "Permanent injury",
+        "body_part": "nerve root at L4/5 / lower back",
+        "laterality": null,
+        "source": [
+          "the subsequent operation he described as unsuccessful as it produced excessive scarring, resulting in irritation to the nerve root.",
+          "Dr. Cheng said that on 2 February 1996 scans revealed extra dural compression at L4/5 level and a possibility of residual disc inside the affected area.",
+          "the MRI scans revealed that the scarring was exerting pressure on the nerve."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain / back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "severe right leg pain radiating from buttock to heel",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "weakness due to nerve damage; muscle weakness and wasting of muscle bulk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "numbness in the right lower limb, especially the big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild numbness over the left big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "inability to bend properly; cannot carry more than about 20 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesics",
+      "examination and x-rays at United Christian Hospital",
+      "referral to Kwun Tong Jockey Club Clinic",
+      "orthopaedic out-patient clinic attendance",
+      "physiotherapy",
+      "MRI scan",
+      "Fenestration and Posterior Discectomy L4/5 and L5/S1",
+      "sick leave certificates and sick pay"
+    ],
+    "treatments_future": [
+      "recommended major corrective operation (declined by plaintiff)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent residual disability of the lower back with nerve root compression causing persistent pain, numbness, weakness, muscle wasting and limitation in bending and lifting.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 434600.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui-ki v. Leung On and Another",
+        "neutral_citation": "[1996] 2 HKLR 395",
+        "action_number": null,
+        "injury_description": "serious injury; range of compensation for serious injury $400,000 - $540,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lai Wah Wai v. Castco Testing Centre Ltd.",
+        "neutral_citation": null,
+        "action_number": "PI 422 of 1995",
+        "injury_description": "prolapsed disc and nerve root compression from a construction site injury; fenestration and discectomy with residual fibrosis but no nerve compression at that stage; residual disability including inability to lift heavy weights and backache on sitting, standing and walking for longer than 30 minutes",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13382,
+      "output_tokens": 6744,
+      "reasoning_tokens": 5248,
+      "total_tokens": 20126
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36336.72120794654,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13382,
+      "output_tokens": 6744,
+      "reasoning_tokens": 5248,
+      "total_tokens": 20126
+    },
+    "total_duration_ms": 36336.72120794654
+  }
+}

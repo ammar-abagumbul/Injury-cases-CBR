@@ -9,11 +9,11 @@
   },
   "plaintiff": {
     "gender": "Male",
-    "age_at_accident": 47,
+    "age_at_accident": null,
     "age_at_trial": 51,
-    "occupation_before": "Temporary worker in the defendant’s factory operating a vertical baling press machine; general labourer",
+    "occupation_before": "temporary worker (operating a vertical baling press) in the defendant's factory",
     "occupation_after": null,
-    "expected_occupation_after": "security guard, messenger, delivery worker of light goods, cleaner, chauffeur (could learn to drive)",
+    "expected_occupation_after": "security guard, a messenger, a delivery worker of light goods, a cleaner, chauffeur (could learn to drive)",
     "salary_before": 6356.0,
     "salary_after": 4500.0,
     "expected_salary_after": null,
@@ -23,14 +23,72 @@
     "injuries": [
       {
         "injury_id": "inj_001",
-        "description": "20 cm laceration in the forearm extending to the palm and 10 cm C-shaped laceration in the hand; large ragged wound on the palm and the back of the lateral half of the right hand; tendons and bones exposed; median and outer nerves crushed; flexor digitorum superficialis of the second, fourth and fifth digits ruptured and crushed; flexor pollicis longus completely ruptured; injuries to the tendons were beyond repair.",
-        "injury_type": "Permanent injury",
+        "description": "He had a large, ragged wound on the palm and the back of the lateral half of the right hand. The tendons and bones were exposed. The wound was bleeding actively.",
+        "injury_type": "Residual disability",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "He had a large, ragged wound on the palm and the back of the lateral half of the right hand. The tendons and bones were exposed. The wound was bleeding actively."
+        ],
+        "icd_code": "NC52.10",
+        "icd_description": "Laceration without foreign body of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "He had a 20 cm laceration in the forearm extending to the palm and another 10 cm C-shaped laceration in the hand.",
+        "injury_type": "Residual disability",
         "body_part": "right forearm and right hand",
         "laterality": "right",
         "source": [
-          "The plaintiff was sent to Pok Oi Hospital after the accident. He had a large, ragged wound on the palm and the back of the lateral half of the right hand. The tendons and bones were exposed. The wound was bleeding actively. He was given pressure dressing and sent to the Tuen Mun Hospital.",
-          "On his admission to the Orthopaedic and Traumatology Department of the Tuen Mun Hospital, exploratory and debridement were performed. He had a 20 cm laceration in the forearm extending to the palm and another 10 cm C-shaped laceration in the hand. The median and outer nerves were crushed. The flexor digitorum superficialis of the second, fourth and fifth digits were ruptured and crushed. His flexor pollicis longus was completely ruptured. There was, however, no definite fracture.",
-          "The injuries to the tendons were beyond repair."
+          "He had a 20 cm laceration in the forearm extending to the palm and another 10 cm C-shaped laceration in the hand."
+        ],
+        "icd_code": "NC52.2",
+        "icd_description": "Multiple open wounds of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "The median and outer nerves were crushed.",
+        "injury_type": "Residual disability",
+        "body_part": "right hand (nerves)",
+        "laterality": "right",
+        "source": [
+          "The median and outer nerves were crushed."
+        ],
+        "icd_code": "NC34.4",
+        "icd_description": "Injury of multiple nerves at forearm level"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "The flexor digitorum superficialis of the second, fourth and fifth digits were ruptured and crushed.",
+        "injury_type": "Residual disability",
+        "body_part": "right fingers (2nd, 4th and 5th digits)",
+        "laterality": "right",
+        "source": [
+          "The flexor digitorum superficialis of the second, fourth and fifth digits were ruptured and crushed."
+        ],
+        "icd_code": "NC57.6",
+        "icd_description": "Injury of multiple flexor muscles or tendons at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "His flexor pollicis longus was completely ruptured.",
+        "injury_type": "Residual disability",
+        "body_part": "right thumb (flexor pollicis longus)",
+        "laterality": "right",
+        "source": [
+          "His flexor pollicis longus was completely ruptured."
+        ],
+        "icd_code": "NC57.0Y",
+        "icd_description": "Other specified injury of long flexor muscle, fascia or tendon of thumb at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Wound infection requiring antibiotic treatment.",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand/forearm (wound)",
+        "laterality": "right",
+        "source": [
+          "He was admitted to the hospital for the third time on 16 December 2005 for seven days for antibiotic treatment to the wound infection."
         ],
         "icd_code": null,
         "icd_description": null
@@ -38,58 +96,59 @@
     ],
     "manifestations": [
       {
-        "description": "He now has five scars on the right hand. One is in the palm; another one is along the side of the right forearm; the third one is at the side of the right little finger; the next one is for the skin graft on the side of the upper forearm just below the elbow; and the last one is the skin graft to the back of the inner side of the lower right arm.",
+        "description": "He now has five scars on the right hand.",
         "manifestation_type": "sign",
         "caused_by_injury_id": "inj_001"
       },
       {
         "description": "The plaintiff still complains of residual symptoms of the fingers and thumb and wrist of the right hand and weakness in the right hand.",
         "manifestation_type": "symptom",
-        "caused_by_injury_id": "inj_001"
+        "caused_by_injury_id": "inj_003"
       },
       {
         "description": "There was some decrease in flexion range of the fingers of the right hand and mild decrease of end-range movement of the right wrist.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "After the tendon transfer, there is weakness in flexion of the right thumb and decrease in the end-range of extension of the right thumb.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "He cannot perform a full empty grip of the right hand when not holding objects; he can make a reasonable grip if an object is placed in the palm.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Main residual problem is weakness in handling heavy objects and performing strenuous pushing and pulling movements, especially in prolonged and repetitive manner.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "There was, however, no definite fracture.",
         "manifestation_type": "sign",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "description": "After the tendon transfer, there is weakness in flexion of the right thumb.",
-        "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "description": "There is also decrease in the end-range of extension of the right thumb.",
-        "manifestation_type": "sign",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "description": "He cannot perform a full empty grip of the right hand when not holding objects. This is due to limitation in the end-range flexion of the fingers. He can make a reasonable grip if an object is placed in the palm.",
-        "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_001"
-      },
-      {
-        "description": "The main residual problem would be weakness in handling heavy objects and performing strenuous pushing and pulling movements, especially in prolonged and repetitive manner.",
-        "manifestation_type": "functional_deficit",
-        "caused_by_injury_id": "inj_001"
+        "caused_by_injury_id": null
       }
     ],
     "overall_category": null
   },
   "treatment": {
     "treatments_received": [
+      "pressure dressing",
       "exploratory and debridement",
-      "transfer of the flexor pollicis longus to another tendon",
-      "skin graft (20 October 2005)",
-      "flap coverage of the palm skin (2 November 2005)",
-      "skin graft (30 November 2005)",
-      "antibiotic treatment (admitted 16 December 2005 for seven days)",
-      "physiotherapy (six to seven months)",
-      "occupational therapy (seven to eight months)"
+      "transfer of the flexor pollicis longus to another tendon (tendon transfer)",
+      "skin graft on 20 October 2005",
+      "flap coverage of the palm skin on 2 November 2005",
+      "skin graft on 30 November 2005",
+      "antibiotic treatment for wound infection",
+      "physiotherapy (6 to 7 months)",
+      "occupational therapy (7 to 8 months)"
     ],
     "treatments_future": [],
     "hospitalisation_days": 51,
     "expected_hospitalisation_days": null,
-    "operations_count": null,
+    "operations_count": 5,
     "future_operations_count": null,
     "sick_leave_days_actual": null,
     "sick_leave_days_expected": null
@@ -98,18 +157,18 @@
     "losses": [
       {
         "category": "Loss from scarring or disfigurement",
-        "description": "He now has five scars on the right hand. One is in the palm; another one is along the side of the right forearm; the third one is at the side of the right little finger; the next one is for the skin graft on the side of the upper forearm just below the elbow; and the last one is the skin graft to the back of the inner side of the lower right arm.",
+        "description": "He now has five scars on the right hand.",
         "caused_by_injury_id": "inj_001"
       },
       {
         "category": "Loss of bodily integrity",
-        "description": "Residual symptoms of the fingers and thumb and wrist of the right hand, weakness in the right hand, decrease in flexion range of the fingers, mild decrease of end-range movement of the right wrist, weakness in flexion of the right thumb, decrease in end-range of extension of the right thumb, inability to perform a full empty grip when not holding objects, and weakness handling heavy objects and performing strenuous pushing and pulling.",
-        "caused_by_injury_id": "inj_001"
+        "description": "Reduced function of the right hand: decreased flexion/extension, weakness in grip and in flexion of the right thumb; inability to perform a full empty grip and weakness in handling heavy objects and prolonged/repetitive pushing and pulling.",
+        "caused_by_injury_id": "inj_004"
       },
       {
         "category": "Loss of congenial employment",
-        "description": "In light of his residual disability, there is always the risk that he may lose out in the employment market. I agree with counsel that I should allow $100,000 under this heading.",
-        "caused_by_injury_id": "inj_001"
+        "description": "He could not go back to his pre-accident job which required repetitive lifting of heavy objects.",
+        "caused_by_injury_id": "inj_003"
       }
     ]
   },
@@ -159,6 +218,61 @@
         "sick_leave_days": null,
         "comparison": null,
         "psla_amount": null
+      },
+      {
+        "case_name": "Leung Hon Sum v Yau Lee Construction",
+        "neutral_citation": "[2001] HKLRD K12",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Sze Ping Chui v Lau Ching Wai",
+        "neutral_citation": "[2002] HKLRD K14",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Cheng Chi Ming v Li Chau Wan",
+        "neutral_citation": "[2005] HKLRD H6",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yuen Pak Cheong v Chan Ka Leung",
+        "neutral_citation": "[2004] HKLJ 408",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Po Kin v Hopewell Construction",
+        "neutral_citation": "[2003] HKLRD B12",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
       }
     ]
   },
@@ -167,20 +281,20 @@
     "model_name": "gpt",
     "num_extraction_runs": 1,
     "extraction_token_count": {
-      "input_tokens": 7966,
-      "output_tokens": 6315,
-      "reasoning_tokens": 4288,
-      "total_tokens": 14281
+      "input_tokens": 15003,
+      "output_tokens": 9163,
+      "reasoning_tokens": 6208,
+      "total_tokens": 24166
     },
     "reconciliation_token_count": null,
-    "extraction_duration_ms": 54750.0716522336,
+    "extraction_duration_ms": 62557.305473834276,
     "reconciliation_duration_ms": null,
     "total_token_count": {
-      "input_tokens": 7966,
-      "output_tokens": 6315,
-      "reasoning_tokens": 4288,
-      "total_tokens": 14281
+      "input_tokens": 15003,
+      "output_tokens": 9163,
+      "reasoning_tokens": 6208,
+      "total_tokens": 24166
     },
-    "total_duration_ms": 54750.0716522336
+    "total_duration_ms": 62557.305473834276
   }
 }

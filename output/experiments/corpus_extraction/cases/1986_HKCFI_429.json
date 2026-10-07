@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 429",
+    "action_number": "HCA6818/1981; HCA7922/1982",
+    "case_name": "MADAM CHIM KWAN TAI AND ANOTHER v. LI FUNG ELECTRONIC FACTOR AND OTHERS",
+    "judgment_date": "1986-04-15",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "odd job man or casual worker employed by Eastern Time (one of his jobs was to dispose of waste water)",
+    "occupation_after": "lift operator (found work on 16th June 1983)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 1790.0,
+    "expected_salary_after": 2200.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Very serious burns affecting multiple body areas (arms, hands, forearms, neck, right ear, parts of the face, both thighs and back donor sites) with permanent scarring, keloidal change and permanent loss of function in the hands.",
+        "injury_type": "Permanent injury",
+        "body_part": "arms, hands, forearms, neck, right ear, face, thighs, back",
+        "laterality": null,
+        "source": [
+          "He was very seriously burned. The hospital estimate was that approximately 8% of the skin surface was affected. Dr. Wedderburn's estimate some two years later, was the more modest one of 40% with 10% of this second and third degree burns.",
+          "The limbs most affected were the.arms and. hands.",
+          "Notwithstanding prolonged and painful physiotherapy, a material loss.of function remains.",
+          "produced in his estimation a total whole-man impairment referable to the right hand of 16% and to the left of 20%.",
+          "As against a pre-accident estimate of 70 pounds, the doctor estimated the right hand grip at 20 pounds.",
+          "By contrast there is very little grip in the left hand which was estimated at only 5 pounds.",
+          "In addition the burns have caused permanent and very obvious discolouration and scar ring some keloidal. This is most obvious on both hands and forearms, the neck, the right ear and parts of the face. There is also conspicuous scarring to both thighs which also suffered from being donor sites. The back was also affected."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Severe burns to the deceased which resulted in death on 15th October 1979.",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The deceased 'was so severely burned that he died on 15th October 1979."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Severe and prolonged pain (between 3rd and 15th October)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Coma for much of the time before death",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Grievous pain over a prolonged period; scars remain a source of pain, stiffness and irritation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Permanent and very obvious discolouration and scarring, some keloidal, most obvious on both hands and forearms, the neck, the right ear and parts of the face; scarring to both thighs and back donor sites",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Material loss of function in both hands; total functional impairment not less than 35%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced grip strength: right hand grip estimated at 20 pounds (pre-accident 70 pounds); left hand grip estimated at 5 pounds",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "in-patient hospital care",
+      "skin grafting (further grafting to the left hand)",
+      "prolonged and painful physiotherapy",
+      "use of pressure garments into 1982"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 75,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Permanent and very obvious discolouration and scarring, some keloidal, most obvious on both hands and forearms, the neck, the right ear and parts of the face; conspicuous scarring to both thighs and back donor sites.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Material loss of function in both hands; total functional impairment not less than 35%; reduced grip strength (right hand approx 20 pounds, left hand approx 5 pounds) limiting ability to do heavy or fine work.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Loss of expectation of life (assessed conventionally at $20,000).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Economic loss to family (lost years net $96,502.50 as assessed for dependency on deceased).",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 135000.0,
+    "comparable_cases": []
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": 12
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16788,
+      "output_tokens": 6135,
+      "reasoning_tokens": 4800,
+      "total_tokens": 22923
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46423.56699332595,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16788,
+      "output_tokens": 6135,
+      "reasoning_tokens": 4800,
+      "total_tokens": 22923
+    },
+    "total_duration_ms": 46423.56699332595
+  }
+}

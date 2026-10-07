@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 1254",
+    "action_number": "HCPI 420/2013",
+    "case_name": "LEUNG HON KIT v. WONG PO HING AND ANOTHER",
+    "judgment_date": "2015-07-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 43,
+    "occupation_before": "Cook (Japanese restaurants)",
+    "occupation_after": "Security guard (short-term)",
+    "expected_occupation_after": "Cook",
+    "salary_before": 11040.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 4"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Intra-articular fracture of the right distal radius",
+        "injury_type": "Permanent injury",
+        "body_part": "right distal radius",
+        "laterality": "right",
+        "source": [
+          "X-ray showed fracture of right distal radius",
+          "intra-articular fracture of the right distal radius ... that there had been moderate displacement of the radial fracture.",
+          "the fracture distal radius had united with significant displacement/malunion"
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of right ulnar styloid at the base with subsequent non-union",
+        "injury_type": "Permanent injury",
+        "body_part": "right ulnar styloid",
+        "laterality": "right",
+        "source": [
+          "fractures at right distal radius and ulnar styloid shown by X-ray",
+          "fracture right ulnar styloid at the base",
+          "the fracture ulnar styloid had resulted in non-union"
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in right wrist (ulnar side, volar and dorsal aspects), increasing after exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual stiffness and diminished range of motion of right wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Weakness of right hand and decreased endurance (needs rest after half an hour or an hour)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness of right hand and feeling of right hand and wrist being covered/bound",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced right hand grip strength (right 19 kgf, left 42 kgf)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Insomnia, nightmares and depressive mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Diagnosis of Adjustment Disorder with Depressed Mood",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Closed reduction and short arm slab",
+      "Cast immobilisation",
+      "25 physiotherapy outpatient sessions (transcutaneous electrical nerve stimulation, ice, magnetopulse therapy, active mobilization exercises)",
+      "7 occupational therapy sessions",
+      "Analgesics",
+      "Ulnar gutter splint and based finger splint",
+      "Pulsed radiofrequency lesioning of right median and ulnar nerve (29 October 2013)",
+      "Regular psychiatric medications and psychiatric outpatient treatment"
+    ],
+    "treatments_future": [
+      "Osteotomy surgery to correct malunion (recommended but plaintiff refused)"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 727,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulties in hair washing, key turning and door pushing",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduction in work capacity with decrease in strength, dexterity and endurance affecting ability to work as a cook (need to rest after half an hour or an hour; unable to perform full duties as a casual construction site worker)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Adjustment Disorder with Depressed Mood causing mild impairment (depressive mood, nightmare, palpitation, poor sleep)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 280000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsui Kwan Fai v Goldfield N & W Construction Company Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 97/2006",
+        "injury_description": "Multiple injuries to his face, right upper limb and right shoulder, with X-ray showing a fracture of the head of the right radius; soft tissue injuries in right wrist and right shoulder; ceased playing basketball and rock climbing.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Cheng Yuk Chun v Winson Cleaning Service Company & Ors",
+        "neutral_citation": null,
+        "action_number": "DCPI 629/2006",
+        "injury_description": "Bruises to forehead, 1-cm nasal bridge laceration, fracture of the right distal radius treated with closed reduction and plaster immobilization; developed Reflex Sympathetic Dystrophy (RSD), MRI showed TFC tear, mild carpal tunnel syndrome; later wrist arthroscopy and debridement.",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15854,
+      "output_tokens": 4843,
+      "reasoning_tokens": 3520,
+      "total_tokens": 20697
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33828.63828912377,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15854,
+      "output_tokens": 4843,
+      "reasoning_tokens": 3520,
+      "total_tokens": 20697
+    },
+    "total_duration_ms": 33828.63828912377
+  }
+}

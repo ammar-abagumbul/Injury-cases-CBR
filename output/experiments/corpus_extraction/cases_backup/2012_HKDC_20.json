@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 20",
+    "action_number": "DCPI 145/2010",
+    "case_name": "WONG KA WAI JOHNNY v. LEE MAN WAI",
+    "judgment_date": "2012-01-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 29,
+    "occupation_before": "security officer of Royal Elite working at the lobby of the Development",
+    "occupation_after": "unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 8400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "F.5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Tenderness and bruising on right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "He was found to have tenderness and bruising on his right knee.",
+          "there was only mild bruising and tenderness over his right knee and he was discharged from the hospital with analgesic on the day of the Assault, according to the medical report of Dr. Chu of the Accident & Emergency Department of Princess Margaret Hospital."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Adjustment Disorder with Mixed Anxiety and Depressive Mood",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/psychological",
+        "laterality": null,
+        "source": [
+          "Both Dr Chow and Dr Chen agreed that Johnny Wong suffered from (1) Adjustment Disorder with Mixed Anxiety and Depressive Mood (Code 309.0) and (2) PTSD (Code 309.81)."
+        ],
+        "icd_code": "309.0",
+        "icd_description": "Adjustment Disorder with Mixed Anxiety and Depressive Mood"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Post-traumatic Stress Disorder (PTSD)",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/psychological",
+        "laterality": null,
+        "source": [
+          "Both Dr Chow and Dr Chen agreed that Johnny Wong suffered from (1) Adjustment Disorder with Mixed Anxiety and Depressive Mood (Code 309.0) and (2) PTSD (Code 309.81)."
+        ],
+        "icd_code": "309.81",
+        "icd_description": "PTSD"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness and bruising on his right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Flashbacks of the Assault",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Insomnia / poor sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Unable to concentrate on his work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Apprehensive about work / fear of being attacked",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Social withdrawal / loss of interest in gathering with friends and outdoor group activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Nightmares",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Suicidal idea (reported at time of presentation)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Aggressive behaviour (throwing a chair and an umbrella) observed in hospital",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "sent to Princess Margaret Hospital Accident & Emergency Department",
+      "hospitalized at Kwai Chung Hospital for 6 days",
+      "psychiatric assessment and treatment",
+      "psychological treatment (Li Ka Shing Outpatient Clinic / Prince of Wales Hospital / outpatient follow-up)",
+      "medication"
+    ],
+    "treatments_future": [
+      "biweekly follow-up treatment by both psychiatrist and clinical psychologist for six months"
+    ],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 112,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "mild bruising and tenderness over his right knee",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "He has lost interests in gathering with friends and all kinds of outdoor group activities; he is socially withdrawn.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of earning capacity; assessed by experts (Dr Chow 7%, Dr Chen 5%); parties agreed HK$50,000 for loss of earning capacity; he will be less willing to work night shift and fearful of being attacked as a security guard.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Yuk Sum v Wong Yuk Chun",
+        "neutral_citation": null,
+        "action_number": "DCPI 107/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Poon Yat Chiu v AES Scaffold Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 223/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Fung Nui v Leung Yat Ho & Anor.",
+        "neutral_citation": null,
+        "action_number": "DCPI 455/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14944,
+      "output_tokens": 8117,
+      "reasoning_tokens": 6272,
+      "total_tokens": 23061
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 67906.05206415057,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14944,
+      "output_tokens": 8117,
+      "reasoning_tokens": 6272,
+      "total_tokens": 23061
+    },
+    "total_duration_ms": 67906.05206415057
+  }
+}

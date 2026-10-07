@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "neutral_citation": "[1982] HKCFI 158",
+    "action_number": "HCA005018/1981",
+    "case_name": "TSE CHING MING v. AU YEUNG SANG",
+    "judgment_date": "1982-05-07",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 9,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "As a result of the attack she fell and suffered a supra-condylar fracture of the right humerus.",
+        "injury_type": "Residual disability",
+        "body_part": "right humerus",
+        "laterality": "right",
+        "source": [
+          "As a result of the attack she fell and suffered a supra-condylar fracture of the right humerus."
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The Plaintiff is left with the cosmetic injury to her right arm consisting of a 6½ inch scar which is 3/8 th inch wide for most of its length. On each side of the scar are 22 stitch marks. The scar is red and very obvious.",
+        "injury_type": "Permanent injury",
+        "body_part": "right arm",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff is left with the cosmetic injury to her right arm consisting of a 6½ inch scar which is 3/8 th inch wide for most of its length. On each side of the scar are 22 stitch marks. The scar is red and very obvious."
+        ],
+        "icd_code": "NC1Y",
+        "icd_description": "Other specified injuries to the shoulder or upper arm"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Plaintiff is left with the cosmetic injury to her right arm consisting of a 6½ inch scar which is 3/8 th inch wide for most of its length. On each side of the scar are 22 stitch marks. The scar is red and very obvious.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She now has an abnormal elbow with a bend limited to 120° against the norm of 150°.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The arm has no carrying angle and is angled towards the body at 34°.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She has some loss of grip of the right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "that arm will probably be slightly shorter than the other.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The doctor assessed the impairment at 7%.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She remained in hospital for nearly four months.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "spent some four months in hospital losing schooling",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the Plaintiff underwent a traumatic experience",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "the fracture exposed at operation and secured by a Kirschener wire",
+      "remained in hospital for nearly four months"
+    ],
+    "treatments_future": [
+      "cosmetic surgery when the Plaintiff is aged 15 or 16"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "losing schooling",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "cosmetic injury to her right arm consisting of a 6½ inch scar ... The scar is red and very obvious.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "limitation of movement of that arm",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "LEE Ting-lam v Leung Kam-ming",
+        "neutral_citation": "[1980] HKLR 658",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8015,
+      "output_tokens": 6812,
+      "reasoning_tokens": 5312,
+      "total_tokens": 14827
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44933.49625915289,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8015,
+      "output_tokens": 6812,
+      "reasoning_tokens": 5312,
+      "total_tokens": 14827
+    },
+    "total_duration_ms": 44933.49625915289
+  }
+}

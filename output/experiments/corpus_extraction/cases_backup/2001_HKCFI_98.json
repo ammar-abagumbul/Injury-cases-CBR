@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 98",
+    "action_number": "HCPI 1352/2000",
+    "case_name": "LAM WAI CHUN v. TAM CHI WAI AND ANOTHER",
+    "judgment_date": "2001-10-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 51,
+    "age_at_trial": null,
+    "occupation_before": "tea lady with a bank (Union Bank of California, N.A. Hong Kong Branch)",
+    "occupation_after": "tea lady (resumed pre-accident work in January 1998 and continued for some six months)",
+    "expected_occupation_after": null,
+    "salary_before": 5697.0,
+    "salary_after": 6135.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration of her left parietal scalp which required suturing",
+        "injury_type": "Temporary injury",
+        "body_part": "left parietal scalp",
+        "laterality": "left",
+        "source": [
+          "She was found to have a laceration of her left parietal scalp which required suturing."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "residual Post Concussional Syndrome comprising of dizziness and vertigo",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "While there was no permanent neurological deficit as a result of the injury to the plaintiff, there was residual Post Concussional Syndrome comprising of dizziness and vertigo."
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fracture of the right fourth, fifth and seventh ribs as well as the left seventh rib",
+        "injury_type": "Temporary injury",
+        "body_part": "ribs (right 4th, 5th, 7th; left 7th)",
+        "laterality": "bilateral",
+        "source": [
+          "X-ray of the chest revealed fracture of the right fourth, fifth and seventh ribs as well as the left seventh rib."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "immediately lost consciousness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent pain over chest and back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "anxious when traveling in a vehicle but not in the MTR",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "irritable, bad tempered and cannot sleep well",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "depressed and worried about her family members",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "residual chest pains",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "ambulance transfer to Fanling Hospital",
+      "inpatient care at Prince of Wales Hospital neurosurgical ward",
+      "transfer to Cheshire Home (11 November 1997 to 22 November 1997)",
+      "suturing of left parietal scalp",
+      "conservative treatment (no surgical operation performed)",
+      "physiotherapy until 14 July 1998",
+      "outpatient follow-up (last seen 18 March 1998)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 14,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities (assessed as general damages / PSLA)",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13061,
+      "output_tokens": 6583,
+      "reasoning_tokens": 5120,
+      "total_tokens": 19644
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40088.28308060765,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13061,
+      "output_tokens": 6583,
+      "reasoning_tokens": 5120,
+      "total_tokens": 19644
+    },
+    "total_duration_ms": 40088.28308060765
+  }
+}

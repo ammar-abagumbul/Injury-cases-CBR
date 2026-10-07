@@ -136,11 +136,30 @@ class ExtractionResult:
     token_count: TokenCount = field(default_factory=TokenCount)
     extraction_metadata: ExtractionMetadata | None = None
     error: str | None = None
+    error_stage: str | None = None
     debug: str | None = None
 
     @property
     def success(self) -> bool:
         return self.case is not None
+
+    @property
+    def status(self) -> str:
+        """Coarse outcome used for progress reporting.
+
+        * ``ok``      — case produced with no recorded error.
+        * ``partial`` — case produced but a later stage (e.g. Stage 2 ICD
+          classification) failed, so the case is usable but incomplete.
+        * ``timeout`` — the case exceeded the per-case timeout.
+        * ``failed``  — no case was produced.
+        """
+        if self.error_stage == "timeout":
+            return "timeout"
+        if self.case is None:
+            return "failed"
+        if self.error:
+            return "partial"
+        return "ok"
 
 
 

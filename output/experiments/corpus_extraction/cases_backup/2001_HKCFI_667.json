@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 667",
+    "action_number": "HCPI 223/1999",
+    "case_name": "LEE YUEN NGAN, AMY LAWRENCE v. LAU WING HOP",
+    "judgment_date": "2001-06-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 30,
+    "age_at_trial": 33,
+    "occupation_before": "Operator of Amy's Nail Boutique / sole proprietor of her nail beauty business (Ready Supply Limited)",
+    "occupation_after": "Sole proprietor of Amy's Nail Boutique (nail beauty)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Ruptured spleen with intraabdominal haemorrhage; emergency splenectomy leaving an 11 cm surgical scar on her abdomen.",
+        "injury_type": "Permanent injury",
+        "body_part": "spleen / abdomen (surgical scar)",
+        "laterality": null,
+        "source": [
+          "admitted to hospital after the accident and was diagnosed to have suffered a ruptured spleen with intraabdominal haemorrhage. An emergency splenectomy was performed on the same day. She recovered well from the splenectomy and was discharged from hospital after a stay of some 16 days. That operation left an 11 cm surgical scar on her abdomen."
+        ],
+        "icd_code": "NB91.04",
+        "icd_description": "Laceration of spleen, major"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Chronic whiplash injury to her neck (injury to the paraspinal soft tissue of the neck) manifesting as chronic neck pain and mild restriction of active movement.",
+        "injury_type": "Residual disability",
+        "body_part": "neck (paraspinal soft tissue)",
+        "laterality": null,
+        "source": [
+          "the plaintiff also suffered a chronic whiplash injury to her neck as a result of the collision. This is an injury to the paraspinal soft tissue of the neck with or without organic neurological involvement and manifest itself by chronic neck pain. Such neck pain was stated by Dr Kan in his latest report prepared in December 2000 that \"passive movement of the head about the neck was full and painless but active movement showed mild restriction as she complained of pain towards the extremes of motion\"."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Psychiatric injuries: post traumatic stress disorder and dysthymic disorder (depressive disorder) arising from the accident and its consequences.",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric / psychological",
+        "laterality": null,
+        "source": [
+          "she suffers from post traumatic stress disorder.",
+          "what Dr Wong calls \"dysthymic disorder\""
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "chronic neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "passive movement of the head about the neck was full and painless but active movement showed mild restriction as she complained of pain towards the extremes of motion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pins and needles in her left hand and arm especially when she lied down",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pins and needles in her left leg from buttock to ankle when she sits for longer than two hours",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "chest pains on the left side at the end of each work day",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "stiffness, numbness and dull ache in her lumbar and thoracic regions and also the sacrum",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "anxiety and stress when she encounters situation reminiscent of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "panic attack with palpitation and shortness of breath (on at least one occasion required treatment at Accident and Emergency Department)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "obviously depressed about her various impairments but her grasp of reality was unimpaired and she displayed no ideas of paranoia, delusion or hallucination",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "withdrawn both in her work and her daily living; was off work completely for about 6 months and thereafter worked a half day for 3 days per week up to trial",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "restricted much of her water sports activities which would require her to wear swimsuits which would reveal the scar on her abdomen",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "refused to let her boyfriend/fiancé touch her or the scar on her abdomen",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "consulted a number of overseas cosmetic surgeons with a view to either eradicating the unsightly scar or improving its appearance; cosmetic surgery performed on the abdominal scar in August 2000 (scar will still be present for the rest of her life)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "loss of interest in media interviews and presentations and reduced overseas sourcing trips",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "reduction in personal clients served personally from about 600 pre-accident to about 18 clients post-accident",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "all these symptoms and impairments had affected her social and daily living as well as her work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Emergency splenectomy (performed on the day of the accident)",
+      "In-patient hospital stay (16 days)",
+      "Cosmetic surgery on the abdominal scar (August 2000)",
+      "Regular physiotherapy twice a week at Government hospital (each session about an hour)",
+      "Painkillers prescribed at Tang Chi Ngong Clinic every six to eight weeks"
+    ],
+    "treatments_future": [
+      "psychiatric treatment",
+      "physiotherapy (regular sessions at Government hospital) "
+    ],
+    "hospitalisation_days": 16,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 180,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "An 11 cm surgical scar on her abdomen described as extremely ugly which destroyed her self esteem and confidence; scar will remain for rest of her life.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Restricted much of her water sports activities (would require her to wear swimsuits which would reveal the scar on her abdomen).",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Obsessed that the scar is so repulsive that she would bluntly terminate any attempt at sexual intercourse with her fiancé despite an otherwise satisfactory relationship.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Withdrawn in work and daily living; lost interest in media interviews and presentations; reduced overseas trips and social engagement.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of enjoyment and ability to fully participate in her nail beauty business, marked reduction in clients personally served and reduction in working days.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Underwent cosmetic surgery to improve scar appearance but scar remains; continued self-consciousness.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17860,
+      "output_tokens": 8419,
+      "reasoning_tokens": 6016,
+      "total_tokens": 26279
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 53610.816434025764,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17860,
+      "output_tokens": 8419,
+      "reasoning_tokens": 6016,
+      "total_tokens": 26279
+    },
+    "total_duration_ms": 53610.816434025764
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "neutral_citation": "[1996] HKCA 678",
+    "action_number": "CACV 263/1995",
+    "case_name": "CHAN PUI KI v. LEUNG ON AND ANOTHER",
+    "judgment_date": "1996-07-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 9,
+    "age_at_trial": 17,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": "sheltered workshop environment",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": 500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "She sustained severe head injuries with skull fracture. The brain injury was complicated by a left subdural haematoma which needed urgent operative decompression. There was considerable brain swelling and she was unconscious for many days.",
+        "injury_type": "Permanent injury",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "She sustained severe head injuries with skull fracture. The brain injury was complicated by a left subdural haematoma which needed urgent operative decompression. There was considerable brain swelling and she was unconscious for many days."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "She has marked spasticity of the muscles of the left upper and lower limbs. This has rendered her left hand virtually useless. The fingers tend to adopt a flexed posture, in the form of a claw.",
+        "injury_type": "Permanent injury",
+        "body_part": "left upper and lower limbs / left hand",
+        "laterality": "left",
+        "source": [
+          "She has marked spasticity of the muscles of the left upper and lower limbs. This has rendered her left hand virtual1y useless. The fingers tend to adopt a flexed posture, in the form of a claw."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Left facial paralysis, with severe cosmetic deformity.",
+        "injury_type": "Permanent injury",
+        "body_part": "left face",
+        "laterality": "left",
+        "source": [
+          "She has left facial paralysis, with severe cosmetic deformity."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Brain damage leading to cognitive impairment (IQ found to be 86 in autumn 1993).",
+        "injury_type": "Permanent injury",
+        "body_part": "brain / cognitive function",
+        "laterality": null,
+        "source": [
+          "The brain damage has led to cognitive impairment. When tested in the autumn of 1993 (when the plaintiff was about 14\u00012 years old) her IQ was found to be 86: down from the 100 which Dr Leung assumed to have been her pre-accident IQ based on her average school performance."
+        ],
+        "icd_code": "NA07.30",
+        "icd_description": "Diffuse injury of cerebrum"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Left hand virtually useless; fingers adopt flexed 'claw' posture; writes very slowly with right hand; cannot hold the bowl with her left.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Walks with a hemiplegic gait, dragging her left leg; balance defective and tends to fall over easily.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Left facial weakness leading to involuntary dribbling of saliva from the left corner of her mouth.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Speech has been severely affected.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "IQ found to be 86 (cognitive impairment).",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Frequent right-sided headaches associated with dizzy spells lasting for as long as two days at a time; attacks can be as frequent as two to three times a week.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Psychological effects: obese, a loner, spurned by her peers; adolescent development severely prejudiced; grown mistrustful of people, feels persecuted; contemplated suicide; relationship with her mother discordant.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Activities such as cooking are effectively beyond her; very handicapped in daily living.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Virtually unemployable except in a sheltered workshop environment where average earnings about $500 per month.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      "urgent operative decompression for left subdural haematoma",
+      "hospitalisation for over three months",
+      "physiotherapy / occupational therapy",
+      "psychotherapy"
+    ],
+    "treatments_future": [
+      "long term psychiatric treatment",
+      "ongoing occupational therapy / therapy sessions",
+      "attendance at sheltered workshop"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Left hand rendered virtually useless by marked spasticity; fingers adopt claw posture; left upper and lower limb spasticity.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Left facial paralysis with severe cosmetic deformity and resulting involuntary dribbling of saliva.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Walks with a hemiplegic gait, dragging her left leg; balance defective and tendency to fall.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Speech severely affected.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Cognitive impairment with IQ reduced to 86.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Personality change",
+        "description": "Psychological trauma: obese, loner, spurned by peers, mistrustful, feels persecuted, contemplated suicide; adolescent development prejudiced; discordant relationship with mother.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Unable to perform activities such as cooking; handicapped in daily living (cannot hold bowl with left hand).",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Virtually unemployable except in a sheltered workshop; diminished prospects of meaningful employment and greatly diminished prospects of a happy marriage.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "Prospects of a happy marriage have been greatly diminished.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1000000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-Iam v. Leung Kam-ming",
+        "neutral_citation": "1980 HKLR 657",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Wai-tong v. Li Ping-sum",
+        "neutral_citation": "1985 HKLR 176",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Che-ping v. Hoi Kong Ironwares Godown Co. Ltd.",
+        "neutral_citation": "[1988] 2 HKLR 650",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Attorney-General v. Chun Yat-nam",
+        "neutral_citation": "[1995] 1 HKC 218",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 28630,
+      "output_tokens": 7735,
+      "reasoning_tokens": 5120,
+      "total_tokens": 36365
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51099.24507141113,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 28630,
+      "output_tokens": 7735,
+      "reasoning_tokens": 5120,
+      "total_tokens": 36365
+    },
+    "total_duration_ms": 51099.24507141113
+  }
+}

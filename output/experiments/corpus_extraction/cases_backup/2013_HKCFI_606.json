@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 606",
+    "action_number": "HCPI 643/2010",
+    "case_name": "LAM KWONG SUM v. WONG HAU LING T/A SUN TIN WO GARAGE AND OTHERS",
+    "judgment_date": "2013-04-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": null,
+    "occupation_before": "dump truck driver",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard, salesman of light goods, petrol station worker, light cleaning worker or carpark attendant",
+    "salary_before": 15600.0,
+    "salary_after": 6000.0,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compression fracture of T11 vertebra",
+        "injury_type": "Residual disability",
+        "body_part": "T11 vertebra",
+        "laterality": null,
+        "source": [
+          "compression fracture of T11 vertebra without neurological deficit, undisplaced fracture of the left orbital wall and head injury."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "undisplaced fracture of the left orbital wall",
+        "injury_type": "Temporary injury",
+        "body_part": "left orbital wall",
+        "laterality": "left",
+        "source": [
+          "compression fracture of T11 vertebra without neurological deficit, undisplaced fracture of the left orbital wall and head injury."
+        ],
+        "icd_code": "NA02.2Y",
+        "icd_description": "Other specified orbital fracture"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "compression fracture of T11 vertebra without neurological deficit, undisplaced fracture of the left orbital wall and head injury."
+        ],
+        "icd_code": "NA02.2Y",
+        "icd_description": "Other specified orbital fracture"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "post-traumatic stress disorder (\"PTSD\")",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "PTSD which was in partial remission",
+          "post-traumatic stress disorder (\"PTSD\")"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "blurred vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "eye pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hip and left lower limb pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in chest",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "left shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "numbness of both hands/feet",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "poor memory / memory impairment",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "flashbacks and nightmares",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "avoidance of places reminiscent of the Accident / anxiety on using public transport",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "sensorineural hearing loss",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "periorbital swelling and bruises",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "transient loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "difficulty with activities of daily living (transfer, dressing, toileting and bathing) requiring assistance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admission to hospital (Queen Mary Hospital, transfer to Fung Yiu King Hospital)",
+      "thoracolumbar orthosis",
+      "physiotherapy",
+      "occupational therapy",
+      "psychiatric consultation",
+      "psychological counselling/psychotherapy",
+      "analgesics",
+      "rehabilitation",
+      "outpatient follow up"
+    ],
+    "treatments_future": [
+      "continued psychiatric pharmacotherapy for 4-6 months in the public sector (as suggested)",
+      "further psychotherapy with clinical psychologist for another 3-4 sessions"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent pain and impairment from T11 compression fracture, undisplaced fracture of the left orbital wall and head injury",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Needed maximum assistance in sitting up from bed; assistance in transfer, dressing, toileting and bathing during rehabilitation",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-Accident occupation as a dump truck driver",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Avoidance of places reminiscent of the Accident, decreased venturing out and social activity due to PTSD and anxiety",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Worried about using public transportation and avoidance behaviour after the Accident",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 440000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsoi Kwong Ming v Green Valley Landfill Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI407/1997",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 31834,
+      "output_tokens": 8339,
+      "reasoning_tokens": 6080,
+      "total_tokens": 40173
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40755.81741333008,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 31834,
+      "output_tokens": 8339,
+      "reasoning_tokens": 6080,
+      "total_tokens": 40173
+    },
+    "total_duration_ms": 40755.81741333008
+  }
+}

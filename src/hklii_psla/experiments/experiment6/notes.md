@@ -1,5 +1,9 @@
 # Experiment 6 — Corpus clean-up (notes & status)
 
+> **Current snapshot of the corpus lives in
+> `output/experiments/corpus_extraction/CORPUS_STATE.md`.** That file is authoritative for
+> counts; this file is the design log and experiment history.
+
 ## Original problem statement
 
 ## Major BUMMMMM
@@ -45,14 +49,14 @@ It has two halves:
 
 | Item | Value |
 |---|---|
-| Source text | `old_pi_cases_web_text/*.txt` — 1,480 HK personal-injury judgments |
+| Source text | `old_pi_cases_web_text/*.txt` — **1,480** HK personal-injury judgments |
 | Extractor | `experiments/experiment5/exp_5.py` (async single-pass, model `gpt` via Azure) |
-| Extracted cases | `output/experiments/corpus_extraction/cases/*.json` — **1,478** |
-| Progress log | `output/experiments/corpus_extraction/progress.csv` — 1,478 rows, all `status=ok` |
-| Remaining gaps | 2 sources never ran: `HKCFI_1999_1392.html.txt`, `HKDC_2015_256.html.txt` |
+| Extracted cases | `output/experiments/corpus_extraction/cases/*.json` — **1,480** |
+| Progress log | `output/experiments/corpus_extraction/progress.csv` — **1,480 rows, all `status=ok`** |
+| Gaps | **none** — every source has a case file |
 
-Nothing has been **applied** to the case files yet — `cases_backup/` does not exist. All
-patches produced so far are dry-run proposals.
+The corpus is **complete**. (The earlier baseline of 1,478 cases with 2 gaps, and the note
+that nothing had been applied yet, are obsolete — see "Session history" below.)
 
 ---
 
@@ -66,12 +70,12 @@ patches produced so far are dry-run proposals.
   (PTSD, post-traumatic disorder, …). `caused_by_injury_id` = primary psych injury id,
   else a linked manifestation's id, else `""`.
 * **Neutral citation** → **extraction-first** (see below).
-* **Pre-existing degenerative conditions** → *proposed but unconfirmed*: flag
-  `NULL_ICD_PREEXISTING`, keep the injury entry, set
-  `metadata.has_pre_existing_injuries`.
+* **Pre-existing degenerative conditions** → **deferred** (see Outstanding). No
+  `NULL_ICD_PREEXISTING` repair is performed; `metadata.has_pre_existing_injuries` is left
+  untouched and will be handled by a separate extraction run.
 * **Burns gap** → deferred; tracked by the user in `data/ICD-11.json`.
 * Do **not** renumber `inj_00x` ids (would break `caused_by_injury_id`).
-* Patches: **propose** to a new file; **apply** overwrites the original in place, after a
+* Patches: **propose** to a file; **apply** overwrites the original in place, after a
   **one-time backup** to `cases_backup/`.
 
 ---
@@ -97,10 +101,15 @@ patches produced so far are dry-run proposals.
 ### Outputs (`output/experiments/corpus_extraction/`)
 | Path | Contents |
 |---|---|
-| `cases/*.json` | 1,478 extracted `Case` JSONs (untouched) |
+| `cases/*.json` | **1,480** cleaned `Case` JSONs (authoritative) |
+| `cases_backup/*.json` | **485** pre-edit originals (first-write backup) |
 | `qc/qc.csv`, `qc/qc_report.json` | Audit triage table + aggregate report |
-| `patches/*.patch.json` | Dry-run proposals, tagged by ops (`<stem>.citation.patch.json`, `<stem>.citation-psych.patch.json`) |
+| `qc/applied_patches.csv` | **513** applied changes (235 citation + 278 psych) |
+| `qc/psych_false_positives.json` | 7 psych cases deliberately skipped + reasons |
+| `qc/renamed_files.csv` | 235 old→new case-filename mappings (from the 2026-09-23 rename) |
+| `patches/README.md` | Note on the deleted transient proposals |
 | `progress.csv` (+ `.bak`) | Resumable run log; `.bak` is the pre-migration original |
+| `CORPUS_STATE.md` | Current corpus snapshot (counts, flags, outstanding work) |
 
 ---
 
@@ -124,16 +133,21 @@ Psych: `PSYCH_DETECTED`, `PSYCH_NO_PERSONALITY_CHANGE_LOSS`.
 Source/other: `TREATMENT_CONTAMINATED`, `SOURCE_NOISE`, `SOURCE_MISSING`,
 `MULTI_PLAINTIFF`, `JSON_UNREADABLE`.
 
-Current counts (1,478 audited, 1,446 flagged):
+Current counts (1,480 audited, 1,443 flagged) — full table in `CORPUS_STATE.md`:
 
 ```
-RED_FLAG_NULL_MEDIUM 903   COARSE_ICD_NODE 650        INJURY_MULTI_BODY_PART 629
-NO_COMPARABLE 537          RED_FLAG_NULL 511          NULL_RATIO_HIGH 506
-UNLINKED_MANIFESTATION 481 PSYCH_DETECTED 331         PSYCH_NO_PERSONALITY_CHANGE_LOSS 285
-UNLINKED_LOSS 255          CITATION_MISMATCH 235      CITATION_MALFORMED 234
-CITATION_EXTRA_TEXT 219    NULL_ICD_OTHER 218         ICD_STOPPED_EARLY 207
-NULL_ICD_PSYCH 155
+RED_FLAG_NULL_MEDIUM 898   COARSE_ICD_NODE 651        INJURY_MULTI_BODY_PART 630
+NO_COMPARABLE 538          RED_FLAG_NULL 512          NULL_RATIO_HIGH 507
+UNLINKED_MANIFESTATION 482 PSYCH_DETECTED 331         UNLINKED_LOSS 277
+NULL_ICD_OTHER 219         ICD_STOPPED_EARLY 207      NULL_ICD_PSYCH 155
+NO_PSLA_AMOUNT 142         TREATMENT_CONTAMINATED 124 ZERO_LOSSES 109
+NULL_ICD_PREEXISTING 107   MULTI_PLAINTIFF 97         ZERO_INJURIES 57
+NULL_ICD_SYMPTOM 54        SOURCE_NOISE 35            NULL_ICD_BURN 26
+PREEXISTING_METADATA_MISMATCH 16   PSYCH_NO_PERSONALITY_CHANGE_LOSS 7
+ICD_CODE_NOT_IN_TREE 1
 ```
+
+All `CITATION_*` and `ACTION_MISSING` flags are **0**.
 
 ---
 
@@ -154,9 +168,10 @@ Recovery uses a **court allowlist** (`HKCFI, HKDC, HKCA, UKPC`) so law-report se
 (`HKC`, `HKLRD`) are never mistaken for neutral citations. `search` (not `match`) is used so
 a party-name prefix does not defeat recovery.
 
-Corpus result: **219** `extra_text`, **16** `from_source`, **0** conflicts, rest clean. The
-trap cases resolve correctly, e.g. `[1988] HKC 795 → [1988] HKCFI 461` and
-`HKDC 394 → [2007] HKDC 394` (year only available from the source).
+**Corpus result: 1,480 / 1,480 citations are now clean** (after the 235 applied citation
+patches; 219 were recovered from the extracted field, 16 from the source header). Trap cases
+resolved correctly, e.g. `[1988] HKC 795 → [1988] HKCFI 461` and
+`HKDC 394 → [2007] HKDC 394`.
 
 ---
 
@@ -169,11 +184,11 @@ trap cases resolve correctly, e.g. `[1988] HKC 795 → [1988] HKCFI 461` and
   from the detected item's `source`; `caused_by_injury_id` linkage as decided above.
 * **`coarse`** — LLM re-walk of the ICD-11 tree for injuries with a coarse / prematurely
   stopped code, forbidding the coarse denylist and forcing one more level. Sequential per
-  injury, may make multiple calls; needs a model + ICD index.
+  injury, may make multiple calls; needs a model + ICD index. **Not yet run.**
 
-Every proposal is validated with `Case.model_validate` before it can be applied. Dry-run
-proposals currently on disk: **235** `citation` (235 with changes) and **487**
-`citation-psych`.
+Every proposal is validated with `Case.model_validate` before it can be applied. The
+transient per-case proposal files have been cleaned up — the durable record of what was
+applied is `qc/applied_patches.csv`; see `patches/README.md`.
 
 ---
 
@@ -193,18 +208,64 @@ Done so that future corpus runs cannot hang and are resumable:
 * Optional `fallback_provider` retries Stage 1 failures that look like content-filter
   rejections.
 
-Gap closure: 8 of the 10 outstanding cases were processed (the 5 earlier content-filter
-failures now succeeded on `gpt`, plus `HKCFI_2014_1771`, `HKDC_2008_122`, `HKDC_2009_1510`,
-and the Stage-2 fix for `HKCFI_2009_880`). **2 remain**: `HKCFI_1999_1392`, `HKDC_2015_256`.
+All outstanding gaps were subsequently closed; the corpus is 1,480/1,480.
 
 ---
 
 # Current state
 
-* 1,478 / 1,480 sources extracted (`status=ok`); 2 gaps remain (above).
-* Audit regenerated: 1,478 cases, 1,446 flagged.
-* Dry-run proposals only; **nothing applied**; `cases_backup/` absent.
-* Tests: **43 passing**; ruff clean.
+* **1,480 / 1,480 sources extracted** (`status=ok`); no gaps.
+* **All 1,480 case JSONs validate against `Case`.**
+* **1,480 / 1,480 neutral citations clean**; no `CITATION_*` or `ACTION_MISSING` flags.
+* **1,480 / 1,480 filenames match their neutral citation** (`YYYY_COURT_NUM.json`); 235 renamed.
+* **Deterministic `citation` / `psych` patches applied**; `cases_backup/` holds 485 originals.
+* **7 anatomical psych false positives skipped** (documented); `Personality change` losses = 348.
+* **Coarse ICD op deliberately not applied** (separate pass). Pre-existing conditions deferred.
+* Tests: **43 passing**; ruff clean on the `experiment6` + `tests` scope.
+* Transient patch proposals cleaned up; `qc/applied_patches.csv` is the applied-change record.
+
+---
+
+# Session history
+
+### Session update (2026-09-23)
+
+1. **Audit re-verified.** `uv run psla audit-corpus` reproduced the prior
+   `qc_report.json` / `qc.csv` **byte-for-byte** (1,478 cases / 1,446 flagged), so all
+   figures recorded were confirmed before any edits.
+2. **Gaps closed.** Re-ran Experiment 5; `progress.csv` is now **1,480 rows, all
+   `status=ok`** (`HKCFI_1999_1392`, `HKDC_2015_256` both succeeded).
+3. **Citation patches applied.** 235 proposals, all reviewed (219 recovered from the
+   extracted field, 16 from the source header, including `[1988] HKC 795 → [1988] HKCFI 461`
+   and `HKDC 394 → [2007] HKDC 394`). Applied in place with backups. Re-audit:
+   **all `CITATION_*` flags = 0**; clean cases 32 → 37.
+4. **Psych patches applied — with 7 anatomical false positives skipped.** The bag-of-words
+   triggered on physical `depress*` in 7 cases (eyeball, nasal bridge, tibial plateau, scar,
+   scapula, …). Per the agreed call, those cases were **skipped** rather than patched;
+   the rest (**278**) each received exactly one `Personality change` loss. The skip list and
+   reasons live in `qc/psych_false_positives.json`. `PSYCH_NO_PERSONALITY_CHANGE_LOSS`
+   is now **7** (exactly the skipped cases). 348 `Personality change` losses total; the psych
+   op introduced **0 dangling `caused_by_injury_id` links**.
+5. **Pre-existing conditions:** **out of scope** for this pass (user decision — better
+   handled in a separate extraction run). `has_pre_existing_injuries` is left untouched.
+6. **Action numbers:** only **28** cases are genuinely malformed; **314** of the ~342 strict
+   failures are merely zero-padded (`HCA000447/1968`). Normalisation is **pending a decision**.
+7. **Coarse ICD correction:** excluded, to be done separately.
+8. **Final clean-up + reporting.** Deleted **1,002** transient per-case proposal files
+   (235 `citation`, 489 superseded `citation-psych`, 278 `psych`) and the superseded
+   `qc/patch_review.csv`. Added `qc/applied_patches.csv` (513 applied changes),
+   `patches/README.md`, and `CORPUS_STATE.md`. Re-ran the audit (1,480 / 1,443 flagged) and
+   the full test suite (43 passing).
+9. **Case filenames normalised to the neutral citation.** The extractor builds filenames
+   from `metadata.neutral_citation`, so the 235 citation-patched cases still carried stale
+   names (`1969_HKCFI_66_HCA_447_1968.json`, `1988_HKC_795.json`, party-name fallbacks, …).
+   Renamed all **235** to `YYYY_COURT_NUM.json` (0 collisions; 1,245 were already correct).
+   `progress.csv`, `qc/applied_patches.csv`, `qc/psych_false_positives.json` and the parallel
+   `cases_backup/` entries were updated; the old→new map is `qc/renamed_files.csv`. Re-ran
+   the audit (1,480 / 1,443 flagged) and validated all 1,480 cases.
+
+Artifacts added: `qc/psych_false_positives.json`, `qc/applied_patches.csv`,
+`qc/renamed_files.csv`, `patches/README.md`, `CORPUS_STATE.md`, `cases_backup/` (485 originals).
 
 ---
 
@@ -225,19 +286,24 @@ uv run psla patch-corpus --ops coarse --provider gpt --select COARSE_ICD_NODE
 uv run pytest tests/ -v
 ```
 
+> Note: re-running the deterministic `citation` / `psych` ops against the current cases is a
+> no-op except for the 7 documented psych false positives.
+
 ---
 
 # Handoff notes for the experimenter agent
 
-1. **Close the last 2 gaps.** Re-run Experiment 5; the resumable `progress.csv` will pick up
-   only `HKCFI_1999_1392` and `HKDC_2015_256`.
+1. ~~**Close the last 2 gaps.**~~ **DONE** — corpus is 1,480/1,480.
 2. **Tune `coarse_nodes.json`**, then run the `coarse` op (dry run → review → `--apply`).
-3. **Apply the deterministic `citation` / `psych` patches** once reviewed (still dry-run).
-4. **Decide the pre-existing-conditions representation** (proposed `NULL_ICD_PREEXISTING` +
-   keep entry + `has_pre_existing_injuries`).
+   *Not done; deliberately deferred.*
+3. ~~**Apply the deterministic `citation` / `psych` patches** once reviewed.~~ **DONE** —
+   235 citation + 278 psych applied; 7 anatomical psych false positives skipped.
+4. **Pre-existing conditions** — **deferred** (user decision: separate extraction run).
+   `NULL_ICD_PREEXISTING` / `has_pre_existing_injuries` left as-is.
 5. **Burns taxonomy gap** — user-tracked in `data/ICD-11.json`; out of scope here.
-6. Optional: `metadata.action_number` is present for all cases but ~339 do not match a strict
-   `COURT N/NNNN` shape — worth a look if action numbers matter downstream.
+6. Optional: `metadata.action_number` — **28** genuinely malformed; **314** zero-padded.
+   Normalisation is pending a decision.
 7. Gold-set evaluation + regression tests (step 6) were deliberately deferred.
 
 Read `AGENTS.md` for project conventions before making changes.
+See `output/experiments/corpus_extraction/CORPUS_STATE.md` for the current corpus snapshot.

@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 1463",
+    "action_number": "HCPI 834/2015",
+    "case_name": "CHAN LOK HANG v. SWIRE RESOURCES LTD",
+    "judgment_date": "2018-06-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 33,
+    "age_at_trial": null,
+    "occupation_before": "warehouse attendant",
+    "occupation_after": "clerical duties (assigned)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to the back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the defendant accepts that the plaintiff suffered from soft tissue injury to the back in the Accident",
+          "Dr Lam opines the plaintiff to have suffered from soft tissue injury to the back in the Accident"
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "disc protrusion and annular tear at L3/4 and L4/5 (aggravated or caused by the Accident)",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L3/4, L4/5)",
+        "laterality": null,
+        "source": [
+          "\"annular tear in L3/4 and L4/5;\"",
+          "\"mild board-base protrusion in L3/4, L4/5 and L5/S1 (Disc desiccation).\"",
+          "I accept Dr Lam's opinion that the plaintiff suffered from soft tissue injury to his back causing or, more likely, aggravating disc protrusion"
+        ],
+        "icd_code": "NB97",
+        "icd_description": "Certain specified injuries of abdomen, lower back or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "pre-existing degenerative changes of the spine; desiccated disc L3/4 to L5/S1 and mild bulging disc L3/4",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L3/4 to L5/S1)",
+        "laterality": null,
+        "source": [
+          "pre-existing degenerative condition of his back",
+          "The conclusion was desiccated disc L3/4 to L5/S1 and mild bulging disc L3/4"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lower limb numbness and weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild adjustment disorder with mixed anxiety and depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sleeping problem",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced lifting capacity / limitation lifting heavy goods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "physiotherapy (two courses, outpatient physiotherapy)",
+      "occupational therapy (19 sessions; occupational rehabilitation)",
+      "analgesics (prescribed intermittently)",
+      "A&E and outpatient clinic consultations",
+      "psychiatric treatment from government hospitals",
+      "work rehabilitation assessment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 743,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "persistent mild-to-moderate low back pain and reduced lifting capacity initially preventing resumption of full pre-accident duties",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 210000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Wa Ying v Caritas- Hong Kong",
+        "neutral_citation": null,
+        "action_number": "DCPI2885/2014",
+        "injury_description": "soft tissue injury of back and major depressive disorder; pre-existing degenerative changes and exaggeration of injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Tse Sin Yee v Wing Wah Cake Shop Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 1618/2010",
+        "injury_description": "sprained back and thigh while lifting; adjustment disorder with anxiety and depressive mood",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 609,
+        "comparison": "similar or same",
+        "psla_amount": 175000.0
+      },
+      {
+        "case_name": "Chau Chin To Chadow v Wing Fung Financial Group Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 163/2015",
+        "injury_description": "soft tissue injury of the back after heavy-lifting; on and off low back pain and difficulty in manual lifting",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 405,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Wong Yun Chiu v Union Printing Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 282/2009",
+        "injury_description": "back contusion or sprain with soft tissue involvement causing persistent and occasional moderate/severe pain in the context of degenerative spine",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Altaf Ahmed v Innovative Network Engineering Company Limited & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI237/2008",
+        "injury_description": "several levels of lumbar disc protrusion degenerative, one aggravated by injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 280000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19023,
+      "output_tokens": 6477,
+      "reasoning_tokens": 4608,
+      "total_tokens": 25500
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34590.607199817896,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19023,
+      "output_tokens": 6477,
+      "reasoning_tokens": 4608,
+      "total_tokens": 25500
+    },
+    "total_duration_ms": 34590.607199817896
+  }
+}

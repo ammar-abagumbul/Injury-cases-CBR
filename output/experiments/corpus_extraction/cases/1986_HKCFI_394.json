@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 394",
+    "action_number": "HCA006239/1984",
+    "case_name": "FAN SHUIT LUI v. SHING WAH CHAI AND ANOTHER",
+    "judgment_date": "1986-04-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 30,
+    "occupation_before": "driver-delivery man",
+    "occupation_after": "decoration worker",
+    "expected_occupation_after": null,
+    "salary_before": 2875.0,
+    "salary_after": 2000.0,
+    "expected_salary_after": 2500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractures of 2 ribs",
+        "injury_type": "Residual disability",
+        "body_part": "ribs",
+        "laterality": null,
+        "source": [
+          "The Plaintiff was struck from the left; he suffered fractures of 2 ribs, of the pelvis in four places, and whilst these fractures have united the right pelvis is rotated slightly, and he has a½ inch shortening of the right leg and limitation of the left hip joint movement."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractures of the pelvis in four places; right pelvis rotated slightly; 1/2 inch shortening of the right leg",
+        "injury_type": "Residual disability",
+        "body_part": "pelvis; right leg",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff was struck from the left; he suffered fractures of 2 ribs, of the pelvis in four places, and whilst these fractures have united the right pelvis is rotated slightly, and he has a½ inch shortening of the right leg and limitation of the left hip joint movement."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Limitation of the left hip joint movement",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff was struck from the left; he suffered fractures of 2 ribs, of the pelvis in four places, and whilst these fractures have united the right pelvis is rotated slightly, and he has a½ inch shortening of the right leg and limitation of the left hip joint movement."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "permanent residual pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "will not be safe for him to drive a heavy truck",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to lift heavy items; maximum lifting capacity in the region of 20 lbs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "½ inch shortening of the right leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limitation of the left hip joint movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "total impairment of the whole man 11%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "disability when related to earning capacity amounts to 15% of the whole man",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "onset of pain and discomfort in the pelvic area by the age of 40 (forecast)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "restriction of his activities by the age of 50 (forecast)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "convalescence",
+      "herbalist/Chinese medicine (Korean Ginseng and Deer Horn)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 42,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 180,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "his present athletic activities are somewhat restricted already",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "he has had to give up his chosen job and would not be able to return to it",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13303,
+      "output_tokens": 6559,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19862
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34134.53711569309,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13303,
+      "output_tokens": 6559,
+      "reasoning_tokens": 5056,
+      "total_tokens": 19862
+    },
+    "total_duration_ms": 34134.53711569309
+  }
+}

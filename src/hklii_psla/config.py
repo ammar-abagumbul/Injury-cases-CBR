@@ -62,7 +62,10 @@ class Settings(BaseSettings):
     # ------------------------------------------------------------------
     OLLAMA_BASE_URL: str = "http://localhost:11434"
 
-    DEFAULT_TIMEOUT: int = 60
+    # Per-request / per-case timeout in seconds. Wired into the chat models as
+    # their HTTP timeout and used as a hard upper bound on each corpus case so
+    # a stalled request can never hang a whole run.
+    DEFAULT_TIMEOUT: int = 300
 
 
 settings = Settings()

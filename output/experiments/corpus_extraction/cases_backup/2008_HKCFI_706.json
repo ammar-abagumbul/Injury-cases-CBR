@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 706",
+    "action_number": "HCPI 77/2007",
+    "case_name": "WONG WAI MAN v. YI WO YUEN AGED SANATORIUM CENTRE LTD",
+    "judgment_date": "2008-08-15",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "personal care worker (care attendant)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprained back / low back soft tissue injury",
+        "injury_type": "Residual disability",
+        "body_part": "low back",
+        "laterality": null,
+        "source": [
+          "she was diagnosed to have sustained a sprained back.",
+          "Dr Au opined that the plaintiff sustained a low back injury during the accident which is compatible with soft tissue injury.",
+          "Given the totality of the evidence relating to the occurrence of the accident both from the plaintiff’s evidence and also the account given by her to Dr Chun, and given the fact that the plaintiff is a person not highly educated and not the most articulate of witness, I have little doubt that the answer she gave in cross-examination to the effect that she first felt pain in her back was some 8 minutes after, was an imprecise answer but that the plaintiff had focused on the severe debilitating pain which stopped her from standing up rather than the initial low back pain which was bearable to her."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative changes and possibly protruded disc at L4/5 and L5/S1 (developmental in origin)",
+        "injury_type": "Permanent injury",
+        "body_part": "lumbar spine (L4/5 and L5/S1)",
+        "laterality": null,
+        "source": [
+          "The MRI performed in Mainland China showed degenerative changes and possibly protruded disc at L4/5 and L5/S1. They are developmental in origin and not caused by the accident.",
+          "Since the plaintiff was asymptomatic before the accident, the accident probably had aggravated the degenerative change and rendered her back painful."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "leg pain and numbness of her sole",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness of the paraspinal muscle over the low back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreased range of movement of the spine",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "non-organic signs (possible symptom magnification)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "adjustment disorder with depressive mood, later revised to major depressive disorder (mood disturbance/psychiatric condition)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "analgesic tablets",
+      "attendance at Accident and Emergency Department of Kwong Wah Hospital",
+      "hospitalisation at Kwong Wah Hospital (21 to 28 June 2005)",
+      "occupational therapy",
+      "physiotherapy",
+      "treatment at Kwun Tong Occupational Health Clinic",
+      "referral to the Orthopaedic and Traumatology Department of Caritas Medical Centre",
+      "referral to the Pain Clinic of Kwong Wah Hospital",
+      "psychiatric treatment at West Kowloon Psychiatric Centre",
+      "antidepressant medication"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from the plaintiff's back injury",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Adjustment disorder with depressive mood subsequently major depressive disorder caused by the accident (mood disturbance/psychiatric condition)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Nominal handicap in the labour market / reduced efficiency and potential impairment of ability to work due to psychiatric condition",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13592,
+      "output_tokens": 5513,
+      "reasoning_tokens": 4096,
+      "total_tokens": 19105
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40279.86778318882,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13592,
+      "output_tokens": 5513,
+      "reasoning_tokens": 4096,
+      "total_tokens": 19105
+    },
+    "total_duration_ms": 40279.86778318882
+  }
+}

@@ -1,0 +1,43 @@
+id: "feature-query-retrieval"
+output_dir: "output/experiments/feature_query_retrieval"
+case_base_dir: "output/experiments/corpus_extraction/cases"
+k: 10
+# Relevance: a retrieved case is "PSLA-relevant" when its real award is within
+# a factor (1 + psla_tolerance) of the query's (0.5 => ratio in [2/3, 1.5]).
+psla_tolerance: 0.5
+# null => clinical-first defaults (injuries + losses + ages + treatment + counts).
+# ``gender`` and ``overall_category`` are deliberately excluded: gender is a
+# near-constant, and severity is the award band (target-derived), so it is kept
+# off the clinical score and reconstructed from the award for diagnostics.
+attributes: null
+# "available" ignores attributes missing on either side; "special" uses the raw
+# myCBR special-value amalgamation.
+missing_policy: "available"
+# Clinical-first composite: share carried by the clinical (injury + loss) group;
+# the rest is the auxiliary group.  Clinical attributes are missing-penalised.
+clinical_alpha: 0.7
+# Clinical relevance label (loose, independent of PSLA).
+clinical_threshold: 0.15
+clinical_injury_weight: 0.75
+# Stage-1 loose gate: minimum graded injury similarity, applied only when the
+# query carries injuries.  0 disables it.
+min_injury_similarity: 0.1
+# Similarity weights: null => tuned_weights.json if present, else all 1.0.
+weights: null
+weights_file: null
+tune: true
+tune_trials: 40
+# "clinical_ndcg" tunes against clinical (injury/loss) relevance, not PSLA bands.
+tune_objective: "clinical_ndcg"
+train_fraction: 0.6
+seed: 42
+# null => benchmark every case with a PSLA.
+max_queries: null
+# Set to a YAML/JSON FeatureQuery to run one ad-hoc judge query instead.
+query_file: null
+price_index_path: null
+base_year: null
+band_low: null
+band_high: null
+# Ad-hoc retrieval returns only cases with a known real PSLA by default.
+require_psla_candidates: true

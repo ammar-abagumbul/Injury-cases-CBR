@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKDC 130",
+    "action_number": "DCPI 181/2002",
+    "case_name": "WONG SIU SHAN v. TSANG HIN SUM",
+    "judgment_date": "2002-12-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 52,
+    "occupation_before": "sole proprietor selling marine delicacies",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6284.0,
+    "salary_after": 4708.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "deep laceration over the vertex (head)",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Upon admission to hospital, it was found that a deep laceration, 8 cm in length, was present over the vertex.",
+          "The laceration was sutured and the Plaintiff was treated conservatively. He was hospitalised for 2 days."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injury to the arm",
+        "injury_type": "Temporary injury",
+        "body_part": "arm",
+        "laterality": null,
+        "source": [
+          "the Plaintiff was assaulted by the Defendant with a knife and sustained injuries in the head, arm and leg."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "injury to the leg",
+        "injury_type": "Temporary injury",
+        "body_part": "leg",
+        "laterality": null,
+        "source": [
+          "the Plaintiff was assaulted by the Defendant with a knife and sustained injuries in the head, arm and leg."
+        ],
+        "icd_code": "NC9Z",
+        "icd_description": "Injuries to the knee or lower leg, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the Plaintiff suffered post-concussional syndrome including headaches, dizziness, fatigue, irritability, difficulty in concentrating and performing mental tasks, impairment of memory, insomnia, and reduced tolerance to stress and emotional excitement.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the aforesaid disability suffered by the Plaintiff is permanent and he also assesses the Plaintiff to have suffered a 3 per cent permanent impairment as a result of the assault.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "laceration sutured",
+      "treated conservatively",
+      "hospitalised for 2 days",
+      "out-patient treatment"
+    ],
+    "treatments_future": [
+      "weekly neurosurgical consultation for 6 weeks (recommended by Dr Yu)",
+      "consultation with family doctor on a need basis"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "3 per cent permanent impairment as a result of the assault.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Lai-kwan v Nan Fung Textile Limited",
+        "neutral_citation": "[1998] 2 HKLRD 729",
+        "action_number": null,
+        "injury_description": "had sustained only physical injuries to her forehead from which she had made a full recovery; might have suffered 2 per cent disability for post-concussional syndrome; was able to resume her work after a sick leave period of about 41/2 months.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Hau Kwok-fong v The Kowloon Motor Bus Company (1933) Limited & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 101 of 97 (decision of Pang J on 4 March 1999)",
+        "injury_description": "one operation for the fixation of fracture of the right lower jawbone, 4 days' hospitalisation, 13 days' sick leave, residual discomfort and another operation to have the implants removed. The plaintiff had also confirmed in his evidence in court that such symptoms no longer existed save and except a certain degree of numbness in the chin and on the left side of his body.",
+        "hospitalisation_days": 4,
+        "operations_count": 2,
+        "sick_leave_days": 13,
+        "comparison": "similar or same",
+        "psla_amount": 180000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9415,
+      "output_tokens": 6188,
+      "reasoning_tokens": 4800,
+      "total_tokens": 15603
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38741.56569316983,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9415,
+      "output_tokens": 6188,
+      "reasoning_tokens": 4800,
+      "total_tokens": 15603
+    },
+    "total_duration_ms": 38741.56569316983
+  }
+}

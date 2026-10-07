@@ -22,6 +22,7 @@ def _get_openrouter_model(model: str) -> BaseChatModel:
         model=model,
         api_key=settings.OPENROUTER_API_KEY,  # type: ignore[arg-type]
         temperature=settings.DEFAULT_TEMPERATURE,
+        timeout=settings.DEFAULT_TIMEOUT,
         # max_tokens=settings.DEFAULT_MAX_TOKENS,
     )
 
@@ -53,6 +54,7 @@ def get_ollama_model() -> BaseChatModel:
         model=settings.OLLAMA_MODEL,
         base_url=settings.OLLAMA_BASE_URL,
         temperature=settings.DEFAULT_TEMPERATURE,
+        timeout=settings.DEFAULT_TIMEOUT,
     )
 
 def get_gpt_model() -> BaseChatModel:
@@ -64,6 +66,7 @@ def get_gpt_model() -> BaseChatModel:
         api_key=settings.AZURE_OPENAI_API_KEY,  # type: ignore
         api_version=settings.AZURE_OPENAI_API_VERSION,
         max_retries=1,
+        timeout=settings.DEFAULT_TIMEOUT,
     )
 
 

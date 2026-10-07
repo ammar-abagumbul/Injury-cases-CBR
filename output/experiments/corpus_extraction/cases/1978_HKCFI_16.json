@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "neutral_citation": "[1978] HKCFI 16",
+    "action_number": "HCA 937/1978",
+    "case_name": "LO SHAU CHUN v. YUEN CHUK LEUNG",
+    "judgment_date": "1978-10-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 71,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured wrist",
+        "injury_type": "Residual disability",
+        "body_part": "wrist",
+        "laterality": null,
+        "source": [
+          "she suffered very shortly a fractured wrist and fractured tibia and fibula that is fractures in the lower leg."
+        ],
+        "icd_code": "NC53.Z",
+        "icd_description": "Fracture at wrist or hand level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured tibia and fibula (fractures in the lower leg)",
+        "injury_type": "Residual disability",
+        "body_part": "lower leg",
+        "laterality": null,
+        "source": [
+          "she suffered very shortly a fractured wrist and fractured tibia and fibula that is fractures in the lower leg."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "She has now regained the use of her hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Her leg although movement of her leg is slightly limited",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She walked with a limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Pain, suffering and loss of amenities",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "taken to Queen Elizabeth Hospital",
+      "leg under plaster for the period of hospitalisation",
+      "wrist under plaster for a period of 6 weeks"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 101,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "fractured wrist",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "fractured tibia and fibula (fractures in the lower leg)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "movement of her leg is slightly limited and she walked with a limp",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8710,
+      "output_tokens": 3626,
+      "reasoning_tokens": 2624,
+      "total_tokens": 12336
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 25357.909318059683,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8710,
+      "output_tokens": 3626,
+      "reasoning_tokens": 2624,
+      "total_tokens": 12336
+    },
+    "total_duration_ms": 25357.909318059683
+  }
+}

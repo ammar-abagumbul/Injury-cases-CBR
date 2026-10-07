@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKCFI 834",
+    "action_number": "HCPI 295/2014",
+    "case_name": "CHU KWONG FU AND ANOTHER v. WONDER GOLD INVESTMENT LTD",
+    "judgment_date": "2015-05-21",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Driver employed by the 2nd plaintiff; owner/operator of a van-hiring business",
+    "occupation_after": "Trainee car salesman (from 2014-09-25)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Post-Traumatic Stress Disorder (\"PTSD\")",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr Kwan diagnosed Post-Traumatic Stress Disorder (“PTSD”) and prescribed anxiolytics, later changed to antidepressants and hypnotics.",
+          "He was diagnosed to be suffering from PTSD with a differential diagnosis of depression."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "anxiety",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to concentrate when driving",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "episodic anxiety and restlessness affecting his work performance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intense fear with a sense of reliving the experience when driving in busy traffic or approaching the place where the accident happened",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depression (differential diagnosis)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Consultation with private psychiatrist Dr Kwan Ka Lik, Felix",
+      "Prescribed anxiolytics, later changed to antidepressants and hypnotics",
+      "Drug treatment and counselling from occupational therapist and clinical psychologist at Tuen Mun Mental Health Clinic",
+      "Referral to government psychiatric outpatient clinic (Tuen Mun Mental Health Clinic)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 98,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "PSLA for psychiatric condition (PTSD) assessed as mild; awarded HK$50,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Hung Chor Chuen v Pang Koon Wai and others",
+        "neutral_citation": "HCPI 294/2003",
+        "action_number": null,
+        "injury_description": "PTSD (pure psychiatric damages)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9454,
+      "output_tokens": 3465,
+      "reasoning_tokens": 2496,
+      "total_tokens": 12919
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26745.178773999214,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9454,
+      "output_tokens": 3465,
+      "reasoning_tokens": 2496,
+      "total_tokens": 12919
+    },
+    "total_duration_ms": 26745.178773999214
+  }
+}

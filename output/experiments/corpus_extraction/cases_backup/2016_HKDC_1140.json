@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 1140",
+    "action_number": "DCPI 227/2013",
+    "case_name": "WONG CHAU WAN v. INCORPORATED OWNERS OF NOS 11 12 CANAL ROAD WEST, HONG KONG",
+    "judgment_date": "2016-09-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Majority shareholder of Ka Wan (International) Properties Limited; carried on her property agency business (proprietor of a property agency)",
+    "occupation_after": "Resigned from her job in October 2013",
+    "expected_occupation_after": null,
+    "salary_before": 42600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": "neck / spine",
+        "laterality": null,
+        "source": [
+          "there was nothing but soft tissue injury to the plaintiff.",
+          "Dr Lam ... accepts that the injury to the plaintiff was no more than soft tissue injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and numbness in the neck, right hand and right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to sit, stand or walk for more than 15 or 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "afraid of going out alone and sometimes feel anxious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to bend forward",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "complained about pain and numbness in the head, neck right elbow, right hip and right knee (A&E report)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "attendance at Accident and Emergency",
+      "pain-killers and analgesic balm",
+      "various private practitioners",
+      "chiropractor",
+      "Chinese medicine practitioner"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 172,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from soft tissue injury (award for PSLA)",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11232,
+      "output_tokens": 2654,
+      "reasoning_tokens": 1792,
+      "total_tokens": 13886
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 23885.049004107714,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11232,
+      "output_tokens": 2654,
+      "reasoning_tokens": 1792,
+      "total_tokens": 13886
+    },
+    "total_duration_ms": 23885.049004107714
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "neutral_citation": "[2001] HKCFI 567",
+    "action_number": "HCPI 818/1998",
+    "case_name": "HARVEY KENNETH v. WELLTEX INTERNATIONAL DEVELOPMENTAL LTD. AND ANOTHER",
+    "judgment_date": "2001-03-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": null,
+    "occupation_before": "carpenter (shuttering carpenter)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 36049.0,
+    "salary_after": null,
+    "expected_salary_after": 12000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compound fracture of the right zygoma and maxilla; severe fracture of the facial bones on the right side",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": "right",
+        "source": [
+          "it was discovered that he had suffered a compound fracture of the right zygoma and maxilla.",
+          "He had a severe fracture of the facial bones on the right side requiring extensive surgery and reconstruction and further surgery for removal of the plate a year later."
+        ],
+        "icd_code": "NA02.8",
+        "icd_description": "Multiple fractures involving skull or facial bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the posterior column of his right acetabulum",
+        "injury_type": "Residual disability",
+        "body_part": "right acetabulum (pelvis)",
+        "laterality": "right",
+        "source": [
+          "suffer a fracture of the posterior column of his right acetabulum",
+          "The fracture of his pelvis has united well without displacement and both Dr Lau Hoi Kuen and Dr Arthur Chiang report a full range of movement in the right hip with no abnormality seen on x-ray."
+        ],
+        "icd_code": "NB52.13",
+        "icd_description": "Fracture of acetabulum without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "deep laceration and a number of other lacerations and abrasions",
+        "injury_type": "Temporary injury",
+        "body_part": "face and other areas",
+        "laterality": null,
+        "source": [
+          "He did, however, without losing consciousness, suffer a fracture of the posterior column of his right acetabulum, extensive damage to the bones of his face, together with a deep laceration, and a number of other lacerations and abrasions.",
+          "The laceration was sutured"
+        ],
+        "icd_code": "NB52.13",
+        "icd_description": "Fracture of acetabulum without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "scarring: scarring on the face and a long noticeable surgical scar over the top of his head just behind the hairline; scar on his chest over the donor site for the bone graft",
+        "injury_type": "Permanent injury",
+        "body_part": "face, scalp, chest",
+        "laterality": null,
+        "source": [
+          "He now has some scarring on the face and a long noticeable surgical scar over the top of his head just behind the hairline. There is also a scar on his chest over the donor site for the bone graft."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain in his hip after prolonged walking or sitting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness in the muscles (hip)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "diplopia, double vision, in the right eye on upward extreme gaze",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain in the right side of his face with altered sensation and some mandibular dysfunction",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "post traumatic stress disorder (PTSD) and depression with low mood, sleep disturbance, social withdrawal, anxiety, flashbacks and avoidance of situations which reminded him of the accident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "fear of returning to the sort of work he did before; reluctance to work in similar conditions",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "laceration sutured",
+      "skin traction and bed rest for pelvic fracture",
+      "open reduction and reconstruction of facial bones using bone grafts from the ribs and titanium plates (operation on 7 November 1997)",
+      "removal of fixation plate (operation in October 1998)",
+      "regular follow up clinics",
+      "attendance at psychiatric clinic since February 1999"
+    ],
+    "treatments_future": [
+      "physiotherapy (20 sessions)",
+      "psychiatric treatment (private sector; median figure quoted by experts allowed)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain suffering and loss of amenities",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15270,
+      "output_tokens": 7111,
+      "reasoning_tokens": 5760,
+      "total_tokens": 22381
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33218.96120533347,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15270,
+      "output_tokens": 7111,
+      "reasoning_tokens": 5760,
+      "total_tokens": 22381
+    },
+    "total_duration_ms": 33218.96120533347
+  }
+}

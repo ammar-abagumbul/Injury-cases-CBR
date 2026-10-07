@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "neutral_citation": "[1975] HKCFI 14",
+    "action_number": "HCA001269/1974",
+    "case_name": "FU YUK-MING v. LEE FOOK-CHOI AND ANOTHER",
+    "judgment_date": "1975-03-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 14,
+    "age_at_trial": 17,
+    "occupation_before": "secondary school student",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "secondary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "A fracture of the base of the skull with intracerebral haematoma",
+        "injury_type": "Permanent injury",
+        "body_part": "skull/brain",
+        "laterality": null,
+        "source": [
+          "A fracture of the base of the skull with intracerebral haematoma"
+        ],
+        "icd_code": "NA07.1",
+        "icd_description": "Traumatic intracerebral haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "A fracture of the shaft to the left femur",
+        "injury_type": "Residual disability",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "A fracture of the shaft to the left femur"
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "A fracture and dislocation of the right elbow",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "A fracture and dislocation of the right elbow"
+        ],
+        "icd_code": "NC3Y",
+        "icd_description": "Other specified injuries to the elbow or forearm"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "A degloved injury of the right ankle (dorsum of the right foot skin stripped off, lower end of the fibula and the cuneiform bones peeled off and crushed)",
+        "injury_type": "Residual disability",
+        "body_part": "right ankle / right foot",
+        "laterality": "right",
+        "source": [
+          "He had a degloved injury of the dorsum of the right foot in that the skin was stripped off an area of 7\" x 4\". The lower end of the fibula and the cuneiform bones were peeled off and crushed.",
+          "A degloved injury of the right ankle"
+        ],
+        "icd_code": "ND18.0",
+        "icd_description": "Crushing injury of ankle"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Laceration of the left cornea with resulting corneal scarring",
+        "injury_type": "Residual disability",
+        "body_part": "left cornea/left eye",
+        "laterality": "left",
+        "source": [
+          "Laceration of the left cornea",
+          "He has at present corneal scarring on the lower 1/3 of the cornea."
+        ],
+        "icd_code": "NA06.8D",
+        "icd_description": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Paralysis of the right third cranial nerve resulting in a divergent squint; extensive brain damage causing partial spastic paralysis and epilepsy",
+        "injury_type": "Permanent injury",
+        "body_part": "cranial nerve / brain / right arm and leg",
+        "laterality": "right",
+        "source": [
+          "The brain injury caused a nerve palsy resulting in a divergent squint in the right eye.",
+          "Dr. Wedderburn found that he had extensive brain damage affecting his memory and intellect and causing a partial spastic paralysis of the right leg and arm.",
+          "The brain injury, he found, had given rise to a form of epilepsy."
+        ],
+        "icd_code": "NA07.33",
+        "icd_description": "Diffuse injury of multiple parts of brain"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Extensive brain damage affecting his memory and intellect",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Partial spastic paralysis of the right leg and arm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "A form of epilepsy arising from the brain injury (has minor attacks and may wet his clothes)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Paralysis of the right third cranial nerve with resultant divergent squint and impairment of vision",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Corneal scarring on the lower 1/3 of the cornea",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Multiple vision requiring the wearing of an eye patch",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Clumsiness of both hands",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Some stiffness of movement of healed fractures",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Requires a stick and the assistance of another person in order to walk",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Marked impairment in memory and intelligence; mental dullness",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Needs to be told to pass urine; when he fails to remember a minor attack of epilepsy results causing incontinence",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Cannot put food in the bowl; needs food to be handed to him",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain from the scar left by a tracheotomy",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "He will need continuous attention and substantial help from others to cope with daily life",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced expectation of life to about the age of 35 or 40",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "carotid angiogram",
+      "brain operation to remove the haematoma",
+      "temporal paramedian tarsorrhaphy (stitching of the eyelids)",
+      "extensive skin grafting",
+      "skeletal traction for the left femur",
+      "tracheotomy",
+      "extensive blood transfusions"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 355,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Deprived of almost all that gives joy to life - of the sports natural to a youth",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "Deprived of all intellectual endeavour and inability to pursue normal education and studies",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Deprived of all normal social activity and the company of boys and girls of his own age",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "Deprived of all prospects of a happy marriage",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Will never be in a position to work; earning capacity is nil",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Corneal scarring on the lower 1/3 of the cornea and scars from surgery (including tracheotomy and grafting)",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Needs continuous attention and substantial help from others to cope with daily life",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Requires a stick and assistance of another person in order to walk",
+        "caused_by_injury_id": "inj_006"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "KWAN Yuk-lau v. KANG Sing-ho",
+        "neutral_citation": null,
+        "action_number": "O.J.A. 718 of 1970",
+        "injury_description": "A woman in her mid thirties rendered incapable of further work; rendered a simpleton; could not get about unaided; symptoms suggesting epilepsy",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "NG Kam v. TSANG Tak-kuen & Another",
+        "neutral_citation": null,
+        "action_number": "O.J.A. 232/71",
+        "injury_description": "A man of 48 who suffered head injuries and sundry abrasions and fractured ribs; virtually a human wreck with personality change and occasional incontinence requiring constant attention",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 130000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22070,
+      "output_tokens": 10414,
+      "reasoning_tokens": 7488,
+      "total_tokens": 32484
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54355.5471226573,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22070,
+      "output_tokens": 10414,
+      "reasoning_tokens": 7488,
+      "total_tokens": 32484
+    },
+    "total_duration_ms": 54355.5471226573
+  }
+}

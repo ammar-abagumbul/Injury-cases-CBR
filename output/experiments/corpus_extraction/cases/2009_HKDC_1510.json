@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKDC 1510",
+    "action_number": "DCCJ 3385/2008",
+    "case_name": "LIBERTY INTERNATIONAL INSURANCE LTD v. YEUNG CHI KONG",
+    "judgment_date": "2009-08-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sustained multiple abrasions on both knees and right ankle regions",
+        "injury_type": "Temporary injury",
+        "body_part": "both knees and right ankle",
+        "laterality": null,
+        "source": [
+          "sustained multiple abrasions on both knees and right ankle regions"
+        ],
+        "icd_code": "NC90.4",
+        "icd_description": "Multiple superficial injuries of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "multiple abrasions on both knees and right ankle regions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "15 days sick leave (from 30 December 2006 to 13 January 2007)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 15,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 8412,
+      "output_tokens": 3392,
+      "reasoning_tokens": 2752,
+      "total_tokens": 11804
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26386.827636510134,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 8412,
+      "output_tokens": 3392,
+      "reasoning_tokens": 2752,
+      "total_tokens": 11804
+    },
+    "total_duration_ms": 26386.827636510134
+  }
+}

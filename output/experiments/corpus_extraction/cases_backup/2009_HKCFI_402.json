@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "neutral_citation": "[2009] HKCFI 402",
+    "action_number": "HCPI 26/2006",
+    "case_name": "LO WAI YIN v. LI CHUN KOU",
+    "judgment_date": "2009-05-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 30,
+    "age_at_trial": 36,
+    "occupation_before": "sales and financial executive",
+    "occupation_after": "day supervisor (private club) and office assistant (trading firm) (two part-time jobs)",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 7900.0,
+    "expected_salary_after": null,
+    "education_level": "undergraduate degree in business (accounting) from the University of Central Queensland, Australia"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Miss Lo suffered a fracture right ilium (the upper pelvic bone). Operation by open reduction and internal fixation by screws was performed 6 days after the operation on 17 January 2003.",
+        "injury_type": "Residual disability",
+        "body_part": "right ilium",
+        "laterality": "right",
+        "source": [
+          "Miss Lo suffered a fracture right ilium (the upper pelvic bone). Operation by open reduction and internal fixation by screws was performed 6 days after the operation on 17 January 2003."
+        ],
+        "icd_code": "NB52.12",
+        "icd_description": "Fracture of ilium without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Post-traumatic stress and adjustment disorder with depressed symptoms as the result of the accident (psychiatric conditions)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "In his report, Dr. Lai found that Miss Lo suffered from two psychiatric conditions \t6 post-traumatic stress and adjustment disorder with depressed symptoms as the result of the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "The two operations have left Miss Lo with a C-shaped, 15-cm long scare on her right buttock.",
+        "injury_type": "Permanent injury",
+        "body_part": "right buttock",
+        "laterality": "right",
+        "source": [
+          "The two operations have left Miss Lo with a C-shaped, 15-cm long scare on her right buttock.",
+          "According to Dr. Lam\u0002s letter dated 23 December 2008 (which documents the findings of the examination in 2006), Miss Lo was found to have \" a buttock scar of 14.5 cm, which showed signs of widening, thickening and obvious stitch marks. There was presence of soft tissue depression in the scar region as well.\""
+        ],
+        "icd_code": "NB50.Y",
+        "icd_description": "Other specified superficial injury of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "soreness over the right side of her buttock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "weakness on the right leg",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limitation of movement on the right hip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness at the scar over the right posterior ilium",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild anxiety and depression (residual symptoms)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "sleeping problems / insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "avoidance of sex due to pain during sex",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "visible surgical scar at the posterior pelvis area",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to Accident and Emergency Department of Pamela Youde Nethersole Eastern Hospital",
+      "open reduction and internal fixation by screws (surgical fixation)",
+      "one week of physiotherapy at the Hospital",
+      "three follow-up sessions at the Hospital after discharge",
+      "private orthopaedic consultations with Dr. Fang (11 June 2003, 20 October 2003, 16 February 2005 and further consultations up to January 2008)",
+      "physiotherapist treatments (total about 5 times between June 2003 and second operation)",
+      "osteopathic, chiropractic and acupuncture treatments in Australia (about 8 times between January 2004 to October 2005)",
+      "second operation to remove the metal screws on 21 June 2006 by Dr. Fang",
+      "another 4 consultations with Dr. Fang up to January 2008 and 20 private physiotherapy sessions up to August 2008",
+      "consultation with government clinical psychologist (Miss Liu) on 26 May 2003",
+      "27 sessions of psychiatric treatment with Dr. Lai from 25 September 2006 up till August 2008",
+      "one 3-hour counseling session with the Mental Health Association of Hong Kong in December 2006",
+      "consultation with plastic surgeon Dr. Lam Lai Kan on 14 September 2006"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 216,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain, limitation of movement and weakness following fracture of right ilium",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "C-shaped, 15-cm long scar on right buttock which had become thicker and wider with soft tissue depression",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Avoidance of sex and decreased sex drive resulting from pain during sex after the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Breakdown of marriage which the judge found the accident contributed to and which was to be taken into account in assessing PSLA",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Suen Kum Fung Kandy v Tsang Cham Kuen & Anor.",
+        "neutral_citation": "[2009] 1 HKC 195",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Thelma G. Chavez v Fong Ka Yiu, Frank",
+        "neutral_citation": null,
+        "action_number": "HCPI 570 & 666 of 1999",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsui Nga Yee v Chan Ying Yin",
+        "neutral_citation": null,
+        "action_number": "HCPI 1100 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26732,
+      "output_tokens": 6784,
+      "reasoning_tokens": 5056,
+      "total_tokens": 33516
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 56970.78146785498,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26732,
+      "output_tokens": 6784,
+      "reasoning_tokens": 5056,
+      "total_tokens": 33516
+    },
+    "total_duration_ms": 56970.78146785498
+  }
+}

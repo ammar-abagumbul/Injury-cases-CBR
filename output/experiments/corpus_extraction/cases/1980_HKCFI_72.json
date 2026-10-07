@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 72",
+    "action_number": "HCA000885/1980",
+    "case_name": "BERTA MARGARETE IRMGARD LAWRENCE v. CHINA MOTOR BUS CO LTD AND ANOTHER",
+    "judgment_date": "1980-10-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 62,
+    "age_at_trial": null,
+    "occupation_before": "part-time teacher at the Goethe Institute",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 440.4,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a wedge compression fracture of lumbar 3 vertebra with local tenderness over the fractured vertebral level.",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar 3 vertebra",
+        "laterality": null,
+        "source": [
+          "she sustained a wedge compression fracture of lumbar 3 vertebra with local tenderness over the fractured vertebral level."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "degenerative disc disease in the lumbar spine",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff's X rays showed that she suffered from degenerative disc disease in the lumbar spine"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "some indications of asteoporosis",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff's X rays showed that she suffered from ... some indications of asteoporosis"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "local tenderness over the fractured vertebral level",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent back pain especially when under stress",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "not able to remain upright for more than 4 hours",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could move about with 2 sticks; had to use a stick or umbrella for support except when her husband is there to support her",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "spent most of her time lying down; could not be up for more than 2 hours without lying down otherwise she would suffer unbearable pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "physiotherapy"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 18,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "She had to give up ... golf.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "had to give up ... all social activities in 1978.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "had to give up her part-time teaching at the Goethe Institute",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "could move about with 2 sticks; throughout 1978 she could not be up for more than 2 hours without lying down otherwise she would suffer unbearable pain.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Because of her injury she was unable to do [housework] without the help of the part-time amah.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10317,
+      "output_tokens": 4975,
+      "reasoning_tokens": 3648,
+      "total_tokens": 15292
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28534.059911966324,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10317,
+      "output_tokens": 4975,
+      "reasoning_tokens": 3648,
+      "total_tokens": 15292
+    },
+    "total_duration_ms": 28534.059911966324
+  }
+}

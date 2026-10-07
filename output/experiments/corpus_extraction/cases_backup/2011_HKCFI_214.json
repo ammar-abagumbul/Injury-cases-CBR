@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKCFI 214",
+    "action_number": "HCPI 832/2009",
+    "case_name": "SHIH PIK NOG v. G2000 (APPAREL)",
+    "judgment_date": "2011-03-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 32,
+    "age_at_trial": null,
+    "occupation_before": "shop manageress",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 20243.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of the lower back",
+        "injury_type": "Temporary injury",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Dr Chiang concluded that the plaintiff had suffered either a soft tissue injury of the lower back or prolapse of a lower lumbar disc with the latter being the “more likely” and that “a L5/S1 disc proplase was quite likely to have sustained from the injury”. He opined that it would have a good chance of improving with conservative treatment."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "prolapse of a lower lumbar disc (L5/S1 disc prolapse)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "Dr Chiang concluded that the plaintiff had suffered either a soft tissue injury of the lower back or prolapse of a lower lumbar disc with the latter being the “more likely” and that “a L5/S1 disc proplase was quite likely to have sustained from the injury”. He opined that it would have a good chance of improving with conservative treatment."
+        ],
+        "icd_code": "NB9Y",
+        "icd_description": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild adjustment disorder with depressed mood",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr Wong believed her responses were indicative of exaggeration of mental symptoms. He considered her to be suffering from mild adjustment disorder with depressed mood as a result of the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "experiencing pain in her lower back",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "unable to complete her work that day",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "localized tenderness on examination",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "alleged pain radiating symptoms",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "walked to and from the witness box very slowly",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "became distressed at times and appeared to be in pain from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "depressed mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "impairment between Class 1 (no impairment) and Class 2 (mild impairment), closer to Class 1 than 2",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "conservative treatment (recommended by Dr Chiang)",
+      "orthopaedic assessment and imaging",
+      "psychiatric assessment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11195,
+      "output_tokens": 5794,
+      "reasoning_tokens": 4544,
+      "total_tokens": 16989
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38133.32052528858,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11195,
+      "output_tokens": 5794,
+      "reasoning_tokens": 4544,
+      "total_tokens": 16989
+    },
+    "total_duration_ms": 38133.32052528858
+  }
+}

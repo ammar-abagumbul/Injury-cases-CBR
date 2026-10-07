@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 543",
+    "action_number": "HCPI 852/1999 and 853/1999",
+    "case_name": "HO YING WAI v. KELISTON MARINE (FAR EAST) LTD. AND ANOTHER",
+    "judgment_date": "2002-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 39,
+    "occupation_before": "Commercial diver",
+    "occupation_after": "Working for his brother (non-diving work)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 8500.0,
+    "expected_salary_after": 7500.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Left pneumothorax (1990)",
+        "injury_type": "Temporary injury",
+        "body_part": "left lung",
+        "laterality": "left",
+        "source": [
+          "The History and Clinical findings clearly record a diagnosis of left pneumothorax."
+        ],
+        "icd_code": "NB32.0",
+        "icd_description": "Traumatic pneumothorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Pneumothorax (admission 5 August 1996) with surgical treatment",
+        "injury_type": "Residual disability",
+        "body_part": "right lung",
+        "laterality": "right",
+        "source": [
+          "The Admission diagnosis was \"Pneumothorax\". X-ray findings showed a right-sided pneumothorax."
+        ],
+        "icd_code": "NB32.0",
+        "icd_description": "Traumatic pneumothorax"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Blebs/bullae in lungs (chronic blebs shown on CT scan of 1999)",
+        "injury_type": "Permanent injury",
+        "body_part": "lungs",
+        "laterality": "bilateral",
+        "source": [
+          "\"I am sure Mr Ho has blebs in his lungs since 1990 when he had the first rupture of one of the blebs. These blebs are shown in his lungs beyond any doubt on the C T Scan of 1999.\""
+        ],
+        "icd_code": "NB32",
+        "icd_description": "Injury of other or unspecified intrathoracic organs"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The pneumothorax which he suffered in August 1996 has left him substantially incapacitated",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He suffers as a consequence from some shortness of breath",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He has a degree of permanent pain or discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He was an in-patient for over three weeks and underwent surgery on two occasions.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He is however still at risk of a pneumothorax recurrence on the left side if he were to be involved in heavy lifting or substantial exertion.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "He was an in-patient for over three weeks and underwent surgery on two occasions.",
+      "He was admitted on 19 October and discharged on 22 October."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 14,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenity awarded $300,000",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26078,
+      "output_tokens": 6643,
+      "reasoning_tokens": 5376,
+      "total_tokens": 32721
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43629.41136956215,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26078,
+      "output_tokens": 6643,
+      "reasoning_tokens": 5376,
+      "total_tokens": 32721
+    },
+    "total_duration_ms": 43629.41136956215
+  }
+}

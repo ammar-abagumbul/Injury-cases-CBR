@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 68",
+    "action_number": "DCPI 433/2010",
+    "case_name": "TANGARORANG JESSAMIE MENDREZ v. CHAN CHAU WING",
+    "judgment_date": "2013-01-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "domestic helper",
+    "occupation_after": "domestic helper",
+    "expected_occupation_after": null,
+    "salary_before": 3480.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post-traumatic stress disorder (PTSD)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr Wong opined that as a result of the assaults, TJM suffered from post-traumatic stress disorder (PTSD)."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "very strong fear; depressed and hopeless",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "quick heart beat (palpitation) and body tremor",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "flashbacks of the incidents",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to sleep; would wake up from time to time",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to concentrate at work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mentally and physically exhausted",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "self‑harm (cutting her left wrist) when very depressed and fearful",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "episodes of panic: panicky with strong palpitation, breathing fast and body shook",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "continued vigilance when going out; keeping a lookout for any Chinese man that resembles Chan; feeling scared and cold hands when seeing one",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "vulnerability to future stressors and compromised quality of life (e.g. courtship and marriage)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "assessment by psychiatrist Dr Wong Chung Kwong (examinations on 15 December 2009 and 15 March 2010)"
+    ],
+    "treatments_future": [
+      "psychiatric medication",
+      "psychotherapy (1 year course: weekly 1-hour sessions first month; fortnightly 1-hour sessions next 3 months; monthly 1-hour sessions remaining 8 months)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "continued vigilance when going out; keeping a lookout for any Chinese man that resembles Chan; fear, palpitation and cold hands when seeing such a person",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of marriage prospects",
+        "description": "compromised quality of life such as courtship and marriage",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 140000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Re O (a minor)",
+        "neutral_citation": "[1997] CLY 1865",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Re SJY",
+        "neutral_citation": "[1998] CLY 1517",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Luk Sung Fei Veronica v Chau Chung Shun & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 392/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11034,
+      "output_tokens": 3924,
+      "reasoning_tokens": 2880,
+      "total_tokens": 14958
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34177.91525647044,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11034,
+      "output_tokens": 3924,
+      "reasoning_tokens": 2880,
+      "total_tokens": 14958
+    },
+    "total_duration_ms": 34177.91525647044
+  }
+}

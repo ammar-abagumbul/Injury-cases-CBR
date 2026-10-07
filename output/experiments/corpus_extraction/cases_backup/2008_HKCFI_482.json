@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "neutral_citation": "[2008] HKCFI 482",
+    "action_number": "HCPI 270/2007",
+    "case_name": "MA KIM SING v. URBAN PROPERTY MANAGEMENT LTD AND ANOTHER",
+    "judgment_date": "2008-06-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "security officer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion and soft tissue injury to his back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "Both the orthopaedic experts agreed that he had a contusion and soft tissue injury to his back."
+        ],
+        "icd_code": "NB94.Y",
+        "icd_description": "Other specified injury of muscle, fascia or tendon of abdomen, lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "whatever pains he was still suffering from were just normal pains and aches one would encounter when one progressed in life",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "suffering generally from a psychiatric condition relating to his physical condition as well as other daily problem such as financial worries, etc.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to resume the pre-accident work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Tam Fu Yip Fip v Sincere Engineering & Trading Co Ltd",
+        "neutral_citation": null,
+        "action_number": "CACV 208/2007",
+        "injury_description": "trial judge faced the similar opposed opinions of doctors as to the length of the sick leave",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 7669,
+      "output_tokens": 3164,
+      "reasoning_tokens": 2560,
+      "total_tokens": 10833
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26547.902584075928,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 7669,
+      "output_tokens": 3164,
+      "reasoning_tokens": 2560,
+      "total_tokens": 10833
+    },
+    "total_duration_ms": 26547.902584075928
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 416",
+    "action_number": "HCA 3551/1981",
+    "case_name": "MA CHI FU v. LAW TIT WING AND ANOTHER",
+    "judgment_date": "1986-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 50,
+    "age_at_trial": null,
+    "occupation_before": "night watchman",
+    "occupation_after": "assisting his wife in running a small stall",
+    "expected_occupation_after": null,
+    "salary_before": 750.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compression fracture of the second segment of the lumbar spine (L2)",
+        "injury_type": "Residual disability",
+        "body_part": "second segment of the lumbar spine (L2)",
+        "laterality": null,
+        "source": [
+          "X-ray examination disclosed a compression fracture of the second segment of the lumbar spine."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "sliding dis-location (spondylolisthesis) of L5 and S1",
+        "injury_type": "Residual disability",
+        "body_part": "L5-S1 (lower back)",
+        "laterality": null,
+        "source": [
+          "The fracture of 2nd lumbar vertebra (L2) has remained unchanged. The new finding is the sliding dis - location of L5 and S1."
+        ],
+        "icd_code": "NB53.1",
+        "icd_description": "Dislocation of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain over the back persisting up to the present; the pain is mild and is aggravated by prolonged standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "A small degree of forward curvature of the back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Structural weakness of the back at the site of the fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Tenderness over that segment (L2)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Would not be fit for work which required constant bending, regular carrying of heavy weights or negotiating steep slopes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "admitted to the Tang Shiu Kin Hospital",
+      "X-ray examination",
+      "discharged after 10 days",
+      "sick leave",
+      "medical examinations by Dr. Edmund M. T. Cheung and Dr. Wedderburn"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 10,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "General damages for pain, suffering and loss of amenities and earning capacity",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Yee-yuen v. Tam Wing-keung & anor.",
+        "neutral_citation": null,
+        "action_number": "HCA No. 9964 of 1982",
+        "injury_description": "whiplash injury; had to wear a surgical collar for a year",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 35000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10202,
+      "output_tokens": 5039,
+      "reasoning_tokens": 3840,
+      "total_tokens": 15241
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29408.258508890867,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10202,
+      "output_tokens": 5039,
+      "reasoning_tokens": 3840,
+      "total_tokens": 15241
+    },
+    "total_duration_ms": 29408.258508890867
+  }
+}

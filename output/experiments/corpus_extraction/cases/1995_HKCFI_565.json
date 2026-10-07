@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 565",
+    "action_number": "HCPI000167/1994",
+    "case_name": "LAM CHI FAT v. SO KAM SUI, KENNETH AND ANOTHER",
+    "judgment_date": "1995-10-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 43,
+    "occupation_before": "painter",
+    "occupation_after": "labourer",
+    "expected_occupation_after": "general labouring work",
+    "salary_before": 11960.0,
+    "salary_after": 8320.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fracture of the left wrist (ulnar styloid) with associated damage to the triangular fibro-cartilage complex (TFCC)",
+        "injury_type": "Permanent injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Dr. Chiang therefore x-rayed the plaintiff's left wrist, revealing a fracture which he said was likely to have been caused in the accident.",
+          "this fracture was unlikely to unite because of an associated injury to a cartilage structure close to the fractured bone - the ulnar styloid. The area of this cartilage system, known together with the ulnar styloid as the triangular fibro-cartilage complex or TFCC, was described by Dr. Chiang as one of the most difficult in orthopaedic surgery.",
+          "Dr. Chiang assessed the permanent impairment of the plaintiff's left wrist at 8%."
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fractured rib (as described in Employees' Compensation Assessment Board certificates)",
+        "injury_type": "Temporary injury",
+        "body_part": "rib / chest wall",
+        "laterality": null,
+        "source": [
+          "The certificates in either case described the injuries as a fractured rib with left wrist injury and pain.",
+          "tenderness to the chest wall"
+        ],
+        "icd_code": "NA82.3",
+        "icd_description": "Fracture of rib"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Abrasions to the right leg",
+        "injury_type": "Temporary injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "tenderness to the chest wall and left wrist and abrasions to the right leg."
+        ],
+        "icd_code": "NC90.2",
+        "icd_description": "Abrasion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and weakness in the left wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in his hand which prevented him holding onto scaffolding",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not hold a bowl of soup for long without needing to put it down",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "relatively small loss of power in the grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanent impairment of the plaintiff's left wrist at 8%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness to the chest wall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "abrasions to the right leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to return to his former employment as a painter",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "2 days hospital admission",
+      "brace for arm",
+      "Accident and Emergency outpatient treatment",
+      "physiotherapy at South Kwai Chung Polyclinic",
+      "private consultations with Dr. Yung Sui Lan",
+      "x-rays",
+      "orthopaedic assessment by Dr. Arthur Chiang"
+    ],
+    "treatments_future": [
+      "operations available but not advisable for the plaintiff"
+    ],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 142,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent impairment of the plaintiff's left wrist assessed at 8% with a relatively small loss of power in the grip",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to enjoy food and drink",
+        "description": "Could not hold a bowl of soup for long without needing to put it down",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to his former employment as a painter",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsang Yuk Ming v. Choi Wing Hing",
+        "neutral_citation": "[1991] 2 HKC 322",
+        "action_number": null,
+        "injury_description": "Although the injuries were occasioned by a similar type of accident, the injuries themselves were rather more serious in their long term implications",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "A.G. v. Chun Yat Nam",
+        "neutral_citation": "[1995] 1 HKC 218",
+        "action_number": null,
+        "injury_description": "Referenced regarding the raising of the serious injury threshold to $250,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11999,
+      "output_tokens": 7194,
+      "reasoning_tokens": 5760,
+      "total_tokens": 19193
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39256.07555732131,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11999,
+      "output_tokens": 7194,
+      "reasoning_tokens": 5760,
+      "total_tokens": 19193
+    },
+    "total_duration_ms": 39256.07555732131
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "summary": {
+    "cases_audited": 1480,
+    "flagged_cases": 1443,
+    "clean_cases": 37,
+    "injuries": 4587,
+    "null_icd": 644,
+    "coarse_icd": 963,
+    "stopped_early": 247,
+    "not_in_tree": 2
+  },
+  "flag_counts": {
+    "RED_FLAG_NULL_MEDIUM": 898,
+    "COARSE_ICD_NODE": 651,
+    "INJURY_MULTI_BODY_PART": 630,
+    "NO_COMPARABLE": 538,
+    "RED_FLAG_NULL": 512,
+    "NULL_RATIO_HIGH": 507,
+    "UNLINKED_MANIFESTATION": 482,
+    "PSYCH_DETECTED": 331,
+    "UNLINKED_LOSS": 277,
+    "NULL_ICD_OTHER": 219,
+    "ICD_STOPPED_EARLY": 207,
+    "NULL_ICD_PSYCH": 155,
+    "NO_PSLA_AMOUNT": 142,
+    "TREATMENT_CONTAMINATED": 124,
+    "ZERO_LOSSES": 109,
+    "NULL_ICD_PREEXISTING": 107,
+    "MULTI_PLAINTIFF": 97,
+    "ZERO_INJURIES": 57,
+    "NULL_ICD_SYMPTOM": 54,
+    "SOURCE_NOISE": 35,
+    "NULL_ICD_BURN": 26,
+    "PREEXISTING_METADATA_MISMATCH": 16,
+    "PSYCH_NO_PERSONALITY_CHANGE_LOSS": 7,
+    "ICD_CODE_NOT_IN_TREE": 1
+  },
+  "null_icd_bucket_counts": {
+    "other": 268,
+    "psych": 177,
+    "preexisting": 112,
+    "symptom": 56,
+    "burn": 31
+  },
+  "config": {
+    "coarse_nodes": 128,
+    "red_flag_fields": 10,
+    "psych_keywords": 47,
+    "null_ratio_threshold": 0.5
+  },
+  "worst_cases": [
+    {
+      "output_json": "1984_UKPC_49.json",
+      "priority": 59,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "SOURCE_NOISE",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "1989_HKCFI_191.json",
+      "priority": 55,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ICD_STOPPED_EARLY",
+        "INJURY_MULTI_BODY_PART",
+        "NULL_ICD_SYMPTOM",
+        "NULL_ICD_OTHER",
+        "COARSE_ICD_NODE",
+        "NULL_ICD_PSYCH",
+        "PSYCH_DETECTED",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2006_HKCFI_94.json",
+      "priority": 53,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "COARSE_ICD_NODE",
+        "INJURY_MULTI_BODY_PART",
+        "NULL_ICD_OTHER",
+        "UNLINKED_MANIFESTATION",
+        "TREATMENT_CONTAMINATED",
+        "ZERO_LOSSES"
+      ]
+    },
+    {
+      "output_json": "1997_HKCFI_766.json",
+      "priority": 52,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "COARSE_ICD_NODE",
+        "INJURY_MULTI_BODY_PART",
+        "ICD_STOPPED_EARLY",
+        "UNLINKED_MANIFESTATION",
+        "ZERO_LOSSES",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "2009_HKCFI_2062.json",
+      "priority": 52,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_LOSS",
+        "SOURCE_NOISE",
+        "ZERO_INJURIES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "2016_HKDC_984.json",
+      "priority": 52,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "COARSE_ICD_NODE",
+        "NULL_ICD_PSYCH",
+        "NULL_ICD_OTHER",
+        "UNLINKED_MANIFESTATION",
+        "SOURCE_NOISE",
+        "PSYCH_DETECTED",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "2016_HKDC_1425.json",
+      "priority": 50,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_LOSS",
+        "SOURCE_NOISE",
+        "ZERO_INJURIES",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2017_HKDC_727.json",
+      "priority": 50,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "COARSE_ICD_NODE",
+        "SOURCE_NOISE",
+        "PSYCH_DETECTED",
+        "PSYCH_NO_PERSONALITY_CHANGE_LOSS"
+      ]
+    },
+    {
+      "output_json": "2006_HKDC_194.json",
+      "priority": 49,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ICD_STOPPED_EARLY",
+        "NULL_ICD_SYMPTOM",
+        "UNLINKED_MANIFESTATION",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "2008_HKCFI_460.json",
+      "priority": 48,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_MANIFESTATION",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2008_HKCFI_748.json",
+      "priority": 48,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ICD_STOPPED_EARLY",
+        "INJURY_MULTI_BODY_PART",
+        "COARSE_ICD_NODE",
+        "TREATMENT_CONTAMINATED",
+        "PSYCH_DETECTED"
+      ]
+    },
+    {
+      "output_json": "2014_HKCFI_180.json",
+      "priority": 48,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_MANIFESTATION",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "1984_HKCA_201.json",
+      "priority": 47,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "2009_HKDC_245.json",
+      "priority": 47,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_MANIFESTATION",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2011_HKCFI_484.json",
+      "priority": 47,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_MANIFESTATION",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2014_HKCFI_2156.json",
+      "priority": 47,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "2014_HKDC_1045.json",
+      "priority": 47,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_MANIFESTATION",
+        "UNLINKED_LOSS",
+        "TREATMENT_CONTAMINATED",
+        "ZERO_INJURIES",
+        "NO_PSLA_AMOUNT"
+      ]
+    },
+    {
+      "output_json": "2019_HKDC_377.json",
+      "priority": 47,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE",
+        "MULTI_PLAINTIFF"
+      ]
+    },
+    {
+      "output_json": "1986_HKCFI_415.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "NULL_RATIO_HIGH",
+        "NULL_ICD_OTHER",
+        "INJURY_MULTI_BODY_PART",
+        "ICD_STOPPED_EARLY",
+        "NULL_ICD_PSYCH",
+        "COARSE_ICD_NODE",
+        "UNLINKED_MANIFESTATION",
+        "UNLINKED_LOSS",
+        "PSYCH_DETECTED"
+      ]
+    },
+    {
+      "output_json": "2005_HKCFI_568.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "NULL_ICD_PREEXISTING",
+        "INJURY_MULTI_BODY_PART",
+        "COARSE_ICD_NODE",
+        "NULL_ICD_PSYCH",
+        "UNLINKED_MANIFESTATION",
+        "PSYCH_DETECTED",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2005_HKCFI_779.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2006_HKCFI_939.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "UNLINKED_LOSS",
+        "TREATMENT_CONTAMINATED",
+        "ZERO_INJURIES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2007_HKDC_123.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2007_HKDC_159.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    },
+    {
+      "output_json": "2008_HKDC_170.json",
+      "priority": 46,
+      "flags": [
+        "RED_FLAG_NULL",
+        "RED_FLAG_NULL_MEDIUM",
+        "NULL_RATIO_HIGH",
+        "ZERO_INJURIES",
+        "ZERO_LOSSES",
+        "NO_PSLA_AMOUNT",
+        "NO_COMPARABLE"
+      ]
+    }
+  ]
+}

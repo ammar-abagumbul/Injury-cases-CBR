@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[1981] HKCFI 3",
+    "action_number": "HCA004529/1979",
+    "case_name": "TO WAI BUN v. HON HING MANUFACTURING COMPANY LIMITED",
+    "judgment_date": "1981-12-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 45,
+    "age_at_trial": null,
+    "occupation_before": "moulding machine operator",
+    "occupation_after": "For four months employed as a cashier at a restaurant; thereafter employed as a casual worker earning between $500-600 per month",
+    "expected_occupation_after": null,
+    "salary_before": 1000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He lost the index and little fingers of his left hand.",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "He lost the index and little fingers of his left hand."
+        ],
+        "icd_code": "NC59.21",
+        "icd_description": "Traumatic amputation of two or more fingers at or near base, left hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "badly crushed hand",
+        "injury_type": "Permanent injury",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "I like to add that the attending surgeon has done a good job in repair of this badly crushed hand, and this present result is probably the best that can be achieved."
+        ],
+        "icd_code": "NC58.2",
+        "icd_description": "Crushing injury of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The left wrist is mobile, but the left palm relatively rigid, and is tender if pressure is applied.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The left thumb is fixed at the finger joints, but is mobile over the base of the thumb.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "It can touch the tip of the remaining 4th finger.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The tip of the shortened 4th finger is tender, and this will limit the force he can pinch and grip with the left hand.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Considerable pain and discomfort after the accident; pain in the left hand in February 1978 was directly attributed to the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Ugly disfigurement to the hand (cosmetic element affecting enjoyment of life).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "Debridement, surgical toilet. Reamputation of Index and Little Fingers. K-wire fixation of Middle Finger and Ring Finger.",
+      "Revision amputation of Middle Finger.",
+      "Rehabilitation with a course of physiotherapy afterwards.",
+      "Arthrodesis of PEP Joint of Middle Finger.",
+      "Excision of 2nd metacarpal head."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 600,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of index and little fingers of left hand and reduced pinch and grip strength.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Ugly disfigurement to the hand affecting enjoyment of life.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 65000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v. Leung Kam-ming",
+        "neutral_citation": "(1980) H.K.L.R. 657",
+        "action_number": null,
+        "injury_description": "Serious injury; general range of awards for pain, suffering and loss of amenities is from $60,000 to $80,000.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10531,
+      "output_tokens": 4301,
+      "reasoning_tokens": 2944,
+      "total_tokens": 14832
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26175.98331719637,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10531,
+      "output_tokens": 4301,
+      "reasoning_tokens": 2944,
+      "total_tokens": 14832
+    },
+    "total_duration_ms": 26175.98331719637
+  }
+}

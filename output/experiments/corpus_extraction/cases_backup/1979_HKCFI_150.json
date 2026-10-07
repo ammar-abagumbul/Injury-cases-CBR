@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[1979] HKCFI 150",
+    "action_number": "HCPI002997/1977",
+    "case_name": "YIP HOI KWAI v. YAU FOR CHOI",
+    "judgment_date": "1979-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "engineer by profession, specializing in welding and steel structure design",
+    "occupation_after": "employee at the Mass Transit Railway (obtained in July 1977)",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right femur",
+        "injury_type": "Temporary injury",
+        "body_part": "right femur",
+        "laterality": "right",
+        "source": [
+          "He was admitted to hospital and found to have a fracture of the right femur."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "two large operation scars on the outside of the plaintiff's right thigh",
+        "injury_type": "Residual disability",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "In addition, there are two large operation scars on the outside of the plaintiff's right thigh."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Slight limitation of the rotation of the right leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Slight limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Phobia towards motor cycles and to a certain extent towards other forms of transport",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Loss of concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Affected memory",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Cannot walk for a long period without feeling tired",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Two large operation scars on the outside of the plaintiff's right thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "Operation on 3rd January 1976 when the fracture was fixed with a long K-nail",
+      "Discharged from hospital on 23rd January 1976",
+      "Out-patient clinic attendance until June 1976",
+      "Use of crutches until October or November 1976",
+      "Re-admitted to hospital in December 1977 and operation performed to remove the nail on the 6th December 1977"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Slight limp and inability to walk for a long period without feeling tired",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Two large operation scars on the outside of the right thigh; scars will show when swimming or dressed in shorts",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Plaintiff can no longer participate in sports as actively as before",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Phobia towards motor cycles and to a certain extent towards other forms of transport",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Irritability, loss of concentration and affected memory",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Kwong v. Chan",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Award of $1,500 was for physical injuries only; no award for phobia under pain, suffering and loss of amenities",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 1500.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9227,
+      "output_tokens": 5685,
+      "reasoning_tokens": 4224,
+      "total_tokens": 14912
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34515.83943143487,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9227,
+      "output_tokens": 5685,
+      "reasoning_tokens": 4224,
+      "total_tokens": 14912
+    },
+    "total_duration_ms": 34515.83943143487
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "neutral_citation": "[1990] HKCFI 78",
+    "action_number": "HCA001582/1990",
+    "case_name": "LAM KWONG TING v. HO YAU YUEN AND ANOTHER",
+    "judgment_date": "1990-07-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "Junior carpenter (trained and qualified carpenter)",
+    "occupation_after": "Sales representative in an insurance company",
+    "expected_occupation_after": null,
+    "salary_before": 5482.5,
+    "salary_after": 6000.0,
+    "expected_salary_after": null,
+    "education_level": "Formal training run by the Vocational Training Council for carpentry, joinery and cabinet-making"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "He had a compound fracture of the left ankle.",
+        "injury_type": "Permanent injury",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "He had a compound fracture of the left ankle."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "There was a loss of skin of about 4 cm in diameter and the lower end of the left tibia and ankle joint were exposed.",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle / left lower leg",
+        "laterality": "left",
+        "source": [
+          "There was a loss of skin of about 4 cm in diameter and the lower end of the left tibia and ankle joint were exposed."
+        ],
+        "icd_code": "ND12.Y",
+        "icd_description": "Other specified open wound of ankle or foot"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "the medial malleolus had gone into non-union",
+        "injury_type": "Permanent injury",
+        "body_part": "medial malleolus (left)",
+        "laterality": "left",
+        "source": [
+          "it was discovered that the medial malleolus had gone into non-union"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "the ankle joint was complicated by post traumatic arthritis",
+        "injury_type": "Permanent injury",
+        "body_part": "left ankle joint",
+        "laterality": "left",
+        "source": [
+          "the ankle joint was complicated by post traumatic arthritis"
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "He suffered multiple lacerations and abrasions over both knees.",
+        "injury_type": "Residual disability",
+        "body_part": "both knees",
+        "laterality": "bilateral",
+        "source": [
+          "He suffered multiple lacerations and abrasions over both knees."
+        ],
+        "icd_code": "NC91.5",
+        "icd_description": "Multiple open wounds of lower leg"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "There is a slight muscle loss at the left calf.",
+        "injury_type": "Permanent injury",
+        "body_part": "left calf (muscle loss)",
+        "laterality": "left",
+        "source": [
+          "There is a slight muscle loss at the left calf."
+        ],
+        "icd_code": "NC96.1Y",
+        "icd_description": "Other specified injury of other muscle, fascia or tendon of posterior muscle group at lower leg level"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "He now has scars at the medial aspect of the ankle joint (about 3 x 5 cm), the lateral aspect of the left leg (about 14 cm), the donor site of the left thigh (about 8 x 5 cm) and some minor scars at the right knee.",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle; left leg; left thigh donor site; right knee (scars)",
+        "laterality": "bilateral",
+        "source": [
+          "He now has scars at the medial aspect of the ankle joint (about 3 x 5 cm), the lateral aspect of the left leg (about 14 cm), the donor site of the left thigh (about 8 x 5 cm) and some minor scars at the right knee."
+        ],
+        "icd_code": "NC90.4",
+        "icd_description": "Multiple superficial injuries of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He now has no dossiflexion or plantar flexion in his left foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the subtalar joint movement is reduced by 20%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Inversion is reduced by 30% with pain at the extremes and eversion is reduced by 30%, also with pain at the extremes.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has difficulty in squatting.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He experiences pain at the ankle after a long walk.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "If he gets up and starts to walk after having sat down for a long time, he will have a limp.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The skin over the right knee is 30% less efficient with scarring and keloid formation.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_007"
+      },
+      {
+        "description": "He used to play football but is no longer able to do so.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He has been assessed to have a 30% impairment of the left leg which is a 12% impairment of the whole man.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "There is a chance of osteoarthritis and this will increase the disability to 15% in about 20 years time.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "debridement and suturing of the wound (on the same day as admission)",
+      "Plaster of Paris applied",
+      "open reduction and internal fixation of the ankle fracture using a plate and K-wire",
+      "further debridement and skin grafting (22nd April, 1988)",
+      "removal of the transfixing screw (29th May, 1988)",
+      "physiotherapy follow-up",
+      "ankle joint fusion (24th August, 1989) (St. Theresa's Hospital)",
+      "use of wheelchair and crutches"
+    ],
+    "treatments_future": [
+      "anti-arthritis pain relief medication (likely as the years go by)",
+      "possible further operation for fusion of subtalar joint (40% likelihood in 20 years as opined by Dr. O'Donovan)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 5,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He used to play football but is no longer able to do so.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "No dorsiflexion or plantar flexion in left foot; reduced subtalar movement; reduced inversion and eversion with pain; difficulty in squatting; limp after sitting.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is now unable to continue his previous work as a skilled carpenter and it is most unlikely that he can resume his previous work in future.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scars at the medial aspect of the ankle joint, lateral aspect of the left leg, donor site of the left thigh and minor scars at the right knee with keloid formation.",
+        "caused_by_injury_id": "inj_007"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Long Ying v. Wong Chick Chung",
+        "neutral_citation": null,
+        "action_number": "HCA No. A2110 of 1985",
+        "injury_description": "leg injuries resulting in a shortening and other disabilities of the left foot and ankle",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 90000.0
+      },
+      {
+        "case_name": "Lau Hi v. Kam Shek Investment Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "HCA No. A5978 of 1986",
+        "injury_description": "fracture of both ankles with similar disabilities and required a future operation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Chui Po Hing v. Lo Suen",
+        "neutral_citation": null,
+        "action_number": "HCA No. A1434 of 1988",
+        "injury_description": "injuries more serious involving amputation of the toes",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 240000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16357,
+      "output_tokens": 9637,
+      "reasoning_tokens": 6784,
+      "total_tokens": 25994
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 51194.75099444389,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16357,
+      "output_tokens": 9637,
+      "reasoning_tokens": 6784,
+      "total_tokens": 25994
+    },
+    "total_duration_ms": 51194.75099444389
+  }
+}

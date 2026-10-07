@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "neutral_citation": "[2004] HKCFI 678",
+    "action_number": "HCPI 1167/2003",
+    "case_name": "LIMBU MUNI PARSAD v. HYUNDAI ENGINEERING & CONSTRUCTION COMPANY LIMITED",
+    "judgment_date": "2004-08-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 37,
+    "age_at_trial": 40,
+    "occupation_before": "direct labourer (hacker)",
+    "occupation_after": null,
+    "expected_occupation_after": "cleaner or guard",
+    "salary_before": 16000.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compression wedge fracture L2 vertebrae",
+        "injury_type": "Residual disability",
+        "body_part": "L2 vertebrae",
+        "laterality": null,
+        "source": [
+          "compression wedge fracture L2 vertebrae"
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion of the abdomen",
+        "injury_type": "Temporary injury",
+        "body_part": "abdomen",
+        "laterality": null,
+        "source": [
+          "contusion of the abdomen",
+          "stomach contusion"
+        ],
+        "icd_code": "NB50.3",
+        "icd_description": "Contusion of abdominal wall"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "traumatic frozen shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "traumatic frozen shoulder",
+          "right shoulder contusion"
+        ],
+        "icd_code": "NC16",
+        "icd_description": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain needing occasional analgesics",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild reduction of the right shoulder movement and some residual pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "stomach contusion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "hospitalisation",
+      "sick leave",
+      "analgesics"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from compression wedge fracture L2 vertebrae, traumatic frozen shoulder and abdomen contusion",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Sze v Win Art Design and Decoration Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 6 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Rai Bina v Pacific Crown Engineering Ltd and Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 338 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12099,
+      "output_tokens": 4636,
+      "reasoning_tokens": 3392,
+      "total_tokens": 16735
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28377.401918172836,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12099,
+      "output_tokens": 4636,
+      "reasoning_tokens": 3392,
+      "total_tokens": 16735
+    },
+    "total_duration_ms": 28377.401918172836
+  }
+}

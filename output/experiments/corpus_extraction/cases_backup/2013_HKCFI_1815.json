@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKCFI 1815",
+    "action_number": "HCPI 15/2012",
+    "case_name": "LO WAI SHING v. LIK SANG ENGINEERING CO LTD",
+    "judgment_date": "2013-11-05",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 37,
+    "age_at_trial": 40,
+    "occupation_before": "manual labourer / hook assistant (casual worker); previously a forklift driver",
+    "occupation_after": "security guard",
+    "expected_occupation_after": null,
+    "salary_before": 13860.0,
+    "salary_after": 6944.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Severe trauma to the left kidney resulting in left nephrectomy (removal of the left kidney).",
+        "injury_type": "Permanent injury",
+        "body_part": "left kidney",
+        "laterality": "left",
+        "source": [
+          "A CT scan revealed severe trauma to the left kidney. The same day (4 April 2010), the plaintiff underwent surgery, namely, a 'left nephrectomy': the removal of the left kidney.",
+          "After the surgery, [the plaintiff] recovered quickly. He, however, noticed nocturia of more than eight times per night. ... The renal function of the patient was “normal” and the clearance function of the remaining right kidney was comparable to individuals with two intact kidneys. This could be due to hypertrophy of the right kidney compensating for the loss of renal function after the left nephrectomy."
+        ],
+        "icd_code": "NB92.04",
+        "icd_description": "Laceration of kidney, major"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Psychological trauma diagnosed as suspected post-traumatic stress disorder.",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric / psychological",
+        "laterality": null,
+        "source": [
+          "In March 2011, some 11 months after the accident, a psychiatric assessment diagnosed suspected post-traumatic stress disorder, the indicators being poor sleep and appetite, depressed mood and flashbacks of the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Elevated blood pressure (hypertension) and a mild degree of proteinuria noted after the nephrectomy.",
+        "injury_type": "Permanent injury",
+        "body_part": "cardiovascular / renal",
+        "laterality": null,
+        "source": [
+          "After the loss of one kidney, it is not uncommon for a person to suffer hypertension. On examination, the plaintif’s blood pressure was 140/90 on both arms, this being described as ‘elevated’.",
+          "They were further agreed that the percentage loss of earning capacity should also be set at 30%, there being a mild degree of proteinuria (an excess of serum proteins in the urine) and hypertension detected."
+        ],
+        "icd_code": "NB92.0",
+        "icd_description": "Injury of kidney"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Persistent pain in the left loin (neuropathic in nature) due to irritation of nerve endings cut during the operation.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Nocturia (needing to wake up as many as eight times each night to pass urine).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Elevated blood pressure (140/90 on both arms).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Mild proteinuria (an excess of serum proteins in the urine).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Poor sleep and poor appetite.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Depressed mood and lethargy.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Flashbacks of the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Anxiety attacks when seeing lorries similar to the one from which he had fallen or when walking past construction sites.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Loss of libido (pleadings).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Mild limitation in active range of motion of the trunk.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "left nephrectomy (surgery)",
+      "physiotherapy",
+      "psychiatric medication for depression",
+      "work hardening and assessment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of left kidney requiring left nephrectomy and resulting in a permanent impairment assessed at 30% of the whole person.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Complaint of a loss of libido following the accident.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "Risk of long-term degeneration of the remaining kidney and associated increased risk to general health and anticipated life span.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "General deterioration of the plaintiff's ability to enjoy life following depression and anxiety after the accident.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 450000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21018,
+      "output_tokens": 6327,
+      "reasoning_tokens": 4544,
+      "total_tokens": 27345
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29861.802138388157,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21018,
+      "output_tokens": 6327,
+      "reasoning_tokens": 4544,
+      "total_tokens": 27345
+    },
+    "total_duration_ms": 29861.802138388157
+  }
+}

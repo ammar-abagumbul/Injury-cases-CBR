@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "neutral_citation": "[1980] HKCFI 108",
+    "action_number": "HCA001257/1980",
+    "case_name": "LI TING CHUN AND ANOTHER v. LI TING FAI",
+    "judgment_date": "1980-10-20",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 40,
+    "occupation_before": "Driving a heavy lorry",
+    "occupation_after": "Permanently unemployable in any capacity",
+    "expected_occupation_after": null,
+    "salary_before": 2200.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "serious brain injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "there is no doubt he sustained serious brain injuries in that crash",
+          "The only lasting damage which the 1st plaintiff has suffered has been to his brain."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fracture of the right zygoma",
+        "injury_type": "Temporary injury",
+        "body_part": "right zygoma",
+        "laterality": "right",
+        "source": [
+          "He had one laceration of 3½\" and another of 2\" over the right side of his face, a fracture of the right zygoma and abrasion over the dorsum of his right hand and right shin."
+        ],
+        "icd_code": "NA02.5",
+        "icd_description": "Fracture of zygoma"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "lacerations of 3½\" and 2\" over the right side of his face (facial lacerations)",
+        "injury_type": "Temporary injury",
+        "body_part": "right side of face",
+        "laterality": "right",
+        "source": [
+          "He had one laceration of 3½\" and another of 2\" over the right side of his face, a fracture of the right zygoma and abrasion over the dorsum of his right hand and right shin. A tracheotomy was performed on him and his facial lacerations sutured."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "abrasion over the dorsum of his right hand and right shin",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand and right shin",
+        "laterality": "right",
+        "source": [
+          "He had one laceration of 3½\" and another of 2\" over the right side of his face, a fracture of the right zygoma and abrasion over the dorsum of his right hand and right shin."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "gross intellectual and personality deterioration; left with the mental age of a young child",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor concentration",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "personality deterioration including unpredictability of moods and irritability",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced ability to enjoy ordinary social life; prospects of enjoying an ordinary social life have ceased to exist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "heavily dependent on his wife; requires supervision and constant care and attention; wife has to wash him and remind him to eat and drink",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "urinary incontinence for a while after discharge",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "permanently unemployable in any capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "gets no pleasure from his children's company; dislikes them and throws things at them",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      "tracheotomy",
+      "facial lacerations sutured"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Left with the mental age of a young child; gross intellectual deterioration, poor concentration and poor memory",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Requires supervision and constant care and attention; wife must remind him to eat and drink and wash him",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Prospects of enjoying an ordinary social life have ceased to exist",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Wife can get no sense out of him; gets no pleasure from his children's company",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Permanently unemployable in any capacity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering during hospitalisation and discomfort associated with temporary urinary incontinence",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "personality deterioration including unpredictability of moods and irritability",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Ting-lam v. Leung Kam-ming",
+        "neutral_citation": "Court of Appeal, Civil No. 11/1980",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15649,
+      "output_tokens": 7746,
+      "reasoning_tokens": 5760,
+      "total_tokens": 23395
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46471.80397436023,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15649,
+      "output_tokens": 7746,
+      "reasoning_tokens": 5760,
+      "total_tokens": 23395
+    },
+    "total_duration_ms": 46471.80397436023
+  }
+}

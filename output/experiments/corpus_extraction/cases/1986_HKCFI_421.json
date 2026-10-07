@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "neutral_citation": "[1986] HKCFI 421",
+    "action_number": "HCA014011/1983",
+    "case_name": "LEUNG KAM SING v. LUEN SHING (PANG FOR) TRANSPORTATION COMPANY AND OTHERS",
+    "judgment_date": "1986-12-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 37,
+    "occupation_before": "winch operator / deckhand",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 2050.0,
+    "salary_after": null,
+    "expected_salary_after": 4000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the Plaintiff's left arm together with part of his shoulder including the clavicle and most of the scapula was avulsed or had to be removed as a result of the accident.",
+        "injury_type": "Permanent injury",
+        "body_part": "left arm and part of left shoulder (including clavicle and most of the scapula)",
+        "laterality": "left",
+        "source": [
+          "the Plaintiff's left arm together with part of his shoulder including the clavicle and most of the scapula was avulsed or had to be removed as a result of the accident."
+        ],
+        "icd_code": "NC18.1",
+        "icd_description": "Traumatic amputation at left shoulder joint"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "He also sustained an injury to his left ear. I accept his evidence and find that this injury has resulted in very substantial loss of hearing in that ear.",
+        "injury_type": "Permanent injury",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "He also sustained an injury to his left ear. I accept his evidence and find that this injury has resulted in very substantial loss of hearing in that ear."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of function of left arm (loss of left arm together with part of shoulder).",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Very substantial loss of hearing in the left ear.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Initially suffered severe depression, but condition has since continued to improve.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      "the Plaintiff's left arm together with part of his shoulder including the clavicle and most of the scapula was avulsed or had to be removed as a result of the accident."
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Loss of left arm together with part of his shoulder including the clavicle and most of the scapula.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "Very substantial loss of hearing in the left ear.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "Initially suffered severe depression, but condition has since continued to improve.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 140000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16731,
+      "output_tokens": 4803,
+      "reasoning_tokens": 3712,
+      "total_tokens": 21534
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28061.8026740849,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16731,
+      "output_tokens": 4803,
+      "reasoning_tokens": 3712,
+      "total_tokens": 21534
+    },
+    "total_duration_ms": 28061.8026740849
+  }
+}

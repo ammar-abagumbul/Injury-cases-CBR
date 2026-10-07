@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[1985] HKCFI 71",
+    "action_number": "HCA005913/1984",
+    "case_name": "TAM KWOK TUNG v. LAM WAI CHUN AND ANOTHER",
+    "judgment_date": "1985-06-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 54,
+    "age_at_trial": null,
+    "occupation_before": "school teacher",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured skull",
+        "injury_type": "Residual disability",
+        "body_part": "skull",
+        "laterality": null,
+        "source": [
+          "\"On admission he was found to be suffering from a fractured skull, a fractured right clavicle and a left subdural haematoma\""
+        ],
+        "icd_code": "NA02.Z",
+        "icd_description": "Fracture of skull or facial bones, part unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "a fractured right clavicle",
+        "injury_type": "Temporary injury",
+        "body_part": "right clavicle",
+        "laterality": "right",
+        "source": [
+          "\"On admission he was found to be suffering from a fractured skull, a fractured right clavicle and a left subdural haematoma\""
+        ],
+        "icd_code": "NC12.0Z",
+        "icd_description": "Fracture of clavicle, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "a left subdural haematoma",
+        "injury_type": "Residual disability",
+        "body_part": "left subdural (intracranial)",
+        "laterality": "left",
+        "source": [
+          "\"On admission he was found to be suffering from a fractured skull, a fractured right clavicle and a left subdural haematoma\""
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "changes in the left frontal, left parietal and left temporal regions of the brain \"suggestive of cerebral infarction secondary to trauma or cerebral contusion\"",
+        "injury_type": "Residual disability",
+        "body_part": "left frontal, left parietal and left temporal regions of the brain",
+        "laterality": "left",
+        "source": [
+          "a brain scan was performed which revealed changes in the left frontal, left parietal and left temporal regions of the brain. These it is said are \"suggestive of cerebral infarction secondary to trauma or cerebral contusion\""
+        ],
+        "icd_code": "NA07.43",
+        "icd_description": "Multiple focal injuries of cerebrum"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "violent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "nystagmus",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "deeply unconscious and remained unconscious for ten days",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "complete retrograde amnesia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "\"a global intellectual loss\"",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "\"a severe specific memory impairment\" making it very much more difficult for him to learn new material and to remember anything",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dysphasia: an inability to find the right word and to express the thoughts that he is trying to express",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "anger, becoming cross and on occasions actually violent",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "impairment of intellectual function and memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency burr hole exploration of the skull",
+      "tracheostomy",
+      "a brain scan (revealed changes in the left frontal, left parietal and left temporal regions of the brain)"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 32,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "He has now lost his job as a teacher; he resigned on grounds of ill health with effect from 1st February 1984.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "No one asks him to preach now and he has few friends; he has lost involvement at his church where he worked as a lay-preacher.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "His wife has gone through a very difficult period; they are physically separated and his marriage may well be at an end.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Personality change",
+        "description": "Underlying mental and personality consequences with anger, frustration and on occasions actual violence; not the same man as before the accident.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "The wife was forced to give up her own work to look after the plaintiff and employed a substitute to assist for some considerable period.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14162,
+      "output_tokens": 7473,
+      "reasoning_tokens": 5568,
+      "total_tokens": 21635
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38714.75827693939,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14162,
+      "output_tokens": 7473,
+      "reasoning_tokens": 5568,
+      "total_tokens": 21635
+    },
+    "total_duration_ms": 38714.75827693939
+  }
+}

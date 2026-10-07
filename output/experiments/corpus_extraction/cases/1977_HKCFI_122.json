@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "neutral_citation": "[1977] HKCFI 122",
+    "action_number": "HCA 1594/1977",
+    "case_name": "CHU YUEN LING v. KWOK CHUEN AND OTHERS",
+    "judgment_date": "1977-09-29",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 18,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Multiple lacerations of the face leading to permanent, conspicuous and unsightly scars, mainly on the left side of the face.",
+        "injury_type": "Permanent injury",
+        "body_part": "face",
+        "laterality": "left",
+        "source": [
+          "her head shattered the windscreen of the vehicle driven by her husband, in which she was a passenger, causing multiple lacerations of the face.",
+          "There are still multiple, conspicuous and unsightly scars, mainly on the left side of the face, with assymetry of the eyelids."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Deformity and disfigurement of the left upper and lower eyelid with a 2mm defect in the upper eyelashes and inability to close the left eye fully (gap of 8mm).",
+        "injury_type": "Permanent injury",
+        "body_part": "left eyelid",
+        "laterality": "left",
+        "source": [
+          "Eyelids:\nLeft:\nThere is deformity and disfigurement of the upper and lower eyelid. The left eye appears to be much bigger than the right, due to a slight pull-down of the lower lid and a pull-up of the upper lid from scar contracture. There is a 2mm. defect in the upper eyelashes. The eyelids cannot close fully, when attempting to close there remains a gap of 8mm. through which the white of the eye appears, causing an unsightly appearance.",
+          "This girl has both a functional and a cosmetic disability from her accident. Her scars are permanent and will not alter significantly with time."
+        ],
+        "icd_code": "NA06.0Y",
+        "icd_description": "Other specified eyelid trauma"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "multiple, conspicuous and unsightly scars, mainly on the left side of the face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "assymetry of the eyelids",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The eyelids cannot close fully, when attempting to close there remains a gap of 8mm. through which the white of the eye appears, causing an unsightly appearance.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "wounds were sutured at Kwong Wah Hospital",
+      "surgery to her left upper eyelid at Kwong Wah Hospital (three months after accident)",
+      "plastic surgery to her left facial scars at Princess Margaret Hospital (May, 1976)"
+    ],
+    "treatments_future": [
+      "further plastic surgery from a private practitioner in order to lessen her disability and improve her cosmetic appearance.",
+      "Plastic surgery could lessen her disability. Skin grafts would allow the eye to close normally and also make the opening symmetrical with the other eye.",
+      "Two admissions to a hospital would be necessary for the plastic surgery."
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Multiple conspicuous and unsightly scars, mainly on the left side of the face, with assymetry of the eyelids.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "She feels reluctant to appear in public.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "No longer participates in such previous social activities as swimming, bowling and hiking.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 15000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9881,
+      "output_tokens": 5631,
+      "reasoning_tokens": 4288,
+      "total_tokens": 15512
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37726.76598653197,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9881,
+      "output_tokens": 5631,
+      "reasoning_tokens": 4288,
+      "total_tokens": 15512
+    },
+    "total_duration_ms": 37726.76598653197
+  }
+}

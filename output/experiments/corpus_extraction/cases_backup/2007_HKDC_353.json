@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "[2007] HKDC 353",
+    "action_number": "DCPI 455/2006",
+    "case_name": "WONG FUNG NUI v. LEUNG YAT HO AND ANOTHER",
+    "judgment_date": "2007-11-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "employee of the 2nd Defendant, carrying out her duty at the Lobby Area of Heng Nga House, Hong Nga Court, Kwun Tong.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5800.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "average sensorineural hearing loss of about 35.0 dB in her right ear and 43.3 dB in her left ear over the speech of frequencies.",
+        "injury_type": "Residual disability",
+        "body_part": "right ear and left ear",
+        "laterality": "bilateral",
+        "source": [
+          "Pure Tone Audiogram (PTA) and Cortical Evoked Response Audiometry (CERA) on 25th April 2005 confirmed the captioned subject has an average sensorineural hearing loss of about 35.0 dB in her right ear and 43.3 dB in her left ear over the speech of frequencies."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "tinnitus in her left ear",
+        "injury_type": "Residual disability",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "tinnitus in her left ear"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "vertigo and headache, i.e. BPPV",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "vertigo and headache, i.e. BPPV;"
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "adjustment disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "adjustment disorder"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "hearing loss",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychological symptoms and impairment from adjustment disorder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "treatment at United Christian Hospital (Accident & Emergency and follow-ups)",
+      "treatment at Lam Tin Polyclinic",
+      "treatment at Yung Fung Shee Psychiatric Centre",
+      "consultations with Dr. Lo Siu Fat",
+      "hearing tests: Pure Tone Audiogram (PTA) and Cortical Evoked Response Audiometry (CERA) on 25th April 2005",
+      "numerous follow-ups and clinics"
+    ],
+    "treatments_future": [
+      "psychiatric consultations in public clinics"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 486,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Poon Yat Chiu v AES Scaffold Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 223 of 2005",
+        "injury_description": "fell from a height when he was on a truck and his body hit the 'monkey head' by the side of the truck. He suffered tenderness and superficial abrasion over the right buttock, right shin and left hand. He had adjustment disorder as a result.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Fong Kam Chi v Wong Wai Shing",
+        "neutral_citation": null,
+        "action_number": "HCPI 910/1997",
+        "injury_description": "swelling and bruising over his nasal bridge region, abrasion and bleeding over the head, tinnitus to his left side, vertigo and hearing loss, intermittent dizziness and other symptoms of post-concussion syndrome, and intermittent pains in the chest.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Yeung Tai Hung v Hong Kong Baptist Hosiptal Au Shue Hung Health Centre",
+        "neutral_citation": null,
+        "action_number": "HCPI 686/2004",
+        "injury_description": "contusion and soft tissue to his lower back. He was diagnosed as having depressive disorder.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11448,
+      "output_tokens": 6380,
+      "reasoning_tokens": 4736,
+      "total_tokens": 17828
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40674.13313314319,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11448,
+      "output_tokens": 6380,
+      "reasoning_tokens": 4736,
+      "total_tokens": 17828
+    },
+    "total_duration_ms": 40674.13313314319
+  }
+}

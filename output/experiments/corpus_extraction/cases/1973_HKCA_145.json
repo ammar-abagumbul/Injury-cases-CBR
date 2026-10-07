@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "neutral_citation": "[1973] HKCA 145",
+    "action_number": "CACV000006/1973",
+    "case_name": "WONG YIN WAH AND ANOTHER v. HUNG PING WAN AND OTHERS",
+    "judgment_date": "1973-09-28",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "\"His most serious injury was a fractured skull.\"",
+        "injury_type": "Permanent injury",
+        "body_part": "skull / head",
+        "laterality": null,
+        "source": [
+          "\"His most serious injury was a fractured skull.\"",
+          "\"there was an emergency operation which left him with, in the words of the Judge \"three deep indentations on his forehead, one on each side on the temporal region and one right in the centre of his forehead.\" The judge went on to say that the evidence showed that in the area of these indentations there was no protection for the brain apart from the skin and flesh. The bone had been removed.\""
+        ],
+        "icd_code": "NA02.0",
+        "icd_description": "Fracture of vault of skull"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "\"In addition, the bones of his nose were fractured depriving him of his sense of smell.\"",
+        "injury_type": "Permanent injury",
+        "body_part": "nose",
+        "laterality": null,
+        "source": [
+          "\"In addition, the bones of his nose were fractured depriving him of his sense of smell.\""
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "\"There were other multiple abrasions to other parts of his body as well.\"",
+        "injury_type": "Temporary injury",
+        "body_part": "multiple parts of body",
+        "laterality": null,
+        "source": [
+          "\"There were other multiple abrasions to other parts of his body as well.\""
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "\"comparatively minor injuries to her buttocks and private parts.\"",
+        "injury_type": "Temporary injury",
+        "body_part": "buttocks and private parts",
+        "laterality": null,
+        "source": [
+          "\"comparatively minor injuries to her buttocks and private parts.\"",
+          "\"She was in hospital for about nine days and has made a full recovery.\""
+        ],
+        "icd_code": "NB98",
+        "icd_description": "Injury to female genital organ without specification of injury type"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "\"was rendered unconscious for a week.\"",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"three deep indentations on his forehead, one on each side on the temporal region and one right in the centre of his forehead.\"",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"the brain, unprotected by any bony covering, could be seen to pulsate.\"",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"permanent total loss of the sense of smell.\"",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "\"suffered a severe change of personality as a result of the accident; it affected his memory and eyesight.\"",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"There was a possibility of epilepsy in the future which would affect his earning capacity.\"",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"the deceased still suffered some discomfort and pain.\"",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "\"was in hospital for about nine days and has made a full recovery.\"",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "emergency operation"
+    ],
+    "treatments_future": [
+      "operation on his brain to protect the exposed areas (bone graft or introduction of plastic material)"
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "\"there was no protection for the brain apart from the skin and flesh. The bone had been removed.\"",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "\"permanent total loss of the sense of smell.\"",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Personality change",
+        "description": "\"suffered a severe change of personality as a result of the accident; it affected his memory and eyesight.\"",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 63500.0,
+    "comparable_cases": [
+      {
+        "case_name": "McCann v. Sheppard",
+        "neutral_citation": "(1973) 1 W.L.R. 541",
+        "action_number": null,
+        "injury_description": "\"his injuries, which were to the lower part of the body, were gross and very painful.\"",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18693,
+      "output_tokens": 8096,
+      "reasoning_tokens": 6720,
+      "total_tokens": 26789
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45694.56708803773,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18693,
+      "output_tokens": 8096,
+      "reasoning_tokens": 6720,
+      "total_tokens": 26789
+    },
+    "total_duration_ms": 45694.56708803773
+  }
+}

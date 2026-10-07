@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKCFI 870",
+    "action_number": "HCPI 62/2011",
+    "case_name": "LAM PO YEE AND ANOTHER v. DR CHAN YEE SHING ALSO KNOWN AS DR CHAN YEE SHING ALVIN",
+    "judgment_date": "2018-04-30",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "psychiatric injury (Mother and Father)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "admission that the Parents suffered psychiatric injury as a result of the Incident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "emotional sufferings during and shortly after the Incident",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychiatric injury requiring continued psychiatric/psychological treatment",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychological issues",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      "psychiatric/psychological treatment"
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "for damages for PSLA awarded under the Judgment (net principal sum after deducting the interim payment noted as $436,000 in the Reasons)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "claim for FDH expenses / incurred/future FDH expenses",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Father Care Claim",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "loss of earnings / loss of earning capacity",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 436000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 31962,
+      "output_tokens": 4578,
+      "reasoning_tokens": 3776,
+      "total_tokens": 36540
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 47048.00307005644,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 31962,
+      "output_tokens": 4578,
+      "reasoning_tokens": 3776,
+      "total_tokens": 36540
+    },
+    "total_duration_ms": 47048.00307005644
+  }
+}
