@@ -1,0 +1,37 @@
+id: "severity-rubric"
+
+# Features/cards: LLM-extracted Case JSON files
+cases_path: "output/experiments/corpus_extraction/cases"
+cases_glob: "*.json"
+
+# Tier: human-annotated overall severity
+labels_path: "data/PI_ver6.csv"
+label_column: "injury_type"
+
+tiers:
+  non-serious: ["nonserious", "non-serious"]
+  serious: ["serious"]
+  substantial+: ["substantial", "gross", "disaster"]
+
+output_dir: "output/experiments/severity_rubric"
+
+# Keep only some courts, e.g. ["HKCFI"] for High Court. Use this once tiers and courts are mixed,
+# otherwise the rubric can describe court style instead of severity.
+courts: null
+
+model: "gpt"
+
+# all = write the rubric, then classify held-out cases; induce = rubric only; classify = reuse rubric.json
+phase: "all"
+reuse_rubric: true           # keep an existing rubric.json instead of writing a new one
+
+test_fraction: 0.3           # held-out share; the split is saved in split.json
+seed: 42
+cases_per_tier: 15           # example cards per tier in one induction prompt
+n_induction_samples: 5       # independent drafts that are merged into one rubric
+max_concurrency: 5
+
+# rubric: LLM + rubric | no_rubric: LLM alone | few_shot: LLM + similar labelled cases
+# ml_logistic / ml_forest: classic ML on the extracted features (no LLM)
+modes: [rubric, no_rubric, few_shot, ml_logistic, ml_forest]
+few_shot_k: 6

@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 833",
+    "action_number": "HCPI 1286/1999",
+    "case_name": "WONG SIN LAM v. KUEN FUNG CONSTRUCTION LTD. AND OTHERS",
+    "judgment_date": "2002-12-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 42,
+    "occupation_before": "steel bar fixer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe brain injuries",
+        "injury_type": "Permanent injury",
+        "body_part": "brain",
+        "laterality": null,
+        "source": [
+          "severe brain injuries he suffered on that day on site in March 1998."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "compound fracture of the left temporo-parietal skull vault",
+        "injury_type": "Permanent injury",
+        "body_part": "left temporo-parietal skull vault",
+        "laterality": "left",
+        "source": [
+          "He suffered a compound fracture of the left temporo-parietal skull vault and a thick left temporal extradural haematoma."
+        ],
+        "icd_code": "NA02.0Z",
+        "icd_description": "Fracture of vault of skull, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "thick left temporal extradural haematoma",
+        "injury_type": "Permanent injury",
+        "body_part": "left temporal region",
+        "laterality": "left",
+        "source": [
+          "He suffered a compound fracture of the left temporo-parietal skull vault and a thick left temporal extradural haematoma."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "stable fracture of C2 in the cervical spine",
+        "injury_type": "Permanent injury",
+        "body_part": "C2 in the cervical spine",
+        "laterality": null,
+        "source": [
+          "In addition to the cerebral injuries, he had also suffered a stable fracture of C2 in the cervical spine, and his intensive care stay was further complicated by pneumonia, aspiration and sepsis."
+        ],
+        "icd_code": "NA22.1",
+        "icd_description": "Fracture of second cervical vertebra"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "ventriculitis, a bacterial infection of the cerebral ventricles",
+        "injury_type": "Permanent injury",
+        "body_part": "cerebral ventricles",
+        "laterality": null,
+        "source": [
+          "ventriculitis, a bacterial infection of the cerebral ventricles, developed at the site of the intraventricular catheter and required treatment by antibiotics."
+        ],
+        "icd_code": "NA07",
+        "icd_description": "Intracranial injury"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "subglottic stenosis secondary to the plaintiff's tracheostomy",
+        "injury_type": "Permanent injury",
+        "body_part": "subglottic region (throat)",
+        "laterality": null,
+        "source": [
+          "reports ... speak to throat problems consequent upon the subglottic stenosis secondary to the plaintiff's tracheostomy shortly after the accident."
+        ],
+        "icd_code": "NA6Y",
+        "icd_description": "Other specified injuries to the neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "admitted ... in a coma",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "moderate clinical dementia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "has been rendered a mild mental defective (IQ estimated by Professor Lee at 69, and by Dr Chan at 61)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impairment of intellectual capacity; both long term and short term learning and memory functions are impaired",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "ability to monitor and to regulate his thought and behaviour is impaired, resulting in irritability, impulsivity, rigidity, egocentricity and lack of volition",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "uncontrolled violent and vulgar behaviour, lewd behaviour, aggression and unprovoked violence",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unsteady gait",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild degree of difficulty of bladder control",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "some sexual impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "a 17% risk of developing epilepsy (as identified by Dr Kan; defence accepted risk not more than 5% in submission)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lost totally his working or earning capacity",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "ventriculitis (bacterial infection of the cerebral ventricles) developed at the site of the intraventricular catheter",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "swallowing problem if food is eaten fast",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "requires a variety of medicines for the rest of his life and continuous lifetime monitoring by a psychiatrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "emergency left parietal craniectomy to evacuate the blood clot",
+        "is_surgical": true,
+        "source": [
+          "he was transferred to Prince of Wales Hospital for an emergency left parietal craniectomy necessary to evacuate the blood clot."
+        ],
+        "vmis_system": "BRAIN AND NERVOUS SYSTEM",
+        "vmis_region": "Brain",
+        "vmis_procedure": "Craniectomy",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "insertion of a left frontal ventricular catheter",
+        "is_surgical": true,
+        "source": [
+          "A left frontal ventricular catheter was inserted, and he was transferred to the ICU."
+        ],
+        "vmis_system": "BRAIN AND NERVOUS SYSTEM",
+        "vmis_region": "Brain",
+        "vmis_procedure": "Creation of ventriculoperitoneal shunt or subcutaneous cerebrospinal fluid reservoir",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "tracheostomy (performed on 19 March 1998)",
+        "is_surgical": true,
+        "source": [
+          "A tracheostomy was performed on 19 March 1998, and thereafter ventriculitis ... developed at the site of the intraventricular catheter and required treatment by antibiotics."
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Respiratory system",
+        "vmis_procedure": "Tracheostomy, temporary / permanent / revision",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "antibiotics for ventriculitis",
+        "is_surgical": false,
+        "source": [
+          "ventriculitis, a bacterial infection of the cerebral ventricles, developed at the site of the intraventricular catheter and required treatment by antibiotics."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "rehabilitation at a Cheshire Home",
+        "is_surgical": false,
+        "source": [
+          "after being taken off a ventilator he was able to be transferred to a neurosurgical ward, and on 30 March 1998 was transferred to a Cheshire Home for further rehabilitation"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychiatric inpatient management and admissions (Prince of Wales Psychiatric Ward; Shatin Hospital; Castle Peak Hospital)",
+        "is_surgical": false,
+        "source": [
+          "Soon after returning to hospital, Mr Wong was admitted to the Prince of Wales Psychiatric Ward for management of his psychiatric problems",
+          "on 12 March 1999 Mr Wong was confined to Castle Peak Hospital under compulsory order ... and he remained there as an inmate until 7 January 2000 when he was transferred back to Psychiatry at Shatin Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "removal of the tracheostomy tube (follow-up)",
+        "is_surgical": true,
+        "source": [
+          "he had briefly to return to Prince of Wales on 23 April 1998 for removal of the tracheostomy tube"
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Respiratory system",
+        "vmis_procedure": "Tracheostomy, temporary / permanent / revision",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "monthly outpatient psychiatric treatment at the Lee Ka Shing Psychiatric Clinic",
+        "is_surgical": false,
+        "source": [
+          "he has been receiving psychiatric treatment free of charge once a month at the Lee Ka Shing Psychiatric Clinic"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "lifelong psychiatric drug therapy",
+        "is_surgical": false,
+        "source": [
+          "there was agreement amongst all the experts that Mr Wong's impairments are permanent, and it further is accepted that Mr Wong will require to take a variety of medicines, in all probability similar to his present extensive drug regime, for the rest of his life"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "continuous lifetime monitoring by a psychiatrist",
+        "is_surgical": false,
+        "source": [
+          "he will require continuous lifetime monitoring by a psychiatrist who will adjust appropriately the types and dosages of the various medicines required to control his condition"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "has been rendered a mild mental defective (IQ estimated at 69 and 61); impairment of intellectual capacity and both long term and short term learning and memory functions are impaired",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "has been rendered an egocentric, obstinate and selfish child; irritability, impulsivity, rigidity, egocentricity and lack of volition",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "dependent upon the care of his wife and elder daughter for all manner of requirements of daily life",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "dependent for organizing his clothes, combing his hair and running the bath water to the provision of meals",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "has lost totally his working or earning capacity",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "destruction of a fulfilling and contented family life",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "some sexual impairment",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "unsteady gait",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1000000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 28201,
+      "output_tokens": 13958,
+      "reasoning_tokens": 10176,
+      "total_tokens": 42159
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 72498.68049984798,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 28201,
+      "output_tokens": 13958,
+      "reasoning_tokens": 10176,
+      "total_tokens": 42159
+    },
+    "total_duration_ms": 72498.68049984798
+  }
+}

@@ -16,7 +16,7 @@ from __future__ import annotations
 from enum import Enum
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class Gender(str, Enum):
@@ -36,6 +36,15 @@ class InjuryType(str, Enum):
     PERMANENT = "Permanent injury"
     TEMPORARY = "Temporary injury"
     RESIDUAL = "Residual disability"
+
+
+class VmisCategory(str, Enum):
+    """Surgical complexity tier from the VMIS Schedule of Surgical Procedures."""
+
+    MINOR = "Minor"
+    INTERMEDIATE = "Intermediate"
+    MAJOR = "Major"
+    COMPLEX = "Complex"
 
 
 class PSLAComparison(str, Enum):
@@ -273,17 +282,85 @@ class InjurySummary(BaseModel):
     )
 
 
+class TreatmentItem(BaseModel):
+    """
+    One treatment received or expected in future, e.g. 'physiotherapy',
+    'open reduction and internal fixation of left tibia', 'pain medication'.
+
+    Stage 1 fills ``treatment``, ``is_surgical`` and ``source``. Stage 3 maps
+    surgical items onto the VMIS Schedule of Surgical Procedures and fills the
+    ``vmis_*`` fields; they stay null for non-surgical treatment and for
+    surgery that is not in the schedule.
+    """
+
+    treatment: str = Field(
+        description="The treatment as described in the judgment, e.g. 'physiotherapy' or 'removal of spleen'",
+        json_schema_extra={ "evaluation_config": {"metrics": [{"metric_id": "string_semantic"}]} }
+    )
+    is_surgical: bool = Field(
+        default=False,
+        description=(
+            "True only for a surgical operation or invasive procedure (fracture fixation, "
+            "arthroscopy, amputation, joint replacement, spinal fusion, nerve release, "
+            "endoscopy, suturing under anaesthesia, dental surgery). False for physiotherapy, "
+            "medication, imaging, casts, splints, consultations and similar non-surgical care."
+        ),
+        json_schema_extra={ "evaluation_config": "skip" }
+    )
+    source: list[str] = Field(
+        default_factory=list,
+        description=(
+            "Verbatim text from the judgment describing the treatment. "
+            "DO NOT shorten or summarize. DO NOT use three dots to indicate ellipsis."
+        ),
+        json_schema_extra={ "evaluation_config": "skip" }
+    )
+    vmis_system: str | None = Field(
+        default=None,
+        description="VMIS body system assigned during Stage 3 classification; null if not in the VMIS schedule",
+        json_schema_extra={ "evaluation_config": "skip" }
+    )
+    vmis_region: str | None = Field(
+        default=None,
+        description="VMIS sub-region assigned during Stage 3 classification; null if not in the VMIS schedule",
+        json_schema_extra={ "evaluation_config": "skip" }
+    )
+    vmis_procedure: str | None = Field(
+        default=None,
+        description="VMIS procedure name assigned during Stage 3 classification; null if not in the VMIS schedule",
+        json_schema_extra={ "evaluation_config": "skip" }
+    )
+    vmis_category: VmisCategory | None = Field(
+        default=None,
+        description="VMIS complexity tier assigned during Stage 3 classification; null if not in the VMIS schedule",
+        json_schema_extra={ "evaluation_config": "skip" }
+    )
+
+
+def _coerce_treatment_items(value):
+    """Accept the legacy list[str] format by wrapping each string as an item."""
+    if not isinstance(value, list):
+        return value
+    return [{"treatment": v} if isinstance(v, str) else v for v in value]
+
+
 class Treatment(BaseModel):
     """Treatment received or planned."""
 
-    treatments_received: list[str] = Field(
+    treatments_received: list[TreatmentItem] = Field(
         default_factory=list,
-        description="Types of treatment received, e.g. 'physiotherapy'",
+        description=(
+            "Every treatment received, one item per distinct treatment. Include surgical "
+            "operations and procedures as well as non-surgical care such as physiotherapy or medication"
+        ),
         json_schema_extra={ "evaluation_config": {"metrics": [{"metric_id": "array_llm"}]} }
     )
-    treatments_future: list[str] = Field(
+    treatments_future: list[TreatmentItem] = Field(
         default_factory=list,
-        description="Types of treatment to receive in future",
+        description=(
+            "Every treatment expected or recommended in future, one item per distinct treatment, "
+            "including any future surgery"
+        ),
         json_schema_extra={ "evaluation_config": {"metrics": [{"metric_id": "array_llm"}]} }
     )
     hospitalisation_days: int | None = Field(
@@ -310,6 +387,11 @@ class Treatment(BaseModel):
         default=None, description="Expected days of sick leave",
         json_schema_extra={ "evaluation_config": {"metrics": [{"metric_id": "number_exact"}]} }
     )
+
+    @field_validator("treatments_received", "treatments_future", mode="before")
+    @classmethod
+    def _legacy_string_items(cls, value):
+        return _coerce_treatment_items(value)
 
 
 class Loss(BaseModel):

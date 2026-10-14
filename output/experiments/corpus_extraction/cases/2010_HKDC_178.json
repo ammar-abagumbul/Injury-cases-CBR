@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 178",
+    "action_number": "DCPI 764/2009",
+    "case_name": "CHAN CHUNG KUEN v. MTR CORPORATION LTD",
+    "judgment_date": "2010-07-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 59,
+    "occupation_before": "cross-border trading in goods",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 6000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of distal third of his left tibia",
+        "injury_type": "Permanent injury",
+        "body_part": "left tibia",
+        "laterality": "left",
+        "source": [
+          "Chan was sent to the Alice Ho Miu Ling Nethersole Hospital where X-ray showed fracture of distal third of his left tibia and left fibula neck (leg).",
+          "They agreed on the diagnosis of left tibia shaft spiral fracture and left proximal fibular fracture."
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of left fibula (proximal / neck)",
+        "injury_type": "Permanent injury",
+        "body_part": "left fibula",
+        "laterality": "left",
+        "source": [
+          "Chan was sent to the Alice Ho Miu Ling Nethersole Hospital where X-ray showed fracture of distal third of his left tibia and left fibula neck (leg).",
+          "They agreed on the diagnosis of left tibia shaft spiral fracture and left proximal fibular fracture."
+        ],
+        "icd_code": "NC92.4Y",
+        "icd_description": "Other specified fracture of fibula"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent pain in the left lower leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "continuous numbness in the left lower leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "stiffness in the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild muscle wasting of the left thigh and mild to moderate wasting of the left calf",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "limping and reduced walking and standing tolerance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "some decrease in dexterity of the left lower leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "left long leg plaster cast slab for temporary immobilisation",
+        "is_surgical": false,
+        "source": [
+          "Chan was given a left long leg plaster cast slab for temporary immobilisation."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "close reduction and internal fixation of the left tibia",
+        "is_surgical": true,
+        "source": [
+          "Close reduction and internal fixation of the left tibia was performed 5 days later."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of arm / leg / patella / pelvis with internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "transfer to Tai Po Hospital for rehabilitation and physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "He was transferred to Tai Po Hospital for rehabilitation and physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy (received / rehabilitation)",
+        "is_surgical": false,
+        "source": [
+          "He was transferred to Tai Po Hospital for rehabilitation and physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "self-mobilisation exercise (in lieu of physiotherapy)",
+        "is_surgical": false,
+        "source": [
+          "He was reported to be unwilling to undergo such therapy; and he opted for self-mobilisation exercise instead."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "removal of the metal implants",
+        "is_surgical": true,
+        "source": [
+          "Dr Ko opined that removal of the metal implants would be advisable in the case of a relatively young active individual for the avoidance of future complications.",
+          "Dr Ho did not believe that removing the implants would significantly reduce Chan\u0019s left leg pain. He agreed with Dr Ko that the numbness would persist even when the implant was removed."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Removal of screw, pin and plate, and other metal for old fracture except fracture femur",
+        "vmis_category": "Minor"
+      }
+    ],
+    "hospitalisation_days": 21,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 147,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Reduced walking and standing tolerance; limping and stiffness in left ankle resulting from left leg injuries",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced work efficiency and effectiveness; reduced lifting and carrying capacity due to residual weakness in left lower limb",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheng Chi Ming v Li Chau Wan & Anr",
+        "neutral_citation": "[2005] HKLRD H6",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Imtiaz Perviz v Senibo Development Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 437/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18056,
+      "output_tokens": 7947,
+      "reasoning_tokens": 5952,
+      "total_tokens": 26003
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34934.48341707699,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18056,
+      "output_tokens": 7947,
+      "reasoning_tokens": 5952,
+      "total_tokens": 26003
+    },
+    "total_duration_ms": 34934.48341707699
+  }
+}

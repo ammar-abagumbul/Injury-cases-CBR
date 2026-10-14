@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 375",
+    "action_number": "DCPI 2514/2012",
+    "case_name": "YEUNG KAI YUEN v. CINERENT LTD",
+    "judgment_date": "2014-04-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Driver employed by Cine Mobile",
+    "occupation_after": "Retired; occasional casual driver",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Electrocution / electrical shock",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "On Saturday, 24 July 2010, at approximately 12:00 noon, on the pavement outside of Chater House, at the junction between Chater Road and Pedder Street in Central, the plaintiff was electrocuted (“the Accident”).",
+          "But for the quick thinking of a colleague who had punched the plaintiff on his chest and thereby separated him from the source of the live electricity, the plaintiff no doubt could have died from the electrocution."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Atrial fibrillation (arrhythmia) resulting from electrical shock",
+        "injury_type": "Temporary injury",
+        "body_part": "heart",
+        "laterality": null,
+        "source": [
+          "It was concluded by the Board that he suffered electrical shock resulting in (i) atrial fibrillation; and (ii) right shoulder tendinitis with pain."
+        ],
+        "icd_code": "NB31.Y",
+        "icd_description": "Other specified injury of heart"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Partial thickness tear of supraspinatous tendon; partial tear of subscapularis; partial tear of long head of biceps with subluxation of right shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "MRI of the right shoulder was performed which revealed partial thickness tear of supraaspinatous tendon of the right shoulder.",
+          "On 19 April 2012, an operation was carried out to repair a partial tear of the subscapularis and partial tear of the long head of biceps with subluxation noted. Arthroscopic rotator cuff repair was performed and tenotomy of the right biceps tendons was also performed."
+        ],
+        "icd_code": "NC16.4Y",
+        "icd_description": "Other specified injury of multiple muscles or tendons at shoulder or upper arm level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain everywhere",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Right shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Right shoulder tendinitis with pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Bilateral calf pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Atrial fibrillation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Arthroscopic rotator cuff repair and tenotomy of the right biceps tendon",
+        "is_surgical": true,
+        "source": [
+          "On 19 April 2012, an operation was carried out to repair a partial tear of the subscapularis and partial tear of the long head of biceps with subluxation noted. Arthroscopic rotator cuff repair was performed and tenotomy of the right biceps tendons was also performed."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Muscle / Tendon",
+        "vmis_procedure": "Tendon repair / Suture of tendon not involving hand",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "Physiotherapy (short course)",
+        "is_surgical": false,
+        "source": [
+          "From January 2011 onwards, the plaintiff was seen at the orthopaedic specialist clinic for the right shoulder symptoms where he received a short course of physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Antiarrhythmic drug followed by a short period of oral anticoagulant",
+        "is_surgical": false,
+        "source": [
+          "The cardiac condition was managed by antiarrhythmic drug following by a short period of oral anticoagulant for the atrial fibrillation."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI of the right shoulder",
+        "is_surgical": false,
+        "source": [
+          "MRI of the right shoulder was performed which revealed partial thickness tear of supraaspinatous tendon of the right shoulder."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "damages for pain, suffering and loss of amenities (“PSLA”) at HK$250,000",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22046,
+      "output_tokens": 6945,
+      "reasoning_tokens": 5568,
+      "total_tokens": 28991
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37588.255333015695,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22046,
+      "output_tokens": 6945,
+      "reasoning_tokens": 5568,
+      "total_tokens": 28991
+    },
+    "total_duration_ms": 37588.255333015695
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 832",
+    "action_number": "DCPI 801/2016",
+    "case_name": "LAI CHU YIU v. LEE MEI PING AND ANOTHER",
+    "judgment_date": "2017-07-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 50,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "neck injuries",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the plaintiff now claims that he suffered neck and upper back injuries as a result of the 1st defendant\u0019s negligence."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "upper back injuries",
+        "injury_type": "Temporary injury",
+        "body_part": "upper back",
+        "laterality": null,
+        "source": [
+          "the plaintiff now claims that he suffered neck and upper back injuries as a result of the 1st defendant\u0019s negligence."
+        ],
+        "icd_code": "NB3Z",
+        "icd_description": "Injuries to the thorax, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He had enjoyed swimming but after the accident could no longer enjoy swimming.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Treatment at the Accident & Emergency Department of Tseung Kwan O Hospital",
+        "is_surgical": false,
+        "source": [
+          "He received treatment at the Accident & Emergency Department of Tseung Kwan O Hospital and later at a private clinic."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Treatment at a private clinic",
+        "is_surgical": false,
+        "source": [
+          "He received treatment at the Accident & Emergency Department of Tseung Kwan O Hospital and later at a private clinic."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Sick leave of 30 days",
+        "is_surgical": false,
+        "source": [
+          "He claims also that he was granted sick leave of 30 days after the accident."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 30,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "He had enjoyed swimming but after the accident could no longer enjoy swimming.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9963,
+      "output_tokens": 5077,
+      "reasoning_tokens": 3392,
+      "total_tokens": 15040
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27037.23116707988,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9963,
+      "output_tokens": 5077,
+      "reasoning_tokens": 3392,
+      "total_tokens": 15040
+    },
+    "total_duration_ms": 27037.23116707988
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "neutral_citation": "[1995] HKCFI 15; [1995] 3 HKC 640",
+    "action_number": "HCA004522/1991",
+    "case_name": "LEE HON CHEUNG v. CHAN TANG KAI LAN AND ANOTHER",
+    "judgment_date": "1995-10-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 10,
+    "age_at_trial": 18,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": "probably work as a fast food worker",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "student at La Salle College (secondary school)"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Severe head injury with cerebral oedema, prolonged disorientation and post-traumatic amnesia resulting in cognitive and personality deficits",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "C.T. scan showed cerebral oedema.",
+          "He was disorientated and confused for about 3 weeks until 15th July 1988.",
+          "Dr Siu was of the opinion that he suffered a mild to moderate degree of permanent neurological deficit."
+        ],
+        "icd_code": "NA07.20",
+        "icd_description": "Diffuse traumatic cerebral oedema"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Fracture of femoral shaft and proximal part of left tibia with residual angulation, shortening and limited movement",
+        "injury_type": "Residual disability",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "Mr Lee fractured his femoral shaft and the proximal part of his left tibia.",
+          "He undergone two operations in the fractured limb.",
+          "On 2nd November 1988, he was observed to be walking with a mild limping gait with shortening of his left lower limb by about 1.5 cm.",
+          "When he was examined by Dr Yeung Po Sun on 12th October 1991, the fractures had healed but there was a 15o medial angualation in the femoral fracture. There was a shortening of 1 cm of the left leg. There was some stiffness of his left knee and wasting of the left thigh muscle."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Deep lacerations to left eyebrow and forehead resulting in prominent facial scarring and loss of eyebrow",
+        "injury_type": "Permanent injury",
+        "body_part": "left forehead / left eyebrow",
+        "laterality": "left",
+        "source": [
+          "On admission to the hospital there were two deep lacerations over the left eyebrow and forehead measuring 4 cm and 6 cm respectively.",
+          "When Mr Lee was examined by Dr Philip Mao in June 1993 there was a 3¼ inch long vertical oblique scar running from the left forehead and slicing through the left eyebrow at the junction of the middle and lateral thirds with deficiency of the eyebrow. The scar continued downwards to the lateral side of the left eye.",
+          "There was also some loss of bone of the upper orbital margin."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Multiple keloidal irregular scars on the upper part of the left thigh and pin puncture holes at either side of the heel bone",
+        "injury_type": "Permanent injury",
+        "body_part": "left thigh; heels",
+        "laterality": "left",
+        "source": [
+          "There are multiple keloidal irregular scars totalling eight in all on the lateral and anterior services of the upper part of the left thigh.",
+          "The biggest one measures 2 inches x 1 inch. The rest, on an average, are about 1 inch in diameter.",
+          "On either side of the heel bone there are puncture holes where the pins had been inserted."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headache (frequent)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "deterioration in memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "poor concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "withdrawn and irritable temper / personality change",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild limping gait",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "shortening of left lower limb (about 1 cm to 1.5 cm)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiffness of left knee and wasting of left thigh muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "facial disfigurement / scar and deficiency of eyebrow causing distress",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "admission to United Christian Hospital and transfer to the neurosurgical unit in the Prince of Wales Hospital",
+        "is_surgical": false,
+        "source": [
+          "He was immediately admitted to the United Christian Hospital. Because of his deteriorating conscious state he was transferred to the neurosurgical unit in the Prince of Wales Hospital (\"PWH\") on the same day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "two operations in the fractured limb (including insertion of pins and traction)",
+        "is_surgical": true,
+        "source": [
+          "He undergone two operations in the fractured limb. A pin was inserted into the heel region and weight was applied."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of upper arm / lower arm / wrist / hand / leg / foot bone without internal fixation",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "traction (poorly tolerated) followed by long leg dynacast then long leg brace",
+        "is_surgical": false,
+        "source": [
+          "He tolerated the traction very poorly. A long leg dynacast was given instead 5 days later. The cast was kept for 4 weeks then it was changed to a long leg brace."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "outpatient physiotherapy and occupational therapy / follow-up outpatient visits",
+        "is_surgical": false,
+        "source": [
+          "He attended out patient treatment five times.",
+          "After his discharge from the hospital, the mother had to take Mr Lee to the Prince of Wales Hospital for follow-up treatment and occupational therapy and to the Kowloon Hospital for physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 40,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mental ability",
+        "description": "Deterioration in memory and concentration; cognitive impairment affecting academic performance and future prospects",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Withdrawn behaviour and increased irritability; temper easily provoked",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Prominent facial scar slicing through the left eyebrow and keloidal scars on left thigh causing distress and self-consciousness",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Multiple keloidal scars on the left thigh and puncture holes at heels",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Mild limping gait, limitation of movement and inability to bend left leg effectively",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to pursue education",
+        "description": "Unlikely to enter tertiary institutes because of cognitive impairment and decline in school performance",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Injury may have deprived him of chance of becoming a professional; likely limited to low skilled work (e.g. fast food worker)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Worried that people would stare at him because of facial scars",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chun Yat Nam v. The Attorney General",
+        "neutral_citation": null,
+        "action_number": "Civil Appeal No.92 of 1994",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 26761,
+      "output_tokens": 9594,
+      "reasoning_tokens": 7424,
+      "total_tokens": 36355
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44025.57258307934,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 26761,
+      "output_tokens": 9594,
+      "reasoning_tokens": 7424,
+      "total_tokens": 36355
+    },
+    "total_duration_ms": 44025.57258307934
+  }
+}

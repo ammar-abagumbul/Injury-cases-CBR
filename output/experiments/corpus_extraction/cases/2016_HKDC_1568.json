@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 1568",
+    "action_number": "DCPI 2418/2014",
+    "case_name": "LUO XIAO RONG v. FULL TREND DEVELOPMENT LIMITED T/A BANQUET DELICIOUS",
+    "judgment_date": "2016-12-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "part-time pantry helper/food conveyor employed by the defendant",
+    "occupation_after": null,
+    "expected_occupation_after": "part-time waitress/pantry helper",
+    "salary_before": 5400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary two"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion of the low back [with no other complications such as fracture, dislocation or other neurological deficits]",
+        "injury_type": "Temporary injury",
+        "body_part": "low back / lumbar region",
+        "laterality": null,
+        "source": [
+          "In the joint medical report of the two doctors, Dr Chun states that the appropriate diagnosis should be one of “contusion of the low back [with no other complications such as fracture, dislocation or other neurological deficits]”."
+        ],
+        "icd_code": "NB50.1",
+        "icd_description": "Contusion of lower back or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over the lumbar region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "severe soft tissue injury to the back (as noted by Dr Mui)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "positive \"Waddell's signs\"",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Conservative treatment and discharge from A&E",
+        "is_surgical": false,
+        "source": [
+          "After the accident, the plaintiff was admitted to the A&E of Tuen Mun Hospital. Medical examination revealed that there was tenderness over the lumbar region. Hospitalisation was not considered necessary and the plaintiff was conservatively treated and discharged."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "Physiotherapy and occupational therapy were prescribed. After several sessions of therapy, on 15 June 2012, the plaintiff reported in a self-assessment that the level of pain had reduced from 8, out of a scale of 1 to 10, to 2."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy",
+        "is_surgical": false,
+        "source": [
+          "Physiotherapy and occupational therapy were prescribed. After several sessions of therapy, on 15 June 2012, the plaintiff reported in a self-assessment that the level of pain had reduced from 8, out of a scale of 1 to 10, to 2."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Outpatient follow-up and subsequent clinic visits",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff attended the A&E of Tuen Mun Hospital on 6 March 2012 and 10 March 2012 for back pain.",
+          "There were more visits to the Tuen Mun Hospital and Department of Family Medicine & Primary Health Care of Tuen Mun Wu Hong Clinic in the subsequent months."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 120,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain and suffering and loss of amenity resulting from contusion of the low back",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chun Fat v Fortress Glory Engineering Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI 832/2013",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lau Wing Yeung v Kowloon Cricket Club",
+        "neutral_citation": null,
+        "action_number": "HCPI 955/2013",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Yiu Wing v Wong Lan Fun",
+        "neutral_citation": null,
+        "action_number": "HCPI 806/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11103,
+      "output_tokens": 5747,
+      "reasoning_tokens": 4160,
+      "total_tokens": 16850
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40658.77320803702,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11103,
+      "output_tokens": 5747,
+      "reasoning_tokens": 4160,
+      "total_tokens": 16850
+    },
+    "total_duration_ms": 40658.77320803702
+  }
+}

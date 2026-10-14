@@ -128,6 +128,8 @@ _SECTION_DEFINITIONS: list[tuple[str, type, str]] = [
         Treatment,
         "You are a medical treatment analyst. Extract treatment details:\n"
         "- treatments_received, treatments_future\n"
+        "  (each an object: treatment text, is_surgical flag, verbatim source; "
+        "leave the vmis_* fields null)\n"
         "- hospitalisation_days, expected_hospitalisation_days\n"
         "- operations_count, future_operations_count\n"
         "- sick_leave_days_actual, sick_leave_days_expected\n"

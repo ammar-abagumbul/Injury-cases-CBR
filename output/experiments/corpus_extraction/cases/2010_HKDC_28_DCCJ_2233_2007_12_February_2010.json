@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 28; DCCJ 2233/2007 (12 February 2010)",
+    "action_number": "DCCJ 2233/2007",
+    "case_name": "HONG KONG RED CROSS v. THE HONG KONG FEDERATION OF YOUTH GROUPS",
+    "judgment_date": "2010-02-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": 35,
+    "occupation_before": "teacher at the Plaintiff’s North District Hospital Red Cross School (Hong Kong Red Cross Hospital School)",
+    "occupation_after": null,
+    "expected_occupation_after": "clerical assistant",
+    "salary_before": 22683.73,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back contussion / back sprain (lumbosacral region)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbosacral region",
+        "laterality": null,
+        "source": [
+          "his diagnosis was ‘back contussion’",
+          "These findings were consistent with back sprain."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "maximum duration for her to either sit, stand or walk was 10 – 15 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "recurrent exacerbations of back pain requiring wheelchair for outdoor activities during those periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "local tenderness over 4th and 5th lumbar regions; diminished spinal movements; only mildly positive straight leg raising tests; no motor-sensory deficits",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "muscle guarding and mild spasm over the lumbar region and tenderness over both iliac crests and midline of the lumbar spine particularly over the lumbosacral junction",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident and Emergency assessment and analgesic",
+        "is_surgical": false,
+        "source": [
+          "he was taken to the Accident and Emergency Department of Tseung Kwan O Hospital where Dr. Kung Shu Wing found positive sign of tenderness on her lower back region. X-ray of the lumbascaral region did not show any fractures, his diagnosis was ‘back contussion’ and Miss Chan was given analgesic and sent home."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Admission to orthopaedic ward and physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "On 5 June 2002, Miss Chan suffered great pain and attended the Queen Elizabeth Hospital and was admitted into the orthopaedic ward.",
+          "Her physiotherapy treatments included manual therapy and ultrasonic treatments."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI scan",
+        "is_surgical": false,
+        "source": [
+          "MRI was taken and the doctors found only multiple sacral meningeal cysts which, according to the doctors, were usually harmless and asymptomatic."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Orthopaedic specialist consultations (Professor Leung, Dr. Johnson C.K. Lam and others)",
+        "is_surgical": false,
+        "source": [
+          "Miss Chan was examined by Professor Leung Ping Chung of the Chinese University Orthopaedics & Traumatology Department appointed by the Federation and Dr. Johnson C.K. Lam, specialist in Orthopaedics & Traumatology.",
+          "Dr. Johnson Lam’s medical report of 13 January 2005 revealed Miss Chan had consulted a private Orthopaedic specialist at the Baptist Hospital and later Dr. Chau Yat Sang on 1 August 2003 for back pain and knee pain after exercise."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "ongoing physiotherapy 2 to 3 times a week",
+        "is_surgical": false,
+        "source": [
+          "At the time of the trial, 7½ years after the accident, she was still attending regular physiotherapy treatments 2 to 3 times a week and she would experience acute inflammation causing constant pain on her low back every now and then."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Persistent low back pain and reduced spinal function with tenderness, diminished spinal movements and intermittent exacerbations limiting ability to sit, stand or walk for more than short periods.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident occupation as a teacher of sick children at the hospital and assessed loss of earning capacity (6%).",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15105,
+      "output_tokens": 4687,
+      "reasoning_tokens": 3072,
+      "total_tokens": 19792
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 24637.403334025294,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15105,
+      "output_tokens": 4687,
+      "reasoning_tokens": 3072,
+      "total_tokens": 19792
+    },
+    "total_duration_ms": 24637.403334025294
+  }
+}

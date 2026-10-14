@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 186",
+    "action_number": "HCPI000784/1995",
+    "case_name": "CHOI MEI HO v. CHUNG CHIU YING T/A KIN KEE AND OTHERS",
+    "judgment_date": "1997-03-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 37,
+    "age_at_trial": 46,
+    "occupation_before": "labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 5250.0,
+    "salary_after": 0.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Radiologically revealed a fractured dislocation of the 12 thoracic vertebra over the 1st lumbar vertebra.",
+        "injury_type": "Temporary injury",
+        "body_part": "T12-L1 vertebrae (thoracic/lumbar spine)",
+        "laterality": null,
+        "source": [
+          "Radiologically revealed a fractured dislocation of the 12 thoracic vertebra over the 1st lumbar vertebra."
+        ],
+        "icd_code": "NB52.Y",
+        "icd_description": "Other specified fracture of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The spinal cord was found to be crushed by the bony injury at the site of dislocation. She remained complete paraplegic.",
+        "injury_type": "Permanent injury",
+        "body_part": "spinal cord at T12/L1; lower spinal cord",
+        "laterality": null,
+        "source": [
+          "The spinal cord was found to be crushed by the bony injury at the site of dislocation.",
+          "She is a complete paraplegia with complete loss of sensation from waist down and paralysis of the lower extremities. She is wheelchair-bound. Her deficits are permanent."
+        ],
+        "icd_code": "NB62.0",
+        "icd_description": "Complete lesion of lumbar spinal cord"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "One laceration over right parietal region of head.",
+        "injury_type": "Temporary injury",
+        "body_part": "right parietal region of head",
+        "laterality": "right",
+        "source": [
+          "One laceration over right parietal region of head."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Bruises over right forehead, right thigh, left shoulder and upper back.",
+        "injury_type": "Temporary injury",
+        "body_part": "right forehead; right thigh; left shoulder; upper back",
+        "laterality": null,
+        "source": [
+          "Bruises over right forehead, right thigh, left shoulder and upper back."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of sensation from lower abdomen (at level of iliac crest) downwards involving both lower limbs.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Loss of muscular movement in both lower limbs.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Urinary retention.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She has to empty her bladder every 3 to 4 hours by intermittent self catheterization. She has no anrectal sensation and rectal suppositories are needed every few days for her bowel movements. Faecal soiling may still occur.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Intermittent painful paresthesia in the proximal segment of both lower limbs, particularly around the groins and the hips.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Very painful and frequent spasm.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Marked angulation of lower thoracic spine with tenderness.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Wheelchair-bound; needs assistance in getting upright as well as transferring from wheelchair to bed and vice versa; needs 24 hour care and attention.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "She suffers from total loss of sexual function.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Depression: depressive mood and associated symptoms such as loss of interest, energy and initiative, loss of self esteem, insomnia, poor appetite and impaired congitive functioning; condition moderate to severe in degree.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The Plaintiff's life expectancy has been substantially reduced because of her impairments.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Luque instrumentation to stabilize the reduced spine (operation performed 25th December 1988).",
+        "is_surgical": true,
+        "source": [
+          "An operation was performed on 25th December 1988. Luque instrumentation was carried out to stabilize the reduced spine."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Spine",
+        "vmis_procedure": "Posterior spinal fusion with instrumentation",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Removal of Luque implant (operation performed 6th February 1990).",
+        "is_surgical": true,
+        "source": [
+          "Further operation was carried out on 6th February 1990 to remove the Luque implant and clinical examination revealed no change of her neurological impairment."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Spine",
+        "vmis_procedure": "Posterior spinal fusion with instrumentation",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Intermittent self catheterization (empty bladder every 3 to 4 hours).",
+        "is_surgical": false,
+        "source": [
+          "She has to empty her bladder every 3 to 4 hours by intermittent self catheterization."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Physiotherapy: 40 sessions for first 20 weeks and thereafter biweekly on maintenance basis at $80 per session.",
+        "is_surgical": false,
+        "source": [
+          "David Siu, physiotherapist, ... recommends 40 sessions for the first 20 weeks and thereafter biweekly on maintenance basis. The charges are $80 per session. The total is $40,640. I make an award in this sum."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy: attendance twice a week for the first three months.",
+        "is_surgical": false,
+        "source": [
+          "Alice Tsang recommends attendance at her clinic by the Plaintiff twice a week for the first three months ... I allow her claim for the cost of occupational therapy at $800 per attendance twice a week for three months i.e. $19,200."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Psychiatric treatment: counselling and antidepressant medication (two years at higher cost then three years maintenance).",
+        "is_surgical": false,
+        "source": [
+          "The cost for treatment and medication will be $40,000 per year for the first two years and thereafter $20,000 each year for maintenance for three years. ... The award is $40,000 x 2 for the first two years and $20,000 x 3 for the three years that follow, making a total of $140,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Nursing care/nurse visits (reduced award to half of claimed nursing massage hours).",
+        "is_surgical": false,
+        "source": [
+          "The claim for nursing care in this respect should be reduced to half."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Engagement of a full time maid (sleep-in) and relief staff.",
+        "is_surgical": false,
+        "source": [
+          "Full time maid ... $1,000 per month x 12 x 12 ... Relief staff $2,000 per year x 12"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Regular medical check ups and yearly tests.",
+        "is_surgical": false,
+        "source": [
+          "Dr Woo recommends 6 monthly medical check ups and yearly tests such as X'ray, blood and urine tests. The cost will be $2,000 per year. I accept this is necessary and reasonable. The award is $2,000 x 12 = $24,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Hospitalisation provision (future contingency for pressure sores etc.).",
+        "is_surgical": false,
+        "source": [
+          "The cost at $4,000 per year is also accepted. This is a provision for the Plaintiff in the later years of her life when pressure sores may develop and require treatment and hospitalisation. The award is $4,000 x 12 = $48,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "She is wheelchair-bound.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "She needs assistance in getting upright as well as transferring from wheelchair to bed and vice versa. She needs 24 hour care and attention.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "She suffers from total loss of sexual function.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "She suffers from depression with impaired congitive functioning; condition moderate to severe in degree.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of expectation of life",
+        "description": "The Plaintiff's life expectancy has been substantially reduced because of her impairments.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "All the doctors who examined the Plaintiff assessed her loss of earning capacity to be 100%. The Plaintiff is not able to work and cannot be expected to do so.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Kwok Wing v. Lau Ping Kwan & Others",
+        "neutral_citation": "[1996] HKLR 261",
+        "action_number": null,
+        "injury_description": "Injuries to T12 and L1 rendering paraplegics paralysed from waist down with total loss of sensation; constant pain in lower limbs and psychiatric problems.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 1500000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21331,
+      "output_tokens": 10414,
+      "reasoning_tokens": 7040,
+      "total_tokens": 31745
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54919.4764168933,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21331,
+      "output_tokens": 10414,
+      "reasoning_tokens": 7040,
+      "total_tokens": 31745
+    },
+    "total_duration_ms": 54919.4764168933
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 8",
+    "action_number": "DCPI 1069/2011",
+    "case_name": "LEUNG SIU SUM v. SWIRE BEVERAGES LTD T/A SWIRE COCA COLA HK",
+    "judgment_date": "2014-01-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 49,
+    "age_at_trial": 55,
+    "occupation_before": "driver (driver of the defendant; to drive workers to sites to install, clean, maintain and repair the defendant’s signboards)",
+    "occupation_after": "maintain drinking machines and refrigerators (deployed to do non-driving work, working in sitting position)",
+    "expected_occupation_after": "driving job (plaintiff expressed the wish to look for a driving job and to work until 65 years old)",
+    "salary_before": 12000.0,
+    "salary_after": 11332.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain injury of left thigh / left distal thigh injury",
+        "injury_type": "Permanent injury",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "The plaintiff was transferred to the Orthopaedics and Traumatology Department where he was diagnosed to suffer sprain injury of left thigh.",
+          "Dr Chan opined that the residual pain over left distal thigh is probably due to scar pain."
+        ],
+        "icd_code": "NC73.1",
+        "icd_description": "Strain or sprain of hip"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "pre-existing meniscus injury and degenerative change of right knee (history of meniscus injury and prior arthroscopic treatment)",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "it is noted in the Joint Medical Report that the plaintiff had history of meniscus injury of his right knee in a football match long time ago and he had received arthroscopic treatment twice.",
+          "The MRI also showed that an area of subcortical bone marrow oedema (2.7 cm) was identified at posterior aspect of right lateral femoral condyle which could represent an area of bone contusion or is degenerative in nature. Besides, the posterior horn of the right lateral meniscus is deficient, which is suggestive of post-operative change."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tenderness over left upper arm and left thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "range of left knee movement was limited by pain on movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to squat fully due to bilateral knee pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hip pain after operative treatment for the swell in his left buttock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "pain over the ligament on the posterior aspect of his right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "slight impaired range of movements of the left knee (range decreased to 115 degrees at joint medical examination)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impaired endurance when prolonged extension using the left thigh or knee is required",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "attendance at the Accident & Emergency Department of Princess Margaret Hospital; transfer to Orthopaedics and Traumatology Department",
+        "is_surgical": false,
+        "source": [
+          "Immediately after the accident, the plaintiff attended the Accident & Emergency Department of Princess Margaret Hospital (“PMH”). He was found to have tenderness over left upper arm and left thigh and the range of his left knee movement was limited by pain on movement. X-ray examination showed no fracture. The plaintiff was transferred to the Orthopaedics and Traumatology Department where he was diagnosed to suffer sprain injury of left thigh."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "transfer to Caritas Medical Centre for rehabilitation; discharged 19 July 2008",
+        "is_surgical": false,
+        "source": [
+          "On 5 July 2008, the plaintiff was transferred to Caritas Medical Centre for rehabilitation. The plaintiff showed gradual improvement in the range of motion. He was discharged on 19 July 2008."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy (course starting 16 September 2008; completion of 35 sessions)",
+        "is_surgical": false,
+        "source": [
+          "the plaintiff started a course of physiotherapy treatment on 16 September 2008.",
+          "By 2 June 2009, after the completion of 35 sessions of physiotherapy the flexion range of his left knee was full at 125 degrees."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy (another course consisting of 20 sessions)",
+        "is_surgical": false,
+        "source": [
+          "Another course of physiotherapist consisting of 20 sessions was given and completed."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "operative treatment for the swell in his left buttock (February 2012) - not related to the accident",
+        "is_surgical": true,
+        "source": [
+          "left hip pain after operative treatment for the swell in his left buttock.",
+          "Conducted in February 2012 which was not related to the accident."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Local excision or destruction of lesion or tissue of skin and subcutaneous tissue",
+        "vmis_category": "Minor"
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 422,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "After his injury, he stopped practising bodybuilding exercises and jogging in gymnasium and he also participated in bodybuilding competitions; he stopped practising those exercises that he used to do and he does stretching exercises instead.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "He cannot walk for a long period of time; he can climb stairs but slowly; he can carry objects of about twenty pounds at the most.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Choi Pak Sum v Lam Lung Ki & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 529/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23758,
+      "output_tokens": 7368,
+      "reasoning_tokens": 5248,
+      "total_tokens": 31126
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40223.833166994154,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23758,
+      "output_tokens": 7368,
+      "reasoning_tokens": 5248,
+      "total_tokens": 31126
+    },
+    "total_duration_ms": 40223.833166994154
+  }
+}

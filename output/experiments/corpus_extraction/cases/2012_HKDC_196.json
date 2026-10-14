@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 196",
+    "action_number": "DCPI 2151/2009",
+    "case_name": "MAK SZE YING, FELIX v. CHUI CHAK YUNG T/A SILVER SPIRIT CAR SERVICES CENTER AND ANOTHER",
+    "judgment_date": "2012-02-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 31,
+    "age_at_trial": null,
+    "occupation_before": "car polisher",
+    "occupation_after": "tram driver",
+    "expected_occupation_after": null,
+    "salary_before": 7500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the 1st defendant\u0002s dog (a Doberman Pinscher) bit the 1st defendant\u0002s left hand and wrist, causing it to bleed and swell.",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand and wrist",
+        "laterality": "left",
+        "source": [
+          "he was picking up the car polishing machine, the 1st defendant\u0002s dog (a Doberman Pinscher) bit the 1st defendant\u0002s left hand and wrist, causing it to bleed and swell."
+        ],
+        "icd_code": "NC52.14",
+        "icd_description": "Open bite of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Dr Chun considered the plaintiff\u0002s wounds were superficial",
+        "injury_type": "Temporary injury",
+        "body_part": "left hand and wrist",
+        "laterality": "left",
+        "source": [
+          "Dr Chun considered the plaintiff\u0002s wounds were superficial, he found the subsequent development of numbness and claw hands with supple joints of the digits cannot be explained."
+        ],
+        "icd_code": "NC51.1",
+        "icd_description": "Superficial injury of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Complex Region Pain Syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "left upper limb / left hand",
+        "laterality": "left",
+        "source": [
+          "All these features are compatible with Complex Region Pain Syndrome."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "adjustment disorder with mixed anxiety and depressed mood",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Drs Lai and Ho agreed the plaintiff suffered from adjustment disorder with mixed anxiety and depressed mood."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Left hand deformity in claw hand position. Unable to extend fingers actively.",
+        "injury_type": "Residual disability",
+        "body_part": "left hand",
+        "laterality": "left",
+        "source": [
+          "Left hand deformity in claw hand position. Unable to extend fingers actively."
+        ],
+        "icd_code": "NC55.0",
+        "icd_description": "Injury of ulnar nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "bleeding and swell",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "persistent pain of his left hand and wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pin-prickness and numbness of his left hand and wrist",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to flex and extend the fingers in his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "muscle wasting (mild) at the abductor pollicis brevis (APB) of the left thumb and marginal wasting at the first dorsal interosseous muscle of the left hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "reduced sensation to light touch over dorsum of the left hand and fingers and reduced sensation over left palm and digits (various percentages recorded)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "numbness over the dorsum of left hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "stiffness on left finger flexors",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "decreased temperature noted on the dorsum of the left hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "fisting of left hand: Nearly full with pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "full passive extension of left fingers could not be achieved with active resistance; complained of pain on finger extension",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "poor opposition of the left thumb",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "unable to open the fingers to grip the handle (poor grip performance)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "insomnia and nightmares of being bitten by a dog or other people with flashbacks of the accident and fleeting suicidal idea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "depressive symptoms (adjustment disorder with mixed anxiety and depressed mood)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "became bad tempered",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "difficulties in lifting heavy objects using his left hand, holding a teapot and wringing towels using his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "reduction in left arm and forearm girth",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "widespread numbness, tenderness and reduced sensation of the left upper limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "anti-tetanus injection",
+        "is_surgical": false,
+        "source": [
+          "After assessment by the doctor on duty at the Accident and Emergency Department, he was given an anti-tetanus injection. His wound was dressed and he was discharged."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "wound dressing",
+        "is_surgical": false,
+        "source": [
+          "After assessment by the doctor on duty at the Accident and Emergency Department, he was given an anti-tetanus injection. His wound was dressed and he was discharged."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "attendance at the Accident and Emergency Department of Pok Oi Hospital 10 times between 6 July 2008 and 4 August 2008",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff attended the Accident and Emergency Department of Pok Oi Hospital 10 times between 6 July 2008 and 4 August 2008 due to persistent pain, pin-prickness and numbness of his left hand and wrist and inability to flex and extend the fingers in his left hand."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "referral to the Department of Orthopaedics and Traumatology of Pok Oi Hospital for further management on 11 August 2008",
+        "is_surgical": false,
+        "source": [
+          "He was referred to the Department of Orthopaedics and Traumatology of Pok Oi Hospital for further management on 11 August 2008."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "occupational therapy at POH from 13 August 2008 to 23 October 2008",
+        "is_surgical": false,
+        "source": [
+          "He received occupational therapy at POH from 13 August 2008 to 23 October 2008."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy treatments for his left hand from 10 September to 15 October 2008 for a total of 18 sessions",
+        "is_surgical": false,
+        "source": [
+          "He also received physiotherapy treatments for his left hand from 10 September to 15 October 2008 for a total of 18 sessions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychiatric treatment at Tuen Mun Mental Health Centre and follow up at Castle Peak Hospital",
+        "is_surgical": false,
+        "source": [
+          "He was referred to the Tuen Mun Mental Health Centre for treatment on 2 September 2008. He was diagnosed to be suffering from post-traumatic stress disorder and depressive episode and has been followed up at the Tuen Mun Mental Health Centre and Castle Peak Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "further psychiatric treatments and marital therapy from social workers",
+        "is_surgical": false,
+        "source": [
+          "Both doctors considered a period of further treatments and marital therapy from social workers would be beneficial to the plaintiff."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (general pain and ongoing left hand symptoms)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Difficulties in lifting heavy objects using his left hand, holding a teapot and wringing towels using his left hand",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Prevented from engaging in outdoor sporting activities he used to enjoy",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Personality change",
+        "description": "Became bad tempered",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Breakdown of the family",
+        "description": "Plaintiff blamed the injury was the indirect cause of his divorce with his wife",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Susi Yanti v Chu Shui Chuen",
+        "neutral_citation": "HCPI1176/2000",
+        "action_number": null,
+        "injury_description": "girl of 4 attacked by a pack of dogs, left with multiple scars",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Chiang Ki Chun Ian v Li Yin Sze",
+        "neutral_citation": null,
+        "action_number": "DCPI2067/2009",
+        "injury_description": "injuries for which the plaintiff had been hospitalised",
+        "hospitalisation_days": 8,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Mujiati v Chong Wai Kwan",
+        "neutral_citation": null,
+        "action_number": "DCPI424/2003",
+        "injury_description": "bitten by dogs and suffered injuries to both forearms and right flank and buttocks",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14642,
+      "output_tokens": 10309,
+      "reasoning_tokens": 6720,
+      "total_tokens": 24951
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 66064.20358410105,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14642,
+      "output_tokens": 10309,
+      "reasoning_tokens": 6720,
+      "total_tokens": 24951
+    },
+    "total_duration_ms": 66064.20358410105
+  }
+}

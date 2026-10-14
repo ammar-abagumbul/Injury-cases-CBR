@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 1462",
+    "action_number": "DCPI 1465/2009",
+    "case_name": "KHAN IRRAM v. WAI HING ENGINEERING CO LTD",
+    "judgment_date": "2011-11-04",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 22,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": "general labourer",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture at the distal phalange of the left ring finger",
+        "injury_type": "Residual disability",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "X-ray of the left ring finger detected a fracture at the distal phalange.",
+          "Mr. Khan sustained injuries mainly to his left ring finger."
+        ],
+        "icd_code": "NC53.62",
+        "icd_description": "Fracture of ring finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "injuries to three ulnar fingers of his left hand",
+        "injury_type": "Temporary injury",
+        "body_part": "three ulnar fingers of left hand",
+        "laterality": "left",
+        "source": [
+          "the broken piece of the blade hit his left finger(s) and he sustained injuries to three ulnar fingers of his left hand as a result."
+        ],
+        "icd_code": "NC5A.0",
+        "icd_description": "Injury of multiple sites of hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "distal phalange of his left ring finger was swollen with bruises",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruise was found underneath the fingernail of his left ring finger",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and tender at the tip of the ring finger with hard contact",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "discomfort and weakness over his left hand up to today",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "grip power has reduced",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left middle finger had scratches below the fingernail",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A & E attendance, x-ray and discharge with analgesic drug",
+        "is_surgical": false,
+        "source": [
+          "He went to the A & E Department of Ruttonjee Hospital in the following morning after the accident.",
+          "X-ray of the left ring finger detected a fracture at the distal phalange.",
+          "He was discharged on the same day with analgesic drug."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "sick leave from 5th August 2006 up to 19th August 2006 (15 days)",
+        "is_surgical": false,
+        "source": [
+          "He was given sick leave from 5th August 2006 up to 19th August 2006 (15 days)."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "No further treatment required",
+        "is_surgical": false,
+        "source": [
+          "No further treatment is required."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 15,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "reduced grip power, discomfort and weakness of the left hand and residual effects at the tip of the left ring finger",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "can no longer play cricket and volleyball after the accident",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "disadvantage on the labour market; may suffer longer periods of unemployment; loss of earning capacity assessed at 0.5% by Dr. Chun; global award under this head $40,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 85000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Khan Zubair v Hung Kee Cleaning Envirnment Recycle Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 1514/2008",
+        "injury_description": "extent of finger injury and scope of treatment received was more extensive than our Mr. Khan in this case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Shah Junaid Ali v Yau Lee Galvanizers (Hot-Dip) Co. Ltd.",
+        "neutral_citation": null,
+        "action_number": "DCPI 517/2008",
+        "injury_description": "extent of finger injury and scope of treatment received was more extensive than our Mr. Khan in this case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 120000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19876,
+      "output_tokens": 5635,
+      "reasoning_tokens": 3904,
+      "total_tokens": 25511
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31146.863042144105,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19876,
+      "output_tokens": 5635,
+      "reasoning_tokens": 3904,
+      "total_tokens": 25511
+    },
+    "total_duration_ms": 31146.863042144105
+  }
+}

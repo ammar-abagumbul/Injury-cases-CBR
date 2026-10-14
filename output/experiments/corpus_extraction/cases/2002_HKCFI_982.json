@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 982",
+    "action_number": "HCPI 1096/1999",
+    "case_name": "SIU LEUNG SING v. WONG FOOK WING AND ANOTHER",
+    "judgment_date": "2002-11-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 35,
+    "age_at_trial": null,
+    "occupation_before": "electrician",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "severe head injuries with consequent permanent disability.",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "suffered severe head injuries with consequent permanent disability."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left fourth cranial nerve palsy.",
+        "injury_type": "Permanent injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "left fourth cranial nerve palsy."
+        ],
+        "icd_code": "NA04.3",
+        "icd_description": "Injury of trochlear nerve"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Unconscious for about five weeks.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Speech and cognitive skills having been seriously affected.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Poor memory and comprehension.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Bi-temporal headaches daily.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Had not had any epileptic seizures since June/July 1997, being on regular anti-consultant therapy.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Diplopia (double vision); left eye is in a higher position than the right; can control diplopia by tilting his head to the right; needs to wear an optical lens with a correction in the left lens and adopt an abnormal head posture to compensate fully for the binocular diplopia.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Can wash, dress and feed himself but is substantially aided/assisted for shopping, travelling on only a few routes, requires assistance at the bank and is dependent to a substantial extent on members of his family and others.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Craniotomy",
+        "is_surgical": true,
+        "source": [
+          "The head injury required a craniotomy, and tracheostomy was later performed."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Tracheostomy",
+        "is_surgical": true,
+        "source": [
+          "The head injury required a craniotomy, and tracheostomy was later performed."
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Respiratory system",
+        "vmis_procedure": "Tracheostomy, temporary / permanent / revision",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Surgery to improve diplopia and head posture",
+        "is_surgical": true,
+        "source": [
+          "He also underwent surgery to improve his diplopia and head posture."
+        ],
+        "vmis_system": "EYE",
+        "vmis_region": "Eye",
+        "vmis_procedure": "Operation on one extraocular muscle",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "Hospitalisation and rehabilitation",
+        "is_surgical": false,
+        "source": [
+          "He was in hospitals and rehabilitation units for almost nine months."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Speech therapy",
+        "is_surgical": false,
+        "source": [
+          "Ms Polina Chan of the Polina Chan Speech Therapy Centre had in June 1999 before he was seen by Dr Woo, recommended an extended period of speech therapy",
+          "it was not until November 2001 two years after Dr Woo's assessment that a three month course was commenced."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Regular anti-consultant therapy",
+        "is_surgical": false,
+        "source": [
+          "he had not had any epileptic seizures since June/July 1997, being on regular anti-consultant therapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Future speech therapy",
+        "is_surgical": false,
+        "source": [
+          "Speech therapy is justified to maintain and consolidate progress. I will allow this in the sum of $300,000.00."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Future consultations and drug costs",
+        "is_surgical": false,
+        "source": [
+          "Applying the 20 year multiplier to the balance of the period for consultations (in net terms, 16) and to the drug costs, the total should be $46,400.00."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "There is no realistic prospect of his obtaining gainful employment. I approach this head of damage as a full loss.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "He is dependent to a substantial extent, and permanently, on members of his family, and others in a variety of ways.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "He needs help with shopping, cooking, cleaning and washing; part-time help of 3 hours daily 7 days a week is necessary.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of communication ability",
+        "description": "Permanent difficulties in using normal speech and language for daily communication; substantial deficits remained despite improvement after speech therapy.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor memory and comprehension; cognitive skills having been seriously affected for some time.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 900000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18556,
+      "output_tokens": 6315,
+      "reasoning_tokens": 4608,
+      "total_tokens": 24871
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33369.631791953,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18556,
+      "output_tokens": 6315,
+      "reasoning_tokens": 4608,
+      "total_tokens": 24871
+    },
+    "total_duration_ms": 33369.631791953
+  }
+}

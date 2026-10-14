@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 582",
+    "action_number": "DCPI 1838/2015",
+    "case_name": "CHENG SAI KAM v. TUTTI LTD (IN LIQUIDATION)",
+    "judgment_date": "2018-05-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 52,
+    "age_at_trial": 57,
+    "occupation_before": "Casual decoration worker (specialised in painting); previously worked as barber",
+    "occupation_after": "Unemployed (since about Jan 2017) and dependent on public assistance",
+    "expected_occupation_after": null,
+    "salary_before": 21600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration on dorsum of left foot with cut extensor tendon of his left 4th toe",
+        "injury_type": "Residual disability",
+        "body_part": "left 4th toe / left foot",
+        "laterality": "left",
+        "source": [
+          "The diagnosis at A&E department of the hospital was laceration left foot with cut tendon.",
+          "There was a laceration over the dorsum of his left foot. There was a tendon cut.",
+          "The wound was explored on admission under local anesthesia.The extensor digitorum communis tendon to the left 4th toe was found to be completely cut and repaired.",
+          "As a result of the Accident, the plaintiff, opined Dr Wong, suffered from laceration on dorsum of his left foot with cut extensor tendon of his left 4th toe."
+        ],
+        "icd_code": "ND17.11",
+        "icd_description": "Laceration of muscle, fascia or tendon of long extensor muscle of toe at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual stiffness in his left 4th toe",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Persistent pain in his left foot after prolonged walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited ability to stand on rung-ladder and inability to climb ladder due to pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "3.5cm oblique scar over dorsum of metatarsophalangeal joint of left 4th toe; tenderness over the scar; slight stiffness at the joint; active extension of 4th toe with power grade 4/5",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Exploration of wound and repair of extensor digitorum communis tendon to the left 4th toe under local anesthesia",
+        "is_surgical": true,
+        "source": [
+          "The wound was explored on admission under local anesthesia.The extensor digitorum communis tendon to the left 4th toe was found to be completely cut and repaired."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Muscle / Tendon",
+        "vmis_procedure": "Tendon repair / Suture of tendon not involving hand",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "Re-repair of extensor tendon under local anesthesia (14 Sept 2012)",
+        "is_surgical": true,
+        "source": [
+          "On 14 Sept 2012, the tendon was found to have re-ruptured. It was repaired under local anesthesia on the same day."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Muscle / Tendon",
+        "vmis_procedure": "Secondary repair of tendon, including graft, transfer and / or prosthesis",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "Short leg cast and heel walking",
+        "is_surgical": false,
+        "source": [
+          "Short leg cast was applied. The plaintiff was put on heel walking and prescribed with antibiotics."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Antibiotics",
+        "is_surgical": false,
+        "source": [
+          "Short leg cast was applied. The plaintiff was put on heel walking and prescribed with antibiotics."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy (9 sessions from 17 Jan 2013 to 12 Apr 2013)",
+        "is_surgical": false,
+        "source": [
+          "He had a total of 9 sessions of physiotherapy treatment at the hospital from 17 Jan 2013 to 12 Apr 2013."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Referral to occupational therapist for work assessment",
+        "is_surgical": false,
+        "source": [
+          "On outpatient orthopedic follow-up, the plaintiff\u0019s wound has healed. He was referred to physiotherapist for mobilization exercise and occupational therapist for work assessment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Hepatocellular carcinoma surgery (partial hepatectomy) - admitted to PWH for 10 days (2014)",
+        "is_surgical": true,
+        "source": [
+          "In 2014, the plaintiff was diagnosed to have liver cancer. He was admitted to Prince of Wales Hospital (PWH) for 10 days and received hepatocellular carcinoma surgery (partial hepatectomy)."
+        ],
+        "vmis_system": "ABDOMINAL AND DIGESTIVE SYSTEM",
+        "vmis_region": "Liver",
+        "vmis_procedure": "Segmentectomy of liver, open or laparoscopic",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Partial hepatectomy - admitted to PWH for 7 days (Feb 2018)",
+        "is_surgical": true,
+        "source": [
+          "In Feb 2018, the plaintiff was again admitted to PWH for 7 days to receive another partial hepatectomy."
+        ],
+        "vmis_system": "ABDOMINAL AND DIGESTIVE SYSTEM",
+        "vmis_region": "Liver",
+        "vmis_procedure": "Segmentectomy of liver, open or laparoscopic",
+        "vmis_category": "Complex"
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 469,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual stiffness in left 4th toe, persistent left foot pain after prolonged walking, limited ability to stand on rung-ladder and inability to climb ladder due to pain",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kam Fai v李志傑經營之惠林運輸公司",
+        "neutral_citation": null,
+        "action_number": "DCPI 352/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Lau Yuk Sang Jimmy v Victoria Sight Ltd trading as Windsor Spa",
+        "neutral_citation": null,
+        "action_number": "DCPI 579/2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16304,
+      "output_tokens": 7534,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23838
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 42260.33958303742,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16304,
+      "output_tokens": 7534,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23838
+    },
+    "total_duration_ms": 42260.33958303742
+  }
+}

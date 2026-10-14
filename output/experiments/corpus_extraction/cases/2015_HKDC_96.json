@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 96",
+    "action_number": "DCPI 1905/2013",
+    "case_name": "YIP MAU KEI v. WONG KAM TIM",
+    "judgment_date": "2015-02-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 45,
+    "age_at_trial": 48,
+    "occupation_before": "night-shift taxi driver for about 10 years prior to the 1st Accident",
+    "occupation_after": "driving a taxi at night",
+    "expected_occupation_after": null,
+    "salary_before": 7200.0,
+    "salary_after": 4800.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to his back (back sprain)",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "the plaintiff as a result of the 1st Accident had suffered a soft tissue injury to his back, and there were only residual back symptoms with mild adverse effects."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild degenerative changes of the lower lumbar spine (mild lumbar spondylosis / long standing disc degeneration)",
+        "injury_type": "Permanent injury",
+        "body_part": "lower lumbar spine",
+        "laterality": null,
+        "source": [
+          "an x-ray of the lumbar spine was taken. The plaintiff was found to have mild degenerative changes with marginal osteophytosis in the lower lumbar spine. Dr Lee and Dr Lam both agreed that such features were compatible with mild lumber spondylosis.",
+          "the records of the MRI scans done in January 2012 show that there was dehydration of intervertebral discs and mild disc space narrowing of L4/5 , which were due to long standing disc degeneration."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "On and off low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Episodic bilateral big toe numbness, more on left",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Could stand and walk on tiptoes or heels, with complaint of back discomfort (gait)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Tenderness at bilateral paraspinal muscles at lower lumbar",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Sensory 30% loss in anterior thigh; 20% in rest of whole limb",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Reduced work efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Treated and discharged from Queen Elizabeth Hospital; 2 days' sick leave",
+        "is_surgical": false,
+        "source": [
+          "he was treated and discharged with 2 days’ sick leave."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Medication prescribed for back pain",
+        "is_surgical": false,
+        "source": [
+          "the plaintiff was diagnosed as having sustained a back sprain and soft tissue injuries to the back. Medication was prescribed for his back pain."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Three sessions of physiotherapy (March-April 2012)",
+        "is_surgical": false,
+        "source": [
+          "In addition, the plaintiff also received three sessions of physiotherapy between March and April 2012."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Intramuscular analgesic and intensive inpatient physiotherapy (admitted and discharged 29 December 2012)",
+        "is_surgical": false,
+        "source": [
+          "According to the report from Baptist, the plaintiff was found to have tenderness over his lumbar spine region and was given intramuscular analgesic for his pain. He was admitted and discharged on 29 December 2012 during which stay he was given medicine for his pain and provided with intensive inpatient physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "X-ray and MRI imaging of lumbar spine",
+        "is_surgical": false,
+        "source": [
+          "an x-ray taken on that day showed that there was no fracture.",
+          "an x-ray of the lumbar spine was taken. The plaintiff was found to have mild degenerative changes with marginal osteophytosis in the lower lumbar spine.",
+          "the records of the MRI scans done in January 2012 show that there was dehydration of intervertebral discs and mild disc space narrowing of L4/5 , which were due to long standing disc degeneration."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 94,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual back symptoms with mild adverse effects and reduced work efficiency",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Hiu Yan Hilda v Lau Kam Hung",
+        "neutral_citation": null,
+        "action_number": "DCPI 220/2012",
+        "injury_description": "whiplash injury and sprained back with residual neck and back pain",
+        "hospitalisation_days": 10,
+        "operations_count": null,
+        "sick_leave_days": 10,
+        "comparison": null,
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Tamang Udas v Global Sunny Engineering Limited & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 732/2011",
+        "injury_description": "back injury while moving metal scaffolds; hospitalized for 4 to 5 days",
+        "hospitalisation_days": 4,
+        "operations_count": null,
+        "sick_leave_days": 210,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Fazal Ahmed v MTR Corp Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 29/2011",
+        "injury_description": "simple contusion of his back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Rai Pabitdara v Vegetable Marketing Organization",
+        "neutral_citation": null,
+        "action_number": "DCPI 2473/2009",
+        "injury_description": "sprained back with soft tissue injury from lifting",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 60000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16883,
+      "output_tokens": 5726,
+      "reasoning_tokens": 4096,
+      "total_tokens": 22609
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31743.1297081057,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16883,
+      "output_tokens": 5726,
+      "reasoning_tokens": 4096,
+      "total_tokens": 22609
+    },
+    "total_duration_ms": 31743.1297081057
+  }
+}

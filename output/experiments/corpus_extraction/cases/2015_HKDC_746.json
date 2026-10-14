@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 746",
+    "action_number": "DCPI 1562/2012",
+    "case_name": "LO KA YUE v. LEUNG CHUN KIT AND ANOTHER",
+    "judgment_date": "2015-07-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 20,
+    "age_at_trial": 24,
+    "occupation_before": "Student (student of the Hong Kong Institute of Vocation Education at the time of the incident)",
+    "occupation_after": "not working",
+    "expected_occupation_after": null,
+    "salary_before": 5000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "student of the Hong Kong Institute of Vocation Education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Facial lacerations with resultant facial scarring",
+        "injury_type": "Permanent injury",
+        "body_part": "left face",
+        "laterality": "left",
+        "source": [
+          "P was initially examined at Pok Oi Hospital. She was found to have a 2 cm long laceration lateral to the left eye and four 1 cm lacerations on the left cheek. She was transferred to Tuen Mun Hospital where the wounds were irrigated and cleansed with anti-septic solution and suturing was done. The stitches were removed 5 days later as outpatient. On 8 March 2011, her scars were found to be pinkish in colour and were not elevated.",
+          "P was examined by Dr Leung Sze Kee on 8 July 2013. Dr Leung observed that at a distance of 3 feet, there were 3 visible scars, one on the left temporal region, hypopigmented and slightly depressed, measuring 2 cm; one below the lateral part of the left eyebrow and was hypopigmented, measuring 0.8 cm; and one on the left upper cheek with no colour change but noticeable depression, measuring 0.4 cm x 0.3 cm. On closer examination at a distance of 1 foot, another scar was found below the outer edge of the left eye, measuring 0.5 cm and was slightly hypopigmented without depression. At a distance of 8 feet, Dr Leung observed the 2 eyelid folds were obviously different on the 2 sides."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "2 cm long laceration lateral to the left eye and four 1 cm lacerations on the left cheek; visible scars as described by Dr Leung (hypopigmented, depressed, differences in eyelid folds)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "psychological effect arising from facial scarring",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "wounds irrigated and cleansed with anti-septic solution and suturing",
+        "is_surgical": true,
+        "source": [
+          "She was transferred to Tuen Mun Hospital where the wounds were irrigated and cleansed with anti-septic solution and suturing was done."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Surgical toilet and suturing",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "stitches removed as outpatient",
+        "is_surgical": false,
+        "source": [
+          "The stitches were removed 5 days later as outpatient."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Injections of dermal fillers",
+        "is_surgical": false,
+        "source": [
+          "Injections of dermal fillers $150,000"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Laser therapy",
+        "is_surgical": false,
+        "source": [
+          "Laser therapy $100,000"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Blepharoplasty",
+        "is_surgical": true,
+        "source": [
+          "Blepharoplasty $ 50,000"
+        ],
+        "vmis_system": "EYE",
+        "vmis_region": "Eye",
+        "vmis_procedure": "Reconstruction of eyelid, partial-thickness",
+        "vmis_category": "Intermediate"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 8,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "scars are all on her face which will inevitably have an effect on her psychologically if not socially",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 300000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Susi Yanti v Chu Shiu Chuen",
+        "neutral_citation": null,
+        "action_number": "HCPI 1176/2000",
+        "injury_description": "4-year old girl attacked by a pack of dogs; multiple lacerations and bite marks with scarring",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 130000.0
+      },
+      {
+        "case_name": "Chiu Po Ling v Wong Yuen",
+        "neutral_citation": null,
+        "action_number": "DCPI 115/2006",
+        "injury_description": "10-year old boy bitten just below left eye; scar causing malfunctioning of left lower eyelid",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Chiang Ki Chun Ian v Li Yin Sze",
+        "neutral_citation": null,
+        "action_number": "DCPI 2067/2009",
+        "injury_description": "9-year old boy bitten on left face; scars not noticeable at 1 foot",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Tsang Ka Hung Barry v 鄧玉玲",
+        "neutral_citation": null,
+        "action_number": "DCPI 525/2007",
+        "injury_description": "penetrating wound about 5 mm and abrasion wound 2 cm on left hand",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19177,
+      "output_tokens": 6237,
+      "reasoning_tokens": 4288,
+      "total_tokens": 25414
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35226.740499958396,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19177,
+      "output_tokens": 6237,
+      "reasoning_tokens": 4288,
+      "total_tokens": 25414
+    },
+    "total_duration_ms": 35226.740499958396
+  }
+}

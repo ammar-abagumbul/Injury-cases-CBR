@@ -1,0 +1,36 @@
+id: "severity-profiling"
+
+# Features: LLM-extracted Case JSON files
+cases_path: "output/experiments/corpus_extraction/cases"
+cases_glob: "*.json"
+
+# Tier: human-annotated overall severity
+labels_path: "data/PI_ver6.csv"
+label_column: "injury_type"
+
+tiers:
+  non-serious: ["nonserious", "non-serious"]
+  serious: ["serious"]
+  substantial+: ["substantial", "gross", "disaster"]
+
+output_dir: "output/experiments/severity_profiling"
+
+# Keep only some courts, e.g. ["HKCFI"] for High Court. null keeps everything
+# (each court is then also analysed on its own, which is the confound-free view).
+courts: null
+
+# injuries, treatment, hospital_sick, demographics, economic, losses
+feature_groups: [injuries, treatment, hospital_sick, demographics, economic, losses]
+
+use_stated_flags: false    # the "*_stated" columns describe the judgment text, not the injury
+min_feature_support: 5     # drop sparse features present in fewer cases than this
+min_group_size: 5          # smallest group a comparison may use
+fdr_alpha: 0.10            # false-discovery threshold for "significant"
+top_n: 12                  # rows shown per table
+profile_features: 20       # rows in the tier-profile heatmap
+
+tree_max_depth: 3
+tree_min_samples_leaf: 5
+n_splits: 5
+n_repeats: 10
+seed: 42

@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 251",
+    "action_number": "DCPI 1655/2011",
+    "case_name": "WONG LAI MAN v. EASTERN TERMINAL LTD",
+    "judgment_date": "2013-03-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "transportation and delivery worker",
+    "occupation_after": "assistant cook (chopping board) at a Kowloon City restaurant",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": 12000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head contusion with mild swelling",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "\"mild head contusion with mild swelling\""
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right AC joint dislocation (residue of AC joint dislocation / subluxation)",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder (AC joint)",
+        "laterality": "right",
+        "source": [
+          "\"right AC joint dislocation\"",
+          "\"residue of AC joint dislocation with reduction/partial reduction of joint achieved\""
+        ],
+        "icd_code": "NC13.1",
+        "icd_description": "Dislocation of acromioclavicular joint"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "contusion of lateral epicondyle & olecranon process of right elbow with reduced elbow movement",
+        "injury_type": "Temporary injury",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "\"contusion of lateral epicondyle & olecranon process of right elbow with reduced elbow movement\""
+        ],
+        "icd_code": "NC30.1",
+        "icd_description": "Contusion of elbow"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "1cm right knee laceration",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "\"1cm right knee laceration\""
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild head contusion (history recorded by hospital)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "right shoulder soreness and weakness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "local tenderness consistent with residual subluxation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild reduction of shoulder muscle power",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild reduction of right shoulder active motions",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "reduced elbow movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "1cm laceration to right knee (bleeding noted)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident & Emergency Department treatment at Kwong Wah Hospital",
+        "is_surgical": false,
+        "source": [
+          "\"He visited the Kwong Wah Hospital Accident & Emergency Department later that day where he was diagnosed to suffer from mild head contusion with mild swelling, right AC joint dislocation, contusion of lateral epicondyle & olecranon process of right elbow with reduced elbow movement, and 1cm right knee laceration.\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 181,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual pain on the right shoulder for two years; not able to raise and rotate his right hand making daily activities inconvenient; difficulty in lifting heavy objects",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Not able to raise and rotate his right hand making daily activities inconvenient",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Lai Po v Au Wai Kit",
+        "neutral_citation": null,
+        "action_number": "DCPI 798 of 2008",
+        "injury_description": "dislocation of the AC joint, tenderness at her left shoulder and left hip, fracture of the left fibula, ptosis and ophthalmoplegia of the left eye and injury to the left parietal region of her scalp",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "Yiu Yuet Chi v Yick Kai Cheung & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 291 of 2006",
+        "injury_description": "fracture of right 2nd and 3rd ribs, cerebral contusion with oedema, right orbital wall fracture with orbital emphysema and dislocation of right AC joint and multiple foreign bodies in the eye ball",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Lee Lung Wah and Ors v Lau Kam Chun and Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 1534 of 2000",
+        "injury_description": "head injury, dislocation of the right AC joint and visual impairment",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 500000.0
+      },
+      {
+        "case_name": "Ng Ming Wa v Chan Lai Mei & Anor",
+        "neutral_citation": null,
+        "action_number": "DCPI 98 of 2000",
+        "injury_description": "fracture clavicle assessed to suffer from 1% impairment of the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Lau Kwok Chiu v Senfield Limited trading as Tsui Wah Restaurant",
+        "neutral_citation": null,
+        "action_number": "HCPI 245 of 2006",
+        "injury_description": "dislocation of right shoulder and fracture of right shoulder joint",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Or Chun Kwong v Fu Sau Lun Jason & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 384 of 2005",
+        "injury_description": "right shoulder AC joint subluxation assessed to suffer from 3-4% impairment of the whole person",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17911,
+      "output_tokens": 5749,
+      "reasoning_tokens": 3968,
+      "total_tokens": 23660
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34406.507208012044,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17911,
+      "output_tokens": 5749,
+      "reasoning_tokens": 3968,
+      "total_tokens": 23660
+    },
+    "total_duration_ms": 34406.507208012044
+  }
+}

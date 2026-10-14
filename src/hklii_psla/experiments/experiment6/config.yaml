@@ -1,0 +1,39 @@
+id: "severity-prediction"
+
+# Features: LLM-extracted Case JSON files (e.g. the corpus-extraction output)
+cases_path: "output/experiments/corpus_extraction/cases"
+cases_glob: "*.json"
+
+# Label: human-annotated overall severity (matched on neutral citation / filename / action number)
+labels_path: "data/PI_ver6.csv"
+label_column: "injury_type"
+
+# Tiers, ordered low -> high. Rare tiers are merged so every tier has enough cases to learn from.
+tiers:
+  non-serious: ["nonserious", "non-serious"]
+  serious: ["serious"]
+  substantial+: ["substantial", "gross", "disaster"]
+
+output_dir: "output/experiments/severity_prediction"
+
+# Feature groups: injuries, treatment, hospital_sick, demographics, economic, losses
+feature_sets:
+  core: [injuries, treatment, hospital_sick, demographics]
+  all: [injuries, treatment, hospital_sick, demographics, economic, losses]
+primary_feature_set: "all"   # the set used for importance, coefficients and confusion plots
+
+# The two models to compare (values are scikit-learn parameter overrides)
+models:
+  random_forest:
+    n_estimators: 500
+    min_samples_leaf: 2
+  logistic_regression:
+    C: 1.0
+
+n_splits: 5
+n_repeats: 5
+seed: 42
+min_feature_support: 3        # drop sparse features present in fewer than this many cases
+permutation_repeats: 5
+top_n_features: 20
+distribution_features: 6      # how many top features get a per-tier distribution plot

@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 1294",
+    "action_number": "DCPI 908/2015",
+    "case_name": "LAM YIN MAN v. NG HING CHUEN AND ANOTHER",
+    "judgment_date": "2017-10-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 18,
+    "age_at_trial": null,
+    "occupation_before": "saleslady and part-time model",
+    "occupation_after": "attendant at a clinic",
+    "expected_occupation_after": null,
+    "salary_before": 1500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Completed DSE (May 2012); enrolled in Diploma of International Professional Beauty Therapist (one-year full-time) from around September 2012"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "As a result of the accident, the plaintiff suffered injuries to her head, face and right thigh, and lost her right upper incisor.",
+          "The attendance notes show that she was “alert” on arrival and she scored 15/15 on the Glasgow Coma Score suggesting that she was then fully conscious. The provisional diagnosis was “Head injury and amnesia”.",
+          "She was admitted to the Department of Neurosurgery of the PMH on the same day for further management."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Multiple facial lacerations and resultant facial scarring",
+        "injury_type": "Residual disability",
+        "body_part": "face (right)",
+        "laterality": "right",
+        "source": [
+          "There was a 0.5cm laceration over her right eyebrow, a 1-cm laceration over her right nasal bridge and a 1-cm laceration above her right upper mouth corner. The lacerations were cleaned and sutured.",
+          "There were multiple scars on the plaintiff’s face. But they are all faint and inconspicuous and can be covered up by cosmetic powder except the 1-cm scar which appears at the right corner of her mouth;",
+          "Her wounds had healed with no significant complications."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Missing right upper incisor",
+        "injury_type": "Residual disability",
+        "body_part": "right upper incisor",
+        "laterality": "right",
+        "source": [
+          "Her right upper incisor was missing and left upper incisor slightly loosened.",
+          "A temporary false tooth was put in for her missing incisor."
+        ],
+        "icd_code": "NA0D.15",
+        "icd_description": "Avulsion of tooth"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Right thigh soft tissue injury / pain",
+        "injury_type": "Temporary injury",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "She also complained of right thigh pain after the injury but an MRI detected no abnormality.",
+          "As a result of the accident, the plaintiff still feels intermittent right thigh pain aggravated by weather changes."
+        ],
+        "icd_code": "NC76.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at hip or thigh level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Bilateral knee abrasions",
+        "injury_type": "Temporary injury",
+        "body_part": "knees",
+        "laterality": "bilateral",
+        "source": [
+          "Bilateral knee abrasions;"
+        ],
+        "icd_code": "NC90.0",
+        "icd_description": "Abrasion of knee"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Adjustment disorder with mixed anxiety and depressed mood",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The diagnosis is adjustment disorder with mixed anxiety and depressed mood;",
+          "The illness was caused by the accident;",
+          "The prognosis is good and the intensity of the symptoms would be alleviated after further treatment;",
+          "The resulting whole person impairment is 10%."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "Incidental femoral bone lesion (not related to the injury)",
+        "injury_type": "Temporary injury",
+        "body_part": "femur",
+        "laterality": null,
+        "source": [
+          "There was an incidental finding of femoral bone lesion but it was not related to the injury. She was referred to the orthopaedic surgeon for investigation."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Amnesia (no memory of the accident)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Multiple facial scars",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Lacerations over right eyebrow, right nasal bridge and above right upper mouth corner (sutured)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Intermittent right thigh pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Bilateral knee abrasions",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "Low mood, depression, loss of interest or pleasure, poor sleep, anxiety and irritable emotions",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Fear (especially of pedestrian crossings), loss of self-confidence and self-esteem",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_006"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Cleaning and suturing of facial lacerations",
+        "is_surgical": true,
+        "source": [
+          "There was a 0.5cm laceration over her right eyebrow, a 1-cm laceration over her right nasal bridge and a 1-cm laceration above her right upper mouth corner. The lacerations were cleaned and sutured."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Surgical toilet and suturing",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Admission and management at Department of Neurosurgery, Princess Margaret Hospital",
+        "is_surgical": false,
+        "source": [
+          "She was admitted to the Department of Neurosurgery of the PMH on the same day for further management."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI of right thigh",
+        "is_surgical": false,
+        "source": [
+          "She also complained of right thigh pain after the injury but an MRI detected no abnormality."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Temporary false tooth (prosthesis)",
+        "is_surgical": false,
+        "source": [
+          "A temporary false tooth was put in for her missing incisor."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Chinese acupuncture",
+        "is_surgical": false,
+        "source": [
+          "On 14 June 2013, the plaintiff attended Three Good Tong CMC for Chinese acupuncture. The diagnosis was post-traumatic stress disorder."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Pharmacological treatment (psychiatric)",
+        "is_surgical": false,
+        "source": [
+          "She has attended follow-up sessions since then, roughly on a monthly or bi-monthly basis. The diagnosis was adjustment disorder with depressive symptoms. She has been receiving pharmacological treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Dental implant for upper right incisor",
+        "is_surgical": true,
+        "source": [
+          "It is also reasonable for the plaintiff to have an implant for the upper right incisor which was knocked out during the accident. She has produced a quotation of $45,600. I would have awarded that sum."
+        ],
+        "vmis_system": "DENTAL",
+        "vmis_region": "Dental",
+        "vmis_procedure": "Any kind of dental surgery due to injury caused by an Accident",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Plastic surgical treatment to improve facial scars",
+        "is_surgical": true,
+        "source": [
+          "It would be reasonable for the plaintiff to receive treatment to improve the facial scars, as recommended jointly by the plastic surgeons. I would have allowed a sum of $58,000, as estimated."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Local excision or destruction of lesion or tissue of skin and subcutaneous tissue",
+        "vmis_category": "Minor"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": 67,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) award as assessed by the court in the event of liability",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Pre-trial loss of earnings as a part-time model awarded (from date of accident to date of trial) $86,450",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of congenial employment (career as a model) awarded $30,000",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pre-trial expenses (medical, travelling, tonic food) agreed and awarded $5,540",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Future plastic surgical treatment to improve facial scars (estimated) $58,000",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Future dental treatment - implant for upper right incisor $45,600",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Shabbina Khokhar v Europe Beauty International Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 579/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Ka Yee v L&Y Beauty Centre Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 196/2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Orla Gilroy v Easy Up Investments Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1252/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24540,
+      "output_tokens": 12883,
+      "reasoning_tokens": 9344,
+      "total_tokens": 37423
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 58002.884374931455,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24540,
+      "output_tokens": 12883,
+      "reasoning_tokens": 9344,
+      "total_tokens": 37423
+    },
+    "total_duration_ms": 58002.884374931455
+  }
+}

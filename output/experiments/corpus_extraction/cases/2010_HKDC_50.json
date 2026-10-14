@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 50",
+    "action_number": "DCPI 730/2009",
+    "case_name": "HO MAN WA v. WONG SHUI FUN T/A YAU LEE CO AND ANOTHER",
+    "judgment_date": "2010-03-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "delivery worker",
+    "occupation_after": "customer services officer",
+    "expected_occupation_after": null,
+    "salary_before": 10580.0,
+    "salary_after": 10852.9,
+    "expected_salary_after": null,
+    "education_level": "Form 7 school-leaver"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture at shaft of the right femur",
+        "injury_type": "Residual disability",
+        "body_part": "right femur / right thigh",
+        "laterality": "right",
+        "source": [
+          "X-ray also showed fracture at shaft of the right femur."
+        ],
+        "icd_code": "NC72.5",
+        "icd_description": "Fracture of shaft of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "heterotopic ossification at the tip of the greater trochanter of the right hip",
+        "injury_type": "Residual disability",
+        "body_part": "right hip (greater trochanter)",
+        "laterality": "right",
+        "source": [
+          "For the X-ray of the right hip, heterotopic ossification was noted at the tip of the greater trochanter (which was the entry site for insertion of intramedullary nail), corresponding to the site of maximal tenderness and pain complained by the Plaintiff."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "swelling and tenderness over the right thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "the Plaintiff might still have some residual pain in his right hip and knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "full range of movement of right hip and knee with no pain",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "there were also several surgical scars over the lateral aspect of right hip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "able to squat fully with no pain; walking and running with normal gait; and sitting and standing with no limitation",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "closed reduction and internal fixation with IM nail",
+        "is_surgical": true,
+        "source": [
+          "Emergency operation, namely closed reduction and internal fixation with IM nail was performed on the same day."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of femur +/- internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "removal of implant",
+        "is_surgical": true,
+        "source": [
+          "the Plaintiff was readmitted to the Princess Margaret Hospital for removal of implant in December 2006."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Removal of screw, pin and plate, and other metal for old fracture except fracture femur",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "physiotherapy (2 courses, total of 47 sessions)",
+        "is_surgical": false,
+        "source": [
+          "the Plaintiff had attended 2 courses of physiotherapy with a total of 47 sessions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 8,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 206,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "the Plaintiff might still have some residual pain in his right hip and knee",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "there were also several surgical scars over the lateral aspect of right hip. These scars were however non-tender.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Tsz Wan v Caltex Oil Hong Kong Ltd. & Another",
+        "neutral_citation": null,
+        "action_number": "DCPI No.140 of 2001",
+        "injury_description": "fracture at neck of his right femur which required surgical intervention by means of closed reduction and hip screw fixation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 250000.0
+      },
+      {
+        "case_name": "Lai Kwan Ming v Lee Yin Hing t/a King Yip Company & Another",
+        "neutral_citation": null,
+        "action_number": "HCPI No.765 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13620,
+      "output_tokens": 6400,
+      "reasoning_tokens": 4736,
+      "total_tokens": 20020
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28778.68133294396,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13620,
+      "output_tokens": 6400,
+      "reasoning_tokens": 4736,
+      "total_tokens": 20020
+    },
+    "total_duration_ms": 28778.68133294396
+  }
+}

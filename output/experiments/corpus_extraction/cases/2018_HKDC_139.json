@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 139",
+    "action_number": "DCPI 1649/2015",
+    "case_name": "CHAN WAI HING, THE ADMINISTRATRIX OF THE ESTATE OF LEE GUN, DECEASED v. MTR CORPORATION LTD",
+    "judgment_date": "2018-02-09",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 83,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "trochanteric fracture of his left hip",
+        "injury_type": "Residual disability",
+        "body_part": "left hip",
+        "laterality": "left",
+        "source": [
+          "he suffered a trochanteric fracture of his left hip following the Accident, and received surgical operation with internal fixation of the fracture with gamma nail on 27 March 2013."
+        ],
+        "icd_code": "NC72.30",
+        "icd_description": "Intertrochanteric fracture of femur"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual lower limb symptoms upon prolonged weight bearing or exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left hip pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "walking endurance might be mildly reduced",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "need occasional use of walking aid with hip pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to walk after the fall",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "internal fixation of the fracture with gamma nail (operation on 27 March 2013)",
+        "is_surgical": true,
+        "source": [
+          "received surgical operation with internal fixation of the fracture with gamma nail on 27 March 2013."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of femur +/- internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "He underwent physiotherapy and occupational therapy, and continued day care rehabilitation in geriatric day hospital for the subsequent 2 months."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "occupational therapy",
+        "is_surgical": false,
+        "source": [
+          "He underwent physiotherapy and occupational therapy, and continued day care rehabilitation in geriatric day hospital for the subsequent 2 months."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "day care rehabilitation in geriatric day hospital for the subsequent 2 months",
+        "is_surgical": false,
+        "source": [
+          "He underwent physiotherapy and occupational therapy, and continued day care rehabilitation in geriatric day hospital for the subsequent 2 months."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "walking endurance might be mildly reduced",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "which would affect his activities of daily living",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "residual left hip pain, weakness and loss of hip motion",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Hin Chuen v Wang On Majorluck Ltd and Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 58 of 2015",
+        "injury_description": "fracture of the left neck of femur which necessitated an Austin Moore hemiarthroplasty of the hip, and he was left with residual left hip pain",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Lam Pik Kuen v Lee Fai Ming and Another",
+        "neutral_citation": null,
+        "action_number": "HCPI 7 of 1998",
+        "injury_description": "fractured left superior and inferior pubic rami; whole person disability about 7%",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": {
+    "conscious_before_death": false,
+    "hours_between_accident_and_death": null,
+    "days_between_accident_and_death": null
+  },
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20561,
+      "output_tokens": 5699,
+      "reasoning_tokens": 4480,
+      "total_tokens": 26260
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33324.997917050496,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20561,
+      "output_tokens": 5699,
+      "reasoning_tokens": 4480,
+      "total_tokens": 26260
+    },
+    "total_duration_ms": 33324.997917050496
+  }
+}

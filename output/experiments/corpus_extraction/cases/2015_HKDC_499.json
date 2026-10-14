@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 499",
+    "action_number": "DCPI 1208/2011",
+    "case_name": "HO HOI YUEN v. TSANG HO LUN",
+    "judgment_date": "2015-05-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 50,
+    "age_at_trial": null,
+    "occupation_before": "Sole proprietor of Man Kee (trading and maintenance of sewing machine)",
+    "occupation_after": "Security guard (Protech Property Management Limited)",
+    "expected_occupation_after": null,
+    "salary_before": 0.0,
+    "salary_after": 12600.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "sprain neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "he was diagnosed as suffering from sprain neck."
+        ],
+        "icd_code": "NA23.4Z",
+        "icd_description": "Strain or sprain of cervical spine, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "protrusion of lumbar discs, narrowing of the sciatica and resultant lower back pain",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine / lower back",
+        "laterality": null,
+        "source": [
+          "The MRI showed protrusion of his lumbar discs, narrowing of the sciatica and resultant lower back pain."
+        ],
+        "icd_code": "NB70",
+        "icd_description": "Injury of nerve root of lumbar spine"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "significant degenerative changes of the cervical and lumbar spine (pre-existing symptomatic lumbar spine degeneration)",
+        "injury_type": "Permanent injury",
+        "body_part": "cervical and lumbar spine",
+        "laterality": null,
+        "source": [
+          "\"[The plaintiff's] x-ray and MRI examination of the cervical \n\n\n and lumbar spine showed significant degenerative changes which were NOT caused by the alleged traffic accident but must be pre-existing. He had pre-existing symptomatic lumbar spine degeneration.\""
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "injury to neck and shoulder due to the accident",
+        "injury_type": "Temporary injury",
+        "body_part": "neck and shoulder",
+        "laterality": null,
+        "source": [
+          "I take the view that the plaintiff was injured to his neck and shoulder due to the accident and was only required to take 4 weeks sick leave."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "neck and shoulder pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "numbness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "limited range of movement of neck and shoulder",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "limited range of movement of lower back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual lower back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "no neurological deficit on physical examination",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "transported by ambulance to hospital and discharged same day",
+        "is_surgical": false,
+        "source": [
+          "he was taken by ambulance to the hospital and was discharged on the same day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy (37 sessions)",
+        "is_surgical": false,
+        "source": [
+          "He received a total of 37 sessions of physiotherapy treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "occupational therapy",
+        "is_surgical": false,
+        "source": [
+          "he ... had received physiotherapy treatment and occupational therapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychiatric treatment at Western Psychiatric Centre (from July 2010)",
+        "is_surgical": false,
+        "source": [
+          "In July 2010, he started attending the Western Psychiatric Centre for treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "x-ray examination of waist and neck",
+        "is_surgical": false,
+        "source": [
+          "He was referred to the Queen Mary Hospital for orthopaedic treatment and undergone x-ray examination of his waist and neck."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI at Queen Mary Hospital",
+        "is_surgical": false,
+        "source": [
+          "In 2010, he received MRI at Queen Mary Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "analgesic medication (pain killers) in outpatient clinics",
+        "is_surgical": false,
+        "source": [
+          "he ... was given pain killers ... after attending the said clinics."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 828,
+    "sick_leave_days_expected": 28
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from neck and shoulder injury due to the accident",
+        "caused_by_injury_id": "inj_004"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 90000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fan Jian Hui v Chan Hak Man",
+        "neutral_citation": null,
+        "action_number": "DCPI 2095/2008",
+        "injury_description": "tenderness over neck and both lower legs, as well as head injury and has residual neck pain and the range of movement of his neck was reduced",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 60000.0
+      },
+      {
+        "case_name": "Li Ting Fai v Woo Chi Keung",
+        "neutral_citation": null,
+        "action_number": "DCPI 807/2007",
+        "injury_description": "neck injury in the form of paraspinal muscular tenderness with reasonable sick leave for 3 to 6 weeks, assessed as a mild case of whiplash neck injury affecting soft tissue only",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15687,
+      "output_tokens": 6859,
+      "reasoning_tokens": 4672,
+      "total_tokens": 22546
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44644.021541811526,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15687,
+      "output_tokens": 6859,
+      "reasoning_tokens": 4672,
+      "total_tokens": 22546
+    },
+    "total_duration_ms": 44644.021541811526
+  }
+}

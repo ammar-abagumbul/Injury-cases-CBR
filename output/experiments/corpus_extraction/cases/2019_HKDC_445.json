@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 445",
+    "action_number": "DCPI 1218/2016 & DCPI 2598/2016",
+    "case_name": "LAU WAI LAM v. WONG LOK PIU",
+    "judgment_date": "2019-04-17",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 33,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Abrasion and/or contusion on all 4 limbs",
+        "injury_type": "Temporary injury",
+        "body_part": "all 4 limbs",
+        "laterality": null,
+        "source": [
+          "(a) Abrasion and/or contusion on all 4 limbs;"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Increase neck pain",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "(b) Increase neck pain;"
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Mild back and hand pain",
+        "injury_type": "Temporary injury",
+        "body_part": "back and hand",
+        "laterality": null,
+        "source": [
+          "(c) Mild back and hand pain."
+        ],
+        "icd_code": "NC51.1",
+        "icd_description": "Superficial injury of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "short term memory loss",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain at four limbs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Continuous pain over the neck and both upper trapezius and shoulder region, with daily occurrence",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Continuous pain and stiffness over both wrists (left side more than the right side)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Continuous pain over left hip/buttock, which radiated to the left lateral thigh",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Continuous mild low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "multiple abrasions over four limbs",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited neck movement (minimal neck movement recorded in records)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Ambulance transfer to Accident and Emergency Department of PYEH",
+        "is_surgical": false,
+        "source": [
+          "After the Accident, P was taken by ambulance to the Accident and Emergency Department of the Pamela Youde Nethersole Eastern Hospital (“PYEH”) for treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Resuscitation by the Trauma Team",
+        "is_surgical": false,
+        "source": [
+          "She had to be resuscitated by the Trauma Team and was admitted to the Surgical Ward for treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Admission to Surgical Ward",
+        "is_surgical": false,
+        "source": [
+          "She had to be resuscitated by the Trauma Team and was admitted to the Surgical Ward for treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Plain CT scans of the brain and cervical spine and contrast CT scans of thorax, abdomen and pelvis",
+        "is_surgical": false,
+        "source": [
+          "Plain CT scans of the brain, cervical spine and contrast CT scans of thorax, abdomen and pelvis showed no intracranial, thoracic or intraabdominal injury."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Assessment by Ear, Nose and Throat surgeon (no intervention necessary)",
+        "is_surgical": false,
+        "source": [
+          "P was also assessed by the Ear, Nose and Throat surgeon, but no intervention was necessary."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Referral to Government Outpatient Clinic for wound dressing",
+        "is_surgical": false,
+        "source": [
+          "P remained clinically stable and was referred to the Government Outpatient Clinic (“GOC”) for wound dressing."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 89,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities resulting from abrasion/contusion on all four limbs, increase in neck pain, and mild back and hand pain",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21840,
+      "output_tokens": 6355,
+      "reasoning_tokens": 4544,
+      "total_tokens": 28195
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33633.70316592045,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21840,
+      "output_tokens": 6355,
+      "reasoning_tokens": 4544,
+      "total_tokens": 28195
+    },
+    "total_duration_ms": 33633.70316592045
+  }
+}

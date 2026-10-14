@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 302",
+    "action_number": "DCPI 880/2010",
+    "case_name": "TA A SAM v. HO KA CHI APRIL T/A FANTASTIC INTERIOR DESIGN CO",
+    "judgment_date": "2010-12-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 49,
+    "age_at_trial": null,
+    "occupation_before": "Welder",
+    "occupation_after": null,
+    "expected_occupation_after": "jobs with light physical demand",
+    "salary_before": 19500.0,
+    "salary_after": null,
+    "expected_salary_after": 5000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right inferior pubic rami",
+        "injury_type": "Temporary injury",
+        "body_part": "right inferior pubic rami",
+        "laterality": "right",
+        "source": [
+          "X-ray showed fracture of the right inferior pubic rami."
+        ],
+        "icd_code": "NB52.14",
+        "icd_description": "Fracture of pubis without disruption of pelvic ring"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Disability at the back",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Unable to lift heavy objects such as carrying the oxy-ace cylinders",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Unable to return to his pre-accident work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Psychiatric problems (complained but no psychiatric reports)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Immediate hospital treatment, x-ray and follow up treatment",
+        "is_surgical": false,
+        "source": [
+          "The Plaintiff was then taken to Tseung Kwan O Hospital for immediate treatment. X-ray showed fracture of the right inferior pubic rami. He was hospitalized and discharged on 29 February 2008 for follow up treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 673,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain and disability at the back of the Plaintiff",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 247500.0,
+    "comparable_cases": [
+      {
+        "case_name": "San-To Po Yuk Hilter –v- Wing Kwong Painting Co. Ltd",
+        "neutral_citation": null,
+        "action_number": "HCPI No.387/2002",
+        "injury_description": "the Plaintiff in that case fell from a ladder from a height of about four to five feet landing on his buttocks whilst doing some painting work. The injuries involved significant disc extrusion at L4/5 causing severe spinal canal narrowing. There was also mild postero-central disc bulge at L5/S1 level that caused moderate spinal canal stenosis. The Plaintiff there was medically assessed to have suffered 10% impairment of the whole person. The trial Judge awarded $350,000 under this head.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Ng Koon Ki Peter –v- Hilti (Hong Kong) Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI No.628/2002",
+        "injury_description": "the Plaintiff twisted his back and injured himself whilst grabbing a plank. Because of the weight of the plank, he was unable to hold it with one hand and he dropped the plank. He was awarded $350,000 for PSLA.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Choi Chi Hung –v- Wong Kuen Bor trading as Bor Kee Electroplating Factory",
+        "neutral_citation": null,
+        "action_number": "HCPI No.1026/1995",
+        "injury_description": "the Plaintiff slipped over whilst at work and injured his back. Medical examination revealed injuries over the lumbar spine at L4 and L5. The award for PSLA is HK$300,000.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Chan Chi Shing –v- Chan Siu Kuen & others",
+        "neutral_citation": null,
+        "action_number": "DCPI No.229/2007",
+        "injury_description": "X-ray revealed collapse and compression fracture of L4 vertebra and comminuted intra-articular fracture of calcaneum of the right ankle. He was awarded HK$350,000 for PSLA.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10632,
+      "output_tokens": 6586,
+      "reasoning_tokens": 5056,
+      "total_tokens": 17218
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46637.596416985616,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10632,
+      "output_tokens": 6586,
+      "reasoning_tokens": 5056,
+      "total_tokens": 17218
+    },
+    "total_duration_ms": 46637.596416985616
+  }
+}

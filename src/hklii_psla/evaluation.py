@@ -329,12 +329,12 @@ def _count_array_hallucinations(predicted: Case, gold: Case) -> int:
     count += len(pred_cases - gold_cases)
 
     # Treatment lists
-    gold_treatments = set(t.lower().strip() for t in (gold.treatment.treatments_received or []))
-    pred_treatments = set(t.lower().strip() for t in (predicted.treatment.treatments_received or []))
+    gold_treatments = set(t.treatment.lower().strip() for t in (gold.treatment.treatments_received or []))
+    pred_treatments = set(t.treatment.lower().strip() for t in (predicted.treatment.treatments_received or []))
     count += len(pred_treatments - gold_treatments)
 
-    gold_future = set(t.lower().strip() for t in (gold.treatment.treatments_future or []))
-    pred_future = set(t.lower().strip() for t in (predicted.treatment.treatments_future or []))
+    gold_future = set(t.treatment.lower().strip() for t in (gold.treatment.treatments_future or []))
+    pred_future = set(t.treatment.lower().strip() for t in (predicted.treatment.treatments_future or []))
     count += len(pred_future - gold_future)
 
     return count

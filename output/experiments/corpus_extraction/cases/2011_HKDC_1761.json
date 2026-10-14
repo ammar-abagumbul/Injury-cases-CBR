@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 1761",
+    "action_number": "DCPI 691/2010",
+    "case_name": "CHOI YUM MAN v. LAM SIU WING",
+    "judgment_date": "2011-12-02",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "decoration worker",
+    "occupation_after": "maintenance repair worker (meter company)",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 8000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right foot injury with transverse laceration and complete rupture of the extensors of the second to fourth toes",
+        "injury_type": "Permanent injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "the medical report of the doctor at the Alice Ho Miu Ling Nethersole Hospital, appearing at page 78 of the bundle, described his injury as right foot injury with a transverse 4 cm long laceration with tendon cut over the dorsum of the right foot.",
+          "the medical report from the Orthopaedics Department of the same hospital described the injury to be a 3 cm transverse laceration over the dorsum of the right foot and the action extension of the second to fourth toes was lost due to the complete rupture of the extensors of the second to fourth toes."
+        ],
+        "icd_code": "ND17.11",
+        "icd_description": "Laceration of muscle, fascia or tendon of long extensor muscle of toe at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right toes stiffness and pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness and constricting feelings in the foot after prolonged standing for 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "action extension of the second to fourth toes was lost",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "lack of strength in the right foot",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not squat fully without feeling pain",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Emergency treatment at Alice Ho Miu Ling Nethersole Hospital",
+        "is_surgical": false,
+        "source": [
+          "The ambulance took him to Alice Ho Miu Ling Nethersole Hospital in Tai Po for emergency treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Surgical repair operation",
+        "is_surgical": true,
+        "source": [
+          "He received a surgical repair operation and was discharged on 26 May 2007."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Follow up clinic attendance at the hospital",
+        "is_surgical": false,
+        "source": [
+          "He continued to attend follow up clinic at the hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 31,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Ming Kwan v Wing Ming Electrical Company Limited and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 760/2003",
+        "injury_description": "right leg laceration with complete cut of right anterior tibial artery, deep peroneal nerve, anterior tibial tendon, extensor hallucis longus tendon and extensor digitorum longus tendon.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "To Ying Wa v Cargo-Land (Warehouse) Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI441/2000",
+        "injury_description": "close reduction and K-wire fixation on his right fourth and fifth metacarpals",
+        "hospitalisation_days": null,
+        "operations_count": 1,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Imtiaz Perviz v Senibo Development Limited and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 437/2005",
+        "injury_description": "fracture to his right tibia and compartment syndrome; emergency operation to stabilize his fractured tibia and a second operation to remove the external fixator, debridement and skin grafting at the fracture site",
+        "hospitalisation_days": 10,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10588,
+      "output_tokens": 5479,
+      "reasoning_tokens": 3904,
+      "total_tokens": 16067
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43245.861042058095,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10588,
+      "output_tokens": 5479,
+      "reasoning_tokens": 3904,
+      "total_tokens": 16067
+    },
+    "total_duration_ms": 43245.861042058095
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 605",
+    "action_number": "DCPI 1447/2016",
+    "case_name": "DING KWOK KEUNG v. MORETIDE INVESTMENTS LTD",
+    "judgment_date": "2018-05-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 57,
+    "occupation_before": "lorry driver cum delivery worker",
+    "occupation_after": "construction site driver",
+    "expected_occupation_after": null,
+    "salary_before": 15663.0,
+    "salary_after": 14000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild sprain back without neurological complication",
+        "injury_type": "Residual disability",
+        "body_part": "lower back / lumbar spine",
+        "laterality": null,
+        "source": [
+          "Both experts agreed that the plaintiff suffered a mild sprain back without neurological complication."
+        ],
+        "icd_code": "NB53.5",
+        "icd_description": "Strain or sprain of lumbar spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild posterior disc bulging at L4/5 with mild compression at the anterior thecal sac (clinical impression PID at L4/5)",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L4/5)",
+        "laterality": null,
+        "source": [
+          "MRI of the lumbar spine was performed on 10 December 2014 which showed mild posterior disc bulging at L4/5 level, with mild compression at the anterior thecal sac. The clinical impression was PID at L4/5."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain in his low back, usually with a sense of tightness requiring stretching",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "marked decrease in lumbar flexion movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited tolerance (about an hour) in walking, standing and sitting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impaired capacity in handling heavy weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "shaking of the lower limbs on climbing stairs",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness at the plaintiff’s upper limbs (not related to the accident)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E attendance and assessment at Princess Margaret Hospital",
+        "is_surgical": false,
+        "source": [
+          "he attended the A&E Department of Princess Margaret Hospital (“PMH”) for treatment of his back pain after work. Physical examination at the A&E Department revealed that his pain was located at the lower lumbar region without local swelling. But there was marked decrease in lumbar flexion movement."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy at PMH (11 sessions)",
+        "is_surgical": false,
+        "source": [
+          "he was then referred to physiotherapy for treatment, which he attended from 9 October 2013 to 26 February 2014 for a total of 11 sessions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy at CMC (90 sessions)",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff was assessed by the occupational therapist at CMC on 24 March 2014. An intensive course of training started on 26 March 2014 at frequency of 3 sessions per week. During the period between 24 March 2014 to 31 October 2014, the plaintiff attended a total of 90 sessions of occupational therapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Outpatient physiotherapy at CMC (9 sessions)",
+        "is_surgical": false,
+        "source": [
+          "he also attended outpatient physiotherapy at CMC for treatment of his persistent back pain from 28 August 2014 to 28 October 2014 for a total of 9 sessions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI of the lumbar spine",
+        "is_surgical": false,
+        "source": [
+          "MRI of the lumbar spine was performed on 10 December 2014 which showed mild posterior disc bulging at L4/5 level, with mild compression at the anterior thecal sac. The clinical impression was PID at L4/5."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23269,
+      "output_tokens": 5923,
+      "reasoning_tokens": 4352,
+      "total_tokens": 29192
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35728.464083978906,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23269,
+      "output_tokens": 5923,
+      "reasoning_tokens": 4352,
+      "total_tokens": 29192
+    },
+    "total_duration_ms": 35728.464083978906
+  }
+}

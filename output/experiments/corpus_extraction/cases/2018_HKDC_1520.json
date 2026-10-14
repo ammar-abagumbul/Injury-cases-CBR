@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1520",
+    "action_number": "DCPI 304/2016",
+    "case_name": "CHU KA WAI v. HOP HING FURNITURE CO LTD AND ANOTHER",
+    "judgment_date": "2018-12-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 33,
+    "age_at_trial": 38,
+    "occupation_before": "delivery worker",
+    "occupation_after": "forklift operator",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right olecranon fracture",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "X-ray of his right elbow revealed right olecranon fracture."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "acute right epidural haemorrhage with compression and effacement of ipsilateral lateral and third ventricles, and midline shift to the left",
+        "injury_type": "Temporary injury",
+        "body_part": "brain",
+        "laterality": "right",
+        "source": [
+          "Computed tomography of his brain showed acute right epidural haemorrhage with compression and effacement of ipsilateral lateral and third ventricles, and midline shift to the left."
+        ],
+        "icd_code": "NA07.5",
+        "icd_description": "Traumatic epidural haemorrhage"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right temporal bone fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "right temporal bone",
+        "laterality": "right",
+        "source": [
+          "He also suffered right temporal bone fracture."
+        ],
+        "icd_code": "NA02.1A",
+        "icd_description": "Other fractures of base of skull"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "loss of consciousness and seizure",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Medical examination by the Department of Accident and Emergency showed that he had suffered loss of consciousness and seizure for one minute."
+        ],
+        "icd_code": "NA07.02",
+        "icd_description": "Concussion with loss of consciousness, short duration of less than 30 minutes"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain, stiffness and weakness over his right elbow",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness aggravated by big movement especially extension and weather changes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "occasional headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in concentration on and performance of certain mental tasks",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "memory impairment, insomnia and irritability",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "loss of consciousness and seizure for one minute",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "admitted to Tuen Mun Hospital",
+        "is_surgical": false,
+        "source": [
+          "Mr Chu was admitted to Tuen Mun Hospital immediately after the accident."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment from the Department of Neurosurgery",
+        "is_surgical": false,
+        "source": [
+          "He received treatment from the Department of Neurosurgery and the Department of Orthopaedics & Traumatology."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment from the Department of Orthopaedics & Traumatology",
+        "is_surgical": false,
+        "source": [
+          "He received treatment from the Department of Neurosurgery and the Department of Orthopaedics & Traumatology."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "out-patient physiotherapy (22 sessions)",
+        "is_surgical": false,
+        "source": [
+          "He further received treatment from the Physiotherapy Department and completed 22 sessions of out-patient physiotherapy in Tuen Mun Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "occupational therapy",
+        "is_surgical": false,
+        "source": [
+          "Lastly, Mr Chu also received occupational therapy treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "clinic visits for headaches and dizziness (4 visits annually)",
+        "is_surgical": false,
+        "source": [
+          "Mr Chu probably needs 4 visits to the clinic annually and each visit would cost him HK$400."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 86,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Mr Chu claims to be unable to pursue his pre-accident hobbies including boxing, basketball and snooker due to his residual pain.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "He has occasional headaches and difficulty in concentration on and performance of certain mental tasks. He alleges memory impairment, insomnia and irritability.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Before the accident he was responsible for all the repair and handyman jobs at home. However, after the accident, given his medical condition, he has difficulty in performing such works for his family.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18007,
+      "output_tokens": 7596,
+      "reasoning_tokens": 5568,
+      "total_tokens": 25603
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41988.587958039716,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18007,
+      "output_tokens": 7596,
+      "reasoning_tokens": 5568,
+      "total_tokens": 25603
+    },
+    "total_duration_ms": 41988.587958039716
+  }
+}

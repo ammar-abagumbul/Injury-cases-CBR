@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 1608",
+    "action_number": "DCPI 2082/2011",
+    "case_name": "LUI LAI WING v. FONG CHI SING AND ANOTHER",
+    "judgment_date": "2012-11-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "driver of private cars",
+    "occupation_after": "driver of private cars",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": 12000.0,
+    "expected_salary_after": null,
+    "education_level": "low level of education"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to the back",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "(a) soft tissue injury to the back; and (b) lateral femoral cutaneous nerve injury to the left thigh."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "lateral femoral cutaneous nerve injury to the left thigh",
+        "injury_type": "Residual disability",
+        "body_part": "left thigh",
+        "laterality": "left",
+        "source": [
+          "(a) soft tissue injury to the back; and (b) lateral femoral cutaneous nerve injury to the left thigh."
+        ],
+        "icd_code": "NC74.2",
+        "icd_description": "Injury of cutaneous sensory nerve at hip or thigh level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "healed previous fracture at L1",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L1)",
+        "laterality": null,
+        "source": [
+          "there was a finding by Dr Chun that there is a healed previous fracture at L1."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the decreased sensation over the anterolateral aspect of his left thigh had improved by 80%",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual symptoms should be some discomfort on prolonged sitting whilst driving",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impaired endurance on prolonged walking and standing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his lower limb power and sensation were intact",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "fearful, recurrent dreams of the scene in question, poor sleep, irritability, poor concentration and loss of interest in sex. The diagnosis was post-traumatic stress disorder.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "psychiatric treatment, medication and follow up",
+        "is_surgical": false,
+        "source": [
+          "On the psychiatric aspect, the plaintiff attended the Psychiatric clinic of West Kowloon Psychiatric Centre with complaint of fearful, recurrent dreams of the scene in question, poor sleep, irritability, poor concentration and loss of interest in sex. The diagnosis was post-traumatic stress disorder. He was given medication and had follow ups treatments on 27 October 2010 and 24 November 2010."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 300,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Decreased sensation over the anterolateral aspect of his left thigh",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Impaired endurance on prolonged walking and standing",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Poor concentration and other post-traumatic stress symptoms",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Loss of interest in sex",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 170000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Luk Shu Keung v Kwok Chi Shing",
+        "neutral_citation": null,
+        "action_number": "HCPI 848 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "CMY v Tam Siu Wing",
+        "neutral_citation": "[2008] 4 HKLRD 604",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lo Siu Ning v. Chan Kai Hing & Anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 301 of 2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Au Yeung Miu Sum v Tsang Kwong Wai & Anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI 244 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13338,
+      "output_tokens": 7114,
+      "reasoning_tokens": 5376,
+      "total_tokens": 20452
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40315.42641692795,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13338,
+      "output_tokens": 7114,
+      "reasoning_tokens": 5376,
+      "total_tokens": 20452
+    },
+    "total_duration_ms": 40315.42641692795
+  }
+}

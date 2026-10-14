@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 574",
+    "action_number": "DCPI 2225/2012",
+    "case_name": "CHAN CHEUNG v. HONOUR HALL ENGINEERING LTD (IN LIQUIDATION) AND ANOTHER",
+    "judgment_date": "2014-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 67,
+    "age_at_trial": 72,
+    "occupation_before": "construction site labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 10295.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Fractured nasal bone",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal bone / nose",
+        "laterality": null,
+        "source": [
+          "“IOD (injured on duty) Nose hit by rear mirror of car with right nasal depression, close reduction done 1/2010…”",
+          "If Mr Chan had repeated closed reduction of fractured nasal bone in January 2010 as advised by ENT surgeon of UCH, his nasal profile should look better."
+        ],
+        "icd_code": "NA02.3",
+        "icd_description": "Fracture of nasal bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Scar and deformity of the nasal bridge",
+        "injury_type": "Permanent injury",
+        "body_part": "nasal bridge / nose",
+        "laterality": null,
+        "source": [
+          "The plaintiff suffered serious nasal injuries as a result.",
+          "the scar and the deformity of the plaintiff’s nose caused 6% impairment to the whole person."
+        ],
+        "icd_code": "NA00.3",
+        "icd_description": "Superficial injury of nose"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Scar and deformity of the nasal bridge",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Right nasal depression",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild nose pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Closed reduction of fractured nasal bone (January 2010)",
+        "is_surgical": true,
+        "source": [
+          "“IOD (injured on duty) Nose hit by rear mirror of car with right nasal depression, close reduction done 1/2010…”",
+          "If Mr Chan had repeated closed reduction of fractured nasal bone in January 2010 as advised by ENT surgeon of UCH, his nasal profile should look better."
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Nose, mouth and pharynx",
+        "vmis_procedure": "Closed reduction for fracture nasal bone",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Treatment at United Christian Hospital (A&E / ENT consultations)",
+        "is_surgical": false,
+        "source": [
+          "accounts issued by the United Christian Hospital totaling $490"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Consultation and Chinese medicine",
+        "is_surgical": false,
+        "source": [
+          "receipts issued by Chinese medicine practitioners totaling $1601"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Tonic food (法國腦活素)",
+        "is_surgical": false,
+        "source": [
+          "receipt for “法國腦活素”"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "More complicated surgery to improve appearance of nose (private hospital setting, about $80,000)",
+        "is_surgical": true,
+        "source": [
+          "“More complicated surgery is necessary to improve the appearance of his nose. The cost of the operation and subsequent follow-up visits is about $80,000 in private hospital setting.”"
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Nose, mouth and pharynx",
+        "vmis_procedure": "Rhinoplasty",
+        "vmis_category": "Intermediate"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 31,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Scar and deformity of the nasal bridge causing 6% impairment to the whole person.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Fractured nasal bone (nasal injury) resulting in deformity and impairment.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lo Hin Fong v Chan Chi Shing",
+        "neutral_citation": null,
+        "action_number": "DCPI No. 60 of 2001",
+        "injury_description": "Fractured nasal bone after assault; evaluated 1% permanent disability with no loss of earning capacity.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Fong Lun Fat v Wong Kuen & Anor",
+        "neutral_citation": null,
+        "action_number": "HCA 820 of 1976",
+        "injury_description": "Facial injuries in a traffic accident.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 15000.0
+      },
+      {
+        "case_name": "Lau Kai Tai v Tsang Chor Chau",
+        "neutral_citation": null,
+        "action_number": "HCA 2500 of 1977",
+        "injury_description": "1 inch haematoma on right occipital, linear fracture of right occipital bone, fractured incisor teeth, bruised upper lip, permanent and total deaf in the right ear, chance of slight risk of epilepsy.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 12000.0
+      },
+      {
+        "case_name": "Wong Wing Sun v Chan Man Kin",
+        "neutral_citation": "[2004] HKLRD (Yrbk) 419",
+        "action_number": null,
+        "injury_description": "Minor head injury with amnesia and other injuries after a traffic accident.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 220000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17623,
+      "output_tokens": 7856,
+      "reasoning_tokens": 5824,
+      "total_tokens": 25479
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43414.69791694544,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17623,
+      "output_tokens": 7856,
+      "reasoning_tokens": 5824,
+      "total_tokens": 25479
+    },
+    "total_duration_ms": 43414.69791694544
+  }
+}

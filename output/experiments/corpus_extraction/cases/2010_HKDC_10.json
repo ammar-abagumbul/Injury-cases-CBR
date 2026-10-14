@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 10",
+    "action_number": "DCPI 1031/2008",
+    "case_name": "HUNG CHI WAH v. YAU KA LUN ALAN AND OTHERS",
+    "judgment_date": "2010-01-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "running his own business of driving a van to deliver goods for others",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 13500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Rupture of the left brachial artery",
+        "injury_type": "Residual disability",
+        "body_part": "left brachial artery",
+        "laterality": "left",
+        "source": [
+          "At the time of the accident he sustained a rupture of the left brachial artery."
+        ],
+        "icd_code": "NC15.Y",
+        "icd_description": "Injury of other specified blood vessels at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Laceration of left arm (left forearm) with surgical scar",
+        "injury_type": "Residual disability",
+        "body_part": "left arm / left forearm",
+        "laterality": "left",
+        "source": [
+          "As a result of the traffic accident the Plaintiff suffered multiple injuries: a laceration of his left arm and a laceration of his left ear.",
+          "The left elbow wound was explored for the cause of the profuse bleeding. It left a surgical scar in the left forearm."
+        ],
+        "icd_code": "NC31.0",
+        "icd_description": "Laceration without foreign body of forearm"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Laceration of left ear",
+        "injury_type": "Residual disability",
+        "body_part": "left ear",
+        "laterality": "left",
+        "source": [
+          "As a result of the traffic accident the Plaintiff suffered multiple injuries: a laceration of his left arm and a laceration of his left ear.",
+          "The left ear laceration was sutured."
+        ],
+        "icd_code": "NA0B",
+        "icd_description": "Injury of the auricle"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain over the scar on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Surgical scar in the left forearm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Range of motion of his left elbow was almost fully recovered (reduced range earlier)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Muscle power satisfactory (post-treatment)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Suffers 3% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "May have slight decrease in efficiency in his work productivity when he has to carry heavy load with his arms",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Emergency operation",
+        "is_surgical": true,
+        "source": [
+          "Emergency operation was performed."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Exploration of left elbow wound",
+        "is_surgical": true,
+        "source": [
+          "The left elbow wound was explored for the cause of the profuse bleeding."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Repair of torn left brachial artery by resection of the damaged part of the artery",
+        "is_surgical": true,
+        "source": [
+          "Repair operation was performed on torn left brachial artery by resection of the damaged part of the artery."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Suturing of left ear laceration",
+        "is_surgical": true,
+        "source": [
+          "The left ear laceration was sutured."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Long arm back slab application and removal",
+        "is_surgical": false,
+        "source": [
+          "A long arm back slab was put on to protect the repaired artery and the repaired muscles.",
+          "The long arm slab was removed on 2.7.2005."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Follow-up and physiotherapy treatment",
+        "is_surgical": false,
+        "source": [
+          "Since then he attended follow-up and physiotherapy treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 142,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from the injuries to left arm (including surgical scar) and left ear",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 250000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ngai Lung Hing v. Gowin Engineering Co. Ltd. & anor.",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 211 of 2005",
+        "injury_description": "Deep cut to right forearm with muscle bulk injuries; suturing of muscle bulk; stiffness of the wrist and muscle injury; assessed total 10% impairment of the whole person; discharged 3 days later; attended 9 sessions of outpatient physiotherapy and 26 sessions of occupational therapy.",
+        "hospitalisation_days": 3,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15899,
+      "output_tokens": 8598,
+      "reasoning_tokens": 6528,
+      "total_tokens": 24497
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43447.52945797518,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15899,
+      "output_tokens": 8598,
+      "reasoning_tokens": 6528,
+      "total_tokens": 24497
+    },
+    "total_duration_ms": 43447.52945797518
+  }
+}

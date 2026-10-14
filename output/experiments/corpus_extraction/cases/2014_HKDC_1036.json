@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 1036",
+    "action_number": "DCPI 41/2013",
+    "case_name": "KWAN KAI WU v. LAM PUI SHAN AND ANOTHER",
+    "judgment_date": "2014-09-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 54,
+    "age_at_trial": 57,
+    "occupation_before": "sole-proprietor working as a locksmith",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 26000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "chest wall injury",
+        "injury_type": "Temporary injury",
+        "body_part": "chest",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis was chest wall injury."
+        ],
+        "icd_code": "NB34",
+        "icd_description": "Injury of muscle, fascia or tendon at thorax level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "rib and stoma injuries",
+        "injury_type": "Temporary injury",
+        "body_part": "ribs / chest",
+        "laterality": null,
+        "source": [
+          "He was diagnosed as rib and stoma injuries."
+        ],
+        "icd_code": "NA82.Y",
+        "icd_description": "Other specified fracture of rib, sternum or thoracic spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness over chest wall",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "9cm x 12 cm bruise on his chest",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Unable to raise his left hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "X-ray of chest and rib showed no fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E treatment at Queen Elizabeth Hospital (QEH) and analgesic",
+        "is_surgical": false,
+        "source": [
+          "Soon after the accident, he was treated in A&E Department of Queen Elizabeth Hospital (“the QEH”). He was hit by the bike handle during the accident. His general condition was good. Examination showed tenderness over chest wall. X-ray of chest and rib showed no fracture. The clinical diagnosis was chest wall injury. He was treated and discharged with analgesic. He was given 3 days sick leave (12 to 14 January 2010). Permanent disability was unlikely."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Treatment from Chinese medical doctor",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff further sought treatment from Chinese medical doctor between13 January 2010 to 25 February 2010. He was found to have 9cm x 12 cm bruise on his chest. He was unable to raise his left hand. He was diagnosed as rib and stoma injuries. No sick leave certificate was issued."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Chest and rib X-ray (no fracture)",
+        "is_surgical": false,
+        "source": [
+          "X-ray of chest and rib showed no fracture."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 20000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13245,
+      "output_tokens": 5539,
+      "reasoning_tokens": 4352,
+      "total_tokens": 18784
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39073.36062495597,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13245,
+      "output_tokens": 5539,
+      "reasoning_tokens": 4352,
+      "total_tokens": 18784
+    },
+    "total_duration_ms": 39073.36062495597
+  }
+}

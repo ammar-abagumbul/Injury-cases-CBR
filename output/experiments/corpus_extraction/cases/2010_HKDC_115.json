@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 115",
+    "action_number": "DCPI 818/2008",
+    "case_name": "CHANG TSUN TEIN v. WAI LEE SCAFFOLDING CO LTD",
+    "judgment_date": "2010-05-26",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 23,
+    "age_at_trial": null,
+    "occupation_before": "scaffold worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "form three"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "2cm laceration of the scalp",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "According to the hospital report, Mr. Chang had a 2cm laceration of the scalp, with no neurological deficit."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "According to the expert opinion of Dr. Woo, Mr. Chang had a mild head injury as a result of the accident."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "very mild post-concussional syndrome / post-concussional disorder",
+        "injury_type": "Residual disability",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "Dr. Woo considered that Mr. Chang's residual headache, dizziness, and subjectively impaired memory are consistent with the diagnosis of a very mild post-concussional syndrome.",
+          "On the basis of their examination and Mr. Chang's reports of his condition and symptoms, Dr. Ho diagnosed Mr. Chang as suffering from a very mild degree of post-concussional disorder"
+        ],
+        "icd_code": "NA07.0Y",
+        "icd_description": "Other specified concussion"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "4 cm scar over the left high parietal region",
+        "injury_type": "Residual disability",
+        "body_part": "left high parietal region (scalp)",
+        "laterality": "left",
+        "source": [
+          "He was recorded to be conscious and alert, with a 4 cm scar over the left high parietal region."
+        ],
+        "icd_code": "NA00.0Y",
+        "icd_description": "Other specified superficial injury of scalp"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "subjectively impaired memory / loss of memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "inability to concentrate",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "impairment in psychological and social functioning (unsociable, avoiding interaction)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "hearing a female voice calling him at night (auditory hallucination reported)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "4 cm scar over the left high parietal region (sign)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "mini-mental test score 20/30 suggesting mild to moderate cognitive deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Panadol and discharge from A&E",
+        "is_surgical": false,
+        "source": [
+          "He was treated with Panadol and discharged on the same day, with sick leave granted until 29 April 2005."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "symptomatic medication; seen by psychiatrist for poor sleep and put on medication",
+        "is_surgical": false,
+        "source": [
+          "According to the report, Mr. Chang was given symptomatic medication, was seen by the psychiatrist for poor sleep and was put on medication."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "referral to neurosurgery clinic for management of suspected post-concussion syndrome",
+        "is_surgical": false,
+        "source": [
+          "Mr. Chang was referred to the neurosurgery clinic for management of suspected post-concussion syndrome."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "formal neuro-psychological assessment by clinical psychologist",
+        "is_surgical": false,
+        "source": [
+          "According to Dr. Cheng\u0002s report, a formal neuro-psychological assessment had been performed on Mr. Chang by the clinical psychologist of the Castle Peak Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "further psychological treatment",
+        "is_surgical": false,
+        "source": [
+          "Dr. Ho has advised that Mr. Chang would benefit from further psychological treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 377,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from a mild head injury and mild post-concussional syndrome",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15589,
+      "output_tokens": 8591,
+      "reasoning_tokens": 6592,
+      "total_tokens": 24180
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 41312.80104187317,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15589,
+      "output_tokens": 8591,
+      "reasoning_tokens": 6592,
+      "total_tokens": 24180
+    },
+    "total_duration_ms": 41312.80104187317
+  }
+}

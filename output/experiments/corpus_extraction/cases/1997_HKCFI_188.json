@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 188",
+    "action_number": "HCPI 883/1995",
+    "case_name": "LEUNG CHUN TUNG v. SIU WAI CHEONG",
+    "judgment_date": "1997-12-19",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 24,
+    "age_at_trial": 31,
+    "occupation_before": "Office assistant and driver (South African Airways)",
+    "occupation_after": "Warehouse supervisor; sales representative; distributing officer; casual public light bus (PLB) driver",
+    "expected_occupation_after": null,
+    "salary_before": 5065.0,
+    "salary_after": 6500.0,
+    "expected_salary_after": null,
+    "education_level": "Formal education up to Primary Four; attended evening school and completed Form One of secondary school"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured left ilium and acetabulum with dislocation of left hip",
+        "injury_type": "Permanent injury",
+        "body_part": "left hip / pelvis",
+        "laterality": "left",
+        "source": [
+          "X-ray photographs showed fractured left ilium and acetabulum with dislocation of left hip."
+        ],
+        "icd_code": "NC79",
+        "icd_description": "Multiple injuries of hip or thigh"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "avascular necrosis of the femoral head resulting in collapse and flattening",
+        "injury_type": "Permanent injury",
+        "body_part": "left femoral head / left hip",
+        "laterality": "left",
+        "source": [
+          "There is also avascular necrosis of the femoral head resulting in collapse and flattening."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "incongruity and instability of the joint resulting in gross subluxation of the demoral head; advanced degenerative changes of the left hip",
+        "injury_type": "Permanent injury",
+        "body_part": "left hip joint",
+        "laterality": "left",
+        "source": [
+          "There is incongruity and instability of the joint resulting in gross subluxation of the demoral head.",
+          "Advanced degenerative changes have already occurred (only 7 years from the accident)."
+        ],
+        "icd_code": "NC73.0",
+        "icd_description": "Dislocation of hip"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Pain in left hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Stiffness of left hip",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Gross subluxation of the femoral head (radiological sign)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Collapse and flattening of the femoral head (radiological sign)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced mobility / much reduced degree of mobility",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Progressive deterioration of the left hip with need for total hip replacement in the next few years",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Unable to sit for long periods",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Pain on walking",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Open reduction of the fractured areas",
+        "is_surgical": true,
+        "source": [
+          "On 16`th` March 1990, open reduction of the fractured areas was performed."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Open reduction for arm / leg / patella / scapula +/- internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "Arthroscopy of the left hip",
+        "is_surgical": true,
+        "source": [
+          "On 23`rd` October 1990, arthroscopy of the left hip was performed."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Arthroscopic examination of joint +/- biopsy",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "Removal of left iliac crest plate",
+        "is_surgical": true,
+        "source": [
+          "On 29`th` April 1991, the left ilicar crest plate was removed."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Total joint replacement (hip replacement)",
+        "is_surgical": true,
+        "source": [
+          "To improve the pain and stiffness of his left hip, he will need total joint replacement within the next few years' time."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Total hip replacement",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Revisional hip operation(s)",
+        "is_surgical": true,
+        "source": [
+          "The Plaintiff would have to undergo at least one primary and one revisional operation. The maximum operations would be four."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Total hip replacement",
+        "vmis_category": "Complex"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Permanent damage to left hip resulting in significant permanent disability (assessed at 50% permanent disability)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Much reduced degree of mobility of left hip joint; progressive deterioration expected",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Activities curtailed: was a kung fu instructor and scout master; canoeing and wind-surfing activities curtailed by his injuries",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Kei v. Leung On & KMB",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "Range for substantial injury as approved by the Court of Appeal: $540,000 to $660,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19482,
+      "output_tokens": 8521,
+      "reasoning_tokens": 6272,
+      "total_tokens": 28003
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43620.74670800939,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19482,
+      "output_tokens": 8521,
+      "reasoning_tokens": 6272,
+      "total_tokens": 28003
+    },
+    "total_duration_ms": 43620.74670800939
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 1397",
+    "action_number": "DCPI 2354/2014",
+    "case_name": "LEE KAM LIN v. FULL WISE LTD T/A FISHING BAY RESTAURANT",
+    "judgment_date": "2015-11-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 55,
+    "age_at_trial": 58,
+    "occupation_before": "assistant in the dim sum take away counter",
+    "occupation_after": null,
+    "expected_occupation_after": "sedentary jobs such as car park attendant, security guard or cashier",
+    "salary_before": 9930.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Right knee contusion with meniscus tear",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "the plaintiff had right knee contusion with meniscus tear.",
+          "MRI scan revealed the plaintiff was suffering from grade 3 tear of posterior horn of medial meniscus.",
+          "Her right knee was hit by the handle of an electric food mixing machine which was placed at the entrance of the kitchen (“the accident”)."
+        ],
+        "icd_code": "NC93.30",
+        "icd_description": "Tear of medial meniscus"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Major depressive disorder",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "the plaintiff was suffering from major depressive disorder of which the stressor was the residual pain and long term consequence arising from her physical symptoms.",
+          "For reason of the persisted pain, the plaintiff was depressed and developed suicidal idea. Her psychiatric symptoms surfaced in or about February 2013."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent pain on her right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "bruising",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced range of motion of her right knee",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty to resume her previous job as a Chinese cafeteria worker",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "depressed and developed suicidal idea",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "insomnia problem",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "social functioning was impaired",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "considered to be unfit to perform some daily living activities and housework",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "negative thoughts on her future and a sense of worthlessness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "attendance at Accident and Emergency Department of Caritas Medical Centre and discharge with analgesics",
+        "is_surgical": false,
+        "source": [
+          "She went to the Accident and Emergency Department of Caritas Medical Centre (“Caritas”) in the afternoon. Examination revealed tenderness and bruising without fracture over her right knee. She was discharged with analgesics."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "She had physiotherapy sessions with Caritas from 8 June 2012 until 11 July 2012."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment by Chinese bonesetters and attendance at Department of Orthopaedics & Traumatology in Caritas",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff had persisted pain on her right knee and had sought medical treatments in various medical institutions, including Chinese bonesetters.",
+          "Subsequently, she attended the Department of Orthopaedics & Traumatology in Caritas from 28 September 2012."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "arthroscopic meniscus repair +/- meniscectomy",
+        "is_surgical": true,
+        "source": [
+          "Dr Kong advised the plaintiff to opt for surgery, either arthroscopic meniscus repair or menisectomy if symptoms persisted.",
+          "Dr Kong suggested the plaintiff to undergo arthroscopic meniscus repair +/- meniscectomy. The operation costs $80,000 to $110,000 in the private sector."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Meniscectomy, open or arthroscopic",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "pharmacological and psychological intervention",
+        "is_surgical": false,
+        "source": [
+          "Dr Kwan suggested pharmacological and psychological intervention which costs $36,000 to $40,000 in private sectors.",
+          "Dr Kwan opined that plaintiff was suffering from major depressive disorder ... The plaintiff was advised to receive further adjustment of pharmacological treatment by clinical psychologist."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 363,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "the plaintiff's right knee would be in pain when walking up the slope",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "considered to be unfit to perform some daily living activities and housework",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "the plaintiff's social functioning was impaired",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "reduced competitiveness and is handicapped in the labour market; difficulty to resume her previous job",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 230000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yip Leung Hoi v Tin Wo Engineering Company Limited & Ors",
+        "neutral_citation": null,
+        "action_number": "HCPI 1026 of 2004",
+        "injury_description": "both shoulder and knee injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Chum Hok Chung & Ors v Chung Lai Chung",
+        "neutral_citation": null,
+        "action_number": "DCPI 887 of 2011",
+        "injury_description": "similar injury (knee)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Wong Wai Man v Yi Wo Yuen Aged Sanatorium Centre Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 77 of 2007",
+        "injury_description": "back injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Lai Fan Fanny v The Hong Kong Golf Club",
+        "neutral_citation": null,
+        "action_number": "HCPI 511 of 2005",
+        "injury_description": "back injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12847,
+      "output_tokens": 8168,
+      "reasoning_tokens": 5760,
+      "total_tokens": 21015
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38609.34687498957,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12847,
+      "output_tokens": 8168,
+      "reasoning_tokens": 5760,
+      "total_tokens": 21015
+    },
+    "total_duration_ms": 38609.34687498957
+  }
+}

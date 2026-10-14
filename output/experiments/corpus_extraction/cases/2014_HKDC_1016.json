@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 1016",
+    "action_number": "DCPI 673/2013 & DCPI 1883/2012 (Consolidated)",
+    "case_name": "CHAN HAU YU v. LI WING KWAI",
+    "judgment_date": "2014-09-05",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "piano teacher",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Contusion / sprain of the left thumb; ligament injury of left thumb (as considered by orthopaedic colleagues).",
+        "injury_type": "Temporary injury",
+        "body_part": "left thumb",
+        "laterality": "left",
+        "source": [
+          "(a) According to the medical reports from the A&ED AHNH, he attended the A&ED at about 1 am on 27/2/11 for crushing injury to left thumb. Examination revealed tenderness, redness and bruise marks over left hand. X-ray of left thumb showed no fracture. He was discharged home. He attended the A&ED again at about 5 pm on 27/2/11 for left thumb contusion when being assaulted on 26/2/2011. Examination revealed swelling and tenderness of left thumb. The range of movement was decreased. He was referred to the DOT of AHNH.",
+          "(d) The diagnosis should be ‘contusion’ or ‘sprain’ of the left thumb. I consider the diagnosis of ligament injury made by the orthopaedic colleagues of AHNH to be appropriate."
+        ],
+        "icd_code": "NC54.7Z",
+        "icd_description": "Strain or sprain of thumb, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Soft tissue contusion injury to left elbow/wrist and dorsal aspect of left hand.",
+        "injury_type": "Temporary injury",
+        "body_part": "left elbow/wrist/dorsal left hand",
+        "laterality": "left",
+        "source": [
+          "(a) First in the afternoon of 26/2/11 for multiple injury after being assaulted. Physical examination showed redness over left wrist and face. X-ray of left wrist showed no abnormality.",
+          "According to the Medical Report for insurance claim completed by Dr Lam (undated), Ms Li was injured on 26/2/11 after she had a brawl and was physically assaulted. The diagnosiswas soft tissue contusion injury to her left elbow/wrist, dorsal aspect of left hand as well as her right shoulder."
+        ],
+        "icd_code": "NC51.2",
+        "icd_description": "Multiple superficial injuries of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Right shoulder impingement syndrome and tendinosis or partial tear of the supraspinatus tendon (rotator cuff) with symptomatic worsening precipitated by the accident.",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "(e) The cause of the persistent pain of her right shoulder was impingement syndrome and tendinosis or partial tear of the supraspinatus tendon.",
+          "(f) Since Ms Li has no past history of symptoms of impingement syndrome prior to the captioned incident and there was definite history of trauma to her right shoulder, the captioned accident should be regarded as the precipitating cause for the pain from the degenerated rotator cuff tendon in her right shoulder. On the other hand, it is impossible for me to say, if not for the accident, she could remain asymptomatic for how long from the date of the accident. It certainly can become symptomatic at any time due to stress to the shoulder from activities of daily living, housework or shopping."
+        ],
+        "icd_code": "NC16.0Y",
+        "icd_description": "Other specified injury of muscle or tendon of the rotator cuff of shoulder"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness, redness and bruise marks over left hand; swelling and tenderness of left thumb; range of movement was decreased.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Decreased range of movement of left thumb.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Redness over left wrist and face.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Increased left elbow pain after the limb was pulled by someone on 26/2/2011.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Pain from the degenerated rotator cuff tendon in her right shoulder precipitated by the accident.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "She will continue to suffer a mild degree of decreased efficiency at work due to the residual pain in her left elbow and right shoulder.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Attendance at A&E (Alice Ho Miu Ling Nethersole Hospital) for left thumb injury; discharged",
+        "is_surgical": false,
+        "source": [
+          "(a) According to the medical reports from the A&ED AHNH, he attended the A&ED at about 1 am on 27/2/11 for crushing injury to left thumb. Examination revealed tenderness, redness and bruise marks over left hand. X-ray of left thumb showed no fracture. He was discharged home."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Referral to DOT of AHNH / follow-up in Orthopaedic Clinic (no further follow-up arranged)",
+        "is_surgical": false,
+        "source": [
+          "He attended the A&ED again at about 5 pm on 27/2/11 for left thumb contusion when being assaulted on 26/2/2011. Examination revealed swelling and tenderness of left thumb. The range of movement was decreased. He was referred to the DOT of AHNH.",
+          "(e) He was offered the option of splintage for resting of the thumb but he refused. He had persistent pain when followed up on 7/3/11. No follow-up at the Orthopaedic Clinic was arranged after this day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Self-treatment with herbal medicine and local herbal oil application; occasional western medication",
+        "is_surgical": false,
+        "source": [
+          "(f) According to Mr Chan, he preferred to treat himself with herbal medical and local herbal oil application. Recently he takes medicine about 1-2 times each week and has herbal oil application to his left thumb 2-3 times each night."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "A&E attendance and treatment (Madam Li) and follow-up at YOT TCM Polyclinic including acupuncture and plaster application",
+        "is_surgical": false,
+        "source": [
+          "(a) First in the afternoon of 26/2/11 for multiple injury after being assaulted. Physical examination showed redness over left wrist and face. X-ray of left wrist showed no abnormality.",
+          "(b) According to the medical report from YOT TCM Polyclinic, Madam Li first attended the clinic on 22/2/2011 for bilateral elbow pain. When she attended the clinic again on 8/3/2011, she complained of increased left elbow pain after the limb was pulled by someone on 26/2/2011. She had treatment including acupuncture and plaster application."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Medical consultations and physiotherapy / Chinese medicine (Dr Anthony WL Lam; Dr Chan Man To Joseph; Physiotherapy sessions at Good Health Medical Centre; Registered Chinese Medicine Practitioner Mr Chan Chi Fi)",
+        "is_surgical": false,
+        "source": [
+          "NH  HK$300",
+          "Dr Anthony WL Lam HK$2,710",
+          "Dr Chan Man To Joseph  HK$1,840",
+          "Physiotherapy sessions at Good Health Medical Centre  HK$600",
+          "Registered Chinese Medicine Practitioner Mr Chan Chi Fi HK$3,820"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, tenderness and decreased range of movement of left thumb following contusion/sprain.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Mild degree of decreased efficiency at work due to residual pain in left elbow and right shoulder.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Tsz Kin v Climax Paper Converters Ltd",
+        "neutral_citation": "HCPI 504 of 2003",
+        "action_number": null,
+        "injury_description": "Sprained right thumb with residual pain, mild wasting of thenar eminence; exploratory operation revealed mild scarring around the nerve of the thumb.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 50000.0
+      },
+      {
+        "case_name": "Chong Ngan Seng v China Harbour Engineering Co Ltd",
+        "neutral_citation": "DCPI 2078 of 2009",
+        "action_number": null,
+        "injury_description": "Multiple contusions with left shoulder pain and stiffness; osteoarthritic changes compatible with impingement syndrome; received 25 physiotherapy sessions; intermittent sick leaves for 6 months and 7 days.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 187,
+        "comparison": null,
+        "psla_amount": 200000.0
+      },
+      {
+        "case_name": "Wong Chok Wai v Sun Chung Luen Chinese Products Company Limited",
+        "neutral_citation": "DCPI 1839 of 2006",
+        "action_number": null,
+        "injury_description": "Impingement syndrome of the shoulder arising from repetitive overhead action.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 250000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18532,
+      "output_tokens": 10015,
+      "reasoning_tokens": 7104,
+      "total_tokens": 28547
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 58453.56545783579,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18532,
+      "output_tokens": 10015,
+      "reasoning_tokens": 7104,
+      "total_tokens": 28547
+    },
+    "total_duration_ms": 58453.56545783579
+  }
+}

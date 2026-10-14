@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 1499",
+    "action_number": "DCPI 1567/2012",
+    "case_name": "XIE QIUYUN v. ARCHE BEAUTY THERAPY LTD",
+    "judgment_date": "2015-12-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 36,
+    "age_at_trial": 40,
+    "occupation_before": "Public Relations lady in (a) nightclub(s)",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Middle 3 in the Mainland"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "post-inflammatory hyperpigmentation and hypopigmentation",
+        "injury_type": "Temporary injury",
+        "body_part": "face (cheeks, forehead and temples)",
+        "laterality": "bilateral",
+        "source": [
+          "On 31 July 2010, Dr Chan Kin Yip examined the plaintiff and found clinical signs of post-inflammatory hyperpigmentation and hypopigmentation.",
+          "physical examination by Dr Yeung Chi Keung showed that there were background symmetrical brownish flat patches on cheeks forehead and temples. There was overlying punctuate facial depigmentation with white spots of various sizes and shades on the face. It demonstrates round milky white patches corresponding to the focal loss of skin pigment. The individual white spot measured 2 mm to 6 mm in diameter."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mottled hypopigmentation",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "whitish circular confetti-like spots on face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "background symmetrical brownish flat patches on cheeks, forehead and temples",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "overlying punctuate facial depigmentation with white spots of various sizes and shades (2 mm to 6 mm in diameter)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "laser treatment",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff went through a series of 10 laser treatments between 1 August and 24 October 2009.",
+          "There then followed a series of 9 free-of-charge laser treatments between 23 January and 10 April 2010.",
+          "After that, the plaintiff paid for another series of 10 laser treatments (she actually received 11 and three/four of which were done on her body instead of her face, at her own request). The 11 treatments were done between 8 May and 22 July 2010."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "AHA chemical peel treatment",
+        "is_surgical": false,
+        "source": [
+          "She then on the same day started a second type of treatment called the AHA (Alpha Hydroxy(l) acid) chemical peel treatment.",
+          "The plaintiff finished her last (the 9th) AHA chemical peel treatment on 6 January 2010."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "further sessions of QS Nd:YAG or QS Ruby fractional laser or pulsed dye vascular laser",
+        "is_surgical": false,
+        "source": [
+          "further treatment with many sessions of either QS Nd:YAG (i.e. the machine used by the defendant) or QS Ruby fractional laser or pulsed dye vascular laser; the cost for 10 sessions is about $46,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "additional AHA chemical peel sessions",
+        "is_surgical": false,
+        "source": [
+          "Further, Dr King recommended additional AHA chemical peel sessions; and 6 such sessions cost $18,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "the long term damage to the disfigurement of facial skin colours with confetti-like pattern",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "could not go to work, she dared not see friends and could not work for Nuskin",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Ka-yee v L & Y Beauty Centre Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 196 of 2003",
+        "injury_description": "post-inflammatory hyperpigmentation and hypopigmentation and scars due to burn",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 75000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 28924,
+      "output_tokens": 4389,
+      "reasoning_tokens": 2880,
+      "total_tokens": 33313
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34657.316957833245,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 28924,
+      "output_tokens": 4389,
+      "reasoning_tokens": 2880,
+      "total_tokens": 33313
+    },
+    "total_duration_ms": 34657.316957833245
+  }
+}

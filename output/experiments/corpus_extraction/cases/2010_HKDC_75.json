@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 75",
+    "action_number": "DCPI 41/2009",
+    "case_name": "LAU CHI LAM v. CARITAS-HONG KONG",
+    "judgment_date": "2010-03-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 51,
+    "age_at_trial": 54,
+    "occupation_before": "Workman II (workman at the elderly home operated by Caritas)",
+    "occupation_after": "Retired (early retirement effective 2008-09-23)",
+    "expected_occupation_after": null,
+    "salary_before": 10060.0,
+    "salary_after": null,
+    "expected_salary_after": 6000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of Lau’s lower back",
+        "injury_type": "Residual disability",
+        "body_part": "lower back",
+        "laterality": null,
+        "source": [
+          "the clinical picture was compatible with soft tissue injury of Lau’s lower back."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "aggravation of pre-existing lumbar degenerative changes",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine / low back",
+        "laterality": null,
+        "source": [
+          "X-ray and MRI done after the accident in 2007 revealed multiple lumbar level degenerative changes with no obvious theca sac or nerve root compression.",
+          "Degenerative changes with multiple marginal bone spurs, slightly narrowed L4/5 disc and mild degenerative scoliosis were confirmed. The experts agreed that the degeneration was a pre-existing condition."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the abdomen, lower back, lumbar spine or pelvis"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "persistent low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness over the low back region",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no neurological deficit over his lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unable to walk for a long time or at quick pace",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "discomfort after prolonged sitting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "could not return to work or his pre-accident leisure of going fishing",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Hospital attendance and admission after accident; ambulance transport; initial assessment and discharge",
+        "is_surgical": false,
+        "source": [
+          "He was sent to the hospital by ambulance. Examination revealed tenderness over the low back region. There was no neurological deficit over his lower limb. X-ray of the lumbar spine showed normal alignment and no fracture. He was discharged 2 days later."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Re-admission to hospital for back pain; treatment and discharge; referral to orthopaedic department",
+        "is_surgical": false,
+        "source": [
+          "Lau was subsequently re-admitted to the hospital for back pain. He was treated and discharged. He was referred to the orthopaedic department for further management."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Outpatient orthopaedic follow-up",
+        "is_surgical": false,
+        "source": [
+          "During the period between early December 2007 and mid January 2008, he attended the department for several times for low back pain and was treated and discharged on each occasion."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "He has since attended over 20 sessions of physiotherapy and over 10 sessions of occupational therapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy",
+        "is_surgical": false,
+        "source": [
+          "He has since attended over 20 sessions of physiotherapy and over 10 sessions of occupational therapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Consultation with private doctor and bonesetter",
+        "is_surgical": false,
+        "source": [
+          "He has also consulted private doctor and bonesetter."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Imaging: X-ray and MRI of the lumbar spine",
+        "is_surgical": false,
+        "source": [
+          "X-ray and MRI done after the accident in 2007 revealed multiple lumbar level degenerative changes with no obvious theca sac or nerve root compression."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "could not return to his pre-accident leisure of going fishing",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "unable to walk for a long time or at quick pace",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "could not return to work",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yau Shing Tsan v Fai To Elderly Affairs Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 168/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Ching Yau v Group Yield International Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 637/2008",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14013,
+      "output_tokens": 6990,
+      "reasoning_tokens": 4992,
+      "total_tokens": 21003
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45492.11166705936,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14013,
+      "output_tokens": 6990,
+      "reasoning_tokens": 4992,
+      "total_tokens": 21003
+    },
+    "total_duration_ms": 45492.11166705936
+  }
+}

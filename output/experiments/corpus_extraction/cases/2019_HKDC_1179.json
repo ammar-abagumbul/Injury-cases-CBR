@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 1179",
+    "action_number": "DCPI 956/2019",
+    "case_name": "CHAU KWAI HUNG v. LUK HING YU THOMAS",
+    "judgment_date": "2019-08-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 61,
+    "age_at_trial": null,
+    "occupation_before": "Night-shift taxi driver",
+    "occupation_after": "Did not resume working as a taxi driver since August 2018",
+    "expected_occupation_after": null,
+    "salary_before": 24000.0,
+    "salary_after": 10000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to the head/face",
+        "injury_type": "Temporary injury",
+        "body_part": "head/face",
+        "laterality": null,
+        "source": [
+          "Dr Lam’s diagnosis is that the plaintiff sustained moderate degree of soft tissue injury to the right wrist, the left middle finger, the neck, the head/face, and he also had other minor limb injuries."
+        ],
+        "icd_code": "NA00.Y",
+        "icd_description": "Other specified superficial injury of part of head"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injury to the neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "Dr Lam’s diagnosis is that the plaintiff sustained moderate degree of soft tissue injury to the right wrist, the left middle finger, the neck, the head/face, and he also had other minor limb injuries."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injury to the right wrist",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "Dr Lam’s diagnosis is that the plaintiff sustained moderate degree of soft tissue injury to the right wrist, the left middle finger, the neck, the head/face, and he also had other minor limb injuries."
+        ],
+        "icd_code": "NC54.6Z",
+        "icd_description": "Strain or sprain of wrist, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "soft tissue injury to the left middle finger",
+        "injury_type": "Residual disability",
+        "body_part": "left middle finger",
+        "laterality": "left",
+        "source": [
+          "Dr Lam’s diagnosis is that the plaintiff sustained moderate degree of soft tissue injury to the right wrist, the left middle finger, the neck, the head/face, and he also had other minor limb injuries."
+        ],
+        "icd_code": "NC51.0Y",
+        "icd_description": "Other specified superficial injury of finger or thumb"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "injury to the right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "He complained of head injury, right hand and right knee injury. On examination, the doctor found that there was tenderness and/or redness over the occipital area, face, right knee and right hand. X-ray and CT scan did not reveal any fracture."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "other minor limb injuries",
+        "injury_type": "Temporary injury",
+        "body_part": "other minor limb(s)",
+        "laterality": null,
+        "source": [
+          "Dr Lam’s diagnosis is that the plaintiff sustained moderate degree of soft tissue injury to the right wrist, the left middle finger, the neck, the head/face, and he also had other minor limb injuries."
+        ],
+        "icd_code": "NC51.2",
+        "icd_description": "Multiple superficial injuries of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual pain in his right wrist",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "residual pain in his left middle finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "residual pain in his neck",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "tenderness and/or redness over the occipital area and face",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness and/or redness over the right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "tenderness and/or redness over the right hand",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "mild swelling and tenderness over the radial side of his right wrist with decreased range of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "tenderness and swelling at the proximal interphalangeal joint of his left middle finger with limited active range of movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "intermittent pain worse with activities (eg prolonged driving and controlling the steering wheel)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "X-ray and CT scan did not reveal any fracture",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "whole person impairment estimated to be 2.5%",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E treatment; X-ray and CT scan",
+        "is_surgical": false,
+        "source": [
+          "He was taken to the A&E Department of Tuen Mun Hospital. He complained of head injury, right hand and right knee injury. On examination, the doctor found that there was tenderness and/or redness over the occipital area, face, right knee and right hand. X-ray and CT scan did not reveal any fracture. He was treated and discharged."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Conservative treatment with medication",
+        "is_surgical": false,
+        "source": [
+          "He was treated conservatively with medication."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy sessions",
+        "is_surgical": false,
+        "source": [
+          "He also attended a number of physiotherapy sessions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Out-patient clinic follow-up",
+        "is_surgical": false,
+        "source": [
+          "Due to persistent pain in his right wrist and left middle finger, he attended out-patient clinics for treatment over the following two months or so."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 61,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduced ability to work as a taxi driver post-accident: initially could only work about one to two days a week, later three to four days a week; in oral testimony said could only work one day followed by two days' rest (\"做一日，休一日\").",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fu Hoi Lin v Tsoi Kam Ching",
+        "neutral_citation": "[2019] HKDC 488",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Kwok Man v Chan Kim Kwan",
+        "neutral_citation": "[2018] HKDC 693",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Muhammad Riaz Khan v Commissioner of Correctional Services",
+        "neutral_citation": null,
+        "action_number": "DCPI 2039/2013",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16720,
+      "output_tokens": 11739,
+      "reasoning_tokens": 9600,
+      "total_tokens": 28459
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52102.44720801711,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16720,
+      "output_tokens": 11739,
+      "reasoning_tokens": 9600,
+      "total_tokens": 28459
+    },
+    "total_duration_ms": 52102.44720801711
+  }
+}

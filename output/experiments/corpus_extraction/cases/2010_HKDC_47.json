@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 47",
+    "action_number": "DCPI 2594/2007",
+    "case_name": "CHOW PO v. CHOW HAU MAN R/A NICE YEAR METAL CO",
+    "judgment_date": "2010-03-08",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "general labourer",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 8580.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "illiterate"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "His right distal tibia was fractured.",
+        "injury_type": "Residual disability",
+        "body_part": "right distal tibia",
+        "laterality": "right",
+        "source": [
+          "His right distal tibia was fractured."
+        ],
+        "icd_code": "NC92.3",
+        "icd_description": "Fracture of lower end of tibia"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "The Plaintiff’s right leg was cut (the cut wound being 5cm long).",
+        "injury_type": "Temporary injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "The Plaintiff’s right leg was cut (the cut wound being 5cm long) and crashed seriously."
+        ],
+        "icd_code": "NC91.0",
+        "icd_description": "Laceration without foreign body of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "The Plaintiff’s right leg was cut (the cut wound being 5cm long).",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He feels pain and weak for prolonged standing or walking.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "He is not able to carry heavy objects.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "The Plaintiff is still walking with a limp.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "His right leg has multiple surgical scars.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Repeated wound debridement",
+        "is_surgical": true,
+        "source": [
+          "He was hospitalized for 12 days, during which repeated operations for wound debridement and fixation of fracture were done."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Surgical toilet and suturing",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Fixation of fracture with an intra-medullary nail and 4 cross locking screws",
+        "is_surgical": true,
+        "source": [
+          "He underwent 3 surgical operations, 2 of which were major orthopaedic reconstructive surgeries. An intra-medullary nail and 4 cross locking screws were affixed to the bone."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of arm / leg / patella / pelvis with internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "Out-patient follow-up treatments and rehabilitation",
+        "is_surgical": false,
+        "source": [
+          "After discharge from hospital he had to regularly attend out-patient clinic for follow-up treatments and rehabilitation."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 12,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Pain and weakness on prolonged standing or walking and impaired ability to handle heavy lifting.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "Multiple surgical scars on the right leg.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 350000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chong Yiu Tat v. Fong Man Chi",
+        "neutral_citation": null,
+        "action_number": "HCPI 742 of 2001",
+        "injury_description": "fracture of his distal tibia involving the ankle joint. After surgery and rehabilitation he recovered with residual pain and stiffness, with a chance of degenerative authorities. He could not return to his pre-injury job of installing air-conditioners at construction sites.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13454,
+      "output_tokens": 6722,
+      "reasoning_tokens": 5184,
+      "total_tokens": 20176
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31253.175208112225,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13454,
+      "output_tokens": 6722,
+      "reasoning_tokens": 5184,
+      "total_tokens": 20176
+    },
+    "total_duration_ms": 31253.175208112225
+  }
+}

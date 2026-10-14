@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 678",
+    "action_number": "DCPI 1665/2011",
+    "case_name": "LEE CHUI YING AND ANOTHER v. CHAN YEE LING ELAINE",
+    "judgment_date": "2015-06-23",
+    "plaintiff_count": 2,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "principal partner of Messrs Christine M Koo & Ip",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "the defendant punched the 2nd plaintiff’s mouth",
+        "injury_type": "Temporary injury",
+        "body_part": "mouth",
+        "laterality": null,
+        "source": [
+          "The defendant punched the 2nd plaintiff’s mouth and bit the 1st plaintiff’s right wrist."
+        ],
+        "icd_code": "NA0D.Z",
+        "icd_description": "Injury of teeth or supporting structures, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "the defendant bit the 1st plaintiff’s right wrist",
+        "injury_type": "Temporary injury",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "The defendant punched the 2nd plaintiff’s mouth and bit the 1st plaintiff’s right wrist."
+        ],
+        "icd_code": "NC52.14",
+        "icd_description": "Open bite of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "post traumatic stress disorder and depressive disorder (moderate to severe)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Dr. Li diagnosed the defendant was suffered from post traumatic stress disorder and depressive disorder (moderate to severe).",
+          "All three treating doctors reached similar opinion on the defendant has been suffering from some psychiatric / psychological symptoms."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "poor concentration",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "poor memory",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cognitive impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "could not perform her duties as a lawyer",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "fear when going near Admiralty",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "nightmares",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "low mood",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of appetite",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "loss of interest in leisure activity",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "impairment in occupational, emotional and social functioning",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "antidepressant medication",
+        "is_surgical": false,
+        "source": [
+          "The defendant was administered with antidepressant and was given psychological treatments."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychological treatments",
+        "is_surgical": false,
+        "source": [
+          "The defendant was administered with antidepressant and was given psychological treatments."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "further treatment",
+        "is_surgical": false,
+        "source": [
+          "Dr. Li concluded the defendant was in need of further treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment plan suggested by Dr. Rhoda Yuen",
+        "is_surgical": false,
+        "source": [
+          "Dr. Rhoda Yuen had suggested a treatment plan on the defendant."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain, sufferings and loss of amenities claimed in sum of $100,000",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10981,
+      "output_tokens": 6243,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17224
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37410.39783298038,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10981,
+      "output_tokens": 6243,
+      "reasoning_tokens": 4608,
+      "total_tokens": 17224
+    },
+    "total_duration_ms": 37410.39783298038
+  }
+}

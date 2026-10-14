@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 363; DCEC 867/2015 (3 April 2017)",
+    "action_number": "DCEC 867/2015; DCPI 2243/2015",
+    "case_name": "RUKHSAR BEGUM v. NATIVE ENGLISH CENTER LTD T/A THE GREEN LOUNGE",
+    "judgment_date": "2017-04-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 19,
+    "age_at_trial": null,
+    "occupation_before": "waitress",
+    "occupation_after": "part-time private tutor / teaching-related jobs",
+    "expected_occupation_after": "office clerk, a cashier or a receptionist",
+    "salary_before": 8280.0,
+    "salary_after": 400.0,
+    "expected_salary_after": null,
+    "education_level": "educated in Hong Kong up to Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the base of the distal phalanx of the right ring finger (healed with mild mal-union)",
+        "injury_type": "Residual disability",
+        "body_part": "right ring finger",
+        "laterality": "right",
+        "source": [
+          "there was in fact a fracture of the base of the distal phalanx of the finger even though the fracture had already healed quite well with mild mal-union at the time of his review of the films. The mal-union, in Dr Li’s opinion, may potentially cause residual symptoms."
+        ],
+        "icd_code": "NC53.62",
+        "icd_description": "Fracture of ring finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "meniscal tear of the right knee (classified as \"grade 2\"; MRI reported \"possible tear of posterior horn of medical meniscus\")",
+        "injury_type": "Permanent injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "It was stated in the MRI report that the knee had a “possible tear of posterior horn of medical meniscus”.",
+          "Dr Li classified the meniscal tear of the right knee as “grade 2”."
+        ],
+        "icd_code": "NC9Y",
+        "icd_description": "Other specified injuries to the knee or lower leg"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right traumatic patellar tendinitis",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "She was found by the physiotherapist to have suffered from “right traumatic patellar tendinitis”."
+        ],
+        "icd_code": "NC96.Y",
+        "icd_description": "Injury of other specified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "tender and swollen right ring finger with reduced range of movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tender and swollen right knee with reduced range of movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "right knee pain (complained for first 2 months after the accident; ongoing mild discomfort)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "limping gait and could walk unaided for about 15 minutes (by December 2013)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "discomfort from continuous bending or standing for 4 hours or more",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "mild stiffness of right ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "treated and discharged with a knee brace and walking stick on the same day",
+        "is_surgical": false,
+        "source": [
+          "She was treated and discharged with a knee brace and walking stick on the same day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "follow-up sessions with the Orthopaedics & Traumatology Department (Queen Mary Hospital) on 2 December 2013, 24 February 2014, 3 March 2014 and 23 June 2014",
+        "is_surgical": false,
+        "source": [
+          "Upon referral, Ms Begum attended four follow-up sessions with the Orthopaedics & Traumatology Department (“O & T”) of Queen Mary Hospital on 2 December 2013, 24 February, 3 March and 23 June 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy (two sessions) on 16 December 2013 and 23 December 2013",
+        "is_surgical": false,
+        "source": [
+          "and two physiotherapy treatments for her knee injury on 16 and 23 December 2013."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI scan of the right knee (private) on 15 January 2014",
+        "is_surgical": false,
+        "source": [
+          "On 15 January 2014, Ms Begum had an MRI scan of the right knee done privately. It was stated in the MRI report that the knee had a “possible tear of posterior horn of medical meniscus”."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "exercises at home with the use of a gadget called \"Power Putty\"",
+        "is_surgical": false,
+        "source": [
+          "Dr Li recommended Ms Begum to undergo conservative treatment to strengthen the finger function by doing exercises at home with the use of a gadget called “Power Putty” (at the total cost of $450 for the entire set)."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "12 sessions of physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "In Li’s 1st, 12 sessions are being recommended."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "non-surgical conservative treatment for the right knee (as opined by Dr Li)",
+        "is_surgical": false,
+        "source": [
+          "Dr Li opined in Li’s 2nd that Ms Begum should recover the normal strength and endurance of the knee by non-surgical conservative treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 330,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to resume her pre-accident waitressing job due to residual pain; Dr Li opined the meniscal tear will make it difficult for her to return to her pre-accident job as a waitress.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Discomfort from continuous bending or standing for 4 hours or more, limiting ability to stand for prolonged periods.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Poon Ching Man v Lam Hoi Pun",
+        "neutral_citation": null,
+        "action_number": "DCPI 1585 of 2011",
+        "injury_description": "fracture of a tibial plateau and a lateral meniscal tear; had an operation",
+        "hospitalisation_days": 11,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 24399,
+      "output_tokens": 7066,
+      "reasoning_tokens": 5248,
+      "total_tokens": 31465
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40649.52883310616,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 24399,
+      "output_tokens": 7066,
+      "reasoning_tokens": 5248,
+      "total_tokens": 31465
+    },
+    "total_duration_ms": 40649.52883310616
+  }
+}

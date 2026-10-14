@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 671",
+    "action_number": "DCPI 1427/2009",
+    "case_name": "RIVERA, SALLY DE GUZMAN v. CHAN HOI SING T/A SING KEE VEGETABLE WHOLESALE",
+    "judgment_date": "2011-01-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 48,
+    "occupation_before": "domestic helper",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 3500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the bone in her left wrist.",
+        "injury_type": "Temporary injury",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff suffered a fracture of the bone in her left wrist."
+        ],
+        "icd_code": "NC53.Z",
+        "icd_description": "Fracture at wrist or hand level, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Her left wrist joint will undergo degeneration earlier than the usual expectation. The overall wrist functions will deteriorate gradually and insidiously. This will affect her ability to work.",
+        "injury_type": "Residual disability",
+        "body_part": "left wrist",
+        "laterality": "left",
+        "source": [
+          "Her left wrist joint will undergo degeneration earlier than the usual expectation. The overall wrist functions will deteriorate gradually and insidiously. This will affect her ability to work."
+        ],
+        "icd_code": "NC5Y",
+        "icd_description": "Other specified injuries to the wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Overall wrist functions will deteriorate gradually and insidiously.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "This will affect her ability to work.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Hospitalisation for medical treatment from 3 to 7 August 2008.",
+        "is_surgical": false,
+        "source": [
+          "She stayed in hospital from 3 to 7 August 2008 for medical treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy (about 10 sessions).",
+        "is_surgical": false,
+        "source": [
+          "The she received physiotherapy treatments for 10 odd times."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Further treatment and medication.",
+        "is_surgical": false,
+        "source": [
+          "The Plaintiff condition will deteriorate and she will require further treatment and medication. Under this head I award $3,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 4,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities (PSLA) awarded for fracture of the left wrist.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tang Bo Ling v. Chan Po trading as Corrytron Cateries",
+        "neutral_citation": null,
+        "action_number": "DCPI 79/2007",
+        "injury_description": "She suffered a fracture of the left wrist, her left distal radius and ulnar styloid. She was treated with close reduction and long arm plaster.",
+        "hospitalisation_days": 1,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 9297,
+      "output_tokens": 5167,
+      "reasoning_tokens": 4224,
+      "total_tokens": 14464
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 35206.895833136514,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 9297,
+      "output_tokens": 5167,
+      "reasoning_tokens": 4224,
+      "total_tokens": 14464
+    },
+    "total_duration_ms": 35206.895833136514
+  }
+}

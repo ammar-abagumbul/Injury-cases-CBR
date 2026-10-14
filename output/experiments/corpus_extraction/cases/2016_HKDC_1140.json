@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 1140",
+    "action_number": "DCPI 227/2013",
+    "case_name": "WONG CHAU WAN v. INCORPORATED OWNERS OF NOS 11 12 CANAL ROAD WEST, HONG KONG",
+    "judgment_date": "2016-09-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Carried on her property agency business through Ka Wan (majority shareholder)",
+    "occupation_after": "Resigned from her job in October 2013",
+    "expected_occupation_after": null,
+    "salary_before": 42600.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He also accepts that the injury to the plaintiff was no more than soft tissue injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and numbness in the neck, right hand and right leg",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "inability to sit, stand or walk for more than 15 or 30 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "She is afraid of going out alone and sometimes feel anxious",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain and numbness in the head, neck right elbow, right hip and right knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident and Emergency assessment, X-rays, prescribed pain-killers and analgesic balm",
+        "is_surgical": false,
+        "source": [
+          "In the A&E report, it is noted that the plaintiff complained about pain and numbness in the head, neck right elbow, right hip and right knee. However, the doctor at the Accident and Emergency Department, after examining her and carrying out X-ray of the skull, cervical spine, right elbow, right knee and the pelvis, could find nothing remarkable. The plaintiff was discharged without hospitalization. All that she was prescribed was a few pain-killers and analgesic balm."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI of the spine (diagnostic)",
+        "is_surgical": false,
+        "source": [
+          "Dr Lam, referring to the MRI of the spine notes that the plaintiff’s complaint of pain in the neck is consistent with the condition of the spine."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Various private practitioners, chiropractor and Chinese medicine practitioner",
+        "is_surgical": false,
+        "source": [
+          "Although the plaintiff did attend to various private practitioners, a chiropractor and Chinese medicine practitioner, I am not satisfied that all of the treatments/consultations were reasonable or necessary."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 172,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 11812,
+      "output_tokens": 3608,
+      "reasoning_tokens": 2496,
+      "total_tokens": 15420
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27577.80862506479,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 11812,
+      "output_tokens": 3608,
+      "reasoning_tokens": 2496,
+      "total_tokens": 15420
+    },
+    "total_duration_ms": 27577.80862506479
+  }
+}

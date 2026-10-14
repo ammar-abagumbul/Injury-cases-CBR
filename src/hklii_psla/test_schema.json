@@ -136,13 +136,7 @@
           ],
           "default": null,
           "description": "The unique ID of the specific Injury that caused this manifestation, if identifiable from the text.",
-          "evaluation_config": {
-            "metrics": [
-              {
-                "metric_id": "string_exact"
-              }
-            ]
-          },
+          "evaluation_config": "skip",
           "title": "Caused By Injury Id"
         }
       },
@@ -275,6 +269,14 @@
           },
           "title": "Laterality"
         },
+        "source": {
+          "description": "Source of the injury from the case. This should be a verbatim description of the injury as it appears in the case report, not just the paragraph number. The text should be an exact match to what appears in the case report. DO NOT shorten or summarize the text. DO NOT use three dots to indicate ellipsis.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Source",
+          "type": "array"
+        },
         "icd_code": {
           "anyOf": [
             {
@@ -286,13 +288,7 @@
           ],
           "default": null,
           "description": "ICD-11 code assigned during Stage 2 classification",
-          "evaluation_config": {
-            "metrics": [
-              {
-                "metric_id": "string_exact"
-              }
-            ]
-          },
+          "evaluation_config": "skip",
           "title": "Icd Code"
         },
         "icd_description": {
@@ -306,13 +302,7 @@
           ],
           "default": null,
           "description": "ICD-11 description assigned during Stage 2 classification",
-          "evaluation_config": {
-            "metrics": [
-              {
-                "metric_id": "string_exact"
-              }
-            ]
-          },
+          "evaluation_config": "skip",
           "title": "Icd Description"
         }
       },
@@ -334,47 +324,6 @@
       ],
       "title": "InjuryCategory",
       "type": "string"
-    },
-    "InjuryLossRelation": {
-      "description": "Explicitly supported relation between an injury and a loss.",
-      "properties": {
-        "injury": {
-          "description": "Injury description",
-          "title": "Injury",
-          "type": "string"
-        },
-        "caused_by_injury_id": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "description": "The unique ID of the specific Injury that caused this loss, if identifiable from the text.",
-          "title": "Caused By Injury Id"
-        },
-        "loss": {
-          "$ref": "#/$defs/LossCategory",
-          "description": "Loss category"
-        },
-        "evidence": {
-          "description": "Verbatim quotes from judgment supporting the relationship",
-          "items": {
-            "type": "string"
-          },
-          "title": "Evidence",
-          "type": "array"
-        }
-      },
-      "required": [
-        "injury",
-        "loss"
-      ],
-      "title": "InjuryLossRelation",
-      "type": "object"
     },
     "InjurySummary": {
       "description": "Collected injury information and their related manifestations for the case.",
@@ -435,14 +384,13 @@
       "enum": [
         "Permanent injury",
         "Temporary injury",
-        "Residual disability",
-        "Other injury"
+        "Residual disability"
       ],
       "title": "InjuryType",
       "type": "string"
     },
     "Loss": {
-      "description": "A single loss of amenity identified in the judgment.\n\nA loss of amenity describes a way in which the plaintiff's ability to\nenjoy life, relationships, activities, independence, or personal\nfulfilment has been reduced because of the injury.\n\nCATEGORY DEFINITIONS\n--------------------\n\nLoss of bodily integrity:\n    Loss, impairment, mutilation, or reduced function of a body part,\n    organ, eye, limb, or bodily function as a whole.\n\nLoss of the senses:\n    Loss or reduction of sight, hearing, smell, taste, or touch.\n\nLoss from scarring or disfigurement:\n    Reduced enjoyment of life caused by visible scarring, burns,\n    deformity, or disfigurement, including embarrassment,\n    self-consciousness, reduced confidence, or avoidance of activities.\n\nLoss of mobility:\n    Reduced ability to move independently, including walking,\n    climbing stairs, cycling, travelling, or moving around freely.\n\nLoss of independence:\n    Reduced ability to live or care for oneself independently, including\n    needing assistance with washing, dressing, feeding, personal care,\n    or moving safely.\n\nLoss of ability to do domestic tasks:\n    Reduced ability to perform ordinary household activities such as\n    cooking, cleaning, shopping, childcare, gardening, or home\n    maintenance.\n\nLoss of mental ability:\n    Reduced ability to use memory, concentration, reasoning,\n    understanding, intellectual ability, or mental capacity.\n\nLoss of communication ability:\n    Reduced ability to communicate or express oneself through speaking,\n    writing, reading, understanding language, or interacting effectively\n    with others.\n\nPersonality change:\n    Changes in mood, behaviour, temperament, or character that reduce\n    enjoyment of life or the ability to maintain relationships.\n\nLoss of confidence in going out in the public:\n    Reduced ability or willingness to leave home or be in public because\n    of fear, anxiety, embarrassment, or loss of confidence.\n\nLoss of ability to enjoy food and drink:\n    Reduced ability to enjoy meals because of impaired taste, digestion,\n    or inability to consume certain foods.\n\nLoss of ability to enjoy quiet or solitude:\n    Reduced ability to enjoy peace or quiet because of increased\n    sensitivity to noise or psychological distress.\n\nLoss of family life:\n    Reduced ability to enjoy ordinary family life, including family\n    activities, outings, routines, conversation, affection, or interaction.\n\nLoss of ability to participate in parenthood or grandparenthood:\n    Reduced ability to enjoy or participate in parental or grandparental\n    activities, including caring for, playing with, supporting, or\n    sharing experiences with children or grandchildren.\n\nLoss of marriage prospects:\n    Reduced prospects of marrying or forming a long-term relationship\n    because of the injury, disability, disfigurement, or its consequences.\n\nBreakdown of the family:\n    Breakdown of a marriage, partnership, cohabiting relationship, or\n    family unit caused or materially contributed to by the injury.\n\nLoss of sexual function and sexual life:\n    Reduced ability to enjoy or participate in sexual relations or\n    activities, including effects such as pain, impotence, loss of\n    libido, or psychological inhibition.\n\nLoss of ability to give birth:\n    Loss of the ability to have children because of infertility, loss of\n    reproductive capacity, or another injury-related consequence.\n\nLoss of ability to give natural childbirth:\n    Loss of the opportunity or experience of vaginal/natural childbirth\n    because injury-related consequences require intervention such as\n    caesarean delivery or otherwise prevent natural childbirth.\n\nLoss of social life:\n    Reduced ability to enjoy ordinary social interaction and\n    participation, including visiting friends, attending events,\n    restaurants, clubs, community activities, or similar activities.\n\nLoss of ability to engage in sports and hobbies:\n    Reduced ability to participate in recreational activities previously\n    enjoyed, including sports, hobbies, dancing, crafts, music, gardening,\n    driving, reading, or playing an instrument.\n\nLoss of holidays or special occasions:\n    Loss, interruption, or reduced enjoyment of holidays, trips,\n    celebrations, social events, or other anticipated occasions.\n\nLoss of congenial employment:\n    Loss of the ability to continue or pursue work that was enjoyable,\n    meaningful, rewarding, or important to the plaintiff's sense of\n    fulfilment or professional identity.\n\nLoss of ability to pursue education:\n    Reduced ability to continue studies or acquire new skills.\n\nLoss of ability to volunteer or engage in community service:\n    Reduced ability to contribute to society through charitable,\n    volunteer, or community activities.\n\nLoss of expectation of life:\n    Shortening of the plaintiff's expected lifespan as a result of the\n    injury.\n\nOther:\n    A significant loss or curtailment of the plaintiff's enjoyment of\n    life that does not fit any of the defined categories.\n\nThe categories are based on the project's Categories of Loss of\nAmenities taxonomy.",
+      "description": "A single loss of amenity identified in the judgment.\n\nA loss of amenity describes a way in which the plaintiff's ability to\nenjoy life, relationships, activities, independence, or personal\nfulfilment has been reduced because of the injury.\n\nCATEGORY DEFINITIONS\n--------------------\n\nLoss of bodily integrity:\n    Loss, impairment, mutilation, or reduced function of a body part,\n    organ, eye, limb, or bodily function as a whole.\n\nLoss of the senses:\n    Loss or reduction of sight, hearing, smell, taste, or touch.\n\nLoss from scarring or disfigurement:\n    Reduced enjoyment of life caused by visible scarring, burns,\n    deformity, or disfigurement, including embarrassment,\n    self-consciousness, reduced confidence, or avoidance of activities.\n\nLoss of mobility:\n    Reduced ability to move independently, including walking,\n    climbing stairs, cycling, travelling, or moving around freely.\n\nLoss of independence:\n    Reduced ability to live or care for oneself independently, including\n    needing assistance with washing, dressing, feeding, personal care,\n    or moving safely.\n\nLoss of ability to do domestic tasks:\n    Reduced ability to perform ordinary household activities such as\n    cooking, cleaning, shopping, childcare, gardening, or home\n    maintenance.\n\nLoss of mental ability:\n    Reduced ability to use memory, concentration, reasoning,\n    understanding, intellectual ability, or mental capacity.\n\nLoss of communication ability:\n    Reduced ability to communicate or express oneself through speaking,\n    writing, reading, understanding language, or interacting effectively\n    with others.\n\nPersonality change:\n    Changes in mood, behaviour, temperament, or character that reduce\n    enjoyment of life or the ability to maintain relationships.\n\nLoss of confidence in going out in the public:\n    Reduced ability or willingness to leave home or be in public because\n    of fear, anxiety, embarrassment, or loss of confidence.\n\nLoss of ability to enjoy food and drink:\n    Reduced ability to enjoy meals because of impaired taste, digestion,\n    or inability to consume certain foods.\n\nLoss of ability to enjoy quiet or solitude:\n    Reduced ability to enjoy peace or quiet because of increased\n    sensitivity to noise or psychological distress.\n\nLoss of family life:\n    Reduced ability to enjoy ordinary family life, including family\n    activities, outings, routines, conversation, affection, or interaction.\n\nLoss of ability to participate in parenthood or grandparenthood:\n    Reduced ability to enjoy or participate in parental or grandparental\n    activities, including caring for, playing with, supporting, or\n    sharing experiences with children or grandchildren.\n\nLoss of marriage prospects:\n    Reduced prospects of marrying or forming a long-term relationship\n    because of the injury, disability, disfigurement, or its consequences.\n\nBreakdown of the family:\n    Breakdown of a marriage, partnership, cohabiting relationship, or\n    family unit caused or materially contributed to by the injury.\n\nLoss of sexual function and sexual life:\n    Reduced ability to enjoy or participate in sexual relations or\n    activities, including effects such as pain, impotence, loss of\n    libido, or psychological inhibition.\n\nLoss of ability to give birth:\n    Loss of the ability to have children because of infertility, loss of\n    reproductive capacity, or another injury-related consequence.\n\nLoss of ability to give natural childbirth:\n    Loss of the opportunity or experience of vaginal/natural childbirth\n    because injury-related consequences require intervention such as\n    caesarean delivery or otherwise prevent natural childbirth.\n\nLoss of social life:\n    Reduced ability to enjoy ordinary social interaction and\n    participation, including visiting friends, attending events,\n    restaurants, clubs, community activities, or similar activities.\n\nLoss of ability to engage in sports and hobbies:\n    Reduced ability to participate in recreational activities previously\n    enjoyed, including sports, hobbies, dancing, crafts, music, gardening,\n    driving, reading, or playing an instrument.\n\nLoss of holidays or special occasions:\n    Loss, interruption, or reduced enjoyment of holidays, trips,\n    celebrations, social events, or other anticipated occasions.\n\nLoss of congenial employment:\n    Loss of the ability to continue or pursue work that was enjoyable,\n    meaningful, rewarding, or important to the plaintiff's sense of\n    fulfilment or professional identity.\n\nLoss of ability to pursue education:\n    Reduced ability to continue studies or acquire new skills.\n\nLoss of ability to volunteer or engage in community service:\n    Reduced ability to contribute to society through charitable,\n    volunteer, or community activities.\n\nLoss of expectation of life:\n    Shortening of the plaintiff's expected lifespan as a result of the\n    injury.\n\nThe categories are based on the project's Categories of Loss of\nAmenities taxonomy.",
       "properties": {
         "category": {
           "$ref": "#/$defs/LossCategory",
@@ -456,15 +404,6 @@
           }
         },
         "description": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
           "description": "Specific loss or limitation supported by the judgment",
           "evaluation_config": {
             "metrics": [
@@ -473,11 +412,19 @@
               }
             ]
           },
-          "title": "Description"
+          "title": "Description",
+          "type": "string"
+        },
+        "caused_by_injury_id": {
+          "description": "The unique ID of the specific Injury that caused this loss, if identifiable from the text.",
+          "title": "Caused By Injury Id",
+          "type": "string"
         }
       },
       "required": [
-        "category"
+        "category",
+        "description",
+        "caused_by_injury_id"
       ],
       "title": "Loss",
       "type": "object"
@@ -509,8 +456,7 @@
         "Loss of congenial employment",
         "Loss of ability to pursue education",
         "Loss of ability to volunteer or engage in community service",
-        "Loss of expectation of life",
-        "Other"
+        "Loss of expectation of life"
       ],
       "title": "LossCategory",
       "type": "string"
@@ -959,7 +905,7 @@
       "description": "Treatment received or planned.",
       "properties": {
         "treatments_received": {
-          "description": "Types of treatment received, e.g. 'physiotherapy'",
+          "description": "Every treatment received, one item per distinct treatment. Include surgical operations and procedures as well as non-surgical care such as physiotherapy or medication",
           "evaluation_config": {
             "metrics": [
               {
@@ -968,13 +914,13 @@
             ]
           },
           "items": {
-            "type": "string"
+            "$ref": "#/$defs/TreatmentItem"
           },
           "title": "Treatments Received",
           "type": "array"
         },
         "treatments_future": {
-          "description": "Types of treatment to receive in future",
+          "description": "Every treatment expected or recommended in future, one item per distinct treatment, including any future surgery",
           "evaluation_config": {
             "metrics": [
               {
@@ -983,7 +929,7 @@
             ]
           },
           "items": {
-            "type": "string"
+            "$ref": "#/$defs/TreatmentItem"
           },
           "title": "Treatments Future",
           "type": "array"
@@ -1111,6 +1057,110 @@
       },
       "title": "Treatment",
       "type": "object"
+    },
+    "TreatmentItem": {
+      "description": "One treatment received or expected in future, e.g. 'physiotherapy',\n'open reduction and internal fixation of left tibia', 'pain medication'.\n\nStage 1 fills ``treatment``, ``is_surgical`` and ``source``. Stage 3 maps\nsurgical items onto the VMIS Schedule of Surgical Procedures and fills the\n``vmis_*`` fields; they stay null for non-surgical treatment and for\nsurgery that is not in the schedule.",
+      "properties": {
+        "treatment": {
+          "description": "The treatment as described in the judgment, e.g. 'physiotherapy' or 'removal of spleen'",
+          "evaluation_config": {
+            "metrics": [
+              {
+                "metric_id": "string_semantic"
+              }
+            ]
+          },
+          "title": "Treatment",
+          "type": "string"
+        },
+        "is_surgical": {
+          "default": false,
+          "description": "True only for a surgical operation or invasive procedure (fracture fixation, arthroscopy, amputation, joint replacement, spinal fusion, nerve release, endoscopy, suturing under anaesthesia, dental surgery). False for physiotherapy, medication, imaging, casts, splints, consultations and similar non-surgical care.",
+          "evaluation_config": "skip",
+          "title": "Is Surgical",
+          "type": "boolean"
+        },
+        "source": {
+          "description": "Verbatim text from the judgment describing the treatment. DO NOT shorten or summarize. DO NOT use three dots to indicate ellipsis.",
+          "evaluation_config": "skip",
+          "items": {
+            "type": "string"
+          },
+          "title": "Source",
+          "type": "array"
+        },
+        "vmis_system": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "VMIS body system assigned during Stage 3 classification; null if not in the VMIS schedule",
+          "evaluation_config": "skip",
+          "title": "Vmis System"
+        },
+        "vmis_region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "VMIS sub-region assigned during Stage 3 classification; null if not in the VMIS schedule",
+          "evaluation_config": "skip",
+          "title": "Vmis Region"
+        },
+        "vmis_procedure": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "VMIS procedure name assigned during Stage 3 classification; null if not in the VMIS schedule",
+          "evaluation_config": "skip",
+          "title": "Vmis Procedure"
+        },
+        "vmis_category": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/VmisCategory"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "VMIS complexity tier assigned during Stage 3 classification; null if not in the VMIS schedule",
+          "evaluation_config": "skip"
+        }
+      },
+      "required": [
+        "treatment"
+      ],
+      "title": "TreatmentItem",
+      "type": "object"
+    },
+    "VmisCategory": {
+      "description": "Surgical complexity tier from the VMIS Schedule of Surgical Procedures.",
+      "enum": [
+        "Minor",
+        "Intermediate",
+        "Major",
+        "Complex"
+      ],
+      "title": "VmisCategory",
+      "type": "string"
     }
   },
   "description": "Complete structured representation of a personal injury case.",
@@ -1144,14 +1194,6 @@
       ],
       "default": null,
       "evaluation_config": "skip"
-    },
-    "injury_loss_relations": {
-      "evaluation_config": "skip",
-      "items": {
-        "$ref": "#/$defs/InjuryLossRelation"
-      },
-      "title": "Injury Loss Relations",
-      "type": "array"
     }
   },
   "title": "Case",

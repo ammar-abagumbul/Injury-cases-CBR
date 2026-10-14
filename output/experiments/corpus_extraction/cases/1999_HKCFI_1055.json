@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 1055",
+    "action_number": "HCPI001173/1996",
+    "case_name": "YIM FAT FONG v. WONG KIM HUNG AND ANOTHER",
+    "judgment_date": "1999-06-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 54,
+    "occupation_before": "self employed business as a poultry dealer supplying chickens, ducks and geese to, for the most part, restaurants and, to a lesser extent, cooked meat stalls",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture dislocation of the 6th and 7th cervical vertebrae",
+        "injury_type": "Permanent injury",
+        "body_part": "6th and 7th cervical vertebrae",
+        "laterality": null,
+        "source": [
+          "the Plaintiff suffered a fracture dislocation of the 6th and 7th cervical vertebrae which was treated with open reduction and metal wire fixation approximately one week after admission to hospital."
+        ],
+        "icd_code": "NA22.3",
+        "icd_description": "Multiple fractures of cervical spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "scalp laceration requiring suturing",
+        "injury_type": "Temporary injury",
+        "body_part": "scalp",
+        "laterality": null,
+        "source": [
+          "There was a head injury with no apparent brain damage or lesion - a scalp laceration needed suturing"
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "epileptiform attacks / post-traumatic epilepsy",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "as a result of the injuries he became subject to epileptiform attacks which after much variation in type of drugs and dosage, came under a degree of control."
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "numbness over his fingers, especially those of his right hand",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "clumsy gait, being prone to fall",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mental slowness and poor memory",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "absent tendon reflexes in the left arms and upper abdominal reflexes",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild weakness and numbness in the left hand and arm",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "degree of disability in the legs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "impairment of his balance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "sensory loss to the index and middle fingers bilaterally",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "well-preserved muscle power in the upper limbs (clinical finding)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "epileptiform attacks / epileptic attacks",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Post-Concussional Disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Dysthymic Disorder / Depressive Disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "open reduction and metal wire fixation (spinal fusion)",
+        "is_surgical": true,
+        "source": [
+          "the Plaintiff suffered a fracture dislocation of the 6th and 7th cervical vertebrae which was treated with open reduction and metal wire fixation approximately one week after admission to hospital."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Spine",
+        "vmis_procedure": "Posterior spinal fusion with instrumentation",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "bone grafts taken from his iliac crest",
+        "is_surgical": true,
+        "source": [
+          "after undergoing the spinal fusion for which bone grafts were taken from his iliac crest, he was transferred from the Queen Elizabeth Hospital to the Kowloon Hospital for rehabilitation with a halo-body jacket to immobilise his neck."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "halo-body jacket to immobilise his neck (rehabilitation)",
+        "is_surgical": false,
+        "source": [
+          "he was transferred from the Queen Elizabeth Hospital to the Kowloon Hospital for rehabilitation with a halo-body jacket to immobilise his neck."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "suturing of scalp laceration",
+        "is_surgical": true,
+        "source": [
+          "There was a head injury with no apparent brain damage or lesion - a scalp laceration needed suturing"
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Suture of wound on skin",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "nerve conduction test",
+        "is_surgical": false,
+        "source": [
+          "a nerve conduction test, CT scan, and myelogram - the former on 27th May and the latter two investigations on the 21st June."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "CT scan",
+        "is_surgical": false,
+        "source": [
+          "a nerve conduction test, CT scan, and myelogram - the former on 27th May and the latter two investigations on the 21st June."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "myelogram",
+        "is_surgical": false,
+        "source": [
+          "a nerve conduction test, CT scan, and myelogram - the former on 27th May and the latter two investigations on the 21st June."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "rehabilitation at Kowloon Hospital",
+        "is_surgical": false,
+        "source": [
+          "after undergoing the spinal fusion for which bone grafts were taken from his iliac crest, he was transferred from the Queen Elizabeth Hospital to the Kowloon Hospital for rehabilitation with a halo-body jacket to immobilise his neck."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "anticonvulsant / antiepileptic medication (examples recorded: Luminal, Phenytoin (Dilantin), Mysolin, Epilim, Tegretol)",
+        "is_surgical": false,
+        "source": [
+          "The Nursing Kardex entry for the evening of 24th March reads - \"Dr. W. H. Li - Luminal 30 mgs. Phenytoin (dilantin) 100 mgs. Mysolin 250 mgs. N.P.O. (nil by mouth) except medication\"",
+          "He was obliquely critical of the hospital treatment which increased his dose of Epilim on top of a large dose of Tegretol when writing in July 1998."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "psychiatric treatment: one session a month for one year",
+        "is_surgical": false,
+        "source": [
+          "I will allow for one session a month for one year. Any benefit to be achieved from it will be realised within that period."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "A little over five years ago he met with an accident which effectively put an end to his self employed business as a poultry dealer supplying chickens, ducks and geese to, for the most part, restaurants and, to a lesser extent, cooked meat stalls.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 750000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20278,
+      "output_tokens": 8333,
+      "reasoning_tokens": 6144,
+      "total_tokens": 28611
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 49301.79633409716,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20278,
+      "output_tokens": 8333,
+      "reasoning_tokens": 6144,
+      "total_tokens": 28611
+    },
+    "total_duration_ms": 49301.79633409716
+  }
+}

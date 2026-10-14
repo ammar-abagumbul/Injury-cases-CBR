@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 256",
+    "action_number": "DCPI 2013/2014",
+    "case_name": "WONG KA CHI v. CHEUNG LI GLASS ENGINEERING CO LTD AND ANOTHER",
+    "judgment_date": "2015-03-24",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": null,
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "right ankle was cut by a piece of a broken glass",
+        "injury_type": "Temporary injury",
+        "body_part": "right ankle",
+        "laterality": "right",
+        "source": [
+          "His right ankle was cut by a piece of a broken glass during the accident."
+        ],
+        "icd_code": "ND12.0",
+        "icd_description": "Laceration without foreign body of ankle or foot"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "crushing injury of lower limb",
+        "injury_type": "Temporary injury",
+        "body_part": "lower limb",
+        "laterality": null,
+        "source": [
+          "It is stated in the said Discharge Slip that the plaintiff had sustained crushing injury of lower limb was admitted to the TMH on 15 July 2014."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "received treatments at various public hospitals",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "had taken sick leave",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "was hospitalized in Tuen Mun Hospital for approximately 2 months",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "unable to be engaged in any gainful employment and has no income since then",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "still on sick leave",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "treatments at various public hospitals",
+        "is_surgical": false,
+        "source": [
+          "the plaintiff received treatments at various public hospitals"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "hospitalisation in Tuen Mun Hospital for approximately 2 months",
+        "is_surgical": false,
+        "source": [
+          "the plaintiff was hospitalized in Tuen Mun Hospital (\"TMH\") for approximately 2 months."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "loss of amenities (\"pain, suffering and loss of amenities\" resulting from the accident)",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "loss of income and loss of earning capacities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": null,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14667,
+      "output_tokens": 5224,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19891
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30845.351707888767,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14667,
+      "output_tokens": 5224,
+      "reasoning_tokens": 4032,
+      "total_tokens": 19891
+    },
+    "total_duration_ms": 30845.351707888767
+  }
+}

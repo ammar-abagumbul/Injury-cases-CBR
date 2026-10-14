@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1054",
+    "action_number": "DCPI 1607/2016",
+    "case_name": "YEUNG TSZ MAN v. EVERBEST PORT SERVICES LTD (IN LIQUIDATION)",
+    "judgment_date": "2018-08-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 34,
+    "age_at_trial": 39,
+    "occupation_before": "stevedore",
+    "occupation_after": "assistant technician",
+    "expected_occupation_after": null,
+    "salary_before": 20615.0,
+    "salary_after": 20800.0,
+    "expected_salary_after": null,
+    "education_level": "Form 5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Angulated fracture of the middle phalanx of left ring finger",
+        "injury_type": "Residual disability",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "a 1.5 cm laceration with active bleeding and swelling was noted over his left ring finger. X-ray examination revealed an angulated fracture of the middle phalanx on his left ring finger."
+        ],
+        "icd_code": "NC53.62",
+        "icd_description": "Fracture of ring finger"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Open wound / laceration over left ring finger",
+        "injury_type": "Residual disability",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "Physical examination revealed open wound over his left ring finger.",
+          "a 1.5 cm laceration with active bleeding and swelling was noted over his left ring finger."
+        ],
+        "icd_code": "NC52.00",
+        "icd_description": "Laceration without foreign body of finger or thumb"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Contusion of ulnar side neurovascular bundle (left ring finger)",
+        "injury_type": "Residual disability",
+        "body_part": "left ring finger",
+        "laterality": "left",
+        "source": [
+          "Ulnar side neurovascular bundle was found contused, middle phalanx fracture was fixed with K-wire."
+        ],
+        "icd_code": "NC55.0",
+        "icd_description": "Injury of ulnar nerve at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Residual pain over his left ring finger",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Numbness over his left ring finger",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Stiffness of his left ring finger",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced and limited mobility of the left ring finger, in particular reduced left power grip and left power pinch grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Aggravated pain during rainy and/or cold weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Occasional sleep disturbance throughout the night due to pain and discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Adverse effect on concentration and temper during the day",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Reduced participation in outdoor activities such as playing basketball",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Social life adversely affected",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Emergency operation with K-wire fixation of middle phalanx fracture",
+        "is_surgical": true,
+        "source": [
+          "Emergency operation was performed on the same day. Ulnar side neurovascular bundle was found contused, middle phalanx fracture was fixed with K-wire."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of clavicle / hand / ankle / foot with internal fixation",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "External splint for protection of fracture",
+        "is_surgical": false,
+        "source": [
+          "An external splint was prescribed for protection of fracture."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Orthopaedic follow-up at Princess Margaret Hospital",
+        "is_surgical": false,
+        "source": [
+          "After being discharged from hospital, the plaintiff had been receiving regular orthopaedic follow-up at Princess Margaret Hospital from 17September 2013 to 16May 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy (work rehabilitation program) at Princess Margaret Hospital - 4 sessions",
+        "is_surgical": false,
+        "source": [
+          "he was referred to the Occupational Therapy Department of Princess Margaret Hospital for work rehabilitation program. He attended 4 sessions during the period from 13 September 2013 to 8 November 2013."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy at Tuen Mun Hospital - 21 outpatient sessions",
+        "is_surgical": false,
+        "source": [
+          "the plaintiff was referred to the Physiotherapy Department of Tuen Mun Hospital for treatment from 3 December 2013 to 15May 2014. He had attended 21 sessions of out-patient physiotherapy there."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy at Tuen Mun Hospital - 19 sessions and work hardening training",
+        "is_surgical": false,
+        "source": [
+          "He also attended 19 sessions of occupational therapy in Tuen Mun Hospital from 28 January 2014 to 15May 2014. He attended work hardening training. The final assessment result showed that he managed single arm lifting for 15 lb and bilateral lifting 12 kg metal bar for 10 minutes. The hand grip power was 25 kgf and 14 kgf at left and right sided respectively."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 2,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 266,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced and limited mobility of the left ring finger, in particular reduced left power grip and left power pinch grip",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Reduced time spent on outdoor activities such as playing basketball",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Social life has been adversely affected",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Concentration and temper during the day has been adversely affected",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Cheung Kit Ching v Mountains International Company Limited",
+        "neutral_citation": "[2018] HKDC 338",
+        "action_number": null,
+        "injury_description": "injury to her left middle finger ... comminuted fracture involving tuft of distal phalanges of left middle phalanx, with mild bony displacement and soft tissue swelling.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Shah Junaid Ali v Yau Lee Galvanizers (Hot-Dip) Company Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 517/2008",
+        "injury_description": "crush injury to the left middle finger ... 1.5 cm laceration over the distal pulp region of the finger. X-ray examination showed crack fracture of the distal phalanx.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 270,
+        "comparison": null,
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Chan Ming Yat v Youh Eng Lai Michael trading as Prime Industrial Company (Hong Kong)",
+        "neutral_citation": null,
+        "action_number": "DCPI 201/2003",
+        "injury_description": "open fracture of the proximal phalanx of the left index finger, dislocation of the interphalangeal joint ... ruptured ulnar collateral ligament ... contused ulnar digital nerve and artery.",
+        "hospitalisation_days": 7,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 180000.0
+      },
+      {
+        "case_name": "Khan Irram v Wai Hing Engineering Company Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 1465/2009",
+        "injury_description": "fracture at the distal phalange of left ring finger; pain and tender at the tip of the ring finger with hard contact was compatible with the residual of the healed fracture",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 15,
+        "comparison": null,
+        "psla_amount": 85000.0
+      },
+      {
+        "case_name": "Chan Hung Hang v Fat Kee Marine Repairing & Engineering Co Limited & Another",
+        "neutral_citation": null,
+        "action_number": "DCPI 2328/2007",
+        "injury_description": "crush injury to his right middle finger ... fracture of the tuft of distal phalanx of the right middle finger.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 100000.0
+      },
+      {
+        "case_name": "Wong Yun San v Cheung Yue Yiu trading as Radio Engineering Co",
+        "neutral_citation": null,
+        "action_number": "DCPI 1909/2007",
+        "injury_description": "injured his left index and middle fingers ... crush injuries, pulp loss in his left index finger and a deep laceration in the middle finger exposing extensor tendon ... open reduction, internal fixation and extensor repair; further operation to resurface the left index finger with a local flap by way of skin graft",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14744,
+      "output_tokens": 8405,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23149
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40284.60587491281,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14744,
+      "output_tokens": 8405,
+      "reasoning_tokens": 5312,
+      "total_tokens": 23149
+    },
+    "total_duration_ms": 40284.60587491281
+  }
+}

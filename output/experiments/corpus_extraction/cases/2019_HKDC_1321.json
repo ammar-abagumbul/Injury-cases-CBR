@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 1321",
+    "action_number": "DCPI 1068/2019",
+    "case_name": "TO KA WONG v. WORLD GOLD INTERNATIONAL LTD AND ANOTHER",
+    "judgment_date": "2019-10-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 56,
+    "age_at_trial": null,
+    "occupation_before": "waste-recycling worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 19240.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple rib fractures",
+        "injury_type": "Temporary injury",
+        "body_part": "ribs / thorax",
+        "laterality": null,
+        "source": [
+          "suffered multiple rib fractures, multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3), sternum fracture, bilateral lung contusion with small pneumothoraxes and a small left pleural effusion, a small haematoma / oedema under the sternum fracture, and superficial lacerations to the left scalp and left side of the face."
+        ],
+        "icd_code": "NB35",
+        "icd_description": "Multiple injuries of thorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3)",
+        "injury_type": "Temporary injury",
+        "body_part": "L1 and L3 vertebrae / lower back / spine",
+        "laterality": null,
+        "source": [
+          "suffered multiple rib fractures, multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3), sternum fracture, bilateral lung contusion with small pneumothoraxes and a small left pleural effusion, a small haematoma / oedema under the sternum fracture, and superficial lacerations to the left scalp and left side of the face."
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "sternum fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "sternum / thorax",
+        "laterality": null,
+        "source": [
+          "suffered multiple rib fractures, multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3), sternum fracture, bilateral lung contusion with small pneumothoraxes and a small left pleural effusion, a small haematoma / oedema under the sternum fracture, and superficial lacerations to the left scalp and left side of the face."
+        ],
+        "icd_code": "NA82.2",
+        "icd_description": "Fracture of sternum"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "bilateral lung contusion with small pneumothoraxes and a small left pleural effusion",
+        "injury_type": "Temporary injury",
+        "body_part": "lungs / pleura",
+        "laterality": "bilateral",
+        "source": [
+          "suffered multiple rib fractures, multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3), sternum fracture, bilateral lung contusion with small pneumothoraxes and a small left pleural effusion, a small haematoma / oedema under the sternum fracture, and superficial lacerations to the left scalp and left side of the face."
+        ],
+        "icd_code": "NB32.7",
+        "icd_description": "Multiple injuries of intrathoracic organs"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "a small haematoma / oedema under the sternum fracture",
+        "injury_type": "Temporary injury",
+        "body_part": "area under sternum",
+        "laterality": null,
+        "source": [
+          "suffered multiple rib fractures, multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3), sternum fracture, bilateral lung contusion with small pneumothoraxes and a small left pleural effusion, a small haematoma / oedema under the sternum fracture, and superficial lacerations to the left scalp and left side of the face."
+        ],
+        "icd_code": "NB3Y",
+        "icd_description": "Other specified injuries to the thorax"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "superficial lacerations to the left scalp and left side of the face",
+        "injury_type": "Temporary injury",
+        "body_part": "left scalp and left side of the face",
+        "laterality": "left",
+        "source": [
+          "suffered multiple rib fractures, multi-level transverse process vertebral fractures (with unstable double column fractures involving L1 and L3), sternum fracture, bilateral lung contusion with small pneumothoraxes and a small left pleural effusion, a small haematoma / oedema under the sternum fracture, and superficial lacerations to the left scalp and left side of the face."
+        ],
+        "icd_code": "NA01.7",
+        "icd_description": "Multiple open wounds of head"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "rhabdomyolysis and acute renal failure",
+        "injury_type": "Temporary injury",
+        "body_part": "kidneys / systemic (rhabdomyolysis)",
+        "laterality": null,
+        "source": [
+          "During the admission, he developed the complication of rhabdomyolysis and acute renal failure."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "subjective complaints of various pains in lower back, chest and on the scars",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "discharged after 22 days with a walking stick and a spinal support",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "spectrum of injuries required ICU admission",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "bilateral chest drains",
+        "is_surgical": true,
+        "source": [
+          "His pneumothoraxes were treated by bilateral chest drains and lacerations were sutured."
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Respiratory system",
+        "vmis_procedure": "Thoracocentesis / insertion of chest tube for pneumothorax",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "suturing of lacerations",
+        "is_surgical": true,
+        "source": [
+          "His pneumothoraxes were treated by bilateral chest drains and lacerations were sutured."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Suture of wound on skin",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "admission to intensive care unit (ICU)",
+        "is_surgical": false,
+        "source": [
+          "He was admitted to ICU."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "conservative treatment of fractures",
+        "is_surgical": false,
+        "source": [
+          "Fractures were treated conservatively."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "occupational therapy (12 sessions)",
+        "is_surgical": false,
+        "source": [
+          "After discharge, the plaintiff underwent 12 sessions of occupational therapy and was followed up as an outpatient until October 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 22,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "discharged after 22 days with a walking stick and a spinal support",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "I think unrealistic that the plaintiff could return to his previous job.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Phoon Ka Wai v Wong Ka Chung and Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 768/2003",
+        "injury_description": "required \"a series of operations\" and much longer hospitalisation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chi Ming v Sze Hing Sang",
+        "neutral_citation": null,
+        "action_number": "HCPI 531/2011",
+        "injury_description": "another case of multiple rib and transverse process vertebral fractures, but with less complications and hospitalization time",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18809,
+      "output_tokens": 9890,
+      "reasoning_tokens": 7104,
+      "total_tokens": 28699
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 37962.62150001712,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18809,
+      "output_tokens": 9890,
+      "reasoning_tokens": 7104,
+      "total_tokens": 28699
+    },
+    "total_duration_ms": 37962.62150001712
+  }
+}

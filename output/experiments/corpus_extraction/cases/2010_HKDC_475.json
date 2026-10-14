@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 475",
+    "action_number": "DCPI 1503/2007",
+    "case_name": "CHAN WAI TUNG v. TANG KWOK KWONG AND OTHERS",
+    "judgment_date": "2010-04-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "engaging in the work of removing garbage and debris in a construction site",
+    "occupation_after": "internal renovation job",
+    "expected_occupation_after": null,
+    "salary_before": 11000.0,
+    "salary_after": 16000.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion and superficial abrasion",
+        "injury_type": "Temporary injury",
+        "body_part": "back",
+        "laterality": null,
+        "source": [
+          "I find that Chan suffered contusion and superficial abrasion in the accident."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "episodic lower back pain of a piercing character",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain on standing or sitting for more than 10 minutes",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "difficulty in squatting",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limited spinal movement / limitations in his spinal movement",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "small abrasion on his back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "healed scar on Chan's back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident and Emergency treatment; injection of analgesic; x-ray of spine and chest",
+        "is_surgical": false,
+        "source": [
+          "According to the report made by Tseung Kwan O Hospital, Chan received treatment at the Accident and Emergency Department of the Caritas Medical Centre at about 10 a.m. on 23 July 2004. At that time his condition was good. He felt pain in his back on which there was a small abrasion. X ray check of his spine and his chest showed that these parts were normal. The doctor diagnosed that he had back contusion. Having received an injection of analgesic, he was discharged in the afternoon of that very day. He was granted 5 days’ sick leave."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Further A&E attendance and analgesic",
+        "is_surgical": false,
+        "source": [
+          "On 26 July and 4 August 2004 Chan went to hospital again for treatment due to pain in his back. He was given analgesic and a total of 12 days’ sick leave."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "According to the report made by Caritas Medical Centre, Chan began to receive physiotherapy on 16 August 2004."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Sterilisation of the injured area and administration of analgesics",
+        "is_surgical": false,
+        "source": [
+          "the treatment he received at the Accident and Emergency Department of Tseung Kwan O Hospital was only sterilization of the injured area and administration of analgesics."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Analgesics (ongoing use)",
+        "is_surgical": false,
+        "source": [
+          "At the time it was 4 years after the accident. Chan told Doctor Lam that he still occasionally felt pain in the lumbar region. Each week he felt pain which lasted several minutes. He needed analgesics twice a month."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of conveniences or amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 80000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13514,
+      "output_tokens": 4087,
+      "reasoning_tokens": 2688,
+      "total_tokens": 17601
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29216.53987490572,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13514,
+      "output_tokens": 4087,
+      "reasoning_tokens": 2688,
+      "total_tokens": 17601
+    },
+    "total_duration_ms": 29216.53987490572
+  }
+}

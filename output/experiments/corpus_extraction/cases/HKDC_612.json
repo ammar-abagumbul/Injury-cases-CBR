@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "neutral_citation": "HKDC 612",
+    "action_number": "DCPI1724/2016",
+    "case_name": "CHOW SHEK PING v. LAI SHING CONSTRUCTION ENGINEERING LTD AND OTHERS",
+    "judgment_date": "2017-06-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "construction site worker",
+    "occupation_after": "delivery worker between 22 to 26 September 2015; general worker at construction sites since October 2015",
+    "expected_occupation_after": null,
+    "salary_before": 19833.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "According to the Joint Report, the injuries sustained by the plaintiff as a result of the Accident are mild head injury and mild soft tissue injury to the neck and low back."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "mild soft tissue injury to the neck and low back",
+        "injury_type": "Temporary injury",
+        "body_part": "neck and low back",
+        "laterality": null,
+        "source": [
+          "According to the Joint Report, the injuries sustained by the plaintiff as a result of the Accident are mild head injury and mild soft tissue injury to the neck and low back."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "mild Post-Concussion Syndrome",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "headache",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "1% impairment of the whole person",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Attendance at Accident & Emergency Department of the Queen Elizabeth Hospital for checkup and treatment",
+        "is_surgical": false,
+        "source": [
+          "\"The injured was immediately accompanied by others to the hospital for checkup and treatment.\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Examination recorded in the Head Trauma (HT) Record of Queen Elizabeth Hospital on 20 September 2012 (1420 hours)",
+        "is_surgical": false,
+        "source": [
+          "\"The head trauma record (“the HT Record”) of QEH concerning the examination conducted at 1420 hours on 20 September 2012 shows the following:\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Sick leave granted from 20th September 2012 to 31st March 2015",
+        "is_surgical": false,
+        "source": [
+          "\"He was granted sick leave from 20th September 2012 to 31st March 2015. It was documented in the 17th February 2015 attendance notes of the Neurosurgery Clinic of QEH that he had 'resumed duty already'.\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 125000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tong Lin Keung v Wong Chi Leung",
+        "neutral_citation": "HCPI 789/1996",
+        "action_number": null,
+        "injury_description": "The major injuries suffered by the claimant were the neck injury causing disturbance of the balancing system and the head injury with concessional syndrome resulting in memories and mood change.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 90000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15155,
+      "output_tokens": 6391,
+      "reasoning_tokens": 4992,
+      "total_tokens": 21546
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36768.354166066274,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15155,
+      "output_tokens": 6391,
+      "reasoning_tokens": 4992,
+      "total_tokens": 21546
+    },
+    "total_duration_ms": 36768.354166066274
+  }
+}

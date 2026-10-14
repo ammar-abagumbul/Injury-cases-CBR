@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 488",
+    "action_number": "DCPI 2505/2016",
+    "case_name": "FU HOI LIN v. TSOI KAM CHING",
+    "judgment_date": "2019-04-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 47,
+    "age_at_trial": 50,
+    "occupation_before": "Assistant / clerk at marble retail & installation business (the Shop)",
+    "occupation_after": "Worked at the Shop but reduced hours",
+    "expected_occupation_after": "to resume pre-injury job at the Shop",
+    "salary_before": 10000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "concussion",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The diagnosis was concussion (collectively A&E Exam Results)."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "contusion of head",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "the plaintiff suffered from contusion of head, resulting into persistent headache, neck pain, insomnia and panic attack"
+        ],
+        "icd_code": "NA00.7",
+        "icd_description": "Contusion of other or unspecified sites of head"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "bruises on left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "I accept that the plaintiff suffered from bruises on left knee and left foot as a result of the Assault as borne out by the photos she produced."
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "bruises on left foot",
+        "injury_type": "Temporary injury",
+        "body_part": "left foot",
+        "laterality": "left",
+        "source": [
+          "I accept that the plaintiff suffered from bruises on left knee and left foot as a result of the Assault as borne out by the photos she produced."
+        ],
+        "icd_code": "ND11.8",
+        "icd_description": "Contusion of other or unspecified parts of foot"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "post-traumatic stress disorder (PTSD)",
+        "injury_type": "Residual disability",
+        "body_part": "mental health / whole person",
+        "laterality": null,
+        "source": [
+          "Dr Chiu opined that the plaintiff is suffering from PTSD as Dr Ting did. It is moderate in severity.",
+          "she was diagnosed by Dr Ting as having PTSD with hypervigilance and recurrent recollection of traumatic experiences."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "headache (over right temporal area)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "pain / bruising of left knee",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "pain / bruising of left foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "insomnia",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "recurrent nightmares about the Assault",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "depressed mood / feels depressed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "difficulty of concentration",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "anxiety and irritability",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "palpitation and hand and body tremor",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "cannot function as a housewife as before",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "cannot work in the Shop as efficiently as before",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "social functioning impaired / loses interest in social activities",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "attendance at A&E Department of Queen Elizabeth Hospital; admitted for observation and symptomatic relief overnight and discharged next day",
+        "is_surgical": false,
+        "source": [
+          "She was admitted for observation and symptomatic relief overnight and discharged the next day on 15 Jan 2016."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "CT brain (no abnormality)",
+        "is_surgical": false,
+        "source": [
+          "CT brain was unremarkable."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "MRI brain (no abnormality) on 29 Jan 2016",
+        "is_surgical": false,
+        "source": [
+          "Dr Ko also arranged her to have MRI brain taken on 29 Jan 2016. No brain abnormality was found."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "medication and physiotherapy by Dr Ko (from 16 Jan 2016 until Oct 2016)",
+        "is_surgical": false,
+        "source": [
+          "For symptoms of persistent headache, dizziness and neck pain, the plaintiff started consulting Dr Ko on 16 Jan 2016. Dr Ko treated her until Oct 2016. Treatments include medication and physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychiatric consultation and medication with Dr Ting (from 4 May 2016, ongoing)",
+        "is_surgical": false,
+        "source": [
+          "On 4 May 2016, she started consulting Dr Ting and receiving treatment from him, including medication. She has been consulting Dr Ting until today."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "consultation with registered Chinese medicine practitioner and prescribed Chinese herbs at Shing Moon Medicine Co.",
+        "is_surgical": false,
+        "source": [
+          "she has consulted a registered Chinese medicine practitioner at Shing Moon and was prescribed with Chinese herbs to be purchased at Shing Moon to treat her PTSD symptoms like insomnia and dizziness"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "adjustment of medication for PTSD (estimated 6-9 months, cost estimate $18,000 to $21,000)",
+        "is_surgical": false,
+        "source": [
+          "To complete a course, it takes at least 6-9 months. If plaintiff opts to seek them from Dr Ting, the estimated costs will be around $18,000 to $21,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychological treatments with trained clinical psychologist (private sector estimate $20,000)",
+        "is_surgical": false,
+        "source": [
+          "Dr Chiu further recommends the plaintiff seeing trained clinical psychologist and receiving psychological treatments. Such treatments are effective treatment of choice for PTSD. The costs of such treatment in private sector, according to his estimate, will be around $20,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 1,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 522,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "She cannot function as a housewife as before.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "She cannot work in the Shop as efficiently as before.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Her social functioning is impaired as she loses interest in social activities.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "The major disability adversely affects the plaintiff in terms of her family life.",
+        "caused_by_injury_id": "inj_005"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 150000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chung Lai Ha v Ching Mei Yee",
+        "neutral_citation": null,
+        "action_number": "unreported, HCPI 2755/2012, 20 Jan 2014",
+        "injury_description": "victim suffered from PTSD as a result of assault",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 300000.0
+      },
+      {
+        "case_name": "Wong Ka Wai Johnny v Lee Man Wai",
+        "neutral_citation": null,
+        "action_number": "unreported, DCPI 145/2010, 16 Jan 2012",
+        "injury_description": "victim suffered from PTSD as a result of assault",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 17828,
+      "output_tokens": 8532,
+      "reasoning_tokens": 5504,
+      "total_tokens": 26360
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46691.29995815456,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 17828,
+      "output_tokens": 8532,
+      "reasoning_tokens": 5504,
+      "total_tokens": 26360
+    },
+    "total_duration_ms": 46691.29995815456
+  }
+}

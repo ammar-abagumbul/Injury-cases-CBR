@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[2014] HKDC 245",
+    "action_number": "DCPI 1234/2012",
+    "case_name": "ASIF MUHAMMAD v. MTR CORPORATION LTD",
+    "judgment_date": "2014-03-14",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "supervisor in a textile factory and farmer",
+    "occupation_after": null,
+    "expected_occupation_after": "security guard (claimed if returned to Pakistan)",
+    "salary_before": 2500.0,
+    "salary_after": null,
+    "expected_salary_after": 1000.0,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "T12 wedge fracture",
+        "injury_type": "Residual disability",
+        "body_part": "T12 (thoracic spine)",
+        "laterality": null,
+        "source": [
+          "The plaintiff\u00199s main injury consisted of a T12 wedge fracture."
+        ],
+        "icd_code": "NA82.0",
+        "icd_description": "Fracture of thoracic vertebra"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "spondyloysis (pre-existing)",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "In the report of Dr Lee Po Chin, the orthopaedic expert who had examined the plaintiff on the instruction of his then assigned solicitors, it has been concluded that the spondyloysis shown in the X-ray is likely to be pre-existing."
+        ],
+        "icd_code": "NB52.0",
+        "icd_description": "Fracture of lumbar vertebra"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The head injury has also recovered without any residual complaint."
+        ],
+        "icd_code": "NA0Z",
+        "icd_description": "Injuries to the head, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "injury to his neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "the objective findings at the examination suggested the injury to his neck and left big toe has recovered without any significant residual symptom."
+        ],
+        "icd_code": "NA6Z",
+        "icd_description": "Injuries to the neck, unspecified"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "left big toe injury",
+        "injury_type": "Temporary injury",
+        "body_part": "left big toe",
+        "laterality": "left",
+        "source": [
+          "the objective findings at the examination suggested the injury to his neck and left big toe has recovered without any significant residual symptom."
+        ],
+        "icd_code": "ND1Z",
+        "icd_description": "Injuries to the ankle or foot, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "He also alleges that he had lost consciousness for a short period of time.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The plaintiff claims to have suffered injuries that have now left constant pain of 5/10 degree of severity and inability to lift more than 5 kg of weight.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "Based on the findings at the examination, Dr Lee concluded that the plaintiff may have some residual back pain in his work which requires lifting weight of over 20-25 kg.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "ambulance transport to hospital",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff expressed pain in his head and foot and therefore an ambulance was summoned.",
+          "the plaintiff was sent to the hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "examination by orthopaedic expert Dr Lee Po Chin",
+        "is_surgical": false,
+        "source": [
+          "In the report of Dr Lee Po Chin, the orthopaedic expert who had examined the plaintiff on the instruction of his then assigned solicitors, it has been concluded that the spondyloysis shown in the X-ray is likely to be pre-existing."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "X-ray imaging",
+        "is_surgical": false,
+        "source": [
+          "In the report of Dr Lee Po Chin, the orthopaedic expert who had examined the plaintiff on the instruction of his then assigned solicitors, it has been concluded that the spondyloysis shown in the X-ray is likely to be pre-existing."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "pain and suffering and loss of amenities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ansar Mohammad v Global Legend Transportation Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 1057 of 2007",
+        "injury_description": "similar but slightly more serious injuries",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19274,
+      "output_tokens": 7320,
+      "reasoning_tokens": 5568,
+      "total_tokens": 26594
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 40182.91137507185,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19274,
+      "output_tokens": 7320,
+      "reasoning_tokens": 5568,
+      "total_tokens": 26594
+    },
+    "total_duration_ms": 40182.91137507185
+  }
+}

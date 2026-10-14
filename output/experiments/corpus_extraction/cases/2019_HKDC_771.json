@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 771",
+    "action_number": "DCPI 206/2017",
+    "case_name": "LEE CHI MING v. E ENTERTAINMENT WEEKLY LTD",
+    "judgment_date": "2019-06-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": null,
+    "occupation_before": "paparazzi entertainment news reporter",
+    "occupation_after": "driver",
+    "expected_occupation_after": null,
+    "salary_before": 19000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "The plaintiff suffered undisplaced fracture in the olecranon of the right elbow.",
+        "injury_type": "Residual disability",
+        "body_part": "right elbow",
+        "laterality": "right",
+        "source": [
+          "The plaintiff suffered undisplaced fracture in the olecranon of the right elbow."
+        ],
+        "icd_code": "NC32.0",
+        "icd_description": "Fracture of upper end of ulna"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "the pain suffered at the time of the incident was intense",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "residual pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "extension reduction of 5 degree",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduction of endurance",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "splinting",
+        "is_surgical": false,
+        "source": [
+          "He was treated conservatively with splinting."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "X-ray",
+        "is_surgical": false,
+        "source": [
+          "The last medical visit was 31 May 2016 when X-ray showed that the fracture was healed."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 104,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "the injury has affected his work because the stiffness has affected his photography work which required precision and stillness in holding the camera especially at night. He claimed that the defendant assigned him to drive instead of working as a photographer, and now he could only work as a driver.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Moon Chai v Leung Shu Man & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 48 of 2007",
+        "injury_description": "elbow dislocation",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14358,
+      "output_tokens": 3630,
+      "reasoning_tokens": 2560,
+      "total_tokens": 17988
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28009.021333185956,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14358,
+      "output_tokens": 3630,
+      "reasoning_tokens": 2560,
+      "total_tokens": 17988
+    },
+    "total_duration_ms": 28009.021333185956
+  }
+}

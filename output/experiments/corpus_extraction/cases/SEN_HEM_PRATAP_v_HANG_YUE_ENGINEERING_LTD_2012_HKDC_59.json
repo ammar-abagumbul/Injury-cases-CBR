@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "neutral_citation": "SEN HEM PRATAP v. HANG YUE ENGINEERING LTD [2012] HKDC 59",
+    "action_number": "DCPI 131/2010",
+    "case_name": "SEN HEM PRATAP v. HANG YUE ENGINEERING LTD",
+    "judgment_date": "2012-02-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 33,
+    "age_at_trial": 37,
+    "occupation_before": "steelworker",
+    "occupation_after": "general labourer",
+    "expected_occupation_after": null,
+    "salary_before": 10740.0,
+    "salary_after": 12081.89,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "a small metallic foreign body over his right cornea with removal",
+        "injury_type": "Temporary injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "a florescent staining revealed a foreign body over his right cornea.",
+          "a small metallic foreign body was found over his right cornea with removal done."
+        ],
+        "icd_code": "NA06.Y",
+        "icd_description": "Other specified injury of eye or orbit"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "permanent scar(s) at the cornea / right eye pupil (3 non-axial corneal scars)",
+        "injury_type": "Permanent injury",
+        "body_part": "right eye",
+        "laterality": "right",
+        "source": [
+          "a permanent scar was left at his right eye pupil.",
+          "there were 3 non-axial corneal scars at the cornea of the right eye and thus Pratap must have suffered from more than one episodes of foreign body lodging onto the cornea in the past."
+        ],
+        "icd_code": "NA06.8Y",
+        "icd_description": "Other specified traumatic injury to eyeball"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left eye anterior uveitis",
+        "injury_type": "Temporary injury",
+        "body_part": "left eye",
+        "laterality": "left",
+        "source": [
+          "he received treatment for left eye anterior uveitis [an inflammatory condition affecting the unveal tissues of any eye] which is unrelated to the Accident."
+        ],
+        "icd_code": "NA06",
+        "icd_description": "Injury of eye or orbit"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "pain and burning sensation at his right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "could not sleep well at night because of the pain and burning sensation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "his visual power is very poor; his visual power is deteriorating and he has to wear spectacles",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "removal of small metallic foreign body from right cornea",
+        "is_surgical": true,
+        "source": [
+          "a small metallic foreign body was found over his right cornea with removal done."
+        ],
+        "vmis_system": "EYE",
+        "vmis_region": "Eye",
+        "vmis_procedure": "Removal of corneal foreign body",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "treated with some oral analgesics and referral to Tuen Mun Eye Centre",
+        "is_surgical": false,
+        "source": [
+          "treated with some oral analgesics and was referred to Tuen Mun Eye Centre."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "attended medical and follow-up sessions",
+        "is_surgical": false,
+        "source": [
+          "He attended altogether 15 medical and follow-up sessions between 13 November 2008 and 7 September 2009."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 30,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Pain, Suffering and Loss of Amenities (PSLA)",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 50000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chow Wai Hung v King Rise Engineering Ltd & Another",
+        "neutral_citation": "[2005] HKEC 935",
+        "action_number": null,
+        "injury_description": "right corneal abrasion",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Nam Cheuk Yin v Ng Yim Hing trading as Best Choice Beauty Centre",
+        "neutral_citation": "[2003] 2 HKLRD 195",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 8000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20399,
+      "output_tokens": 8001,
+      "reasoning_tokens": 6336,
+      "total_tokens": 28400
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 39207.86845800467,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20399,
+      "output_tokens": 8001,
+      "reasoning_tokens": 6336,
+      "total_tokens": 28400
+    },
+    "total_duration_ms": 39207.86845800467
+  }
+}

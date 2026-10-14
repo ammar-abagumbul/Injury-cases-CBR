@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "neutral_citation": "[2016] HKDC 73",
+    "action_number": "DCPI 17/2013",
+    "case_name": "RAJWINDER SINGH v. MAN HUNG KWAN AND ANOTHER",
+    "judgment_date": "2016-01-28",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "working at a site under renovation situated at Unit 2C, Pak Villa, 41 Shouson Hill Road, Hong Kong",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 16900.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "back sprain / mechanical low back pain",
+        "injury_type": "Temporary injury",
+        "body_part": "low back (lumbar)",
+        "laterality": null,
+        "source": [
+          "opined that the plaintiff’s “back sprain” was actually due to his persisting back problems, with caused the onset of pain at that stage.",
+          "the medical experts agreed that the plaintiff had “a mechanical low back pain, mainly with tenderness over the left paraspinal muscle”.",
+          "The pain was mainly with soft tissue/paraspinal sprain muscle involvement."
+        ],
+        "icd_code": "NB94.1",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon of lower back"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "a mechanical low back pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the left paraspinal muscle",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no well-defined neurological deficit",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "heard a cracking sound from his back immediately",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "landed on his right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "consultation with an unregistered bonesetter in Tokwawan",
+        "is_surgical": false,
+        "source": [
+          "he went to an unregistered bonesetter in Tokwawan near to where he lives"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "consultation at a government hospital",
+        "is_surgical": false,
+        "source": [
+          "left for the government hospital to consult a doctor for the so-called injury sustained by him earlier."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": 90
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12221,
+      "output_tokens": 4622,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16843
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38501.06416712515,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12221,
+      "output_tokens": 4622,
+      "reasoning_tokens": 3648,
+      "total_tokens": 16843
+    },
+    "total_duration_ms": 38501.06416712515
+  }
+}

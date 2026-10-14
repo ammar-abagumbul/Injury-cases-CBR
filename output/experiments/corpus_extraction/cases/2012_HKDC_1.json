@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 1",
+    "action_number": "DCPI 2738/2009",
+    "case_name": "CHEUNG KWOK KEUNG v. YIP MAN HING BUILDING MATERIALS CO LTD AND OTHERS",
+    "judgment_date": "2012-01-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": null,
+    "occupation_before": "self-employed as a delivery worker with his van",
+    "occupation_after": "self-employed van driver and delivery worker (part-time)",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 3200.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "traumatic fracture of right hip (neck of femur). It was a Garden type IV comminuted fracture.",
+        "injury_type": "Temporary injury",
+        "body_part": "right neck of femur",
+        "laterality": "right",
+        "source": [
+          "The diagnosis was traumatic fracture of right hip (neck of femur) after X-ray of pelvis. It was a Garden type IV comminuted fracture. On 6 February 2007, a closed reduction and screw fixation was done as an emergency operation."
+        ],
+        "icd_code": "NC72.23",
+        "icd_description": "Intracapsular fracture of femur"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Avascular Necrosis (AVN) of right femoral head (Ficat type III) with articular collapse and early ostoarthropathy.",
+        "injury_type": "Residual disability",
+        "body_part": "right femoral head / right hip",
+        "laterality": "right",
+        "source": [
+          "On 9 November 2009, Cheung complained about increased hip pain. An X-ray examination disclosed features of Avascular Necrosis (“AVN”) of right hip and no cut-out of screws was noted. Cheung was referred to the Arthroplasty clinic at UCH. A MRI examination was performed in July 2010 and it showed right femoral head AVN with articular collapse and early ostoarthropathy.",
+          "There was a joint expert report by Dr. Chien Ping Eric and Dr. Poon Kai Ming dated 21 September 2010. They confirmed that Cheung suffered from the diagnosis of (1) Garden type IV, comminuted fracture of the right neck of femur and (2) complications of the fracture, namely, AVN, Ficat type III."
+        ],
+        "icd_code": "NC7Y",
+        "icd_description": "Other specified injuries to the hip or thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right hip pain and soreness with limited walking pace",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in lifting weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "difficulty in going upstairs",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "left paraspinal lower lumbar discomfort",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "closed reduction and screw fixation (emergency operation)",
+        "is_surgical": true,
+        "source": [
+          "On 6 February 2007, a closed reduction and screw fixation was done as an emergency operation."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of arm / leg / patella / pelvis with internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "second closed reduction and internal fixation",
+        "is_surgical": true,
+        "source": [
+          "Cheung underwent another operation to have a second close reduction and internal fixation on 9 February 2007."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of arm / leg / patella / pelvis with internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "removal of screws and hip arthroscopy",
+        "is_surgical": true,
+        "source": [
+          "An operation for removal of screws and hip arthoscopy was performed on 3 December 2010. Cheung was discharged on 8 December 2010 walking with elbow crutches on partial weight-bearing."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Arthroscopic examination of joint +/- biopsy",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "physiotherapy (out-patient)",
+        "is_surgical": false,
+        "source": [
+          "Between 13 March 2007 and 25 October 2007, Cheung attended a total of 24 treatment sessions at the Physiotherapy Department of UCH."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Chinese medical treatments with acupuncture",
+        "is_surgical": false,
+        "source": [
+          "Cheung also received Chinese medical treatments with acupuncture at Kwong Wah Hospital for about 24 times."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "private orthopaedic consultation",
+        "is_surgical": false,
+        "source": [
+          "Cheung also attended private orthopaedic consultation. He attended Dr. Yeung Kong Fan’s clinic once and Dr. Chan Sai Keung’s clinic once."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "hip replacement (total hip arthroplasty)",
+        "is_surgical": true,
+        "source": [
+          "Both Dr. Chien and Dr. Poon opined that Cheung was likely to develop early degenerative conditions of his right hip. Manual labour work would accelerate degeneration. Symptoms of pain and stiffness would appear. Hip replacement can relieve such pain and stiffness and improve the function of his right hip with post-operative rehabilitation."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Total hip replacement",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "post-operative rehabilitation after hip replacement",
+        "is_surgical": false,
+        "source": [
+          "the cost for the rehabilitation after the first and revision surgery would range from HK$25,000 to HK$50,000.",
+          "I would however only allow HK$200,000 for the initial hip replacement operation and HK$35,000 for rehabilitation costs."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 23,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": 334,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "right hip pain and soreness with limited walking pace and difficulty in going upstairs",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "difficulty in lifting weight",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 400000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tai Mei Lin v. Fung King Kong",
+        "neutral_citation": null,
+        "action_number": "HCPI 425/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 25388,
+      "output_tokens": 8200,
+      "reasoning_tokens": 5888,
+      "total_tokens": 33588
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30724.96245801449,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 25388,
+      "output_tokens": 8200,
+      "reasoning_tokens": 5888,
+      "total_tokens": 33588
+    },
+    "total_duration_ms": 30724.96245801449
+  }
+}

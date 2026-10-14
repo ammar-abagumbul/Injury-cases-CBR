@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "neutral_citation": "[2011] HKDC 36",
+    "action_number": "DCPI 1876/2009",
+    "case_name": "CHEUNG KWONG HON v. NIXON CLEANING CO LTD AND OTHERS",
+    "judgment_date": "2011-02-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "cleaning worker (employee of the 1st Defendant)",
+    "occupation_after": "cleaning worker (employed by a new company)",
+    "expected_occupation_after": null,
+    "salary_before": 5414.5,
+    "salary_after": 5700.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of his right distal tibia",
+        "injury_type": "Temporary injury",
+        "body_part": "right distal tibia",
+        "laterality": "right",
+        "source": [
+          "X-ray revealed a fracture of his right distal tibia."
+        ],
+        "icd_code": "NC92.3",
+        "icd_description": "Fracture of lower end of tibia"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "on and off attacks of pain, especially after prolonged walking, stair climbing and heavy lifting",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "4-5% impairment for the whole person for residual pain after fracture of right distal tibia (Dr. Wong); Dr. Yip opines 1% impairment",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "able to return to his full duty",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "admission to Kwong Wah Hospital",
+        "is_surgical": false,
+        "source": [
+          "The Plaintiff was admitted to the Kwong Wah Hospital on the day of the accident."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Open reduction and internal fixation of the right distal tibia",
+        "is_surgical": true,
+        "source": [
+          "Open reduction and internal fixation of the right distal tibia was performed on 15.3.2007."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Open reduction for arm / leg / patella / scapula +/- internal fixation",
+        "vmis_category": "Major"
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "operation to remove the nail in his right foot (claimed)",
+        "is_surgical": true,
+        "source": [
+          "future expense of an operation to remove the nail in his right foot"
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Wedge resection of toenail",
+        "vmis_category": "Minor"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": 1,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from fracture of the right distal tibia",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kiu v. Lee Fai (t/a Fai Kee Timber (1997) 2 HKLRD 444",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "compound fracture of the left tibia and right fifth metatarsal bone base; 2 operations at the left knee region; hospitalised for about 1½ months",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 350000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13753,
+      "output_tokens": 5548,
+      "reasoning_tokens": 4288,
+      "total_tokens": 19301
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 29080.23150009103,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13753,
+      "output_tokens": 5548,
+      "reasoning_tokens": 4288,
+      "total_tokens": 19301
+    },
+    "total_duration_ms": 29080.23150009103
+  }
+}

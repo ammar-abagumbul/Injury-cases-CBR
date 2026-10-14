@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 826",
+    "action_number": "DCPI 726/2017",
+    "case_name": "YAM LAI CHAU v. YAM HING KUEN T/A UNION AIR CONDITIONING ENGINEERING CO",
+    "judgment_date": "2019-06-20",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 54,
+    "age_at_trial": null,
+    "occupation_before": "labourer",
+    "occupation_after": "labourer/casual worker",
+    "expected_occupation_after": "labourer/casual worker",
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Electrical shock injury / electrocution",
+        "injury_type": "Temporary injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "The plaintiff claimed common law damages for injuries he suffered as a result of electrocution allegedly in the course of his removing the air conditioning compressor from the structures inside the air conditioning facility room on the 29th floor of a commercial building in Wan Chai (the “Location”).",
+          "He sustained electrical shock injury, and there were blisters to his left middle and ring fingers. He lost consciousness immediately."
+        ],
+        "icd_code": "NC51.2",
+        "icd_description": "Multiple superficial injuries of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Burn injury to the pulp of the left middle and ring fingers",
+        "injury_type": "Residual disability",
+        "body_part": "left middle and ring fingers",
+        "laterality": "left",
+        "source": [
+          "He sustained electrical shock injury, and there were blisters to his left middle and ring fingers.",
+          "The burn injury was with the pulp of the left middle and ring fingers.",
+          "The burnt left middle and ring fingers were treated conservatively with dressing and the wound eventually dried up.",
+          "By the time of discharge, there was residual stiffness of both fingers with weakened hand grip."
+        ],
+        "icd_code": "NC51.0Y",
+        "icd_description": "Other specified superficial injury of finger or thumb"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Generalised muscle injury / elevated muscle enzyme",
+        "injury_type": "Temporary injury",
+        "body_part": "muscles (generalised)",
+        "laterality": null,
+        "source": [
+          "He suffered elevated muscle enzyme.",
+          "It was generalized muscle damage only without damage to bone and nerves.",
+          "He however suffered muscle injury."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Blisters to his left middle and ring fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Lost consciousness immediately",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual stiffness of both fingers with weakened hand grip",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Painful and hypersensitive pulp over the two burnt fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Elevated muscle enzyme",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Muscle pain and bone pain to the whole body",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E attendance and admission as in-patient",
+        "is_surgical": false,
+        "source": [
+          "He did not seek treatment until the next day. He attended A&E, and was then admitted to in-patient care for hospitalization for 7 days."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Conservative dressing for burnt fingers",
+        "is_surgical": false,
+        "source": [
+          "The burnt left middle and ring fingers were treated conservatively with dressing and the wound eventually dried up."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Out-patient physiotherapy (2 December 2014 to 30 December 2014)",
+        "is_surgical": false,
+        "source": [
+          "He was later referred to out-patient physiotherapy and occupational therapy. He had out-patient physiotherapy from 2 December 2014 until 30 December 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy (4 sessions from 4 December 2014 until 19 December 2014)",
+        "is_surgical": false,
+        "source": [
+          "He had 4 sessions of occupational therapy from 4 December 2014 until 19 December 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Residual stiffness of both fingers with weakened hand grip and hypersensitive, painful pulp of left middle and ring fingers following burn injury",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Yeung Tze Man v Everbest Port Services Limited (in liq)",
+        "neutral_citation": "[2018] HKDC 1054",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "less serious",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18829,
+      "output_tokens": 5744,
+      "reasoning_tokens": 3968,
+      "total_tokens": 24573
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 27530.475666979328,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18829,
+      "output_tokens": 5744,
+      "reasoning_tokens": 3968,
+      "total_tokens": 24573
+    },
+    "total_duration_ms": 27530.475666979328
+  }
+}

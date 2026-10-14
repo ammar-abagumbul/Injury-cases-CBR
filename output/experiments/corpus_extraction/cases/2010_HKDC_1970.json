@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 1970",
+    "action_number": "DCPI 352/2009",
+    "case_name": "CHAN KAM FAI v. 李志傑經營之惠林運輸公司",
+    "judgment_date": "2010-12-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 41,
+    "age_at_trial": 46,
+    "occupation_before": "driver and delivery worker for furniture",
+    "occupation_after": "delivery worker (delivering food and grocery items)",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": 7500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "comminuted fracture of the distal phalanx of the left big toe",
+        "injury_type": "Residual disability",
+        "body_part": "left big toe",
+        "laterality": "left",
+        "source": [
+          "As a result of the accident, the Plaintiff was suffering from comminuted fracture of the distal phalanx of the left big toe with minimal displacement of the fracture fragments and soft tissues swelling around the fracture."
+        ],
+        "icd_code": "ND13.4",
+        "icd_description": "Fracture of great toe"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "capillary and lymphatic injury causing left big toe swelling",
+        "injury_type": "Residual disability",
+        "body_part": "left big toe",
+        "laterality": "left",
+        "source": [
+          "The Plaintiff was referred to and consulted Dr Chang Shao on 27 May 2006, who diagnosed that the Plaintiff suffered from capillary and lymphatic injury causing left big toe swelling."
+        ],
+        "icd_code": "ND16",
+        "icd_description": "Injury of blood vessels at ankle or foot level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "reduced flexion at the first metatarsal phalangeal joint",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "total loss of flexion and extension at the interphalangeal joint",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "on-and-off needle pain and numbness in his left big toe",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "numbness in his left big toe",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left big toe swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The Plaintiff’s left big toe will be painful during change of weather and while jumping or running.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Due to the swelling over the left big toe, he could not bear weight on his left foot and he had to sit on wheelchair for mobilization.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "He was only able to bear weight on his left foot in or about September 2006.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident and Emergency treatment at Prince of Wales Hospital",
+        "is_surgical": false,
+        "source": [
+          "The Plaintiff was sent to the Accident and Emergency Department of the Prince of Wales Hospital for treatment immediately after the accident."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment at ADEC Medical Centre",
+        "is_surgical": false,
+        "source": [
+          "Thereafter, the Plaintiff received treatment from ADEC Medical Centre and was referred to JP Physiotherapy Clinic for treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy at JP Physiotherapy Clinic",
+        "is_surgical": false,
+        "source": [
+          "Thereafter, the Plaintiff received treatment from ADEC Medical Centre and was referred to JP Physiotherapy Clinic for treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "consultation with Dr Chang Shao (diagnosis)",
+        "is_surgical": false,
+        "source": [
+          "The Plaintiff was referred to and consulted Dr Chang Shao on 27 May 2006, who diagnosed that the Plaintiff suffered from capillary and lymphatic injury causing left big toe swelling."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "follow-up consultation at ADEC Medical Centre (16 July 2007)",
+        "is_surgical": false,
+        "source": [
+          "At the last follow-up consultation at ADEC Medical Centre on 16 July 2007, physical examination revealed reduced flexion at the first metatarsal phalangeal joint and total loss of flexion and extension at the interphalangeal joint."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Reduced flexion at the first metatarsal phalangeal joint and total loss of flexion and extension at the interphalangeal joint; on-and-off needle pain and numbness in left big toe.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Left big toe painful during change of weather and while jumping or running; pain on jumping or running.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Reduction in income and disadvantage in the labour market because he cannot carry heavy objects like furniture as before and his efficiency and working capacity are affected.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "To Ying Wa v Cargo-Land (Warehouse) Development Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI441 of 2000",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lee Sze Wai v Law Chi Kin",
+        "neutral_citation": null,
+        "action_number": "DCPI 44 of 2001",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Sin Fu Yau v Cheung Kwok Leung Keith & Others",
+        "neutral_citation": null,
+        "action_number": "DCPI1081 of 2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tsang Ching Fei v Mo King Guo",
+        "neutral_citation": null,
+        "action_number": "DCPI2136 of 2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 10289,
+      "output_tokens": 7912,
+      "reasoning_tokens": 5696,
+      "total_tokens": 18201
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 46382.60024995543,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 10289,
+      "output_tokens": 7912,
+      "reasoning_tokens": 5696,
+      "total_tokens": 18201
+    },
+    "total_duration_ms": 46382.60024995543
+  }
+}

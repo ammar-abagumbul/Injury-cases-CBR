@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "neutral_citation": "[2002] HKCFI 619",
+    "action_number": "HCPI 650/2000",
+    "case_name": "GURUNG CHANDRA KUMAR v. KIN KEI ENGINEERING CO. AND ANOTHER",
+    "judgment_date": "2002-07-30",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": null,
+    "age_at_trial": 37,
+    "occupation_before": "labourer",
+    "occupation_after": "unable to work at present",
+    "expected_occupation_after": null,
+    "salary_before": 13000.0,
+    "salary_after": 11700.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "lung collapse",
+        "injury_type": "Temporary injury",
+        "body_part": "lung",
+        "laterality": null,
+        "source": [
+          "lung collapse"
+        ],
+        "icd_code": "NB32.0",
+        "icd_description": "Traumatic pneumothorax"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the 1st and 2nd lumbar vertebrae with no neurological deficit",
+        "injury_type": "Residual disability",
+        "body_part": "lumbar spine (L1-L2)",
+        "laterality": null,
+        "source": [
+          "fracture of the 1st and 2nd lumbar vertebrae with no neurological deficit"
+        ],
+        "icd_code": "NB52.4",
+        "icd_description": "Multiple fractures of lumbar spine or pelvis"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "compound fracture of the left tibia and fibula",
+        "injury_type": "Residual disability",
+        "body_part": "left tibia and fibula",
+        "laterality": "left",
+        "source": [
+          "compound fracture of the left tibia and fibula"
+        ],
+        "icd_code": "NC92.8",
+        "icd_description": "Multiple fractures of lower leg"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "compound fracture of the left 5th metatarsal bone",
+        "injury_type": "Residual disability",
+        "body_part": "left 5th metatarsal",
+        "laterality": "left",
+        "source": [
+          "compound fracture of the left 5th metatarsal bone"
+        ],
+        "icd_code": "ND13.3",
+        "icd_description": "Fracture of metatarsal bone"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "microscopic haematuria",
+        "injury_type": "Temporary injury",
+        "body_part": "urinary tract",
+        "laterality": null,
+        "source": [
+          "microscopic haematuria"
+        ],
+        "icd_code": "NB92.7",
+        "icd_description": "Injury of urinary tract"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "post-traumatic osteoarthritis resulting in an arthodesis of the ankle: the left ankle is fused in neutral position",
+        "injury_type": "Residual disability",
+        "body_part": "left ankle",
+        "laterality": "left",
+        "source": [
+          "He developed post-traumatic osteoarthritis resulting in an arthodesis of the ankle: the left ankle is fused in neutral position."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_007",
+        "description": "osteoporosis over the left foot and ankle",
+        "injury_type": "Residual disability",
+        "body_part": "left foot and ankle",
+        "laterality": "left",
+        "source": [
+          "there is osteoporosis over the left foot and ankle;"
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the ankle or foot"
+      },
+      {
+        "injury_id": "inj_008",
+        "description": "significant wasting of the left thigh muscles due to the disability of that lower leg",
+        "injury_type": "Residual disability",
+        "body_part": "left thigh muscles",
+        "laterality": "left",
+        "source": [
+          "there is significant wasting of the left thigh muscles due to the disability of that lower leg;"
+        ],
+        "icd_code": "NC76.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at hip or thigh level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "residual surgical scarring",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "stiff back with marked reduction in the lordotic curvature of the spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual pain and stiffness (expected to persist)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "residual scarring (left lower limb/ankle region referenced)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "persistent pain in the left ankle",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "residual impairment of sensation over the lateral half of the left foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "walks using a walking stick as an aid, displaying a limp",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "cannot squat or stand only on his left leg",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "complaint of impotence (not detailed; opinion that it is likely psychological)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "debridement",
+        "is_surgical": true,
+        "source": [
+          "debridement"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "open reduction and internal fixation of left tibia and fibula",
+        "is_surgical": true,
+        "source": [
+          "open reduction, internal fixation and external fixation of left tibia and fibula"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "external fixation of left tibia and fibula",
+        "is_surgical": true,
+        "source": [
+          "external fixation of left tibia and fibula"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "posterior lumbar fusion and instrumentation L1 to L3",
+        "is_surgical": true,
+        "source": [
+          "posterior lumbar fusion and instrumentation L1 to L3"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "adjustment of external fixation",
+        "is_surgical": true,
+        "source": [
+          "adjustment of external fixation"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "bone grafting",
+        "is_surgical": true,
+        "source": [
+          "bone grafting"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "removal of implants from left tibia",
+        "is_surgical": true,
+        "source": [
+          "removal of implants from left tibia"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "close reduction and percutaneous screw fixation of left 5th metatarsal bone with skin grafting",
+        "is_surgical": true,
+        "source": [
+          "close reduction and percutaneous screw fixation of left 5th metatarsal bone with skin grafting"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment with antibiotics for left leg cellulitis",
+        "is_surgical": false,
+        "source": [
+          "as a result of left leg cellulitis when he was treated with antibiotics"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "dynamization of external fixation",
+        "is_surgical": true,
+        "source": [
+          "dynamization of external fixation"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "removal of an external fixator",
+        "is_surgical": true,
+        "source": [
+          "removal of an external fixator"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "removal of screws of his left tibia, debridement performed and antibiotics administered",
+        "is_surgical": true,
+        "source": [
+          "as a result of infection of screws of his left tibia, when the screws were removed, debridement performed and antibiotics administered"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "removal of an implant from his back and a left ankle arthodesis",
+        "is_surgical": true,
+        "source": [
+          "for removal of an implant from his back and a left ankle arthodesis, the latter due to post-traumatic osteoarthritis of the left ankle"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "removal of a screw from his left ankle",
+        "is_surgical": true,
+        "source": [
+          "for removal of a screw from his left ankle consequent upon pain whilst walking"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy at Tuen Mun Hospital",
+        "is_surgical": false,
+        "source": [
+          "He has also received physiotherapy at Tuen Mun Hospital for which there are payment receipts."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy at Pok Oi Hospital",
+        "is_surgical": false,
+        "source": [
+          "He testified that he also attended some physiotherapy sessions at Pok Oi Hospital"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "analgesics / routine follow up",
+        "is_surgical": false,
+        "source": [
+          "routine follow up at Tuen Mun Hospital and the provision of analgesics"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "provision of a special/modified shoe",
+        "is_surgical": false,
+        "source": [
+          "the provision of a special shoe"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "a further 20 sessions of physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "Dr Wong recommends a further 20 sessions of physiotherapy"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "orthopaedic consultations every second month for the next 3 years (18 consultations)",
+        "is_surgical": false,
+        "source": [
+          "orthopaedic consultations every second month for the next 3 years (18 consultations)"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "provision of a special shoe",
+        "is_surgical": false,
+        "source": [
+          "and the provision of a special shoe."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Cannot squat or stand only on his left leg; walks using a walking stick as an aid, displaying a limp.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "residual surgical scarring",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "residual impairment of sensation over the lateral half of the left foot",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "significant wasting of the left thigh muscles due to the disability of that lower leg",
+        "caused_by_injury_id": "inj_008"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "complaint of impotence (not detailed in reports)",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "will be unable to return to work on construction sites but is capable of sedentary or light work; prospects of finding gainful employment are remote",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 600000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Kui v Lee Fai",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "compound fracture of the left tibia (no injury to the fibula is reported) and right 5th metatarsal",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 350000.0
+      },
+      {
+        "case_name": "Lai Ching v Wong Chiu Kwai",
+        "neutral_citation": null,
+        "action_number": null,
+        "injury_description": "prolapsed disc at L4-5 level with compression of the nerve root",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 300000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 22251,
+      "output_tokens": 13147,
+      "reasoning_tokens": 8896,
+      "total_tokens": 35398
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 81972.87699999288,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 22251,
+      "output_tokens": 13147,
+      "reasoning_tokens": 8896,
+      "total_tokens": 35398
+    },
+    "total_duration_ms": 81972.87699999288
+  }
+}

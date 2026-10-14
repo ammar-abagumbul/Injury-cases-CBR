@@ -1,0 +1,686 @@
+{
+  "id": "severity-prediction",
+  "config": {
+    "id": "severity-prediction",
+    "cases_path": "output/experiments/corpus_extraction/cases",
+    "cases_glob": "*.json",
+    "labels_path": "data/PI_ver6.csv",
+    "label_column": "injury_type",
+    "tiers": {
+      "non-serious": [
+        "nonserious",
+        "non-serious"
+      ],
+      "serious": [
+        "serious"
+      ],
+      "substantial+": [
+        "substantial",
+        "gross",
+        "disaster"
+      ]
+    },
+    "output_dir": "output/experiments/severity_prediction",
+    "feature_sets": {
+      "core": [
+        "injuries",
+        "treatment",
+        "hospital_sick",
+        "demographics"
+      ],
+      "all": [
+        "injuries",
+        "treatment",
+        "hospital_sick",
+        "demographics",
+        "economic",
+        "losses"
+      ]
+    },
+    "primary_feature_set": "all",
+    "models": {
+      "random_forest": {
+        "n_estimators": 500,
+        "min_samples_leaf": 2
+      },
+      "logistic_regression": {
+        "C": 1.0
+      }
+    },
+    "n_splits": 5,
+    "n_repeats": 5,
+    "seed": 42,
+    "min_feature_support": 3,
+    "permutation_repeats": 5,
+    "top_n_features": 20,
+    "distribution_features": 6
+  },
+  "dataset": {
+    "n_labelled_cases": 185,
+    "tiers": [
+      "non-serious",
+      "serious",
+      "substantial+"
+    ],
+    "tier_counts": {
+      "non-serious": 155,
+      "serious": 6,
+      "substantial+": 24
+    },
+    "raw_label_counts": {
+      "nonserious": 155,
+      "serious": 6,
+      "substantial": 8,
+      "gross": 10,
+      "disaster": 6
+    },
+    "n_features_total": 135,
+    "features_per_group": {
+      "injuries": 77,
+      "treatment": 20,
+      "hospital_sick": 12,
+      "demographics": 3,
+      "economic": 4,
+      "losses": 19
+    },
+    "n_splits_used": 5,
+    "n_repeats": 5,
+    "join": {
+      "n_case_files": 259,
+      "n_unreadable": 0,
+      "n_csv_rows": 1083,
+      "n_csv_rows_without_usable_label": 0,
+      "n_matched": 185,
+      "matched_on": {
+        "citation": 166,
+        "action_number": 19
+      },
+      "unmatched_cases": [
+        "1986_HKCFI_32_HCA_2823_1983.json",
+        "1995_HKCFI_15_1995_3_HKC_640.json",
+        "1999_HKCFI_214_2000_1_HKLRD_856.json",
+        "2010_HKDC_1.json",
+        "2010_HKDC_113.json",
+        "2010_HKDC_178.json",
+        "2010_HKDC_186.json",
+        "2010_HKDC_187.json",
+        "2010_HKDC_196.json",
+        "2010_HKDC_1971.json",
+        "2010_HKDC_28_DCCJ_2233_2007_12_February_2010.json",
+        "2010_HKDC_302.json",
+        "2010_HKDC_75.json",
+        "2010_HKDC_96.json",
+        "2011_HKDC_1562.json",
+        "2011_HKDC_162.json",
+        "2011_HKDC_48.json",
+        "2011_HKDC_65.json",
+        "2011_HKDC_68.json",
+        "2012_HKDC_1608.json",
+        "2012_HKDC_304.json",
+        "2012_HKDC_396.json",
+        "2012_HKDC_718.json",
+        "2013_HKDC_476.json",
+        "2013_HKDC_674.json",
+        "2013_HKDC_676.json",
+        "2013_HKDC_678.json",
+        "2013_HKDC_754.json",
+        "2014_HKDC_1017.json",
+        "2014_HKDC_1051.json",
+        "2014_HKDC_1273.json",
+        "2014_HKDC_245.json",
+        "2014_HKDC_57.json",
+        "2014_HKDC_708.json",
+        "2014_HKDC_8.json",
+        "2014_HKDC_903.json",
+        "2015_HKDC_1046.json",
+        "2015_HKDC_1195.json",
+        "2015_HKDC_1337.json",
+        "2015_HKDC_256.json",
+        "2015_HKDC_678.json",
+        "2015_HKDC_795.json",
+        "2015_HKDC_838.json",
+        "2016_HKDC_1140.json",
+        "2016_HKDC_316.json",
+        "2016_HKDC_73.json",
+        "2016_HKDC_984.json",
+        "2017_HKDC_1187_2017_5_HKLRD_379.json",
+        "2017_HKDC_1592.json",
+        "2017_HKDC_233.json",
+        "2017_HKDC_280.json",
+        "2017_HKDC_363_DCEC_867_2015_3_April_2017.json",
+        "2017_HKDC_369.json",
+        "2017_HKDC_513.json",
+        "2017_HKDC_832.json",
+        "2018_HKDC_1029.json",
+        "2018_HKDC_1172.json",
+        "2018_HKDC_1203.json",
+        "2018_HKDC_1577.json",
+        "2018_HKDC_70.json",
+        "2018_HKDC_960.json",
+        "2019_HKDC_128.json",
+        "2019_HKDC_1384.json",
+        "2019_HKDC_377.json",
+        "2019_HKDC_408.json",
+        "2019_HKDC_445.json",
+        "2019_HKDC_556.json",
+        "2019_HKDC_823.json",
+        "2020_HKDC_203.json",
+        "2020_HKDC_293.json",
+        "2020_HKDC_69.json",
+        "HKDC_612.json",
+        "KUMARA_DEBANAMA_v_LUI_PUI_WAI_AND_ANOTHER_2016_HKDC_926_2016_4_HKLRD_501_DCPI_1041_2013_29_July_2016.json",
+        "LEUNG_SAI-KUI_AND_ANOTHER_v_F_ZIMMERN_CO_A_FIRM_1986_HKCFI_359_HCA_1151_1985_11_July_1986.json"
+      ],
+      "conflicting_cases": [],
+      "duplicate_cases": [],
+      "unreadable_files": []
+    }
+  },
+  "results": {
+    "core": {
+      "random_forest": {
+        "macro_f1": {
+          "mean": 0.5457516882001716,
+          "std": 0.05776923370129218
+        },
+        "qwk": {
+          "mean": 0.626526795119789,
+          "std": 0.162591557602462
+        },
+        "balanced_accuracy": {
+          "mean": 0.5237419354838709,
+          "std": 0.06670056370293148
+        },
+        "accuracy": {
+          "mean": 0.8994594594594595,
+          "std": 0.029729729729729724
+        },
+        "recall": {
+          "mean": [
+            0.9832258064516131,
+            0.0,
+            0.5880000000000001
+          ],
+          "std": [
+            0.026535403611296925,
+            0.0,
+            0.20273134932713294
+          ]
+        }
+      },
+      "logistic_regression": {
+        "macro_f1": {
+          "mean": 0.6184042773887717,
+          "std": 0.1082006113717673
+        },
+        "qwk": {
+          "mean": 0.6117845814863023,
+          "std": 0.1603790999528803
+        },
+        "balanced_accuracy": {
+          "mean": 0.6732043010752687,
+          "std": 0.17525408936075954
+        },
+        "accuracy": {
+          "mean": 0.851891891891892,
+          "std": 0.05468104830808475
+        },
+        "recall": {
+          "mean": [
+            0.8916129032258061,
+            0.42,
+            0.7080000000000003
+          ],
+          "std": [
+            0.06375899819515524,
+            0.47169905660283024,
+            0.16436747447918848
+          ]
+        }
+      }
+    },
+    "all": {
+      "random_forest": {
+        "macro_f1": {
+          "mean": 0.5344959795662022,
+          "std": 0.060039431476268994
+        },
+        "qwk": {
+          "mean": 0.5953826930593162,
+          "std": 0.17026086971949644
+        },
+        "balanced_accuracy": {
+          "mean": 0.5085591397849462,
+          "std": 0.06557246774249952
+        },
+        "accuracy": {
+          "mean": 0.8983783783783782,
+          "std": 0.029483005715231665
+        },
+        "recall": {
+          "mean": [
+            0.9896774193548386,
+            0.0,
+            0.536
+          ],
+          "std": [
+            0.020231062066910527,
+            0.0,
+            0.19712517173951508
+          ]
+        }
+      },
+      "logistic_regression": {
+        "macro_f1": {
+          "mean": 0.6469595244197376,
+          "std": 0.14156105064813712
+        },
+        "qwk": {
+          "mean": 0.6965728076958245,
+          "std": 0.14920406925203517
+        },
+        "balanced_accuracy": {
+          "mean": 0.6685591397849463,
+          "std": 0.18447110135606215
+        },
+        "accuracy": {
+          "mean": 0.8951351351351352,
+          "std": 0.04151970674523572
+        },
+        "recall": {
+          "mean": [
+            0.9496774193548384,
+            0.38,
+            0.676
+          ],
+          "std": [
+            0.04375696763306625,
+            0.484767985741633,
+            0.1910061081047759
+          ]
+        }
+      }
+    }
+  },
+  "baselines": {
+    "majority": {
+      "macro_f1": {
+        "mean": 0.30392156862745096,
+        "std": 0.0
+      },
+      "qwk": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 0.33333333333333337,
+        "std": 5.665583147960493e-17
+      },
+      "accuracy": {
+        "mean": 0.8378378378378379,
+        "std": 1.1331166295920987e-16
+      },
+      "recall": {
+        "mean": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "std": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "llm_overall_category": {
+      "n_cases_with_value": 61,
+      "n_cases": 185,
+      "metrics": {
+        "macro_f1": 0.6359477124183007,
+        "qwk": 0.875814332247557,
+        "balanced_accuracy": 0.701058201058201,
+        "accuracy": 0.8360655737704918,
+        "recall": [
+          0.8888888888888888,
+          0.5,
+          0.7142857142857143
+        ]
+      },
+      "models_on_same_cases": {
+        "core": {
+          "random_forest": {
+            "macro_f1": 0.552994712503915,
+            "qwk": 0.6625098796873627,
+            "balanced_accuracy": 0.5285714285714286,
+            "accuracy": 0.8721311475409836,
+            "recall": [
+              1.0,
+              0.0,
+              0.5857142857142857
+            ]
+          },
+          "logistic_regression": {
+            "macro_f1": 0.7941983122362869,
+            "qwk": 0.7600435219283562,
+            "balanced_accuracy": 0.7303703703703702,
+            "accuracy": 0.9081967213114754,
+            "recall": [
+              0.9911111111111112,
+              0.5,
+              0.7
+            ]
+          }
+        },
+        "all": {
+          "random_forest": {
+            "macro_f1": 0.5742851714638548,
+            "qwk": 0.7236043429939301,
+            "balanced_accuracy": 0.5523809523809523,
+            "accuracy": 0.8885245901639345,
+            "recall": [
+              1.0,
+              0.0,
+              0.6571428571428571
+            ]
+          },
+          "logistic_regression": {
+            "macro_f1": 0.7912079863783733,
+            "qwk": 0.8425064546534978,
+            "balanced_accuracy": 0.8131216931216931,
+            "accuracy": 0.921311475409836,
+            "recall": [
+              0.9822222222222222,
+              0.7,
+              0.7571428571428571
+            ]
+          }
+        }
+      }
+    }
+  },
+  "model_comparison": {
+    "core": {
+      "macro_f1": {
+        "mean_diff": -0.0726525891886001,
+        "wins_a": 7,
+        "wins_b": 18,
+        "ties": 0,
+        "t": -1.230363245985139,
+        "p_value": 0.23048469138605202
+      },
+      "qwk": {
+        "mean_diff": 0.01474221363348664,
+        "wins_a": 13,
+        "wins_b": 12,
+        "ties": 0,
+        "t": 0.12896997209457955,
+        "p_value": 0.8984561418019521
+      }
+    },
+    "all": {
+      "macro_f1": {
+        "mean_diff": -0.1124635448535354,
+        "wins_a": 6,
+        "wins_b": 18,
+        "ties": 1,
+        "t": -1.4770044221590501,
+        "p_value": 0.1526771981562976
+      },
+      "qwk": {
+        "mean_diff": -0.10119011463650843,
+        "wins_a": 5,
+        "wins_b": 19,
+        "ties": 1,
+        "t": -1.1211872615614842,
+        "p_value": 0.27330169106204355
+      }
+    }
+  },
+  "top_features": {
+    "random_forest": [
+      {
+        "feature": "manif_neurological_deficit",
+        "permutation_mean": 0.03368533359951271,
+        "permutation_std": 0.03631183415825249,
+        "native": 0.04231995259540592
+      },
+      {
+        "feature": "n_loss_categories",
+        "permutation_mean": 0.030963293616278677,
+        "permutation_std": 0.0363237983083583,
+        "native": 0.05253201071599068
+      },
+      {
+        "feature": "n_surgical_received",
+        "permutation_mean": 0.02850517765816275,
+        "permutation_std": 0.03673261286389033,
+        "native": 0.051717892989670784
+      },
+      {
+        "feature": "n_losses",
+        "permutation_mean": 0.018136796039781126,
+        "permutation_std": 0.03720187625959415,
+        "native": 0.047399088777626414
+      },
+      {
+        "feature": "vmis_complex_received",
+        "permutation_mean": 0.00912438487438488,
+        "permutation_std": 0.016757790057167342,
+        "native": 0.01651580760492753
+      },
+      {
+        "feature": "vmis_max_tier_received",
+        "permutation_mean": 0.005061088441685464,
+        "permutation_std": 0.029733078474120742,
+        "native": 0.04300042328666601
+      },
+      {
+        "feature": "injkw_fracture",
+        "permutation_mean": 0.004496008137799193,
+        "permutation_std": 0.02837854594052176,
+        "native": 0.010556285677864884
+      },
+      {
+        "feature": "n_treatments_future",
+        "permutation_mean": 0.00371583598822407,
+        "permutation_std": 0.02924350042259752,
+        "native": 0.01362068719499776
+      },
+      {
+        "feature": "icd4_NA00",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.0007105588322770881
+      },
+      {
+        "feature": "icd4_NA80",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 6.8148228570635405e-19
+      },
+      {
+        "feature": "icd4_NC96",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.0
+      },
+      {
+        "feature": "icd4_NC10",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 4.413871067775882e-05
+      },
+      {
+        "feature": "icd4_NA20",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.0
+      },
+      {
+        "feature": "icd4_NC52",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.0001462830249394745
+      },
+      {
+        "feature": "icd4_NB94",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.00016900040150800324
+      },
+      {
+        "feature": "icd4_NC51",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 5.172152148001239e-05
+      },
+      {
+        "feature": "icd4_ND17",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 4.2199733403683196e-05
+      },
+      {
+        "feature": "icd4_NA0D",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.0008820330201098555
+      },
+      {
+        "feature": "icd4_NB50",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 2.903541307737906e-05
+      },
+      {
+        "feature": "icd4_NA23",
+        "permutation_mean": 0.0,
+        "permutation_std": 0.0,
+        "native": 0.00035479531817291063
+      }
+    ],
+    "logistic_regression": [
+      {
+        "feature": "icd4_NB32",
+        "permutation_mean": 0.0466745700966318,
+        "permutation_std": 0.10436751155664763,
+        "native": 0.20173488488484004
+      },
+      {
+        "feature": "losscat_loss_of_independence",
+        "permutation_mean": 0.0287933823770683,
+        "permutation_std": 0.029136815956720574,
+        "native": 0.24308432937279176
+      },
+      {
+        "feature": "operations_count",
+        "permutation_mean": 0.028237957998464968,
+        "permutation_std": 0.047926630898496546,
+        "native": 0.26401127842090727
+      },
+      {
+        "feature": "icd4_NC12",
+        "permutation_mean": 0.022342188206039275,
+        "permutation_std": 0.04995865159479789,
+        "native": 0.23090571821668784
+      },
+      {
+        "feature": "losscat_loss_of_the_senses",
+        "permutation_mean": 0.018096582658190315,
+        "permutation_std": 0.04298875096474882,
+        "native": 0.14318500608656162
+      },
+      {
+        "feature": "n_surgical_received",
+        "permutation_mean": 0.0176604378033449,
+        "permutation_std": 0.0490124010243285,
+        "native": 0.13839073004987545
+      },
+      {
+        "feature": "injkw_dislocation",
+        "permutation_mean": 0.014651432356350419,
+        "permutation_std": 0.0163836951523136,
+        "native": 0.19071049959441733
+      },
+      {
+        "feature": "icd4_NC51",
+        "permutation_mean": 0.014392235778176304,
+        "permutation_std": 0.0271997698585757,
+        "native": 0.1567417051240434
+      },
+      {
+        "feature": "n_loss_categories",
+        "permutation_mean": 0.013308013115181806,
+        "permutation_std": 0.0806070854108855,
+        "native": 0.3007127962622253
+      },
+      {
+        "feature": "hospitalisation_days_stated",
+        "permutation_mean": 0.013305524694638157,
+        "permutation_std": 0.038626741675251534,
+        "native": 0.1480247172560439
+      },
+      {
+        "feature": "icd4_NA23",
+        "permutation_mean": 0.012278719397363446,
+        "permutation_std": 0.027456051249149918,
+        "native": 0.0732217348617717
+      },
+      {
+        "feature": "icd4_8A60",
+        "permutation_mean": 0.012156320444142336,
+        "permutation_std": 0.02033792238978411,
+        "native": 0.08472973025734896
+      },
+      {
+        "feature": "icd2_8A",
+        "permutation_mean": 0.012156320444142336,
+        "permutation_std": 0.02033792238978411,
+        "native": 0.08472973025734896
+      },
+      {
+        "feature": "has_pre_existing_injuries",
+        "permutation_mean": 0.012155001291625249,
+        "permutation_std": 0.02838068708743267,
+        "native": 0.13929799348571367
+      },
+      {
+        "feature": "icd4_NA0C",
+        "permutation_mean": 0.010288445127154818,
+        "permutation_std": 0.02300566268709464,
+        "native": 0.17236492245649562
+      },
+      {
+        "feature": "losscat_loss_of_ability_to_engage_in_sports_and_hobbies",
+        "permutation_mean": 0.010270827918149292,
+        "permutation_std": 0.02222861358857806,
+        "native": 0.11718991483953749
+      },
+      {
+        "feature": "icd4_NC32",
+        "permutation_mean": 0.009430458734726602,
+        "permutation_std": 0.019731701734785004,
+        "native": 0.2559369514299413
+      },
+      {
+        "feature": "n_treatments_received",
+        "permutation_mean": 0.007433513702154648,
+        "permutation_std": 0.010305618125061332,
+        "native": 0.13174777182602235
+      },
+      {
+        "feature": "manif_neurological_deficit",
+        "permutation_mean": 0.0064300022205892385,
+        "permutation_std": 0.04410352003152127,
+        "native": 0.2058210058694693
+      },
+      {
+        "feature": "treatkw_physio",
+        "permutation_mean": 0.006198443081860522,
+        "permutation_std": 0.01940998955657616,
+        "native": 0.303941744874968
+      }
+    ]
+  }
+}

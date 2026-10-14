@@ -1,0 +1,554 @@
+[
+  {
+    "case_id": "HCPI 1066/1998",
+    "treatment_complexity": {
+      "acute_intervention": 0.3,
+      "recovery_burden": 0.2,
+      "permanence": 1.0,
+      "composite": 0.5314,
+      "data_completeness": 1.0,
+      "notes": [
+        "permanence: at least one injury marked Permanent/Residual disability"
+      ]
+    },
+    "estimated_category": "Substantial injury",
+    "extracted_category": "Gross disability",
+    "agrees_with_extracted": false,
+    "icd_groups": [
+      {
+        "injury_id": "inj_001",
+        "original_code": "NA07.3Z",
+        "group_code": "NA07.3",
+        "group_description": "Diffuse brain injury",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_002",
+        "original_code": "NA07.Z",
+        "group_code": "NA07.Z",
+        "group_description": "Intracranial injury, unspecified",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_003",
+        "original_code": "NA07.Z",
+        "group_code": "NA07.Z",
+        "group_description": "Intracranial injury, unspecified",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_004",
+        "original_code": null,
+        "group_code": null,
+        "group_description": null,
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_005",
+        "original_code": "NC12.0Z",
+        "group_code": "NC12.0",
+        "group_description": "Fracture of clavicle",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_006",
+        "original_code": "NA82.4",
+        "group_code": "NA82.4",
+        "group_description": "Multiple fractures of ribs",
+        "truncated": false
+      }
+    ],
+    "narrative": {
+      "items": [
+        {
+          "text": "intensive care (in-patient)",
+          "ichi_action_code": "AI",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "in-patient care for about 5 1/2 months (period of hospitalisation)",
+          "ichi_action_code": "AM",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "care and supervision provided by wife (pre-trial) - agreed $7,500 monthly making $41,250 for in-patient period",
+          "ichi_action_code": "RA",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "pre-trial wife care for about 10 years to date at $11,482 monthly = $1,440,991",
+          "ichi_action_code": "RA",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "24 hour care provision by China care assistant / China trained nurse / domestic amah (various costed scenarios)",
+          "ichi_action_code": "RA",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "counselling therapy (allowed $70,000)",
+          "ichi_action_code": "PP",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "neurological care (allowed $40,000)",
+          "ichi_action_code": "AA",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "psychiatric therapy (contingency allowance $70,000)",
+          "ichi_action_code": "PQ",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "speech therapy (allowed $25,000)",
+          "ichi_action_code": "PG",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "occupational therapy (agreed $18,000)",
+          "ichi_action_code": "PH",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "wheelchair (future provision $12,000)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "continence pads ($50,000)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "orthopaedic chair ($5,000)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "shower seat with rail ($3,500)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "rail fixed by toilet ($1,000)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "orthopaedic mattress with waterproof cover ($4,250)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "hearing aid ($8,500)",
+          "ichi_action_code": "RD",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "future transport (taxi) $100 per week approximated to $5,200 per year, multiplier applied = $60,000",
+          "ichi_action_code": "TJ",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "accommodation: alternative accommodation net rental including multiplier and $200,000 for alterations $2,430,786",
+          "ichi_action_code": "RB",
+          "implies_ongoing_or_permanent": true
+        }
+      ],
+      "overall_severity_category": "Gross disability",
+      "reasoning": "Prolonged ICU and 5.5 months hospitalization followed by long-standing (10 years) and planned 24-hour care, extensive assistive devices, continence supplies and major accommodation alterations indicate a major, long-term loss of independence consistent with gross disability."
+    }
+  },
+  {
+    "case_id": "HCPI 668/2005",
+    "treatment_complexity": {
+      "acute_intervention": 0.95,
+      "recovery_burden": 0.2,
+      "permanence": 1.0,
+      "composite": 0.7543,
+      "data_completeness": 1.0,
+      "notes": [
+        "permanence: at least one injury marked Permanent/Residual disability"
+      ]
+    },
+    "estimated_category": "Gross disability",
+    "extracted_category": "Gross disability",
+    "agrees_with_extracted": true,
+    "icd_groups": [
+      {
+        "injury_id": "inj_001",
+        "original_code": "NA07.5",
+        "group_code": "NA07.5",
+        "group_description": "Traumatic epidural haemorrhage",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_002",
+        "original_code": "NA07.7",
+        "group_code": "NA07.7",
+        "group_description": "Traumatic subarachnoid haemorrhage",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_003",
+        "original_code": "NA02.01",
+        "group_code": "NA02.0",
+        "group_description": "Fracture of vault of skull",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_004",
+        "original_code": "NA07.8Y",
+        "group_code": "NA07.8",
+        "group_description": "Traumatic haemorrhage in brain tissue",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_005",
+        "original_code": "NA02.0Z",
+        "group_code": "NA02.0",
+        "group_description": "Fracture of vault of skull",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_006",
+        "original_code": "NA07.4Z",
+        "group_code": "NA07.4",
+        "group_description": "Focal brain injury",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_007",
+        "original_code": "NA04.2",
+        "group_code": "NA04.2",
+        "group_description": "Injury of oculomotor nerve",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_008",
+        "original_code": "NA07.Z",
+        "group_code": "NA07.Z",
+        "group_description": "Intracranial injury, unspecified",
+        "truncated": false
+      }
+    ],
+    "narrative": {
+      "items": [
+        {
+          "text": "emergency craniotomy",
+          "ichi_action_code": "AE",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "second craniotomy (following day)",
+          "ichi_action_code": "AE",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "tracheostomy",
+          "ichi_action_code": "DL",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "enteric feeding (tube)",
+          "ichi_action_code": "DL",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "physiotherapy",
+          "ichi_action_code": "PG",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "occupational therapy",
+          "ichi_action_code": "PH",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "neurosurgery out-patient follow-up",
+          "ichi_action_code": "AA",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "psychiatric treatment and medication",
+          "ichi_action_code": "PQ",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "cranioplasty",
+          "ichi_action_code": "DN",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "ongoing psychiatric treatment for three years",
+          "ichi_action_code": "PQ",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "neurological follow-up visits (up to March 2008 as suggested by plaintiff's expert)",
+          "ichi_action_code": "AA",
+          "implies_ongoing_or_permanent": false
+        }
+      ],
+      "overall_severity_category": "Substantial injury",
+      "reasoning": "Multiple major neurosurgical procedures (two craniotomies), tracheostomy and enteric feeding indicate a serious traumatic brain injury requiring intensive inpatient care and prolonged rehabilitation and psychiatric management. Interventions and planned cranioplasty point to substantial, but not explicitly lifelong, impairment."
+    }
+  },
+  {
+    "case_id": "[2016] HKCFI 1008",
+    "treatment_complexity": {
+      "acute_intervention": 1.0,
+      "recovery_burden": 0.2,
+      "permanence": 1.0,
+      "composite": 0.7714,
+      "data_completeness": 1.0,
+      "notes": [
+        "permanence: at least one injury marked Permanent/Residual disability"
+      ]
+    },
+    "estimated_category": "Gross disability",
+    "extracted_category": "Gross disability",
+    "agrees_with_extracted": true,
+    "icd_groups": [
+      {
+        "injury_id": "inj_001",
+        "original_code": "NA07.Z",
+        "group_code": "NA07.Z",
+        "group_description": "Intracranial injury, unspecified",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_002",
+        "original_code": "NA02.8",
+        "group_code": "NA02.8",
+        "group_description": "Multiple fractures involving skull or facial bones",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_003",
+        "original_code": "NA07.7",
+        "group_code": "NA07.7",
+        "group_description": "Traumatic subarachnoid haemorrhage",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_004",
+        "original_code": "NA07.60",
+        "group_code": "NA07.6",
+        "group_description": "Traumatic subdural haemorrhage",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_005",
+        "original_code": "NA07.4C",
+        "group_code": "NA07.4",
+        "group_description": "Focal brain injury",
+        "truncated": true
+      },
+      {
+        "injury_id": "inj_006",
+        "original_code": "8A60.5",
+        "group_code": "8A60.5",
+        "group_description": "Epilepsy due to injuries to the head",
+        "truncated": false
+      }
+    ],
+    "narrative": {
+      "items": [
+        {
+          "text": "Emergency operation to evacuate blood clots and to insert a ventricular drain",
+          "ichi_action_code": "JB",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Further emergency operation the following day to evacuate more blood clots",
+          "ichi_action_code": "JB",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Rehabilitation at Kowloon Hospital",
+          "ichi_action_code": "PG",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Cranioplasty to repair the skull defect with a metallic prosthesis (May 2012)",
+          "ichi_action_code": "DN",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Admission to intensive care unit and intubation during status epilepticus (August 2012)",
+          "ichi_action_code": "DE",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Started on the antiepileptic drug phenytoin which he continues to take",
+          "ichi_action_code": "TI",
+          "implies_ongoing_or_permanent": true
+        },
+        {
+          "text": "Followed up every 3 months by neurosurgeons at QEH",
+          "ichi_action_code": "AA",
+          "implies_ongoing_or_permanent": true
+        }
+      ],
+      "overall_severity_category": "Substantial injury",
+      "reasoning": "Multiple emergency neurosurgical evacuations, ventricular drain insertion, ICU admission with intubation, subsequent cranioplasty, ongoing antiepileptic medication and regular neurosurgical follow-up indicate significant intracranial injury with persistent sequelae (epilepsy) requiring ongoing care; this fits 'Substantial injury' rather than minor or catastrophic."
+    }
+  },
+  {
+    "case_id": "[2019] HKDC 543",
+    "treatment_complexity": {
+      "acute_intervention": 0.8,
+      "recovery_burden": 0.2,
+      "permanence": 1.0,
+      "composite": 0.7029,
+      "data_completeness": 1.0,
+      "notes": [
+        "permanence: at least one injury marked Permanent/Residual disability"
+      ]
+    },
+    "estimated_category": "Gross disability",
+    "extracted_category": null,
+    "agrees_with_extracted": null,
+    "icd_groups": [
+      {
+        "injury_id": "inj_001",
+        "original_code": "NC9Y",
+        "group_code": "NC9Y",
+        "group_description": "Other specified injuries to the knee or lower leg",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_002",
+        "original_code": "NC93.62",
+        "group_code": "NC93.6",
+        "group_description": "Strain or sprain involving anterior or posterior cruciate ligament of knee",
+        "truncated": true
+      }
+    ],
+    "narrative": {
+      "items": [
+        {
+          "text": "admitted to St Teresa's Hospital",
+          "ichi_action_code": "AM",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "ACL reconstruction",
+          "ichi_action_code": "ML",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "partial medial meniscectomy",
+          "ichi_action_code": "JJ",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "left knee arthroscopy",
+          "ichi_action_code": "AE",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "physiotherapy (31 sessions)",
+          "ichi_action_code": "PG",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "follow-up consultations (25 visits)",
+          "ichi_action_code": "AA",
+          "implies_ongoing_or_permanent": false
+        }
+      ],
+      "overall_severity_category": "Substantial injury",
+      "reasoning": "The treatment list documents inpatient care and major knee surgery (ACL reconstruction) plus partial meniscectomy and arthroscopy, followed by an extended course of physiotherapy and many follow-up visits. This indicates a significant, reconstructive musculoskeletal injury requiring surgery and prolonged rehab — more than a minor injury but not catastrophic, so assessed as 'Substantial injury'."
+    }
+  },
+  {
+    "case_id": "[2019] HKDC 546",
+    "treatment_complexity": {
+      "acute_intervention": 0.95,
+      "recovery_burden": 0.2,
+      "permanence": 1.0,
+      "composite": 0.7543,
+      "data_completeness": 1.0,
+      "notes": [
+        "permanence: at least one injury marked Permanent/Residual disability"
+      ]
+    },
+    "estimated_category": "Gross disability",
+    "extracted_category": null,
+    "agrees_with_extracted": null,
+    "icd_groups": [
+      {
+        "injury_id": "inj_001",
+        "original_code": "NC92.8",
+        "group_code": "NC92.8",
+        "group_description": "Multiple fractures of lower leg",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_002",
+        "original_code": "NC10.1",
+        "group_code": "NC10.1",
+        "group_description": "Contusion of shoulder or upper arm",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_003",
+        "original_code": "NC91.Y",
+        "group_code": "NC91.Y",
+        "group_description": "Other specified open wound of knee or lower leg",
+        "truncated": false
+      },
+      {
+        "injury_id": "inj_004",
+        "original_code": "NC90.4",
+        "group_code": "NC90.4",
+        "group_description": "Multiple superficial injuries of lower leg",
+        "truncated": false
+      }
+    ],
+    "narrative": {
+      "items": [
+        {
+          "text": "Intramedullary nailing of the left tibia (21 August 2014)",
+          "ichi_action_code": "DN",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Wound drainage and debridement (31 October 2014)",
+          "ichi_action_code": "JG",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Removal of intramedullary nail (5 December 2014)",
+          "ichi_action_code": "JD",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Course of antibiotics (6-week course at WTSH)",
+          "ichi_action_code": "TI",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Physiotherapy (7 occasions from 18 September 2014 to 31 March 2015)",
+          "ichi_action_code": "PG",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Occupational therapy",
+          "ichi_action_code": "PH",
+          "implies_ongoing_or_permanent": false
+        },
+        {
+          "text": "Admission to orthopaedics department and orthopaedic ward",
+          "ichi_action_code": "AM",
+          "implies_ongoing_or_permanent": false
+        }
+      ],
+      "overall_severity_category": "Serious injury",
+      "reasoning": "Treatment list shows a diaphyseal tibial fracture managed with intramedullary nailing, subsequent wound drainage/debridement and nail removal, prolonged antibiotics and rehabilitation—a significant orthopaedic injury requiring surgery and inpatient care but not indicating permanent catastrophic disability."
+    }
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 176",
+    "action_number": "HCPI 1063/2000",
+    "case_name": "LEE KIM FUNG v. LOK LUN KEUNG AND ANOTHER",
+    "judgment_date": "2003-02-12",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 36,
+    "occupation_before": "Sergeant, Hong Kong Police Force",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 23505.0,
+    "salary_after": 25460.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fractured left 9th and 10th ribs",
+        "injury_type": "Residual disability",
+        "body_part": "left ribs",
+        "laterality": "left",
+        "source": [
+          "An x-ray examination showed fractured left 9th and 10th ribs, fractured right acetabulum bone and fractured left humerus."
+        ],
+        "icd_code": "NA82.4",
+        "icd_description": "Multiple fractures of ribs"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fractured right acetabulum",
+        "injury_type": "Residual disability",
+        "body_part": "right acetabulum",
+        "laterality": "right",
+        "source": [
+          "An x-ray examination showed fractured left 9th and 10th ribs, fractured right acetabulum bone and fractured left humerus.",
+          "For the right hip, repeated x-ray revealed loosening of a screw and suspected screw protusion leading to femoral head resorption, which was then confirmed by CT scan."
+        ],
+        "icd_code": "NB52.13",
+        "icd_description": "Fracture of acetabulum without disruption of pelvic ring"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "fractured left humerus",
+        "injury_type": "Residual disability",
+        "body_part": "left humerus",
+        "laterality": "left",
+        "source": [
+          "An x-ray examination showed fractured left 9th and 10th ribs, fractured right acetabulum bone and fractured left humerus.",
+          "The left humerus was treated with close reduction and external fixation on 18 May 1999."
+        ],
+        "icd_code": "NC12.Z",
+        "icd_description": "Fracture of shoulder or upper arm, unspecified"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "bulbomembranous urethral stricture (urethral stricture)",
+        "injury_type": "Residual disability",
+        "body_part": "urethra",
+        "laterality": null,
+        "source": [
+          "In addition, the plaintiff's fractured ribs, humerus and pelvis was complicated by bulbomembranous urethral stricture.",
+          "Dr Richard K. Lo, a specialist in Urology ... made the following diagnosis : (2) pelvic fracture causing urethral laceration and subsequent stricture requiring anastomotic surgery and multiple dilations thereafter;"
+        ],
+        "icd_code": "NB92.31",
+        "icd_description": "Laceration of urethra"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "There is pain when the left arm was extended and there is no strength.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "The left arm cannot be raised above shoulder level.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "The plaintiff cannot carry heavy objects.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "There is frequent pain at right pelvis and right knee particularly on walking.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "The plaintiff cannot raise the right hip joint to more that 90o, or it will be dislocated.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There is wastage of muscle at the inner side of the right thigh which cannot regenerate.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There is also frequent pain particularly on walking.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "One nerve was cut at the outer thigh of the right leg and the plaintiff had numbness.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There is also some pain on urethra.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "The plaintiff lacks strength in urination. There is frequent passing of urine with leakage and wetting of underpants.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Voiding adequately with a slow stream.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Sexual dysfunction / impotence; requires Viagra to achieve satisfactory turgidity.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Loss of sleep due to pain at leg; weak body, frequent dizziness and fatigue; loss of confidence and feeling sad, depressed and worried about future living and health.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "The plaintiff needed a stick to walk on level ground, and there was difficulty in climbing up or down stairs.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "There was some pain upon full extension of left arm.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Impaired sensation over the lateral aspect of right thigh.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Admission to Queen Elizabeth Hospital (QEH) and general inpatient care",
+        "is_surgical": false,
+        "source": [
+          "Soon after the accident, the plaintiff was admitted to the Queen Elizabeth Hospital (\"QEH\"). The plaintiff was hospitalized for two and a half months from 16 May 1999 to 31 July 1999 after the accident."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Chest tube operation for ribs piercing lung membrane (tube in lung)",
+        "is_surgical": true,
+        "source": [
+          "1st operation (after admission) - as the plaintiff's fractured 9th and 10th ribs pierced into his lung membrane, an operation involving putting a tube in his lung for transferring blood from it was performed."
+        ],
+        "vmis_system": "EAR / NOSE / THROAT / RESPIRATORY SYSTEM",
+        "vmis_region": "Respiratory system",
+        "vmis_procedure": "Thoracocentesis / insertion of chest tube for pneumothorax",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Close reduction and external fixation of left humerus (18 May 1999)",
+        "is_surgical": true,
+        "source": [
+          "2nd operation (18 May 1999) - as his left arm was broken into two parts (fractured left humerus), an operation involving close reduction and application of external fixation of the left humerus was performed."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of upper arm / lower arm / wrist / hand / leg / foot bone without internal fixation",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "Debridement of abrasions (18 May 1999)",
+        "is_surgical": true,
+        "source": [
+          "2nd operation (18 May 1999) - ... the abrasions in both of his legs were treated with debridement."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Surgical toilet and suturing",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Open reduction and internal fixation of fractured right acetabulum (plates and screws) (25 May 1999)",
+        "is_surgical": true,
+        "source": [
+          "3rd operation - as he suffered fractured right acetabulum, steel plates and screws were inserted to fix the fractured right acetabulum (open reduction and external fixation)."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed / open reduction of fracture of acetabulum with internal fixation",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Removal of external fixator of the left arm and application of humeral brace",
+        "is_surgical": true,
+        "source": [
+          "4th operation - removal of external fixator of the left arm, humeral brace was applied."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Removal of screw, pin and plate, and other metal for old fracture except fracture femur",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Skeletal traction applied to right leg (during initial treatment)",
+        "is_surgical": false,
+        "source": [
+          "2nd operation (18 May 1999) - Skeletal traction was applied to his right leg, and the abrasions in both of his legs were treated with debridement."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Anastomotic urethroplasty (8 September 1999)",
+        "is_surgical": true,
+        "source": [
+          "Anastomotic urethroplasty was performed on 8 September 1999."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Balloon dilatation of urethral stricture (12 November 1999)",
+        "is_surgical": true,
+        "source": [
+          "Balloon dilatation of the urethral stricture was performed on 12 November 1999."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Removal of right hip implants (13 January 2000)",
+        "is_surgical": true,
+        "source": [
+          "On 13 January 2000 another operation for removal of right hip implants was performed."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Total hip replacement (1 November 2001)",
+        "is_surgical": true,
+        "source": [
+          "On 31 October 2001, the plaintiff was again hospitalized in the QEH for about two weeks until he was discharged on 16 November 2001. An operation of the total replacement of the hip joint was performed."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Total hip replacement",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Physiotherapy (rehabilitation; referred to physiotherapist; attended physiotherapy 254 times)",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff was referred to a physiotherapist for rehabilitation and there was gradual improvement.",
+          "The plaintiff had to attend numerous physiotherapy treatments at the Physiotherapy Department, Yung Fung Shee Memorial Centre, United Christian Hospital. The plaintiff said that the physiotherapy treatments included electrotherapy, water therapy and the use of machinery. Up to 19 November 2002, the plaintiff altogether attended physiotherapy treatments 254 times."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Psychological clinic attendance (about 22 times)",
+        "is_surgical": false,
+        "source": [
+          "As the plaintiff could not accept what had happened to him, he also needed to go to the Psychological Clinic of the Hong Kong Police Force in Yau Ma Tei, Kowloon for treatment. He went there for about 22 times."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Medication: Viagra (ongoing)",
+        "is_surgical": false,
+        "source": [
+          "He was therefore placed on Viagra and appears to be successful with Viagra.",
+          "Taking the average of $350 per month and adopting a multiplier of 14, I award the plaintiff under this head the sum of $350 x 12 x 14 = $58,800."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Two revision hip replacement surgeries (future revision operations)",
+        "is_surgical": true,
+        "source": [
+          "The plaintiff claims $450,000 for three revision surgeries at the cost of $150,000 each.",
+          "Based on the opinions of the two specialists mentioned above, I award the plaintiff under this head the sum of $240,000 for two replacement surgeries at $120,000 each."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Joint",
+        "vmis_procedure": "Total hip replacement",
+        "vmis_category": "Complex"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 7,
+    "future_operations_count": 2,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "The plaintiff used to enjoy jogging and ball games very frequently. However, after the accident he cannot enjoy these sports anymore.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Generally the plaintiff needs a walking stick for walking but cannot go up and down a steep staircase.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "The plaintiff cannot squat. The plaintiff cannot tie his shoelace. The plaintiff cannot wear his socks but uses an instrument to do so. The plaintiff cannot cut his toenail.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "The plaintiff suffers from impotence and needs to use Viagra; efforts at intercourse without Viagra were unsuccessful.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "His relationship with his girl friend is greatly affected.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of independence",
+        "description": "The plaintiff needs to be seated when taking transportation and hence takes taxis frequently.",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "Loss of confidence and feeling sad, depressed and worried about future living and health.",
+        "caused_by_injury_id": ""
+      }
+    ]
+  },
+  "psla": {
+    "amount": 792000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Chi Chung v. Lau Kam Ping",
+        "neutral_citation": "[2000] 2 HKC 759",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Pui Ki v. Leung On",
+        "neutral_citation": "[1996] 2 HKLR 401",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 32163,
+      "output_tokens": 14100,
+      "reasoning_tokens": 10240,
+      "total_tokens": 46263
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54487.593083875254,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 32163,
+      "output_tokens": 14100,
+      "reasoning_tokens": 10240,
+      "total_tokens": 46263
+    },
+    "total_duration_ms": 54487.593083875254
+  }
+}

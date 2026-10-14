@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 179",
+    "action_number": "DCPI 2470/2009",
+    "case_name": "HUSSAIN SHOUKAT v. MA CHI TAT AND OTHERS",
+    "judgment_date": "2010-07-27",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 32,
+    "age_at_trial": 36,
+    "occupation_before": "General labourer (casual work at construction sites and loading and unloading)",
+    "occupation_after": "Storeman",
+    "expected_occupation_after": null,
+    "salary_before": 10000.0,
+    "salary_after": 4000.0,
+    "expected_salary_after": null,
+    "education_level": "Primary"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Multiple facial and skull vault fractures",
+        "injury_type": "Residual disability",
+        "body_part": "face and skull vault",
+        "laterality": null,
+        "source": [
+          "Multiple facial and skull vault fractures"
+        ],
+        "icd_code": "NA02.8",
+        "icd_description": "Multiple fractures involving skull or facial bones"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Post-concussion syndrome",
+        "injury_type": "Residual disability",
+        "body_part": "head (neurological)",
+        "laterality": null,
+        "source": [
+          "The injury leads to a post-concussion syndrome suffered by the Plaintiff which caused headaches and dizziness.",
+          "Dr. Choa assessed the Plaintiff as suffering 5% impairment of whole person for his post concussion syndrome and psychological changes."
+        ],
+        "icd_code": "NA07.0",
+        "icd_description": "Concussion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Intertrochanteric fracture of the left femur",
+        "injury_type": "Residual disability",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "Intertrochanteric fracture of the left femur"
+        ],
+        "icd_code": "NC72.30",
+        "icd_description": "Intertrochanteric fracture of femur"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Comminuted fracture of the left distal radius and fracture of the ulna",
+        "injury_type": "Residual disability",
+        "body_part": "left distal radius and ulna",
+        "laterality": "left",
+        "source": [
+          "Comminuted fracture of the left distal radius and fracture of the ulna"
+        ],
+        "icd_code": "NC53.Y",
+        "icd_description": "Fracture at other specified part of wrist or hand level"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "Fracture of the distal radius of the right wrist",
+        "injury_type": "Residual disability",
+        "body_part": "right distal radius (wrist)",
+        "laterality": "right",
+        "source": [
+          "Fracture of the distal radius of the right wrist"
+        ],
+        "icd_code": "NC53",
+        "icd_description": "Fracture at wrist or hand level"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "Post-traumatic adjustment disorder",
+        "injury_type": "Residual disability",
+        "body_part": "psychiatric/psychological",
+        "laterality": null,
+        "source": [
+          "He is also suffered from post-traumatic adjustment disorder."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Loss of consciousness for about 9 hours",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Post traumatic amnesia for about 9 hours",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Dizziness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Post-traumatic adjustment disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_006"
+      },
+      {
+        "description": "Slight limitation of left hip movement",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Diffuse tenderness of the left hip and left lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Unilateral muscle wasting of left thigh suggesting some degree of persistent pain and disuse of the left lower limb",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Limitation of movements of the left wrist and muscle slightly weak and slight unilateral muscle atrophy of left forearm and arm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Weak grip and reduced muscle power of the left wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "X-rays of the left wrist showed some irregularity at the joint surface suggesting some articular surface damage and a high chance of post traumatic arthritis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Impaired ability to exert heavily with his hand as well as prolonged walking when carrying weight",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Unable to return to work as a construction site worker",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Open reduction and internal fixation of the left forearm",
+        "is_surgical": true,
+        "source": [
+          "On 24 July 2006 the Plaintiff was underwent an operation of open reduction and internal fixation of the left forearm and close reduction and internal fixation of the left hip."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Open reduction for arm / leg / patella / scapula +/- internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "Close reduction and internal fixation of the left hip",
+        "is_surgical": true,
+        "source": [
+          "On 24 July 2006 the Plaintiff was underwent an operation of open reduction and internal fixation of the left forearm and close reduction and internal fixation of the left hip."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Fracture / dislocation",
+        "vmis_procedure": "Closed reduction for fracture of femur +/- internal fixation",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "Immobilisation of the right wrist by Plaster-of-Paris",
+        "is_surgical": false,
+        "source": [
+          "His right wrist was immobilized by Plaster-of-Paris."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy for 4-5 months at Yan Chai Hospital",
+        "is_surgical": false,
+        "source": [
+          "He underwent physiotherapy for 4 \t6 5 months at Yan Chai Hospital"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy for 3-4 months at Princess Margaret Hospital",
+        "is_surgical": false,
+        "source": [
+          "and also a course of occupational therapy for 3 \t6 4 months at Princess Margaret Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 2,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to work as a construction site worker and will suffer disadvantage in the employment market by reason of continuing disabilities.",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Impaired ability to exert heavily with his hand; limitation of movements, muscle weakness and atrophy of left forearm/arm; weak grip; articular surface damage of left wrist with high chance of post-traumatic arthritis; diffuse tenderness and muscle wasting of left lower limb.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Post-concussion syndrome causing headaches and dizziness and post-traumatic adjustment disorder.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 420000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tsang Hing Yuen v. Nishimatsu Kumagai Joint Venture & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 906 of 1998",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lin Cho Chau v. YCY Design & Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 245 of 2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lin Cho Chau v. YCY Design & Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 588 & 591 of 2003 (consolidated)",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ho Ah Luk v. Nam Kin Scaffolding Limited & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 156 of 1996",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam King Tong v. Kam Hung Construction (Holdings) Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 1144 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Pang Ping Sum v. Enpack (Hong Kong) Limited and Ors.",
+        "neutral_citation": null,
+        "action_number": "HCPI No. 290 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Phoon Ka Wai v. Wong ka Chung & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 768 of 2003",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Lam Hung Yui v. Muck Yun Chung Formerly known as Chung Kee Electric Works",
+        "neutral_citation": null,
+        "action_number": "HCPI 924 of 2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18730,
+      "output_tokens": 10767,
+      "reasoning_tokens": 7296,
+      "total_tokens": 29497
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 44195.75758301653,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18730,
+      "output_tokens": 10767,
+      "reasoning_tokens": 7296,
+      "total_tokens": 29497
+    },
+    "total_duration_ms": 44195.75758301653
+  }
+}

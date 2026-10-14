@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 355",
+    "action_number": "HCPI000762/1996",
+    "case_name": "LAI TIM FAI JACKY v. LEE YUK PING",
+    "judgment_date": "1997-03-11",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 28,
+    "occupation_before": "apprentice mechanic and general labourer",
+    "occupation_after": "various casual jobs (apprenticed roast-meat worker; part-time roast-meat worker; van attendant; vehicle attendant; waiter)",
+    "expected_occupation_after": null,
+    "salary_before": 6500.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "multiple skull fracture and subdural haematoma",
+        "injury_type": "Temporary injury",
+        "body_part": "skull/head",
+        "laterality": "left",
+        "source": [
+          "Dr. Lau's admission report (page 79 of the bundle) shows multiple skull fracture and subdural haematoma."
+        ],
+        "icd_code": "NA07.60",
+        "icd_description": "Acute traumatic subdural haemorrhage"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "severe open brain injuries (including brain contusion) with resultant cognitive impairment and other neurological deficits",
+        "injury_type": "Permanent injury",
+        "body_part": "brain/head",
+        "laterality": "left",
+        "source": [
+          "\"On admission, he was comatose with a 18cm ragged laceration of left frontal-temporal-parietal scalp, active arterial bleeding and skull bone fragments were found in the wound. X-ray of skull showed comminuted open depressed skull fracture and CT brain scan showed extensive left side skull fractures and brain contusion.\nDiagnosis was of severe open brain injuries and he was rushed to the operating theatre where wound debridement, haemostasis and intracranial pressure monitoring were performed.\"",
+          "\"The doctor noted some improvement in cognitive abilities since his earlier examination, but came to substantially the same overall conclusion. He noted impairment of calculation, concentration, short-term memory, and abstract thinking, and observed that speech and responses remained slow. He also found continuing psychomotor retardation and visual field restriction, with further improvement in neurological functions unlikely.\""
+        ],
+        "icd_code": "NA07.4C",
+        "icd_description": "Focal brain contusion"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "left vocal cord paralysis",
+        "injury_type": "Residual disability",
+        "body_part": "vocal cord/neck",
+        "laterality": "left",
+        "source": [
+          "\"Gross dysphonia was evident and the ENT specialist found his left vocal cord was paralysed, presumably as a result of the head trauma.\""
+        ],
+        "icd_code": "NA42.Y",
+        "icd_description": "Injury of other specified peripheral nerves of neck"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "damage to the visual pathway causing marked constriction of the visual fields (loss of peripheral vision)",
+        "injury_type": "Permanent injury",
+        "body_part": "visual pathway/eyes",
+        "laterality": "bilateral",
+        "source": [
+          "Dr. Cheung found a 5% loss of visual acuity in each eye, but, more seriously, found a marked constriction of the visual fields, more severe in the right eye, due to damage to the visual pathway.",
+          "Dr. Cheung concluded by assessing losses of 72% and 70% of visual field for the right and left eyes respectively, and estimated wholeman disability and loss of earning capacity at 72.1%."
+        ],
+        "icd_code": "NA04.14",
+        "icd_description": "Injury of optic tract or pathways, bilateral"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "post-traumatic epilepsy (epilepsy arising from the brain injury)",
+        "injury_type": "Residual disability",
+        "body_part": "brain/neurological",
+        "laterality": null,
+        "source": [
+          "\"He was treated by Dr. Christopher Poon... and anticonvulsant drugs for epilepsy arising from the brain injury.\"",
+          "\"He has to take anticonvulsants on a regular basis for epilepsy as a sequelae of his severe brain injury\"",
+          "\"He also found a continuing risk of post-traumatic epilepsy, with consequent limitation of the plaintiff's working capacity.\""
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "coma for about a week",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "global cognitive impairment (impairment of orientation, concentration, calculation, memory, general knowledge, and abstract thinking)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "psychomotor retardation",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "slow speech and stuttering (speech and responses remained slow)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "gross dysphonia",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "left vocal cord paralysis",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "marked constriction of the visual fields (72% right eye, 70% left eye) - loss of peripheral vision",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "5% loss of visual acuity in each eye",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "ongoing risk/possibility of epileptic seizure",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      }
+    ],
+    "overall_category": "Substantial injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "admission and examination at Tuen Mun Hospital and transfer to Prince of Wales Hospital",
+        "is_surgical": false,
+        "source": [
+          "Following the accident the plaintiff was admitted to the Tuen Mun Hospital where he was examined by the Consultant Surgeon, Dr. Lau Kwok Wai. Dr. Lau's admission report (page 79 of the bundle) shows multiple skull fracture and subdural haematoma. In view of the nature of the injuries the plaintiff was transferred the same day to the neurosurgical unit of the Prince of Wales Hospital for further treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "wound debridement, haemostasis and intracranial pressure monitoring (initial surgery)",
+        "is_surgical": true,
+        "source": [
+          "\"he was rushed to the operating theatre where wound debridement, haemostasis and intracranial pressure monitoring were performed.\""
+        ],
+        "vmis_system": "BRAIN AND NERVOUS SYSTEM",
+        "vmis_region": "Brain",
+        "vmis_procedure": "Burr hole(s)",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "two further craniectomy operations to evacuate reaccumulated haematomas",
+        "is_surgical": true,
+        "source": [
+          "\"His condition remained unstable in spite of operation and subsequently requiring two more operations in form of craniectomy to evacuate reaccumulated haematomas in two different sites.\""
+        ],
+        "vmis_system": "BRAIN AND NERVOUS SYSTEM",
+        "vmis_region": "Brain",
+        "vmis_procedure": "Craniectomy",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "ventilatory support in the intensive care unit",
+        "is_surgical": false,
+        "source": [
+          "\"Antibiotic cover and ventilatory support in the intensive care unit was arranged.\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "antibiotic therapy",
+        "is_surgical": false,
+        "source": [
+          "\"Antibiotic cover and ventilatory support in the intensive care unit was arranged.\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "anticonvulsant drugs for epilepsy",
+        "is_surgical": false,
+        "source": [
+          "\"He was treated by Dr. Christopher Poon, Senior Medical Officer in the Department of Surgery, whose report of 1st November 1991 details the full extent of the injuries and their consequences: ... and anticonvulsant drugs for epilepsy arising from the brain injury.\"",
+          "\"He has to take anticonvulsants on a regular basis for epilepsy as a sequelae of his severe brain injury.\""
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "rehabilitation programme (convalescent hospital/Cheshire Home)",
+        "is_surgical": false,
+        "source": [
+          "\"An active programme of rehabilitation was started.\"",
+          "The plaintiff remained in the Prince of Wales Hospital until 14th June 1991, when he was transferred for rehabilitation to the Cheshire Home in Shatin until 26th June."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "specialist neurosurgical follow-up at Li Ka Shing Specialist Clinic (regular outpatient follow-up until 10th July 1996)",
+        "is_surgical": false,
+        "source": [
+          "Thereafter he received specialist treatment from the neurosurgical unit of the Li Ka Shing Specialist Clinic, initially once a month and later once every 3 months, until 10th July 1996."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "psychiatric treatment (three occasions up to September 1993)",
+        "is_surgical": false,
+        "source": [
+          "He also received psychiatric treatment at the same clinic on three occasions up to September 1993"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "eye clinic follow-up (once every 4 months between July 1991 and October 1992 and later discontinued)",
+        "is_surgical": false,
+        "source": [
+          "attended an eye clinic once every 4 months between July 1991 and October 1992"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "ENT clinic follow-up",
+        "is_surgical": false,
+        "source": [
+          "and received treatment at an ENT clinic."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "further skull operation in 1994 to close a gap in the bone with an artificial flap",
+        "is_surgical": true,
+        "source": [
+          "In 1994 the plaintiff underwent a further operation on his skull to close a gap in the bone with an artificial flap."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 4,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 730,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Marked constriction of the visual fields (72% right eye, 70% left eye) and 5% loss of visual acuity in each eye; residual damage to eyesight",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Global cognitive impairment: impairment of orientation, concentration, calculation, memory, general knowledge, and abstract thinking; poor concentration and poor problem solving; poor judgement",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Loss of satisfaction in his trade as a mechanic and confinement to occupations of the most menial nature; limited to jobs where seizure risk and reduced visual field are not essential",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to pursue activities such as football, snooker, swimming, and other games enjoyed before the accident",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 700000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Pui Ki",
+        "neutral_citation": null,
+        "action_number": "Civil Appeal No. 263 of 1995",
+        "injury_description": "Range of awards within the \"substantial injury\" category was confirmed at $540,000 - $660,000",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21496,
+      "output_tokens": 11679,
+      "reasoning_tokens": 7872,
+      "total_tokens": 33175
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 54621.94649991579,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21496,
+      "output_tokens": 11679,
+      "reasoning_tokens": 7872,
+      "total_tokens": 33175
+    },
+    "total_duration_ms": 54621.94649991579
+  }
+}

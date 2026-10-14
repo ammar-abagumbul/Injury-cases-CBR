@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "neutral_citation": "[2019] HKDC 26",
+    "action_number": "DCPI 2042/2016",
+    "case_name": "LUI KING TONG v. HOSPITAL AUTHORITY",
+    "judgment_date": "2019-01-10",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": 57,
+    "age_at_trial": null,
+    "occupation_before": "Health Care Assistant",
+    "occupation_after": "Public Care Assistant",
+    "expected_occupation_after": null,
+    "salary_before": 16890.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "contusion injury to his right hand",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "(1) The plaintiff suffered contusion injury to his right hand."
+        ],
+        "icd_code": "NC51.10",
+        "icd_description": "Contusion of other parts of wrist or hand"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "frozen shoulder",
+        "injury_type": "Residual disability",
+        "body_part": "right shoulder",
+        "laterality": "right",
+        "source": [
+          "(2) The plaintiff has a number of pre-existing or co-existing conditions, including frozen shoulder and mild right trigger thumb, trigger index, middle and ring fingers. Both experts agreed that these pre-existing or co-existing conditions do not relate to the Accident."
+        ],
+        "icd_code": "NC16",
+        "icd_description": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "mild right trigger thumb, trigger index, middle and ring fingers",
+        "injury_type": "Residual disability",
+        "body_part": "right thumb, index, middle and ring fingers",
+        "laterality": "right",
+        "source": [
+          "(2) The plaintiff has a number of pre-existing or co-existing conditions, including frozen shoulder and mild right trigger thumb, trigger index, middle and ring fingers. Both experts agreed that these pre-existing or co-existing conditions do not relate to the Accident."
+        ],
+        "icd_code": "NC57.6",
+        "icd_description": "Injury of multiple flexor muscles or tendons at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right hand pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild swelling",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "minimal soft tissue residue pain and stiffness",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "reduced flexibility of his right hand",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain on the area of his fingers",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident and Emergency attendance; medication and sick leave",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff attended the Accident and Emergency Department of the Princess Margaret Hospital on 6 September 2015 (the date of the Accident) and 9 September 2015. He was diagnosed with right hand pain and mild swelling, with no bony injury. He was given sick leave and medication."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Accident and Emergency consultation and medication at Caritas Medical Centre",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff also consulted the Accident and Emergency Department of Caritas Medical Centre on 13 September 2015 for his right hand pain and was given medication."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Medical consultations and physiotherapy treatments for right shoulder pain and trigger fingers",
+        "is_surgical": false,
+        "source": [
+          "Medical records for the period between 9 November 2015 and 29 February 2016 in regard to the plaintiff’s medical consultations and physiotherapy treatments for his right shoulder pain and the trigger fingers were produced."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Self-remedy with traditional Chinese ointment",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff testified at court that he was still suffering from right hand pain including pain on the area of his fingers. When he felt painful, he would consult doctor. When the pain was less serious, he would use traditional Chinese ointment for self-remedy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Last medical consultation for hand/shoulder/finger treatment on 29 February 2016",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff’s last medical consultation for treatments of his hand, shoulder and/or finger was on 29 February 2016."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 8,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Pain, suffering and loss of amenities arising from contusion injury to right hand",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ho Shuk Man v Norman Wong Wai Nok",
+        "neutral_citation": null,
+        "action_number": "HCPI 314/2010",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chand Lok Kumar v Leighton-LNS Joint Venture",
+        "neutral_citation": null,
+        "action_number": "HCPI 1380/2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ali Rafaqat v Wise Security Ltd and another",
+        "neutral_citation": null,
+        "action_number": "DCPI 896/2009",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ko Hoi Seung Korin v Liu Kwok Keung",
+        "neutral_citation": null,
+        "action_number": "HCPI 1206/2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ting Siu Ki v Wun Che Min",
+        "neutral_citation": null,
+        "action_number": "DCPI 1463/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yeung Tsz Man v Everbest Port Services Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1607/2016",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Yip Kwok Man v Chan Kim Kwan",
+        "neutral_citation": null,
+        "action_number": "DCPI 2598/2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Lai Man v Eastern Terminal Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 1655/2011",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12631,
+      "output_tokens": 7694,
+      "reasoning_tokens": 5824,
+      "total_tokens": 20325
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 43968.73175003566,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12631,
+      "output_tokens": 7694,
+      "reasoning_tokens": 5824,
+      "total_tokens": 20325
+    },
+    "total_duration_ms": 43968.73175003566
+  }
+}

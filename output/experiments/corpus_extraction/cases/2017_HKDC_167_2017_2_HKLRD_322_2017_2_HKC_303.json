@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 167; [2017] 2 HKLRD 322; [2017] 2 HKC 303",
+    "action_number": "DCPI 1622/2015",
+    "case_name": "WONG YAU SUI v. MORAL ACCORD LTD AND ANOTHER",
+    "judgment_date": "2017-02-17",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 59,
+    "age_at_trial": 62,
+    "occupation_before": "container slinger",
+    "occupation_after": "container slinger (simpler duties); briefly worked as an electrician for one week in October 2014",
+    "expected_occupation_after": null,
+    "salary_before": 14962.5,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Primary 2"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft-tissue injury to the left leg",
+        "injury_type": "Temporary injury",
+        "body_part": "left leg",
+        "laterality": "left",
+        "source": [
+          "On 13 May 2014 at about 3am, in the course of employment with the 1st defendant, the plaintiff was doing the rigging work at a vessel known as “VLADIVOSTOK” (the “Vessel”). At the time, it was raining. The plaintiff was standing on the top of a container on the Vessel and attaching a hook of a gantry crane to a corner of the container. Unfortunately, he slipped, lost his balance and his left leg fell into the gap between two containers.",
+          "In respect of left leg, according to the joint medical report, he suffered no deformity, swelling, or effusion over his left knee and left ankle. The sensation to touch was normal. The ranges of movement of the knee and ankle were normal. There was tenderness over left proximal medial tibia and distal 1/3 tibia.",
+          "I accept that the plaintiff still suffered on and off pain particular on exertion, as this was not really disputed by Dr Chun. With such intermittent pain, it must be right for Dr Wong to say that there would be mild decrease in capacity and efficiency."
+        ],
+        "icd_code": "NC90.3",
+        "icd_description": "Contusion of other or unspecified parts of lower leg"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "on and off pain in his left leg particularly on exertion",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild limping during tip-toe walking and heel walking",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left leg instability during single leg standing test",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild decrease in capacity and efficiency",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E attendance at Queen Elizabeth Hospital; discharged same day",
+        "is_surgical": false,
+        "source": [
+          "According to the medical notes, at around 8:50 am (about 5 hours later) on 13 May 2014, he went to A&E of Queen Elizabeth Hospital. No fracture was detected, and he was discharged on the very same day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "General Outpatient Clinic attendances",
+        "is_surgical": false,
+        "source": [
+          "He attended various General Outpatient Clinic sessions due to persistent left leg pain since 20 May 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy (out-patient)",
+        "is_surgical": false,
+        "source": [
+          "On 28 June 2014, he was referred to physiotherapy treatment.",
+          "He attended 11 sessions of out-patient physiotherapy in the Tuen Mun Hospital from 10 July 2014 to 25 September 2014."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 135,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Intermittent pain in the left leg particularly on exertion and mild decrease in capacity and efficiency",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Ng Lai Fan Fanny v The Hong Kong Golf Club",
+        "neutral_citation": "HCPI 1511/2005",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 20331,
+      "output_tokens": 4694,
+      "reasoning_tokens": 3264,
+      "total_tokens": 25025
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 36535.68887501024,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 20331,
+      "output_tokens": 4694,
+      "reasoning_tokens": 3264,
+      "total_tokens": 25025
+    },
+    "total_duration_ms": 36535.68887501024
+  }
+}

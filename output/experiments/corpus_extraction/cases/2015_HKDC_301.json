@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "neutral_citation": "[2015] HKDC 301",
+    "action_number": "DCPI 23/2012",
+    "case_name": "TSANG CHI CHEONG v. THE INCORPORATED OWNERS OF MEI KING MANSION (STAGE 1)",
+    "judgment_date": "2015-03-31",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "registered electrician",
+    "occupation_after": null,
+    "expected_occupation_after": "licensed electrician",
+    "salary_before": 18000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "superficial burn over the front part of his neck",
+        "injury_type": "Temporary injury",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "he had sustained a “superficial burn” over the front part of his neck only. The clinical diagnosis was neck burn injury."
+        ],
+        "icd_code": "NA20.Y",
+        "icd_description": "Other specified superficial injury of neck"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "electrical shock",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "superficial burn of the neck",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slightly pigmented scar over the anterior part of the neck measuring 110 mm x 90 mm",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "itchiness of the scar, worse during hot weather",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "neck movement is not affected",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "attendance at Accident and Emergency Department of Queen Elizabeth Hospital",
+        "is_surgical": false,
+        "source": [
+          "the medical report from Queen Elizabeth Hospital (“QEH”) recorded that the plaintiff attended its Accident and Emergency Department (“A&E”) at 20:46 on that day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "first of three anti-tetanus injections",
+        "is_surgical": false,
+        "source": [
+          "He received the 1st of his 3 anti-tetanus injections and was discharged on the same day."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "follow up at Kwun Tong General Out-patient Clinic and further A&E attendance",
+        "is_surgical": false,
+        "source": [
+          "He was followed up at the Kwun Tong General Out-patient Clinic (“KTGOPC”) on 3 further occasions in January 2009 and attended the A&E of QEH again on 16 January 2009 for neck pain.",
+          "The plaintiff attended the KTGOPC on 2 further occasions in February and October 2009 respectively to complete his 2nd and 3rd anti-tetanus injections."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "15 sessions of laser treatment to improve pigmentation",
+        "is_surgical": false,
+        "source": [
+          "Dr Chow recommended 15 sessions of laser treatment to improve the pigmentation."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 9,
+    "sick_leave_days_expected": 15
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "unsightly scars over the neck; slightly pigmented scar over the anterior part of the neck",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 40000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Leung Ka Yee v L & Y Beauty Centre Ltd",
+        "neutral_citation": "DCPI 196/2003",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 75000.0
+      },
+      {
+        "case_name": "Chan Tsz Sing v Lo Ching Pong & Ors",
+        "neutral_citation": "unrep CACV 176/2004",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      },
+      {
+        "case_name": "Leung Pui Yiu v Wong Yin Kuen",
+        "neutral_citation": "HCPI 453/2000",
+        "action_number": null,
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 18081,
+      "output_tokens": 4894,
+      "reasoning_tokens": 3328,
+      "total_tokens": 22975
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 33263.370166067034,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 18081,
+      "output_tokens": 4894,
+      "reasoning_tokens": 3328,
+      "total_tokens": 22975
+    },
+    "total_duration_ms": 33263.370166067034
+  }
+}

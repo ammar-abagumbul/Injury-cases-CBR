@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "neutral_citation": "[2013] HKDC 747",
+    "action_number": "DCPI 529/2011",
+    "case_name": "LAM KWOK LING v. LAM KWOK WING AND OTHERS",
+    "judgment_date": "2013-06-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 44,
+    "age_at_trial": 49,
+    "occupation_before": "Formwork supervisor and interior decorator (carpenter)",
+    "occupation_after": "Hairdresser",
+    "expected_occupation_after": null,
+    "salary_before": 18340.0,
+    "salary_after": 8500.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of the right distal radius",
+        "injury_type": "Temporary injury",
+        "body_part": "right distal radius",
+        "laterality": "right",
+        "source": [
+          "was diagnosed with a fracture of the right distal radius."
+        ],
+        "icd_code": "NC32.5Z",
+        "icd_description": "Fracture of lower end of radius, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "De Quervain tenosynovitis (De Quervain syndrome)",
+        "injury_type": "Residual disability",
+        "body_part": "right wrist",
+        "laterality": "right",
+        "source": [
+          "He was diagnosed with De Quervain tenosynovitis, or the De Quervain syndrome."
+        ],
+        "icd_code": "NC57.2Y",
+        "icd_description": "Other specified injury of extensor muscle, fascia or tendon of thumb at wrist or hand level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Swelling and tenderness over the right wrist",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Limited movement and stiffness of the wrist",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Spasm in right thumb and index finger when gripping",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Weakness of right hand grip",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced ranges of motion",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Residual pain in the right wrist limiting ability to use heavy implements and to play badminton",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Positive Finkelstein's test suggestive of De Quervain's syndrome",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Passed out for about 10 seconds after head hit the ground",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Right wrist set in a plaster cast (cast removed 28 August 2008)",
+        "is_surgical": false,
+        "source": [
+          "His right wrist was set in a plaster cast which was taken off on 28 August 2008."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy",
+        "is_surgical": false,
+        "source": [
+          "He was given physiotherapy treatment at the end of which he still complained of residual pain over the right thumb, which was a complication related to the fracture."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Referral to Department of Orthopaedics and Traumatology",
+        "is_surgical": false,
+        "source": [
+          "Since there was no further improvement, he was referred to the Department of Orthopaedics and Traumatology."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Analgesics and occupational therapy including a working splint (18 November 2009 to 5 January 2010)",
+        "is_surgical": false,
+        "source": [
+          "He was given analgesics and occupational therapy treatment from 18 November 2009 to 5 January 2010 by way of a working splint which he wore in the daytime."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Consultation with psychiatrist (Dr Lam Tat Chung) on 8 occasions",
+        "is_surgical": false,
+        "source": [
+          "he was referred to a specialist in psychiatry Dr Lam Tat Chung whom the plaintiff consulted on 8 occasions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "One or two steroid injections (considered)",
+        "is_surgical": false,
+        "source": [
+          "Dr Tio ... suggesting that one or two steroid injections should be considered (which the plaintiff had previously refused)"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Surgical decompression / release of the overreactive thickened fibrous flexor sheath (considered in occasional cases)",
+        "is_surgical": true,
+        "source": [
+          "In occasional cases when pain persists, surgery with release of the overreactive thickening of the fibrous flexor sheath (which causes the syndrome) is the treatment of choice."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Muscle / Tendon",
+        "vmis_procedure": "Release of trigger finger",
+        "vmis_category": "Minor"
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Unable to play badminton (favourite sport) and football as before due to residual wrist pain",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Unable to return to pre-accident carpentry/formwork work and has lost confidence in construction work",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 180000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Mehmood Khalid v Million Harvest Wharves & Logistics Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 401/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Shu Shek v Leung Chi Kit",
+        "neutral_citation": null,
+        "action_number": "HCPI 219/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Tang Bo Ling v Chan Po",
+        "neutral_citation": null,
+        "action_number": "DCPI 79/2007",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19916,
+      "output_tokens": 6632,
+      "reasoning_tokens": 4416,
+      "total_tokens": 26548
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 34355.17516708933,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19916,
+      "output_tokens": 6632,
+      "reasoning_tokens": 4416,
+      "total_tokens": 26548
+    },
+    "total_duration_ms": 34355.17516708933
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 1037",
+    "action_number": "DCPI 225/2016",
+    "case_name": "FAN CHI PING v. GOLDEN RESOURCES WAREHOUSE LTD",
+    "judgment_date": "2017-08-25",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": 48,
+    "age_at_trial": 53,
+    "occupation_before": "warehouse keeper",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 11638.5,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to left knee",
+        "injury_type": "Temporary injury",
+        "body_part": "left knee",
+        "laterality": "left",
+        "source": [
+          "As a result of the Accident, the plaintiff allegedly has sustained serious injuries to her left knee.",
+          "the diagnosis was one of soft tissue injury only."
+        ],
+        "icd_code": "NC96.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at lower leg level"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "intermittent left knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left knee pain aggravated by slope/stairs walking or walking for more than 30 minutes",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "need to use analgesic for pain control",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "left knee stiffness and inability to squat",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the medial side of the left knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "slight reduction of range of movement on her knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unstable on the left side when standing on one leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "attendance at Accident and Emergency Department of Tuen Mun Hospital on 8 February 2014",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff first attended the Accident and Emergency Department (“A&E”) of Tuen Mun Hospital (“TMH”) on 8 February 2014, which was over 1 month after the Accident."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "treatment by a traditional Chinese medical practitioner on 2 January 2014",
+        "is_surgical": false,
+        "source": [
+          "According to the plaintiff, she only sought medical assistance for the first time on 2 January 2014 from a traditional Chinese medical practitioner."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "X-ray and MRI of the left knee",
+        "is_surgical": false,
+        "source": [
+          "Both the X-ray and MRI of her left knee showed no fracture or tearing.",
+          "The MRI of the left knee carried out on 16 June 2014 showed no definite pathology. Only minimal signal change in the medial meniscus was found which was possibly due to the plaintiff’s mucoid degeneration."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 448,
+    "sick_leave_days_expected": 90
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "left knee stiffness and inability to squat",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "intermittent left knee pain aggravated by stairs and requiring analgesics",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Yau Sui v Moral Accord Limited & Anor",
+        "neutral_citation": "[2017] 2 HKLRD 322",
+        "action_number": null,
+        "injury_description": "soft tissue injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Chun Fat v Fortress Glory Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 832/2013",
+        "injury_description": "soft tissue injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Siu Sum v Swire Beverages Limited t/a Swire Coca-Cola HK",
+        "neutral_citation": null,
+        "action_number": "DCPI 1069/2011",
+        "injury_description": "soft tissue injury",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 16069,
+      "output_tokens": 3989,
+      "reasoning_tokens": 2816,
+      "total_tokens": 20058
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26191.103458870202,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 16069,
+      "output_tokens": 3989,
+      "reasoning_tokens": 2816,
+      "total_tokens": 20058
+    },
+    "total_duration_ms": 26191.103458870202
+  }
+}

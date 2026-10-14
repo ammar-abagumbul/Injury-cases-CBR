@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "neutral_citation": "[2020] HKDC 14",
+    "action_number": "DCPI 62/2019",
+    "case_name": "NG SIK KAI v. LUI WING LOK T/A WING WAH OIL SHIP CO.",
+    "judgment_date": "2020-01-03",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 49,
+    "age_at_trial": 56,
+    "occupation_before": "deckhand on the defendant’s fuel barge (Yue Tai)",
+    "occupation_after": "service attendant at Tuen Mun Hospital",
+    "expected_occupation_after": null,
+    "salary_before": 11500.0,
+    "salary_after": 10253.0,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "mild head injury",
+        "injury_type": "Temporary injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "The neurological experts agreed that he had suffered a mild head injury."
+        ],
+        "icd_code": "NA07.0Z",
+        "icd_description": "Concussion, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "fracture of the right temporal bone and right lateral wall of the sphenoid sinus",
+        "injury_type": "Temporary injury",
+        "body_part": "right temporal bone and right lateral wall of the sphenoid sinus",
+        "laterality": "right",
+        "source": [
+          "CT performed on 28 October 2013 showed fracture of the right temporal bone and right lateral wall of the sphenoid sinus."
+        ],
+        "icd_code": "NA02.15",
+        "icd_description": "Fracture of sphenoid bone of skull"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "right facial nerve palsy",
+        "injury_type": "Permanent injury",
+        "body_part": "right face / facial nerve",
+        "laterality": "right",
+        "source": [
+          "He later developed right facial nerve palsy and was transferred to the ENT department.",
+          "According to the various joint expert reports, the plaintiff still has mild right facial nerve palsy (with paresis and involuntary twitching of right facial muscles)...",
+          "According to the single expert ophthalmologist, his mild facial nerve palsy causes incomplete right eye closure and exposure keraopathy (treated with eye lubricants)."
+        ],
+        "icd_code": "NA04.6",
+        "icd_description": "Injury of facial nerve"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "right and left hearing impairment (binaural hearing impairment of 2.8%) / right-sided hearing loss with intermittent tinnitus",
+        "injury_type": "Permanent injury",
+        "body_part": "ears / auditory system",
+        "laterality": "bilateral",
+        "source": [
+          "The ENT experts agreed that the accident caused his right and left hearing impairment (binaural hearing impairment of 2.8%), mild tinnitus, dizziness and mild facial nerve impairment.",
+          "According to the various joint expert reports, the plaintiff still has ... right-sided hearing loss with intermittent tinnitus ..."
+        ],
+        "icd_code": "NA0C",
+        "icd_description": "Injury of middle or inner ear"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "2cm laceration near the right ear and scalp haematoma at the back of the head",
+        "injury_type": "Temporary injury",
+        "body_part": "right ear / scalp",
+        "laterality": "right",
+        "source": [
+          "The plaintiff was taken to Queen Mary Hospital A&E with a 2cm laceration over near the right ear and a scalp haematoma at the back of the head, with tenderness on left shoulder."
+        ],
+        "icd_code": "NA01.2",
+        "icd_description": "Laceration without foreign body of head"
+      },
+      {
+        "injury_id": "inj_006",
+        "description": "tenderness on left shoulder",
+        "injury_type": "Temporary injury",
+        "body_part": "left shoulder",
+        "laterality": "left",
+        "source": [
+          "The plaintiff was taken to Queen Mary Hospital A&E with a 2cm laceration over near the right ear and a scalp haematoma at the back of the head, with tenderness on left shoulder."
+        ],
+        "icd_code": "NC1Z",
+        "icd_description": "Injuries to the shoulder or upper arm, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right hearing loss",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "vertigo",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tinnitus",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "incomplete right eye closure",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "exposure keraopathy",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "adjustment disorder",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "mild facial nerve impairment with paresis and involuntary twitching of right facial muscles",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "post-concussional syndrome (intermittent headaches, dizziness, subjective impairment of memory, irritability and insomnia)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "blurred vision",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "dryness and irritation of the right eye",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "intermittent headaches",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "suturing of the laceration",
+        "is_surgical": true,
+        "source": [
+          "He was treated with suturing of the laceration."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Suture of wound on skin",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "artificial tears and eye padding for incomplete right eye closure",
+        "is_surgical": false,
+        "source": [
+          "He was treated with artificial tears and eye padding."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "CT scan (imaging)",
+        "is_surgical": false,
+        "source": [
+          "CT scan showed no intracranial lesion."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 561,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of the senses",
+        "description": "Right and left hearing impairment (binaural hearing impairment of 2.8%) with intermittent tinnitus",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Right facial nerve palsy causing incomplete right eye closure, exposure keraopathy, paresis and involuntary twitching of right facial muscles",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Post-concussional syndrome with intermittent headaches, dizziness, subjective impairment of memory, irritability and insomnia",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Chan Chin Shun v Yau Sin Chung",
+        "neutral_citation": null,
+        "action_number": "HCPI 90/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Leung Chi v Luen Fat Civil Engineering Ltd & Anor",
+        "neutral_citation": null,
+        "action_number": "HCPI 975/2002",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Chan Ho Kan v Mo Man Ho",
+        "neutral_citation": null,
+        "action_number": "HCPI 777/2014",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 21584,
+      "output_tokens": 9598,
+      "reasoning_tokens": 6912,
+      "total_tokens": 31182
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 45701.735333073884,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 21584,
+      "output_tokens": 9598,
+      "reasoning_tokens": 6912,
+      "total_tokens": 31182
+    },
+    "total_duration_ms": 45701.735333073884
+  }
+}

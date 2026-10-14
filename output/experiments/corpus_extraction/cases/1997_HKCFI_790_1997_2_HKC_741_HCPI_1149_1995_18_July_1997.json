@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "neutral_citation": "[1997] HKCFI 790; [1997] 2 HKC 741; HCPI 1149/1995 (18 July 1997)",
+    "action_number": "HCPI 1149/1995",
+    "case_name": "LAI CHI PON v. TOTO STEEL & IRON WORKS LTD AND OTHERS",
+    "judgment_date": "1997-07-18",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 38,
+    "occupation_before": "plastering worker",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 7000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "low educational background"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "compressed fracture of his vertebra at T11 and T12",
+        "injury_type": "Residual disability",
+        "body_part": "thoracic spine (T11 and T12)",
+        "laterality": null,
+        "source": [
+          "He was found to have a compressed fracture of his vertebra at T11 and T12."
+        ],
+        "icd_code": "NA82.1",
+        "icd_description": "Multiple fractures of thoracic spine"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "incomplete paraplegic / paraplegia",
+        "injury_type": "Permanent injury",
+        "body_part": "lower limbs / spinal cord",
+        "laterality": "bilateral",
+        "source": [
+          "The Plaintiff is now an incomplete paraplegic."
+        ],
+        "icd_code": "NB6Z",
+        "icd_description": "Injury of spinal cord at abdomen, lower back or pelvis level, unspecified"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "unstable neurogenic bladder",
+        "injury_type": "Permanent injury",
+        "body_part": "bladder / lower urinary tract",
+        "laterality": null,
+        "source": [
+          "He has an unstable neurogenic bladder which empties poorly."
+        ],
+        "icd_code": "NB72",
+        "icd_description": "Injury of cauda equina"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Adjustment Disorder (psychiatric illness)",
+        "injury_type": "Permanent injury",
+        "body_part": "psychiatric / mental",
+        "laterality": null,
+        "source": [
+          "He is suffering from Adjustment Disorder."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Limited movement of his lower limbs: unable to stand without support; can only walk with crutches and an ankle-foot orthosis; can only walk awkwardly and clumsily; cannot run or move or turn quickly; not able to walk on slopes and great difficulties climbing stairs; cannot carry anything heavy when using crutches other than a small light bag; unable to sit for more than an hour without unbearable pain in his back; crutches have caused blisters on his palms; ankle-foot orthosis has caused blisters on his feet.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Reduced sensation from his abdomen downwards: generally no sensation below the knee; limited sensation in thighs; constant pain, discomfort and paraesthesia in both legs above the knees interfering with daily activities; unable to feel temperatures; spasms in both legs when sleeping or sitting occurring about 2-3 times per week, lasting about 15 minutes.",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Double incontinence: partial bladder sensation with reflex emptying and tendency to retention; empties bladder by straining and tapping on the abdomen; wets himself twice a week and needs to wear diapers at night; requires going to toilet about 30 minutes after drinking; moves bowel every 2 to 3 days and requires suppositories; still occasionally incontinent.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Sexual dysfunction: sexual ability greatly impaired; fails 70% of attempts to have sexual intercourse with his wife; has not had sexual intercourse with his wife for over 1½ years; has lost much if not all of his sexual drive and feels very embarrassed; sexual dysfunction is psychological in nature.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Psychiatric symptoms: depressed mood; low self-esteem; lack of interest in most activities; pessimistic feelings; feelings of inability to cope.",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "Need for regular medical supervision: prone to future complications such as pressure sores and urinary tract infection; requires regular check-up and supervision of renal and urinary status.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Inability to sit for more than an hour without unbearable back pain.",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      }
+    ],
+    "overall_category": "Disaster"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Operation on spine",
+        "is_surgical": true,
+        "source": [
+          "Twenty-four days after the accident, operation was performed on his spine."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Spine",
+        "vmis_procedure": "Laminectomy / diskectomy",
+        "vmis_category": "Major"
+      },
+      {
+        "treatment": "Hospitalisation for 27 months",
+        "is_surgical": false,
+        "source": [
+          "He was hospitalised for 27 months, thereafter he received follow-up treatment from a private doctor and from the MacLehose Medical Rehabilitation Centre."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Follow-up treatment from a private doctor and from the MacLehose Medical Rehabilitation Centre",
+        "is_surgical": false,
+        "source": [
+          "thereafter he received follow-up treatment from a private doctor and from the MacLehose Medical Rehabilitation Centre."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Individual psychotherapy (ten sessions once every two weeks) and sex therapy (ten sessions)",
+        "is_surgical": false,
+        "source": [
+          "The cost of the psychiatric treatment is $50,000 which consists of psychotherapy once every two weeks for ten sessions and sex therapy for ten sessions."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy (detailed schedule: three times a week for first six months at $800 per session, thereafter once a week for next six months, once every two weeks for next six months; after 18 months once a month plus four extra sessions a year)",
+        "is_surgical": false,
+        "source": [
+          "It is recommended by Ms Alice Tsang, occupational therapist, that the therapy would be three times a week for the first six months at $800 per session, thereafter once a week for the next six months and once every two weeks for the next six months. After the 18 months treatment, the therapy will take place once a month plus four extra sessions a year."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy (three times a week for first six months at $400 per session, thereafter schedules as occupational therapy)",
+        "is_surgical": false,
+        "source": [
+          "The cost of the treatment is three times a week for the first six months at $400 per session at $31,200, thereafter once a week for the next six months at $10,400 and thereafter once every two weeks for the next six months at $5,200. After the 18 months treatment, the therapy will take place once a month plus four extra sessions a year."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Regular medical treatment and annual check-up (private) and supervision of renal and urinary status",
+        "is_surgical": false,
+        "source": [
+          "Costs for medical treatment once every three months is at $600 per visit : $2,400 x 15 = $36,000. There should be annual check-up and treatment in case of complication at $4,000 per treatment. Costs is $4,000 x 15 = $60,000.",
+          "He therefore needs regular check-up and supervision, especially as to his renal and urinary status."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Nursing care (30 sessions per year at $390 per hour) with multiplier 7.5",
+        "is_surgical": false,
+        "source": [
+          "According to Ms Tsang, the cost of the nursing fee of $390 per hour and 30 sessions per year are required."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Full-time domestic helper (Filipino) including agency handling, salary, relief staff, travel, insurance and renewals (detailed costs)",
+        "is_surgical": false,
+        "source": [
+          "Full-time Filipino domestic helper",
+          "Initial handling cost by agency at $4,000 per contract 4,000",
+          "Basic monthly salary at $3,860 per month 46,320 x 15 = 694,800",
+          "Relief staff for home leave at $2,100 per year, based on 1 home leave of 2 weeks per 2 years, relief staff for 7 days @$300/full day 2,100 x 15 = 31,500",
+          "Traveling fee for home leave, based on 1 home leave per 2 years, @$1,500 750 x 15 = 11,250",
+          "Misc. costs incl. Insurance, renewal of contract & immigration, etc at about $3,500 per annum 3,500 x 15 = 52,500"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Provision of lightweight manual wheelchair and accessories (replacement and maintenance schedule)",
+        "is_surgical": false,
+        "source": [
+          "Lightweight wheelchair with replacement every 6 years $13,500 x 2.5 = $33,750",
+          "Maintenance of wheelchair at 30% of costs $4,050 x 2.5 = $10,125",
+          "Anti-decubitus cushion with replacement every 3 years $3,500 x 5 = $17,500",
+          "Wheelchair lap board every 2 years $500 x 7.5 = $3,750",
+          "Wheelchair mitt with replacement every 1 year $300 x 15 = $4,500"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of mobility",
+        "description": "Limited movement of his lower limbs: unable to stand without support; can only walk with crutches and an ankle-foot orthosis; cannot run or move or turn quickly; not able to walk on slopes and great difficulties climbing stairs; unable to sit for more than an hour.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Sexual ability greatly impaired; fails 70% of attempts to have sexual intercourse; has lost much if not all of his sexual drive and feels very embarrassed.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Requires full-time helper; cannot carry heavy items when using crutches; needs assistance for household chores and accompaniment when going out.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Needs a full-time helper to help the wife with ordinary household chores and to accompany the Plaintiff when he goes out.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Restricted mobility and need for attendant when going out; requires allowance for socialisation activities and accompaniment.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Double incontinence, reduced sensation from abdomen downwards and other bodily impairments affecting normal bodily functions.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1500000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Li Tin Yau v. Leung Chi Tai",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No.7524 of 1985",
+        "injury_description": "paraplegic / tetraplegic (referenced in context of paraplegic awards)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Leung Sai Kui v. F. Zimmern",
+        "neutral_citation": null,
+        "action_number": "H.C.A. No.1151 of 1985",
+        "injury_description": "paraplegic / tetraplegic (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Ng Kwok Wing v. Lau Ping Kwan & Others",
+        "neutral_citation": null,
+        "action_number": "PI 1013 of 1995",
+        "injury_description": "paraplegic / tetraplegic (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Choi Mei Ho v. Chung Chiu Ying & Others",
+        "neutral_citation": null,
+        "action_number": "PI 784 of 1995",
+        "injury_description": "paraplegic / tetraplegic (referenced)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19070,
+      "output_tokens": 9623,
+      "reasoning_tokens": 5760,
+      "total_tokens": 28693
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 52324.68991703354,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19070,
+      "output_tokens": 9623,
+      "reasoning_tokens": 5760,
+      "total_tokens": 28693
+    },
+    "total_duration_ms": 52324.68991703354
+  }
+}

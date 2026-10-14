@@ -1,0 +1,105 @@
+,court_auc,meaning
+n_injuries,0.2397774327122153,Number of injuries
+n_injuries_without_icd,0.5073757763975155,Injuries the ICD-11 step could not code
+n_distinct_icd_blocks,0.3242753623188406,Number of different ICD-11 body blocks injured
+n_bilateral_injuries,0.4488871635610766,Number of bilateral injuries
+has_pre_existing_injuries,0.6052018633540373,Pre-existing injuries noted
+icd2_NB,0.41899585921325044,ICD-11 block NB: Injuries to the thorax
+icd4_NB52,0.3759057971014492,ICD-11 NB52: Fracture of lumbar spine or pelvis
+injtype_temporary_injury,0.5539596273291925,Injuries of type temporary injury
+injtype_permanent_injury,0.1714544513457557,Injuries of type permanent injury
+icd2_NA,0.33837991718426497,ICD-11 block NA: Injuries to the head
+icd4_NA01,0.4393115942028985,ICD-11 NA01: Open wound of head
+injkw_fracture,0.2510351966873706,Injury mentions fracture
+injkw_dislocation,0.37901138716356103,Injury mentions dislocation
+injkw_head_brain,0.3444616977225673,Injury mentions head brain
+injkw_spinal,0.3263457556935817,Injury mentions spinal
+n_manifestations,0.23757763975155274,Number of symptoms / functional deficits
+manif_neurological_deficit,0.18206521739130432,Manifestations of type neurological deficit
+manif_symptom,0.4804606625258799,Manifestations of type symptom
+manif_functional_deficit,0.2638457556935818,Manifestations of type functional deficit
+manif_sign,0.4440993788819876,Manifestations of type sign
+icd2_NC,0.4483695652173913,ICD-11 block NC: Injuries to the shoulder or upper arm
+icd4_NC7Y,0.4915890269151139,ICD-11 NC7Y: Other specified injuries to the hip or thigh
+icd4_NA07,0.3258281573498964,ICD-11 NA07: Intracranial injury
+injtype_residual_disability,0.4725672877846791,Injuries of type residual disability
+icd4_NA04,0.3989389233954451,ICD-11 NA04: Injury of cranial nerves
+icd4_NA82,0.47075569358178054,"ICD-11 NA82: Fracture of rib, sternum or thoracic spine"
+icd4_NA22,0.41977225672877844,ICD-11 NA22: Fracture of neck
+icd4_NC53,0.5018115942028984,ICD-11 NC53: Fracture at wrist or hand level
+icd4_NC91,0.4946946169772257,ICD-11 NC91: Open wound of knee or lower leg
+icd2_ND,0.5390786749482401,ICD-11 block ND: Injuries to the ankle or foot
+icd4_ND13,0.4676501035196687,"ICD-11 ND13: Fracture of foot, except ankle"
+icd4_NC54,0.4946946169772257,ICD-11 NC54: Dislocation or strain or sprain of joints or ligaments at wrist or hand level
+icd4_NC32,0.4738612836438923,ICD-11 NC32: Fracture of forearm
+icd4_NC70,0.49780020703933753,ICD-11 NC70: Superficial injury of hip or thigh
+icd4_NC92,0.4446169772256729,"ICD-11 NC92: Fracture of lower leg, including ankle"
+icd4_ND1Y,0.5040113871635612,ICD-11 ND1Y: Other specified injuries to the ankle or foot
+icd4_NA02,0.4384057971014493,ICD-11 NA02: Fracture of skull or facial bones
+icd4_NB53,0.5257505175983437,ICD-11 NB53: Dislocation or strain or sprain of joints or ligaments of lumbar spine or pelvis
+icd4_NC72,0.4946946169772257,ICD-11 NC72: Fracture of femur
+icd4_NC13,0.5009057971014492,ICD-11 NC13: Dislocation or strain or sprain of joints or ligaments of shoulder girdle
+icd4_NB9Y,0.49780020703933753,"ICD-11 NB9Y: Other specified injuries to the abdomen, lower back, lumbar spine or pelvis"
+icd4_NC57,0.4915890269151139,"ICD-11 NC57: Injury of muscle, fascia or tendon at wrist or hand level"
+icd4_NC16,0.4946946169772257,"ICD-11 NC16: Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+icd4_NA0D,0.5040113871635612,ICD-11 NA0D: Injury of teeth or supporting structures
+icd4_NA06,0.4946946169772257,ICD-11 NA06: Injury of eye or orbit
+icd4_NC5A,0.4915890269151139,ICD-11 NC5A: Multiple injuries of wrist or hand
+icd4_NA00,0.5559006211180124,ICD-11 NA00: Superficial injury of head
+icd4_NB50,0.5186335403726708,"ICD-11 NB50: Superficial injury of abdomen, lower back or pelvis"
+icd4_NC1Z,0.515527950310559,"ICD-11 NC1Z: Injuries to the shoulder or upper arm, unspecified"
+icd4_NA61,0.5248447204968945,"ICD-11 NA61: Injury of muscle, fascia or tendon at neck level"
+icd4_NC93,0.515527950310559,ICD-11 NC93: Dislocation or strain or sprain of joints or ligaments of knee
+icd4_ND11,0.5186335403726708,ICD-11 ND11: Superficial injury of ankle or foot
+icd4_NC90,0.5527950310559007,ICD-11 NC90: Superficial injury of knee or lower leg
+icd4_NA23,0.531055900621118,ICD-11 NA23: Dislocation or strain or sprain of joints or ligaments at neck level
+icd4_ND14,0.515527950310559,ICD-11 ND14: Dislocation or strain or sprain of joints or ligaments at ankle or foot level
+icd4_NC51,0.5279503105590062,ICD-11 NC51: Superficial injury of wrist or hand
+icd4_NB94,0.5248447204968945,"ICD-11 NB94: Injury of muscle, fascia or tendon of abdomen, lower back or pelvis"
+icd4_NC52,0.5186335403726708,ICD-11 NC52: Open wound of wrist or hand
+n_treatments_received,0.24288302277432708,Number of treatments received
+n_surgical_received,0.10300207039337474,Number of surgical treatments received
+vmis_unmapped_received,0.22567287784679088,Surgeries received that are not in the VMIS schedule
+vmis_max_tier_received,0.1702898550724638,"Highest VMIS surgery tier received (0 none, 1 Minor ... 4 Complex)"
+vmis_complex_received,0.28002070393374745,Number of Complex VMIS surgeries received
+n_treatments_future,0.281832298136646,Number of future treatments
+n_surgical_future,0.43892339544513453,Number of surgical treatments expected
+vmis_max_tier_future,0.42973602484472045,"Highest VMIS surgery tier future (0 none, 1 Minor ... 4 Complex)"
+treatkw_physio,0.42934782608695654,Treatment includes physio
+treatkw_psych,0.39415113871635604,Treatment includes psych
+treatkw_cast_splint,0.5515010351966873,Treatment includes cast splint
+treatkw_icu,0.4228778467908903,Treatment includes icu
+treatkw_medication,0.5143633540372671,Treatment includes medication
+treatkw_injection,0.5018115942028984,Treatment includes injection
+vmis_major_received,0.410455486542443,Number of Major VMIS surgeries received
+vmis_intermediate_received,0.379787784679089,Number of Intermediate VMIS surgeries received
+vmis_complex_future,0.443452380952381,Number of Complex VMIS surgeries future
+vmis_minor_received,0.3630952380952381,Number of Minor VMIS surgeries received
+vmis_minor_future,0.4980590062111802,Number of Minor VMIS surgeries future
+hospitalisation_days,0.04291044776119403,"Hospital stay, days"
+operations_count,0.1183310533515732,Number of operations received
+future_operations_count,0.25,Number of future operations expected
+sick_leave_days_actual,0.2275985663082437,"Sick leave taken, days"
+age_at_accident,0.6405940594059406,Age at accident
+male,0.3726973684210526,Plaintiff is male
+salary_before,0.43734015345268545,Monthly salary before accident
+salary_after,0.6041666666666667,Monthly salary after accident
+salary_drop_ratio,0.28437500000000004,Share of salary lost
+occupation_changed,0.4713450292397661,Occupation changed after accident
+n_losses,0.14803312629399584,Number of losses claimed
+n_loss_categories,0.13561076604554867,Number of different loss categories
+losscat_loss_of_mobility,0.3369565217391304,Loss claimed: loss of mobility
+losscat_loss_of_independence,0.339544513457557,Loss claimed: loss of independence
+losscat_loss_of_sexual_function_and_sexual_life,0.3134057971014492,Loss claimed: loss of sexual function and sexual life
+losscat_loss_of_mental_ability,0.37681159420289856,Loss claimed: loss of mental ability
+losscat_loss_of_congenial_employment,0.2576345755693582,Loss claimed: loss of congenial employment
+losscat_loss_of_bodily_integrity,0.5578416149068323,Loss claimed: loss of bodily integrity
+losscat_loss_of_ability_to_engage_in_sports_and_hobbies,0.5262681159420289,Loss claimed: loss of ability to engage in sports and hobbies
+losscat_loss_of_the_senses,0.36658902691511386,Loss claimed: loss of the senses
+losscat_loss_of_ability_to_do_domestic_tasks,0.3808229813664596,Loss claimed: loss of ability to do domestic tasks
+losscat_loss_of_social_life,0.44241718426501037,Loss claimed: loss of social life
+losscat_loss_of_family_life,0.3852225672877846,Loss claimed: loss of family life
+losscat_loss_from_scarring_or_disfigurement,0.4734730848861283,Loss claimed: loss from scarring or disfigurement
+losscat_loss_of_confidence_in_going_out_in_the_public,0.4393115942028985,Loss claimed: loss of confidence in going out in the public
+losscat_loss_of_ability_to_enjoy_quiet_or_solitude,0.4915890269151139,Loss claimed: loss of ability to enjoy quiet or solitude
+losscat_personality_change,0.4113612836438923,Loss claimed: personality change

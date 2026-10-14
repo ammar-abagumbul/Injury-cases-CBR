@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "neutral_citation": "[2017] HKDC 280",
+    "action_number": "DCPI 1707/2014",
+    "case_name": "LEUNG LAI CHUN v. MTR CORPORATION LTD",
+    "judgment_date": "2017-03-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Female",
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "flower shop assistant",
+    "occupation_after": "flower shop assistant until the flower shop closed in 2015; not working at time of trial and depending on her son's income",
+    "expected_occupation_after": null,
+    "salary_before": 8000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury of the right foot",
+        "injury_type": "Temporary injury",
+        "body_part": "right foot",
+        "laterality": "right",
+        "source": [
+          "the injury is of a minor nature which does not involve any fracture or open wound. It only resulted in soft tissue injury"
+        ],
+        "icd_code": "ND11.Z",
+        "icd_description": "Superficial injury of ankle or foot, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "redness",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "swelling",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "decreasing range of movement over right lateral foot",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "pain in the right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the lateral side of the right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "intermittent numbness in the right foot",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "limping gait",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness over the 4th to 5th metatarsal bone of the right foot",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E assessment and treatment; discharged with 5 days sick leave",
+        "is_surgical": false,
+        "source": [
+          "When she was first admitted to the A&E department of Tuen Mun Hospital on the day of the accident, it was found that she had “redness, swelling and decreasing range of movement over right lateral foot (sic)”. She was treated and discharged and 5 days of sick leave was given to her."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "physiotherapy (4 sessions)",
+        "is_surgical": false,
+        "source": [
+          "In the physiotherapy progress report dated 6 October 2011, it was recommended by the physiotherapist that the plaintiff was fit to be discharged after 4 sessions of physiotherapy."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "general outpatient clinic follow-up visits",
+        "is_surgical": false,
+        "source": [
+          "on subsequent visits to the general out-patient clinic by the plaintiff (initiated by her rather than by way of follow-up treatment), no further objective physical findings like swelling, bruises, or redness was recorded anymore."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 158,
+    "sick_leave_days_expected": 60
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Fung Tak Yau v Chow Wah Tim t/z Chung Wah Transportation Company and another",
+        "neutral_citation": null,
+        "action_number": "HCPI 973/2006",
+        "injury_description": "the claimant had sustained much more serious injuries... the contusion injury might have caused an injury to the cutaneous sensory nerve branch which gave rise to the victim’s claim of persistent forefoot pain; both experts agreed that there was a 1.5% impairment of the whole person in that case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 80000.0
+      },
+      {
+        "case_name": "Nicola Sian Griffiths v Lettuce Chat Limited Ltd trading as Zip",
+        "neutral_citation": null,
+        "action_number": "DCPI 22/2001",
+        "injury_description": "minor foot injury (injuries not discussed in detail in the judgment)",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": 70000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13461,
+      "output_tokens": 4896,
+      "reasoning_tokens": 3392,
+      "total_tokens": 18357
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 31617.116417037323,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13461,
+      "output_tokens": 4896,
+      "reasoning_tokens": 3392,
+      "total_tokens": 18357
+    },
+    "total_duration_ms": 31617.116417037323
+  }
+}

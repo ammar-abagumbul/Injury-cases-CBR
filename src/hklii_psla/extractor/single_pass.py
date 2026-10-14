@@ -7,7 +7,9 @@ failures can be inspected without losing the raw model response.
 
 After successful Stage 1 extraction, an optional Stage 2 classifies each
 extracted injury with an ICD-11 code by interactively navigating the
-ICD-11 taxonomy tree.
+ICD-11 taxonomy tree. Stage 3 maps each extracted surgical procedure to the
+VMIS Schedule of Surgical Procedures (complexity tier), or leaves it null when
+the procedure is not in the schedule.
 """
 
 from __future__ import annotations
@@ -37,7 +39,13 @@ from hklii_psla.extractor.utils import (
     build_structured_output_error,
     extract_token_counts,
 )
-from hklii_psla.schemas import Case, Injury
+from hklii_psla.extractor.vmis_classifier import (
+    VmisClassificationError,
+    aclassify_treatments,
+    classify_treatments,
+    load_vmis_tree,
+)
+from hklii_psla.schemas import Case, Injury, Treatment, TreatmentItem
 
 logger = logging.getLogger(__name__)
 
@@ -60,21 +68,30 @@ class SinglePassExtractor(BaseExtractor):
             self._attach_metadata(result)
             return result
 
-        injuries = result.case.injuries.injuries
-
-        if not injuries:
-            self._attach_metadata(result)
-            return result
+        errors: list[str] = []
 
         # Stage 2: ICD-11 classification
-        try:
-            classified_injuries, stage2_tc = self._stage2_classify(injuries)
-            result.case.injuries.injuries = classified_injuries
-            result.token_count = result.token_count + stage2_tc
-        except ICDClassificationError as exc:
-            result.error = (
-                f"Stage 2 ICD-11 classification failed: {exc}"
-            )
+        injuries = result.case.injuries.injuries
+        if injuries:
+            try:
+                classified_injuries, stage2_tc = self._stage2_classify(injuries)
+                result.case.injuries.injuries = classified_injuries
+                result.token_count = result.token_count + stage2_tc
+            except ICDClassificationError as exc:
+                errors.append(f"Stage 2 ICD-11 classification failed: {exc}")
+
+        # Stage 3: VMIS classification of surgical treatments
+        treatment = result.case.treatment
+        if any(t.is_surgical for t in treatment.treatments_received + treatment.treatments_future):
+            try:
+                received, future, stage3_tc = self._stage3_classify(treatment)
+                treatment.treatments_received, treatment.treatments_future = received, future
+                result.token_count = result.token_count + stage3_tc
+            except VmisClassificationError as exc:
+                errors.append(f"Stage 3 VMIS classification failed: {exc}")
+
+        if errors:
+            result.error = "; ".join(errors)
 
         self._attach_metadata(result)
         return result
@@ -92,21 +109,30 @@ class SinglePassExtractor(BaseExtractor):
             self._attach_metadata(result)
             return result
 
-        injuries = result.case.injuries.injuries
-
-        if not injuries:
-            self._attach_metadata(result)
-            return result
+        errors: list[str] = []
 
         # Stage 2: ICD-11 classification
-        try:
-            classified_injuries, stage2_tc = await self._astage2_classify(injuries)
-            result.case.injuries.injuries = classified_injuries
-            result.token_count = result.token_count + stage2_tc
-        except ICDClassificationError as exc:
-            result.error = (
-                f"Stage 2 ICD-11 classification failed: {exc}"
-            )
+        injuries = result.case.injuries.injuries
+        if injuries:
+            try:
+                classified_injuries, stage2_tc = await self._astage2_classify(injuries)
+                result.case.injuries.injuries = classified_injuries
+                result.token_count = result.token_count + stage2_tc
+            except ICDClassificationError as exc:
+                errors.append(f"Stage 2 ICD-11 classification failed: {exc}")
+
+        # Stage 3: VMIS classification of surgical treatments
+        treatment = result.case.treatment
+        if any(t.is_surgical for t in treatment.treatments_received + treatment.treatments_future):
+            try:
+                received, future, stage3_tc = await self._astage3_classify(treatment)
+                treatment.treatments_received, treatment.treatments_future = received, future
+                result.token_count = result.token_count + stage3_tc
+            except VmisClassificationError as exc:
+                errors.append(f"Stage 3 VMIS classification failed: {exc}")
+
+        if errors:
+            result.error = "; ".join(errors)
 
         self._attach_metadata(result)
         return result
@@ -352,3 +378,32 @@ class SinglePassExtractor(BaseExtractor):
             icd_tree,
             max_concurrency=settings.MAX_CONCURRENT_REQUESTS,
         )
+
+    def _stage3_classify(
+        self,
+        treatment: Treatment,
+    ) -> tuple[list[TreatmentItem], list[TreatmentItem], TokenCount]:
+        """Map surgical treatments (received and future) to VMIS entries and tiers."""
+        vmis_tree = load_vmis_tree(settings.DATA_DIR / "VMIS.json")
+        items = treatment.treatments_received + treatment.treatments_future
+
+        classified, tc = classify_treatments(self.model, items, vmis_tree)
+        n = len(treatment.treatments_received)
+        return classified[:n], classified[n:], tc
+
+    async def _astage3_classify(
+        self,
+        treatment: Treatment,
+    ) -> tuple[list[TreatmentItem], list[TreatmentItem], TokenCount]:
+        """Async twin of :meth:`_stage3_classify`."""
+        vmis_tree = load_vmis_tree(settings.DATA_DIR / "VMIS.json")
+        items = treatment.treatments_received + treatment.treatments_future
+
+        classified, tc = await aclassify_treatments(
+            self.model,
+            items,
+            vmis_tree,
+            max_concurrency=settings.MAX_CONCURRENT_REQUESTS,
+        )
+        n = len(treatment.treatments_received)
+        return classified[:n], classified[n:], tc

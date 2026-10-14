@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 615",
+    "action_number": "DCPI 470/2014",
+    "case_name": "CHANG LOK KUAN ROCKY v. GERMAN POOL KITCHEN EQUIPMENT LIMITED",
+    "judgment_date": "2018-06-06",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 41,
+    "age_at_trial": null,
+    "occupation_before": "marketing and sales manager in his family business",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "laceration over his right inner thigh",
+        "injury_type": "Temporary injury",
+        "body_part": "right inner thigh",
+        "laterality": "right",
+        "source": [
+          "there was laceration over his right inner thigh. Suturing was performed on the wound and the plaintiff was discharged with analgesics."
+        ],
+        "icd_code": "NC71.0",
+        "icd_description": "Laceration without foreign body of hip or thigh"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "right hand abrasion",
+        "injury_type": "Temporary injury",
+        "body_part": "right hand",
+        "laterality": "right",
+        "source": [
+          "medical notes taken at the time of the consultation did note that there was right hand abrasion."
+        ],
+        "icd_code": "NC51.1Y",
+        "icd_description": "Other specified superficial injury of other parts of wrist or hand"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Bleeding from the right thigh wound",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "1 cm scar on his right inner thigh",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Suturing of right inner thigh wound",
+        "is_surgical": true,
+        "source": [
+          "Suturing was performed on the wound and the plaintiff was discharged with analgesics."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Suture of wound on skin",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Analgesics (pain medication) prescribed at A&E",
+        "is_surgical": false,
+        "source": [
+          "He was prescribed with analgesics and was discharged after treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Anti-tetanus toxoid injection (government outpatient clinic)",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff attended a government outpatient clinic for anti-tetanus toxoid injection in June 2012 and April 2013."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy (eight sessions in January 2014)",
+        "is_surgical": false,
+        "source": [
+          "According to the physiotherapy report provided by the centre, the plaintiff ... The plaintiff underwent eight sessions of physiotherapy treatment in that month."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 1,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 0,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "1 cm scar on his right inner thigh",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Prior to his accident, the plaintiff enjoyed jogging in the park. After the accident, he seldom goes jogging due to pain on his right thigh and right forefoot.",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 30000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lee Fu Wah v Hoffman",
+        "neutral_citation": "DCPI 2390/2011",
+        "action_number": null,
+        "injury_description": "dog attacks resulting in abrasion, laceration wounds or puncture wounds",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      },
+      {
+        "case_name": "Kumara Debanama v Lui Pui Wai",
+        "neutral_citation": "[2016] 4 HKLRD 501",
+        "action_number": null,
+        "injury_description": "dog attacks resulting in abrasion, laceration wounds or puncture wounds",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 19843,
+      "output_tokens": 4826,
+      "reasoning_tokens": 3648,
+      "total_tokens": 24669
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 26543.427334167063,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 19843,
+      "output_tokens": 4826,
+      "reasoning_tokens": 3648,
+      "total_tokens": 24669
+    },
+    "total_duration_ms": 26543.427334167063
+  }
+}

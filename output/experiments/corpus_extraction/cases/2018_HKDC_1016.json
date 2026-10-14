@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1016",
+    "action_number": "DCPI 1697/2015",
+    "case_name": "WONG ELEVEN v. CHINA WAY TRANSPORTATION LTD AND ANOTHER",
+    "judgment_date": "2018-08-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": true
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": 40,
+    "occupation_before": "Driver for various charitable organizations; part-time camp instructor for The Hong Kong Federation of Youth Groups (teaching adventure courses); self-employed van driver cum delivery worker",
+    "occupation_after": "Resumed first two part-time jobs with some modification of duties",
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injury to the neck (sprain neck) with residual mild neck and left upper trapezius pain",
+        "injury_type": "Residual disability",
+        "body_part": "neck and left upper trapezius",
+        "laterality": "left",
+        "source": [
+          "The provisional diagnosis was sprain neck.",
+          "Dr. Lam’s diagnosis was soft tissue injury to the neck"
+        ],
+        "icd_code": "NA23.4Y",
+        "icd_description": "Other specified strain or sprain of cervical spine"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness at the left trapezius muscle at the neck.",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Neck pain (residual mild neck and left upper trapezius pain).",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Muscle guarding over the left cervical paraspinal muscle and left upper trapezius",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "No neurological or radiculopathy symptoms",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "A&E attendance and ambulance transfer to North District Hospital",
+        "is_surgical": false,
+        "source": [
+          "After the accident, the plaintiff was sent to A&E Department (“A&E”) of the North District Hospital (“NDH”) by ambulance from the scene[16]."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Analgesic",
+        "is_surgical": false,
+        "source": [
+          "He was treated with analgesic, and a neck collar given[17]."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Neck collar",
+        "is_surgical": false,
+        "source": [
+          "He was treated with analgesic, and a neck collar given[17]."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Three days' sick leave (granted on discharge)",
+        "is_surgical": false,
+        "source": [
+          "He was discharged on the same day with three days of sick leave granted.[18]"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 3,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Residual neck and left upper trapezius pain may cause him minor discomfort and diminish his enjoyment of some of these sports or outdoor activities",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 120000.0,
+    "comparable_cases": [
+      {
+        "case_name": "So Kim Lung v Lee Pak Wai",
+        "neutral_citation": "HCPI 494/2010",
+        "action_number": null,
+        "injury_description": "Lower back and neck injury with no neurological deficit or bony fracture; court accepted 0.5% residual mild pain and ache at the neck and lower back; 6 months' sick leave was granted in that case",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Chan Kin Man v Cheuk Siu Tong",
+        "neutral_citation": null,
+        "action_number": "DCPI 1970/2008",
+        "injury_description": "Sprained injuries to neck and back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 4,
+        "comparison": "less serious",
+        "psla_amount": 50000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 14984,
+      "output_tokens": 4894,
+      "reasoning_tokens": 3456,
+      "total_tokens": 19878
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 30634.073375025764,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 14984,
+      "output_tokens": 4894,
+      "reasoning_tokens": 3456,
+      "total_tokens": 19878
+    },
+    "total_duration_ms": 30634.073375025764
+  }
+}

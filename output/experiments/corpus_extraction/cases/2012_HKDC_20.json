@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "neutral_citation": "[2012] HKDC 20",
+    "action_number": "DCPI 145/2010",
+    "case_name": "WONG KA WAI JOHNNY v. LEE MAN WAI",
+    "judgment_date": "2012-01-16",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 29,
+    "occupation_before": "Security officer (security guard)",
+    "occupation_after": "Unemployed",
+    "expected_occupation_after": null,
+    "salary_before": 8400.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Completed F.5"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "Tenderness and bruising on right knee",
+        "injury_type": "Temporary injury",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "tenderness and bruising on his right knee.",
+          "mild bruising and tenderness over his right knee"
+        ],
+        "icd_code": "NC90.1",
+        "icd_description": "Contusion of knee"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Adjustment Disorder with Mixed Anxiety and Depressive Mood",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "Adjustment Disorder with Mixed Anxiety and Depressive Mood (Code 309.0)"
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Post-traumatic Stress Disorder (PTSD)",
+        "injury_type": "Residual disability",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "PTSD (Code 309.81)",
+          "symptoms suggestive of Post-traumatic Stress Disorder (“PTSD”)."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness and bruising on his right knee",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Insomnia / poor sleep",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Flashbacks of the Assault",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "Apprehension / anxiety about work; fear of being attacked",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Depressed mood; mood remained depressed",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Unable to concentrate on his work",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Social withdrawal / loss of social life; appeared rather withdrawn socially",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Suicidal idea (noted on presentation to A&E)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "Nightmares (less nightmares and occasional flashback reported)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Attendance and treatment at Accident & Emergency Department of Princess Margaret Hospital; discharged with analgesic",
+        "is_surgical": false,
+        "source": [
+          "he was sent to Princess Margaret Hospital by an ambulance for treatment",
+          "he was discharged from the hospital with analgesic on the day of the Assault, according to the medical report of Dr. Chu of the Accident & Emergency Department of Princess Margaret Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Admission to Kwai Chung Hospital for management of aggressive behaviour / psychiatric management",
+        "is_surgical": false,
+        "source": [
+          "He was then sent to Kwai Chung Hospital for further management.",
+          "he was hospitalized for 6 days."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Referral to Li Ka Shing Outpatient Clinic for psychiatric follow-up",
+        "is_surgical": false,
+        "source": [
+          "He was then referred to Li Ka Shing Outpatient Clinic.",
+          "he was diagnosed as Adjustment Disorder and would require further psychological treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Attendance and follow-up at Prince of Wales Hospital psychiatric services and clinical psychologist input",
+        "is_surgical": false,
+        "source": [
+          "He was later referred to Prince of Wales Hospital.",
+          "further biweekly follow-up treatment by both psychiatrist and clinical psychologist for six months is considered necessary."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Consultation at Caritas Medical Centre (CMC) with medication and 3 days' sick leave on one occasion",
+        "is_surgical": false,
+        "source": [
+          "After work he went to Caritas Medical Centre (“CMC”) for treatment. He was given 3 days’ sick leave and he was advised to seek follow-up treatment at Lee Ka Shing Outpatient Clinic with an appointment fixed on 9 June 2010.",
+          "In his medical report dated 2 April 2009, Dr Fung of CMC recorded that on 9 February 2009 Johnny Wong complained ... He was given reassurance and discharged with medication."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 6,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 112,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of social life",
+        "description": "Social life seriously affected; appeared rather withdrawn socially; loss of interest in gatherings",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of confidence in going out in the public",
+        "description": "He did not want to go anywhere near the Development again; fearful and worried when encountering the defendant",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Less willing to work night shift; fearful of being attacked as a security guard; resigned and did not take up gainful employment after resignation",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of ability to enjoy quiet or solitude",
+        "description": "Persistent anxiety, uptight state of mind and inability to relax or enjoy previous activities",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Lau Yuk Sum v Wong Yuk Chun",
+        "neutral_citation": null,
+        "action_number": "DCPI 107/2004",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Poon Yat Chiu v AES Scaffold Engineering Limited",
+        "neutral_citation": null,
+        "action_number": "DCPI 223/2005",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      },
+      {
+        "case_name": "Wong Fung Nui v Leung Yat Ho & Anor.",
+        "neutral_citation": null,
+        "action_number": "DCPI 455/2006",
+        "injury_description": null,
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": null,
+        "psla_amount": null
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 15359,
+      "output_tokens": 6156,
+      "reasoning_tokens": 3904,
+      "total_tokens": 21515
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 38057.19783320092,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 15359,
+      "output_tokens": 6156,
+      "reasoning_tokens": 3904,
+      "total_tokens": 21515
+    },
+    "total_duration_ms": 38057.19783320092
+  }
+}

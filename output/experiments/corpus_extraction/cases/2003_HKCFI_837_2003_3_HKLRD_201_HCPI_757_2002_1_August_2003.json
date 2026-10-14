@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "neutral_citation": "[2003] HKCFI 837; [2003] 3 HKLRD 201; HCPI 757/2002 (1 August 2003)",
+    "action_number": "HCPI 757/2002",
+    "case_name": "FUNG KWOK KI v. WING SANG CONSTRUCTION CO LTD AND OTHERS",
+    "judgment_date": "2003-08-01",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 38,
+    "age_at_trial": 41,
+    "occupation_before": "Lift Technician II employed by Ryoden Elevator Co. Ltd.",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 18586.18,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "permanent residual brain damage in the form of impaired higher mental functions including dysarthria, dysphagia and mild upper limb dysfunction",
+        "injury_type": "Permanent injury",
+        "body_part": "head / brain",
+        "laterality": null,
+        "source": [
+          "After a prolonged period of surgical and medical treatment, the plaintiff has made a partial recovery and is left with permanent residual brain damage in the form of impaired higher mental functions including dysarthria, dysphagia and mild upper limb dysfunction."
+        ],
+        "icd_code": "NA07.33",
+        "icd_description": "Diffuse injury of multiple parts of brain"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "Contusion injuries to his head, neck and front chest wall",
+        "injury_type": "Temporary injury",
+        "body_part": "head, neck and front chest wall",
+        "laterality": null,
+        "source": [
+          "He suffered contusion injuries to his head, neck and front chest wall."
+        ],
+        "icd_code": null,
+        "icd_description": null
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "Thoracic spinal injury with paralysis; spinal cord damage at T7 level (complete spinal cord injury)",
+        "injury_type": "Permanent injury",
+        "body_part": "thoracic spinal cord (T7)",
+        "laterality": null,
+        "source": [
+          "The clinical diagnosis was head injury, thoracic spinal injury with paralysis and fracture of left femur.",
+          "His neurogenic urinary and bowel disturbance are caused by the spinal cord damage at T7 level, and like his paraplegia, will be permanent.",
+          "Physical examination showed tetraplegia with signs of complete spinal cord injury."
+        ],
+        "icd_code": "NA91.0",
+        "icd_description": "Complete lesion of thoracic spinal cord"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "Fracture of left femur",
+        "injury_type": "Temporary injury",
+        "body_part": "left femur",
+        "laterality": "left",
+        "source": [
+          "The clinical diagnosis was head injury, thoracic spinal injury with paralysis and fracture of left femur.",
+          "He had internal fixation of his spine and left femur."
+        ],
+        "icd_code": "NC72.Z",
+        "icd_description": "Fracture of femur, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "dysarthria",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "dysphagia",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild upper limb dysfunction",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "unconscious on admission; deep coma with Glasgow Coma Score of 3/15",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "vegetative state then improved to Glasgow Coma Score of 12-13/15",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "tetraplegia with signs of complete spinal cord injury",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "paraplegia (no recovery)",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "double incontinence (neurogenic urinary and bowel disturbance)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neuropathic bladder with poor or uncoordinated detrusor contraction and without any sensation of filling or distension; managed by Clean Intermittent Catheterisation five times daily",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neuropathic impotence (permanent)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "severe pressure (back) sores requiring multiple debridement and Gluteal maximus myocutaneous flap (surgical wound later broke down)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "permanently wheelchair-bound",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": "Gross disability"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Admission to Accident and Emergency Department; resuscitation; intubation; intravenous infusion; neck collar and spine board",
+        "is_surgical": false,
+        "source": [
+          "He was admitted into the Accident and Emergency Department of Kwong Wah Hospital immediately after the accident on 5 July 2000. ... Resuscitation was carried out. He was given intubation, intravenous infusion, neck collar and spine board."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Admission to Intensive Care Unit under orthopaedic department",
+        "is_surgical": false,
+        "source": [
+          "He was admitted to Intensive Care Unit under orthopaedic department for further management."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Internal fixation of spine and left femur",
+        "is_surgical": true,
+        "source": [
+          "He stayed in ICU until 24 July and had internal fixation of his spine and left femur.",
+          "He had internal fixation of his spine and left femur."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Spine",
+        "vmis_procedure": "Posterior spinal fusion with instrumentation",
+        "vmis_category": "Complex"
+      },
+      {
+        "treatment": "Multiple debridement of pressure sores; frequent dressings and debridements",
+        "is_surgical": true,
+        "source": [
+          "He developed severe back sore problem. He received multiple debridement to his sores without much improvement.",
+          "However, the surgical wound broke down later and he was treated with frequent dressings and debridements with gradual improvement."
+        ],
+        "vmis_system": "SKIN AND BREAST",
+        "vmis_region": "Skin",
+        "vmis_procedure": "Local excision or destruction of lesion or tissue of skin and subcutaneous tissue",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Gluteal maximus myocutaneous flap (25 October 2000)",
+        "is_surgical": true,
+        "source": [
+          "Orthopaedic surgeons performed Gluteal maximus myocutaneous flap on him on 25 October 2000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Percutaneous release for triggering contracted left middle finger (3 September 2001)",
+        "is_surgical": true,
+        "source": [
+          "In August 2001, he was transferred back to Kwong Wah Hospital Orthopaedic Department for his triggering contracted left middle finger. Percutaneous release was done on 3 September 2001."
+        ],
+        "vmis_system": "MUSCULOSKELETAL SYSTEM",
+        "vmis_region": "Muscle / Tendon",
+        "vmis_procedure": "Release of trigger finger",
+        "vmis_category": "Minor"
+      },
+      {
+        "treatment": "Transfer to Wong Tai Sin Hospital for further rehabilitation (13 July 2001)",
+        "is_surgical": false,
+        "source": [
+          "As his condition was stable, he was transferred to Wong Tai Sin Hospital for further rehabilitation on 13 July 2001."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Rehabilitation and speech therapy; speech therapy sessions",
+        "is_surgical": false,
+        "source": [
+          "He was transferred ... for further rehabilitation and speech therapy before being finally discharged home on 26 April 2002.",
+          "Cost of Speech Therapy ..."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Clean Intermittent Catheterisation five times daily",
+        "is_surgical": false,
+        "source": [
+          "He is being managed by Clean Intermittent Catheterisation five times daily."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Use of laxatives and suppositories for bowel management",
+        "is_surgical": false,
+        "source": [
+          "His bowel problem needs to have continued management with laxative and suppositories."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": null,
+    "expected_hospitalisation_days": null,
+    "operations_count": null,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 36,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of family life",
+        "description": "Loss of society of the plaintiff by his wife (statutory amount allowed)",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "Full loss of earnings; plaintiff will never be able to work again",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of independence",
+        "description": "Now permanently wheelchair-bound and requires full time care",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of sexual function and sexual life",
+        "description": "Neuropathic impotence is permanent",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "Permanent inability to use lower limbs; permanently wheelchair-bound",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Impaired higher mental functions",
+        "caused_by_injury_id": "inj_001"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1500000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23950,
+      "output_tokens": 9451,
+      "reasoning_tokens": 6912,
+      "total_tokens": 33401
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 50921.72958399169,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23950,
+      "output_tokens": 9451,
+      "reasoning_tokens": 6912,
+      "total_tokens": 33401
+    },
+    "total_duration_ms": 50921.72958399169
+  }
+}

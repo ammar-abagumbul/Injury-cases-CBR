@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "neutral_citation": "[2018] HKDC 1510",
+    "action_number": "DCPI 2105/2016",
+    "case_name": "SATTAR K.A. v. GOODRICH TRANSPORTATION (HK) LTD AND ANOTHER",
+    "judgment_date": "2018-12-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": null,
+    "age_at_accident": null,
+    "age_at_trial": null,
+    "occupation_before": "Worker responsible for delivery of goods (delivery worker) employed by Goodrich; also employed by Aerial Enterprises (HK) Limited",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": 21117.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "fracture of right lower fibula",
+        "injury_type": "Residual disability",
+        "body_part": "right lower fibula / right ankle",
+        "laterality": "right",
+        "source": [
+          "X-ray of his right ankle showed fracture of right lower fibula.",
+          "He only had mild soft tissue residue of right ankle pain and stiffness after the fracture of fibula."
+        ],
+        "icd_code": "ND1Y",
+        "icd_description": "Other specified injuries to the ankle or foot"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "Tenderness and swelling over right lateral malleolus and right lower fibula",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Mild ankle pain on prolonged walking and standing",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "Range of motion of right ankle mildly reduced (5º difference between left and right ankles in pointing toes upwards and pointing toes downwards)",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": "inj_001"
+      }
+    ],
+    "overall_category": "Non-serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Attendance at Accident & Emergency; admission to orthopaedic ward; short leg dynacast",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff attended the Accident & Emergency Department of Queen Elizabeth Hospital (“QEH”) for medical attention and treatment on the day of the Accident.",
+          "The plaintiff was subsequently admitted to the orthopedic ward on the same day.",
+          "The plaintiff was given a short leg dynacast for protection of his right ankle fracture at the orthopedics & traumatology department at QEH and was discharged after 3 days in the hospital on 22 October 2013."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Follow-up treatments and physiotherapy (about 16-17 visits)",
+        "is_surgical": false,
+        "source": [
+          "he had attended follow-up treatments and physiotherapy for about 16-17 times, each visit costing about HK$60."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 3,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": null,
+    "sick_leave_days_actual": 122,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": []
+  },
+  "psla": {
+    "amount": 200000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Wong Ka Pang v Wong Chun Wang",
+        "neutral_citation": null,
+        "action_number": "HCPI 644/1998",
+        "injury_description": "Fracture to his ankle and a torn ligament. He no longer plays football.",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Leung See Ning Clara v Shun Tak Property Management Ltd",
+        "neutral_citation": null,
+        "action_number": "DCPI 625/2003",
+        "injury_description": "Fracture of the left distal fibula. Open reduction and internal fixation were performed and she had another operation to remove the screw and metal plate. Occasional mild pain at the fracture site. Scar at her ankle measured 8.5 cm long.",
+        "hospitalisation_days": null,
+        "operations_count": 2,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 230000.0
+      },
+      {
+        "case_name": "Tamang Tikaram v Tong Kee Company Limited",
+        "neutral_citation": null,
+        "action_number": "HCPI 19/2013",
+        "injury_description": "Minimally displaced fracture of the right medial malleolus. Did not undergo any operation. Given a short leg dynacast worn for about seven weeks. Received physiotherapy and occupational therapy. Degree of pain unlikely significant and able to resume pre-injury job.",
+        "hospitalisation_days": 3,
+        "operations_count": 0,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 200000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 12431,
+      "output_tokens": 4449,
+      "reasoning_tokens": 3072,
+      "total_tokens": 16880
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 28829.74045793526,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 12431,
+      "output_tokens": 4449,
+      "reasoning_tokens": 3072,
+      "total_tokens": 16880
+    },
+    "total_duration_ms": 28829.74045793526
+  }
+}

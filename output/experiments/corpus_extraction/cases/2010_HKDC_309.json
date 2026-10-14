@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "neutral_citation": "[2010] HKDC 309",
+    "action_number": "DCPI 57/2010",
+    "case_name": "HO KIN LON v. WONG TIN CHI AND ANOTHER",
+    "judgment_date": "2010-12-22",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 26,
+    "age_at_trial": 28,
+    "occupation_before": "Waiter",
+    "occupation_after": "Bar Tender",
+    "expected_occupation_after": null,
+    "salary_before": 12000.0,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": "Form 5 level"
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "soft tissue injuries of the neck",
+        "injury_type": "Residual disability",
+        "body_part": "neck",
+        "laterality": null,
+        "source": [
+          "The plaintiff sustained soft tissue injuries of the neck, right thigh and right knee. There were also abrasions to the right leg."
+        ],
+        "icd_code": "NA61.0",
+        "icd_description": "Strain or sprain of muscle, fascia or tendon at neck level"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "soft tissue injuries of the right thigh",
+        "injury_type": "Residual disability",
+        "body_part": "right thigh",
+        "laterality": "right",
+        "source": [
+          "The plaintiff sustained soft tissue injuries of the neck, right thigh and right knee. There were also abrasions to the right leg."
+        ],
+        "icd_code": "NC76.Z",
+        "icd_description": "Injury of unspecified muscle, fascia, tendon or bursa at hip or thigh level"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "soft tissue injuries of the right knee",
+        "injury_type": "Residual disability",
+        "body_part": "right knee",
+        "laterality": "right",
+        "source": [
+          "The plaintiff sustained soft tissue injuries of the neck, right thigh and right knee. There were also abrasions to the right leg."
+        ],
+        "icd_code": "NC93.7",
+        "icd_description": "Strain or sprain of other or unspecified parts of knee"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "abrasions to the right leg",
+        "injury_type": "Temporary injury",
+        "body_part": "right leg",
+        "laterality": "right",
+        "source": [
+          "Abrasions were noted over his right thigh and leg.",
+          "There were also abrasions to the right leg."
+        ],
+        "icd_code": "NC70.2",
+        "icd_description": "Abrasion of thigh"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "right hand pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "right knee pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "neck pain",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "tenderness was elicited over right cervical back",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "mild tenderness over left side paraspinal muscles of cervical spine",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "abrasions over his right thigh and leg",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "scars in the right lower limb were well healed",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "range of movement of the neck was satisfactorily preserved",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "no ligament or meniscal abnormality was noted in the right knee; the range of movement of the right knee was good",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_003"
+      }
+    ],
+    "overall_category": null
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Accident and Emergency treatment at Kwong Wah Hospital by ambulance",
+        "is_surgical": false,
+        "source": [
+          "Immediately after the accident on 7 January 2009, the plaintiff was sent to the Accident and Emergency Department of Kwong Wah Hospital (“KWH”) by ambulance for immediate treatment."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "X-ray films of cervical spines",
+        "is_surgical": false,
+        "source": [
+          "X-ray films of cervical spines were unremarkable."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Discharged same day with 3 days sick leave (7 January 2009 to 9 January 2009)",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff was treated and discharged on the same day with 3 days sick leave granted to him by KWH for the period from 7 January 2009 to 9 January 2009."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Outpatient treatment at UMP Medical Centre (Tung Chung) under Dr. Lawrence C.F. Wong on 9 January 2009 and 14 January 2009",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff attended UMP Medical Centre (Tung Chung) under the care of Dr. Lawrence C.F. Wong for further treatment on 9 January 2009 and 14 January 2009 respectively."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "5 days sick leave (10 January 2009 to 12 January 2009 and 15 January 2009 to 16 January 2009)",
+        "is_surgical": false,
+        "source": [
+          "5 days sick leaves were granted to the plaintiff for the period from 10 January 2009 to 12 January 2009 and from 15 January 2009 to 16 January 2009."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Attendance at Tung Chung General Outpatient Clinic several times since 12 January 2009",
+        "is_surgical": false,
+        "source": [
+          "Since 12 January 2009, the plaintiff had attended Tung Chung General Outpatient Clinic several times for further treatment because of residual right leg pain and neck pain."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Referral to physiotherapy department at Princess Margaret Hospital",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff was then referred to the physiotherapy department at Princess Margaret Hospital for treatment due to residual neck pain."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy (2 sessions) at Princess Margaret Hospital",
+        "is_surgical": false,
+        "source": [
+          "The plaintiff received 2 sessions of physiotherapy treatment at Princess Margaret Hospital."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Total sick leave granted: 15 days",
+        "is_surgical": false,
+        "source": [
+          "As a result of the accident, the plaintiff had been given in total 15 days sick leaves."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Medical expenses $350.00 (special damages claim)",
+        "is_surgical": false,
+        "source": [
+          "Medical expenses $350.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Travelling expense $300.00 (special damages claim)",
+        "is_surgical": false,
+        "source": [
+          "Travelling expense $300.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Nourishing food $2,000.00 (allowed as special damages)",
+        "is_surgical": false,
+        "source": [
+          "Nourishing food $2,000.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Repairing costs for MH1531 $8,877.00 (special damages claim allowed)",
+        "is_surgical": false,
+        "source": [
+          "Repairing costs for MH1531 $8,877.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Survey report fee $800.00 (special damages claim)",
+        "is_surgical": false,
+        "source": [
+          "Survey report fee $800.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Towing fee $550.00 (special damages claim)",
+        "is_surgical": false,
+        "source": [
+          "Towing fee $550.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Parking fee $240.00 (special damages claim)",
+        "is_surgical": false,
+        "source": [
+          "Parking fee ($310/31 x 24 days) $240.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Damaged mobile phone $3,280.00 (special damages claim allowed)",
+        "is_surgical": false,
+        "source": [
+          "Damaged mobile phone $3,280.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Helmet, gloves and jacket $3,005.00 (special damages claim allowed)",
+        "is_surgical": false,
+        "source": [
+          "Helmet, gloves and jacket $3,005.00"
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [],
+    "hospitalisation_days": 0,
+    "expected_hospitalisation_days": null,
+    "operations_count": 0,
+    "future_operations_count": 0,
+    "sick_leave_days_actual": 15,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Work efficiency would be affected by mild residual pain and stiffness over his neck, affecting concentration and ability to work for extended periods.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Work efficiency would be affected by mild residual pain and stiffness over his right leg and he might experience difficulties when lifting heavy objects.",
+        "caused_by_injury_id": "inj_003"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 100000.0,
+    "comparable_cases": [
+      {
+        "case_name": "Tai Yuk Wong v. Chong Kwok Fung & Another",
+        "neutral_citation": null,
+        "action_number": "DCPI 1405/2005",
+        "injury_description": "whiplash injury in the form of soft tissue injury of muscles and ligaments to the plaintiff’s neck",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "more serious",
+        "psla_amount": 150000.0
+      },
+      {
+        "case_name": "Lau Chu Wing v. Law Wai Shing & Others",
+        "neutral_citation": null,
+        "action_number": "DCPI 1389/2007",
+        "injury_description": "mild soft tissue injury to his neck and back",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": 16,
+        "comparison": null,
+        "psla_amount": 120000.0
+      },
+      {
+        "case_name": "Chan Siu Youn v. Ng Kam Man & Others",
+        "neutral_citation": null,
+        "action_number": "HCPI 533/1999",
+        "injury_description": "a sprain neck out of a traffic accident causing intermittent neck pain",
+        "hospitalisation_days": null,
+        "operations_count": null,
+        "sick_leave_days": null,
+        "comparison": "similar or same",
+        "psla_amount": 100000.0
+      }
+    ]
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 13907,
+      "output_tokens": 10529,
+      "reasoning_tokens": 6976,
+      "total_tokens": 24436
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 56549.08183286898,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 13907,
+      "output_tokens": 10529,
+      "reasoning_tokens": 6976,
+      "total_tokens": 24436
+    },
+    "total_duration_ms": 56549.08183286898
+  }
+}

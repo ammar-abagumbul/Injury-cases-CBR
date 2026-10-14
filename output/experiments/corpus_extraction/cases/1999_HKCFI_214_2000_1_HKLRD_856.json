@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "neutral_citation": "[1999] HKCFI 214; [2000] 1 HKLRD 856",
+    "action_number": "HCPI No. 763/97",
+    "case_name": "WONG HIN PUI v. MOK YING KIT AND ANOTHER",
+    "judgment_date": "1999-12-21",
+    "plaintiff_count": 1,
+    "has_pre_existing_injuries": false
+  },
+  "plaintiff": {
+    "gender": "Male",
+    "age_at_accident": 32,
+    "age_at_trial": 37,
+    "occupation_before": "decorator",
+    "occupation_after": null,
+    "expected_occupation_after": null,
+    "salary_before": null,
+    "salary_after": null,
+    "expected_salary_after": null,
+    "education_level": null
+  },
+  "injuries": {
+    "injuries": [
+      {
+        "injury_id": "inj_001",
+        "description": "serious injury to his head; intracranial haematomas",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "He had sustained a serious injury to his head which ought to have been apparent to those at the Tai Po clinic who had kept him waiting and then sent him home.",
+          "He had two operations carried out on his head including evacuation of haematomas which had built up within his skull."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      },
+      {
+        "injury_id": "inj_002",
+        "description": "left-side hemiplaegia",
+        "injury_type": "Permanent injury",
+        "body_part": "left side",
+        "laterality": "left",
+        "source": [
+          "He developed a left-side hemiplaegia and epileptiform attacks requiring anti-convulsant treatment."
+        ],
+        "icd_code": "NA07.4",
+        "icd_description": "Focal brain injury"
+      },
+      {
+        "injury_id": "inj_003",
+        "description": "epileptiform attacks / seizure disorder requiring anti-convulsant treatment",
+        "injury_type": "Permanent injury",
+        "body_part": null,
+        "laterality": null,
+        "source": [
+          "He developed a left-side hemiplaegia and epileptiform attacks requiring anti-convulsant treatment.",
+          "He is currently taking Tegretol, Phenytoin and Epilim for this condition."
+        ],
+        "icd_code": "8A60.5",
+        "icd_description": "Epilepsy due to injuries to the head"
+      },
+      {
+        "injury_id": "inj_004",
+        "description": "significant cosmetic defect (residual from skull surgery)",
+        "injury_type": "Permanent injury",
+        "body_part": "head",
+        "laterality": null,
+        "source": [
+          "About one year after his discharge from convalescent hospital a cranioplasty was carried out.",
+          "He is nonetheless left with a significant cosmetic defect of which he tries to make light as much as he can, because he is such a patently decent, likeable, honest and philosophical man."
+        ],
+        "icd_code": null,
+        "icd_description": "Injuries to the head"
+      },
+      {
+        "injury_id": "inj_005",
+        "description": "significant cognitive deficit",
+        "injury_type": "Permanent injury",
+        "body_part": "brain / cognitive function",
+        "laterality": null,
+        "source": [
+          "There is also a significant cognitive deficit as attested to by Professor Peter Lee and I do not need to detail this."
+        ],
+        "icd_code": "NA07.Z",
+        "icd_description": "Intracranial injury, unspecified"
+      }
+    ],
+    "manifestations": [
+      {
+        "description": "left-sided hemiparesis affects his arms particularly severely; when the left hand grips, he needs to lever it open to release that grip; it has no capacity for fine movements",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "description": "regular epileptiform seizures or convulsions which are focal in nature; sometimes he gets warning but not always; their incidence has diminished over the past two years",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_003"
+      },
+      {
+        "description": "unable to respond to any verbal contact for a further week (post-accident acute state)",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "description": "significant cognitive deficit",
+        "manifestation_type": "neurological_deficit",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "description": "significant cosmetic defect",
+        "manifestation_type": "sign",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "description": "post-concussional disorder / post-concussional syndrome and depressive disorder / dysthymic disorders (psychiatric diagnoses given by experts)",
+        "manifestation_type": "symptom",
+        "caused_by_injury_id": null
+      },
+      {
+        "description": "considered unemployable on the open market by Dr Choa 'On the basis of his physical and neurological deficits, Dr Choa considers him to be unemployable on the open market.'",
+        "manifestation_type": "functional_deficit",
+        "caused_by_injury_id": null
+      }
+    ],
+    "overall_category": "Serious injury"
+  },
+  "treatment": {
+    "treatments_received": [
+      {
+        "treatment": "Two operations on his head including evacuation of haematomas",
+        "is_surgical": true,
+        "source": [
+          "He had two operations carried out on his head including evacuation of haematomas which had built up within his skull."
+        ],
+        "vmis_system": "BRAIN AND NERVOUS SYSTEM",
+        "vmis_region": "Brain",
+        "vmis_procedure": "Burr hole(s)",
+        "vmis_category": "Intermediate"
+      },
+      {
+        "treatment": "Cranioplasty (about one year after discharge from convalescent hospital)",
+        "is_surgical": true,
+        "source": [
+          "About one year after his discharge from convalescent hospital a cranioplasty was carried out."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Intensive care admission (7 days)",
+        "is_surgical": false,
+        "source": [
+          "He was in intensive care for 7 days."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Anti-convulsant medication: Tegretol, Phenytoin and Epilim",
+        "is_surgical": false,
+        "source": [
+          "He is currently taking Tegretol, Phenytoin and Epilim for this condition."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "treatments_future": [
+      {
+        "treatment": "Psychiatric/psychotherapeutic treatment (supportive psychotherapy twice a month for two years with a safety net of two to four sessions a year)",
+        "is_surgical": false,
+        "source": [
+          "In Professor Lee's view the Plaintiff needed a degree of treatment but not intensively. He also needed monitoring. He needed supportive psychotherapy working on his residual capacity, probably for two years, twice a month with provision for a safety net of two to four sessions a year."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Neurological follow-up (agreed at $324,000)",
+        "is_surgical": false,
+        "source": [
+          "B. Neurological\n\nThis is agreed at $324,000."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Physiotherapy monitoring of exercise machine",
+        "is_surgical": false,
+        "source": [
+          "As he will have an exercise machine, I think monitoring of his use of such a machine is the sensible and practical approach. The sum allowed will therefore be $86,400."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Occupational therapy (initial only)",
+        "is_surgical": false,
+        "source": [
+          "With domestic assistance the need will be initial only and he will have resource to other services. I will allow the figure put forward by the Defendants of $43,200."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      },
+      {
+        "treatment": "Herbal medication / complementary products (future provision)",
+        "is_surgical": false,
+        "source": [
+          "The Defendants agree the sum of $388,800."
+        ],
+        "vmis_system": null,
+        "vmis_region": null,
+        "vmis_procedure": null,
+        "vmis_category": null
+      }
+    ],
+    "hospitalisation_days": 7,
+    "expected_hospitalisation_days": null,
+    "operations_count": 3,
+    "future_operations_count": null,
+    "sick_leave_days_actual": null,
+    "sick_leave_days_expected": null
+  },
+  "losses": {
+    "losses": [
+      {
+        "category": "Loss from scarring or disfigurement",
+        "description": "He is nonetheless left with a significant cosmetic defect of which he tries to make light as much as he can.",
+        "caused_by_injury_id": "inj_004"
+      },
+      {
+        "category": "Loss of bodily integrity",
+        "description": "Left-sided hemiparesis and reduced function of left hand; 'He developed a left-side hemiplaegia ...' and loss of fine movement in left hand limiting function.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of the senses",
+        "description": "null",
+        "caused_by_injury_id": ""
+      },
+      {
+        "category": "Loss of independence",
+        "description": "He will need a domestic helper 'The domestic helper will be more or less full-time.' A round figure of $1,000,000 is allowed for future domestic services.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to do domestic tasks",
+        "description": "Need for domestic assistance and handyman services; handyman allowance $18,000.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of mental ability",
+        "description": "Significant cognitive deficit as attested by Professor Peter Lee.",
+        "caused_by_injury_id": "inj_005"
+      },
+      {
+        "category": "Loss of family life",
+        "description": "Loss of wife and child, loss of home and rejection by family as direct consequences of the injuries: 'These are all a direct consequence of the injuries he has suffered.'",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of congenial employment",
+        "description": "He is considered unemployable on the open market and future loss of earnings awarded: monthly loss $21,294; future loss $4,088,448.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of mobility",
+        "description": "He will need to take taxis more often: allowance $200 per week over 10 years totalling $104,000.",
+        "caused_by_injury_id": "inj_002"
+      },
+      {
+        "category": "Loss of social life",
+        "description": "Allowance for 'socialising' of $10,000.",
+        "caused_by_injury_id": "inj_001"
+      },
+      {
+        "category": "Loss of ability to engage in sports and hobbies",
+        "description": "Provision for exercise equipment: cost of two machines $106,000 (noted in Addendum) and total aids/equipment $28,512.",
+        "caused_by_injury_id": "inj_002"
+      }
+    ]
+  },
+  "psla": {
+    "amount": 1000000.0,
+    "comparable_cases": []
+  },
+  "death": null,
+  "extraction_metadata": {
+    "model_name": "gpt",
+    "num_extraction_runs": 1,
+    "extraction_token_count": {
+      "input_tokens": 23454,
+      "output_tokens": 12803,
+      "reasoning_tokens": 9536,
+      "total_tokens": 36257
+    },
+    "reconciliation_token_count": null,
+    "extraction_duration_ms": 75006.7070829682,
+    "reconciliation_duration_ms": null,
+    "total_token_count": {
+      "input_tokens": 23454,
+      "output_tokens": 12803,
+      "reasoning_tokens": 9536,
+      "total_tokens": 36257
+    },
+    "total_duration_ms": 75006.7070829682
+  }
+}
